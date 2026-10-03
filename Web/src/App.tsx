@@ -73,6 +73,13 @@ const PRESET_LESSONS: PresetLesson[] = [
     pdfUrl: '/lessons/book_08_the_little_prince/book_08_the_little_prince.pdf',
   },
   {
+    id: 'book_09_grimms_fairy_tales',
+    name: "9. Grimm's Fairy Tales (15 Sayfa / 300 Cümle)",
+    jsonUrl: '/lessons/book_09_grimms_fairy_tales/lesson.json',
+    audioUrl: '/lessons/book_09_grimms_fairy_tales/audio.mp3',
+    pdfUrl: '/lessons/book_09_grimms_fairy_tales/book_09_grimms_fairy_tales.pdf',
+  },
+  {
     id: 'sample_ch01',
     name: 'Demo: The Departure (6 Cümle)',
     jsonUrl: '/lessons/sample_ch01/lesson.json',
