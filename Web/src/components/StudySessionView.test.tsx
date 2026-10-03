@@ -4,7 +4,7 @@ import { StudySessionView } from './StudySessionView'
 import type { Lesson } from '../domain/lessons/types'
 import type { AudioEngine } from '../domain/audio/audio-engine'
 
-describe('StudySessionView Component (F1.5 & F1.6)', () => {
+describe('StudySessionView Component (Faz 1 & Faz 3)', () => {
   const dummyLesson: Lesson = {
     schema_version: 1,
     lesson_id: 'sample_ch01',
@@ -26,6 +26,7 @@ describe('StudySessionView Component (F1.5 & F1.6)', () => {
   let mockAudioEngine: AudioEngine
 
   beforeEach(() => {
+    localStorage.clear()
     mockAudioEngine = {
       load: vi.fn().mockResolvedValue(undefined),
       playRange: vi.fn().mockResolvedValue(undefined),
@@ -43,7 +44,7 @@ describe('StudySessionView Component (F1.5 & F1.6)', () => {
   it('anti-cheat rule: original text and translation are NOT in the DOM during dictating', () => {
     render(<StudySessionView lesson={dummyLesson} audioEngine={mockAudioEngine} />)
 
-    // The secret sentence must not be anywhere in document
+    // The secret sentence and translation must not be anywhere in document
     expect(screen.queryByText(/He packed his small brown suitcase/i)).toBeNull()
     expect(screen.queryByText(/Küçük kahverengi bavulunu topladı/i)).toBeNull()
 
@@ -54,22 +55,66 @@ describe('StudySessionView Component (F1.5 & F1.6)', () => {
     expect(textarea.getAttribute('autocorrect')).toBe('off')
   })
 
-  it('reveals diff and original text only after user submits answer', () => {
+  it('reveals reviewing state with diff, original text, translation, and correction input when answer has mistakes', () => {
     render(<StudySessionView lesson={dummyLesson} audioEngine={mockAudioEngine} />)
 
     const textarea = screen.getByRole('textbox')
-    fireEvent.change(textarea, { target: { value: 'he packed his small brown suitcase' } })
+    // Missing "small brown"
+    fireEvent.change(textarea, { target: { value: 'He packed his suitcase.' } })
 
     const submitBtn = screen.getByRole('button', { name: /Kontrol Et/i })
     fireEvent.click(submitBtn)
 
-    // Now in reviewing state: original text is visible
+    // Now in reviewing state: original text, translation, and correction field are visible
     expect(screen.getByText('He packed his small brown suitcase.')).toBeInTheDocument()
     expect(screen.getByText('Küçük kahverengi bavulunu topladı.')).toBeInTheDocument()
-    expect(screen.getByText(/Kusursuz/i)).toBeInTheDocument()
+    expect(screen.getByText(/Cümleyi düzelterek yeniden yazın/i)).toBeInTheDocument()
   })
 
-  it('giving up via Bilmiyorum / Göster reveals answer with 0 accuracy', () => {
+  it('correction flow: user corrects sentence in reviewing state and advances to shadowing', () => {
+    render(<StudySessionView lesson={dummyLesson} audioEngine={mockAudioEngine} />)
+
+    const textarea = screen.getByRole('textbox')
+    fireEvent.change(textarea, { target: { value: 'He packed his suitcase.' } })
+    fireEvent.click(screen.getByRole('button', { name: /Kontrol Et/i }))
+
+    // User is in reviewing state, now corrects in correction input
+    const correctionInput = screen.getByPlaceholderText(/Doğru cümleyi buraya yazın/i)
+    fireEvent.change(correctionInput, { target: { value: 'He packed his small brown suitcase.' } })
+    fireEvent.click(screen.getByRole('button', { name: /Düzeltmeyi Kontrol Et/i }))
+
+    // Now successfully entered shadowing mode
+    expect(screen.getByText(/Shadowing \/ Sesli Tekrar/i)).toBeInTheDocument()
+    expect(screen.getByText(/Dersi Bitir/i)).toBeInTheDocument()
+  })
+
+  it('perfect answer enters shadowing mode directly and toggles translation on/off (F3.2)', () => {
+    render(<StudySessionView lesson={dummyLesson} audioEngine={mockAudioEngine} />)
+
+    const textarea = screen.getByRole('textbox')
+    fireEvent.change(textarea, { target: { value: 'he packed his small brown suitcase' } })
+    fireEvent.click(screen.getByRole('button', { name: /Kontrol Et/i }))
+
+    // Enters shadowing mode directly
+    expect(screen.getByText(/Shadowing \/ Sesli Tekrar/i)).toBeInTheDocument()
+    expect(screen.getByText(/Kusursuz/i)).toBeInTheDocument()
+    expect(screen.getByText('He packed his small brown suitcase.')).toBeInTheDocument()
+
+    // Initially translation is hidden in shadowing
+    expect(screen.queryByText('Küçük kahverengi bavulunu topladı.')).toBeNull()
+
+    // Clicking toggle button reveals translation
+    const toggleBtn = screen.getByRole('button', { name: /Çeviriyi Göster/i })
+    fireEvent.click(toggleBtn)
+    expect(screen.getByText('Küçük kahverengi bavulunu topladı.')).toBeInTheDocument()
+
+    // Clicking toggle button again hides translation
+    const hideBtn = screen.getByRole('button', { name: /Çeviriyi Gizle/i })
+    fireEvent.click(hideBtn)
+    expect(screen.queryByText('Küçük kahverengi bavulunu topladı.')).toBeNull()
+  })
+
+  it('giving up via Bilmiyorum / Göster reveals answer with 0 accuracy in reviewing state', () => {
     render(<StudySessionView lesson={dummyLesson} audioEngine={mockAudioEngine} />)
 
     const giveUpBtn = screen.getByRole('button', { name: /Bilmiyorum \/ Göster/i })
@@ -77,6 +122,18 @@ describe('StudySessionView Component (F1.5 & F1.6)', () => {
 
     // Now in reviewing state
     expect(screen.getByText('He packed his small brown suitcase.')).toBeInTheDocument()
+    expect(screen.getByText('Küçük kahverengi bavulunu topladı.')).toBeInTheDocument()
     expect(screen.getByText(/0%/i)).toBeInTheDocument()
+    expect(screen.getByText(/Cümleyi düzelterek yeniden yazın/i)).toBeInTheDocument()
+  })
+
+  it('audio speed controls update audioEngine and persist to localStorage (F3.5)', () => {
+    render(<StudySessionView lesson={dummyLesson} audioEngine={mockAudioEngine} />)
+
+    const speed075Btn = screen.getByTitle(/Hız: 0.75x/i)
+    fireEvent.click(speed075Btn)
+
+    expect(mockAudioEngine.setSpeed).toHaveBeenCalledWith(0.75)
+    expect(localStorage.getItem('dictalearn_audio_speed')).toBe('0.75')
   })
 })

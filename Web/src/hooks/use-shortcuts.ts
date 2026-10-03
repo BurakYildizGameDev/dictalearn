@@ -5,6 +5,7 @@ export interface ShortcutHandlers {
   onCtrlEnter?: () => void
   onCtrlSpace?: () => void
   onCtrlR?: () => void
+  onCtrlT?: () => void
   onSpeed1?: () => void
   onSpeed2?: () => void
   onSpeed3?: () => void
@@ -35,6 +36,13 @@ export function useShortcuts(handlers: ShortcutHandlers, enabled = true) {
       if (isCtrl && (e.key === 'r' || e.key === 'R')) {
         e.preventDefault()
         handlers.onCtrlR?.()
+        return
+      }
+
+      // Ctrl + T (Toggle translation)
+      if (isCtrl && (e.key === 't' || e.key === 'T')) {
+        e.preventDefault()
+        handlers.onCtrlT?.()
         return
       }
 

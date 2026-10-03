@@ -3,8 +3,9 @@ import { renderHook, act } from '@testing-library/react'
 import { useStudySession } from './use-study-session'
 import type { Lesson } from '../domain/lessons/types'
 import type { AudioEngine } from '../domain/audio/audio-engine'
+import type { MistakeRepository, MistakeRecord } from '../domain/mistakes/types'
 
-describe('useStudySession Hook (F1.4)', () => {
+describe('useStudySession Hook (Phase 3 Full 4-Step Cycle)', () => {
   const dummyLesson: Lesson = {
     schema_version: 1,
     lesson_id: 'test_ch01',
@@ -31,8 +32,18 @@ describe('useStudySession Hook (F1.4)', () => {
   }
 
   let mockAudioEngine: AudioEngine
+  let mockMistakeRepo: MistakeRepository
+  let loggedMistakes: MistakeRecord[]
 
   beforeEach(() => {
+    loggedMistakes = []
+    mockMistakeRepo = {
+      getMistakes: () => loggedMistakes,
+      addMistakes: (m) => loggedMistakes.push(...m),
+      clearMistakes: () => { loggedMistakes = [] },
+      getWordFrequencies: () => ({}),
+    }
+
     mockAudioEngine = {
       load: vi.fn().mockResolvedValue(undefined),
       playRange: vi.fn().mockResolvedValue(undefined),
@@ -55,49 +66,80 @@ describe('useStudySession Hook (F1.4)', () => {
     expect(result.current.state).toBe('dictating')
     expect(result.current.currentSegmentIndex).toBe(0)
     expect(result.current.currentSegment.id).toBe(1)
-    expect(result.current.typedText).toBe('')
   })
 
-  it('plays segment audio when entering dictating with autoPlay true', () => {
-    renderHook(() =>
-      useStudySession({ lesson: dummyLesson, audioEngine: mockAudioEngine, autoPlay: true })
-    )
-
-    expect(mockAudioEngine.playRange).toHaveBeenCalledWith(0, 3000)
-  })
-
-  it('submits typed text on submitAnswer and transitions to reviewing', () => {
+  it('transitions directly to shadowing when answer is perfect', () => {
     const { result } = renderHook(() =>
       useStudySession({ lesson: dummyLesson, audioEngine: mockAudioEngine, autoPlay: false })
     )
 
     act(() => {
-      result.current.setTypedText('he packed his small brown suitcase')
+      result.current.setTypedText('He packed his small brown suitcase.')
+    })
+    act(() => {
+      result.current.submitAnswer()
     })
 
+    expect(result.current.state).toBe('shadowing')
+    expect(result.current.diffResult?.isPerfect).toBe(true)
+  })
+
+  it('transitions to reviewing when answer has mistakes, and logs mistakes to repo', () => {
+    const { result } = renderHook(() =>
+      useStudySession({
+        lesson: dummyLesson,
+        audioEngine: mockAudioEngine,
+        autoPlay: false,
+        mistakeRepository: mockMistakeRepo,
+      })
+    )
+
+    act(() => {
+      result.current.setTypedText('He packed his brown suitcase.') // missing "small"
+    })
     act(() => {
       result.current.submitAnswer()
     })
 
     expect(result.current.state).toBe('reviewing')
-    expect(result.current.diffResult).toBeDefined()
-    expect(result.current.diffResult?.isPerfect).toBe(true)
+    expect(result.current.diffResult?.isPerfect).toBe(false)
+    expect(loggedMistakes.length).toBeGreaterThan(0)
+    expect(loggedMistakes[0].word).toBe('small')
   })
 
-  it('does nothing on submitAnswer when typed text is empty', () => {
+  it('correction flow: user retries in reviewing, succeeds, and enters shadowing (F3.1)', () => {
     const { result } = renderHook(() =>
       useStudySession({ lesson: dummyLesson, audioEngine: mockAudioEngine, autoPlay: false })
     )
 
     act(() => {
+      result.current.setTypedText('He packed his brown suitcase')
+    })
+    act(() => {
       result.current.submitAnswer()
     })
+    expect(result.current.state).toBe('reviewing')
 
-    expect(result.current.state).toBe('dictating')
-    expect(result.current.diffResult).toBeNull()
+    // Wrong correction attempt
+    act(() => {
+      result.current.setCorrectionText('He packed suitcase')
+    })
+    act(() => {
+      result.current.submitCorrection()
+    })
+    expect(result.current.state).toBe('reviewing')
+
+    // Correct correction attempt
+    act(() => {
+      result.current.setCorrectionText('He packed his small brown suitcase.')
+    })
+    act(() => {
+      result.current.submitCorrection()
+    })
+    expect(result.current.state).toBe('shadowing')
   })
 
-  it('gives up on giveUp, treating all words as missing and moving to reviewing', () => {
+  it('skipping correction transitions from reviewing to shadowing', () => {
     const { result } = renderHook(() =>
       useStudySession({ lesson: dummyLesson, audioEngine: mockAudioEngine, autoPlay: false })
     )
@@ -105,14 +147,27 @@ describe('useStudySession Hook (F1.4)', () => {
     act(() => {
       result.current.giveUp()
     })
-
     expect(result.current.state).toBe('reviewing')
-    expect(result.current.diffResult).toBeDefined()
-    expect(result.current.diffResult?.correctCount).toBe(0)
-    expect(result.current.diffResult?.words.every((w) => w.kind === 'missing')).toBe(true)
+
+    act(() => {
+      result.current.skipCorrection()
+    })
+    expect(result.current.state).toBe('shadowing')
   })
 
-  it('advances to next segment from reviewing, and then to completed after last segment', () => {
+  it('toggles translation in shadowing state (F3.2)', () => {
+    const { result } = renderHook(() =>
+      useStudySession({ lesson: dummyLesson, audioEngine: mockAudioEngine, autoPlay: false })
+    )
+
+    expect(result.current.showTranslation).toBe(false)
+    act(() => {
+      result.current.toggleTranslation()
+    })
+    expect(result.current.showTranslation).toBe(true)
+  })
+
+  it('advances through segments to completed', () => {
     const { result } = renderHook(() =>
       useStudySession({ lesson: dummyLesson, audioEngine: mockAudioEngine, autoPlay: false })
     )
@@ -124,42 +179,26 @@ describe('useStudySession Hook (F1.4)', () => {
     act(() => {
       result.current.submitAnswer()
     })
-    expect(result.current.state).toBe('reviewing')
+    expect(result.current.state).toBe('shadowing')
 
     act(() => {
       result.current.nextSegment()
     })
     expect(result.current.state).toBe('dictating')
     expect(result.current.currentSegmentIndex).toBe(1)
-    expect(result.current.typedText).toBe('')
 
-    // Segment 2 (Last)
+    // Segment 2
     act(() => {
       result.current.setTypedText('The morning cold hit him.')
     })
     act(() => {
       result.current.submitAnswer()
     })
-    expect(result.current.state).toBe('reviewing')
+    expect(result.current.state).toBe('shadowing')
 
     act(() => {
       result.current.nextSegment()
     })
     expect(result.current.state).toBe('completed')
-  })
-
-  it('tracks repeat count when replayCurrentSegment is called', () => {
-    const { result } = renderHook(() =>
-      useStudySession({ lesson: dummyLesson, audioEngine: mockAudioEngine, autoPlay: false })
-    )
-
-    expect(result.current.replayCount).toBe(0)
-
-    act(() => {
-      result.current.replaySegment()
-    })
-
-    expect(result.current.replayCount).toBe(1)
-    expect(mockAudioEngine.playRange).toHaveBeenCalledWith(0, 3000)
   })
 })

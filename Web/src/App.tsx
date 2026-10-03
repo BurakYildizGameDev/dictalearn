@@ -2,6 +2,7 @@ import { useState, useEffect, useMemo } from 'react'
 import type { Lesson } from './domain/lessons/types'
 import { loadLessonFromUrl } from './domain/lessons/lesson-loader'
 import { WebAudioEngine } from './audio/web-audio-engine'
+import { LocalMistakeRepository } from './domain/mistakes/local-mistake-repository'
 import { StudySessionView } from './components/StudySessionView'
 import { BookOpen, Headphones, AlertTriangle } from 'lucide-react'
 
@@ -11,6 +12,7 @@ export function App() {
   const [error, setError] = useState<string | null>(null)
 
   const audioEngine = useMemo(() => new WebAudioEngine(), [])
+  const mistakeRepository = useMemo(() => new LocalMistakeRepository(), [])
 
   useEffect(() => {
     let mounted = true
@@ -97,7 +99,11 @@ export function App() {
         )}
 
         {!loading && !error && lesson && (
-          <StudySessionView lesson={lesson} audioEngine={audioEngine} />
+          <StudySessionView
+            lesson={lesson}
+            audioEngine={audioEngine}
+            mistakeRepository={mistakeRepository}
+          />
         )}
       </main>
 

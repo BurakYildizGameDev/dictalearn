@@ -83,7 +83,9 @@ export class WebAudioEngine implements AudioEngine {
     source.start(0, offset, duration)
 
     // Calculate actual elapsed wall time taking speed into account
-    const actualDurationMs = (duration / this.speed) * 1000
+    const safeSpeed = this.speed > 0 ? this.speed : 1.0
+    const actualDurationMs = (duration / safeSpeed) * 1000
+    const safeDurationMs = Number.isFinite(actualDurationMs) ? Math.max(0, actualDurationMs) : 0
 
     this.rangeTimeoutId = setTimeout(() => {
       this.stopCurrent()
@@ -91,7 +93,7 @@ export class WebAudioEngine implements AudioEngine {
       for (const listener of this.rangeCompleteListeners) {
         listener()
       }
-    }, actualDurationMs)
+    }, safeDurationMs)
   }
 
   pause(): void {
