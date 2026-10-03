@@ -126,11 +126,29 @@ Proje tek bir monorepo altında, iki bağımsız istemci ve ortak bir ders stand
 
 ---
 
+### ✅ Faz 6 — İkili Çalışma Modu: Kelime Kelime & Cümle Cümle Dikte (F6.1 - F6.3)
+- **F6.1 Kelime Ayrıştırma ve Tolerans Motoru (`word-mode.ts`)**:
+  - `tokenizeSentenceToWords`: Cümleleri kelime jetonlarına (`WordToken`) ayıran; büyük/küçük harf, noktalama işaretleri ve kesme işaretlerini (`didn't`, `o'clock`) tolere edebilen fonksiyonlar.
+  - `checkWordMatch`: Kullanıcının yazdığı kelimeyi hedef kelimeyle esnek ve doğru karşılaştıran algoritma.
+- **F6.2 İkili Mod Durum Yönetimi (`use-study-session.ts`)**:
+  - `studyMode: 'sentence' | 'word'` durumu, `localStorage` üzerinde kalıcılık.
+  - `currentWordIndex`, `typedWord`, `wordFeedback`, `wordMistakeCount` durumları.
+  - `submitWord`: Kelime doğruysa yeşil geri bildirimle sıradaki kelimeye geçiş; cümlenin son kelimesi bittiğinde otomatik `shadowing` moduna ilerleme.
+  - `skipWord`: Kelimeyi atlayıp doğru halini görme ve hata defterine kaydetme.
+- **F6.3 Etkileşimli Arayüz ve Klavye Desteği (`StudySessionView.tsx`)**:
+  - Üst gezinme çubuğunda tek tıkla veya `Ctrl+M` kısayoluyla mod değiştirme anahtarı.
+  - **Dinamik Kelime Yuvaları**: Bilinen kelimeler yeşil rozetle açılır, sıradaki kelime vurgulanır, henüz gelinmemiş kelimeler kopya çekilmemesi için `••••` şeklinde gizlenir (Anti-cheat).
+  - **Işık Hızında Dikte**: Kelime yazılıp **Boşluk** veya **Enter** tuşuna basıldığında anında kontrol edilir; doğruysa input temizlenip sıradaki kelimeye odaklanır.
+  - **İpucu Sistemi**: Yanlış yazımda kırmızı uyarı, ilk harf ve harf sayısı ipucu.
+  - Kısayollar penceresine `Ctrl+M` ve `Boşluk/Enter` eklendi.
+
+---
+
 ## 3. Test ve Kalite Durumu
 
 | Platform | Test Aracı | Test Sayısı | Başarı Oranı | Linter Durumu | Derleme (Build) |
 |---|---|---|---|---|---|
-| **Web** | Vitest 5 + JSDOM | **63 test** | **%100 PASS** | 0 warning, 0 error (Oxlint) | 336 ms (Vite Production Bundle) |
+| **Web** | Vitest 5 + JSDOM | **68 test** | **%100 PASS** | 0 warning, 0 error (Oxlint) | 1.16 s (Vite Production Bundle) |
 | **Android** | JUnit 4 + Gradle | **Tüm birim testleri** | **%100 PASS** | 0 blocker error | Debug APK üretildi (`app-debug.apk`) |
 
 ---

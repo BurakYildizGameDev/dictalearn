@@ -136,4 +136,46 @@ describe('StudySessionView Component (Faz 1 & Faz 3)', () => {
     expect(mockAudioEngine.setSpeed).toHaveBeenCalledWith(0.75)
     expect(localStorage.getItem('dictalearn_audio_speed')).toBe('0.75')
   })
+
+  it('switches to word-by-word mode and checks words interactively (Faz 6)', () => {
+    render(<StudySessionView lesson={dummyLesson} audioEngine={mockAudioEngine} />)
+
+    // Switch to Kelime Modu
+    const wordModeBtn = screen.getByRole('button', { name: /Kelime/i })
+    fireEvent.click(wordModeBtn)
+
+    // Check that word mode indicators are visible
+    expect(screen.getByText(/Kelime İlerlemesi/i)).toBeInTheDocument()
+    expect(screen.getByText('[1. Kelime]')).toBeInTheDocument()
+    expect(screen.getByLabelText(/1\. kelimeyi/i)).toBeInTheDocument()
+
+    // Anti-cheat in word mode: future words are masked
+    expect(screen.queryByText('packed')).toBeNull()
+    expect(screen.queryByText('suitcase')).toBeNull()
+
+    const wordInput = screen.getByPlaceholderText(/Kelimeyi buraya yazın/i)
+
+    // Type incorrect word
+    fireEvent.change(wordInput, { target: { value: 'she' } })
+    fireEvent.click(screen.getByRole('button', { name: /Kontrol Et/i }))
+
+    // Error hint appears
+    expect(screen.getByText(/Yanlış kelime/i)).toBeInTheDocument()
+
+    // Type correct word: "he"
+    fireEvent.change(wordInput, { target: { value: 'He' } })
+    fireEvent.click(screen.getByRole('button', { name: /Kontrol Et/i }))
+
+    // Word 1 is now revealed and we moved to Word 2
+    expect(screen.getByText('He')).toBeInTheDocument()
+    expect(screen.getByText('[2. Kelime]')).toBeInTheDocument()
+
+    // Skip word 2: "packed"
+    const skipBtn = screen.getByRole('button', { name: /Bu Kelimeyi Atla/i })
+    fireEvent.click(skipBtn)
+
+    // Word 3 is now active
+    expect(screen.getByText('[3. Kelime]')).toBeInTheDocument()
+  })
 })
+

@@ -9,6 +9,7 @@ export interface ShortcutHandlers {
   onSpeed1?: () => void
   onSpeed2?: () => void
   onSpeed3?: () => void
+  onCtrlM?: () => void
 }
 
 export function useShortcuts(handlers: ShortcutHandlers, enabled = true) {
@@ -64,6 +65,13 @@ export function useShortcuts(handlers: ShortcutHandlers, enabled = true) {
       if (isCtrl && e.key === '3') {
         e.preventDefault()
         handlers.onSpeed3?.()
+        return
+      }
+
+      // Ctrl + M (Toggle Study Mode: Sentence vs Word)
+      if (isCtrl && (e.key === 'm' || e.key === 'M')) {
+        e.preventDefault()
+        handlers.onCtrlM?.()
         return
       }
     }

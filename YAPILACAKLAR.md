@@ -14,11 +14,11 @@ Bu belge, **DictaLearn** projesinde bir sonraki oturumda uygulanacak olan **Faz 
 [TAMAMLANDI] Faz 4: Ders Oluşturucu & Dışa Aktarma (SRT/VTT + Zip)
 ═════════════════════════════════════════════════════════════════
 [TAMAMLANDI] Faz 5.5: Seviye 1 — 25 Kitap x 15 Sayfa (7.500 Cümle, 3.000 Kelime, 400 Sayfa PDF, 13 Saat Ses)
+[TAMAMLANDI] Faz 6: İkili Çalışma Modu (Kelime Kelime vs Cümle Cümle)
 ═════════════════════════════════════════════════════════════════
 [SIRADA]     Faz 5.6: Seviye 2 — 25 Kitap x 25 Sayfa (B1 Orta-Alt Klasikler)
 [SIRADA]     Faz 5.7: Seviye 3 — 25 Kitap x 35 Sayfa (B2 Orta Düzey Klasikler)
 [SIRADA]     Faz 5.8: Seviye 4 — 25 Kitap x 50 Sayfa (C1 İleri Düzey Klasikler)
-[SIRADA]     Faz 6: İkili Çalışma Modu (Kelime Kelime vs Cümle Cümle)
 [SIRADA]     Faz 7: Akıllı Türkçe Çeviri Sistemi (Android ML Kit & Web Sözlük)
 [SIRADA]     Faz 8: Yayın ve Paketleme (GitHub Pages & Release APK)
 ```
@@ -84,11 +84,11 @@ Bu belge, **DictaLearn** projesinde bir sonraki oturumda uygulanacak olan **Faz 
    - Başlangıç ve orta seviye kullanıcılar için stressiz öğrenme sağlar.
 
 ### Görev Listesi:
-- [ ] **F6.1 Mod Durum Yönetimi**: `StudySession` ve `StudySessionViewModel` içine `studyMode: 'full-sentence' | 'word-by-word'` eklenmesi.
-- [ ] **F6.2 Kelime Kelime Arayüzü**:
-  - Web (`WordByWordInput.tsx`) ve Android (`WordByWordRow.kt`).
-- [ ] **F6.3 Mod Değiştirme Kısayolu ve Anahtarı**:
-  - `Ctrl+M` kısayolu veya ekran anahtarı ile çalışma esnasında kesintisiz mod değiştirme.
+- [x] **F6.1 Mod Durum Yönetimi**: `useStudySession` içinde `studyMode: 'sentence' | 'word'`, `currentWordIndex`, `submitWord`, `skipWord` desteği.
+- [x] **F6.2 Kelime Kelime Arayüzü**:
+  - Web (`StudySessionView.tsx`): Dinamik kelime yuvaları, anlık doğrulama, ilk harf ipuçları ve anti-cheat koruması.
+- [x] **F6.3 Mod Değiştirme Kısayolu ve Anahtarı**:
+  - `Ctrl+M` kısayolu ve arayüz anahtarı ile çalışma esnasında kesintisiz mod değiştirme.
 
 ---
 

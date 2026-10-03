@@ -40,6 +40,7 @@ export const StudySessionView: React.FC<StudySessionViewProps> = ({
   })
 
   const textareaRef = useRef<HTMLTextAreaElement>(null)
+  const wordInputRef = useRef<HTMLInputElement>(null)
   const correctionInputRef = useRef<HTMLInputElement>(null)
   const nextButtonRef = useRef<HTMLButtonElement>(null)
 
@@ -75,11 +76,15 @@ export const StudySessionView: React.FC<StudySessionViewProps> = ({
     audioEngine.setSpeed(newSpeed)
   }
 
-  // Auto-focus management depending on state
+  // Auto-focus management depending on state & study mode
   useEffect(() => {
     if (session.state === 'dictating') {
       const t = setTimeout(() => {
-        textareaRef.current?.focus()
+        if (session.studyMode === 'word') {
+          wordInputRef.current?.focus()
+        } else {
+          textareaRef.current?.focus()
+        }
       }, 50)
       return () => clearTimeout(t)
     } else if (session.state === 'reviewing') {
@@ -93,13 +98,17 @@ export const StudySessionView: React.FC<StudySessionViewProps> = ({
       }, 50)
       return () => clearTimeout(t)
     }
-  }, [session.state, session.currentSegmentIndex])
+  }, [session.state, session.currentSegmentIndex, session.studyMode, session.currentWordIndex])
 
-  // Keyboard shortcuts integration (F1.6, F3.1, F3.2)
+  // Keyboard shortcuts integration (F1.6, F3.1, F3.2, F6.3)
   useShortcuts({
     onCtrlEnter: () => {
       if (session.state === 'dictating') {
-        session.giveUp()
+        if (session.studyMode === 'word') {
+          session.skipWord()
+        } else {
+          session.giveUp()
+        }
       } else if (session.state === 'reviewing') {
         session.skipCorrection()
       } else if (session.state === 'shadowing') {
@@ -117,16 +126,30 @@ export const StudySessionView: React.FC<StudySessionViewProps> = ({
         session.toggleTranslation()
       }
     },
+    onCtrlM: () => {
+      session.toggleStudyMode()
+    },
     onSpeed1: () => handleSpeedChange(0.75),
     onSpeed2: () => handleSpeedChange(1.0),
     onSpeed3: () => handleSpeedChange(1.25),
   })
 
-  // Enter inside dictation textarea submits answer
+  // Enter inside dictation textarea submits answer (Sentence mode)
   const handleDictationKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
     if (e.key === 'Enter' && !e.shiftKey && !e.ctrlKey) {
       e.preventDefault()
       session.submitAnswer()
+    }
+  }
+
+  // Enter or Space inside word input submits word (Word-by-word mode)
+  const handleWordKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter') {
+      e.preventDefault()
+      session.submitWord()
+    } else if (e.key === ' ' && session.typedWord.trim().length > 0) {
+      e.preventDefault()
+      session.submitWord()
     }
   }
 
@@ -250,7 +273,35 @@ export const StudySessionView: React.FC<StudySessionViewProps> = ({
           </p>
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex flex-wrap items-center gap-2.5">
+          {/* Study Mode Selector (Faz 6) */}
+          <div className="flex items-center bg-slate-800/90 p-1 rounded-lg border border-slate-700 text-xs">
+            <button
+              type="button"
+              onClick={() => session.setStudyMode('sentence')}
+              className={`flex items-center gap-1.5 px-3 py-1 rounded transition cursor-pointer ${
+                session.studyMode === 'sentence'
+                  ? 'bg-indigo-600 text-white font-semibold'
+                  : 'text-slate-400 hover:text-slate-200'
+              }`}
+              title="Cümle Cümle Çalışma Modu (Ctrl+M)"
+            >
+              <span>📝 Cümle</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => session.setStudyMode('word')}
+              className={`flex items-center gap-1.5 px-3 py-1 rounded transition cursor-pointer ${
+                session.studyMode === 'word'
+                  ? 'bg-emerald-600 text-white font-semibold'
+                  : 'text-slate-400 hover:text-slate-200'
+              }`}
+              title="Kelime Kelime Çalışma Modu (Ctrl+M)"
+            >
+              <span>🔤 Kelime</span>
+            </button>
+          </div>
+
           {/* Audio Speed Controls (F3.5) */}
           <div className="flex items-center bg-slate-800/80 p-1 rounded-lg border border-slate-700 text-xs">
             {[0.75, 1.0, 1.25].map((s) => (
@@ -273,7 +324,7 @@ export const StudySessionView: React.FC<StudySessionViewProps> = ({
           <button
             onClick={() => setShowShortcutsModal(!showShortcutsModal)}
             className="p-2 text-slate-400 hover:text-slate-200 bg-slate-800/80 hover:bg-slate-700 border border-slate-700 rounded-lg transition cursor-pointer"
-            title="Klavye Kısayolları (F1)"
+            title="Klavye Kısayolları"
           >
             <Keyboard className="w-4 h-4" />
           </button>
@@ -308,7 +359,9 @@ export const StudySessionView: React.FC<StudySessionViewProps> = ({
           <span
             className={`w-2 h-2 rounded-full inline-block animate-pulse ${
               session.state === 'dictating'
-                ? 'bg-emerald-500'
+                ? session.studyMode === 'word'
+                  ? 'bg-emerald-400'
+                  : 'bg-emerald-500'
                 : session.state === 'reviewing'
                 ? 'bg-amber-500'
                 : 'bg-indigo-500'
@@ -316,7 +369,9 @@ export const StudySessionView: React.FC<StudySessionViewProps> = ({
           />
           <span>
             {session.state === 'dictating'
-              ? 'Dikte Modu'
+              ? session.studyMode === 'word'
+                ? 'Kelime Kelime Dikte'
+                : 'Cümle Dikte Modu'
               : session.state === 'reviewing'
               ? 'Düzeltme Modu'
               : 'Shadowing Modu'}
@@ -326,8 +381,8 @@ export const StudySessionView: React.FC<StudySessionViewProps> = ({
 
       {/* MAIN STUDY AREA */}
       <div className="space-y-4">
-        {/* 1. DICTATING STATE: Textarea only, zero original text in DOM */}
-        {session.state === 'dictating' && (
+        {/* 1. DICTATING STATE */}
+        {session.state === 'dictating' && session.studyMode === 'sentence' && (
           <div className="space-y-3 animate-in fade-in duration-150">
             <label htmlFor="dictation-input" className="block text-sm font-medium text-slate-300">
               Duyduğunuz cümleyi yazın:
@@ -367,6 +422,145 @@ export const StudySessionView: React.FC<StudySessionViewProps> = ({
                 <Check className="w-4 h-4" />
                 <span>Kontrol Et (Enter)</span>
               </button>
+            </div>
+          </div>
+        )}
+
+        {/* 1.B WORD-BY-WORD DICTATING STATE (Faz 6) */}
+        {session.state === 'dictating' && session.studyMode === 'word' && (
+          <div className="space-y-4 animate-in fade-in duration-150">
+            {/* Word Slots Card */}
+            <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-5 space-y-4 shadow-sm">
+              <div className="flex items-center justify-between text-xs text-slate-400 pb-2 border-b border-slate-800">
+                <div className="flex items-center gap-2">
+                  <span className="font-semibold text-emerald-400 uppercase tracking-wider">
+                    Kelime İlerlemesi:
+                  </span>
+                  <span className="bg-slate-800 px-2.5 py-0.5 rounded-full text-slate-300 font-medium">
+                    {session.currentWordIndex + 1} / {session.targetWords.length}
+                  </span>
+                </div>
+                <span className="text-slate-400">Kontrol: Boşluk veya Enter</span>
+              </div>
+
+              {/* Word Pills (Anti-cheat compliant: future words masked) */}
+              <div className="flex flex-wrap gap-2.5 items-center min-h-[50px] p-1">
+                {session.targetWords.map((token, idx) => {
+                  const isPassed = idx < session.currentWordIndex
+                  const isCurrent = idx === session.currentWordIndex
+
+                  if (isPassed) {
+                    return (
+                      <span
+                        key={idx}
+                        className="px-3.5 py-1.5 bg-emerald-950/70 border border-emerald-500/50 text-emerald-300 font-semibold rounded-xl text-base sm:text-lg shadow-sm animate-in zoom-in-95 duration-150"
+                      >
+                        {token.raw}
+                      </span>
+                    )
+                  }
+
+                  if (isCurrent) {
+                    return (
+                      <div
+                        key={idx}
+                        className={`px-4 py-1.5 rounded-xl text-base sm:text-lg font-bold border-2 transition ${
+                          session.wordFeedback === 'incorrect'
+                            ? 'bg-rose-950/70 border-rose-500 text-rose-200 animate-pulse'
+                            : 'bg-emerald-950/80 border-emerald-400 text-emerald-200 shadow-md shadow-emerald-950/40 ring-2 ring-emerald-500/30'
+                        }`}
+                      >
+                        <span>[{idx + 1}. Kelime]</span>
+                        {token.punctuation && <span className="ml-0.5">{token.punctuation}</span>}
+                      </div>
+                    )
+                  }
+
+                  // Future word slot: masked
+                  return (
+                    <span
+                      key={idx}
+                      className="px-3 py-1.5 bg-slate-950/60 border border-slate-800 text-slate-600 rounded-xl text-sm font-mono tracking-widest select-none"
+                    >
+                      ••••
+                    </span>
+                  )
+                })}
+              </div>
+            </div>
+
+            {/* Word Input & Actions Card */}
+            <div className="bg-slate-900/80 border border-slate-700/80 rounded-2xl p-5 space-y-4 shadow-sm">
+              <div className="space-y-2">
+                <label htmlFor="word-input" className="block text-sm font-medium text-slate-300">
+                  {session.currentWordIndex + 1}. kelimeyi yazın:
+                </label>
+
+                <div className="relative">
+                  <input
+                    id="word-input"
+                    ref={wordInputRef}
+                    type="text"
+                    value={session.typedWord}
+                    onChange={(e) => session.setTypedWord(e.target.value)}
+                    onKeyDown={handleWordKeyDown}
+                    autoComplete="off"
+                    autoCorrect="off"
+                    autoCapitalize="off"
+                    spellCheck={false}
+                    placeholder="Kelimeyi buraya yazın ve Boşluk veya Enter'a basın..."
+                    className={`w-full bg-slate-950 border-2 rounded-xl p-4 text-xl font-medium text-slate-100 placeholder-slate-500 focus:outline-none transition ${
+                      session.wordFeedback === 'incorrect'
+                        ? 'border-rose-500 ring-2 ring-rose-500/30'
+                        : 'border-slate-700 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/30'
+                    }`}
+                  />
+
+                  {session.wordFeedback === 'incorrect' && (
+                    <div className="mt-2 text-xs text-rose-400 font-medium flex flex-wrap items-center justify-between gap-2">
+                      <span>Yanlış kelime, lütfen tekrar deneyin veya ipucu alın!</span>
+                      {session.currentWord && (
+                        <span className="text-amber-300 bg-amber-950/50 px-2.5 py-1 rounded-md border border-amber-900/60">
+                          İpucu: İlk harf &quot;{session.currentWord.clean.charAt(0).toUpperCase()}&quot; ({session.currentWord.clean.length} harf)
+                        </span>
+                      )}
+                    </div>
+                  )}
+                </div>
+              </div>
+
+              <div className="flex flex-wrap items-center justify-between gap-3 pt-1">
+                <div className="flex items-center gap-2">
+                  <button
+                    type="button"
+                    onClick={session.skipWord}
+                    className="flex items-center gap-1.5 text-xs text-slate-400 hover:text-amber-300 transition py-2 px-3 rounded-lg hover:bg-slate-800 border border-transparent hover:border-slate-700 cursor-pointer"
+                    title="Bu kelimeyi pas geç ve doğru halini gör (Ctrl+Enter)"
+                  >
+                    <HelpCircle className="w-3.5 h-3.5 text-amber-400" />
+                    <span>Bu Kelimeyi Atla (Ctrl+Enter)</span>
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={session.giveUp}
+                    className="text-xs text-slate-500 hover:text-slate-400 transition py-2 px-2.5 rounded hover:bg-slate-800 cursor-pointer"
+                    title="Tüm cümleyi göster"
+                  >
+                    Tüm Cümleyi Göster
+                  </button>
+                </div>
+
+                <button
+                  type="button"
+                  onClick={() => session.submitWord()}
+                  disabled={!session.typedWord.trim()}
+                  className="flex items-center gap-2 px-6 py-2.5 bg-emerald-600 hover:bg-emerald-500 disabled:opacity-40 disabled:hover:bg-emerald-600 text-white rounded-xl font-medium text-sm transition shadow-sm cursor-pointer"
+                >
+                  <Check className="w-4 h-4" />
+                  <span>Kontrol Et (Enter / Boşluk)</span>
+                </button>
+              </div>
             </div>
           </div>
         )}
@@ -620,9 +814,21 @@ export const StudySessionView: React.FC<StudySessionViewProps> = ({
                 </kbd>
               </div>
               <div className="flex justify-between py-1.5 border-b border-slate-800/60">
+                <span className="text-slate-400">Çalışma Modu Değiştir (Cümle / Kelime)</span>
+                <kbd className="px-2 py-0.5 bg-slate-800 rounded border border-slate-700 text-slate-200 font-mono text-xs">
+                  Ctrl + M
+                </kbd>
+              </div>
+              <div className="flex justify-between py-1.5 border-b border-slate-800/60">
                 <span className="text-slate-400">Hız Değiştir (0.75x / 1.0x / 1.25x)</span>
                 <kbd className="px-2 py-0.5 bg-slate-800 rounded border border-slate-700 text-slate-200 font-mono text-xs">
                   Ctrl + 1 / 2 / 3
+                </kbd>
+              </div>
+              <div className="flex justify-between py-1.5 border-b border-slate-800/60">
+                <span className="text-slate-400">Kelime Kontrol (Kelime Modu)</span>
+                <kbd className="px-2 py-0.5 bg-slate-800 rounded border border-slate-700 text-slate-200 font-mono text-xs">
+                  Boşluk / Enter
                 </kbd>
               </div>
             </div>

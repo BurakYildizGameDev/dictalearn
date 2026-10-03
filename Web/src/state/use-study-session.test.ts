@@ -201,4 +201,62 @@ describe('useStudySession Hook (Phase 3 Full 4-Step Cycle)', () => {
     })
     expect(result.current.state).toBe('completed')
   })
+
+  it('handles word-by-word mode: step-by-step word checking and completion', () => {
+    const { result } = renderHook(() =>
+      useStudySession({
+        lesson: dummyLesson,
+        audioEngine: mockAudioEngine,
+        autoPlay: false,
+        initialStudyMode: 'word',
+      })
+    )
+
+    expect(result.current.studyMode).toBe('word')
+    expect(result.current.targetWords).toHaveLength(6) // "He packed his small brown suitcase."
+    expect(result.current.currentWordIndex).toBe(0)
+    expect(result.current.currentWord?.clean).toBe('he')
+
+    // 1. Wrong word attempt
+    act(() => {
+      result.current.setTypedWord('she')
+    })
+    let success = false
+    act(() => {
+      success = result.current.submitWord()
+    })
+    expect(success).toBe(false)
+    expect(result.current.wordFeedback).toBe('incorrect')
+    expect(result.current.currentWordIndex).toBe(0)
+
+    // 2. Correct word 1: "he"
+    act(() => {
+      result.current.setTypedWord('He')
+    })
+    act(() => {
+      success = result.current.submitWord()
+    })
+    expect(success).toBe(true)
+    expect(result.current.wordFeedback).toBe('correct')
+    expect(result.current.currentWordIndex).toBe(1)
+    expect(result.current.currentWord?.clean).toBe('packed')
+
+    // 3. Skip word 2: "packed"
+    act(() => {
+      result.current.skipWord()
+    })
+    expect(result.current.currentWordIndex).toBe(2)
+    expect(result.current.currentWord?.clean).toBe('his')
+
+    // 4. Complete remaining words: "his", "small", "brown", "suitcase"
+    act(() => { result.current.submitWord('his') })
+    act(() => { result.current.submitWord('small') })
+    act(() => { result.current.submitWord('brown') })
+    act(() => { result.current.submitWord('suitcase') })
+
+    // When the last word is submitted, transitions to shadowing!
+    expect(result.current.state).toBe('shadowing')
+    expect(result.current.sessionRecords).toHaveLength(1)
+  })
 })
+

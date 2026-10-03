@@ -251,9 +251,9 @@ export interface AudioEngine {
 
 **Amaç:** Kullanıcının seviyesine göre çalışma zorluğunu ayarlayabilmesi (Tam cümle veya kelime kelime).
 
-- [ ] **F6.1 Mod Durum Yönetimi:** `StudySession` içine `studyMode: 'full-sentence' | 'word-by-word'` desteği eklenmesi.
-- [ ] **F6.2 Kelime Kelime Arayüzü:** Kelimelerin sırayla dinlenip tek tek yazıldığı veya ipucu olarak kelime kelime açıldığı mod arayüzü.
-- [ ] **F6.3 Mod Değiştirme Kısayolu ve Anahtarı:** Çalışma esnasında `Ctrl+M` veya arayüzden tek tıkla iki mod arasında geçiş.
+- [x] **F6.1 Mod Durum Yönetimi:** `StudySession` içine `studyMode: 'sentence' | 'word'`, `currentWordIndex`, `submitWord`, `skipWord` desteği eklenmesi.
+- [x] **F6.2 Kelime Kelime Arayüzü:** Kelimelerin sırayla yazıldığı, Boşluk/Enter ile anında doğrulandığı, ilk harf ipuçlu ve anti-cheat korumalı kelime modu arayüzü.
+- [x] **F6.3 Mod Değiştirme Kısayolu ve Anahtarı:** Çalışma esnasında `Ctrl+M` veya arayüzden tek tıkla iki mod arasında kesintisiz geçiş.
 
 ---
 
