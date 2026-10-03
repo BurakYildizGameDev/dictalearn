@@ -66,6 +66,13 @@ const PRESET_LESSONS: PresetLesson[] = [
     pdfUrl: '/lessons/book_07_aesops_fables_part2/book_07_aesops_fables_part2.pdf',
   },
   {
+    id: 'book_08_the_little_prince',
+    name: '8. The Little Prince (15 Sayfa / 300 Cümle)',
+    jsonUrl: '/lessons/book_08_the_little_prince/lesson.json',
+    audioUrl: '/lessons/book_08_the_little_prince/audio.mp3',
+    pdfUrl: '/lessons/book_08_the_little_prince/book_08_the_little_prince.pdf',
+  },
+  {
     id: 'sample_ch01',
     name: 'Demo: The Departure (6 Cümle)',
     jsonUrl: '/lessons/sample_ch01/lesson.json',
