@@ -115,6 +115,13 @@ const PRESET_LESSONS: PresetLesson[] = [
     pdfUrl: '/lessons/book_14_the_jungle_book/book_14_the_jungle_book.pdf',
   },
   {
+    id: 'book_15_the_wind_in_the_willows',
+    name: "15. The Wind in the Willows (15 Sayfa / 300 Cümle)",
+    jsonUrl: '/lessons/book_15_the_wind_in_the_willows/lesson.json',
+    audioUrl: '/lessons/book_15_the_wind_in_the_willows/audio.mp3',
+    pdfUrl: '/lessons/book_15_the_wind_in_the_willows/book_15_the_wind_in_the_willows.pdf',
+  },
+  {
     id: 'sample_ch01',
     name: 'Demo: The Departure (6 Cümle)',
     jsonUrl: '/lessons/sample_ch01/lesson.json',

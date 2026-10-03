@@ -1,0 +1,2414 @@
+{
+  "schema_version": 1,
+  "lesson_id": "book_15_the_wind_in_the_willows",
+  "title": "The Wind in the Willows (15 Sayfa / 300 Cümle / Graded Reader)",
+  "source_lang": "en",
+  "target_lang": "tr",
+  "audio_file": "audio.mp3",
+  "attribution": {
+    "source": "Kenneth Grahame / Graded Reader Adaptasyonu (15 Sayfa x 20 Cümle)",
+    "license": "Public Domain / Educational Fair Use"
+  },
+  "segments": [
+    {
+      "id": 1,
+      "start_ms": 300,
+      "end_ms": 5412,
+      "text": "The Mole had been working very hard all the morning, spring-cleaning his little home.",
+      "translation": "Köstebek bütün sabah küçük evinin bahar temizliğini yaparak çok sıkı çalışmıştı.",
+      "notes": "Past perfect continuous 'had been working'; compound noun 'spring-cleaning'."
+    },
+    {
+      "id": 2,
+      "start_ms": 5812,
+      "end_ms": 11452,
+      "text": "First with brooms, then with dusters, then on ladders with a pail of whitewash.",
+      "translation": "Önce süpürgelerle, sonra toz bezleriyle, ardından bir kova badanayla merdivenlerin üzerinde.",
+      "notes": "Prepositional phrases describing progressive tools."
+    },
+    {
+      "id": 3,
+      "start_ms": 11852,
+      "end_ms": 17588,
+      "text": "Dust filled his throat and his eyes, and splashes of whitewash covered his black fur.",
+      "translation": "Toz boğazını ve gözlerini doldurdu, badana sıçrantıları siyah kürkünü kapladı.",
+      "notes": "Coordinate clauses with 'and'; noun phrase 'splashes of whitewash'."
+    },
+    {
+      "id": 4,
+      "start_ms": 17988,
+      "end_ms": 22476,
+      "text": "Spring was moving in the air above and in the earth below around him.",
+      "translation": "Bahar, hem yukarıdaki havada hem de altındaki toprakta onun etrafında canlanıyordu.",
+      "notes": "Parallel prepositional phrases 'in the air above and in the earth below'."
+    },
+    {
+      "id": 5,
+      "start_ms": 22876,
+      "end_ms": 27724,
+      "text": "Suddenly, he flung down his brush on the floor and cried out aloud.",
+      "translation": "Aniden fırçasını yere fırlattı ve yüksek sesle bağırdı.",
+      "notes": "Irregular past 'flung' (fling); phrasal verb 'cried out'."
+    },
+    {
+      "id": 6,
+      "start_ms": 28124,
+      "end_ms": 34124,
+      "text": "'Bother!' and 'O blow!' and also 'Hang spring-cleaning!' he shouted happily.",
+      "translation": "'Canı cehenneme!' ve 'Batsın bahar temizliği!' diye neşeyle haykırdı.",
+      "notes": "Colloquial exclamations of annoyance and relief; adverb 'happily'."
+    },
+    {
+      "id": 7,
+      "start_ms": 34524,
+      "end_ms": 38748,
+      "text": "He bolted out of the house without even waiting to put on his coat.",
+      "translation": "Ceketini giymeyi bile beklemeden evden yıldırım hızıyla fırlayıp çıktı.",
+      "notes": "Phrasal verb 'bolted out of'; preposition 'without' + gerund."
+    },
+    {
+      "id": 8,
+      "start_ms": 39148,
+      "end_ms": 44044,
+      "text": "He scraped and scratched and scrabbled with his little paws toward the sunlight.",
+      "translation": "Minik patileriyle gün ışığına doğru kazdı, tırmaladı ve debelendi.",
+      "notes": "Alliterative verbs 'scraped, scratched, scrabbled'."
+    },
+    {
+      "id": 9,
+      "start_ms": 44444,
+      "end_ms": 50900,
+      "text": "Pop! His snout came out into the sunlight, and he found himself in warm grass.",
+      "translation": "Pat! Burnu gün ışığına çıktı ve kendini ılık çimlerin içinde buldu.",
+      "notes": "Onomatopoeic interjection 'Pop!'; reflexive 'found himself'."
+    },
+    {
+      "id": 10,
+      "start_ms": 51300,
+      "end_ms": 55092,
+      "text": "He shook his fur thoroughly to get the dust off his coat.",
+      "translation": "Kürkündeki tozu silkelemek için üzerini adamakıllı silkeledi.",
+      "notes": "Infinitive of purpose 'to get the dust off'; adverb 'thoroughly'."
+    },
+    {
+      "id": 11,
+      "start_ms": 55492,
+      "end_ms": 60988,
+      "text": "The sunshine struck hot on his fur, and soft breezes caressed his heated brow.",
+      "translation": "Güneş ışığı kürküne sıcak vurdu ve tatlı esintiler terlemiş alnını okşadı.",
+      "notes": "Irregular past 'struck' (strike); coordinate predicates."
+    },
+    {
+      "id": 12,
+      "start_ms": 61388,
+      "end_ms": 65828,
+      "text": "He crossed several meadows and wandered aimlessly through hedgerows.",
+      "translation": "Pek çok çayırı aştı ve çalı çitleri arasında amaçsızca dolaştı.",
+      "notes": "Quantifier 'several'; adverb 'aimlessly'."
+    },
+    {
+      "id": 13,
+      "start_ms": 66228,
+      "end_ms": 70764,
+      "text": "Never in his whole underground life had he seen such beauty before.",
+      "translation": "Yeraltındaki bütün hayatı boyunca daha önce hiç böylesi bir güzellik görmemişti.",
+      "notes": "Inverted negative sentence 'Never... had he seen'."
+    },
+    {
+      "id": 14,
+      "start_ms": 71164,
+      "end_ms": 75940,
+      "text": "Presently, he came to the edge of a full-fed river flowing past.",
+      "translation": "Çok geçmeden, yanından çağıldayarak akan coşkun bir nehrin kenarına geldi.",
+      "notes": "Adverb 'presently'; participial adjective 'full-fed river'."
+    },
+    {
+      "id": 15,
+      "start_ms": 76340,
+      "end_ms": 80540,
+      "text": "He had never seen a real river in his life before this moment.",
+      "translation": "Bu andan önce hayatında gerçek bir nehir hiç görmemişti.",
+      "notes": "Past perfect with 'never'; time phrase 'before this moment'."
+    },
+    {
+      "id": 16,
+      "start_ms": 80940,
+      "end_ms": 85356,
+      "text": "The sleek water chattered and bubbled over glistening round pebbles.",
+      "translation": "Pırıl pırıl su, parıldayan yuvarlak çakıl taşlarının üzerinden şırıldayarak köpürdü.",
+      "notes": "Onomatopoeic verbs 'chattered and bubbled'; adjective 'glistening'."
+    },
+    {
+      "id": 17,
+      "start_ms": 85756,
+      "end_ms": 90892,
+      "text": "As he sat on the grassy bank, he noticed a dark hole in the opposite bank.",
+      "translation": "Otlu kıyıda otururken, karşı kıyıda karanlık bir delik fark etti.",
+      "notes": "Time clause 'as he sat'; adjective 'opposite'."
+    },
+    {
+      "id": 18,
+      "start_ms": 91292,
+      "end_ms": 95444,
+      "text": "Something bright and small seemed to twinkle right in the heart of it.",
+      "translation": "Deliğin tam kalbinde parlak ve küçük bir şey göz kırpar gibiydi.",
+      "notes": "Indefinite pronouns with adjectives 'something bright and small'."
+    },
+    {
+      "id": 19,
+      "start_ms": 95844,
+      "end_ms": 100500,
+      "text": "Then two small brown ears and a neat little whiskered face appeared.",
+      "translation": "Ardından iki küçük kahverengi kulak ve düzgün, bıyıklı minik bir yüz belirdi.",
+      "notes": "Coordinate subjects; adjective 'whiskered'."
+    },
+    {
+      "id": 20,
+      "start_ms": 100900,
+      "end_ms": 105340,
+      "text": "It was the Water Rat, the cheerful master of the sparkling river.",
+      "translation": "Bu, çağıldayan nehrin neşeli efendisi Su Sıçanı Ratty idi.",
+      "notes": "Apposition identifying the character; adjective 'sparkling'."
+    },
+    {
+      "id": 21,
+      "start_ms": 106340,
+      "end_ms": 110636,
+      "text": "The Water Rat rowed his little blue boat across to welcome Mole.",
+      "translation": "Su Sıçanı, Köstebek'i karşılamak için küçük mavi kayığını karşıya kürekledi.",
+      "notes": "Directional adverb 'across'; infinitive of purpose 'to welcome'."
+    },
+    {
+      "id": 22,
+      "start_ms": 111036,
+      "end_ms": 116244,
+      "text": "They immediately became the best of friends, sharing bread and ginger beer.",
+      "translation": "Ekmeği ve zencefilli gazozu paylaşarak hemen en yakın dostlar oldular.",
+      "notes": "Participial phrase 'sharing bread...'; superlative 'best of friends'."
+    },
+    {
+      "id": 23,
+      "start_ms": 116644,
+      "end_ms": 122092,
+      "text": "A few days later, Ratty took Mole to visit wealthy Mr. Toad at Toad Hall.",
+      "translation": "Birkaç gün sonra Ratty, Köstebek'i Toad Konağı'nda zengin Bay Toad'u ziyarete götürdü.",
+      "notes": "Time phrase 'a few days later'; proper location 'Toad Hall'."
+    },
+    {
+      "id": 24,
+      "start_ms": 122492,
+      "end_ms": 127676,
+      "text": "Toad Hall was an imposing Tudor mansion of mellow red brick with old lawns.",
+      "translation": "Toad Konağı, eski çimenlikleriyle olgun kırmızı tuğladan yapılmış heybetli bir Tudor malikanesiydi.",
+      "notes": "Descriptive adjectives 'imposing, mellow'; noun phrase 'Tudor mansion'."
+    },
+    {
+      "id": 25,
+      "start_ms": 128076,
+      "end_ms": 134292,
+      "text": "Mr. Toad was rich, boastful, good-natured, but terribly conceited and restless.",
+      "translation": "Bay Toad zengin, övüngen, iyi huyluydu; fakat fena halde kibirli ve huzursuzdu.",
+      "notes": "Coordinate personality adjectives; adverb 'terribly'."
+    },
+    {
+      "id": 26,
+      "start_ms": 134692,
+      "end_ms": 138916,
+      "text": "He welcomed them warmly and danced around them with open arms.",
+      "translation": "Onları sıcak bir şekilde karşıladı ve kollarını açarak etraflarında dans etti.",
+      "notes": "Coordinate past verbs 'welcomed and danced'; manner phrase 'with open arms'."
+    },
+    {
+      "id": 27,
+      "start_ms": 139316,
+      "end_ms": 144404,
+      "text": "'You are just in time!' cried Toad, leading them into the stable yard.",
+      "translation": "'Tam vaktinde geldiniz!' diye bağırdı Toad, onları ahır avlusuna doğru götürürken.",
+      "notes": "Idiom 'just in time'; participle clause 'leading them'."
+    },
+    {
+      "id": 28,
+      "start_ms": 144804,
+      "end_ms": 150636,
+      "text": "In the yard stood a brand-new gypsy caravan, painted canary-yellow picked out with green.",
+      "translation": "Avluda, yeşil işlemelerle süslenmiş kanarya sarısına boyalı, yepyeni bir çingene karavanı duruyordu.",
+      "notes": "Inverted sentence; compound adjective 'canary-yellow'."
+    },
+    {
+      "id": 29,
+      "start_ms": 151036,
+      "end_ms": 155932,
+      "text": "'There you are!' shouted Toad, 'there is real life for you in that cart!'",
+      "translation": "'İşte buradasınız!' diye bağırdı Toad, 'işte o arabada sizin için gerçek bir hayat var!'",
+      "notes": "Exclamatory structure; noun phrase 'real life'."
+    },
+    {
+      "id": 30,
+      "start_ms": 156332,
+      "end_ms": 164324,
+      "text": "'The open road! The dusty highway! Camps, villages, towns, and cities!'",
+      "translation": "'Açık yol! Tozlu ana yol! Kamplar, köyler, kasabalar ve şehirler!'",
+      "notes": "List of exclamatory noun phrases celebrating freedom."
+    },
+    {
+      "id": 31,
+      "start_ms": 164724,
+      "end_ms": 169548,
+      "text": "Ratty shook his head doubtful, for he loved his quiet river too much.",
+      "translation": "Ratty başını şüpheyle salladı, zira sakin nehrini fazlasıyla çok seviyordu.",
+      "notes": "Causal coordinating conjunction 'for'; adverbial intensifier 'too much'."
+    },
+    {
+      "id": 32,
+      "start_ms": 169948,
+      "end_ms": 175588,
+      "text": "Mole, however, was fascinated by the shiny yellow cart and its tiny bunks.",
+      "translation": "Ancak Köstebek, parıldayan sarı arabadan ve minik ranzalarından büyülenmişti.",
+      "notes": "Transitional adverb 'however'; passive voice 'was fascinated by'."
+    },
+    {
+      "id": 33,
+      "start_ms": 175988,
+      "end_ms": 180644,
+      "text": "Toad persuaded them both to climb aboard and set out on a grand tour.",
+      "translation": "Toad her ikisini de araca binip büyük bir tura çıkmaları için ikna etti.",
+      "notes": "Verb + object + infinitive 'persuaded them to climb'; idiom 'set out'."
+    },
+    {
+      "id": 34,
+      "start_ms": 181044,
+      "end_ms": 185196,
+      "text": "An old gray horse was harnessed to pull the heavy yellow home.",
+      "translation": "Ağır sarı evi çekmek için yaşlı gri bir at koşuldu.",
+      "notes": "Passive voice 'was harnessed'; infinitive of purpose 'to pull'."
+    },
+    {
+      "id": 35,
+      "start_ms": 185596,
+      "end_ms": 190012,
+      "text": "They set off down the country lane in the glorious afternoon sun.",
+      "translation": "Görkemli öğleden sonra güneşinde köy yolu boyunca yola koyuldular.",
+      "notes": "Phrasal verb 'set off down'; adjective 'glorious'."
+    },
+    {
+      "id": 36,
+      "start_ms": 190412,
+      "end_ms": 195740,
+      "text": "Toad walked ahead proudly, boasting about how clever and adventurous he was.",
+      "translation": "Toad ne kadar zeki ve maceracı olduğuyla övünerek gururla önde yürüdü.",
+      "notes": "Participle phrase 'boasting about'; indirect question clause 'how clever he was'."
+    },
+    {
+      "id": 37,
+      "start_ms": 196140,
+      "end_ms": 200508,
+      "text": "They camped that evening in a grassy meadow under the starlit sky.",
+      "translation": "O akşam yıldızlı gökyüzünün altındaki çimenli bir çayırda kamp kurdular.",
+      "notes": "Compound noun 'starlit sky'; prepositional phrase 'under the sky'."
+    },
+    {
+      "id": 38,
+      "start_ms": 200908,
+      "end_ms": 206140,
+      "text": "Ratty and Mole did all the cooking, cleaning, and feeding of the poor horse.",
+      "translation": "Yemek yapmayı, temizliği ve zavallı atı beslemeyi tamamen Ratty ile Mole yaptı.",
+      "notes": "Gerund list as direct objects of 'did'; adjective 'poor'."
+    },
+    {
+      "id": 39,
+      "start_ms": 206540,
+      "end_ms": 211220,
+      "text": "Toad simply sprawled on the grass and talked about his endless cleverness.",
+      "translation": "Toad ise sadece çimlerin üzerine yayılıp bitmek bilmez zekasından bahsetti.",
+      "notes": "Adverb 'simply'; irregular past 'sprawled'."
+    },
+    {
+      "id": 40,
+      "start_ms": 211620,
+      "end_ms": 216060,
+      "text": "A strange roaring sound in the distance was about to change everything.",
+      "translation": "Uzaktan gelen tuhaf bir kükreme sesi her şeyi değiştirmek üzereydi.",
+      "notes": "Participial phrase 'in the distance'; structure 'was about to change'."
+    },
+    {
+      "id": 41,
+      "start_ms": 217060,
+      "end_ms": 222268,
+      "text": "The following afternoon, they were strolling peacefully along a dusty high road.",
+      "translation": "Ertesi öğleden sonra, tozlu bir ana yol boyunca huzur içinde yürüyorlardı.",
+      "notes": "Past continuous 'were strolling'; adverb 'peacefully'."
+    },
+    {
+      "id": 42,
+      "start_ms": 222668,
+      "end_ms": 228500,
+      "text": "The gray horse walked lazily, and Toad talked endlessly of great future travels.",
+      "translation": "Gri at tembelce yürüyor, Toad ise gelecekteki büyük yolculuklardan durmaksızın bahsediyordu.",
+      "notes": "Adverbs 'lazily' and 'endlessly'; compound noun 'future travels'."
+    },
+    {
+      "id": 43,
+      "start_ms": 228900,
+      "end_ms": 233700,
+      "text": "Suddenly, a faint hum was heard far behind them down the long road.",
+      "translation": "Birdenbire, uzun yolun ta gerisinden hafif bir uğultu duyuldu.",
+      "notes": "Passive voice 'was heard'; adjective 'faint'."
+    },
+    {
+      "id": 44,
+      "start_ms": 234100,
+      "end_ms": 239356,
+      "text": "The hum grew rapidly into an energetic, droning roar of tremendous speed.",
+      "translation": "Uğultu hızla muazzam bir hızın enerjik, vızıldayan kükremesine dönüştü.",
+      "notes": "Phrasal development 'grew into'; coordinate adjectives."
+    },
+    {
+      "id": 45,
+      "start_ms": 239756,
+      "end_ms": 244892,
+      "text": "With a blinding cloud of dust, a magnificent motor-car shot past them.",
+      "translation": "Kör edici bir toz bulutu eşliğinde, görkemli bir otomobil yanlarından ok gibi fırlayıp geçti.",
+      "notes": "Prepositional phrase 'with a blinding cloud'; past verb 'shot past'."
+    },
+    {
+      "id": 46,
+      "start_ms": 245292,
+      "end_ms": 250404,
+      "text": "'Poop-poop!' sounded the brass horn with an arrogant, triumphant blast.",
+      "translation": "'Düt-düt!' diye pirinç korna küstah ve muzaffer bir sesle öttü.",
+      "notes": "Onomatopoeia; coordinate adjectives 'arrogant, triumphant'."
+    },
+    {
+      "id": 47,
+      "start_ms": 250804,
+      "end_ms": 255340,
+      "text": "The sudden blast terrified the old gray horse pulling the caravan.",
+      "translation": "Bu ani ses, karavanı çeken yaşlı gri atı dehşete düşürdü.",
+      "notes": "Transitive past verb 'terrified'; participial modifier 'pulling the caravan'."
+    },
+    {
+      "id": 48,
+      "start_ms": 255740,
+      "end_ms": 260252,
+      "text": "The horse reared up on its hind legs and backed straight into a ditch.",
+      "translation": "At arka ayakları üzerine şaha kalktı ve dosdoğru bir hendeğe doğru geri geri gitti.",
+      "notes": "Phrasal verbs 'reared up' and 'backed into'."
+    },
+    {
+      "id": 49,
+      "start_ms": 260652,
+      "end_ms": 265860,
+      "text": "With a tremendous crash, the canary-colored cart overturned into deep mud.",
+      "translation": "Büyük bir gürültüyle, kanarya rengi araba derin çamurun içine devrildi.",
+      "notes": "Prepositional phrase 'with a tremendous crash'; past verb 'overturned'."
+    },
+    {
+      "id": 50,
+      "start_ms": 266260,
+      "end_ms": 271852,
+      "text": "Plates shattered, pots rolled into the ditch, and wheels spun uselessly in the air.",
+      "translation": "Tabaklar kırıldı, tencereler hendeğe yuvarlandı ve tekerlekler havada nafile döndü.",
+      "notes": "Parallel past clauses describing destruction; adverb 'uselessly'."
+    },
+    {
+      "id": 51,
+      "start_ms": 272252,
+      "end_ms": 277532,
+      "text": "Ratty jumped up and down in the road, shaking both fists in furious anger.",
+      "translation": "Ratty yolun ortasında öfkeden küplere binmiş halde iki yumruğunu birden sallayarak zıpladı.",
+      "notes": "Participial phrase 'shaking both fists'; noun phrase 'furious anger'."
+    },
+    {
+      "id": 52,
+      "start_ms": 277932,
+      "end_ms": 284580,
+      "text": "'You scoundrels!' shouted Rat, 'You road hogs! I will report you to the law!'",
+      "translation": "'Sizi alçaklar!' diye bağırdı Rat, 'Sizi yol canavarları! Sizi kanuna şikayet edeceğim!'",
+      "notes": "Vocative insults; future modal 'will report'."
+    },
+    {
+      "id": 53,
+      "start_ms": 284980,
+      "end_ms": 290644,
+      "text": "Toad, however, sat in the middle of the dusty road, staring ahead blankly.",
+      "translation": "Fakat Toad tozlu yolun ortasında oturmuş, boş gözlerle ileriye bakıyordu.",
+      "notes": "Transitional 'however'; participle phrase 'staring ahead blankly'."
+    },
+    {
+      "id": 54,
+      "start_ms": 291044,
+      "end_ms": 296036,
+      "text": "His mouth hung open, and his eyes were fixed on the fading dust cloud.",
+      "translation": "Ağzı açık kalmıştı ve gözleri kaybolan toz bulutuna dikilmişti.",
+      "notes": "Passive participle 'were fixed on'; participial adjective 'fading'."
+    },
+    {
+      "id": 55,
+      "start_ms": 296436,
+      "end_ms": 301404,
+      "text": "'Poop-poop!' whispered Toad in a state of absolute religious ecstasy.",
+      "translation": "'Düt-düt!' diye fısıldadı Toad tam bir dini vecd içinde.",
+      "notes": "Prepositional phrase 'in a state of ecstasy'; adjective 'absolute'."
+    },
+    {
+      "id": 56,
+      "start_ms": 301804,
+      "end_ms": 308644,
+      "text": "'The poetry of motion! The real way to travel! The only way to live!'",
+      "translation": "'Hareketin şiiri! Seyahat etmenin gerçek yolu! Yaşamanın tek yolu!'",
+      "notes": "Parallel exclamations praising speed; infinitive modifiers."
+    },
+    {
+      "id": 57,
+      "start_ms": 309044,
+      "end_ms": 314036,
+      "text": "'He is enchanted!' cried Mole, 'he is completely out of his mind!'",
+      "translation": "'Büyülendi!' diye haykırdı Mole, 'tamamen aklını kaçırdı!'",
+      "notes": "Passive 'is enchanted'; idiom 'out of his mind'."
+    },
+    {
+      "id": 58,
+      "start_ms": 314436,
+      "end_ms": 319356,
+      "text": "They tried to shake Toad, but he refused to help them right the broken cart.",
+      "translation": "Toad'u sarsıp kendine getirmeye çalıştılar ama kırık arabayı düzeltmelerine yardım etmeyi reddetti.",
+      "notes": "Verb + infinitive 'refused to help'; transitive verb 'right' meaning to set upright."
+    },
+    {
+      "id": 59,
+      "start_ms": 319756,
+      "end_ms": 325276,
+      "text": "'Nasty, sluggish carts are things of the past!' declared Toad dreamily.",
+      "translation": "'Pis, hantal arabalar artık geçmişte kaldı!' dedi Toad rüya görüyormuşçasına.",
+      "notes": "Coordinate adjectives 'nasty, sluggish'; idiom 'things of the past'."
+    },
+    {
+      "id": 60,
+      "start_ms": 325676,
+      "end_ms": 331052,
+      "text": "A dangerous obsession had planted its deep seeds inside Toad's reckless brain.",
+      "translation": "Tehlikeli bir takıntı, Toad'un pervasız beyninin içine derin tohumlarını ekmişti.",
+      "notes": "Past perfect 'had planted'; compound adjective 'deep seeds'."
+    },
+    {
+      "id": 61,
+      "start_ms": 332052,
+      "end_ms": 336852,
+      "text": "Winter arrived, and the river was quiet under cold leaden skies.",
+      "translation": "Kış geldi çattı ve nehir kurşuni soğuk gökyüzünün altında sessizleşti.",
+      "notes": "Coordinate clauses; compound adjective 'cold leaden'."
+    },
+    {
+      "id": 62,
+      "start_ms": 337252,
+      "end_ms": 342508,
+      "text": "Mole wanted very much to meet the legendary Mr. Badger who lived in the Wild Wood.",
+      "translation": "Mole, Vahşi Orman'da yaşayan efsanevi Bay Porsuk ile tanışmayı çok istiyordu.",
+      "notes": "Adverbial intensifier 'very much'; relative clause 'who lived in'."
+    },
+    {
+      "id": 63,
+      "start_ms": 342908,
+      "end_ms": 347660,
+      "text": "Ratty warned him that the Wild Wood was dangerous for quiet river dwellers.",
+      "translation": "Ratty onu Vahşi Orman'ın sakin nehir sakinleri için tehlikeli olduğu konusunda uyardı.",
+      "notes": "Noun clause with 'that'; noun phrase 'river dwellers'."
+    },
+    {
+      "id": 64,
+      "start_ms": 348060,
+      "end_ms": 354492,
+      "text": "'Weasels, stoats, and foxes live there, and they are not always polite,' said Rat.",
+      "translation": "'Gelincikler, kakımlar ve tilkiler orada yaşar ve her zaman kibar davranmazlar,' dedi Rat.",
+      "notes": "Compound subject; litotes 'not always polite'."
+    },
+    {
+      "id": 65,
+      "start_ms": 354892,
+      "end_ms": 361084,
+      "text": "One cold winter afternoon, while Ratty dozed by the warm fire, Mole slipped outside.",
+      "translation": "Soğuk bir kış öğleden sonrasında, Ratty sıcak ateşin yanında uyuklarken, Mole sessizce dışarı süzüldü.",
+      "notes": "Temporal subordinate clause with 'while'; phrasal verb 'slipped outside'."
+    },
+    {
+      "id": 66,
+      "start_ms": 361484,
+      "end_ms": 366212,
+      "text": "He walked across the frozen meadows toward the dark wall of the Wild Wood.",
+      "translation": "Vahşi Orman'ın karanlık duvarına doğru donmuş çayırlar boyunca yürüdü.",
+      "notes": "Directional prepositional phrases 'across... toward'."
+    },
+    {
+      "id": 67,
+      "start_ms": 366612,
+      "end_ms": 371556,
+      "text": "The leafless trees stood like gray specters against the pale winter twilight.",
+      "translation": "Yapraksız ağaçlar, solgun kış alacakaranlığına karşı gri hayaletler gibi dikiliyordu.",
+      "notes": "Simile 'like gray specters'; preposition 'against'."
+    },
+    {
+      "id": 68,
+      "start_ms": 371956,
+      "end_ms": 377236,
+      "text": "At first, Mole enjoyed the thrill of solitary adventure among the trees.",
+      "translation": "İlk başta Mole, ağaçlar arasındaki bu yalnız maceranın heyecanından keyif aldı.",
+      "notes": "Time phrase 'at first'; noun phrase 'thrill of solitary adventure'."
+    },
+    {
+      "id": 69,
+      "start_ms": 377636,
+      "end_ms": 382364,
+      "text": "Then the shadows deepened rapidly as the cold winter sun sank down.",
+      "translation": "Sonra soğuk kış güneşi batarken gölgeler hızla derinleşti.",
+      "notes": "Time clause with 'as'; phrasal verb 'sank down'."
+    },
+    {
+      "id": 70,
+      "start_ms": 382764,
+      "end_ms": 387396,
+      "text": "A hollow whistling sounded through the bare branches like a cruel whisper.",
+      "translation": "Çıplak dalların arasından zalimce bir fısıltı gibi uğultulu bir ıslık sesi duyuldu.",
+      "notes": "Simile 'like a cruel whisper'; participial adjective 'bare branches'."
+    },
+    {
+      "id": 71,
+      "start_ms": 387796,
+      "end_ms": 392740,
+      "text": "Mole looked around and thought he saw little wicked faces peering out of holes.",
+      "translation": "Mole etrafına bakındı ve deliklerden dik dik bakan minik hain yüzler gördüğünü sandı.",
+      "notes": "Perception verb 'saw' + participle 'peering out of'."
+    },
+    {
+      "id": 72,
+      "start_ms": 393140,
+      "end_ms": 398156,
+      "text": "Every tree root seemed like an outstretched claw waiting to trip his little feet.",
+      "translation": "Her ağaç kökü, minik ayaklarına çelme takmak için bekleyen uzanmış bir pençe gibi görünüyordu.",
+      "notes": "Simile 'like an outstretched claw'; infinitive of purpose 'to trip'."
+    },
+    {
+      "id": 73,
+      "start_ms": 398556,
+      "end_ms": 403380,
+      "text": "He began to run, stumbling over hidden rocks and fallen branches.",
+      "translation": "Gizli kayaların ve düşmüş dalların üzerinden tökezleyerek koşmaya başladı.",
+      "notes": "Verb followed by infinitive 'began to run'; participle clause 'stumbling over'."
+    },
+    {
+      "id": 74,
+      "start_ms": 403780,
+      "end_ms": 408244,
+      "text": "He ran blindly without knowing which direction led back to the river.",
+      "translation": "Hangi yönün nehre geri götürdüğünü bilmeden körlemesine koştu.",
+      "notes": "Adverb 'blindly'; preposition 'without' + gerund with indirect question."
+    },
+    {
+      "id": 75,
+      "start_ms": 408644,
+      "end_ms": 413660,
+      "text": "A sharp flurry of cold white snow began drifting down upon the forest.",
+      "translation": "Soğuk beyaz kardan keskin bir tipi ormanın üzerine savrularak yağmaya başladı.",
+      "notes": "Noun phrase 'sharp flurry of snow'; phrasal verb 'drifting down'."
+    },
+    {
+      "id": 76,
+      "start_ms": 414060,
+      "end_ms": 419244,
+      "text": "The terrifying silence of the wild forest surrounded him like an icy prison.",
+      "translation": "Vahşi ormanın dehşet verici sessizliği, buzdan bir zindan gibi etrafını sardı.",
+      "notes": "Simile 'like an icy prison'; transitive past verb 'surrounded'."
+    },
+    {
+      "id": 77,
+      "start_ms": 419644,
+      "end_ms": 424204,
+      "text": "Mole crawled into the dark hollow of an old beech tree for protection.",
+      "translation": "Mole korunmak için yaşlı bir kayın ağacının karanlık oyuğuna sürünerek girdi.",
+      "notes": "Prepositional phrase 'into the hollow of'; purpose phrase 'for protection'."
+    },
+    {
+      "id": 78,
+      "start_ms": 424604,
+      "end_ms": 429380,
+      "text": "He covered himself with dead leaves and trembled from exhaustion and panic.",
+      "translation": "Üzerini kuru yapraklarla örttü ve bitkinlikten, panikten titredi.",
+      "notes": "Coordinate past verbs 'covered and trembled'; preposition 'from' for cause."
+    },
+    {
+      "id": 79,
+      "start_ms": 429780,
+      "end_ms": 435348,
+      "text": "'Ratty! Ratty, where are you?' he whimpered into the gathering blizzard.",
+      "translation": "'Ratty! Ratty neredesin?' diye inledi giderek şiddetlenen kar fırtınasının içine.",
+      "notes": "Participial adjective 'gathering blizzard'; direct speech."
+    },
+    {
+      "id": 80,
+      "start_ms": 435748,
+      "end_ms": 440524,
+      "text": "The great forest held him trapped inside its cold, merciless heart.",
+      "translation": "Ulu orman, onu soğuk ve merhametsiz kalbinin içinde kapana kıstırmıştı.",
+      "notes": "Complex transitive structure 'held him trapped'; coordinate adjectives 'cold, merciless'."
+    },
+    {
+      "id": 81,
+      "start_ms": 441524,
+      "end_ms": 446732,
+      "text": "Meanwhile, the Water Rat woke from his nap beside the warm fireplace.",
+      "translation": "Bu esnada Su Sıçanı, sıcak şöminenin yanındaki uykusundan uyandı.",
+      "notes": "Adverb 'meanwhile'; prepositional phrase 'beside the fireplace'."
+    },
+    {
+      "id": 82,
+      "start_ms": 447132,
+      "end_ms": 452028,
+      "text": "He called for Mole, but received no answer throughout the empty rooms.",
+      "translation": "Mole'a seslendi fakat boş odaların hiçbirinden cevap alamadı.",
+      "notes": "Negative coordinate 'received no answer'; preposition 'throughout'."
+    },
+    {
+      "id": 83,
+      "start_ms": 452428,
+      "end_ms": 457732,
+      "text": "Noticing Mole's boots and coat missing, Ratty guessed his friend's foolish errand.",
+      "translation": "Mole'un çizmelerinin ve ceketinin yerinde olmadığını fark eden Ratty, dostunun akılsızca işini tahmin etti.",
+      "notes": "Participial clause of cause 'Noticing...'; possessive 'friend's foolish errand'."
+    },
+    {
+      "id": 84,
+      "start_ms": 458132,
+      "end_ms": 462836,
+      "text": "He armed himself with two pistols and a stout cudgel without delay.",
+      "translation": "Hiç vakit kaybetmeden yanına iki tabanca ve sağlam bir kalın sopa aldı.",
+      "notes": "Reflexive 'armed himself with'; prepositional phrase 'without delay'."
+    },
+    {
+      "id": 85,
+      "start_ms": 463236,
+      "end_ms": 468804,
+      "text": "Ratty stepped courageously out into the freezing storm, tracking Mole's footprints.",
+      "translation": "Ratty, Mole'un ayak izlerini takip ederek dondurucu fırtınaya cesurca adım attı.",
+      "notes": "Adverb 'courageously'; participle phrase 'tracking footprints'."
+    },
+    {
+      "id": 86,
+      "start_ms": 469204,
+      "end_ms": 474148,
+      "text": "After an hour of searching the shadowy forest, Rat heard a faint whimper.",
+      "translation": "Karanlık ormanı bir saat aradıktan sonra Rat hafif bir inleme duydu.",
+      "notes": "Prepositional temporal phrase 'after an hour of searching'."
+    },
+    {
+      "id": 87,
+      "start_ms": 474548,
+      "end_ms": 480956,
+      "text": "'Mole! Mole, is that you?' shouted the loyal rat through the falling snow.",
+      "translation": "'Mole! Mole sen misin?' diye haykırdı sadık sıçan yağan karın arasından.",
+      "notes": "Participial phrase 'through the falling snow'; adjective 'loyal'."
+    },
+    {
+      "id": 88,
+      "start_ms": 481356,
+      "end_ms": 486540,
+      "text": "Mole burst into tears of overwhelming joy as he threw his paws around Rat.",
+      "translation": "Mole patilerini Rat'in boynuna sararken ezici bir sevinç gözyaşlarına boğuldu.",
+      "notes": "Idiom 'burst into tears of joy'; time clause with 'as'."
+    },
+    {
+      "id": 89,
+      "start_ms": 486940,
+      "end_ms": 492316,
+      "text": "Both friends tried to find their way home, but the deep snow covered every trail.",
+      "translation": "İki dost evlerinin yolunu bulmaya çalıştılar ama derin kar her bir patikayı örtmüştü.",
+      "notes": "Coordinate clauses with 'but'; determiner 'every trail'."
+    },
+    {
+      "id": 90,
+      "start_ms": 492716,
+      "end_ms": 498116,
+      "text": "The wind wailed furiously, and their little feet grew completely numb with cold.",
+      "translation": "Rüzgar öfkeyle uludu ve minik ayakları soğuktan tamamen uyuştu.",
+      "notes": "Adverb 'furiously'; copular verb 'grew numb'."
+    },
+    {
+      "id": 91,
+      "start_ms": 498516,
+      "end_ms": 503892,
+      "text": "Suddenly, Mole tripped over something hard buried beneath the snow and cried out.",
+      "translation": "Birdenbire Mole karın altına gömülmüş sert bir şeye takılıp düştü ve bağırdı.",
+      "notes": "Phrasal verb 'tripped over'; participle modifier 'buried beneath'."
+    },
+    {
+      "id": 92,
+      "start_ms": 504292,
+      "end_ms": 509260,
+      "text": "'I have cut my shin!' wept Mole, sitting down in the white drifts.",
+      "translation": "'Kaval kemiğimi kestim!' diye ağladı Mole, beyaz kar yığınlarının içine oturarak.",
+      "notes": "Present perfect 'have cut'; participle clause 'sitting down'."
+    },
+    {
+      "id": 93,
+      "start_ms": 509660,
+      "end_ms": 514604,
+      "text": "Ratty examined the wound and carefully cleared away the snow around the spot.",
+      "translation": "Ratty yarayı inceledi ve o noktanın etrafındaki karları dikkatlice temizledi.",
+      "notes": "Coordinate past verbs 'examined and cleared away'."
+    },
+    {
+      "id": 94,
+      "start_ms": 515004,
+      "end_ms": 519324,
+      "text": "He found a flat piece of iron sticking out of the frozen bank.",
+      "translation": "Donmuş setten dışarı uzanan düz bir demir parçası buldu.",
+      "notes": "Participle clause 'sticking out of'; compound adjective 'frozen bank'."
+    },
+    {
+      "id": 95,
+      "start_ms": 519724,
+      "end_ms": 524740,
+      "text": "'It is an iron door-scraper!' exclaimed Ratty in triumphant excitement.",
+      "translation": "'Bu demirden bir kapı sıyıracı!' diye haykırdı Ratty muzaffer bir heyecanla.",
+      "notes": "Prepositional phrase 'in triumphant excitement'; compound noun 'door-scraper'."
+    },
+    {
+      "id": 96,
+      "start_ms": 525140,
+      "end_ms": 529652,
+      "text": "They dug frantically into the snowbank with all their frozen paws.",
+      "translation": "Bütün donmuş patileriyle çılgınca kar setini kazdılar.",
+      "notes": "Adverb 'frantically'; prepositional phrase 'with all paws'."
+    },
+    {
+      "id": 97,
+      "start_ms": 530052,
+      "end_ms": 534564,
+      "text": "Next they found a thick doormat made of woven coconut fibers.",
+      "translation": "Sonra hindistancevizi liflerinden dokunmuş kalın bir kapı paspası buldular.",
+      "notes": "Past participle modifier 'made of woven fibers'."
+    },
+    {
+      "id": 98,
+      "start_ms": 534964,
+      "end_ms": 540196,
+      "text": "Finally, their paws uncovered a solid green oak door with a brass knocker.",
+      "translation": "Sonunda patileri pirinç tokmaklı masif yeşil bir meşe kapıyı açığa çıkardı.",
+      "notes": "Adjective list 'solid green oak'; prepositional phrase 'with a brass knocker'."
+    },
+    {
+      "id": 99,
+      "start_ms": 540596,
+      "end_ms": 545756,
+      "text": "On the brass plate was engraved: MR. BADGER in bold capital letters.",
+      "translation": "Pirinç levhanın üzerine koyu büyük harflerle şöyle kazınmıştı: BAY PORSUK.",
+      "notes": "Passive inverted structure 'was engraved'; proper name 'MR. BADGER'."
+    },
+    {
+      "id": 100,
+      "start_ms": 546156,
+      "end_ms": 550956,
+      "text": "Rat seized the heavy knocker and struck three mighty blows upon the wood.",
+      "translation": "Rat ağır kapı tokmağını kavradı ve ahşabın üzerine üç güçlü darbe indirdi.",
+      "notes": "Coordinate past verbs 'seized and struck'; adjective 'mighty'."
+    },
+    {
+      "id": 101,
+      "start_ms": 551956,
+      "end_ms": 556948,
+      "text": "Slow bolts were drawn back, and the heavy door creaked slowly open.",
+      "translation": "Yavaşça sürgüler geri çekildi ve ağır kapı gıcırdayarak usulca açıldı.",
+      "notes": "Passive coordinate clauses 'were drawn back' and 'creaked open'."
+    },
+    {
+      "id": 102,
+      "start_ms": 557348,
+      "end_ms": 561980,
+      "text": "There stood Mr. Badger in a dressing-gown and worn carpet slippers.",
+      "translation": "Sabahlığı ve yıpranmış halı terlikleri içinde Bay Porsuk orada dikiliyordu.",
+      "notes": "Inverted sentence; compound nouns 'dressing-gown' and 'carpet slippers'."
+    },
+    {
+      "id": 103,
+      "start_ms": 562380,
+      "end_ms": 567252,
+      "text": "He held a glowing candle high, peering gruffly into the white storm.",
+      "translation": "Ateş gibi yanan mumu havaya kaldırıp beyaz fırtınanın içine sertçe baktı.",
+      "notes": "Participle phrase 'peering gruffly'; adjective 'gruffly'."
+    },
+    {
+      "id": 104,
+      "start_ms": 567652,
+      "end_ms": 573844,
+      "text": "'What, Ratty!' he exclaimed, 'and little Mole too! Come in at once!'",
+      "translation": "'Ne, Ratty mi!' diye haykırdı, 've minik Mole da mı! Hemen içeri gelin!'",
+      "notes": "Imperative phrase 'come in at once'; familiar interjections."
+    },
+    {
+      "id": 105,
+      "start_ms": 574244,
+      "end_ms": 578828,
+      "text": "He pulled them inside and slammed the thick door shut against the blizzard.",
+      "translation": "Onları içeri çekti ve kalın kapıyı tipiye karşı sertçe kapattı.",
+      "notes": "Phrasal verb 'pulled inside'; resultative 'slammed shut'."
+    },
+    {
+      "id": 106,
+      "start_ms": 579228,
+      "end_ms": 584340,
+      "text": "They stepped into the largest, warmest brick-floored kitchen they had ever seen.",
+      "translation": "Hayatlarında gördükleri en geniş, en sıcak ve tuğla zeminli mutfağa adım attılar.",
+      "notes": "Superlatives 'largest, warmest'; past perfect relative clause."
+    },
+    {
+      "id": 107,
+      "start_ms": 584740,
+      "end_ms": 590044,
+      "text": "A magnificent log fire blazed cheerfully on a wide, welcoming hearth.",
+      "translation": "Geniş ve kucaklayıcı bir ocakta görkemli bir kütük ateşi neşeyle alev alev yanıyordu.",
+      "notes": "Adverb 'cheerfully'; participial adjective 'welcoming hearth'."
+    },
+    {
+      "id": 108,
+      "start_ms": 590444,
+      "end_ms": 596660,
+      "text": "Hams, onions, herbs, and baskets of dried fruit hung from the ceiling beams.",
+      "translation": "Tavan kirişlerinden jambonlar, soğanlar, şifalı otlar ve kurutulmuş meyve sepetleri sarkıyordu.",
+      "notes": "Compound subject; prepositional phrase 'from ceiling beams'."
+    },
+    {
+      "id": 109,
+      "start_ms": 597060,
+      "end_ms": 601740,
+      "text": "Badger sat them down in comfortable armchairs directly before the fire.",
+      "translation": "Porsuk onları doğrudan ateşin önündeki rahat koltuklara oturttu.",
+      "notes": "Direct transitive 'sat them down'; adjective 'comfortable'."
+    },
+    {
+      "id": 110,
+      "start_ms": 602140,
+      "end_ms": 607228,
+      "text": "He bathed Mole's injured shin with warm water and healing herbal ointments.",
+      "translation": "Mole'un incinen kaval kemiğini ılık su ve şifalı bitkisel merhemlerle yıkadı.",
+      "notes": "Compound noun 'healing herbal ointments'; transitive past 'bathed'."
+    },
+    {
+      "id": 111,
+      "start_ms": 607628,
+      "end_ms": 613628,
+      "text": "Soon, a steaming supper of hot soup, cold roast beef, and bread was served.",
+      "translation": "Çok geçmeden sıcak çorba, soğuk biftek ve ekmekten oluşan dumanı tüten bir akşam yemeği ikram edildi.",
+      "notes": "Passive voice 'was served'; adjective 'steaming'."
+    },
+    {
+      "id": 112,
+      "start_ms": 614028,
+      "end_ms": 618444,
+      "text": "The two tired wanderers ate hungrily until they could eat no more.",
+      "translation": "İki yorgun gezgin daha fazla yiyemeyecek hale gelene kadar kurt gibi yediler.",
+      "notes": "Adverb 'hungrily'; modal time clause 'until they could eat no more'."
+    },
+    {
+      "id": 113,
+      "start_ms": 618844,
+      "end_ms": 623812,
+      "text": "Badger listened patiently as Ratty told the tale of their fearful misadventure.",
+      "translation": "Ratty korkunç talihsizliklerinin hikayesini anlatırken Porsuk sabırla dinledi.",
+      "notes": "Adverb 'patiently'; noun phrase 'fearful misadventure'."
+    },
+    {
+      "id": 114,
+      "start_ms": 624212,
+      "end_ms": 629780,
+      "text": "'The Wild Wood is no place for gentle river folk,' Badger said shaking his head.",
+      "translation": "'Vahşi Orman nazik nehir ahalisine göre bir yer değildir,' dedi Porsuk başını sallayarak.",
+      "notes": "Participle clause 'shaking his head'; noun phrase 'gentle river folk'."
+    },
+    {
+      "id": 115,
+      "start_ms": 630180,
+      "end_ms": 635508,
+      "text": "'Here underground, I am master of everything, and nobody dares disturb me.'",
+      "translation": "'Burada yer altında her şeyin efendisi benim ve kimse beni rahatsız etmeye cesaret edemez.'",
+      "notes": "Coordinate clauses; verb 'dares disturb'."
+    },
+    {
+      "id": 116,
+      "start_ms": 635908,
+      "end_ms": 641524,
+      "text": "Then Ratty mentioned Mr. Toad's latest insane passion for expensive motor-cars.",
+      "translation": "Sonra Ratty, Bay Toad'un pahalı otomobillere olan son delice tutkusundan bahsetti.",
+      "notes": "Transitive past 'mentioned'; adjective 'insane'."
+    },
+    {
+      "id": 117,
+      "start_ms": 641924,
+      "end_ms": 647300,
+      "text": "'He has had seven severe crashes already!' groaned Ratty in utter disgust.",
+      "translation": "'Şimdiden yedi ağır kaza yaptı bile!' diye inledi Ratty tam bir bıkkınlıkla.",
+      "notes": "Present perfect 'has had'; noun phrase 'utter disgust'."
+    },
+    {
+      "id": 118,
+      "start_ms": 647700,
+      "end_ms": 652740,
+      "text": "'He has spent a huge fortune on fines and new machines,' Mole added.",
+      "translation": "'Cezalara ve yeni makinelere devasa bir servet harcadı,' diye ekledi Mole.",
+      "notes": "Present perfect 'has spent'; compound noun 'huge fortune'."
+    },
+    {
+      "id": 119,
+      "start_ms": 653140,
+      "end_ms": 657580,
+      "text": "Badger stroked his gray chin thoughtfully and made a firm decision.",
+      "translation": "Porsuk gri çenesini düşünceli bir tavırla sıvazladı ve kesin bir karar verdi.",
+      "notes": "Adverb 'thoughtfully'; compound idiom 'made a firm decision'."
+    },
+    {
+      "id": 120,
+      "start_ms": 657980,
+      "end_ms": 663620,
+      "text": "'When spring arrives, we three will take Toad firmly in hand,' vowed Badger.",
+      "translation": "'Bahar geldiğinde biz üçümüz Toad'u sıkı bir terbiyeden geçireceğiz,' diye ant içti Porsuk.",
+      "notes": "Time clause 'when spring arrives'; idiom 'take in hand'."
+    },
+    {
+      "id": 121,
+      "start_ms": 664620,
+      "end_ms": 670164,
+      "text": "When mild spring returned, Mr. Badger knocked firmly upon Ratty's front door.",
+      "translation": "Ilık ilkbahar geri döndüğünde, Bay Porsuk Ratty'nin ön kapısını kararlılıkla çaldı.",
+      "notes": "Time clause; adverb 'firmly'."
+    },
+    {
+      "id": 122,
+      "start_ms": 670564,
+      "end_ms": 676108,
+      "text": "'The hour has arrived,' said Badger sternly, 'we must rescue Toad from ruin.'",
+      "translation": "'Vakit geldi çattı,' dedi Porsuk sertçe, 'Toad'u iflastan kurtarmalıyız.'",
+      "notes": "Present perfect 'has arrived'; modal obligation 'must rescue'."
+    },
+    {
+      "id": 123,
+      "start_ms": 676508,
+      "end_ms": 681356,
+      "text": "The three loyal friends marched up the long carriage drive of Toad Hall.",
+      "translation": "Üç sadık dost, Toad Konağı'nın uzun araba yolu boyunca yürüdüler.",
+      "notes": "Proper noun 'Toad Hall'; compound noun 'carriage drive'."
+    },
+    {
+      "id": 124,
+      "start_ms": 681756,
+      "end_ms": 687324,
+      "text": "At the door stood a brand-new, bright red racing motor-car with polished brass.",
+      "translation": "Kapıda, parlatılmış pirinç aksamlı, yepyeni parlak kırmızı bir yarış otomobili duruyordu.",
+      "notes": "Inverted locative sentence; participle 'polished brass'."
+    },
+    {
+      "id": 125,
+      "start_ms": 687724,
+      "end_ms": 693580,
+      "text": "Toad emerged down the steps wearing goggles, a heavy overcoat, and driving gloves.",
+      "translation": "Toad gözlüklerini, kalın paltosunu ve sürüş eldivenlerini takmış halde basamaklardan indi.",
+      "notes": "Participial phrase 'wearing goggles...'; past verb 'emerged'."
+    },
+    {
+      "id": 126,
+      "start_ms": 693980,
+      "end_ms": 699236,
+      "text": "'Hooray!' cried Toad, 'you are just in time to come for a splendid ride!'",
+      "translation": "'Yaşasın!' diye bağırdı Toad, 'muhteşem bir gezintiye çıkmak için tam vaktinde geldiniz!'",
+      "notes": "Exclamation; idiom 'just in time'."
+    },
+    {
+      "id": 127,
+      "start_ms": 699636,
+      "end_ms": 704364,
+      "text": "Badger seized him by the collar and led him back inside his own house.",
+      "translation": "Porsuk onu yakasından yakaladı ve kendi evinin içine geri soktu.",
+      "notes": "Phrasal verb 'led back inside'; prepositional phrase 'by the collar'."
+    },
+    {
+      "id": 128,
+      "start_ms": 704764,
+      "end_ms": 710020,
+      "text": "'Take off those ridiculous rags at once!' ordered Badger with grim authority.",
+      "translation": "'O saçma sapan paçavraları derhal çıkar!' diye emretti Porsuk sert bir otoriteyle.",
+      "notes": "Imperative 'take off'; noun phrase 'grim authority'."
+    },
+    {
+      "id": 129,
+      "start_ms": 710420,
+      "end_ms": 715244,
+      "text": "Rat and Mole stripped off Toad's driving gear and tossed it into the hall.",
+      "translation": "Rat ve Mole, Toad'un sürüş kıyafetlerini üzerinden çıkardılar ve salona fırlattılar.",
+      "notes": "Phrasal verb 'stripped off'; coordinate past 'tossed'."
+    },
+    {
+      "id": 130,
+      "start_ms": 715644,
+      "end_ms": 720636,
+      "text": "Badger led the protesting amphibian into the library and closed the door.",
+      "translation": "Porsuk itiraz edip duran bu amfibiyi kütüphaneye soktu ve kapıyı kapattı.",
+      "notes": "Participial adjective 'protesting'; noun 'amphibian'."
+    },
+    {
+      "id": 131,
+      "start_ms": 721036,
+      "end_ms": 726964,
+      "text": "For an hour, Badger gave Toad a severe, solemn lecture about his reckless behavior.",
+      "translation": "Porsuk bir saat boyunca Toad'a pervasız davranışları hakkında ciddi, ağır bir nutuk çekti.",
+      "notes": "Duration phrase 'for an hour'; adjective pair 'severe, solemn'."
+    },
+    {
+      "id": 132,
+      "start_ms": 727364,
+      "end_ms": 732164,
+      "text": "When they came out, Toad was sobbing and promising to reform his ways.",
+      "translation": "Dışarı çıktıklarında Toad hıçkıra hıçkıra ağlıyor ve artık uslanacağına söz veriyordu.",
+      "notes": "Past continuous coordinates 'was sobbing and promising'."
+    },
+    {
+      "id": 133,
+      "start_ms": 732564,
+      "end_ms": 737484,
+      "text": "'Will you give up motor-cars forever?' asked Ratty with great earnestness.",
+      "translation": "'Otomobillerden sonsuza dek vazgeçecek misin?' diye sordu Ratty büyük bir ciddiyetle.",
+      "notes": "Phrasal verb 'give up'; noun phrase 'great earnestness'."
+    },
+    {
+      "id": 134,
+      "start_ms": 737884,
+      "end_ms": 742948,
+      "text": "Suddenly Toad straightened up, puffed out his chest, and grinned cheekily.",
+      "translation": "Birdenbire Toad doğruldu, göğsünü kabarttı ve küstahça sırıttı.",
+      "notes": "Coordinated actions 'straightened up, puffed out, grinned'."
+    },
+    {
+      "id": 135,
+      "start_ms": 743348,
+      "end_ms": 749036,
+      "text": "'No!' shouted Toad defiantly, 'I love motor-cars more than life itself!'",
+      "translation": "'Hayır!' diye haykırdı Toad meydan okurcasına, 'Otomobilleri hayatın kendisinden bile çok seviyorum!'",
+      "notes": "Adverb 'defiantly'; comparative 'more than life itself'."
+    },
+    {
+      "id": 136,
+      "start_ms": 749436,
+      "end_ms": 754428,
+      "text": "'Then we have only one choice,' said Badger calmly to his companions.",
+      "translation": "'O halde önümüzde tek bir seçenek var,' dedi Porsuk dostlarına sakince.",
+      "notes": "Direct speech; noun phrase 'only one choice'."
+    },
+    {
+      "id": 137,
+      "start_ms": 754828,
+      "end_ms": 759460,
+      "text": "They carried the struggling toad up the grand stairs to his spacious bedroom.",
+      "translation": "Çırpınan kurbağayı görkemli merdivenlerden yukarı, geniş yatak odasına taşıdılar.",
+      "notes": "Participial adjective 'struggling'; directional phrase 'up the stairs'."
+    },
+    {
+      "id": 138,
+      "start_ms": 759860,
+      "end_ms": 764516,
+      "text": "They locked the heavy door from the outside and pocketed the iron key.",
+      "translation": "Ağır kapıyı dışarıdan kilitlediler ve demir anahtarı ceplerine attılar.",
+      "notes": "Coordinate past verbs 'locked and pocketed'."
+    },
+    {
+      "id": 139,
+      "start_ms": 764916,
+      "end_ms": 770076,
+      "text": "'We will guard him day and night until the poison leaves his mind,' said Badger.",
+      "translation": "'Bu zehir aklından çıkana kadar gece gündüz başında nöbet tutacağız,' dedi Porsuk.",
+      "notes": "Future modal 'will guard'; time clause 'until the poison leaves'."
+    },
+    {
+      "id": 140,
+      "start_ms": 770476,
+      "end_ms": 775732,
+      "text": "Toad threw himself upon his soft bed, kicking and screaming with frustration.",
+      "translation": "Toad kendisini yumuşak yatağının üzerine attı, hayal kırıklığıyla tepinip çığlıklar savurdu.",
+      "notes": "Reflexive 'threw himself'; participle phrases 'kicking and screaming'."
+    },
+    {
+      "id": 141,
+      "start_ms": 776732,
+      "end_ms": 781412,
+      "text": "Days passed, and Ratty took his turn guarding the imprisoned gentleman.",
+      "translation": "Günler geçti ve hapsedilen beyefendiyi koruma sırası Ratty'ye geldi.",
+      "notes": "Idiom 'took his turn'; participial adjective 'imprisoned gentleman'."
+    },
+    {
+      "id": 142,
+      "start_ms": 781812,
+      "end_ms": 786588,
+      "text": "Toad pretended to be dangerously sick and groaned pathetically from his bed.",
+      "translation": "Toad tehlikeli bir şekilde hastaymış gibi davrandı ve yatağından acıklı acıklı inledi.",
+      "notes": "Verb + infinitive 'pretended to be'; adverb 'pathetically'."
+    },
+    {
+      "id": 143,
+      "start_ms": 786988,
+      "end_ms": 792700,
+      "text": "'Dear Ratty, I am dying,' moaned Toad, 'fetch a lawyer and a doctor quickly!'",
+      "translation": "'Sevgili Ratty, ölüyorum,' diye inledi Toad, 'çabuk bir avukat ve bir doktor çağır!'",
+      "notes": "Present continuous 'am dying'; imperative 'fetch'."
+    },
+    {
+      "id": 144,
+      "start_ms": 793100,
+      "end_ms": 797756,
+      "text": "Tender-hearted Ratty fell for the trick and hurried out to fetch assistance.",
+      "translation": "Yufka yürekli Ratty bu oyuna kandı ve yardım getirmek için aceleyle dışarı koştu.",
+      "notes": "Idiom 'fell for the trick'; compound adjective 'tender-hearted'."
+    },
+    {
+      "id": 145,
+      "start_ms": 798156,
+      "end_ms": 803196,
+      "text": "As soon as the door closed, Toad leaped out of bed laughing maliciously.",
+      "translation": "Kapı kapanır kapanmaz Toad şeytani kahkahalar atarak yataktan fırladı.",
+      "notes": "Subordinate clause 'as soon as'; participle phrase 'laughing maliciously'."
+    },
+    {
+      "id": 146,
+      "start_ms": 803596,
+      "end_ms": 808516,
+      "text": "He tied his bedsheets together and knotted one end to the heavy bedpost.",
+      "translation": "Yatak çarşaflarını birbirine bağladı ve bir ucunu ağır karyola direğine düğümledi.",
+      "notes": "Coordinate past verbs 'tied and knotted'."
+    },
+    {
+      "id": 147,
+      "start_ms": 808916,
+      "end_ms": 813644,
+      "text": "He scrambled down the rope of linen onto the soft garden grass below.",
+      "translation": "Keten ipten aşağı kayarak aşağıdaki yumuşak bahçe çimlerinin üzerine indi.",
+      "notes": "Phrasal verb 'scrambled down'; noun phrase 'rope of linen'."
+    },
+    {
+      "id": 148,
+      "start_ms": 814044,
+      "end_ms": 818340,
+      "text": "He ran through the orchards until he reached the town of Red Lion.",
+      "translation": "Kızıl Aslan kasabasına ulaşana kadar meyve bahçelerinin içinden koştu.",
+      "notes": "Preposition 'through'; time clause with 'until'."
+    },
+    {
+      "id": 149,
+      "start_ms": 818740,
+      "end_ms": 822988,
+      "text": "He entered the Red Lion Inn and ordered a lavish hot lunch.",
+      "translation": "Kırmızı Aslan Hanı'na girdi ve mükellef, sıcak bir öğle yemeği sipariş etti.",
+      "notes": "Coordinate past verbs; adjective 'lavish'."
+    },
+    {
+      "id": 150,
+      "start_ms": 823388,
+      "end_ms": 828404,
+      "text": "While he was eating, a familiar droning hum sounded outside in the courtyard.",
+      "translation": "Yemek yerken dışarıdaki avludan tanıdık bir vızıltı uğultusu duyuldu.",
+      "notes": "Time clause 'while he was eating'; adjective 'familiar'."
+    },
+    {
+      "id": 151,
+      "start_ms": 828804,
+      "end_ms": 833940,
+      "text": "A gorgeous new motor-car pulled up, and the passengers walked in to dine.",
+      "translation": "Muhteşem yeni bir otomobil yanaştı ve yolcular yemek yemek için içeri girdiler.",
+      "notes": "Phrasal verb 'pulled up'; infinitive of purpose 'to dine'."
+    },
+    {
+      "id": 152,
+      "start_ms": 834340,
+      "end_ms": 839260,
+      "text": "Toad slipped outside into the empty yard to admire the beautiful vehicle.",
+      "translation": "Toad güzel araca hayranlıkla bakmak için boş avluya gizlice süzüldü.",
+      "notes": "Phrasal verb 'slipped outside'; infinitive 'to admire'."
+    },
+    {
+      "id": 153,
+      "start_ms": 839660,
+      "end_ms": 844604,
+      "text": "The engine was humming softly, waiting for a driver to command its power.",
+      "translation": "Motor usulca mırıldanıyor, gücüne hükmedecek bir sürücüyü bekliyordu.",
+      "notes": "Participle phrase 'waiting for a driver to command'."
+    },
+    {
+      "id": 154,
+      "start_ms": 845004,
+      "end_ms": 849924,
+      "text": "'I will just sit in the driver's seat for one single minute,' whispered Toad.",
+      "translation": "'Sürücü koltuğuna sadece bir tek dakikalığına oturacağım,' diye fısıldadı Toad.",
+      "notes": "Future modal 'will sit'; time phrase 'for one minute'."
+    },
+    {
+      "id": 155,
+      "start_ms": 850324,
+      "end_ms": 855532,
+      "text": "He touched the leather steering wheel, and a wild fire flared in his veins.",
+      "translation": "Deri direksiyona dokundu ve damarlarında çılgın bir ateş alevlendi.",
+      "notes": "Metaphor 'wild fire flared in his veins'; past verb 'touched'."
+    },
+    {
+      "id": 156,
+      "start_ms": 855932,
+      "end_ms": 860828,
+      "text": "Before he knew what he was doing, he released the brake and pressed the pedal.",
+      "translation": "Ne yaptığını bile anlamadan önce el frenini indirdi ve gaza bastı.",
+      "notes": "Time clause 'before he knew'; coordinate past verbs."
+    },
+    {
+      "id": 157,
+      "start_ms": 861228,
+      "end_ms": 865764,
+      "text": "The great car leaped forward through the archway onto the open highway.",
+      "translation": "Büyük otomobil kemerli kapıdan geçerek açık ana yola doğru ileri fırladı.",
+      "notes": "Phrasal verb 'leaped forward through'."
+    },
+    {
+      "id": 158,
+      "start_ms": 866164,
+      "end_ms": 871204,
+      "text": "Toad laughed, sang, and shouted like an arrogant demon of speed.",
+      "translation": "Toad hızın kibirli bir iblisi gibi güldü, şarkılar söyledi ve haykırdı.",
+      "notes": "Coordinate past verbs; simile 'like an arrogant demon'."
+    },
+    {
+      "id": 159,
+      "start_ms": 871604,
+      "end_ms": 877412,
+      "text": "He flew past wagons, frightened cattle, and pedestrians at reckless velocity.",
+      "translation": "Pervasız bir hızla at arabalarının, korkmuş sığırların ve yayaların yanından uçup geçti.",
+      "notes": "Preposition 'past'; prepositional phrase 'at reckless velocity'."
+    },
+    {
+      "id": 160,
+      "start_ms": 877812,
+      "end_ms": 881844,
+      "text": "The law was waiting for him just around the next sharp turn.",
+      "translation": "Kanun, hemen bir sonraki keskin virajın ardında onu bekliyordu.",
+      "notes": "Past continuous 'was waiting'; prepositional phrase 'around the turn'."
+    },
+    {
+      "id": 161,
+      "start_ms": 882844,
+      "end_ms": 887932,
+      "text": "Toad's wild joyride ended abruptly against a heavy oak tree in a ditch.",
+      "translation": "Toad'un çılgın sefa sürüşü bir hendekteki ağır bir meşe ağacına çarparak aniden bitti.",
+      "notes": "Prepositional phrase 'against a heavy oak tree'; adverb 'abruptly'."
+    },
+    {
+      "id": 162,
+      "start_ms": 888332,
+      "end_ms": 893780,
+      "text": "He was surrounded by angry constables and dragged away in heavy iron handcuffs.",
+      "translation": "Öfkeli polisler tarafından etrafı sarıldı ve ağır demir kelepçelerle sürüklenerek götürüldü.",
+      "notes": "Passive voice coordinates 'was surrounded and dragged away'."
+    },
+    {
+      "id": 163,
+      "start_ms": 894180,
+      "end_ms": 899004,
+      "text": "The courtroom was packed with outraged citizens and stern magistrates.",
+      "translation": "Mahkeme salonu öfkeli yurttaşlar ve sert yargıçlarla dolup taşmıştı.",
+      "notes": "Passive participle 'packed with'; coordinate adjectives."
+    },
+    {
+      "id": 164,
+      "start_ms": 899404,
+      "end_ms": 903988,
+      "text": "The Chairman of the Bench adjusted his spectacles and glared at the prisoner.",
+      "translation": "Heyet Başkanı gözlüklerini düzeltti ve mahkuma dik dik baktı.",
+      "notes": "Coordinate past verbs 'adjusted and glared'."
+    },
+    {
+      "id": 165,
+      "start_ms": 904388,
+      "end_ms": 909452,
+      "text": "'You have stolen a motor-car of immense value,' declared the Clerk of the Court.",
+      "translation": "'Muazzam değerde bir otomobili çaldınız,' dedi Mahkeme Katibi.",
+      "notes": "Present perfect 'have stolen'; noun phrase 'immense value'."
+    },
+    {
+      "id": 166,
+      "start_ms": 909852,
+      "end_ms": 914292,
+      "text": "'You have driven dangerously and endangered innocent human lives.'",
+      "translation": "'Tehlikeli araç kullandınız ve masum insan hayatlarını tehlikeye attınız.'",
+      "notes": "Present perfect coordinates 'have driven and endangered'."
+    },
+    {
+      "id": 167,
+      "start_ms": 914692,
+      "end_ms": 919444,
+      "text": "'And you were grossly insolent to the rural police officers who arrested you.'",
+      "translation": "'Ve sizi tutuklayan kır polislerine karşı son derece saygısız davrandınız.'",
+      "notes": "Past tense with adverb 'grossly insolent'; relative clause."
+    },
+    {
+      "id": 168,
+      "start_ms": 919844,
+      "end_ms": 924716,
+      "text": "The magistrates calculated the penalties for each separate crime carefully.",
+      "translation": "Yargıçlar her bir suçun cezasını ayrı ayrı dikkatle hesapladılar.",
+      "notes": "Adverb 'carefully'; noun phrase 'separate crime'."
+    },
+    {
+      "id": 169,
+      "start_ms": 925116,
+      "end_ms": 930012,
+      "text": "'Twelve months for the theft of the motor-car,' announced the Chairman solemnly.",
+      "translation": "'Otomobil hırsızlığı için on iki ay,' diye duyurdu Başkan ciddiyetle.",
+      "notes": "Adverb 'solemnly'; prepositional phrase 'for the theft'."
+    },
+    {
+      "id": 170,
+      "start_ms": 930412,
+      "end_ms": 934180,
+      "text": "'Three years for reckless driving on the king's highway.'",
+      "translation": "'Kralın anayolunda pervasız sürüş için üç yıl.'",
+      "notes": "Prepositional phrase describing crime and duration."
+    },
+    {
+      "id": 171,
+      "start_ms": 934580,
+      "end_ms": 938852,
+      "text": "'And fifteen years for your disgraceful insolence to the police.'",
+      "translation": "'Ve polise karşı sergilediğiniz utanç verici küstahlık için on beş yıl.'",
+      "notes": "Adjective 'disgraceful'; noun 'insolence'."
+    },
+    {
+      "id": 172,
+      "start_ms": 939252,
+      "end_ms": 943572,
+      "text": "'Totaling twenty years in the darkest dungeon of the ancient castle!'",
+      "translation": "'Toplamda kadim kalenin en karanlık zindanında yirmi yıl!'",
+      "notes": "Participial phrase 'Totaling twenty years'; superlative 'darkest dungeon'."
+    },
+    {
+      "id": 173,
+      "start_ms": 943972,
+      "end_ms": 948772,
+      "text": "Toad shrieked in absolute terror and fell on his knees begging for mercy.",
+      "translation": "Toad tam bir dehşet içinde çığlık attı ve merhamet dileyerek dizlerinin üzerine çöktü.",
+      "notes": "Coordinate past verbs; participle phrase 'begging for mercy'."
+    },
+    {
+      "id": 174,
+      "start_ms": 949172,
+      "end_ms": 954116,
+      "text": "The guards seized him by both arms and dragged him through gloomy corridors.",
+      "translation": "Muhafızlar onu iki kolundan yakaladı ve kasvetli koridorlar boyunca sürüklediler.",
+      "notes": "Coordinate past actions; adjective 'gloomy'."
+    },
+    {
+      "id": 175,
+      "start_ms": 954516,
+      "end_ms": 959916,
+      "text": "They crossed deep moats, clattering drawbridges, and heavy portcullises.",
+      "translation": "Derin hendekleri, takırdayan asma köprüleri ve ağır demir kapıları geçtiler.",
+      "notes": "Descriptive noun phrases with participles; past verb 'crossed'."
+    },
+    {
+      "id": 176,
+      "start_ms": 960316,
+      "end_ms": 965380,
+      "text": "They thrust poor Toad into a damp, windowless dungeon under the ground.",
+      "translation": "Zavallı Toad'u yer altındaki nemli, penceresiz bir zindana tıktılar.",
+      "notes": "Past verb 'thrust'; coordinate adjectives 'damp, windowless'."
+    },
+    {
+      "id": 177,
+      "start_ms": 965780,
+      "end_ms": 970604,
+      "text": "The heavy iron door slammed shut with a dreadful, final clang.",
+      "translation": "Ağır demir kapı korkunç ve nihai bir madeni sesle kapandı.",
+      "notes": "Resultative 'slammed shut'; adjective pair 'dreadful, final'."
+    },
+    {
+      "id": 178,
+      "start_ms": 971004,
+      "end_ms": 976332,
+      "text": "Toad was left alone in pitch darkness with only rusty chains and cold straw.",
+      "translation": "Toad zifiri karanlıkta sadece paslı zincirler ve soğuk samanlarla yapayalnız bırakıldı.",
+      "notes": "Passive voice 'was left alone'; compound noun 'pitch darkness'."
+    },
+    {
+      "id": 179,
+      "start_ms": 976732,
+      "end_ms": 981244,
+      "text": "He wept bitter tears of self-pity and cursed his foolish vanity.",
+      "translation": "Kendine acımanın acı gözyaşlarını döktü ve aptalca kibrine lanetler yağdırdı.",
+      "notes": "Coordinate past verbs 'wept and cursed'; noun phrase 'foolish vanity'."
+    },
+    {
+      "id": 180,
+      "start_ms": 981644,
+      "end_ms": 986252,
+      "text": "It seemed that the great and splendid Mr. Toad would rot away forever.",
+      "translation": "Görünüşe göre o muhteşem ve görkemli Bay Toad sonsuza dek çürüyüp gidecekti.",
+      "notes": "Noun clause 'that Mr. Toad would rot away'; modal 'would rot'."
+    },
+    {
+      "id": 181,
+      "start_ms": 987252,
+      "end_ms": 992508,
+      "text": "Days turned into weeks, and Toad refused to eat, growing thinner daily.",
+      "translation": "Günler haftalara döndü ve Toad yemek yemeyi reddederek günden güne zayıfladı.",
+      "notes": "Coordinate clauses; participle clause 'growing thinner daily'."
+    },
+    {
+      "id": 182,
+      "start_ms": 992908,
+      "end_ms": 997588,
+      "text": "The jailer's daughter was a kind girl who felt deep pity for the prisoner.",
+      "translation": "Gardiyanın kızı, mahkuma derin bir merhamet duyan nazik bir kızdı.",
+      "notes": "Relative clause 'who felt deep pity'; adjective 'kind'."
+    },
+    {
+      "id": 183,
+      "start_ms": 997988,
+      "end_ms": 1003076,
+      "text": "She brought him tea, buttered toast, and listened to his tragic stories.",
+      "translation": "Ona çay ve tereyağlı kızarmış ekmek getirdi, trajik hikayelerini dinledi.",
+      "notes": "Coordinate predicates; adjective 'tragic'."
+    },
+    {
+      "id": 184,
+      "start_ms": 1003476,
+      "end_ms": 1008348,
+      "text": "Toad's spirits gradually revived under her warm sympathy and attention.",
+      "translation": "Toad'un morali kızın sıcak sempatisi ve ilgisi sayesinde yavaş yavaş yerine geldi.",
+      "notes": "Past verb 'revived'; prepositional phrase 'under sympathy and attention'."
+    },
+    {
+      "id": 185,
+      "start_ms": 1008748,
+      "end_ms": 1013716,
+      "text": "One morning, the girl whispered an ingenious escape plan into his ear.",
+      "translation": "Bir sabah kız, onun kulağına dahiyane bir kaçış planı fısıldadı.",
+      "notes": "Adjective 'ingenious'; prepositional phrase 'into his ear'."
+    },
+    {
+      "id": 186,
+      "start_ms": 1014116,
+      "end_ms": 1019444,
+      "text": "'My aunt is the castle washerwoman who washes linen for the garrison,' she said.",
+      "translation": "'Teyzem garnizonun çamaşırlarını yıkayan kale çamaşırcısıdır,' dedi.",
+      "notes": "Relative clause 'who washes linen'; compound noun 'castle washerwoman'."
+    },
+    {
+      "id": 187,
+      "start_ms": 1019844,
+      "end_ms": 1023948,
+      "text": "'You can give her some gold coins and swap clothes with her.'",
+      "translation": "'Ona biraz altın para verip kıyafetlerinizi onunla değiş tokuş edebilirsiniz.'",
+      "notes": "Modal 'can give'; coordinate verb 'swap'."
+    },
+    {
+      "id": 188,
+      "start_ms": 1024348,
+      "end_ms": 1029196,
+      "text": "The washerwoman was summoned, and for a few gold sovereigns she agreed.",
+      "translation": "Çamaşırcı kadın çağrıldı ve birkaç altın lira karşılığında kabul etti.",
+      "notes": "Passive voice 'was summoned'; prepositional phrase 'for gold sovereigns'."
+    },
+    {
+      "id": 189,
+      "start_ms": 1029596,
+      "end_ms": 1034444,
+      "text": "Toad put on a cotton print dress, a battered bonnet, and an apron.",
+      "translation": "Toad basma bir elbise, hırpalanmış bir kadın başlığı ve bir önlük giydi.",
+      "notes": "Coordinate noun objects; adjectives 'print, battered'."
+    },
+    {
+      "id": 190,
+      "start_ms": 1034844,
+      "end_ms": 1039140,
+      "text": "He carried a heavy basket full of dirty laundry over his arm.",
+      "translation": "Kolunun üzerinde kirli çamaşırlarla dolu ağır bir sepet taşıdı.",
+      "notes": "Adjective phrase 'full of dirty laundry'; past verb 'carried'."
+    },
+    {
+      "id": 191,
+      "start_ms": 1039540,
+      "end_ms": 1044628,
+      "text": "With a beating heart, he shuffled past the stern castle guards at dusk.",
+      "translation": "Alacakaranlıkta çarpan bir yürekle sert kale muhafızlarının yanından ayaklarını sürüyerek geçti.",
+      "notes": "Prepositional phrase 'with a beating heart'; past verb 'shuffled past'."
+    },
+    {
+      "id": 192,
+      "start_ms": 1045028,
+      "end_ms": 1050116,
+      "text": "'Good night, mother!' chuckled a sentry as Toad passed the iron gates.",
+      "translation": "'İyi geceler ana!' diye kıkırdadı bir nöbetçi, Toad demir kapılardan geçerken.",
+      "notes": "Direct speech; time clause with 'as'."
+    },
+    {
+      "id": 193,
+      "start_ms": 1050516,
+      "end_ms": 1055052,
+      "text": "Toad curtsied awkwardly and hurried across the echoing drawbridge.",
+      "translation": "Toad beceriksizce reverans yaptı ve yankılanan asma köprünün üzerinden aceleyle geçti.",
+      "notes": "Adverb 'awkwardly'; participial adjective 'echoing drawbridge'."
+    },
+    {
+      "id": 194,
+      "start_ms": 1055452,
+      "end_ms": 1060852,
+      "text": "Once outside the walls, he sprinted into the dark woods as fast as he could.",
+      "translation": "Surların dışına çıkar çıkmaz, var gücüyle koşarak karanlık ormana daldı.",
+      "notes": "Idiom 'as fast as he could'; phrasal verb 'sprinted into'."
+    },
+    {
+      "id": 195,
+      "start_ms": 1061252,
+      "end_ms": 1066196,
+      "text": "He had escaped from the grim castle where no prisoner had ever escaped before.",
+      "translation": "Daha önce hiçbir mahkumun kaçamadığı o kasvetli kaleden kaçmayı başarmıştı.",
+      "notes": "Past perfect 'had escaped'; relative clause 'where no prisoner had escaped'."
+    },
+    {
+      "id": 196,
+      "start_ms": 1066596,
+      "end_ms": 1071732,
+      "text": "He reached a railway station just as a passenger train was preparing to depart.",
+      "translation": "Bir yolcu treni kalkmaya hazırlanırken tam vaktinde bir tren istasyonuna vardı.",
+      "notes": "Time clause 'just as train was preparing'; infinitive 'to depart'."
+    },
+    {
+      "id": 197,
+      "start_ms": 1072132,
+      "end_ms": 1076932,
+      "text": "To his horror, he realized he had left his purse in the prison cell.",
+      "translation": "Dehşet içinde, para cüzdanını hapishane hücresinde unuttuğunu fark etti.",
+      "notes": "Noun clause 'he had left his purse'; prepositional phrase 'to his horror'."
+    },
+    {
+      "id": 198,
+      "start_ms": 1077332,
+      "end_ms": 1082156,
+      "text": "He pleaded with the engine-driver, weeping in his washerwoman disguise.",
+      "translation": "Çamaşırcı kadın kılığı içinde ağlayarak makinistin ayaklarına kapandı.",
+      "notes": "Participle phrase 'weeping in disguise'; phrasal verb 'pleaded with'."
+    },
+    {
+      "id": 199,
+      "start_ms": 1082556,
+      "end_ms": 1087332,
+      "text": "The kind driver took pity on the supposed old woman and hid him in the tender.",
+      "translation": "Müşfik makinist o sözde yaşlı kadına acıdı ve onu kömür vagonuna sakladı.",
+      "notes": "Idiom 'took pity on'; past verb 'hid'."
+    },
+    {
+      "id": 200,
+      "start_ms": 1087732,
+      "end_ms": 1092676,
+      "text": "Toad steamed away into the night, free once more to seek his destiny.",
+      "translation": "Toad gecenin içine doğru trenle yol alarak kaderini aramak üzere bir kez daha özgür kaldı.",
+      "notes": "Phrasal verb 'steamed away'; infinitive of purpose 'to seek his destiny'."
+    },
+    {
+      "id": 201,
+      "start_ms": 1093676,
+      "end_ms": 1098788,
+      "text": "The next morning, Toad walked beside a tranquil canal bordered by willows.",
+      "translation": "Ertesi sabah Toad, söğütlerle çevrili sakin bir su kanalının kenarında yürüdü.",
+      "notes": "Passive participle modifier 'bordered by willows'; adjective 'tranquil'."
+    },
+    {
+      "id": 202,
+      "start_ms": 1099188,
+      "end_ms": 1104492,
+      "text": "A long barge glided along, towed by a heavy piebald horse on the path.",
+      "translation": "Patikadaki alacalı ağır bir atın çektiği uzun bir mavna suyun üzerinde süzülüyordu.",
+      "notes": "Passive participle modifier 'towed by'; adjective 'piebald'."
+    },
+    {
+      "id": 203,
+      "start_ms": 1104892,
+      "end_ms": 1110220,
+      "text": "A fat, good-natured barge-woman sat at the rudder smoking a short clay pipe.",
+      "translation": "Kısa kilden bir pipo tüttüren şişman, iyi huylu bir mavnacı kadın dümende oturuyordu.",
+      "notes": "Participle clause 'smoking a clay pipe'; compound adjective 'good-natured'."
+    },
+    {
+      "id": 204,
+      "start_ms": 1110620,
+      "end_ms": 1116116,
+      "text": "'A fine morning, mother!' called the woman, seeing Toad's washerwoman dress.",
+      "translation": "'Güzel bir sabah ana!' diye seslendi kadın, Toad'un çamaşırcı kadın elbisesini görünce.",
+      "notes": "Participial clause of perception 'seeing Toad's dress'."
+    },
+    {
+      "id": 205,
+      "start_ms": 1116516,
+      "end_ms": 1121316,
+      "text": "Toad accepted her offer of a ride and stepped aboard the slow barge.",
+      "translation": "Toad kadının tekneye binme teklifini kabul etti ve yavaş mavnaya bindi.",
+      "notes": "Coordinate past verbs 'accepted and stepped aboard'."
+    },
+    {
+      "id": 206,
+      "start_ms": 1121716,
+      "end_ms": 1126900,
+      "text": "The woman soon asked Toad to wash a pile of laundry to pay for his passage.",
+      "translation": "Kadın çok geçmeden yol parasını ödemesi için Toad'dan bir yığın çamaşır yıkamasını istedi.",
+      "notes": "Verb + object + infinitive 'asked Toad to wash'; purpose phrase 'to pay for'."
+    },
+    {
+      "id": 207,
+      "start_ms": 1127300,
+      "end_ms": 1133156,
+      "text": "Toad, who had never done honest labor, scrubbed awkwardly with disastrous results.",
+      "translation": "Hayatında dürüstçe tek bir iş bile yapmamış olan Toad, felaket sonuçlarla beceriksizce çamaşır çitiledi.",
+      "notes": "Relative clause 'who had never done...'; adverb 'awkwardly'."
+    },
+    {
+      "id": 208,
+      "start_ms": 1133556,
+      "end_ms": 1139268,
+      "text": "He tangled the shirts, spilled soapy water everywhere, and tore a tablecloth.",
+      "translation": "Gömlekleri birbirine doladı, sabunlu suyu her yere döktü ve bir masa örtüsünü yırttı.",
+      "notes": "Series of past verbs describing ineptitude."
+    },
+    {
+      "id": 209,
+      "start_ms": 1139668,
+      "end_ms": 1144492,
+      "text": "The furious barge-woman burst out laughing and guessed he was an impostor.",
+      "translation": "Öfkeli mavnacı kadın kahkahayı bastı ve onun bir sahtekar olduğunu anladı.",
+      "notes": "Idiom 'burst out laughing'; noun clause 'he was an impostor'."
+    },
+    {
+      "id": 210,
+      "start_ms": 1144892,
+      "end_ms": 1149524,
+      "text": "She seized him by the collar and tossed him headlong into the muddy canal.",
+      "translation": "Onu yakasından kavradı ve çamurlu kanalın içine tepeüstü fırlattı.",
+      "notes": "Coordinate past actions; adverb 'headlong'."
+    },
+    {
+      "id": 211,
+      "start_ms": 1149924,
+      "end_ms": 1155060,
+      "text": "Toad splashed, choked, and swam angrily to the opposite towpath.",
+      "translation": "Toad sular sıçrattı, tıkandı ve öfkeyle karşı çekek yoluna doğru yüzdü.",
+      "notes": "Coordinate verbs 'splashed, choked, swam'; adverb 'angrily'."
+    },
+    {
+      "id": 212,
+      "start_ms": 1155460,
+      "end_ms": 1160164,
+      "text": "Soaked to the skin, his pride was wounded worse than his soggy body.",
+      "translation": "İliğine kadar ıslanmıştı; gururu sırılsıklam gövdesinden bile daha kötü yaralanmıştı.",
+      "notes": "Comparative passive 'was wounded worse than'; participle modifier 'soaked to the skin'."
+    },
+    {
+      "id": 213,
+      "start_ms": 1160564,
+      "end_ms": 1165532,
+      "text": "He saw the barge-horse tethered nearby and untied the halter in revenge.",
+      "translation": "Yakına bağlanmış mavna atını gördü ve intikam almak için yularını çözdü.",
+      "notes": "Coordinate past verbs; purpose phrase 'in revenge'."
+    },
+    {
+      "id": 214,
+      "start_ms": 1165932,
+      "end_ms": 1170468,
+      "text": "He mounted the heavy animal and galloped away along the canal bank.",
+      "translation": "Ağır hayvanın sırtına bindi ve kanal kıyısı boyunca dörtnala uzaklaştı.",
+      "notes": "Coordinate past actions; phrasal verb 'galloped away'."
+    },
+    {
+      "id": 215,
+      "start_ms": 1170868,
+      "end_ms": 1175956,
+      "text": "Down the road, he encountered an old gypsy cooking breakfast by a caravan.",
+      "translation": "Yolun ilerisinde, bir karavanın yanında kahvaltı pişiren yaşlı bir çingene ile karşılaştı.",
+      "notes": "Participle phrase 'cooking breakfast'; past verb 'encountered'."
+    },
+    {
+      "id": 216,
+      "start_ms": 1176356,
+      "end_ms": 1182572,
+      "text": "After a fierce bargaining session, Toad sold the stolen horse for six shillings and a hot pie.",
+      "translation": "Çetin bir pazarlık faslının ardından Toad, çalınan atı altı şilin ve sıcak bir börek karşılığında sattı.",
+      "notes": "Prepositional phrase 'after bargaining'; past verb 'sold'."
+    },
+    {
+      "id": 217,
+      "start_ms": 1182972,
+      "end_ms": 1188636,
+      "text": "Eating the warm meat pie, Toad felt his old arrogant pride returning in full force.",
+      "translation": "Sıcak etli böreği yerken Toad, o eski kibirli gururunun tüm gücüyle geri döndüğünü hissetti.",
+      "notes": "Participle clause 'eating the pie'; perception verb + participle 'felt pride returning'."
+    },
+    {
+      "id": 218,
+      "start_ms": 1189036,
+      "end_ms": 1194316,
+      "text": "'I am Toad the Great, the clever, the undefeated!' he sang loudly.",
+      "translation": "'Ben Muhteşem, zeki ve yenilmez Toad'um!' diye yüksek sesle şarkı söyledi.",
+      "notes": "Direct speech; series of proud epithets."
+    },
+    {
+      "id": 219,
+      "start_ms": 1194716,
+      "end_ms": 1199612,
+      "text": "He strode through the countryside, heading proudly back toward Toad Hall.",
+      "translation": "Kırsal alanda gururla adımlar atarak başı dik bir şekilde Toad Konağı'na doğru yöneldi.",
+      "notes": "Irregular past 'strode'; participle phrase 'heading proudly toward'."
+    },
+    {
+      "id": 220,
+      "start_ms": 1200012,
+      "end_ms": 1204980,
+      "text": "Little did he know what terrible disaster had fallen upon his ancestral home.",
+      "translation": "Atalarından kalma evinin başına nasıl korkunç bir felaketin geldiğinden hiç mi hiç haberi yoktu.",
+      "notes": "Inverted negative structure 'Little did he know'; past perfect relative clause."
+    },
+    {
+      "id": 221,
+      "start_ms": 1205980,
+      "end_ms": 1211404,
+      "text": "As Toad drew near his beloved estate, he stopped at Ratty's river home first.",
+      "translation": "Toad çok sevdiği mülküne yaklaşırken, önce Ratty'nin nehir evinde durdu.",
+      "notes": "Time clause 'as Toad drew near'; ordinal 'first'."
+    },
+    {
+      "id": 222,
+      "start_ms": 1211804,
+      "end_ms": 1216772,
+      "text": "Water Rat opened the door and gasped in utter bewilderment at the washerwoman.",
+      "translation": "Su Sıçanı kapıyı açtı ve çamaşırcı kadın karşısında tam bir şaşkınlıkla nefesini tuttu.",
+      "notes": "Coordinate past verbs 'opened and gasped'; noun phrase 'utter bewilderment'."
+    },
+    {
+      "id": 223,
+      "start_ms": 1217172,
+      "end_ms": 1222836,
+      "text": "'Toad!' cried Ratty, 'is it truly you, dressed in those horrible muddy rags?'",
+      "translation": "'Toad!' diye haykırdı Ratty, 'o korkunç çamurlu paçavralar içindeki gerçekten sen misin?'",
+      "notes": "Direct question; participial phrase 'dressed in rags'."
+    },
+    {
+      "id": 224,
+      "start_ms": 1223236,
+      "end_ms": 1229068,
+      "text": "Toad strutted inside, threw off his bonnet, and began bragging about his adventures.",
+      "translation": "Toad kasılarak içeri girdi, başlığını fırlatıp attı ve maceralarıyla övünmeye başladı.",
+      "notes": "Coordinate past verbs; phrasal verb 'bragging about'."
+    },
+    {
+      "id": 225,
+      "start_ms": 1229468,
+      "end_ms": 1236212,
+      "text": "'I escaped prison, fooled everyone, stole a horse, and outsmarted the world!' he boasted.",
+      "translation": "'Hapisten kaçtım, herkesi kandırdım, bir at çaldım ve bütün dünyayı alt ettim!' diye böbürlendi.",
+      "notes": "Series of past tense claims; transitive verb 'outsmarted'."
+    },
+    {
+      "id": 226,
+      "start_ms": 1236612,
+      "end_ms": 1241436,
+      "text": "Ratty looked at him with sad, troubled eyes and shook his head gravely.",
+      "translation": "Ratty ona hüzünlü, kederli gözlerle baktı ve başını ciddiyetle salladı.",
+      "notes": "Prepositional phrase 'with sad eyes'; adverb 'gravely'."
+    },
+    {
+      "id": 227,
+      "start_ms": 1241836,
+      "end_ms": 1247860,
+      "text": "'Stop your foolish bragging, Toad,' said Rat quietly, 'you do not know the news.'",
+      "translation": "'Aptalca böbürlenmeyi kes Toad,' dedi Rat sessizce, 'haberlerden haberin yok.'",
+      "notes": "Imperative 'stop your bragging'; negative present 'do not know'."
+    },
+    {
+      "id": 228,
+      "start_ms": 1248260,
+      "end_ms": 1253708,
+      "text": "'What news?' demanded Toad, suddenly feeling a cold dread in his stomach.",
+      "translation": "'Ne haberi?' diye sordu Toad, birdenbire midesinde soğuk bir korku hissederek.",
+      "notes": "Transitive past 'demanded'; participle phrase 'feeling a cold dread'."
+    },
+    {
+      "id": 229,
+      "start_ms": 1254108,
+      "end_ms": 1258932,
+      "text": "'Toad Hall has been captured,' whispered the Water Rat with deep sorrow.",
+      "translation": "'Toad Konağı ele geçirildi,' diye fısıldadı Su Sıçanı derin bir üzüntüyle.",
+      "notes": "Present perfect passive 'has been captured'; prepositional phrase 'with deep sorrow'."
+    },
+    {
+      "id": 230,
+      "start_ms": 1259332,
+      "end_ms": 1263916,
+      "text": "'The Wild Wooders took advantage of your imprisonment to seize your estate.'",
+      "translation": "'Vahşi Ormanlılar mülkünü zapt etmek için senin hapsedilmenden faydalandılar.'",
+      "notes": "Idiom 'took advantage of'; infinitive of purpose 'to seize'."
+    },
+    {
+      "id": 231,
+      "start_ms": 1264316,
+      "end_ms": 1270124,
+      "text": "'Weasels, stoats, and ferrets marched in with rifles and clubs one dark night.'",
+      "translation": "'Gelincikler, kakımlar ve kokarcalar karanlık bir gece tüfekler ve sopalarla içeri daldılar.'",
+      "notes": "Compound subject; prepositional phrase 'with rifles and clubs'."
+    },
+    {
+      "id": 232,
+      "start_ms": 1270524,
+      "end_ms": 1275444,
+      "text": "'Badger and I tried to defend it, but they were too numerous and drove us out.'",
+      "translation": "'Porsuk ve ben orayı savunmaya çalıştık fakat çok kalabalıktılar ve bizi dışarı sürdüler.'",
+      "notes": "Coordinate clauses; phrasal verb 'drove us out'."
+    },
+    {
+      "id": 233,
+      "start_ms": 1275844,
+      "end_ms": 1280668,
+      "text": "Toad collapsed into a chair, wailing loudly and tearing at his hair.",
+      "translation": "Toad avazı çıktığı kadar bağırıp saçını başını yolarak bir sandalyeye yığıldı.",
+      "notes": "Coordinate participles 'wailing loudly and tearing'."
+    },
+    {
+      "id": 234,
+      "start_ms": 1281068,
+      "end_ms": 1287620,
+      "text": "'My beautiful home!' sobbed Toad, 'the banqueting hall! The wine cellars!'",
+      "translation": "'Benim güzel evim!' diye hıçkırdı Toad, 'ziyafet salonu! Şarap mahzenleri!'",
+      "notes": "Exclamatory noun phrases; past verb 'sobbed'."
+    },
+    {
+      "id": 235,
+      "start_ms": 1288020,
+      "end_ms": 1293564,
+      "text": "'They are eating your food, drinking your wine, and mocking your name,' said Rat.",
+      "translation": "'Senin yiyeceklerini yiyorlar, şarabını içiyorlar ve senin adınla alay ediyorlar,' dedi Rat.",
+      "notes": "Parallel present continuous verbs; possessive determiners."
+    },
+    {
+      "id": 236,
+      "start_ms": 1293964,
+      "end_ms": 1299820,
+      "text": "Just then, Mr. Badger and Mole walked into the room, covered with dust and bandages.",
+      "translation": "Tam o sırada Bay Porsuk ve Mole, toz ve sargılar içinde odaya girdiler.",
+      "notes": "Time phrase 'just then'; passive participle modifier 'covered with dust'."
+    },
+    {
+      "id": 237,
+      "start_ms": 1300220,
+      "end_ms": 1305332,
+      "text": "Badger held a thick stick and nodded grimly to the weeping owner of Toad Hall.",
+      "translation": "Porsuk kalın bir sopa tutuyordu ve Toad Konağı'nın ağlayan sahibine sertçe başını salladı.",
+      "notes": "Coordinate past verbs 'held and nodded'; participial adjective 'weeping owner'."
+    },
+    {
+      "id": 238,
+      "start_ms": 1305732,
+      "end_ms": 1311180,
+      "text": "'Welcome home, Toad,' said Badger, 'now dry your tears and listen to me.'",
+      "translation": "'Evine hoş geldin Toad,' dedi Porsuk, 'şimdi gözyaşlarını kurula ve beni dinle.'",
+      "notes": "Imperative coordinate clauses 'dry tears and listen'."
+    },
+    {
+      "id": 239,
+      "start_ms": 1311580,
+      "end_ms": 1316596,
+      "text": "'We cannot attack the front gates against rifles, but there is a secret way.'",
+      "translation": "'Tüfeklere karşı ön kapılara saldıramayız fakat gizli bir yol var.'",
+      "notes": "Modal negative 'cannot attack'; existential 'there is'."
+    },
+    {
+      "id": 240,
+      "start_ms": 1316996,
+      "end_ms": 1322180,
+      "text": "Toad looked up through his swollen eyes, hope rekindling in his bruised heart.",
+      "translation": "Toad şişmiş gözlerinin arasından yukarı baktı; hırpalanmış kalbinde umut yeniden yeşerdi.",
+      "notes": "Absolute participle clause 'hope rekindling'; adjective 'swollen'."
+    },
+    {
+      "id": 241,
+      "start_ms": 1323180,
+      "end_ms": 1328220,
+      "text": "Badger sat at the table and leaned forward with an air of absolute secrecy.",
+      "translation": "Porsuk masaya oturdu ve tam bir gizlilik havasıyla öne doğru eğildi.",
+      "notes": "Coordinate past verbs 'sat and leaned'; noun phrase 'air of secrecy'."
+    },
+    {
+      "id": 242,
+      "start_ms": 1328620,
+      "end_ms": 1333876,
+      "text": "'Toad's late father showed me a secret tunnel before he died,' whispered Badger.",
+      "translation": "'Toad'un merhum babası ölmeden önce bana gizli bir tünel göstermişti,' diye fısıldadı Porsuk.",
+      "notes": "Time clause 'before he died'; past perfect / simple past."
+    },
+    {
+      "id": 243,
+      "start_ms": 1334276,
+      "end_ms": 1338716,
+      "text": "'The tunnel leads from the riverbank directly into the butler's pantry.'",
+      "translation": "'Tünel nehir kıyısından dosdoğru kahyanın kilerine çıkıyor.'",
+      "notes": "Present tense description; directional phrase 'directly into'."
+    },
+    {
+      "id": 244,
+      "start_ms": 1339116,
+      "end_ms": 1343700,
+      "text": "'Even Toad himself does not know about this subterranean passageway.'",
+      "translation": "'Toad'un kendisi bile bu yeraltı geçidinden haberdar değil.'",
+      "notes": "Emphatic reflexive 'Toad himself'; adjective 'subterranean'."
+    },
+    {
+      "id": 245,
+      "start_ms": 1344100,
+      "end_ms": 1348996,
+      "text": "Toad looked astonished, but remained silent under Badger's severe glare.",
+      "translation": "Toad şaşkına döndü ama Porsuk'un sert bakışı altında sessizliğini korudu.",
+      "notes": "Coordinate predicates; adjective 'astonished'."
+    },
+    {
+      "id": 246,
+      "start_ms": 1349396,
+      "end_ms": 1355564,
+      "text": "'Tonight,' continued Badger, 'the Chief Weasel gives a grand banquet to celebrate his victory.'",
+      "translation": "'Bu gece,' diye devam etti Porsuk, 'Baş Gelincik zaferini kutlamak için büyük bir ziyafet veriyor.'",
+      "notes": "Infinitive of purpose 'to celebrate'; title 'Chief Weasel'."
+    },
+    {
+      "id": 247,
+      "start_ms": 1355964,
+      "end_ms": 1360956,
+      "text": "'All the weasels will be feasting, drinking, and unarmed in the great hall.'",
+      "translation": "'Bütün gelincikler büyük salonda ziyafet çekiyor, içki içiyor ve silahsız olacaklar.'",
+      "notes": "Future continuous predicates; coordinate adjectives."
+    },
+    {
+      "id": 248,
+      "start_ms": 1361356,
+      "end_ms": 1365508,
+      "text": "'Only a few sentries will guard the outer gates and windows.'",
+      "translation": "'Sadece birkaç nöbetçi dış kapılarda ve pencerelerde nöbet tutacak.'",
+      "notes": "Future modal 'will guard'; adjective 'outer'."
+    },
+    {
+      "id": 249,
+      "start_ms": 1365908,
+      "end_ms": 1370756,
+      "text": "'We four will enter through the secret pantry and fall upon them like thunder!'",
+      "translation": "'Biz dördümüz gizli kilerden gireceğiz ve gök gürültüsü gibi üzerlerine çökeceğiz!'",
+      "notes": "Simile 'like thunder'; phrasal verb 'fall upon'."
+    },
+    {
+      "id": 250,
+      "start_ms": 1371156,
+      "end_ms": 1375596,
+      "text": "The friends spent the rest of the day cleaning weapons and preparing gear.",
+      "translation": "Dostlar günün geri kalanını silahları temizleyerek ve teçhizatı hazırlayarak geçirdiler.",
+      "notes": "Expression 'spent the day doing'; coordinate gerunds."
+    },
+    {
+      "id": 251,
+      "start_ms": 1375996,
+      "end_ms": 1381948,
+      "text": "Ratty provided each hero with a sword, a cutlass, a pistol, and a heavy cudgel.",
+      "translation": "Ratty her kahramana bir kılıç, bir pala, bir tabanca ve ağır bir sopa temin etti.",
+      "notes": "Transitive verb 'provided with'; list of weaponry."
+    },
+    {
+      "id": 252,
+      "start_ms": 1382348,
+      "end_ms": 1387676,
+      "text": "Mole scouted the edge of the estate in disguise and spread clever false rumors.",
+      "translation": "Mole kılık değiştirerek mülkün sınırında keşif yaptı ve akıllıca sahte söylentiler yaydı.",
+      "notes": "Coordinate past verbs; compound noun 'false rumors'."
+    },
+    {
+      "id": 253,
+      "start_ms": 1388076,
+      "end_ms": 1393332,
+      "text": "He tricked the sentries into believing that hundreds of badgers were approaching from the north.",
+      "translation": "Nöbetçileri kuzeyden yüzlerce porsuğun yaklaştığına inandırarak kandırdı.",
+      "notes": "Idiom 'tricked into believing'; relative clause."
+    },
+    {
+      "id": 254,
+      "start_ms": 1393732,
+      "end_ms": 1398916,
+      "text": "Night fell, dark, overcast, and silent over the winding river.",
+      "translation": "Kıvrıla kıvrıla akan nehrin üzerine gece karanlık, kapalı ve sessizce çöktü.",
+      "notes": "Coordinate adjectives 'dark, overcast, silent'; past verb 'fell'."
+    },
+    {
+      "id": 255,
+      "start_ms": 1399316,
+      "end_ms": 1404356,
+      "text": "The four companions slipped into a small rowboat and glided along the shore.",
+      "translation": "Dört yoldaş küçük bir sandala bindiler ve kıyı boyunca süzüldüler.",
+      "notes": "Phrasal verb 'slipped into'; coordinate past 'glided'."
+    },
+    {
+      "id": 256,
+      "start_ms": 1404756,
+      "end_ms": 1409436,
+      "text": "Beneath a curtain of heavy hanging roots, Badger parted the bushes.",
+      "translation": "Ağır sarkan köklerden bir perdenin altında Porsuk çalıları araladı.",
+      "notes": "Prepositional phrase 'beneath a curtain'; past verb 'parted'."
+    },
+    {
+      "id": 257,
+      "start_ms": 1409836,
+      "end_ms": 1415380,
+      "text": "A low brick archway opened into the deep, mysterious black subterranean tunnel.",
+      "translation": "Alçak tuğla bir kemer, derin ve gizemli kara yeraltı tüneline doğru açılıyordu.",
+      "notes": "Adjective string 'deep, mysterious black subterranean'; past verb 'opened'."
+    },
+    {
+      "id": 258,
+      "start_ms": 1415780,
+      "end_ms": 1421804,
+      "text": "They crawled inside in single file, feeling their way along wet, slimy walls.",
+      "translation": "Islak, sümüksü duvarlar boyunca yollarını el yordamıyla bularak tek sıra halinde içeri süründüler.",
+      "notes": "Participle phrase 'feeling their way'; manner phrase 'in single file'."
+    },
+    {
+      "id": 259,
+      "start_ms": 1422204,
+      "end_ms": 1428396,
+      "text": "From ahead, they could hear the faint sounds of music, stamping feet, and wild laughter.",
+      "translation": "İleriden müziğin, tepinen ayakların ve çılgın kahkahaların hafif seslerini duyabiliyorlardı.",
+      "notes": "Modal perception 'could hear'; list of sounds."
+    },
+    {
+      "id": 260,
+      "start_ms": 1428796,
+      "end_ms": 1433860,
+      "text": "The hour of retribution for the invaders of Toad Hall had finally arrived.",
+      "translation": "Toad Konağı'nı işgal edenler için intikam saati nihayet gelip çatmıştı.",
+      "notes": "Past perfect 'had finally arrived'; noun phrase 'hour of retribution'."
+    },
+    {
+      "id": 261,
+      "start_ms": 1434860,
+      "end_ms": 1439828,
+      "text": "The four companions reached the pantry door and paused to listen closely.",
+      "translation": "Dört yoldaş kiler kapısına ulaştılar ve dikkatle dinlemek için durakladılar.",
+      "notes": "Coordinate past verbs; infinitive of purpose 'to listen'."
+    },
+    {
+      "id": 262,
+      "start_ms": 1440228,
+      "end_ms": 1445916,
+      "text": "Inside the banqueting hall, a weasel was singing an insulting song about Mr. Toad.",
+      "translation": "Ziyafet salonunun içinde bir gelincik Bay Toad hakkında hakaret dolu bir şarkı söylüyordu.",
+      "notes": "Past continuous 'was singing'; participial adjective 'insulting'."
+    },
+    {
+      "id": 263,
+      "start_ms": 1446316,
+      "end_ms": 1451116,
+      "text": "The audience of stoats and ferrets banged their mugs and cheered insolently.",
+      "translation": "Kakımlar ve kokarcalardan oluşan dinleyiciler kupalarını masaya vuruyor ve küstahça alkışlıyordu.",
+      "notes": "Coordinate past verbs 'banged and cheered'."
+    },
+    {
+      "id": 264,
+      "start_ms": 1451516,
+      "end_ms": 1457012,
+      "text": "Toad's green skin turned dark with fury, and his eyes bulged dangerously.",
+      "translation": "Toad'un yeşil derisi öfkeden karardı ve gözleri tehlikeli bir şekilde yuvalarından fırladı.",
+      "notes": "Coordinate clauses; past verb 'bulged'."
+    },
+    {
+      "id": 265,
+      "start_ms": 1457412,
+      "end_ms": 1462596,
+      "text": "'The hour has struck!' roared Badger, 'follow me, and give no quarter!'",
+      "translation": "'Vakit tamamdır!' diye kükredi Porsuk, 'beni takip edin ve aman vermeyin!'",
+      "notes": "Imperative coordinates; idiom 'give no quarter'."
+    },
+    {
+      "id": 266,
+      "start_ms": 1462996,
+      "end_ms": 1467796,
+      "text": "Badger flung open the pantry door and charged into the brightly lit hall.",
+      "translation": "Porsuk kiler kapısını ardına kadar açtı ve ışıl ışıl aydınlatılmış salona hücum etti.",
+      "notes": "Coordinate past verbs 'flung open and charged'."
+    },
+    {
+      "id": 267,
+      "start_ms": 1468196,
+      "end_ms": 1473452,
+      "text": "He brandished his mighty cudgel, striking down weasels with terrible force.",
+      "translation": "Kudretli sopasını savurdu, korkunç bir kuvvetle gelincikleri yere serdi.",
+      "notes": "Participle phrase 'striking down weasels'; past verb 'brandished'."
+    },
+    {
+      "id": 268,
+      "start_ms": 1473852,
+      "end_ms": 1479228,
+      "text": "Ratty followed with gleaming cutlass, his whiskers bristling with warlike rage.",
+      "translation": "Ratty parıldayan palasıyla onu takip etti, bıyıkları savaşçı bir öfkeyle dikelmişti.",
+      "notes": "Absolute construction 'his whiskers bristling'; adjective 'warlike'."
+    },
+    {
+      "id": 269,
+      "start_ms": 1479628,
+      "end_ms": 1484596,
+      "text": "Mole whirled his quarterstaff like a windmill, shouting his battle cry.",
+      "translation": "Mole savaş naraları atarak değneğini bir yel değirmeni gibi fırıl fırıl döndürdü.",
+      "notes": "Simile 'like a windmill'; participle phrase 'shouting battle cry'."
+    },
+    {
+      "id": 270,
+      "start_ms": 1484996,
+      "end_ms": 1490732,
+      "text": "And Toad, roaring with the fury of twenty toads, leaped straight at the Chief Weasel.",
+      "translation": "Ve yirmi kurbağanın öfkesiyle kükreyen Toad, dosdoğru Baş Gelincik'in üzerine atladı.",
+      "notes": "Participial phrase 'roaring with fury'; past verb 'leaped straight at'."
+    },
+    {
+      "id": 271,
+      "start_ms": 1491132,
+      "end_ms": 1495956,
+      "text": "The invaders were struck with sheer paralyzing panic at the sudden onslaught.",
+      "translation": "İşgalciler bu ani saldırı karşısında katıksız, felç edici bir panikle donakaldılar.",
+      "notes": "Passive voice 'were struck with'; adjective 'paralyzing'."
+    },
+    {
+      "id": 272,
+      "start_ms": 1496356,
+      "end_ms": 1500940,
+      "text": "They thought a hundred furious monsters had dropped from the ceiling upon them.",
+      "translation": "Üzerlerine tavandan yüzlerce öfkeli canavarın indiğini sandılar.",
+      "notes": "Noun clause with past perfect 'had dropped upon them'."
+    },
+    {
+      "id": 273,
+      "start_ms": 1501340,
+      "end_ms": 1507028,
+      "text": "Tables overturned, goblets smashed, and candles were extinguished in the chaos.",
+      "translation": "Masalar devrildi, kadehler kırıldı ve kargaşada mumlar söndü.",
+      "notes": "Series of passive past clauses describing total chaos."
+    },
+    {
+      "id": 274,
+      "start_ms": 1507428,
+      "end_ms": 1513788,
+      "text": "Weasels and stoats dove through windows, scrambled up chimneys, and squeezed into drains.",
+      "translation": "Gelincikler ve kakımlar pencerelerden atladılar, bacalara tırmandılar ve su giderlerine sıkıştılar.",
+      "notes": "Series of past action verbs; directional prepositions."
+    },
+    {
+      "id": 275,
+      "start_ms": 1514188,
+      "end_ms": 1519492,
+      "text": "In less than ten minutes, the magnificent hall was completely cleared of enemies.",
+      "translation": "On dakikadan daha az bir sürede görkemli salon düşmanlardan tamamen temizlendi.",
+      "notes": "Time phrase 'in less than ten minutes'; passive 'was cleared of'."
+    },
+    {
+      "id": 276,
+      "start_ms": 1519892,
+      "end_ms": 1525268,
+      "text": "The Chief Weasel lay helpless on the floor, tied hand and foot by Mole.",
+      "translation": "Baş Gelincik, Mole tarafından eli ayağı bağlanmış halde yerde çaresiz yatıyordu.",
+      "notes": "Past participle modifier 'tied hand and foot'; adjective 'helpless'."
+    },
+    {
+      "id": 277,
+      "start_ms": 1525668,
+      "end_ms": 1530804,
+      "text": "Toad leaped upon the highest table and shouted for pure uncontrollable joy.",
+      "translation": "Toad en yüksek masanın üzerine zıpladı ve katıksız, zaptedilemez bir sevinçle haykırdı.",
+      "notes": "Prepositional phrase 'for pure joy'; superlative 'highest table'."
+    },
+    {
+      "id": 278,
+      "start_ms": 1531204,
+      "end_ms": 1536724,
+      "text": "'The Hall is ours once more!' he cried, 'Toad has vanquished all foes!'",
+      "translation": "'Konak bir kez daha bizim oldu!' diye haykırdı, 'Toad bütün düşmanları yendi!'",
+      "notes": "Present perfect 'has vanquished'; exclamatory direct speech."
+    },
+    {
+      "id": 279,
+      "start_ms": 1537124,
+      "end_ms": 1542332,
+      "text": "Badger wiped his sweaty brow and smiled through his battle-worn gray whiskers.",
+      "translation": "Porsuk terli alnını sildi ve savaştan yıpranmış gri bıyıklarının arasından gülümsedi.",
+      "notes": "Coordinate past verbs; compound adjective 'battle-worn'."
+    },
+    {
+      "id": 280,
+      "start_ms": 1542732,
+      "end_ms": 1547916,
+      "text": "The ancestral home of the Toad family was reclaimed forever by true friendship.",
+      "translation": "Toad ailesinin atalardan kalma evi, gerçek dostluk sayesinde sonsuza dek geri alınmıştı.",
+      "notes": "Passive voice 'was reclaimed'; cause phrase 'by true friendship'."
+    },
+    {
+      "id": 281,
+      "start_ms": 1548916,
+      "end_ms": 1554652,
+      "text": "The following morning, sunlight poured through the cleaned stained-glass windows of Toad Hall.",
+      "translation": "Ertesi sabah, güneş ışığı Toad Konağı'nın temizlenmiş vitraylı pencerelerinden içeri doldu.",
+      "notes": "Past verb 'poured through'; compound noun 'stained-glass windows'."
+    },
+    {
+      "id": 282,
+      "start_ms": 1555052,
+      "end_ms": 1559972,
+      "text": "The captured weasels were put to work scrubbing the floors and repairing the damage.",
+      "translation": "Esir alınan gelincikler yerleri ovma ve hasarı onarma işine koşuldular.",
+      "notes": "Passive idiom 'were put to work'; coordinate gerunds."
+    },
+    {
+      "id": 283,
+      "start_ms": 1560372,
+      "end_ms": 1565916,
+      "text": "Toad wanted to compose a long, boastful song praising his own heroic victory.",
+      "translation": "Toad kendi kahramanca zaferini öven uzun, övüngen bir şarkı bestelemek istedi.",
+      "notes": "Verb + infinitive 'wanted to compose'; participial phrase 'praising victory'."
+    },
+    {
+      "id": 284,
+      "start_ms": 1566316,
+      "end_ms": 1571380,
+      "text": "Mr. Badger took him aside and looked at him with stern, affectionate eyes.",
+      "translation": "Bay Porsuk onu bir kenara çekti ve ona sert fakat şefkatli gözlerle baktı.",
+      "notes": "Coordinate past verbs 'took aside and looked'; coordinate adjectives."
+    },
+    {
+      "id": 285,
+      "start_ms": 1571780,
+      "end_ms": 1577876,
+      "text": "'No songs, Toad,' said Badger firmly, 'no speeches and no foolish boasting.'",
+      "translation": "'Şarkı yok Toad,' dedi Porsuk kararlılıkla, 'konuşma yok ve aptalca böbürlenmek yok.'",
+      "notes": "Repeated negative determiner 'no'; adverb 'firmly'."
+    },
+    {
+      "id": 286,
+      "start_ms": 1578276,
+      "end_ms": 1583052,
+      "text": "'You must show true humility and gratitude to those who saved your honor.'",
+      "translation": "'Onurunu kurtaranlara karşı gerçek bir alçakgönüllülük ve minnet göstermelisin.'",
+      "notes": "Modal obligation 'must show'; relative clause 'who saved your honor'."
+    },
+    {
+      "id": 287,
+      "start_ms": 1583452,
+      "end_ms": 1589404,
+      "text": "Toad bowed his head, swallowed his vanity, and accepted the wise bear-like advice.",
+      "translation": "Toad başını öne eğdi, kibrini yuttu ve bu bilgece porsuk nasihatini kabul etti.",
+      "notes": "Series of past verbs showing genuine transformation."
+    },
+    {
+      "id": 288,
+      "start_ms": 1589804,
+      "end_ms": 1595132,
+      "text": "That evening, a grand banquet was given for all the friendly animals of the river.",
+      "translation": "O akşam, nehrin tüm dost canlısı hayvanları için görkemli bir ziyafet verildi.",
+      "notes": "Passive voice 'was given'; prepositional phrase 'for friendly animals'."
+    },
+    {
+      "id": 289,
+      "start_ms": 1595532,
+      "end_ms": 1601148,
+      "text": "Mole, Ratty, and Badger sat in places of honor beside the reformed host.",
+      "translation": "Mole, Ratty ve Porsuk, uslanmış ev sahibinin yanında şeref köşelerine oturdular.",
+      "notes": "Compound subject; participial adjective 'reformed host'."
+    },
+    {
+      "id": 290,
+      "start_ms": 1601548,
+      "end_ms": 1607284,
+      "text": "When the guests praised Toad, he simply smiled modestly and pointed to his friends.",
+      "translation": "Konuklar Toad'u övdüklerinde, o sadece mütevazı bir tebessüm etti ve dostlarını işaret etti.",
+      "notes": "Time clause 'when guests praised'; adverbs 'simply, modestly'."
+    },
+    {
+      "id": 291,
+      "start_ms": 1607684,
+      "end_ms": 1613324,
+      "text": "'It was they who planned, fought, and won,' said Toad with quiet sincerity.",
+      "translation": "'Planlayan, savaşan ve kazanan onlardı,' dedi Toad sessiz bir samimiyetle.",
+      "notes": "Cleft sentence 'It was they who...'; prepositional phrase 'with sincerity'."
+    },
+    {
+      "id": 292,
+      "start_ms": 1613724,
+      "end_ms": 1619100,
+      "text": "The whole company cheered loudly for the new, wiser, and humble Mr. Toad.",
+      "translation": "Bütün davetliler yeni, daha bilge ve alçakgönüllü Bay Toad için coşkuyla tezahürat yaptı.",
+      "notes": "Adjective comparative list 'new, wiser, humble'."
+    },
+    {
+      "id": 293,
+      "start_ms": 1619500,
+      "end_ms": 1625116,
+      "text": "Later that night, the three river friends walked down the avenue under silver moonlight.",
+      "translation": "O gecenin ilerleyen saatlerinde, üç nehir dostu gümüşi ay ışığı altında ağaçlıklı yoldan aşağı yürüdüler.",
+      "notes": "Time phrase 'later that night'; compound noun 'silver moonlight'."
+    },
+    {
+      "id": 294,
+      "start_ms": 1625516,
+      "end_ms": 1630148,
+      "text": "The peaceful water of the river lapped gently against the grassy banks.",
+      "translation": "Nehrin huzurlu suyu otlu kıyılara karşı tatlı tatlı çırpındı.",
+      "notes": "Adverb 'gently'; prepositional phrase 'against grassy banks'."
+    },
+    {
+      "id": 295,
+      "start_ms": 1630548,
+      "end_ms": 1635492,
+      "text": "Mole took Ratty's paw and smiled with profound, peaceful contentment.",
+      "translation": "Mole, Ratty'nin patisini tuttu ve derin, huzurlu bir memnuniyetle gülümsedi.",
+      "notes": "Coordinate adjectives 'profound, peaceful'; noun 'contentment'."
+    },
+    {
+      "id": 296,
+      "start_ms": 1635892,
+      "end_ms": 1641652,
+      "text": "'There is nothing half so much worth doing as simply messing about in boats,' murmured Rat.",
+      "translation": "'Şu dünyada kayıklarla öylesine oyalanmak kadar yapmaya değer hiçbir şey yoktur,' diye mırıldandı Rat.",
+      "notes": "Famous signature quotation from the classic book."
+    },
+    {
+      "id": 297,
+      "start_ms": 1642052,
+      "end_ms": 1646660,
+      "text": "Mole agreed with all his heart as they looked out over the sparkling stream.",
+      "translation": "Işıl ışıl parlayan akarsuya bakarlarken Mole tüm kalbiyle buna katıldı.",
+      "notes": "Idiom 'with all his heart'; time clause with 'as'."
+    },
+    {
+      "id": 298,
+      "start_ms": 1647060,
+      "end_ms": 1652076,
+      "text": "The Wild Wood was quiet, and peace had returned to the beloved countryside.",
+      "translation": "Vahşi Orman sessizdi ve çok sevilen kırsala barış geri dönmüştü.",
+      "notes": "Coordinate clauses; past perfect 'had returned'."
+    },
+    {
+      "id": 299,
+      "start_ms": 1652476,
+      "end_ms": 1657588,
+      "text": "The bonds of their unshakable friendship were sealed forever by the singing water.",
+      "translation": "Onların sarsılmaz dostluk bağları, şarkı söyleyen suyun kıyısında sonsuza dek mühürlenmişti.",
+      "notes": "Passive voice 'were sealed forever'; participial adjective 'singing water'."
+    },
+    {
+      "id": 300,
+      "start_ms": 1657988,
+      "end_ms": 1664012,
+      "text": "And so they lived on in honor, joy, and comradeship beside the whispering willows.",
+      "translation": "Ve böylece fısıldayan söğütlerin yanı başında onur, neşe ve yoldaşlık içinde yaşamaya devam ettiler.",
+      "notes": "Concluding coordinate nouns 'honor, joy, and comradeship'; participial adjective 'whispering willows'."
+    }
+  ]
+}
