@@ -13,7 +13,7 @@ Bu belge, **DictaLearn** projesinde bir sonraki oturumda uygulanacak olan **Faz 
 [TAMAMLANDI] Faz 3: Kullanıcı Deneyimi, Shadowing & Hata Defteri
 [TAMAMLANDI] Faz 4: Ders Oluşturucu & Dışa Aktarma (SRT/VTT + Zip)
 ═════════════════════════════════════════════════════════════════
-[SIRADA]     Faz 5: 100 Kitaplık Kademeli Kütüphane (15, 25, 35, 50 Sayfa)
+[SIRADA]     Faz 5: 100 Kitaplık Multimedya Kütüphanesi (PDF + WAV + MP4 + JSON)
 [SIRADA]     Faz 6: İkili Çalışma Modu (Kelime Kelime vs Cümle Cümle)
 [SIRADA]     Faz 7: Akıllı Türkçe Çeviri Sistemi (Android ML Kit & Web Sözlük)
 [SIRADA]     Faz 8: Yayın ve Paketleme (GitHub Pages & Release APK)
@@ -21,35 +21,41 @@ Bu belge, **DictaLearn** projesinde bir sonraki oturumda uygulanacak olan **Faz 
 
 ---
 
-## 📚 Faz 5 — 100 Kitaplık Kademeli Kütüphane
+## 📚 Faz 5 — 100 Kitaplık Multimedya Kütüphanesi (PDF + WAV + MP4 + JSON)
 
-**Amaç:** Kullanıcıya farklı uzunluk ve zorluklarda, sayfa sayısına göre net kademelendirilmiş zengin bir kamu malı okuma ve dinleme kütüphanesi sunmak.
+**Amaç:** 100 kitabın her biri için stüdyo kalitesinde insansı seslendirme (WAV), profesyonel dizgili PDF kitap ve altyazılı senkronize MP4 video eşliğinde kademelendirilmiş eksiksiz bir öğrenme kütüphanesi oluşturmak.
 
-### Kütüphane Kademeleri
+### Kütüphane Kademeleri:
 1. **25 Kitap x 15 Sayfa (Seviye 1 — Başlangıç / A1-A2)**:
    - Kısa fabllar, basitleştirilmiş dünya masalları ve temel diyaloglar.
-   - Ortalama cümle uzunluğu: 5-9 kelime.
+   - Her kitap için: **15 Sayfa PDF Kitap + Stüdyo WAV Sesi + Senkronize MP4 Video + JSON**.
    - Örnekler: *The Happy Prince*, *The Selfish Giant*, *Aesop's Classic Fables*, *The Tortoise and the Hare*, *The Little Red Hen*.
 2. **25 Kitap x 25 Sayfa (Seviye 2 — Orta-Alt / B1)**:
    - Popüler kısa klasikler ve macera öyküleri.
-   - Ortalama cümle uzunluğu: 8-14 kelime.
+   - Her kitap için: **25 Sayfa PDF Kitap + Stüdyo WAV Sesi + Senkronize MP4 Video + JSON**.
    - Örnekler: *A Scandal in Bohemia (Sherlock Holmes)*, *The Gift of the Magi*, *White Fang (Adapted)*, *The Secret Garden (Ch. 1-3)*.
 3. **25 Kitap x 35 Sayfa (Seviye 3 — Orta / B2)**:
    - Orta seviye edebi öyküler, gizem ve denemeler.
-   - Ortalama cümle uzunluğu: 12-18 kelime.
+   - Her kitap için: **35 Sayfa PDF Kitap + Stüdyo WAV Sesi + Senkronize MP4 Video + JSON**.
    - Örnekler: *The Red-Headed League*, *The Picture of Dorian Gray (Selection)*, *The Time Machine (H.G. Wells)*.
 4. **25 Kitap x 50 Sayfa (Seviye 4 — İleri / C1)**:
    - İleri seviye orijinal roman bölümleri, felsefi ve edebi başyapıtlar.
-   - Ortalama cümle uzunluğu: 15-25 kelime.
+   - Her kitap için: **50 Sayfa PDF Kitap + Stüdyo WAV Sesi + Senkronize MP4 Video + JSON**.
    - Örnekler: *Frankenstein*, *Great Expectations*, *Dracula (Excerpts)*, *Pride and Prejudice*.
 
 ### Görev Listesi:
-- [ ] **F5.1 Kütüphane Şeması ve İndeksleme**:
-  - `library/index.json`: Kitap ID, başlık, yazar, seviye (1-4), sayfa sayısı (15/25/35/50), tahmini süre, kelime sayısı ve kapak resmi.
-- [ ] **F5.2 - F5.5 Kitap Üretimi ve Paketleme**:
-  - 100 kitabın her biri için doğrulanmış `lesson.json` ve ses dosyaları.
-- [ ] **F5.6 Kütüphane Gezgini ve Filtreleme Ekranı (Web & Android)**:
-  - Sayfa sayısına (15, 25, 35, 50 sayfa), zorluk seviyesine ve tamamlanma durumuna göre arama ve filtreleme UI.
+- [ ] **F5.1 Multimedya Kütüphane Şeması ve İndeksleme**:
+  - `library/index.json`: Kitap ID, başlık, yazar, seviye (1-4), sayfa sayısı (15/25/35/50), tahmini süre, PDF yolu, WAV yolu, MP4 yolu ve kapak resmi.
+- [ ] **F5.2 Doğal ve İnsansı Seslendirme Hattı (WAV / Studio TTS)**:
+  - Eski mekanik sesler yerine, 2026'nın en iyi açık kaynak ve doğal ses motorları (Kokoro v1.0 veya Microsoft Edge Neural sesleri: Christopher/Guy/Jenny/Ryan) ile stüdyo netliğinde, tonlamalı ve nefes alan ses üretimi.
+- [ ] **F5.3 Profesyonel PDF Kitap Üretimi**:
+  - 100 kitabın her biri için sayfa sayfa (15, 25, 35, 50 sayfa), kapak, şık tipografi, sayfa numaraları ve alt/yan kelime notları içeren indirilebilir ve okunabilir PDF kitaplar.
+- [ ] **F5.4 Senkronize MP4 Video Üretimi**:
+  - Ses ile görsel metnin/sayfanın senkron aktığı, cümle/kelime vurgulu video formatı.
+- [ ] **F5.5 - F5.8 Kademeli 100 Kitap Üretimi (25x15, 25x25, 25x35, 25x50)**:
+  - Her biri için PDF, WAV, MP4 ve JSON paketlerinin eksiksiz oluşturulması.
+- [ ] **F5.9 Kütüphane Gezgini ve PDF/Video Oynatıcı (Web & Android)**:
+  - Sayfa sayısına (15, 25, 35, 50 sayfa), zorluk seviyesine ve tamamlanma durumuna göre filtreleme/arama ekranı; uygulama içi PDF okuyucu ve MP4 video oynatıcı entegrasyonu.
 
 ---
 

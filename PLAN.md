@@ -231,16 +231,19 @@ export interface AudioEngine {
 
 ---
 
-### Faz 5 — 100 Kitaplık Kademeli Kütüphane
+### Faz 5 — 100 Kitaplık Multimedya Kütüphanesi (PDF + WAV + MP4 + JSON)
 
-**Amaç:** Kullanıcıya farklı uzunluk ve zorluklarda zengin bir okuma/dinleme içeriği sunmak.
+**Amaç:** 100 kitabın her biri için stüdyo kalitesinde doğal insan seslendirmesi (WAV), profesyonel dizgili PDF kitap ve senkronize MP4 video eşliğinde kademelendirilmiş eksiksiz bir öğrenme kütüphanesi oluşturmak.
 
-- [ ] **F5.1 Kütüphane Şeması ve İndeksleme:** Kitapların sayfa sayısı, tahmini okuma süresi ve zorluk seviyelerine göre metaveri yapısı.
-- [ ] **F5.2 25 Kitap x 15 Sayfa (Seviye 1):** Kısa hikayeler, fabllar ve temel seviye kamu malı metinler.
-- [ ] **F5.3 25 Kitap x 25 Sayfa (Seviye 2):** Orta-alt seviye adaptasyonlar ve popüler kısa klasikler.
-- [ ] **F5.4 25 Kitap x 35 Sayfa (Seviye 3):** Orta seviye öykü ve denemeler.
-- [ ] **F5.5 25 Kitap x 50 Sayfa (Seviye 4):** İleri seviye romanlar ve derin edebi metinler.
-- [ ] **F5.6 Kütüphane Gezgini ve Filtreleme:** Web ve Android'de sayfa sayısına ve ilerleme durumuna göre filtreleme/arama ekranı.
+- [ ] **F5.1 Multimedya Kütüphane Şeması ve İndeksleme:** Kitap ID, başlık, yazar, seviye (1-4), sayfa sayısı (15/25/35/50), tahmini süre, PDF/WAV/MP4 dosya yolları ve metaveri yapısı.
+- [ ] **F5.2 Doğal ve İnsansı Seslendirme Hattı (WAV / Studio TTS):** Robotik/eski sesler yerine Kokoro v1.0 veya Microsoft Edge Neural sesleri (Christopher/Guy/Jenny/Ryan) ile stüdyo kalitesinde, tonlamalı ve nefes alan kristal netliğinde seslendirme.
+- [ ] **F5.3 Profesyonel PDF Kitap Üretimi:** 100 kitabın her biri için sayfa sayfa (15, 25, 35, 50 sayfa), kapak, şık tipografi, sayfa numaraları ve alt/yan kelime notları içeren indirilebilir ve okunabilir PDF kitaplar.
+- [ ] **F5.4 Senkronize MP4 Video Üretimi:** Ses ile görsel metnin senkron aktığı, cümle/kelime vurgulu video formatı.
+- [ ] **F5.5 25 Kitap x 15 Sayfa (Seviye 1 — A1/A2):** Fabllar ve temel seviye metinler (PDF + WAV + MP4 + JSON).
+- [ ] **F5.6 25 Kitap x 25 Sayfa (Seviye 2 — B1):** Kısa klasikler ve macera öyküleri (PDF + WAV + MP4 + JSON).
+- [ ] **F5.7 25 Kitap x 35 Sayfa (Seviye 3 — B2):** Orta seviye öykü ve gizem metinleri (PDF + WAV + MP4 + JSON).
+- [ ] **F5.8 25 Kitap x 50 Sayfa (Seviye 4 — C1):** İleri seviye romanlar ve derin edebi metinler (PDF + WAV + MP4 + JSON).
+- [ ] **F5.9 Kütüphane Gezgini ve PDF/Video Oynatıcı:** Web ve Android'de sayfa sayısına ve seviyeye göre arama/filtreleme, PDF okuma ve MP4 izleme/dinleme arayüzü.
 
 ---
 
