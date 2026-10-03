@@ -213,11 +213,11 @@ export interface AudioEngine {
 
 **Amaç:** Düzeltme akışının tamamlanması, shadowing adımı ve yanlış kelimelerin Hata Defterine kaydedilmesi.
 
-- [ ] **F3.1 Düzeltme Akışı:** `reviewing` durumunda yanlış kelime varsa kullanıcının cümleyi doğru haliyle yeniden yazması.
-- [ ] **F3.2 Shadowing Adımı:** Çeviri aç/kapa (`Ctrl+T`), cümle notları, sesi tekrar dinleyip sesli tekrar etme.
-- [ ] **F3.3 Hata Defteri Deposu:** Yanlış yazılan (`substitute`) ve unutulan (`missing`) kelimelerin yerel olarak saklanması.
-- [ ] **F3.4 Ders Sonu Özeti Ekranı:** Tamamlanan dersteki doğruluk yüzdesi, toplam tekrar sayısı ve hatalı kelimeler.
-- [ ] **F3.5 Hız Kontrolü:** 0.75x, 1.0x, 1.25x hız seçenekleri ve kalıcılığı.
+- [x] **F3.1 Düzeltme Akışı:** `reviewing` durumunda yanlış kelime varsa kullanıcının cümleyi doğru haliyle yeniden yazması.
+- [x] **F3.2 Shadowing Adımı:** Çeviri aç/kapa (`Ctrl+T`), cümle notları, sesi tekrar dinleyip sesli tekrar etme.
+- [x] **F3.3 Hata Defteri Deposu:** Yanlış yazılan (`substitute`) ve unutulan (`missing`) kelimelerin yerel olarak saklanması.
+- [x] **F3.4 Ders Sonu Özeti Ekranı:** Tamamlanan dersteki doğruluk yüzdesi, toplam tekrar sayısı ve hatalı kelimeler.
+- [x] **F3.5 Hız Kontrolü:** 0.75x, 1.0x, 1.25x hız seçenekleri ve kalıcılığı.
 
 ---
 
