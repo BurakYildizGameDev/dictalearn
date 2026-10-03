@@ -150,6 +150,13 @@ const PRESET_LESSONS: PresetLesson[] = [
     pdfUrl: '/lessons/book_19_gullivers_travels/book_19_gullivers_travels.pdf',
   },
   {
+    id: 'book_20_treasure_island',
+    name: "20. Treasure Island (15 Sayfa / 300 Cümle)",
+    jsonUrl: '/lessons/book_20_treasure_island/lesson.json',
+    audioUrl: '/lessons/book_20_treasure_island/audio.mp3',
+    pdfUrl: '/lessons/book_20_treasure_island/book_20_treasure_island.pdf',
+  },
+  {
     id: 'sample_ch01',
     name: 'Demo: The Departure (6 Cümle)',
     jsonUrl: '/lessons/sample_ch01/lesson.json',

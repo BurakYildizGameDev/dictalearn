@@ -1,0 +1,2414 @@
+{
+  "schema_version": 1,
+  "lesson_id": "book_20_treasure_island",
+  "title": "Treasure Island (15 Sayfa / 300 Cümle / Graded Reader)",
+  "source_lang": "en",
+  "target_lang": "tr",
+  "audio_file": "audio.mp3",
+  "attribution": {
+    "source": "Robert Louis Stevenson / Graded Reader Adaptasyonu (15 Sayfa x 20 Cümle)",
+    "license": "Public Domain / Educational Fair Use"
+  },
+  "segments": [
+    {
+      "id": 1,
+      "start_ms": 300,
+      "end_ms": 6060,
+      "text": "Squire Trelawney and Dr. Livesey asked me to write down the whole story of Treasure Island.",
+      "translation": "Lord Trelawney ve Doktor Livesey, Define Adası'nın tüm hikayesini baştan sona yazmamı istediler.",
+      "notes": "ask someone to do something: birinden bir şey yapmasını rica etmek / istemek"
+    },
+    {
+      "id": 2,
+      "start_ms": 6460,
+      "end_ms": 12724,
+      "text": "My name is Jim Hawkins, and I will keep nothing back except the exact location of the island.",
+      "translation": "Benim adım Jim Hawkins ve adanın tam konumu dışında hiçbir şeyi gizlemeden anlatacağım.",
+      "notes": "keep back: saklamak, gizli tutmak; except: ... haricinde, dışında"
+    },
+    {
+      "id": 3,
+      "start_ms": 13124,
+      "end_ms": 19124,
+      "text": "The adventure began when an old seaman took up lodging at my father's inn, the Admiral Benbow.",
+      "translation": "Macera, yaşlı bir denizcinin babamın işlettiği Amiral Benbow Hanı'nda konaklamaya başlamasıyla açıldı.",
+      "notes": "take up lodging: konaklamak, yerleşmek; inn: han, küçük konukevi"
+    },
+    {
+      "id": 4,
+      "start_ms": 19524,
+      "end_ms": 25476,
+      "text": "He was a tall, heavy man with sunburnt skin and a brown pigtail hanging down his back.",
+      "translation": "Güneşten yanmış teni ve sırtından aşağı sarkan kahverengi örgülü saçıyla uzun boylu, iri yapılı bir adamdı.",
+      "notes": "sunburnt: güneşten yanmış; pigtail: örgü saç"
+    },
+    {
+      "id": 5,
+      "start_ms": 25876,
+      "end_ms": 31660,
+      "text": "A white, dirty sabre cut ran across one cheek, giving his face an angry look.",
+      "translation": "Yanağını boydan boya kesen kirli beyaz bir kılıç izi, yüzüne öfkeli bir ifade veriyordu.",
+      "notes": "sabre cut: kılıç yarası; cheek: yanak"
+    },
+    {
+      "id": 6,
+      "start_ms": 32060,
+      "end_ms": 36860,
+      "text": "Behind him, a man carried a heavy sea-chest on a wooden handbarrow.",
+      "translation": "Arkasında bir adam, tahta bir el arabası üzerinde ağır bir denizci sandığı taşıyordu.",
+      "notes": "sea-chest: denizci sandığı; handbarrow: el arabası"
+    },
+    {
+      "id": 7,
+      "start_ms": 37260,
+      "end_ms": 42156,
+      "text": "The old seaman called for a glass of rum and drank it slowly at the door.",
+      "translation": "Yaşlı denizci bir kadeh rom istedi ve onu kapının önünde yavaşça yudumladı.",
+      "notes": "call for: talep etmek, istemek"
+    },
+    {
+      "id": 8,
+      "start_ms": 42556,
+      "end_ms": 47500,
+      "text": "He looked out over the stormy sea and the lonely cliffs surrounding our cove.",
+      "translation": "Fırtınalı denize ve koyumuzu çevreleyen ıssız sarp kayalıklara doğru baktı.",
+      "notes": "cliffs: sarp kayalıklar, uçurumlar; cove: küçük koy, körfez"
+    },
+    {
+      "id": 9,
+      "start_ms": 47900,
+      "end_ms": 53252,
+      "text": "\"This is a pleasant cove,\" he said gruffly, \"and the tavern is well situated.\"",
+      "translation": "\"Burası güzel bir koy,\" dedi boğuk bir sesle, \"ve meyhanenin konumu oldukça elverişli.\"",
+      "notes": "gruffly: boğuk ve sert bir sesle; well situated: konumu güzel, iyi yerde"
+    },
+    {
+      "id": 10,
+      "start_ms": 53652,
+      "end_ms": 58860,
+      "text": "He threw down three gold pieces and told my father to call him simply Captain.",
+      "translation": "Yere üç altın sikke attı ve babama kendisine yalnızca Kaptan diye hitap etmesini söyledi.",
+      "notes": "throw down: fırlatıp atmak; gold piece: altın para / sikke"
+    },
+    {
+      "id": 11,
+      "start_ms": 59260,
+      "end_ms": 64372,
+      "text": "Every morning, he took his brass telescope and walked along the windy cliffs.",
+      "translation": "Her sabah pirinç dürbününü alır ve rüzgarlı kayalıklar boyunca yürüyüşe çıkardı.",
+      "notes": "brass telescope: pirinç el dürbünü; windy: rüzgarlı"
+    },
+    {
+      "id": 12,
+      "start_ms": 64772,
+      "end_ms": 69716,
+      "text": "All day long, he watched the horizon for passing sailing ships.",
+      "translation": "Bütün gün boyunca ufukta geçen yelkenli gemileri dikkatle gözlerdi.",
+      "notes": "horizon: ufuk çizgisi; sailing ship: yelkenli gemi"
+    },
+    {
+      "id": 13,
+      "start_ms": 70116,
+      "end_ms": 75564,
+      "text": "One evening, he promised me a silver fourpenny coin each month if I kept watch.",
+      "translation": "Bir akşam, eğer etrafı gözetlersem bana her ay gümüş bir peni madeni para vereceğini vadetti.",
+      "notes": "keep watch: nöbet tutmak, göz kulak olmak"
+    },
+    {
+      "id": 14,
+      "start_ms": 75964,
+      "end_ms": 81124,
+      "text": "\"Keep your eyes open for a seafaring man with one leg,\" he whispered darkly.",
+      "translation": "\"Gözlerini dört aç ve tek bacaklı bir denizci görürsen hemen haber ver,\" diye fısıldadı karanlıkça.",
+      "notes": "keep eyes open: gözünü açık tutmak; seafaring man: denizci"
+    },
+    {
+      "id": 15,
+      "start_ms": 81524,
+      "end_ms": 86036,
+      "text": "That one-legged sailor haunted my dreams for many terrible nights.",
+      "translation": "O tek bacaklı denizci, birçok korkunç gece boyunca rüyalarıma kabus gibi girdi.",
+      "notes": "haunt dreams: rüyalarına musallat olmak, kabus olmak"
+    },
+    {
+      "id": 16,
+      "start_ms": 86436,
+      "end_ms": 91596,
+      "text": "At night, the captain drank too much rum and sang loud sea songs.",
+      "translation": "Geceleri kaptan haddinden fazla rom içer ve yüksek sesle deniz türküleri söylerdi.",
+      "notes": "drink too much: aşırı içmek; sea song: gemici şarkısı"
+    },
+    {
+      "id": 17,
+      "start_ms": 91996,
+      "end_ms": 98188,
+      "text": "\"Fifteen men on the dead man's chest, yo-ho-ho, and a bottle of rum!\" he shouted.",
+      "translation": "\"Ölü adamın sandığında on beş kişi, yo-ho-ho ve bir şişe rom!\" diye bağırırdı.",
+      "notes": "dead man's chest: ölü adamın sandığı (ünlü korsan nakaratı)"
+    },
+    {
+      "id": 18,
+      "start_ms": 98588,
+      "end_ms": 103388,
+      "text": "The neighbors feared him, for he slammed the table and commanded silence.",
+      "translation": "Komşular ondan çok korkardı çünkü masaya yumruk vurur ve herkesin susmasını emrederdi.",
+      "notes": "slam the table: masaya sertçe vurmak; command: emretmek"
+    },
+    {
+      "id": 19,
+      "start_ms": 103788,
+      "end_ms": 109740,
+      "text": "He spoke of hanging pirates, walking the plank, and wild storms on the Spanish Main.",
+      "translation": "Asılan korsanlardan, kalas üzerinde yürütülüp denize atılanlardan ve İspanyol Denizleri'ndeki vahşi fırtınalardan bahsederdi.",
+      "notes": "walk the plank: korsanların esirleri denize atma cezası; Spanish Main: Karayip Denizi kıyıları"
+    },
+    {
+      "id": 20,
+      "start_ms": 110140,
+      "end_ms": 114748,
+      "text": "Our quiet country inn seemed turned into a dangerous pirate hideout.",
+      "translation": "Bizim sakin kır hanımız adeta tehlikeli bir korsan sığınağına dönüşmüş gibiydi.",
+      "notes": "turn into: ...e dönüşmek; hideout: sığınak, gizlenme yeri"
+    },
+    {
+      "id": 21,
+      "start_ms": 115748,
+      "end_ms": 120596,
+      "text": "One bitter winter morning, a pale stranger appeared at the door of the inn.",
+      "translation": "Dondurucu bir kış sabahı, hanın kapısında solgun yüzlü bir yabancı belirdi.",
+      "notes": "bitter winter: dondurucu kış; pale stranger: solgun yabancı"
+    },
+    {
+      "id": 22,
+      "start_ms": 120996,
+      "end_ms": 125700,
+      "text": "He had two fingers missing from his left hand and wore a heavy cutlass.",
+      "translation": "Sol elinde iki parmağı eksikti ve belinde ağır bir pala taşıyordu.",
+      "notes": "missing fingers: eksik parmaklar; cutlass: kısa eğri korsan kılıcı"
+    },
+    {
+      "id": 23,
+      "start_ms": 126100,
+      "end_ms": 131428,
+      "text": "\"Is this here table for my mate Bill?\" the stranger asked with an unpleasant grin.",
+      "translation": "\"Şu masa benim eski dostum Bill için mi ayrıldı?\" diye sordu yabancı tekinsiz bir sırıtışla.",
+      "notes": "mate: arkadaş, denizci yoldaşı; unpleasant grin: nahoş sırıtış"
+    },
+    {
+      "id": 24,
+      "start_ms": 131828,
+      "end_ms": 136868,
+      "text": "When the captain returned from his cliff walk, his face turned completely white.",
+      "translation": "Kaptan kayalıklardaki yürüyüşünden döndüğünde yüzü bembeyaz kesildi.",
+      "notes": "turn white: bembeyaz olmak, rengi atmak"
+    },
+    {
+      "id": 25,
+      "start_ms": 137268,
+      "end_ms": 142908,
+      "text": "\"Black Dog!\" cried the captain, staring in disbelief at the unwanted visitor.",
+      "translation": "\"Kara Köpek!\" diye haykırdı kaptan, istenmeyen misafire şaşkınlıkla bakarak.",
+      "notes": "stare in disbelief: inanamayarak dik dik bakmak"
+    },
+    {
+      "id": 26,
+      "start_ms": 143308,
+      "end_ms": 148900,
+      "text": "They sat down together to talk, but their voices quickly rose in furious anger.",
+      "translation": "Konuşmak için birlikte oturdular ama sesleri çok geçmeden öfkeyle yükseldi.",
+      "notes": "rise in anger: öfkeyle yükselmek"
+    },
+    {
+      "id": 27,
+      "start_ms": 149300,
+      "end_ms": 155948,
+      "text": "Suddenly, chairs crashed, steel clashed, and Black Dog ran out bleeding from his shoulder.",
+      "translation": "Birdenbire sandalyeler devrildi, kılıç sesleri çınladı ve Kara Köpek omzundan kanlar akarak dışarı kaçtı.",
+      "notes": "clash: çarpışmak, kılıç şakırtısı çıkarmak; bleed: kanamak"
+    },
+    {
+      "id": 28,
+      "start_ms": 156348,
+      "end_ms": 161868,
+      "text": "The captain stood gasping for breath, then collapsed heavily onto the wooden floor.",
+      "translation": "Kaptan nefes nefese öylece kaldı, ardından tahta zemine boylu boyunca yığıldı.",
+      "notes": "gasp for breath: nefes nefese kalmak; collapse: bayılmak, yığılmak"
+    },
+    {
+      "id": 29,
+      "start_ms": 162268,
+      "end_ms": 167356,
+      "text": "Dr. Livesey arrived just in time and warned the captain that rum was killing him.",
+      "translation": "Doktor Livesey tam zamanında yetişti ve kaptanı fazla romun onu öldürmekte olduğu konusunda uyardı.",
+      "notes": "in time: tam vaktinde; warn: uyarmak"
+    },
+    {
+      "id": 30,
+      "start_ms": 167756,
+      "end_ms": 174356,
+      "text": "\"You have suffered a stroke, Billy Bones,\" the doctor said sternly, \"and another drink will finish you.\"",
+      "translation": "\"Bir felç geçirdin Billy Bones,\" dedi doktor sertçe, \"ve bir yudum daha içki senin sonun olur.\"",
+      "notes": "suffer a stroke: inme / felç geçirmek; sternly: sert bir şekilde"
+    },
+    {
+      "id": 31,
+      "start_ms": 174756,
+      "end_ms": 180636,
+      "text": "A few days later, my poor father passed away, leaving our family in deep grief.",
+      "translation": "Birkaç gün sonra zavallı babam vefat etti ve ailemizi derin bir keder içinde bıraktı.",
+      "notes": "pass away: vefat etmek; deep grief: derin keder / yas"
+    },
+    {
+      "id": 32,
+      "start_ms": 181036,
+      "end_ms": 186556,
+      "text": "On the afternoon of the funeral, a blind man came tapping his stick up the frozen road.",
+      "translation": "Cenazenin olduğu günün öğleden sonrasında, kör bir adam donmuş yolda bastonunu tıkırdatarak çıkageldi.",
+      "notes": "tap a stick: bastonu yere vurmak; funeral: cenaze töreni"
+    },
+    {
+      "id": 33,
+      "start_ms": 186956,
+      "end_ms": 191876,
+      "text": "He wore a tattered sea-cloak and had a cloth bound over his sightless eyes.",
+      "translation": "Eski püskü bir denizci pelerini giymişti ve görmeyen gözlerinin üzerine bir bez sarılmıştı.",
+      "notes": "tattered: yırtık pırtık; sightless: kör, görmeyen"
+    },
+    {
+      "id": 34,
+      "start_ms": 192276,
+      "end_ms": 197412,
+      "text": "\"Will any kind friend tell a poor blind man where he has arrived?\" he begged.",
+      "translation": "\"Yardımsever bir dost, zavallı bir kör adama nereye vardığını söyler mi acaba?\" diye yalvardı.",
+      "notes": "kind friend: iyi kalpli dost; beg: yalvarmak, dilenmek"
+    },
+    {
+      "id": 35,
+      "start_ms": 197812,
+      "end_ms": 203644,
+      "text": "I offered him my hand, but his cold fingers closed around my wrist like iron pincers.",
+      "translation": "Ona elimi uzattım fakat soğuk parmakları bileğimi demir bir kıskaç gibi kavradı.",
+      "notes": "iron pincers: demir kıskaç; wrist: el bileği"
+    },
+    {
+      "id": 36,
+      "start_ms": 204044,
+      "end_ms": 209420,
+      "text": "\"Lead me straight to the captain, boy, or I will break your arm!\" he hissed.",
+      "translation": "\"Beni doğrudan kaptana götür çocuk, yoksa kolunu kırarım!\" diye tısladı.",
+      "notes": "lead: yol göstermek, götürmek; hiss: tıslamak, fısıldamak"
+    },
+    {
+      "id": 37,
+      "start_ms": 209820,
+      "end_ms": 215508,
+      "text": "Terrified, I obeyed and led the blind monster into the room where Bones lay weak.",
+      "translation": "Dehşete kapılmış halde boyun eğdim ve kör canavarı Bones'un bitkin yattığı odaya soktum.",
+      "notes": "terrified: dehşete düşmüş; obey: itaat etmek"
+    },
+    {
+      "id": 38,
+      "start_ms": 215908,
+      "end_ms": 221380,
+      "text": "The blind beggar pressed a small piece of dark paper into the captain's trembling palm.",
+      "translation": "Kör dilenci, kaptanın titreyen avucuna küçük koyu renkli bir kağıt parçası sıkıştırdı.",
+      "notes": "trembling palm: titreyen avuç içi; press into: eline tutuşturmak"
+    },
+    {
+      "id": 39,
+      "start_ms": 221780,
+      "end_ms": 228020,
+      "text": "\"Now that is done!\" the blind creature cried, turning and vanishing into the foggy mist.",
+      "translation": "\"İşte bu iş tamam!\" diye bağırdı kör mahluk ve dönüp sislerin arasında kayboldu.",
+      "notes": "vanish: gözden kaybolmak; foggy mist: sisli pus"
+    },
+    {
+      "id": 40,
+      "start_ms": 228420,
+      "end_ms": 234204,
+      "text": "The captain looked at the paper, whispered 'The Black Spot!', and fell dead upon the floor.",
+      "translation": "Kaptan kağıda baktı, 'Kara Leke!' diye fısıldadı ve zemine cansız bir şekilde yığıldı.",
+      "notes": "The Black Spot: Kara Leke (korsanların ölüm fermanı işareti); fall dead: cansız yere düşmek"
+    },
+    {
+      "id": 41,
+      "start_ms": 235204,
+      "end_ms": 239932,
+      "text": "My mother and I knew that the dead pirate's crew would come back to search the inn.",
+      "translation": "Annem ve ben, ölü korsanın tayfasının hanı aramak için geri döneceğini biliyorduk.",
+      "notes": "crew: mürettebat, çete; search: aramak, didik didik etmek"
+    },
+    {
+      "id": 42,
+      "start_ms": 240332,
+      "end_ms": 245468,
+      "text": "We ran through the cold fog to the nearby hamlet to ask the villagers for help.",
+      "translation": "Köylülerden yardım istemek için soğuk sisin içinden yakındaki mezraya koştuk.",
+      "notes": "hamlet: küçük köy, mezra; villager: köylü"
+    },
+    {
+      "id": 43,
+      "start_ms": 245868,
+      "end_ms": 252204,
+      "text": "Nobody had the courage to return with us, for the terrifying name of Captain Flint ruled the coast.",
+      "translation": "Kimse bizimle geri dönecek cesarete sahip değildi çünkü Kaptan Flint'in ürkütücü adı tüm kıyıya korku salıyordu.",
+      "notes": "courage: cesaret; rule the coast: kıyıya hükmetmek"
+    },
+    {
+      "id": 44,
+      "start_ms": 252604,
+      "end_ms": 258628,
+      "text": "However, one brave boy agreed to ride to Dr. Livesey's house to bring armed soldiers.",
+      "translation": "Yine de cesur bir genç, silahlı askerleri çağırmak üzere Doktor Livesey'in evine at sürmeyi kabul etti.",
+      "notes": "armed soldiers: silahlı askerler; ride: at sürmek"
+    },
+    {
+      "id": 45,
+      "start_ms": 259028,
+      "end_ms": 264572,
+      "text": "My mother insisted on taking only the exact tavern money that Billy Bones owed us.",
+      "translation": "Annem sadece Billy Bones'un bize borçlu olduğu tam han parasını almakta ısrar etti.",
+      "notes": "insist on: ...de ısrar etmek; owe: borçlu olmak"
+    },
+    {
+      "id": 46,
+      "start_ms": 264972,
+      "end_ms": 269652,
+      "text": "We returned alone to the silent inn and locked the front door behind us.",
+      "translation": "Sessiz hana tek başımıza geri döndük ve arkamızdan ön kapıyı sürgüledik.",
+      "notes": "lock the door: kapıyı kilitlemek / sürgülemek"
+    },
+    {
+      "id": 47,
+      "start_ms": 270052,
+      "end_ms": 275668,
+      "text": "I searched the dead captain's coat and found a small iron key hanging on a piece of string.",
+      "translation": "Ölü kaptanın ceketini aradım ve bir ipe asılı küçük bir demir anahtar buldum.",
+      "notes": "iron key: demir anahtar; string: ip, sicim"
+    },
+    {
+      "id": 48,
+      "start_ms": 276068,
+      "end_ms": 281876,
+      "text": "Upstairs, we unlocked the heavy sea-chest and lifted its lid with trembling fingers.",
+      "translation": "Üst katta, ağır denizci sandığının kilidini açtık ve kapağını titreyen parmaklarla kaldırdık.",
+      "notes": "unlock: kilidini açmak; lift lid: kapağını kaldırmak"
+    },
+    {
+      "id": 49,
+      "start_ms": 282276,
+      "end_ms": 289428,
+      "text": "Inside lay a clean suit of clothes, compasses, tobacco, and two fine silver-mounted pistols.",
+      "translation": "İçinde temiz bir takım elbise, pusulalar, tütün ve gümüş işlemeli iki güzel tabanca vardı.",
+      "notes": "compass: pusula; silver-mounted: gümüş kaplamalı / işlemeli"
+    },
+    {
+      "id": 50,
+      "start_ms": 289828,
+      "end_ms": 296284,
+      "text": "Beneath a bundle of old foreign coins, I noticed a bundle wrapped tightly in waterproof oilcloth.",
+      "translation": "Eski yabancı sikkelerden oluşan bir çıkının altında, su geçirmez muşambaya sıkıca sarılmış bir paket fark ettim.",
+      "notes": "oilcloth: muşamba, su geçirmez kumaş; bundle: deste, paket"
+    },
+    {
+      "id": 51,
+      "start_ms": 296684,
+      "end_ms": 302516,
+      "text": "As my mother slowly counted out our rent, a low whistle echoed along the road outside.",
+      "translation": "Annem yavaşça kira alacağımızı sayarken, dışarıdaki yol boyunca alçak bir ıslık sesi yankılandı.",
+      "notes": "count out: sayarak ayırmak; whistle: ıslık sesi"
+    },
+    {
+      "id": 52,
+      "start_ms": 302916,
+      "end_ms": 307332,
+      "text": "It was the pirate signal warning that danger was approaching fast.",
+      "translation": "Bu, tehlikenin hızla yaklaşmakta olduğunu bildiren bir korsan işaretiydi.",
+      "notes": "signal: işaret, parola; approach: yaklaşmak"
+    },
+    {
+      "id": 53,
+      "start_ms": 307732,
+      "end_ms": 312604,
+      "text": "I seized the oilcloth packet and pushed my mother out into the dark night.",
+      "translation": "Muşamba paketi kaptım ve annemi aceleyle karanlık geceye doğru dışarı çıkardım.",
+      "notes": "seize: kapmak, yakalamak; dark night: karanlık gece"
+    },
+    {
+      "id": 54,
+      "start_ms": 313004,
+      "end_ms": 318020,
+      "text": "We hid beneath a small stone bridge in the darkness, trembling in terror.",
+      "translation": "Karanlıkta küçük taş bir köprünün altına saklandık, dehşet içinde titriyorduk.",
+      "notes": "hide beneath: altında saklanmak; tremble: titremek"
+    },
+    {
+      "id": 55,
+      "start_ms": 318420,
+      "end_ms": 323844,
+      "text": "Seven or eight rough men rushed up with lanterns, smashing into the empty inn.",
+      "translation": "Fenerli yedi sekiz kaba adam hana daldı ve boş binayı yerle bir etmeye başladı.",
+      "notes": "rough men: kaba / tekinsiz adamlar; smash into: zorla / kırarak içeri girmek"
+    },
+    {
+      "id": 56,
+      "start_ms": 324244,
+      "end_ms": 330388,
+      "text": "\"Bill is dead!\" a voice shouted from upstairs, \"and someone has turned the chest inside out!\"",
+      "translation": "\"Bill ölmüş!\" diye bağırdı üst kattan bir ses, \"ve birisi sandığı altüst etmiş!\"",
+      "notes": "turn inside out: altını üstüne getirmek, didik didik etmek"
+    },
+    {
+      "id": 57,
+      "start_ms": 330788,
+      "end_ms": 336596,
+      "text": "\"Find the boy and the packet, you fools!\" screamed the blind man Pew in fury.",
+      "translation": "\"Çocuğu ve paketi bulun aptallar!\" diye öfkeyle haykırdı kör adam Pew.",
+      "notes": "fool: aptal; in fury: büyük bir öfke içinde"
+    },
+    {
+      "id": 58,
+      "start_ms": 336996,
+      "end_ms": 342900,
+      "text": "At that moment, the galloping sound of horses signaled the arrival of the revenue officers.",
+      "translation": "Tam o anda, atların dörtnala gelen sesleri sahil muhafaza süvarilerinin gelişini müjdeledi.",
+      "notes": "galloping sound: dörtnal sesleri; revenue officers: gümrük / sahil muhafaza subayları"
+    },
+    {
+      "id": 59,
+      "start_ms": 343300,
+      "end_ms": 349732,
+      "text": "The pirates scattered into the darkness, leaving blind Pew behind to be trampled under horses' hooves.",
+      "translation": "Korsanlar karanlığa dağılıp kaçtılar ve kör Pew'ü atların nalları altında ezilmek üzere geride bıraktılar.",
+      "notes": "scatter: dağılmak, kaçışmak; trample: ayaklar altında ezmek"
+    },
+    {
+      "id": 60,
+      "start_ms": 350132,
+      "end_ms": 355436,
+      "text": "I was safe, and in my pocket I still held the mysterious oilcloth packet.",
+      "translation": "Artık güvendeydim ve cebimde hala o gizemli muşamba paketi tutuyordum.",
+      "notes": "mysterious: gizemli; safe: güvende"
+    },
+    {
+      "id": 61,
+      "start_ms": 356436,
+      "end_ms": 361404,
+      "text": "The revenue officers escorted me to Dr. Livesey's handsome country house.",
+      "translation": "Gümrük muhafızları bana Doktor Livesey'in görkemli kır evine kadar eşlik ettiler.",
+      "notes": "escort: refakat etmek, eşlik etmek; handsome house: gösterişli / güzel ev"
+    },
+    {
+      "id": 62,
+      "start_ms": 361804,
+      "end_ms": 366532,
+      "text": "Squire Trelawney was dining with the doctor when I entered the warm library.",
+      "translation": "Sıcak kütüphaneye girdiğimde Lord Trelawney doktorla birlikte akşam yemeği yiyordu.",
+      "notes": "dine: akşam yemeği yemek; library: kütüphane, çalışma odası"
+    },
+    {
+      "id": 63,
+      "start_ms": 366932,
+      "end_ms": 372692,
+      "text": "The squire was a tall, handsome gentleman over six feet with a fiery red face.",
+      "translation": "Lord, ateş kırmızısı yüzüyle boyu bir seksenin üzerinde olan uzun boylu, yakışıklı bir beyefendiydi.",
+      "notes": "fiery: ateş gibi; gentleman: beyefendi"
+    },
+    {
+      "id": 64,
+      "start_ms": 373092,
+      "end_ms": 377508,
+      "text": "I laid the oilcloth packet upon the mahogany table before them.",
+      "translation": "Muşamba paketi önlerindeki maun masanın üzerine bıraktım.",
+      "notes": "lay upon: üzerine koymak; mahogany: maun ağacı"
+    },
+    {
+      "id": 65,
+      "start_ms": 377908,
+      "end_ms": 382300,
+      "text": "Dr. Livesey carefully cut the stitches with his medical scissors.",
+      "translation": "Doktor Livesey cerrahi makasıyla dikişleri dikkatlice kesti.",
+      "notes": "stitches: dikişler; medical scissors: tıbbi makas"
+    },
+    {
+      "id": 66,
+      "start_ms": 382700,
+      "end_ms": 388028,
+      "text": "Inside, we discovered an old logbook and a folded sheet of yellowed parchment.",
+      "translation": "İçinde eski bir seyir defteri ve katlanmış bir sararmış parşömen tabakası bulduk.",
+      "notes": "logbook: seyir defteri; yellowed parchment: sararmış parşömen kağıdı"
+    },
+    {
+      "id": 67,
+      "start_ms": 388428,
+      "end_ms": 392148,
+      "text": "The doctor spread the parchment under the bright candlelight.",
+      "translation": "Doktor parşömeni parlak mum ışığının altına serdi.",
+      "notes": "spread: sermek, yaymak; candlelight: mum ışığı"
+    },
+    {
+      "id": 68,
+      "start_ms": 392548,
+      "end_ms": 398164,
+      "text": "It was an accurate map of an unknown island, complete with latitude and longitude.",
+      "translation": "Bu, enlem ve boylamı eksiksiz belirtilmiş, bilinmeyen bir adanın kusursuz bir haritasıydı.",
+      "notes": "accurate map: hatasız harita; latitude: enlem; longitude: boylam"
+    },
+    {
+      "id": 69,
+      "start_ms": 398564,
+      "end_ms": 403916,
+      "text": "Three red ink crosses marked anchorages, hills, and hidden caves.",
+      "translation": "Kırmızı mürekkeple çizilmiş üç haç; demirleme yerlerini, tepeleri ve gizli mağaraları işaretliyordu.",
+      "notes": "anchorage: demirleme yeri; ink cross: mürekkep haç işareti"
+    },
+    {
+      "id": 70,
+      "start_ms": 404316,
+      "end_ms": 410316,
+      "text": "Beside one cross were the words: 'Bulk of treasure here, buried by J. Flint.'",
+      "translation": "Haçlardan birinin yanında şu sözler yazılıydı: 'Hazinenin büyük kısmı burada, J. Flint tarafından gömüldü.'",
+      "notes": "bulk of: ...in büyük kısmı; bury: gömmek"
+    },
+    {
+      "id": 71,
+      "start_ms": 410716,
+      "end_ms": 417028,
+      "text": "\"Livesey!\" cried the squire, springing from his chair, \"we will sail to Bristol tomorrow!\"",
+      "translation": "\"Livesey!\" diye bağırdı lord sandalyesinden fırlayarak, \"yarın hemen Bristol'e yelken açıyoruz!\"",
+      "notes": "spring from: ...den fırlamak; sail: denize açılmak"
+    },
+    {
+      "id": 72,
+      "start_ms": 417428,
+      "end_ms": 422372,
+      "text": "\"I will buy the finest ship in dock and hire the bravest crew in England!\"",
+      "translation": "\"Limandaki en mükemmel gemiyi satın alacak ve İngiltere'nin en cesur mürettebatını kiralayacağım!\"",
+      "notes": "dock: tersane, rıhtım; hire: kiralamak, işe almak"
+    },
+    {
+      "id": 73,
+      "start_ms": 422772,
+      "end_ms": 427860,
+      "text": "\"Jim Hawkins shall come as our cabin boy, and you shall be the ship's doctor.\"",
+      "translation": "\"Jim Hawkins kamarotumuz olarak gelecek, siz de gemi hekimi olacaksınız.\"",
+      "notes": "cabin boy: gemi miçosu / kamarotu; ship's doctor: gemi doktoru"
+    },
+    {
+      "id": 74,
+      "start_ms": 428260,
+      "end_ms": 433132,
+      "text": "The doctor agreed, but gave one stern warning to the excited nobleman.",
+      "translation": "Doktor kabul etti ancak heyecanlı soyluya çok sert bir uyarıda bulundu.",
+      "notes": "stern warning: ciddi / sert uyarı; nobleman: soylu adam"
+    },
+    {
+      "id": 75,
+      "start_ms": 433532,
+      "end_ms": 438260,
+      "text": "\"You have only one weakness, Trelawney: you cannot hold your tongue.\"",
+      "translation": "\"Tek bir zayıflığın var Trelawney: dilini tutmayı hiç beceremiyorsun.\"",
+      "notes": "hold one's tongue: dilini tutmak, sır saklamak"
+    },
+    {
+      "id": 76,
+      "start_ms": 438660,
+      "end_ms": 444036,
+      "text": "\"Those pirates want this map, and we must not let a soul know our destination.\"",
+      "translation": "\"O korsanlar bu haritanın peşinde, bu yüzden varış noktamızı tek bir ruha bile sezdirmemeliyiz.\"",
+      "notes": "destination: varış yeri; not let a soul know: kimseye hissettirmemek"
+    },
+    {
+      "id": 77,
+      "start_ms": 444436,
+      "end_ms": 448300,
+      "text": "The squire swore he would be as silent as the grave.",
+      "translation": "Lord mezar kadar sessiz olacağına dair yeminler etti.",
+      "notes": "swear: yemin etmek; silent as the grave: mezar gibi sessiz"
+    },
+    {
+      "id": 78,
+      "start_ms": 448700,
+      "end_ms": 453476,
+      "text": "Weeks passed while Trelawney went ahead to Bristol to prepare our expedition.",
+      "translation": "Trelawney keşif gezimizi hazırlamak için önden Bristol'e giderken aradan haftalar geçti.",
+      "notes": "expedition: keşif seferi; go ahead: önden gitmek"
+    },
+    {
+      "id": 79,
+      "start_ms": 453876,
+      "end_ms": 459660,
+      "text": "Finally, a letter arrived saying he had purchased a splendid schooner called the Hispaniola.",
+      "translation": "Sonunda, Hispaniola adında muazzam bir uskuna satın aldığını bildiren bir mektup ulaştı.",
+      "notes": "splendid schooner: harika iki direkli yelkenli gemi; purchase: satın almak"
+    },
+    {
+      "id": 80,
+      "start_ms": 460060,
+      "end_ms": 465364,
+      "text": "I said goodbye to my dear mother and set out eagerly for the bustling port of Bristol.",
+      "translation": "Sevgili anneme veda ettim ve heyecanla Bristol'ün hareketli limanına doğru yola çıktım.",
+      "notes": "bustling port: işlek / hareketli liman; set out: yola koyulmak"
+    },
+    {
+      "id": 81,
+      "start_ms": 466364,
+      "end_ms": 472988,
+      "text": "Bristol harbor was filled with great sailing vessels, tall masts, and smelling of tar and salt.",
+      "translation": "Bristol limanı ulu yelkenli teknelerle, yüksek direklerle doluydu; katran ve tuz kokuyordu.",
+      "notes": "vessel: gemi, tekne; tar: katran; mast: gemi direği"
+    },
+    {
+      "id": 82,
+      "start_ms": 473388,
+      "end_ms": 478332,
+      "text": "Squire Trelawney sent me with a note to the Spy-glass tavern near the docks.",
+      "translation": "Lord Trelawney, rıhtımın yanındaki Dürbün Meyhanesi'ne bir not iletmem için beni gönderdi.",
+      "notes": "Spy-glass: el dürbünü; dock: rıhtım"
+    },
+    {
+      "id": 83,
+      "start_ms": 478732,
+      "end_ms": 484588,
+      "text": "He told me the tavern was kept by Long John Silver, whom he had hired as ship's cook.",
+      "translation": "Bana meyhanenin, gemiye aşçı olarak tuttuğu Uzun John Silver tarafından işletildiğini söyledi.",
+      "notes": "hire as: ... olarak işe almak; ship's cook: gemi aşçısı"
+    },
+    {
+      "id": 84,
+      "start_ms": 484988,
+      "end_ms": 490172,
+      "text": "I remembered the one-legged pirate Billy Bones had warned me about and felt nervous.",
+      "translation": "Billy Bones'un beni uyardığı tek bacaklı korsanı hatırladım ve tedirgin oldum.",
+      "notes": "feel nervous: tedirgin / endişeli hissetmek"
+    },
+    {
+      "id": 85,
+      "start_ms": 490572,
+      "end_ms": 495588,
+      "text": "When I entered, a tall man hopped briskly across the floor on a crutch.",
+      "translation": "İçeri girdiğimde, uzun boylu bir adam koltuk değneği üzerinde zeminde çevikçe sekiyordu.",
+      "notes": "hop briskly: çevikçe sekmek; crutch: koltuk değneği"
+    },
+    {
+      "id": 86,
+      "start_ms": 495988,
+      "end_ms": 501580,
+      "text": "His left leg was cut off close by the hip, but he moved with astonishing agility.",
+      "translation": "Sol bacağı kalçaya yakın yerden kesilmişti fakat şaşırtıcı bir çeviklikle hareket ediyordu.",
+      "notes": "cut off: kesilmiş; agility: çeviklik, kıvraklık"
+    },
+    {
+      "id": 87,
+      "start_ms": 501980,
+      "end_ms": 507500,
+      "text": "His face was large, intelligent, and smiling warmly at every customer.",
+      "translation": "Geniş, zeki bir yüzü vardı ve her müşteriye sıcacık gülümsüyordu.",
+      "notes": "smile warmly: içtenlikle gülümsemek"
+    },
+    {
+      "id": 88,
+      "start_ms": 507900,
+      "end_ms": 513324,
+      "text": "He read the squire's letter, shook my hand warmly, and praised my courage.",
+      "translation": "Lordun mektubunu okudu, elimi samimiyetle sıktı ve cesaretimi övdü.",
+      "notes": "shake hand: el sıkışmak; praise: övmek"
+    },
+    {
+      "id": 89,
+      "start_ms": 513724,
+      "end_ms": 518572,
+      "text": "Just then, a customer in the corner jumped up and bolted out the back door.",
+      "translation": "Tam o sırada köşedeki bir müşteri fırlayıp arka kapıdan dışarı kaçtı.",
+      "notes": "bolt out: fırlayıp kaçmak; corner: köşe"
+    },
+    {
+      "id": 90,
+      "start_ms": 518972,
+      "end_ms": 525860,
+      "text": "\"Stop him!\" I shouted, \"that is Black Dog, the man who attacked Captain Bones!\"",
+      "translation": "\"Durdurun onu!\" diye bağırdım, \"bu Kaptan Bones'a saldıran Kara Köpek'in ta kendisi!\"",
+      "notes": "attack: saldırmak; stop someone: birini durdurmak"
+    },
+    {
+      "id": 91,
+      "start_ms": 526260,
+      "end_ms": 531780,
+      "text": "Silver seemed deeply shocked and sent two men running down the street to catch the thief.",
+      "translation": "Silver derinden sarsılmış göründü ve hırsızı yakalamak için sokağa koşan iki adam gönderdi.",
+      "notes": "shocked: sarsılmış, şoke olmuş; catch: yakalamak"
+    },
+    {
+      "id": 92,
+      "start_ms": 532180,
+      "end_ms": 538060,
+      "text": "The men returned empty-handed, claiming Black Dog had vanished into the maze of alleys.",
+      "translation": "Adamlar elleri boş döndüler ve Kara Köpek'in ara sokakların labirentinde kaybolduğunu iddia ettiler.",
+      "notes": "empty-handed: eli boş; maze of alleys: ara sokaklar labirenti"
+    },
+    {
+      "id": 93,
+      "start_ms": 538460,
+      "end_ms": 543572,
+      "text": "Silver walked with me to the quay, laughing and telling pleasant sea stories.",
+      "translation": "Silver rıhtıma kadar benimle yürüdü, gülüyor ve neşeli deniz hikayeleri anlatıyordu.",
+      "notes": "quay: rıhtım, iskele; pleasant: hoş, neşeli"
+    },
+    {
+      "id": 94,
+      "start_ms": 543972,
+      "end_ms": 548724,
+      "text": "He seemed so cheerful and honest that all my suspicions melted away.",
+      "translation": "O kadar neşeli ve dürüst görünüyordu ki bütün şüphelerim tamamen eriyip gitti.",
+      "notes": "suspicion: şüphe; melt away: eriyip yok olmak"
+    },
+    {
+      "id": 95,
+      "start_ms": 549124,
+      "end_ms": 553612,
+      "text": "At the wharf, we rowed out to inspect the beautiful Hispaniola.",
+      "translation": "Rıhtımda, güzel Hispaniola'yı denetlemek için kürek çekerek açıldık.",
+      "notes": "row out: kürekle açılmak; inspect: denetlemek, incelemek"
+    },
+    {
+      "id": 96,
+      "start_ms": 554012,
+      "end_ms": 559724,
+      "text": "Captain Smollett, our ship's captain, was standing by the helm with a gloomy expression.",
+      "translation": "Gemi kaptanımız Kaptan Smollett, dümende asık bir yüz ifadesiyle bekliyordu.",
+      "notes": "helm: dümen; gloomy expression: kasvetli / asık surat"
+    },
+    {
+      "id": 97,
+      "start_ms": 560124,
+      "end_ms": 565548,
+      "text": "\"I do not like this cruise, sir,\" Captain Smollett told Trelawney plainly.",
+      "translation": "\"Ben bu seferi hiç beğenmedim efendim,\" dedi Kaptan Smollett açık sözlülükle.",
+      "notes": "plainly: açıkça; cruise: deniz seferi, yolculuk"
+    },
+    {
+      "id": 98,
+      "start_ms": 565948,
+      "end_ms": 571036,
+      "text": "\"I do not like the men, and I do not like treasure voyages where secrets leak.\"",
+      "translation": "\"Mürettebatı tutmadım ve sırların etrafa saçıldığı hazine yolculuklarından hiç hoşlanmam.\"",
+      "notes": "leak: sızmak, yayılmak; treasure voyage: hazine seferi"
+    },
+    {
+      "id": 99,
+      "start_ms": 571436,
+      "end_ms": 576932,
+      "text": "Trelawney was furious with the honest captain, but Dr. Livesey urged caution.",
+      "translation": "Trelawney dürüst kaptana çok öfkelendi fakat Doktor Livesey temkinli davranılmasını istedi.",
+      "notes": "furious: çok öfkeli; urge caution: temkinli olmayı öğütlemek"
+    },
+    {
+      "id": 100,
+      "start_ms": 577332,
+      "end_ms": 582900,
+      "text": "We weighed anchor that very night, beginning our perilous voyage across the Atlantic.",
+      "translation": "Tam o gece demir aldık ve Atlantik boyunca uzanacak tehlikeli yolculuğumuza başladık.",
+      "notes": "weigh anchor: demir almak; perilous voyage: tehlikeli yolculuk"
+    },
+    {
+      "id": 101,
+      "start_ms": 583900,
+      "end_ms": 588580,
+      "text": "The Hispaniola proved to be a fast and seaworthy vessel in heavy weather.",
+      "translation": "Hispaniola, sert havalarda hızlı ve denize son derece elverişli bir tekne olduğunu kanıtladı.",
+      "notes": "seaworthy: denize dayanıklı; heavy weather: fırtınalı hava"
+    },
+    {
+      "id": 102,
+      "start_ms": 588980,
+      "end_ms": 594836,
+      "text": "The crew worked well, and nobody worked harder or more cheerfully than Long John Silver.",
+      "translation": "Mürettebat gayet iyi çalışıyordu ve hiç kimse Uzun John Silver'dan daha sıkı veya neşeli çalışmıyordu.",
+      "notes": "cheerfully: neşeyle; work hard: sıkı çalışmak"
+    },
+    {
+      "id": 103,
+      "start_ms": 595236,
+      "end_ms": 600756,
+      "text": "He kept his galley spotless and had a lanyard tied around his neck to secure his crutch.",
+      "translation": "Gemi mutfağını tertemiz tutuyor ve koltuk değneğini sabitlemek için boynuna bir kordon bağlıyordu.",
+      "notes": "galley: gemi mutfağı; spotless: lekesiz, tertemiz"
+    },
+    {
+      "id": 104,
+      "start_ms": 601156,
+      "end_ms": 608188,
+      "text": "A large green parrot sat on his shoulder, shouting: \"Pieces of eight! Pieces of eight!\"",
+      "translation": "Omzunda oturan iri yeşil bir papağan: \"Sekiz parçalık altınlar! Sekiz parçalıklar!\" diye bağırıyordu.",
+      "notes": "pieces of eight: İspanyol gümüş riyali / korsan parası; parrot: papağan"
+    },
+    {
+      "id": 105,
+      "start_ms": 608588,
+      "end_ms": 613820,
+      "text": "\"This bird is two hundred years old, Jim,\" Silver told me with a wink.",
+      "translation": "\"Bu kuş iki yüz yaşında Jim,\" dedi Silver bana göz kırparak.",
+      "notes": "wink: göz kırpmak"
+    },
+    {
+      "id": 106,
+      "start_ms": 614220,
+      "end_ms": 619140,
+      "text": "\"She sailed with the famous Captain Flint and knows all the pirate secrets.\"",
+      "translation": "\"Ünlü Kaptan Flint'le yelken açtı ve bütün korsan sırlarını bilir.\"",
+      "notes": "sail with: birlikte yelken açmak; pirate secrets: korsan sırları"
+    },
+    {
+      "id": 107,
+      "start_ms": 619540,
+      "end_ms": 625204,
+      "text": "Silver always had a kind word and a sweet pastry for me whenever I visited the galley.",
+      "translation": "Mutfak bölümüne ne zaman uğrasam Silver bana daima tatlı bir söz söyler ve lezzetli bir çörek verirdi.",
+      "notes": "kind word: tatlı / nazik söz; pastry: hamur işi, çörek"
+    },
+    {
+      "id": 108,
+      "start_ms": 625604,
+      "end_ms": 631460,
+      "text": "All the sailors respected him, calling him 'Barbecue' in affectionate sailor slang.",
+      "translation": "Tüm denizciler ona saygı duyar, sevecen denizci argosuyla 'Barbekü' diye seslenirlerdi.",
+      "notes": "affectionate: sevecen; slang: argo"
+    },
+    {
+      "id": 109,
+      "start_ms": 631860,
+      "end_ms": 638004,
+      "text": "Our first mate, Mr. Arrow, was quite useless and drank constantly from a private bottle.",
+      "translation": "İkinci kaptanımız Bay Arrow ise tamamen işe yaramazdı ve gizli şişesinden durmadan içki içerdi.",
+      "notes": "first mate: süvari / ikinci kaptan; useless: işe yaramaz"
+    },
+    {
+      "id": 110,
+      "start_ms": 638404,
+      "end_ms": 644668,
+      "text": "One dark and stormy night, Mr. Arrow mysteriously vanished overboard into the churning sea.",
+      "translation": "Karanlık ve fırtınalı bir gece, Bay Arrow esrarengiz bir şekilde güverteden azgın denize düşüp kayboldu.",
+      "notes": "vanish overboard: güverteden denize düşüp kaybolmak; churning: çalkantılı, azgın"
+    },
+    {
+      "id": 111,
+      "start_ms": 645068,
+      "end_ms": 650492,
+      "text": "Job Anderson, the boatswain, took his place and proved to be much more capable.",
+      "translation": "Lostromo Job Anderson onun yerini aldı ve çok daha yetenekli olduğunu gösterdi.",
+      "notes": "boatswain: lostromo (güverte reisi); capable: yetenekli, becerikli"
+    },
+    {
+      "id": 112,
+      "start_ms": 650892,
+      "end_ms": 656700,
+      "text": "Squire Trelawney was delighted with the voyage and provided a barrel of fresh apples on deck.",
+      "translation": "Lord Trelawney yolculuktan son derece memnundu ve güverteye taze elmalarla dolu bir fıçı koydurdu.",
+      "notes": "delighted: çok memnun; barrel: ahşap fıçı"
+    },
+    {
+      "id": 113,
+      "start_ms": 657100,
+      "end_ms": 661348,
+      "text": "Any sailor could help himself to an apple whenever he pleased.",
+      "translation": "Her denizci dilediği zaman oradan bir elma alıp yiyebiliyordu.",
+      "notes": "help oneself: çekinmeden almak; pleased: arzu etmek"
+    },
+    {
+      "id": 114,
+      "start_ms": 661748,
+      "end_ms": 666092,
+      "text": "This apple barrel proved to be the salvation of all our lives.",
+      "translation": "İşte bu elma fıçısı, ileride hepimizin hayatının kurtuluşu olacaktı.",
+      "notes": "salvation: kurtuluş, kurtarma"
+    },
+    {
+      "id": 115,
+      "start_ms": 666492,
+      "end_ms": 671100,
+      "text": "The trade winds carried us smoothly south towards our hidden island.",
+      "translation": "Alize rüzgarları bizi güneye, gizli adamıza doğru pürüzsüzce taşıdı.",
+      "notes": "trade winds: alize rüzgarları; smoothly: sarsıntısız, rahatça"
+    },
+    {
+      "id": 116,
+      "start_ms": 671500,
+      "end_ms": 676372,
+      "text": "The moon shone brightly upon the rolling waves each clear tropical night.",
+      "translation": "Her açık tropikal gecede ay, kabaran dalgaların üzerine pırıl pırıl vuruyordu.",
+      "notes": "shine brightly: parlak ışıldamak; rolling waves: dalgalı deniz"
+    },
+    {
+      "id": 117,
+      "start_ms": 676772,
+      "end_ms": 682004,
+      "text": "Yet Captain Smollett remained watchful, trusting neither the weather nor his crew.",
+      "translation": "Yine de Kaptan Smollett tetikte kalmayı sürdürdü; ne havaya ne de mürettebatına güveniyordu.",
+      "notes": "watchful: tetikte; trust: güvenmek"
+    },
+    {
+      "id": 118,
+      "start_ms": 682404,
+      "end_ms": 687780,
+      "text": "\"A voyage is not finished until the anchor drops in home port,\" he told the doctor.",
+      "translation": "\"Bir sefer, demir ana limana atılana kadar asla bitmiş sayılmaz,\" dedi doktora.",
+      "notes": "home port: ana liman; drop anchor: demir atmak"
+    },
+    {
+      "id": 119,
+      "start_ms": 688180,
+      "end_ms": 692860,
+      "text": "We calculated that land would be sighted within the next twenty-four hours.",
+      "translation": "Önümüzdeki yirmi dört saat içinde karanın görüleceğini hesaplamıştık.",
+      "notes": "sight land: karayı görmek; calculate: hesaplamak"
+    },
+    {
+      "id": 120,
+      "start_ms": 693260,
+      "end_ms": 697988,
+      "text": "Everyone on board was eager and excited for the grand adventure to begin.",
+      "translation": "Gemideki herkes büyük maceranın başlaması için son derece sabırsız ve heyecanlıydı.",
+      "notes": "on board: gemide; eager: hevesli, sabırsız"
+    },
+    {
+      "id": 121,
+      "start_ms": 698988,
+      "end_ms": 703932,
+      "text": "Just after sunset on the last day of the voyage, I wanted an apple to eat.",
+      "translation": "Yolculuğun son gününde gün batımından hemen sonra yemek için bir elma canım çekti.",
+      "notes": "sunset: gün batımı; want to eat: yemek istemek"
+    },
+    {
+      "id": 122,
+      "start_ms": 704332,
+      "end_ms": 709060,
+      "text": "The barrel on the waist was nearly empty, so I climbed right inside it.",
+      "translation": "Güvertedeki fıçı neredeyse boştu, bu yüzden içine kadar tırmandım.",
+      "notes": "climb inside: içine tırmanıp girmek; empty: boş"
+    },
+    {
+      "id": 123,
+      "start_ms": 709460,
+      "end_ms": 714164,
+      "text": "I sat in the dark wood bottom, eating my apple and rocking with the ship.",
+      "translation": "Karanlık tahta dipte oturdum, elmamı yiyerek geminin sallantısıyla beşik gibi sallandım.",
+      "notes": "rock with: ...ile sallanmak; dark bottom: karanlık dip"
+    },
+    {
+      "id": 124,
+      "start_ms": 714564,
+      "end_ms": 719172,
+      "text": "Before I could climb out, a heavy man sat down against the barrel.",
+      "translation": "Dışarı çıkamadan önce ağır bir adam fıçının kenarına yaslanıp oturdu.",
+      "notes": "climb out: tırmanarak çıkmak; sit against: dayanıp oturmak"
+    },
+    {
+      "id": 125,
+      "start_ms": 719572,
+      "end_ms": 725068,
+      "text": "The barrel shook, and I heard Long John Silver begin speaking in a low voice.",
+      "translation": "Fıçı sarsıldı ve Uzun John Silver'ın alçak bir sesle konuşmaya başladığını duydum.",
+      "notes": "shake: sarsılmak; low voice: alçak ses"
+    },
+    {
+      "id": 126,
+      "start_ms": 725468,
+      "end_ms": 731060,
+      "text": "\"Flint was captain, and I was quartermaster along of my timber leg,\" Silver said.",
+      "translation": "\"Kaptan Flint'ti, tahta bacağıma rağmen ben de onun levazım reisiydim,\" dedi Silver.",
+      "notes": "timber leg: tahta bacak; quartermaster: dümenci reisi / serdümen"
+    },
+    {
+      "id": 127,
+      "start_ms": 731460,
+      "end_ms": 736500,
+      "text": "He was persuading young Dick, our youngest sailor, to join a mutiny.",
+      "translation": "En genç denizcimiz olan delikanlı Dick'i isyana katılmaya ikna etmeye çalışıyordu.",
+      "notes": "persuade: ikna etmek; join a mutiny: isyana katılmak"
+    },
+    {
+      "id": 128,
+      "start_ms": 736900,
+      "end_ms": 741748,
+      "text": "\"You will get your share of the gold and live like a lord,\" the cook promised.",
+      "translation": "\"Altından payını alacak ve bir lord gibi krallar gibi yaşayacaksın,\" diye söz verdi aşçı.",
+      "notes": "share: hisse, pay; live like a lord: bey gibi yaşamak"
+    },
+    {
+      "id": 129,
+      "start_ms": 742148,
+      "end_ms": 747572,
+      "text": "\"What do we do with Captain Smollett and the squire?\" asked another sailor named Hands.",
+      "translation": "\"Peki Kaptan Smollett ile lordu ne yapacağız?\" diye sordu Hands adındaki diğer bir gemici.",
+      "notes": "what do we do with: ...i ne yapacağız?"
+    },
+    {
+      "id": 130,
+      "start_ms": 747972,
+      "end_ms": 753012,
+      "text": "\"Dead men don't bite,\" Silver answered coldly with a terrifying chuckle.",
+      "translation": "\"Ölü adamlar ısırmaz,\" diye yanıtladı Silver buz gibi, korkunç bir kıkırdamayla.",
+      "notes": "dead men don't bite: ölü adam ısırmaz (korsan atasözü); chuckle: bıyık altından gülme"
+    },
+    {
+      "id": 131,
+      "start_ms": 753412,
+      "end_ms": 757780,
+      "text": "\"We let them guide the ship to the island and find the treasure first.\"",
+      "translation": "\"Önce onların gemiyi adaya yönlendirmesine ve hazineyi bulmasına izin vereceğiz.\"",
+      "notes": "guide the ship: gemiyi yönlendirmek; find treasure: hazineyi bulmak"
+    },
+    {
+      "id": 132,
+      "start_ms": 758180,
+      "end_ms": 762980,
+      "text": "\"Then we slit their throats like chickens and take the ship home ourselves!\"",
+      "translation": "\"Ardından tavuk gibi boğazlarını keseceğiz ve gemiyi memlekete kendimiz götüreceğiz!\"",
+      "notes": "slit throat: boğaz kesmek; like chickens: tavuk gibi"
+    },
+    {
+      "id": 133,
+      "start_ms": 763380,
+      "end_ms": 768372,
+      "text": "Inside the dark barrel, I shivered in utter terror, holding my breath.",
+      "translation": "Karanlık fıçının içinde, nefesimi tutarak tarifsiz bir dehşet içinde titredim.",
+      "notes": "shiver: titremek; utter terror: mutlak dehşet"
+    },
+    {
+      "id": 134,
+      "start_ms": 768772,
+      "end_ms": 774148,
+      "text": "Every kind word Silver had ever spoken to me was a wicked, murderous lie.",
+      "translation": "Silver'ın bana şimdiye dek söylediği her tatlı kelime sinsi ve kanlı bir yalandan ibaretti.",
+      "notes": "murderous lie: kanlı / ölümcül yalan; wicked: hain, kötü niyetli"
+    },
+    {
+      "id": 135,
+      "start_ms": 774548,
+      "end_ms": 780452,
+      "text": "Hands then said: \"Dick, jump into the barrel and fetch me an apple to moisten my throat.\"",
+      "translation": "Hands ardından dedi ki: \"Dick, fıçıya uzan da boğazımı ıslatmak için bana bir elma çıkar.\"",
+      "notes": "fetch: gidip getirmek; moisten throat: boğazını ıslatmak"
+    },
+    {
+      "id": 136,
+      "start_ms": 780852,
+      "end_ms": 785484,
+      "text": "My heart stopped beating; I knew that discovery meant instant murder.",
+      "translation": "Yüreğim duracak gibi oldu; yakalanmanın anında katledilmek anlamına geldiğini biliyordum.",
+      "notes": "stop beating: duracak gibi olmak; instant murder: anında cinayet"
+    },
+    {
+      "id": 137,
+      "start_ms": 785884,
+      "end_ms": 791644,
+      "text": "\"Don't touch that dirty barrel,\" Silver interrupted, \"go down and fetch a keg of rum!\"",
+      "translation": "\"O kirli fıçıya dokunma,\" diyerek araya girdi Silver, \"aşağı in de bir fıçı rom kap gel!\"",
+      "notes": "interrupt: sözünü kesmek, araya girmek; keg of rum: küçük rom fıçısı"
+    },
+    {
+      "id": 138,
+      "start_ms": 792044,
+      "end_ms": 796916,
+      "text": "Just as they walked away, a lookout's shout broke the quiet evening air.",
+      "translation": "Tam onlar uzaklaşırken gözcünün haykırışı akşamın sessiz havasını yardı.",
+      "notes": "lookout: gözcü; quiet evening: sessiz akşam"
+    },
+    {
+      "id": 139,
+      "start_ms": 797316,
+      "end_ms": 801156,
+      "text": "\"Land ho!\" cried the man from the topmast rigging.",
+      "translation": "\"Kara göründü!\" diye bağırdı gabya çarmıklarındaki nöbetçi.",
+      "notes": "land ho: kara göründü (denizci nidası); topmast: gabya çubuğu"
+    },
+    {
+      "id": 140,
+      "start_ms": 801556,
+      "end_ms": 806500,
+      "text": "Everyone rushed forward to see, and I slipped out of the barrel unnoticed.",
+      "translation": "Herkes görmek için öne hücum etti ve ben kimseye fark ettirmeden fıçıdan dışarı süzüldüm.",
+      "notes": "rush forward: öne atılmak; slip out unnoticed: fark edilmeden süzülüp çıkmak"
+    },
+    {
+      "id": 141,
+      "start_ms": 807500,
+      "end_ms": 813068,
+      "text": "Two low hills and a tall peak shaped like a spyglass rose above the ocean fog.",
+      "translation": "Okyanus sisinin üzerinden iki alçak tepe ile el dürbününe benzeyen sivri bir doruk yükseliyordu.",
+      "notes": "tall peak: yüksek doruk; spyglass: dürbün (tepenin adı)"
+    },
+    {
+      "id": 142,
+      "start_ms": 813468,
+      "end_ms": 819132,
+      "text": "I whispered in Dr. Livesey's ear, asking him to gather the squire and captain below.",
+      "translation": "Doktor Livesey'in kulağına fısıldayarak lordu ve kaptanı hemen aşağıda toplamasını istedim.",
+      "notes": "whisper in ear: kulağa fısıldamak; gather: toplamak"
+    },
+    {
+      "id": 143,
+      "start_ms": 819532,
+      "end_ms": 825436,
+      "text": "In the cabin, with locked doors, I told them every word I had overheard in the apple barrel.",
+      "translation": "Kilitli kapılar ardındaki kamarada, elma fıçısında kulak misafiri olduğum her bir kelimeyi onlara anlattım.",
+      "notes": "cabin: kamara; overheard: kulak misafiri olunan"
+    },
+    {
+      "id": 144,
+      "start_ms": 825836,
+      "end_ms": 830996,
+      "text": "Squire Trelawney took Captain Smollett's hand and confessed his great mistake.",
+      "translation": "Lord Trelawney Kaptan Smollett'in elini tuttu ve büyük hatasını itiraf etti.",
+      "notes": "confess mistake: hatasını itiraf etmek; take hand: elini tutmak"
+    },
+    {
+      "id": 145,
+      "start_ms": 831396,
+      "end_ms": 836772,
+      "text": "\"Captain, you were right, and I was an arrogant fool,\" the squire said humbly.",
+      "translation": "\"Kaptan, siz haklıydınız, bense kibirli bir ahmakmışım,\" dedi lord mahcup bir tavırla.",
+      "notes": "arrogant fool: kibirli ahmak; humbly: alçakgönüllülükle"
+    },
+    {
+      "id": 146,
+      "start_ms": 837172,
+      "end_ms": 842500,
+      "text": "We counted our loyal men: only seven out of twenty-six were faithful to us.",
+      "translation": "Bize sadık olan adamları saydık: yirmi altı kişiden sadece yedisi yanımızdaydı.",
+      "notes": "faithful: sadık, vefalı; out of: ... arasından"
+    },
+    {
+      "id": 147,
+      "start_ms": 842900,
+      "end_ms": 848708,
+      "text": "\"We must wait for our chance and let Jim Hawkins watch for openings,\" the doctor advised.",
+      "translation": "\"Fırsatımızı kollamalı ve Jim Hawkins'in açık aramasını beklemeliyiz,\" diye tavsiyede bulundu doktor.",
+      "notes": "wait for chance: fırsat beklemek; watch for openings: fırsat kollamak"
+    },
+    {
+      "id": 148,
+      "start_ms": 849108,
+      "end_ms": 854820,
+      "text": "The Hispaniola dropped anchor in a calm, landlocked basin surrounded by dense woods.",
+      "translation": "Hispaniola, sık ormanlarla çevrili sakin ve karayla çevrili bir koya demir attı.",
+      "notes": "landlocked basin: karayla çevrili koy / havza; dense woods: sık ormanlar"
+    },
+    {
+      "id": 149,
+      "start_ms": 855220,
+      "end_ms": 860668,
+      "text": "A poisonous smell of rotting leaves and stagnant swamp water hung over the coast.",
+      "translation": "Kıyıya çürüyen yaprakların ve durgun bataklık suyunun zehirli kokusu sinmişti.",
+      "notes": "poisonous smell: zehirli koku; stagnant swamp: durgun bataklık"
+    },
+    {
+      "id": 150,
+      "start_ms": 861068,
+      "end_ms": 866948,
+      "text": "\"There is fever in that foul mud,\" Dr. Livesey observed, looking grimly at the shore.",
+      "translation": "\"O pis çamurun içinde sıtma mikrobu yatıyor,\" dedi Doktor Livesey sahile kaygıyla bakarak.",
+      "notes": "fever: sıtma, yüksek ateş; foul mud: pis çamur"
+    },
+    {
+      "id": 151,
+      "start_ms": 867348,
+      "end_ms": 871716,
+      "text": "The sailors were growing restless and muttered threats under their breath.",
+      "translation": "Denizciler huzursuzlanıyor ve dişlerinin arasından tehditler homurdanıyorlardı.",
+      "notes": "restless: huzursuz, sabırsız; mutter: homurdanmak"
+    },
+    {
+      "id": 152,
+      "start_ms": 872116,
+      "end_ms": 877252,
+      "text": "Captain Smollett made a bold decision to let the crew go ashore for the afternoon.",
+      "translation": "Kaptan Smollett cesur bir kararla mürettebatın öğleden sonra karaya çıkmasına izin verdi.",
+      "notes": "bold decision: cesur karar; go ashore: karaya çıkmak"
+    },
+    {
+      "id": 153,
+      "start_ms": 877652,
+      "end_ms": 883484,
+      "text": "Silver eagerly organized two boats, taking thirteen suspected mutineers with him.",
+      "translation": "Silver hevesle iki sandal organize etti ve şüpheli on üç isyancıyı yanına aldı.",
+      "notes": "mutineer: isyancı gemici; organize: düzenlemek"
+    },
+    {
+      "id": 154,
+      "start_ms": 883884,
+      "end_ms": 889284,
+      "text": "Six pirates remained behind on the Hispaniola under the watchful eyes of the captain.",
+      "translation": "Kaptanın tetikteki bakışları altında altı korsan Hispaniola'da nöbette kaldı.",
+      "notes": "remain behind: geride kalmak; watchful eyes: dikkatli bakışlar"
+    },
+    {
+      "id": 155,
+      "start_ms": 889684,
+      "end_ms": 895204,
+      "text": "A sudden impulse seized me, and I slipped silently into one of the landing boats.",
+      "translation": "Ani bir dürtüye kapıldım ve sessizce karaya çıkan sandallardan birine süzüldüm.",
+      "notes": "sudden impulse: ani bir dürtü / istek; seize: kapılmak"
+    },
+    {
+      "id": 156,
+      "start_ms": 895604,
+      "end_ms": 900788,
+      "text": "The boat reached the sand, and I leaped out, running headlong into the jungle.",
+      "translation": "Sandal kuma yanaşır yanaşmaz dışarı fırladım ve var gücümle balta girmemiş ormana doğru koştum.",
+      "notes": "run headlong: var gücüyle / körü körüne koşmak; jungle: sık orman"
+    },
+    {
+      "id": 157,
+      "start_ms": 901188,
+      "end_ms": 907788,
+      "text": "\"Jim! Jim!\" called Silver behind me, but I ran faster than ever before.",
+      "translation": "\"Jim! Jim!\" diye seslendi arkamdan Silver ama ben daha önce hiç koşmadığım kadar hızlı koştum.",
+      "notes": "run faster: daha hızlı koşmak"
+    },
+    {
+      "id": 158,
+      "start_ms": 908188,
+      "end_ms": 913492,
+      "text": "I scrambled through thorny thickets and beneath giant pine trees with sweet resin.",
+      "translation": "Dikenli çalılıkların arasından ve tatlı reçineli devasa çam ağaçlarının altından tırmanarak geçtim.",
+      "notes": "thorny thickets: dikenli çalılıklar; pine tree: çam ağacı"
+    },
+    {
+      "id": 159,
+      "start_ms": 913892,
+      "end_ms": 918860,
+      "text": "Suddenly, a terrible scream of agony rang across the quiet swamp.",
+      "translation": "Birden sessiz bataklık boyunca yürek parçalayıcı korkunç bir acı çığlığı yankılandı.",
+      "notes": "scream of agony: can çekişme / acı çığlığı; ring across: yankılanmak"
+    },
+    {
+      "id": 160,
+      "start_ms": 919260,
+      "end_ms": 924612,
+      "text": "I knew then that Silver was murdering the honest men who refused to join the pirates.",
+      "translation": "O an anladım ki Silver, korsanlara katılmayı reddeden dürüst adamları acımasızca katlediyordu.",
+      "notes": "honest men: dürüst adamlar; refuse to join: katılmayı reddetmek"
+    },
+    {
+      "id": 161,
+      "start_ms": 925612,
+      "end_ms": 930604,
+      "text": "Heart pounding with fear, I crept deeper into the wild woods to hide.",
+      "translation": "Yüreğim korkuyla güm güm atarak saklanmak için vahşi koruluğun daha derinlerine sindim.",
+      "notes": "heart pounding: yüreği küt küt atarak; creep: sessizce sürünmek / sokulmak"
+    },
+    {
+      "id": 162,
+      "start_ms": 931004,
+      "end_ms": 936068,
+      "text": "A gravel stone rolled down a sandy hill, making me freeze in place.",
+      "translation": "Kumlu bir yamaçtan aşağı yuvarlanan bir çakıl taşı beni olduğum yere çiviledi.",
+      "notes": "gravel stone: çakıl taşı; freeze in place: donakalmak"
+    },
+    {
+      "id": 163,
+      "start_ms": 936468,
+      "end_ms": 941916,
+      "text": "From trunk to trunk, a creature leaped with unnatural speed and ragged movements.",
+      "translation": "Ağaç gövdesinden ağaç gövdesine, doğadışı bir hız ve hırpani hareketlerle bir yaratık sıçradı.",
+      "notes": "trunk: ağaç gövdesi; ragged: pejmürde, dağınık"
+    },
+    {
+      "id": 164,
+      "start_ms": 942316,
+      "end_ms": 947044,
+      "text": "At first, I thought it was a bear or a wild monkey of the island.",
+      "translation": "İlk başta onun bir ayı ya da adaya özgü vahşi bir maymun olduğunu sandım.",
+      "notes": "wild monkey: vahşi maymun; at first: ilk başta"
+    },
+    {
+      "id": 165,
+      "start_ms": 947444,
+      "end_ms": 952868,
+      "text": "Then I saw that he was an English human being clothed in tatters of old ship canvas.",
+      "translation": "Sonra onun eski gemi brandası paçavralarına bürünmüş İngiliz bir insan olduğunu gördüm.",
+      "notes": "human being: insanoğlu; tatters: paçavralar, yırtık pırtık kumaş"
+    },
+    {
+      "id": 166,
+      "start_ms": 953268,
+      "end_ms": 958668,
+      "text": "His skin was burnt as dark as mahogany, and his bright blue eyes looked wild.",
+      "translation": "Teni maun ağacı gibi kapkara yanmıştı ve parlak mavi gözleri çılgınca bakıyordu.",
+      "notes": "skin burnt: teni yanmış; look wild: vahşi / çılgın görünmek"
+    },
+    {
+      "id": 167,
+      "start_ms": 959068,
+      "end_ms": 964780,
+      "text": "\"Who are you?\" I asked, drawing Billy Bones's pistol from my pocket.",
+      "translation": "\"Kimsin sen?\" diye sordum, Billy Bones'un tabancasını cebimden çekerek.",
+      "notes": "draw pistol: tabancayı çekmek"
+    },
+    {
+      "id": 168,
+      "start_ms": 965180,
+      "end_ms": 971012,
+      "text": "\"I am poor Ben Gunn,\" he answered, his voice sounding rusty like an unused lock.",
+      "translation": "\"Ben zavallı Ben Gunn'ım,\" diye cevap verdi; sesi paslı, kullanılmamış bir kilit gibi çıkıyordu.",
+      "notes": "rusty voice: paslı / pürüzlü ses; unused lock: kullanılmamış kilit"
+    },
+    {
+      "id": 169,
+      "start_ms": 971412,
+      "end_ms": 975708,
+      "text": "\"I haven't spoken with a Christian soul for three long years!\"",
+      "translation": "\"Tam üç uzun yıldır tek bir insanoğluyla bile konuşmadım!\"",
+      "notes": "Christian soul: Hristiyan kul, insanoğlu"
+    },
+    {
+      "id": 170,
+      "start_ms": 976108,
+      "end_ms": 981412,
+      "text": "\"Were you shipwrecked here?\" I asked, lowering my weapon in pity.",
+      "translation": "\"Geminiz mi battı buraya düşerken?\" diye sordum acıyarak silahımı indirirken.",
+      "notes": "shipwrecked: gemisi batmış; in pity: acıyarak"
+    },
+    {
+      "id": 171,
+      "start_ms": 981812,
+      "end_ms": 987908,
+      "text": "\"Nay, mate,\" he whispered, \"I was marooned by Flint's wicked crew three years back.\"",
+      "translation": "\"Yok dostum,\" diye fısıldadı, \"üç yıl önce Flint'in hain tayfası beni buraya terk edip gitti.\"",
+      "notes": "maroon: ıssız adada bırakıp kaçmak; three years back: üç yıl önce"
+    },
+    {
+      "id": 172,
+      "start_ms": 988308,
+      "end_ms": 994812,
+      "text": "\"I have lived on wild goats, berries, and oysters, but my heart yearns for cheese!\"",
+      "translation": "\"Vahşi keçilerle, böğürtlenlerle ve istiridyeyle yaşadım ama yüreğim peynir diye yanıp tutuşuyor!\"",
+      "notes": "yearn for: ...in hasretiyle yanmak; oyster: istiridye"
+    },
+    {
+      "id": 173,
+      "start_ms": 995212,
+      "end_ms": 1000444,
+      "text": "\"Have you got a morsel of cheese about you, lad? Just a crust?\"",
+      "translation": "\"Yanında bir lokmacık peynir var mı evlat? Sadece küçük bir kabuk bile olsa?\"",
+      "notes": "morsel: lokma; crust: ekmek / peynir kabuğu"
+    },
+    {
+      "id": 174,
+      "start_ms": 1000844,
+      "end_ms": 1006100,
+      "text": "I promised him that Dr. Livesey had fine Parmesan cheese locked in his cabin.",
+      "translation": "Ona Doktor Livesey'in kamarasında kilitli harika bir Parmesan peyniri bulunduğuna dair söz verdim.",
+      "notes": "Parmesan cheese: Parmesan peyniri; locked: kilitli"
+    },
+    {
+      "id": 175,
+      "start_ms": 1006500,
+      "end_ms": 1011516,
+      "text": "Ben Gunn rejoiced, dancing on his bare feet like an excited child.",
+      "translation": "Ben Gunn sevinçten havalara uçtu, çıplak ayakları üzerinde heyecanlı bir çocuk gibi dans etti.",
+      "notes": "rejoice: çok sevinmek; bare feet: çıplak ayaklar"
+    },
+    {
+      "id": 176,
+      "start_ms": 1011916,
+      "end_ms": 1016356,
+      "text": "I told him about our predicament with Silver and the dangerous mutiny.",
+      "translation": "Ona Silver'la yaşadığımız çıkmazı ve tehlikeli gemi isyanını anlattım.",
+      "notes": "predicament: zor durum, çıkmaz; mutiny: isyan"
+    },
+    {
+      "id": 177,
+      "start_ms": 1016756,
+      "end_ms": 1021868,
+      "text": "\"Is Flint's ship back?\" he asked anxiously, clutching my sleeve.",
+      "translation": "\"Flint'in gemisi mi geri geldi yoksa?\" diye sordu endişeyle koluma yapışarak.",
+      "notes": "clutch sleeve: koluna yapışmak; anxiously: endişeyle"
+    },
+    {
+      "id": 178,
+      "start_ms": 1022268,
+      "end_ms": 1028196,
+      "text": "\"Flint is dead,\" I replied, \"but most of his old crew are on board under Silver.\"",
+      "translation": "\"Flint öldü,\" dedim, \"ama eski mürettebatının çoğu Silver'ın emrinde gemide bulunuyor.\"",
+      "notes": "on board: gemide; reply: cevap vermek"
+    },
+    {
+      "id": 179,
+      "start_ms": 1028596,
+      "end_ms": 1034284,
+      "text": "\"Ben Gunn can help your friends,\" he grinned cunningly, \"for I know this island well.\"",
+      "translation": "\"Ben Gunn dostlarına yardım edebilir,\" diye sinsice sırıttı, \"çünkü ben bu adayı avucumun içi gibi bilirim.\"",
+      "notes": "grin cunningly: kurnazca sırıtmak"
+    },
+    {
+      "id": 180,
+      "start_ms": 1034684,
+      "end_ms": 1040588,
+      "text": "Just then, the thunderous boom of a cannon echoed from the sea: the battle had begun!",
+      "translation": "Tam o anda denizden bir topun gök gürültüsünü andıran patlaması yankılandı: savaş resmen başlamıştı!",
+      "notes": "thunderous boom: gök gürültüsü gibi patlama; cannon: top güllesi"
+    },
+    {
+      "id": 181,
+      "start_ms": 1041588,
+      "end_ms": 1047156,
+      "text": "While I was ashore, Dr. Livesey and Hunter had quietly slipped away in the small boat.",
+      "translation": "Ben karadayken Doktor Livesey ve Hunter küçük sandalla sessizce gemiden ayrılmışlardı.",
+      "notes": "slip away: sıvışmak, sessizce ayrılmak; ashore: karada"
+    },
+    {
+      "id": 182,
+      "start_ms": 1047556,
+      "end_ms": 1052860,
+      "text": "They had discovered an old wooden stockade built on a knoll by Captain Flint years ago.",
+      "translation": "Kaptan Flint'in yıllar önce bir tepecik üzerine inşa ettiği eski bir ahşap hisarı keşfetmişlerdi.",
+      "notes": "stockade: ahşap hisar / istihkam; knoll: küçük tepe"
+    },
+    {
+      "id": 183,
+      "start_ms": 1053260,
+      "end_ms": 1058972,
+      "text": "It was a stout log house surrounded by a six-foot palisade with loopholes for muskets.",
+      "translation": "Tüfek delikleriyle donatılmış iki metrelik kazıklı çitle çevrili, sağlam bir kütük evdi.",
+      "notes": "log house: kütük ev; palisade: kazıklı çit; loophole: mazgal, tüfek deliği"
+    },
+    {
+      "id": 184,
+      "start_ms": 1059372,
+      "end_ms": 1065036,
+      "text": "Best of all, a spring of delicious fresh water bubbled up right inside the enclosure.",
+      "translation": "En güzeli de, istihkamın tam içinde leziz bir tatlı su pınarı kaynıyordu.",
+      "notes": "spring: pınar, su kaynağı; enclosure: etrafı çevrili alan"
+    },
+    {
+      "id": 185,
+      "start_ms": 1065436,
+      "end_ms": 1071604,
+      "text": "Captain Smollett and the loyal men decided to abandon the Hispaniola and fortify the stockade.",
+      "translation": "Kaptan Smollett ve sadık adamlar, Hispaniola'yı terk edip ahşap hisarı tahkim etmeye karar verdiler.",
+      "notes": "abandon: terk etmek; fortify: güçlendirmek, tahkim etmek"
+    },
+    {
+      "id": 186,
+      "start_ms": 1072004,
+      "end_ms": 1078460,
+      "text": "They made several trips in the small boat, transporting barrels of powder, muskets, and pork.",
+      "translation": "Küçük sandalla birkaç sefer yaparak barut fıçılarını, tüfekleri ve tuzlu domuz etini taşıdılar.",
+      "notes": "transport: nakletmek; pork: domuz eti (gemici kumanyası)"
+    },
+    {
+      "id": 187,
+      "start_ms": 1078860,
+      "end_ms": 1084380,
+      "text": "On their last trip, the pirates on the ship opened fire with the great swivel cannon.",
+      "translation": "Son seferlerinde gemideki korsanlar büyük döner topla ateşe başladılar.",
+      "notes": "open fire: ateş açmak; swivel cannon: döner top"
+    },
+    {
+      "id": 188,
+      "start_ms": 1084780,
+      "end_ms": 1090684,
+      "text": "A cannonball swamped their overloaded boat, sending most of their precious food into the bay.",
+      "translation": "Bir gülle aşırı yüklü sandallarını alabora etti ve değerli yiyeceklerinin çoğunu koya döktü.",
+      "notes": "swamp a boat: sandalı suyla doldurup batırmak; cannonball: top güllesi"
+    },
+    {
+      "id": 189,
+      "start_ms": 1091084,
+      "end_ms": 1097204,
+      "text": "The loyal party waded ashore under heavy fire and scrambled safely inside the palisade.",
+      "translation": "Sadık kafile yoğun ateş altında sudan geçerek karaya çıktı ve kazıklı çitin içine sağ salim sığındı.",
+      "notes": "wade: suda yürümek; heavy fire: yoğun yaylım ateşi"
+    },
+    {
+      "id": 190,
+      "start_ms": 1097604,
+      "end_ms": 1102596,
+      "text": "Captain Smollett proudly hoisted the British Union Jack over the log roof.",
+      "translation": "Kaptan Smollett İngiliz Kraliyet Bayrağı'nı kütük çatının üzerine gururla çekti.",
+      "notes": "hoist the flag: bayrağı göndere çekmek; Union Jack: Birleşik Krallık bayrağı"
+    },
+    {
+      "id": 191,
+      "start_ms": 1102996,
+      "end_ms": 1108780,
+      "text": "When I arrived outside the stockade, I heard my friends' voices calling my name in joy.",
+      "translation": "Ahşap siperin dışına vardığımda, dostlarımın sevinçle adımı haykıran seslerini duydum.",
+      "notes": "in joy: sevinç içinde; voice: ses"
+    },
+    {
+      "id": 192,
+      "start_ms": 1109180,
+      "end_ms": 1114556,
+      "text": "I scrambled over the wooden fence and fell breathless into the arms of Dr. Livesey.",
+      "translation": "Tahta çitin üzerinden aştım ve soluk soluğa Doktor Livesey'in kollarına düştüm.",
+      "notes": "scramble over: üzerinden tırmanıp aşmak; breathless: nefes nefese"
+    },
+    {
+      "id": 193,
+      "start_ms": 1114956,
+      "end_ms": 1120428,
+      "text": "They were overjoyed to see me alive, for they had feared I had been murdered by Silver.",
+      "translation": "Beni canlı gördüklerine çok sevindiler çünkü Silver tarafından öldürüldüğümden korkuyorlardı.",
+      "notes": "overjoyed: son derece sevinçli; fear: korkmak"
+    },
+    {
+      "id": 194,
+      "start_ms": 1120828,
+      "end_ms": 1125508,
+      "text": "I reported my meeting with Ben Gunn, and the doctor nodded thoughtfully.",
+      "translation": "Ben Gunn ile buluşmamı anlattım ve doktor düşünceli bir tavırla başını salladı.",
+      "notes": "nod thoughtfully: düşünceli bir şekilde başını sallamak; report: bildirmek"
+    },
+    {
+      "id": 195,
+      "start_ms": 1125908,
+      "end_ms": 1131500,
+      "text": "Cannonballs from the Hispaniola crashed through the treetops above our heads all afternoon.",
+      "translation": "Hispaniola'dan atılan gülleler bütün öğleden sonra başımızın üstündeki ağaç tepelerini parçaladı.",
+      "notes": "treetops: ağaç tepeleri; crash through: gürültüyle parçalamak"
+    },
+    {
+      "id": 196,
+      "start_ms": 1131900,
+      "end_ms": 1137132,
+      "text": "However, the thick logs of our stockade protected us from every pirate shot.",
+      "translation": "Bununla birlikte hisarımızın kalın kütükleri bizi her korsan atışından başarıyla korudu.",
+      "notes": "thick logs: kalın kütükler; protect: korumak"
+    },
+    {
+      "id": 197,
+      "start_ms": 1137532,
+      "end_ms": 1143628,
+      "text": "Tom Redruth, the faithful old gamekeeper, was shot by a sniper and died with a prayer.",
+      "translation": "Sadık yaşlı korucu Tom Redruth bir keskin nişancı tarafından vuruldu ve bir duayla can verdi.",
+      "notes": "gamekeeper: korucu; sniper: keskin nişancı"
+    },
+    {
+      "id": 198,
+      "start_ms": 1144028,
+      "end_ms": 1149620,
+      "text": "Squire Trelawney wept like a child and laid the British flag over his faithful servant.",
+      "translation": "Lord Trelawney bir çocuk gibi ağladı ve sadık uşağının üzerine İngiliz bayrağını örttü.",
+      "notes": "weep: ağlamak; faithful servant: sadık hizmetkar"
+    },
+    {
+      "id": 199,
+      "start_ms": 1150020,
+      "end_ms": 1156236,
+      "text": "We were now only six well men inside the fort, surrounded by fifteen ruthless pirates.",
+      "translation": "Artık kalede on beş acımasız korsanla çevrili yalnızca altı sağlam adam kalmıştık.",
+      "notes": "ruthless: acımasız, merhametsiz; surrounded: kuşatılmış"
+    },
+    {
+      "id": 200,
+      "start_ms": 1156636,
+      "end_ms": 1162204,
+      "text": "As darkness fell, we prepared our muskets, knowing an assault would come with dawn.",
+      "translation": "Karanlık çökerken, şafakla birlikte bir hücumun geleceğini bilerek tüfeklerimizi hazırladık.",
+      "notes": "assault: hücum, saldırı; dawn: şafak vakti"
+    },
+    {
+      "id": 201,
+      "start_ms": 1163204,
+      "end_ms": 1170044,
+      "text": "Early the next morning, a lookout shouted: \"Flag of truce! Flag of truce!\"",
+      "translation": "Ertesi sabah erkenden nöbetçi bağırdı: \"Ateşkes bayrağı! Ateşkes bayrağı!\"",
+      "notes": "flag of truce: beyaz teslim / ateşkes bayrağı"
+    },
+    {
+      "id": 202,
+      "start_ms": 1170444,
+      "end_ms": 1176276,
+      "text": "Outside the palisade stood Long John Silver, waving a white cloth upon a staff.",
+      "translation": "Kazıklı çitin dışında bir sopaya takılı beyaz bezi sallayan Uzun John Silver duruyordu.",
+      "notes": "staff: sopa, asa; wave a cloth: bez sallamak"
+    },
+    {
+      "id": 203,
+      "start_ms": 1176676,
+      "end_ms": 1181524,
+      "text": "He wore a grand blue coat with brass buttons and his finest cocked hat.",
+      "translation": "Pirinç düğmeli görkemli mavi bir ceket ve en şık üç köşeli şapkasını giymişti.",
+      "notes": "brass buttons: pirinç düğmeler; cocked hat: üç köşeli şapka"
+    },
+    {
+      "id": 204,
+      "start_ms": 1181924,
+      "end_ms": 1187564,
+      "text": "\"Cap'n Silver, sir, come on board to make terms!\" he called out grandly.",
+      "translation": "\"Kaptan Silver efendim, şartları konuşmak üzere müzakereye geldi!\" diye azametle seslendi.",
+      "notes": "make terms: şartlarda anlaşmak, pazarlık yapmak"
+    },
+    {
+      "id": 205,
+      "start_ms": 1187964,
+      "end_ms": 1192380,
+      "text": "Captain Smollett stood at the doorway with a pipe between his teeth.",
+      "translation": "Kaptan Smollett dişlerinin arasında piposuyla kapı eşiğinde dikildi.",
+      "notes": "doorway: kapı aralığı / eşiği; pipe: pipo"
+    },
+    {
+      "id": 206,
+      "start_ms": 1192780,
+      "end_ms": 1198396,
+      "text": "\"I don't know any Captain Silver,\" Smollett retorted, \"you are just a mutinous cook.\"",
+      "translation": "\"Ben Kaptan Silver diye birini tanımıyorum,\" dedi Smollett sertçe, \"sen sadece isyankar bir aşçısın.\"",
+      "notes": "retort: sert karşılık vermek; mutinous cook: isyankar aşçı"
+    },
+    {
+      "id": 207,
+      "start_ms": 1198796,
+      "end_ms": 1204316,
+      "text": "\"However, if you wish to talk under a flag of truce, climb over the stockade.\"",
+      "translation": "\"Yine de eğer beyaz bayrak altında konuşmak istiyorsan hisarın üzerinden atla gel.\"",
+      "notes": "climb over: üzerinden aşmak / atlamak"
+    },
+    {
+      "id": 208,
+      "start_ms": 1204716,
+      "end_ms": 1209828,
+      "text": "Silver hopped over the logs with great difficulty and advanced toward the cabin.",
+      "translation": "Silver büyük bir güçlükle kütüklerin üzerinden sekti ve kulübeye doğru ilerledi.",
+      "notes": "advance toward: ...e doğru ilerlemek; great difficulty: büyük zorluk"
+    },
+    {
+      "id": 209,
+      "start_ms": 1210228,
+      "end_ms": 1215556,
+      "text": "He sat down in the sand, wiping sweat from his brow with a silk handkerchief.",
+      "translation": "Kuma oturdu, ipek bir mendille alnındaki teri sildi.",
+      "notes": "wipe sweat: teri silmek; handkerchief: mendil"
+    },
+    {
+      "id": 210,
+      "start_ms": 1215956,
+      "end_ms": 1221620,
+      "text": "\"Here is our offer,\" Silver began, fixing his cold grey eyes upon the captain.",
+      "translation": "\"İşte teklifimiz,\" diye başladı Silver, soğuk gri gözlerini kaptana dikerek.",
+      "notes": "fix eyes upon: gözlerini dikmek; offer: teklif"
+    },
+    {
+      "id": 211,
+      "start_ms": 1222020,
+      "end_ms": 1226796,
+      "text": "\"Give us the treasure chart, and we will spare your lives without a scratch.\"",
+      "translation": "\"Bize hazine haritasını verin, burnunuz bile kanamadan canınızı bağışlayalım.\"",
+      "notes": "treasure chart: hazine haritası; without a scratch: burnu bile kanamadan"
+    },
+    {
+      "id": 212,
+      "start_ms": 1227196,
+      "end_ms": 1232020,
+      "text": "\"We will set you ashore on some peaceful coast or let you sail home safely.\"",
+      "translation": "\"Sizi huzurlu bir kıyıda karaya bırakır ya da eve güvenle yelken açmanıza izin veririz.\"",
+      "notes": "peaceful coast: huzurlu kıyı; sail home: eve yelken açmak"
+    },
+    {
+      "id": 213,
+      "start_ms": 1232420,
+      "end_ms": 1237604,
+      "text": "Captain Smollett knocked the ashes from his pipe and looked scornfully at the pirate.",
+      "translation": "Kaptan Smollett piposunun külünü silkti ve korsana hor gören gözlerle baktı.",
+      "notes": "look scornfully: küçümseyerek / hor görerek bakmak; ashes: küller"
+    },
+    {
+      "id": 214,
+      "start_ms": 1238004,
+      "end_ms": 1242900,
+      "text": "\"Now you hear me, Silver,\" the captain replied with steely calm.",
+      "translation": "\"Şimdi sen beni dinle Silver,\" dedi kaptan çelik gibi bir sakinlikle.",
+      "notes": "steely calm: çelik gibi sakinlik; hear someone: birini dinlemek"
+    },
+    {
+      "id": 215,
+      "start_ms": 1243300,
+      "end_ms": 1248532,
+      "text": "\"You can't find the treasure without the chart, and you can't sail the ship without me.\"",
+      "translation": "\"Harita olmadan hazineyi bulamazsın ve ben olmadan gemiyi asla yüzdüremezsin.\"",
+      "notes": "sail the ship: gemiyi yürütmek / idare etmek"
+    },
+    {
+      "id": 216,
+      "start_ms": 1248932,
+      "end_ms": 1254284,
+      "text": "\"You are on a lee shore and all of you will end your days in irons in an English prison.\"",
+      "translation": "\"Kayalıklara sürüklenen bir tekne gibisiniz ve hepiniz günlerinizi İngiliz hapishanesinde zincire vurulmuş bitireceksiniz.\"",
+      "notes": "in irons: prangaya vurulmuş; lee shore: tehlikeli rüzgar altı kıyısı"
+    },
+    {
+      "id": 217,
+      "start_ms": 1254684,
+      "end_ms": 1261332,
+      "text": "\"My only offer is this: come unarmed, and I will clap you in irons for a fair trial in England.\"",
+      "translation": "\"Benim tek teklifim şudur: silahsız gelin, sizi İngiltere'de adil bir yargılama için prangaya vurayım.\"",
+      "notes": "fair trial: adil yargılama; unarmed: silahsız"
+    },
+    {
+      "id": 218,
+      "start_ms": 1261732,
+      "end_ms": 1265572,
+      "text": "Silver's face turned purple with uncontrolled fury.",
+      "translation": "Silver'ın yüzü zapt edilemez bir öfkeyle morardı.",
+      "notes": "turn purple: morarmak; uncontrolled fury: kontrolsüz öfke"
+    },
+    {
+      "id": 219,
+      "start_ms": 1265972,
+      "end_ms": 1271732,
+      "text": "\"Before this hour is out, I'll smash your log house like a rum puncheon!\" he roared.",
+      "translation": "\"Bu saat dolmadan kütük evinizi bir rom fıçısı gibi paramparça edeceğim!\" diye kükredi.",
+      "notes": "smash: parçalamak; puncheon: büyük ahşap fıçı"
+    },
+    {
+      "id": 220,
+      "start_ms": 1272132,
+      "end_ms": 1278444,
+      "text": "He spat upon the sand, scrambled cursing over the palisade, and vanished into the jungle.",
+      "translation": "Kuma tükürdü, küfürler savurarak kazıklı çiti aştı ve ormanın içinde gözden kayboldu.",
+      "notes": "spit upon: üzerine tükürmek; curse: lanet okumak, küfretmek"
+    },
+    {
+      "id": 221,
+      "start_ms": 1279444,
+      "end_ms": 1285828,
+      "text": "\"To your posts, lads!\" Captain Smollett ordered as soon as Silver disappeared.",
+      "translation": "\"Mevzilere çocuklar!\" diye emretti Kaptan Smollett, Silver gözden kaybolur kaybolmaz.",
+      "notes": "to your posts: mevzilere, görev yerlerine; order: emretmek"
+    },
+    {
+      "id": 222,
+      "start_ms": 1286228,
+      "end_ms": 1290668,
+      "text": "We loaded every musket and placed spare powder horns on the bench.",
+      "translation": "Her tüfeği doldurduk ve yedek barut boynuzlarını sıranın üzerine dizdik.",
+      "notes": "powder horn: barut boynuzu; bench: tahta sıra"
+    },
+    {
+      "id": 223,
+      "start_ms": 1291068,
+      "end_ms": 1296228,
+      "text": "A deadly silence fell over the woods, broken only by chirping crickets.",
+      "translation": "Ormanın üzerine yalnızca cırcır böceklerinin cıvıltısıyla bölünen ölümcül bir sessizlik çöktü.",
+      "notes": "deadly silence: ölümcül sessizlik; cricket: cırcır böceği"
+    },
+    {
+      "id": 224,
+      "start_ms": 1296628,
+      "end_ms": 1302052,
+      "text": "Suddenly, a burst of gunfire shattered the stillness from the north side of the fence.",
+      "translation": "Aniden, çitin kuzey tarafından gelen bir silah patlaması sessizliği paramparça etti.",
+      "notes": "shatter the stillness: sessizliği yırtmak / bozmak; burst of gunfire: yaylım ateşi"
+    },
+    {
+      "id": 225,
+      "start_ms": 1302452,
+      "end_ms": 1307564,
+      "text": "Balls whistled through the loopholes, filling our log house with pungent smoke.",
+      "translation": "Kurşunlar mazgal deliklerinden ıslık çalarak geçti ve kütük evimizi geniz yakan dumanla doldurdu.",
+      "notes": "pungent smoke: keskin / geniz yakan duman; whistle: vızıldamak"
+    },
+    {
+      "id": 226,
+      "start_ms": 1307964,
+      "end_ms": 1313316,
+      "text": "A score of pirates leaped from the woods, swarming over the stockade like monkeys.",
+      "translation": "Yirmiye yakın korsan ormandan fırladı ve maymunlar gibi hisarın üzerine üşüştü.",
+      "notes": "a score of: yirmi kadar; swarm over: üzerine üşüşmek / akın etmek"
+    },
+    {
+      "id": 227,
+      "start_ms": 1313716,
+      "end_ms": 1319356,
+      "text": "Hunter and Joyce fired through the openings, bringing down two attackers immediately.",
+      "translation": "Hunter ve Joyce deliklerden ateş açarak iki saldırganı hemen yere serdiler.",
+      "notes": "bring down: yere sermek; immediately: derhal"
+    },
+    {
+      "id": 228,
+      "start_ms": 1319756,
+      "end_ms": 1325948,
+      "text": "However, seven pirates scrambled inside the enclosure, cutlasses flashing in the sun.",
+      "translation": "Fakat yedi korsan güneşin altında parıldayan palalarıyla avlunun içine girmeyi başardı.",
+      "notes": "flash in the sun: güneşte parıldamak; cutlass: pala"
+    },
+    {
+      "id": 229,
+      "start_ms": 1326348,
+      "end_ms": 1332468,
+      "text": "\"Out, lads, and fight them in the open!\" shouted the captain, seizing a cutlass.",
+      "translation": "\"Dışarı çocuklar, onlarla açık alanda dövüşeceğiz!\" diye haykırdı kaptan, bir palaya sarılarak.",
+      "notes": "in the open: açık alanda; seize: kavramak"
+    },
+    {
+      "id": 230,
+      "start_ms": 1332868,
+      "end_ms": 1338676,
+      "text": "We dashed into the sunlight, where swords clashed and pistols roared at point-blank range.",
+      "translation": "Kılıçların çarpıştığı ve tabancaların sıfır mesafeden kükrediği gün ışığına fırladık.",
+      "notes": "point-blank range: sıfır mesafe, namlu mesafesi; clash: çarpışmak"
+    },
+    {
+      "id": 231,
+      "start_ms": 1339076,
+      "end_ms": 1344332,
+      "text": "Dr. Livesey ran his rapier through a pirate who fell screaming into the sand.",
+      "translation": "Doktor Livesey meçini bir korsana sapladı; adam çığlıklar atarak kuma yığıldı.",
+      "notes": "rapier: ince uzun kılıç, meç; run through: kılıcı saplamak"
+    },
+    {
+      "id": 232,
+      "start_ms": 1344732,
+      "end_ms": 1349844,
+      "text": "A pirate named Anderson raised his heavy blade above my head with an evil grin.",
+      "translation": "Anderson adında bir korsan, şeytani bir sırıtışla ağır kılıcını başımın üzerine kaldırdı.",
+      "notes": "evil grin: hain sırıtış; blade: kılıç namlusu"
+    },
+    {
+      "id": 233,
+      "start_ms": 1350244,
+      "end_ms": 1354612,
+      "text": "I rolled to one side as the blade struck deep into the log wall.",
+      "translation": "Kılıç kütük duvara derince saplanırken ben bir yana doğru yuvarlandım.",
+      "notes": "roll to one side: bir yana yuvarlanmak; strike deep: derine saplanmak"
+    },
+    {
+      "id": 234,
+      "start_ms": 1355012,
+      "end_ms": 1359716,
+      "text": "Before he could pull it free, the doctor struck him down with his sword.",
+      "translation": "Adam kılıcı kurtaramadan önce doktor kılıcıyla onu yere serdi.",
+      "notes": "strike down: yere sermek; pull free: çekip kurtarmak"
+    },
+    {
+      "id": 235,
+      "start_ms": 1360116,
+      "end_ms": 1365492,
+      "text": "The surviving pirates lost heart, turned around, and fled over the fence.",
+      "translation": "Hayatta kalan korsanların cesareti kırıldı, geriye dönüp çitin üzerinden kaçtılar.",
+      "notes": "lose heart: cesaretini yitirmek; flee: kaçmak"
+    },
+    {
+      "id": 236,
+      "start_ms": 1365892,
+      "end_ms": 1371124,
+      "text": "Within three furious minutes, the brutal attack was completely repelled.",
+      "translation": "Üç şiddetli dakika içinde bu acımasız saldırı tamamen püskürtüldü.",
+      "notes": "repel: püskürtmek; brutal attack: vahşi saldırı"
+    },
+    {
+      "id": 237,
+      "start_ms": 1371524,
+      "end_ms": 1377044,
+      "text": "Five pirates lay dead on the sand, while the others had escaped back into the swamp.",
+      "translation": "Beş korsan kumların üzerinde cansız yatıyordu, diğerleri ise bataklığa doğru kaçmıştı.",
+      "notes": "lay dead: ölü yatmak; escape back: gerisin geri kaçmak"
+    },
+    {
+      "id": 238,
+      "start_ms": 1377444,
+      "end_ms": 1381596,
+      "text": "Yet our victory had come at a heavy cost to our little garrison.",
+      "translation": "Fakat bu zafer küçük garnizonumuza çok ağır bir bedele mal olmuştu.",
+      "notes": "heavy cost: ağır bedel; garrison: garnizon, savunma birliği"
+    },
+    {
+      "id": 239,
+      "start_ms": 1381996,
+      "end_ms": 1388020,
+      "text": "Joyce was dead, Hunter was gravely wounded, and Captain Smollett had been shot twice.",
+      "translation": "Joyce ölmüştü, Hunter ağır yaralıydı ve Kaptan Smollett iki yerinden vurulmuştu.",
+      "notes": "gravely wounded: ağır yaralı; shot twice: iki kez vurulmuş"
+    },
+    {
+      "id": 240,
+      "start_ms": 1388420,
+      "end_ms": 1393244,
+      "text": "The doctor bandaged the captain's bleeding wounds while we guarded the barricade.",
+      "translation": "Biz barikatı beklerken doktor kaptanın kanayan yaralarını sardı.",
+      "notes": "bandage wounds: yaraları sarmak; guard: korumak, nöbet tutmak"
+    },
+    {
+      "id": 241,
+      "start_ms": 1394244,
+      "end_ms": 1400196,
+      "text": "After dinner, Dr. Livesey took his hat and pistols and walked boldly off into the woods.",
+      "translation": "Yemekten sonra Doktor Livesey şapkasını ve tabancalarını alıp cesurca ormana doğru yürüdü.",
+      "notes": "boldly: cesurca; pistols: tabancalar"
+    },
+    {
+      "id": 242,
+      "start_ms": 1400596,
+      "end_ms": 1405708,
+      "text": "I knew he was going to find Ben Gunn, and a reckless plan entered my own head.",
+      "translation": "Ben Gunn'ı bulmaya gittiğini biliyordum ve kendi aklıma da cüretkar bir plan girdi.",
+      "notes": "reckless plan: pervasız / cüretkar plan; enter head: aklına gelmek"
+    },
+    {
+      "id": 243,
+      "start_ms": 1406108,
+      "end_ms": 1411532,
+      "text": "I hated sitting idle in the heat, watching our wounded companions groan in pain.",
+      "translation": "Sıcakta boş oturmaktan ve yaralı arkadaşlarımızın acı içinde inlemesini izlemekten nefret ediyordum.",
+      "notes": "idle: boş, tembel; groan in pain: acıdan inlemek"
+    },
+    {
+      "id": 244,
+      "start_ms": 1411932,
+      "end_ms": 1416780,
+      "text": "Ben Gunn had told me he had built a small boat hidden beneath a white rock.",
+      "translation": "Ben Gunn bana beyaz bir kayanın altında sakladığı küçük bir kayık yaptığını söylemişti.",
+      "notes": "hidden beneath: altında gizlenmiş; boat: sandal"
+    },
+    {
+      "id": 245,
+      "start_ms": 1417180,
+      "end_ms": 1423036,
+      "text": "Without asking permission, I filled my pockets with biscuits and slipped out into the bushes.",
+      "translation": "İzin istemeden ceplerimi bisküviyle doldurdum ve çalılıkların arasına süzüldüm.",
+      "notes": "without permission: izinsiz; slip out: sıvışmak"
+    },
+    {
+      "id": 246,
+      "start_ms": 1423436,
+      "end_ms": 1428644,
+      "text": "I ran along the coastline until I found the hollow white rock Ben had described.",
+      "translation": "Ben'in tarif ettiği oyuk beyaz kayayı bulana kadar kıyı şeridi boyunca koştum.",
+      "notes": "coastline: kıyı şeridi; hollow rock: oyuk kaya"
+    },
+    {
+      "id": 247,
+      "start_ms": 1429044,
+      "end_ms": 1435044,
+      "text": "Under a tent of goatskins lay a little coracle: a tiny wicker boat covered in stretched hide.",
+      "translation": "Keçi derisinden bir çadırın altında küçük bir ilkel sandal duruyordu: gerilmiş deriyle kaplı minicik hasır bir kayık.",
+      "notes": "coracle: deri kaplı hafif ilkel kayık; wicker: hasır, sepet örgüsü"
+    },
+    {
+      "id": 248,
+      "start_ms": 1435444,
+      "end_ms": 1440796,
+      "text": "It was very light, completely round, and exceedingly difficult to steer.",
+      "translation": "Çok hafifti, tamamen yuvarlaktı ve yönlendirmesi son derece zordu.",
+      "notes": "exceedingly difficult: fevkalade zor; steer: dümen tutmak, yönlendirmek"
+    },
+    {
+      "id": 249,
+      "start_ms": 1441196,
+      "end_ms": 1446524,
+      "text": "I waited until darkness covered the bay before dragging the little vessel into the surf.",
+      "translation": "Karanlık koyu tamamen örtünceye kadar bekledim, sonra minik tekneyi dalgaların içine çektim.",
+      "notes": "surf: kıyıya vuran dalgalar; drag: sürüklemek"
+    },
+    {
+      "id": 250,
+      "start_ms": 1446924,
+      "end_ms": 1451844,
+      "text": "My bold plan was to paddle out to the Hispaniola and cut her anchor cable.",
+      "translation": "Cesur planım, kürek çekerek Hispaniola'ya ulaşmak ve demir halatını kesmekti.",
+      "notes": "paddle out: kürekle açılmak; cable: palamar halatı"
+    },
+    {
+      "id": 251,
+      "start_ms": 1452244,
+      "end_ms": 1457068,
+      "text": "If the ship drifted ashore, the pirates could never use her to escape.",
+      "translation": "Eğer gemi karaya sürüklenirse, korsanlar onu kaçmak için asla kullanamazlardı.",
+      "notes": "drift ashore: karaya sürüklenmek; escape: kaçmak"
+    },
+    {
+      "id": 252,
+      "start_ms": 1457468,
+      "end_ms": 1462772,
+      "text": "The ebb tide carried my coracle swiftly toward the great black silhouette of the ship.",
+      "translation": "Çekilen deniz akıntısı minik sandalımı geminin devasa siyah silüetine doğru hızla taşıdı.",
+      "notes": "ebb tide: cezir akıntısı; silhouette: silüet"
+    },
+    {
+      "id": 253,
+      "start_ms": 1463172,
+      "end_ms": 1468500,
+      "text": "From the cabin window came loud drunken shouts and singing from the pirate watchmen.",
+      "translation": "Kamaranın penceresinden sarhoşça naralar ve korsan nöbetçilerin söylediği şarkılar geliyordu.",
+      "notes": "drunken shouts: sarhoşça naralar; watchmen: nöbetçiler"
+    },
+    {
+      "id": 254,
+      "start_ms": 1468900,
+      "end_ms": 1474444,
+      "text": "I drifted silently under the bowsprit, grasping the thick hawser with both hands.",
+      "translation": "Civadranın altına sessizce yanaştım ve kalın palamar halatını iki elimle kavradım.",
+      "notes": "bowsprit: civadra (baş bodoslama direği); hawser: kalın bağlama halatı"
+    },
+    {
+      "id": 255,
+      "start_ms": 1474844,
+      "end_ms": 1479284,
+      "text": "The hawser was taut as a bowstring under the strong ocean current.",
+      "translation": "Halat güçlü okyanus akıntısının altında bir yay kirişi gibi gerilmişti.",
+      "notes": "taut: gergin; bowstring: yay kirişi"
+    },
+    {
+      "id": 256,
+      "start_ms": 1479684,
+      "end_ms": 1484940,
+      "text": "I pulled out my clasp-knife and began sawing patiently strand after strand.",
+      "translation": "Çakımı çıkardım ve sabırla lif lif kesmeye başladım.",
+      "notes": "clasp-knife: çakı; strand: tel, lif; saw: testereyle keser gibi kesmek"
+    },
+    {
+      "id": 257,
+      "start_ms": 1485340,
+      "end_ms": 1491220,
+      "text": "A sudden gust of wind eased the strain, and my sharp knife severed the final fibers.",
+      "translation": "Ani bir rüzgar esintisi gerginliği hafifletti ve keskin bıçağım son lifleri de kopardı.",
+      "notes": "sever: koparmak, kesmek; gust of wind: ani rüzgar esintisi"
+    },
+    {
+      "id": 258,
+      "start_ms": 1491620,
+      "end_ms": 1497188,
+      "text": "The Hispaniola swung round in the current, beginning to drift freely out toward sea.",
+      "translation": "Hispaniola akıntıyla birlikte kendi etrafında döndü ve denize doğru serbestçe sürüklenmeye başladı.",
+      "notes": "swing round: dönmek, savrulmak; drift freely: serbestçe sürüklenmek"
+    },
+    {
+      "id": 259,
+      "start_ms": 1497588,
+      "end_ms": 1503420,
+      "text": "The drunken singing stopped abruptly, replaced by furious cries of alarm on deck.",
+      "translation": "Sarhoş şarkıları aniden kesildi, yerini güvertedeki öfkeli alarm çığlıkları aldı.",
+      "notes": "abruptly: ansızın, birdenbire; cries of alarm: panik / alarm çığlıkları"
+    },
+    {
+      "id": 260,
+      "start_ms": 1503820,
+      "end_ms": 1509412,
+      "text": "Tossed helplessly by big waves, my little boat was swept into the pitch-black night.",
+      "translation": "Büyük dalgalar tarafından çaresizce savrulan küçük kayığım zifiri karanlık gecenin içine sürüklendi.",
+      "notes": "toss: dalgalarda savrulmak; pitch-black: zifiri karanlık"
+    },
+    {
+      "id": 261,
+      "start_ms": 1510412,
+      "end_ms": 1515764,
+      "text": "At sunrise, I found myself drifting near the southern cliffs of the island.",
+      "translation": "Güneş doğduğunda kendimi adanın güney kayalıklarının yakınında sürüklenirken buldum.",
+      "notes": "at sunrise: gün doğumunda; drift: sürüklenmek"
+    },
+    {
+      "id": 262,
+      "start_ms": 1516164,
+      "end_ms": 1522284,
+      "text": "To my utter amazement, the great schooner Hispaniola was sailing wild just a mile away.",
+      "translation": "Şaşkınlıktan donakaldım; koca uskuna Hispaniola sadece bir mil ötede başıboş bir şekilde yüzüyordu.",
+      "notes": "utter amazement: büyük şaşkınlık; sail wild: başıboş yelken açmak"
+    },
+    {
+      "id": 263,
+      "start_ms": 1522684,
+      "end_ms": 1527868,
+      "text": "Her mainsail flapped in the breeze, and no hand appeared to be guiding the helm.",
+      "translation": "Büyük ana yelkeni rüzgarda çırpınıyordu ve dümende ona yön veren tek bir el bile görünmüyordu.",
+      "notes": "mainsail: ana yelken; flap: kanat / yelken çırpmak"
+    },
+    {
+      "id": 264,
+      "start_ms": 1528268,
+      "end_ms": 1533500,
+      "text": "I paddled desperately toward her and managed to catch a dangling rope from the bowsprit.",
+      "translation": "Çaresizce ona doğru kürek çektim ve civadradan sarkan bir halatı yakalamayı başardım.",
+      "notes": "dangling rope: sarkan halat; catch: yakalamak"
+    },
+    {
+      "id": 265,
+      "start_ms": 1533900,
+      "end_ms": 1539492,
+      "text": "My light coracle was crushed under the schooner's hull, leaving me clinging for my life.",
+      "translation": "Hafif kayığım uskunanın gövdesi altında ezildi ve beni can havliyle halata tutunur halde bıraktı.",
+      "notes": "cling for life: can havliyle tutunmak; hull: gemi teknesi / gövdesi"
+    },
+    {
+      "id": 266,
+      "start_ms": 1539892,
+      "end_ms": 1545148,
+      "text": "I scrambled onto the deck and beheld a gruesome scene of pirate drunken violence.",
+      "translation": "Güverteye tırmandım ve korsanların sarhoşça şiddetine ait korkunç bir manzarayla karşılaştım.",
+      "notes": "gruesome scene: dehşet verici manzara; violence: şiddet"
+    },
+    {
+      "id": 267,
+      "start_ms": 1545548,
+      "end_ms": 1550732,
+      "text": "One pirate lay dead by the mast, his red cap soaked in dark blood.",
+      "translation": "Bir korsan direğin dibinde ölü yatıyordu; kırmızı takkesi koyu kana bulanmıştı.",
+      "notes": "soaked in blood: kana bulanmış; mast: gemi direği"
+    },
+    {
+      "id": 268,
+      "start_ms": 1551132,
+      "end_ms": 1557852,
+      "text": "Israel Hands, the ship's coxswain, sat propped against the bulwarks, groaning with a wounded thigh.",
+      "translation": "Geminin serdümeni Israel Hands, küpeşteye yaslanmış oturuyor, yaralı uyluğunun acısıyla inliyordu.",
+      "notes": "coxswain: serdümen, dümenci; bulwarks: küpeşte"
+    },
+    {
+      "id": 269,
+      "start_ms": 1558252,
+      "end_ms": 1563796,
+      "text": "\"Give me some brandy, Jim,\" Hands whispered hoarsely, \"I am wounded to death.\"",
+      "translation": "\"Bana biraz konyak ver Jim,\" diye hırıltıyla fısıldadı Hands, \"ölümcül şekilde yaralandım.\"",
+      "notes": "hoarsely: boğuk / hırıltılı sesle; brandy: konyak"
+    },
+    {
+      "id": 270,
+      "start_ms": 1564196,
+      "end_ms": 1569308,
+      "text": "I brought him a bottle of wine, food, and water from the officers' pantry.",
+      "translation": "Ona subay kilerinden bir şişe şarap, yiyecek ve su getirdim.",
+      "notes": "pantry: kiler; officers: subaylar"
+    },
+    {
+      "id": 271,
+      "start_ms": 1569708,
+      "end_ms": 1574892,
+      "text": "\"I have taken possession of this ship, Mr. Hands,\" I announced firmly.",
+      "translation": "\"Bu geminin kontrolünü ben devraldım Bay Hands,\" diye ilan ettim kararlılıkla.",
+      "notes": "take possession: sahiplenmek, kontrolünü almak; firmly: kararlılıkla"
+    },
+    {
+      "id": 272,
+      "start_ms": 1575292,
+      "end_ms": 1581364,
+      "text": "I climbed the rigging, tore down the pirate Jolly Roger flag, and tossed it into the sea.",
+      "translation": "Direk donanımına tırmandım, korsanların Jolly Roger bayrağını yırttım ve denize fırlattım.",
+      "notes": "tear down: yırtıp indirmek; toss into the sea: denize atmak"
+    },
+    {
+      "id": 273,
+      "start_ms": 1581764,
+      "end_ms": 1587428,
+      "text": "Hands agreed to help me steer the ship into the safe North Inlet in exchange for his life.",
+      "translation": "Hands, canının bağışlanması karşılığında gemiyi güvenli Kuzey Koyu'na yanaştırmama yardım etmeyi kabul etti.",
+      "notes": "in exchange for: ...in karşılığında; safe inlet: güvenli koy"
+    },
+    {
+      "id": 274,
+      "start_ms": 1587828,
+      "end_ms": 1593228,
+      "text": "However, his sly eyes constantly followed my movements with murderous intent.",
+      "translation": "Ancak sinsi gözleri ölümcül bir niyetle durmadan hareketlerimi takip ediyordu.",
+      "notes": "sly eyes: sinsi bakışlar; murderous intent: ölümcül niyet"
+    },
+    {
+      "id": 275,
+      "start_ms": 1593628,
+      "end_ms": 1599004,
+      "text": "As the ship ran gently onto a sandy beach, I turned around just in time.",
+      "translation": "Gemi usulca kumsal bir sığlığa otururken tam vaktinde arkama döndüm.",
+      "notes": "just in time: tam vaktinde; sandy beach: kumluk sahil"
+    },
+    {
+      "id": 276,
+      "start_ms": 1599404,
+      "end_ms": 1604084,
+      "text": "Hands was limping toward me with a gleaming bloody dirk in his right hand!",
+      "translation": "Hands, sağ elinde pırıl pırıl parlayan kanlı bir kamayla bana doğru topallayarak geliyordu!",
+      "notes": "gleaming dirk: parıldayan kama; limp: topallamak"
+    },
+    {
+      "id": 277,
+      "start_ms": 1604484,
+      "end_ms": 1609692,
+      "text": "I sprang into the mast rigging, scrambling up to the crosstrees out of his reach.",
+      "translation": "Direk çarmıklarına atladım ve onun erişemeyeceği seren çarmıklarına kadar yukarı tırmandım.",
+      "notes": "crosstrees: gabya çarmıkları, seren çarmığı; out of reach: erişilemez yerde"
+    },
+    {
+      "id": 278,
+      "start_ms": 1610092,
+      "end_ms": 1615180,
+      "text": "Hands hurled his knife through the air; it pinned my shoulder to the wooden mast!",
+      "translation": "Hands bıçağını havadan fırlattı; bıçak omzumu tahta direğe çiviledi!",
+      "notes": "hurl knife: bıçak fırlatmak; pin: çivilemek, sabitlemek"
+    },
+    {
+      "id": 279,
+      "start_ms": 1615580,
+      "end_ms": 1622660,
+      "text": "In severe pain, my pistols discharged both together; Hands gave a choked cry and plunged into the sea.",
+      "translation": "Şiddetli bir acı içinde iki tabancam birden ateş aldı; Hands boğuk bir çığlık attı ve denize gömüldü.",
+      "notes": "choked cry: boğuk çığlık; plunge into: içine dalmak / gömülmek"
+    },
+    {
+      "id": 280,
+      "start_ms": 1623060,
+      "end_ms": 1628028,
+      "text": "The traitor was dead, and the Hispaniola was safely beached in our hands.",
+      "translation": "Hain ölmüştü ve Hispaniola güvenli bir şekilde karaya oturtulmuş olarak bizim elimizdeydi.",
+      "notes": "traitor: hain; safely beached: güvenle karaya oturtulmuş"
+    },
+    {
+      "id": 281,
+      "start_ms": 1629028,
+      "end_ms": 1634788,
+      "text": "I freed my shoulder, bound my wound with a kerchief, and hurried through the dark woods.",
+      "translation": "Omzumu kurtardım, yaramı bir mendille sardım ve karanlık ormanın içinden aceleyle ilerledim.",
+      "notes": "free: kurtarmak; bind wound: yarayı sarmak"
+    },
+    {
+      "id": 282,
+      "start_ms": 1635188,
+      "end_ms": 1641428,
+      "text": "When I crept into the silent stockade, a screeching voice pierced the darkness: \"Pieces of eight!\"",
+      "translation": "Sessiz hisara usulca girdiğimde, cırtlak bir ses karanlığı deldi: \"Sekiz parçalık altınlar!\"",
+      "notes": "screeching voice: cırtlak ses; pierce darkness: karanlığı delip geçmek"
+    },
+    {
+      "id": 283,
+      "start_ms": 1641828,
+      "end_ms": 1647012,
+      "text": "It was Silver's green parrot; the pirates had captured the fort while I was away!",
+      "translation": "Bu Silver'ın yeşil papağanıydı; ben yokken korsanlar kaleyi ele geçirmişti!",
+      "notes": "capture the fort: kaleyi zapt etmek / ele geçirmek"
+    },
+    {
+      "id": 284,
+      "start_ms": 1647412,
+      "end_ms": 1653532,
+      "text": "The pirates surrounded me, but Long John Silver surprisingly stepped in to protect my life.",
+      "translation": "Korsanlar etrafımı sardı fakat Uzun John Silver şaşırtıcı bir şekilde hayatımı korumak için araya girdi.",
+      "notes": "step in to protect: korumak için araya girmek; surprisingly: şaşırtıcı şekilde"
+    },
+    {
+      "id": 285,
+      "start_ms": 1653932,
+      "end_ms": 1660124,
+      "text": "\"The boy has spirit, and I will not let you murder him,\" Silver growled at his disgruntled men.",
+      "translation": "\"Çocukta yürek var ve onu öldürmenize izin vermeyeceğim,\" diye homurdandı Silver hoşnutsuz adamlarına.",
+      "notes": "have spirit: cesur / yürekli olmak; disgruntled: hoşnutsuz"
+    },
+    {
+      "id": 286,
+      "start_ms": 1660524,
+      "end_ms": 1666524,
+      "text": "The next morning, Dr. Livesey arrived under a flag of truce to tend to the wounded pirates.",
+      "translation": "Ertesi sabah Doktor Livesey, yaralı korsanları tedavi etmek için beyaz bayrak altında geldi.",
+      "notes": "tend to: bakmak, tedavi etmek; flag of truce: ateşkes bayrağı"
+    },
+    {
+      "id": 287,
+      "start_ms": 1666924,
+      "end_ms": 1671676,
+      "text": "He whispered to me that Ben Gunn had already dug up the treasure months ago!",
+      "translation": "Kulağıma fısıldayarak, Ben Gunn'ın hazineyi aylar önce kazıp çıkardığını söyledi!",
+      "notes": "dig up: kazıp çıkarmak; whisper: fısıldamak"
+    },
+    {
+      "id": 288,
+      "start_ms": 1672076,
+      "end_ms": 1677068,
+      "text": "That was why the doctor had willingly handed the useless map over to Silver.",
+      "translation": "İşte doktorun işe yaramaz haritayı Silver'a gönüllü olarak vermesinin sebebi buydu.",
+      "notes": "willingly: isteyerek, gönüllüce; hand over: teslim etmek"
+    },
+    {
+      "id": 289,
+      "start_ms": 1677468,
+      "end_ms": 1683132,
+      "text": "Silver led his eager pirates across the island following Flint's map to the marked cross.",
+      "translation": "Silver hevesli korsanlarını adanın üzerinden geçirerek Flint'in haritasındaki işaretli haça götürdü.",
+      "notes": "lead across: üzerinden geçirerek götürmek; marked cross: işaretli haç"
+    },
+    {
+      "id": 290,
+      "start_ms": 1683532,
+      "end_ms": 1688644,
+      "text": "When they reached the spot, they found only a huge empty hole in the ground.",
+      "translation": "Noktaya vardıklarında toprakta yalnızca devasa bomboş bir çukur buldular.",
+      "notes": "empty hole: boş çukur; reach spot: noktaya varmak"
+    },
+    {
+      "id": 291,
+      "start_ms": 1689044,
+      "end_ms": 1694300,
+      "text": "The pirates screamed that Silver had betrayed them and drew their weapons to butcher us.",
+      "translation": "Korsanlar Silver'ın kendilerine ihanet ettiğini haykırdılar ve bizi katletmek için silahlarını çektiler.",
+      "notes": "betray: ihanet etmek; butcher: kasap gibi doğramak, katletmek"
+    },
+    {
+      "id": 292,
+      "start_ms": 1694700,
+      "end_ms": 1701156,
+      "text": "At that moment, three rifle shots blasted from the bushes, dropping two mutineers instantly.",
+      "translation": "Tam o anda çalılıklardan üç tüfek sesi patladı ve iki isyancıyı anında yere serdi.",
+      "notes": "rifle shot: tüfek atışı; blast: patlamak"
+    },
+    {
+      "id": 293,
+      "start_ms": 1701556,
+      "end_ms": 1708828,
+      "text": "Dr. Livesey, Gray, and Ben Gunn stepped forth with smoking barrels, scattering the remaining pirates.",
+      "translation": "Doktor Livesey, Gray ve Ben Gunn namlularından dumanlar tüterek öne çıktılar ve kalan korsanları darmadağın ettiler.",
+      "notes": "smoking barrels: dumanı tüten namlular; scatter: püskürtmek, dağıtmak"
+    },
+    {
+      "id": 294,
+      "start_ms": 1709228,
+      "end_ms": 1714556,
+      "text": "Silver surrendered instantly, humbly begging the doctor for mercy and protection.",
+      "translation": "Silver derhal teslim oldu, alçakgönüllülükle doktordan merhamet ve koruma diledi.",
+      "notes": "surrender instantly: anında teslim olmak; beg for mercy: merhamet dilemek"
+    },
+    {
+      "id": 295,
+      "start_ms": 1714956,
+      "end_ms": 1720068,
+      "text": "We marched across the island to Ben Gunn's secret cavern high in the granite hill.",
+      "translation": "Granit tepenin doruklarındaki Ben Gunn'ın gizli mağarasına doğru adayı boydan boya yürüdük.",
+      "notes": "granite hill: granit tepe; secret cavern: gizli mağara"
+    },
+    {
+      "id": 296,
+      "start_ms": 1720468,
+      "end_ms": 1726684,
+      "text": "There, stacked in golden heaps, lay the seven hundred thousand pounds of Captain Flint's fortune!",
+      "translation": "Orada, altın yığınları halinde dizilmiş, Kaptan Flint'in yedi yüz bin sterlinlik serveti yatıyordu!",
+      "notes": "golden heaps: altın yığınları; fortune: servet"
+    },
+    {
+      "id": 297,
+      "start_ms": 1727084,
+      "end_ms": 1733228,
+      "text": "Doubloons, guineas, gold bars, and jewels of all nations glittered in the firelight.",
+      "translation": "Tüm ulusların dublonları, gineleri, altın külçeleri ve mücevherleri ateş ışığında pırıl pırıl parlıyordu.",
+      "notes": "gold bars: altın külçeleri; glitter in firelight: ateş ışığında parıldamak"
+    },
+    {
+      "id": 298,
+      "start_ms": 1733628,
+      "end_ms": 1739340,
+      "text": "For days, we carried the heavy gold down to the Hispaniola and stowed it deep in the hold.",
+      "translation": "Günlerce ağır altını Hispaniola'ya taşıdık ve ambarın derinliklerine istifledik.",
+      "notes": "stow deep: derine istiflemek; ship's hold: gemi ambarı"
+    },
+    {
+      "id": 299,
+      "start_ms": 1739740,
+      "end_ms": 1745860,
+      "text": "We marooned the remaining three wicked pirates on the island and set sail for England with rich hearts.",
+      "translation": "Kalan üç hain korsanı adada bıraktık ve zenginleşmiş yüreklerle İngiltere'ye doğru yelken açtık.",
+      "notes": "set sail: yelken açmak; rich hearts: zengin / sevinçli yürekler"
+    },
+    {
+      "id": 300,
+      "start_ms": 1746260,
+      "end_ms": 1753148,
+      "text": "Long John Silver escaped at a Spanish port with a sack of gold, but none of us ever regretted his loss.",
+      "translation": "Uzun John Silver bir İspanyol limanında bir çuval altınla kaçtı ama hiçbirimiz onun kaybına asla üzülmedik.",
+      "notes": "sack of gold: bir çuval altın; regret loss: kaybına üzülmek / pişman olmak"
+    }
+  ]
+}
