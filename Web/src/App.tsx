@@ -143,6 +143,13 @@ const PRESET_LESSONS: PresetLesson[] = [
     pdfUrl: '/lessons/book_18_king_arthur/book_18_king_arthur.pdf',
   },
   {
+    id: 'book_19_gullivers_travels',
+    name: "19. Gulliver's Travels (15 Sayfa / 300 Cümle)",
+    jsonUrl: '/lessons/book_19_gullivers_travels/lesson.json',
+    audioUrl: '/lessons/book_19_gullivers_travels/audio.mp3',
+    pdfUrl: '/lessons/book_19_gullivers_travels/book_19_gullivers_travels.pdf',
+  },
+  {
     id: 'sample_ch01',
     name: 'Demo: The Departure (6 Cümle)',
     jsonUrl: '/lessons/sample_ch01/lesson.json',

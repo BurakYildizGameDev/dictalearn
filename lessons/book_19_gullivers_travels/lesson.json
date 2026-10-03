@@ -1,0 +1,2414 @@
+{
+  "schema_version": 1,
+  "lesson_id": "book_19_gullivers_travels",
+  "title": "Gulliver's Travels (15 Sayfa / 300 Cümle / Graded Reader)",
+  "source_lang": "en",
+  "target_lang": "tr",
+  "audio_file": "audio.mp3",
+  "attribution": {
+    "source": "Jonathan Swift / Graded Reader Adaptasyonu (15 Sayfa x 20 Cümle)",
+    "license": "Public Domain / Educational Fair Use"
+  },
+  "segments": [
+    {
+      "id": 1,
+      "start_ms": 300,
+      "end_ms": 5652,
+      "text": "My name is Lemuel Gulliver, and I was born in Nottinghamshire to a modest family.",
+      "translation": "Benim adım Lemuel Gulliver ve Nottinghamshire'da mütevazı bir ailenin çocuğu olarak doğdum.",
+      "notes": "Passive voice 'was born'; prepositional phrase of origin."
+    },
+    {
+      "id": 2,
+      "start_ms": 6052,
+      "end_ms": 12028,
+      "text": "I studied medicine at Leyden and became a ship's surgeon on voyages across distant oceans.",
+      "translation": "Leyden'de tıp okudum ve uzak okyanuslardaki seferlerde gemi cerrahı oldum.",
+      "notes": "Coordinate past verbs 'studied and became'; compound noun 'ship's surgeon'."
+    },
+    {
+      "id": 3,
+      "start_ms": 12428,
+      "end_ms": 20060,
+      "text": "In May 1699, I set sail from Bristol aboard the merchant vessel Antelope, bound for the South Seas.",
+      "translation": "Mayıs 1699'da, Güney Denizlerine gitmekte olan tüccar gemisi Antelope ile Bristol'den yelken açtım.",
+      "notes": "Prepositional phrases indicating date, port, and vessel; participle 'bound for'."
+    },
+    {
+      "id": 4,
+      "start_ms": 20460,
+      "end_ms": 26580,
+      "text": "A furious storm drove our ship against a jagged rock in the East Indies, splitting the hull.",
+      "translation": "Kudretli bir fırtına gemimizi Doğu Hint Adaları'ndaki sarp bir kayaya çarptı, tekneyi yardı.",
+      "notes": "Coordinate participles describing catastrophe; adjective 'jagged'."
+    },
+    {
+      "id": 5,
+      "start_ms": 26980,
+      "end_ms": 32836,
+      "text": "Six of the crew, including myself, pushed a lifeboat into the churning waves.",
+      "translation": "Ben dahil altı mürettebat, köpüren dalgaların içine bir filika indirdik.",
+      "notes": "Participial preposition 'including myself'; past verb 'pushed'."
+    },
+    {
+      "id": 6,
+      "start_ms": 33236,
+      "end_ms": 38924,
+      "text": "Within half an hour, our tiny rowboat was overturned by a sudden violent squall.",
+      "translation": "Yarım saat içinde minik sandalımız ani ve şiddetli bir sağanakla devrildi.",
+      "notes": "Passive voice 'was overturned'; compound noun 'violent squall'."
+    },
+    {
+      "id": 7,
+      "start_ms": 39324,
+      "end_ms": 44724,
+      "text": "I swam as fortune directed me, pushed forward by wind and incoming tide.",
+      "translation": "Rüzgar ve gelen gelgitle ileri itilerek, talihin beni yönlendirdiği gibi yüzdüm.",
+      "notes": "Passive participle modifier 'pushed forward'; manner clause 'as fortune directed'."
+    },
+    {
+      "id": 8,
+      "start_ms": 45124,
+      "end_ms": 50404,
+      "text": "When my strength was nearly exhausted, my feet miraculously touched bottom.",
+      "translation": "Gücüm neredeyse tükenmişken, ayaklarım mucizevi bir şekilde tabana değdi.",
+      "notes": "Time clause with 'exhausted'; adverb 'miraculously'."
+    },
+    {
+      "id": 9,
+      "start_ms": 50804,
+      "end_ms": 55940,
+      "text": "I waded ashore through the shallow water and collapsed upon soft green grass.",
+      "translation": "Sığ sudan yürüyerek karaya çıktım ve yumuşak yeşil çimenlerin üzerine yığıldım.",
+      "notes": "Coordinate past verbs 'waded and collapsed'; adjective 'shallow'."
+    },
+    {
+      "id": 10,
+      "start_ms": 56340,
+      "end_ms": 61404,
+      "text": "I slept deeper and more soundly than ever I remembered in my whole existence.",
+      "translation": "Bütün hayatımda hatırladığım her zamankinden daha derin ve mışıl mışıl uyudum.",
+      "notes": "Comparative adverbs 'deeper and more soundly'; noun phrase 'whole existence'."
+    },
+    {
+      "id": 11,
+      "start_ms": 61804,
+      "end_ms": 67636,
+      "text": "When I awoke, daylight had arrived, but I found myself unable to rise or stir.",
+      "translation": "Uyandığımda gün aydınlanmıştı fakat kendimi kalkamaz ya da kıpırdayamaz halde buldum.",
+      "notes": "Time clause with 'awoke'; adjective phrase 'unable to rise or stir'."
+    },
+    {
+      "id": 12,
+      "start_ms": 68036,
+      "end_ms": 73748,
+      "text": "My arms and legs were strongly fastened on each side to the ground with slender pegs.",
+      "translation": "Kollarım ve bacaklarım her iki yanımdan ince kazıklarla yere sımsıkı bağlanmıştı.",
+      "notes": "Passive voice 'were fastened'; instrument phrase 'with slender pegs'."
+    },
+    {
+      "id": 13,
+      "start_ms": 74148,
+      "end_ms": 79404,
+      "text": "My thick hair was likewise tied down in hundreds of places with thin cords.",
+      "translation": "Gür saçlarım da aynı şekilde yüzlerce yerinden ince iplerle aşağı bağlanmıştı.",
+      "notes": "Passive voice 'was tied down'; adverb 'likewise'."
+    },
+    {
+      "id": 14,
+      "start_ms": 79804,
+      "end_ms": 84508,
+      "text": "I could only look upward into the dazzling, brilliant glare of the sky.",
+      "translation": "Yalnızca gökyüzünün göz alıcı, parlak parıltısına doğru yukarı bakabiliyordum.",
+      "notes": "Modal 'could only look'; directional adverb 'upward'."
+    },
+    {
+      "id": 15,
+      "start_ms": 84908,
+      "end_ms": 89612,
+      "text": "Presently, I felt something alive moving gently upon my left leg.",
+      "translation": "Çok geçmeden sol bacağımın üzerinde usulca hareket eden canlı bir şey hissettim.",
+      "notes": "Perception verb 'felt' + participle 'moving gently'."
+    },
+    {
+      "id": 16,
+      "start_ms": 90012,
+      "end_ms": 94524,
+      "text": "It advanced over my breast until it stood directly beneath my chin.",
+      "translation": "Tam çenemin altına gelene kadar göğsümün üzerinden ileri doğru ilerledi.",
+      "notes": "Time clause with 'until'; past verb 'advanced'."
+    },
+    {
+      "id": 17,
+      "start_ms": 94924,
+      "end_ms": 100492,
+      "text": "Bending my eyes downward, I perceived a human creature not six inches high.",
+      "translation": "Gözlerimi aşağıya doğru çevirerek, on beş santim bile boyu olmayan bir insan yaratığı fark ettim.",
+      "notes": "Participle clause 'Bending eyes'; measurement 'not six inches high'."
+    },
+    {
+      "id": 18,
+      "start_ms": 100892,
+      "end_ms": 106292,
+      "text": "He held a tiny bow and arrow in his hands, with a miniature quiver at his back.",
+      "translation": "Sırtında minyatür bir sadakla, ellerinde minicik bir yay ve ok tutuyordu.",
+      "notes": "Prepositional phrases indicating gear; past verb 'held'."
+    },
+    {
+      "id": 19,
+      "start_ms": 106692,
+      "end_ms": 113028,
+      "text": "Forty more of the same tiny species followed after him, shouting in high, shrill voices.",
+      "translation": "Aynı minik türden kırk tanesi daha tiz çığlıklar atarak onun ardından geldi.",
+      "notes": "Coordinate participles; adjective pair 'high, shrill'."
+    },
+    {
+      "id": 20,
+      "start_ms": 113428,
+      "end_ms": 119140,
+      "text": "In utter astonishment, I roared so loudly that they all fled backward in panic.",
+      "translation": "Tam bir hayret içinde öyle yüksek sesle kükredim ki hepsi panik içinde geriye kaçtılar.",
+      "notes": "Result clause 'so loudly that'; prepositional phrase 'In utter astonishment'."
+    },
+    {
+      "id": 21,
+      "start_ms": 120140,
+      "end_ms": 125324,
+      "text": "I struggled to break my bonds, wrenching out the wooden pegs on my left side.",
+      "translation": "Sol tarafımdaki tahta kazıkları sökerek bağlarımı koparmak için çabaladım.",
+      "notes": "Participle clause 'wrenching out pegs'; infinitive 'to break bonds'."
+    },
+    {
+      "id": 22,
+      "start_ms": 125724,
+      "end_ms": 131604,
+      "text": "Instantly, a volley of hundreds of tiny arrows pricked my face and hands like needles.",
+      "translation": "Anında yüzlerce minik oktan oluşan bir yaylım ateşi yüzüme ve ellerime iğne gibi battı.",
+      "notes": "Simile 'like needles'; past verb 'pricked'."
+    },
+    {
+      "id": 23,
+      "start_ms": 132004,
+      "end_ms": 136876,
+      "text": "I decided it was prudent to lie perfectly still until nightfall arrived.",
+      "translation": "Gece çökene kadar tamamen hareketsiz yatmanın tedbirlice bir karar olduğunu düşündüm.",
+      "notes": "Noun clause with dummy subject 'it was prudent to lie'; adverb 'perfectly still'."
+    },
+    {
+      "id": 24,
+      "start_ms": 137276,
+      "end_ms": 142532,
+      "text": "Seeing me tranquil, the Lilliputians ceased shooting their needle-like shafts.",
+      "translation": "Benim sakinleştiğimi gören Lilliputlular iğneye benzeyen oklarını fırlatmayı bıraktılar.",
+      "notes": "Participle clause of perception; verb + gerund 'ceased shooting'."
+    },
+    {
+      "id": 25,
+      "start_ms": 142932,
+      "end_ms": 148020,
+      "text": "They built a wooden platform near my ear, and an important personage addressed me.",
+      "translation": "Kulağımın yanına tahta bir platform inşa ettiler ve önemli bir şahsiyet bana hitap etti.",
+      "notes": "Coordinate past clauses; noun 'personage'."
+    },
+    {
+      "id": 26,
+      "start_ms": 148420,
+      "end_ms": 154468,
+      "text": "Though I could not understand his tongue, I signified my hunger by putting fingers to my mouth.",
+      "translation": "Dilini anlayamasam da parmaklarımı ağzıma götürerek açlığımı belirttim.",
+      "notes": "Concession clause with 'though'; preposition 'by' + gerund."
+    },
+    {
+      "id": 27,
+      "start_ms": 154868,
+      "end_ms": 160580,
+      "text": "Ladders were placed against my sides, and hundreds of servants climbed up with baskets.",
+      "translation": "Böğrüme merdivenler dayandı ve yüzlerce hizmetkar sepetlerle yukarı tırmandı.",
+      "notes": "Passive voice 'were placed'; preposition 'with baskets'."
+    },
+    {
+      "id": 28,
+      "start_ms": 160980,
+      "end_ms": 167172,
+      "text": "I ate entire shoulders of mutton at one mouthful, and whole loaves of bread three at a time.",
+      "translation": "Tek bir lokmada bütün bir koyun budunu ve bir seferde üçer üçer koca somun ekmekleri yedim.",
+      "notes": "Parallel adverbial phrases describing appetite; past verb 'ate'."
+    },
+    {
+      "id": 29,
+      "start_ms": 167572,
+      "end_ms": 173332,
+      "text": "They rolled two hogsheads of their best wine up to my hand, which I drank at a single gulp.",
+      "translation": "En iyi şaraplarından iki koca fıçıyı elime yuvarladılar, ben de onları tek bir yudumda dikip içtim.",
+      "notes": "Relative clause 'which I drank'; measurement 'hogshead'."
+    },
+    {
+      "id": 30,
+      "start_ms": 173732,
+      "end_ms": 179372,
+      "text": "A sleeping potion had been mixed into the liquor, causing me to sink into deep slumber.",
+      "translation": "İçkinin içine beni derin bir uykuya sevk eden bir uyku iksiri karıştırılmıştı.",
+      "notes": "Past perfect passive 'had been mixed'; participle clause 'causing me to sink'."
+    },
+    {
+      "id": 31,
+      "start_ms": 179772,
+      "end_ms": 185940,
+      "text": "Five hundred carpenters built an enormous wooden carriage seven feet long with twenty-two wheels.",
+      "translation": "Beş yüz marangoz yirmi iki tekerlekli, yedi fit uzunluğunda devasa tahta bir araba inşa etti.",
+      "notes": "Descriptive measurement phrases; numeral 'twenty-two wheels'."
+    },
+    {
+      "id": 32,
+      "start_ms": 186340,
+      "end_ms": 191692,
+      "text": "Nine hundred of the strongest men hoisted my sleeping body upon this colossal engine.",
+      "translation": "En güçlü adamlardan dokuz yüzü uyuyan gövdemi bu devasa aracın üzerine kaldırdı.",
+      "notes": "Superlative phrase 'strongest men'; transitive past 'hoisted'."
+    },
+    {
+      "id": 33,
+      "start_ms": 192092,
+      "end_ms": 197372,
+      "text": "Fifteen hundred of the Emperor's largest horses dragged the carriage toward the capital.",
+      "translation": "İmparator'un en büyük atlarından bin beş yüzü arabayı başkente doğru çekti.",
+      "notes": "Measurement subject; directional phrase 'toward the capital'."
+    },
+    {
+      "id": 34,
+      "start_ms": 197772,
+      "end_ms": 203988,
+      "text": "Mildendo, the metropolis of Lilliput, was surrounded by walls two and a half feet high.",
+      "translation": "Lilliput'un metropolü Mildendo iki buçuk fit yüksekliğinde surlarla çevriliydi.",
+      "notes": "Passive voice 'was surrounded by'; measurement 'two and a half feet high'."
+    },
+    {
+      "id": 35,
+      "start_ms": 204388,
+      "end_ms": 210100,
+      "text": "I was housed in an ancient, abandoned stone temple, the largest building in the realm.",
+      "translation": "Ülkedeki en büyük bina olan kadim, terk edilmiş taştan bir tapınağa yerleştirildim.",
+      "notes": "Passive voice 'was housed in'; appositive noun phrase."
+    },
+    {
+      "id": 36,
+      "start_ms": 210500,
+      "end_ms": 216428,
+      "text": "My left leg was chained with ninety-one tiny padlocks, allowing me only a little movement.",
+      "translation": "Sol bacağım sadece biraz hareket etmeme izin veren doksan bir minik asma kilitle zincirlendi.",
+      "notes": "Passive voice 'was chained'; participle clause 'allowing me movement'."
+    },
+    {
+      "id": 37,
+      "start_ms": 216828,
+      "end_ms": 222132,
+      "text": "The Emperor of Lilliput rode up on a spirited charger to inspect the Man-Mountain.",
+      "translation": "Lilliput İmparatoru Dağ Adam'ı teftiş etmek için canlı bir savaş atı üzerinde çıkageldi.",
+      "notes": "Phrasal verb 'rode up on'; infinitive of purpose 'to inspect'."
+    },
+    {
+      "id": 38,
+      "start_ms": 222532,
+      "end_ms": 227356,
+      "text": "He was taller by the breadth of a human fingernail than any of his courtiers.",
+      "translation": "Saray mensuplarının hepsinden bir insan tırnağı genişliği kadar daha uzundu.",
+      "notes": "Comparative adjective 'taller by breadth of fingernail'; noun 'courtiers'."
+    },
+    {
+      "id": 39,
+      "start_ms": 227756,
+      "end_ms": 232724,
+      "text": "He held a drawn golden sword to defend himself if I should break my chains.",
+      "translation": "Eğer zincirlerimi kıracak olursam kendini savunmak için elinde çekilmiş altın bir kılıç tutuyordu.",
+      "notes": "Conditional clause 'if I should break'; infinitive of purpose 'to defend'."
+    },
+    {
+      "id": 40,
+      "start_ms": 233124,
+      "end_ms": 238908,
+      "text": "Six hundred persons were assigned as my domestic servants, providing daily rations.",
+      "translation": "Altı yüz kişi günlük erzak sağlayan ev hizmetkarlarım olarak tayin edildi.",
+      "notes": "Passive voice 'were assigned'; participle phrase 'providing rations'."
+    },
+    {
+      "id": 41,
+      "start_ms": 239908,
+      "end_ms": 244996,
+      "text": "The Emperor and his court were entertained by extraordinary political diversions.",
+      "translation": "İmparator ve sarayı sıra dışı siyasi gösterilerle eğlendirilirdi.",
+      "notes": "Passive voice 'were entertained by'; compound adjective 'political diversions'."
+    },
+    {
+      "id": 42,
+      "start_ms": 245396,
+      "end_ms": 250676,
+      "text": "When a great office of state became vacant, candidates competed on a tightrope.",
+      "translation": "Devletin büyük bir makamı boşaldığında, adaylar gergin bir ip üzerinde yarıştılar.",
+      "notes": "Time clause with 'became vacant'; prepositional phrase 'on a tightrope'."
+    },
+    {
+      "id": 43,
+      "start_ms": 251076,
+      "end_ms": 256188,
+      "text": "Whoever jumped the highest on the slender thread without falling received the appointment.",
+      "translation": "Düşmeden incecik ip üzerinde en yükseğe zıplayan kişi tayin edilirdi.",
+      "notes": "Relative subject clause 'Whoever jumped'; participle phrase 'without falling'."
+    },
+    {
+      "id": 44,
+      "start_ms": 256588,
+      "end_ms": 262276,
+      "text": "Chief ministers were frequently chosen purely for their dexterity in turning somersaults.",
+      "translation": "Başbakanlar sıklıkla sadece takla atmadaki maharetleri yüzünden seçilirdi.",
+      "notes": "Passive voice 'were chosen'; adverb 'purely'."
+    },
+    {
+      "id": 45,
+      "start_ms": 262676,
+      "end_ms": 267692,
+      "text": "Another ceremony was performed for the Emperor's favorite courtiers and noblemen.",
+      "translation": "Bir başka tören İmparator'un gözde saray mensupları ve soyluları için icra edilirdi.",
+      "notes": "Passive voice 'was performed for'; possessive noun phrase."
+    },
+    {
+      "id": 46,
+      "start_ms": 268092,
+      "end_ms": 273516,
+      "text": "The Emperor held a blue silk thread horizontally, two feet above the ground.",
+      "translation": "İmparator mavi ipekten bir ipliği yerden iki fit yukarıda yatay olarak tutardı.",
+      "notes": "Adverb 'horizontally'; measurement phrase 'two feet above ground'."
+    },
+    {
+      "id": 47,
+      "start_ms": 273916,
+      "end_ms": 278524,
+      "text": "Candidates had to leap over the thread or creep beneath it back and forth.",
+      "translation": "Adaylar ipliğin üzerinden atlamak veya altından ileri geri sürünmek zorundaydılar.",
+      "notes": "Modal obligation 'had to leap or creep'; prepositional phrases."
+    },
+    {
+      "id": 48,
+      "start_ms": 278924,
+      "end_ms": 284780,
+      "text": "The winner received a blue thread; the second, a red; and the third, a green.",
+      "translation": "Birinci mavi bir iplik aldı; ikinci kırmızı, üçüncü ise yeşil.",
+      "notes": "Parallel elliptical sentences describing royal honors."
+    },
+    {
+      "id": 49,
+      "start_ms": 285180,
+      "end_ms": 290388,
+      "text": "These colored threads were worn proudly around the waist like badges of distinction.",
+      "translation": "Bu renkli iplikler bel çevresinde birer şeref nişanı gibi gururla taşınırdı.",
+      "notes": "Simile 'like badges of distinction'; passive voice 'were worn'."
+    },
+    {
+      "id": 50,
+      "start_ms": 290788,
+      "end_ms": 296068,
+      "text": "I gradually learned the Lilliputian language and conversed politely with His Majesty.",
+      "translation": "Lilliput dilini yavaş yavaş öğrendim ve Majesteleri ile kibarca sohbet ettim.",
+      "notes": "Coordinate past verbs 'learned and conversed'; adverb 'gradually'."
+    },
+    {
+      "id": 51,
+      "start_ms": 296468,
+      "end_ms": 301412,
+      "text": "My gentle behavior and compliance won the confidence of the imperial court.",
+      "translation": "Nazik davranışım ve uyum gösterişim imparatorluk sarayının güvenini kazandı.",
+      "notes": "Coordinate subjects; past verb 'won'."
+    },
+    {
+      "id": 52,
+      "start_ms": 301812,
+      "end_ms": 307164,
+      "text": "Officers searched my pockets and drew up an inventory of my strange possessions.",
+      "translation": "Subaylar ceplerimi aradılar ve garip eşyalarımın bir dökümünü çıkardılar.",
+      "notes": "Coordinate past verbs 'searched and drew up'; compound noun 'inventory'."
+    },
+    {
+      "id": 53,
+      "start_ms": 307564,
+      "end_ms": 312388,
+      "text": "They described my watch as a miraculous engine that ticked like an iron heart.",
+      "translation": "Saatimi demir bir kalp gibi tıkırdayan mucizevi bir makine olarak tarif ettiler.",
+      "notes": "Simile 'like an iron heart'; relative clause 'that ticked'."
+    },
+    {
+      "id": 54,
+      "start_ms": 312788,
+      "end_ms": 318956,
+      "text": "They inspected my comb, snuffbox, handkerchief, and my silver coins with wonder.",
+      "translation": "Tarağımı, enfiye kutumu, mendilimi ve gümüş sikkelerimi hayretle incelediler.",
+      "notes": "List of objects; prepositional phrase 'with wonder'."
+    },
+    {
+      "id": 55,
+      "start_ms": 319356,
+      "end_ms": 324636,
+      "text": "I surrendered my pistols, firing one into the air to demonstrate its thunder.",
+      "translation": "Gök gürültüsünü göstermek için havaya bir el ateş ederek tabancalarımı teslim ettim.",
+      "notes": "Participle clause 'firing one'; past verb 'surrendered'."
+    },
+    {
+      "id": 56,
+      "start_ms": 325036,
+      "end_ms": 330100,
+      "text": "Hundreds of soldiers collapsed in terror at the terrifying flash and smoke.",
+      "translation": "Korkunç alev ve duman karşısında yüzlerce asker dehşet içinde yere yığıldı.",
+      "notes": "Prepositional phrase 'at flash and smoke'; past verb 'collapsed'."
+    },
+    {
+      "id": 57,
+      "start_ms": 330500,
+      "end_ms": 335708,
+      "text": "The Emperor finally granted me my liberty under strict constitutional articles.",
+      "translation": "İmparator sonunda katı anayasal maddeler altında bana özgürlüğümü bahşetti.",
+      "notes": "Adjective phrase 'strict constitutional articles'; past verb 'granted'."
+    },
+    {
+      "id": 58,
+      "start_ms": 336108,
+      "end_ms": 341196,
+      "text": "I had to swear to assist Lilliput against its enemies and maintain the roads.",
+      "translation": "Düşmanlarına karşı Lilliput'a yardım etmeye ve yolları bakımlı tutmaya yemin etmek zorundaydım.",
+      "notes": "Coordinate infinitives; modal 'had to swear'."
+    },
+    {
+      "id": 59,
+      "start_ms": 341596,
+      "end_ms": 346444,
+      "text": "My chains were unlocked, and I stood up a free man in the miniature kingdom.",
+      "translation": "Zincirlerim açıldı ve minyatür krallıkta özgür bir adam olarak ayağa kalktım.",
+      "notes": "Passive coordinate 'chains were unlocked'; past verb 'stood up'."
+    },
+    {
+      "id": 60,
+      "start_ms": 346844,
+      "end_ms": 351644,
+      "text": "The tiny people cheered, hailing the Man-Mountain as their mighty protector.",
+      "translation": "Minik halk tezahürat yaptı, Dağ Adam'ı kendi kudretli koruyucuları olarak selamladı.",
+      "notes": "Participle phrase 'hailing Man-Mountain'; past verb 'cheered'."
+    },
+    {
+      "id": 61,
+      "start_ms": 352644,
+      "end_ms": 359484,
+      "text": "Reldresal, Principal Secretary for Private Affairs, visited me to explain the empire's troubles.",
+      "translation": "Özel İşler Baş Katibi Reldresal, imparatorluğun dertlerini anlatmak için beni ziyaret etti.",
+      "notes": "Appositive title; infinitive of purpose 'to explain troubles'."
+    },
+    {
+      "id": 62,
+      "start_ms": 359884,
+      "end_ms": 364996,
+      "text": "He revealed that Lilliput was divided by two furious domestic factions.",
+      "translation": "Lilliput'un iki öfkeli yerel hizip tarafından bölündüğünü açıkladı.",
+      "notes": "Noun clause with passive; adjective 'domestic factions'."
+    },
+    {
+      "id": 63,
+      "start_ms": 365396,
+      "end_ms": 370796,
+      "text": "The factions were called Tramecksan and Slamecksan, distinguished by their shoe heels.",
+      "translation": "Bu hizipler ayakkabı ökçeleriyle ayırt edilen Tramecksan ve Slamecksan olarak adlandırılıyordu.",
+      "notes": "Passive voice 'were called'; past participle modifier 'distinguished by'."
+    },
+    {
+      "id": 64,
+      "start_ms": 371196,
+      "end_ms": 376620,
+      "text": "The High-Heels adhered to ancient traditions, while the Low-Heels held imperial power.",
+      "translation": "Yüksek Ökçeliler kadim geleneklere bağlıydı, Alçak Ökçeliler ise imparatorluk gücünü elinde tutuyordu.",
+      "notes": "Coordinate clauses with 'while'; past verbs 'adhered and held'."
+    },
+    {
+      "id": 65,
+      "start_ms": 377020,
+      "end_ms": 382876,
+      "text": "The Emperor wore only low heels, though one of his heels was a fraction higher than the other.",
+      "translation": "Bir ökçesi diğerinden bir parça daha yüksek olsa da İmparator sadece alçak ökçeler giyerdi.",
+      "notes": "Concession clause with 'though'; comparative 'higher than the other'."
+    },
+    {
+      "id": 66,
+      "start_ms": 383276,
+      "end_ms": 388340,
+      "text": "This caused the monarch to walk with a peculiar hobble through the palace halls.",
+      "translation": "Bu durum hükümdarın saray koridorlarında tuhaf bir aksamayla yürümesine sebep oluyordu.",
+      "notes": "Causative structure 'caused monarch to walk'; prepositional phrase."
+    },
+    {
+      "id": 67,
+      "start_ms": 388740,
+      "end_ms": 394716,
+      "text": "Worse still, Lilliput was threatened with invasion by the mighty island empire of Blefuscu.",
+      "translation": "Daha da kötüsü Lilliput, kudretli ada imparatorluğu Blefuscu tarafından istila edilmekle tehdit ediliyordu.",
+      "notes": "Adverbial modifier 'Worse still'; passive voice 'was threatened with'."
+    },
+    {
+      "id": 68,
+      "start_ms": 395116,
+      "end_ms": 400444,
+      "text": "These two mighty empires had waged bloody warfare for six and thirty moons.",
+      "translation": "Bu iki kudretli imparatorluk otuz altı aydır kanlı bir savaş sürdürmekteydi.",
+      "notes": "Past perfect continuous sense; archaic numeral 'six and thirty moons'."
+    },
+    {
+      "id": 69,
+      "start_ms": 400844,
+      "end_ms": 406436,
+      "text": "The war originated from a ridiculous dispute over the proper way to break boiled eggs.",
+      "translation": "Savaş, haşlanmış yumurtaları kırmanın doğru şekli üzerine gülünç bir anlaşmazlıktan çıkmıştı.",
+      "notes": "Phrasal verb 'originated from'; prepositional phrase 'over proper way'."
+    },
+    {
+      "id": 70,
+      "start_ms": 406836,
+      "end_ms": 411828,
+      "text": "Ancient practice commanded all subjects to break eggs at the larger end.",
+      "translation": "Kadim adet bütün tebaanın yumurtaları büyük ucundan kırmasını emrediyordu.",
+      "notes": "Verb + object + infinitive 'commanded subjects to break'."
+    },
+    {
+      "id": 71,
+      "start_ms": 412228,
+      "end_ms": 418636,
+      "text": "However, the present Emperor's grandfather, when a boy, had cut his finger breaking the big end.",
+      "translation": "Ancak şimdiki İmparator'un dedesi bir çocukken büyük ucunu kırarken parmağını kesmişti.",
+      "notes": "Parenthetical time phrase 'when a boy'; past perfect 'had cut'."
+    },
+    {
+      "id": 72,
+      "start_ms": 419036,
+      "end_ms": 424748,
+      "text": "The old Emperor immediately published an edict commanding everyone to break the smaller end.",
+      "translation": "Eski İmparator derhal herkesin yumurtayı küçük ucundan kırmasını emreden bir ferman yayımladı.",
+      "notes": "Participle phrase 'commanding everyone'; past verb 'published'."
+    },
+    {
+      "id": 73,
+      "start_ms": 425148,
+      "end_ms": 430692,
+      "text": "The people resented this decree, leading to six civil rebellions across the empire.",
+      "translation": "Halk bu fermanı hazmedemedi ve bu durum imparatorluk genelinde altı iç isyana yol açtı.",
+      "notes": "Participle clause of result 'leading to rebellions'; past verb 'resented'."
+    },
+    {
+      "id": 74,
+      "start_ms": 431092,
+      "end_ms": 435868,
+      "text": "Monarchs lost their crowns and lives in the bitter struggle over eggshells.",
+      "translation": "Hükümdarlar yumurta kabukları üzerine çıkan bu acı mücadelede taçlarını ve hayatlarını kaybettiler.",
+      "notes": "Coordinate direct objects; prepositional phrase 'over eggshells'."
+    },
+    {
+      "id": 75,
+      "start_ms": 436268,
+      "end_ms": 441644,
+      "text": "The Big-Endian rebels found refuge at the court of Blefuscu, plotting invasion.",
+      "translation": "Büyük Uçlular isyancıları istila planları yaparak Blefuscu sarayına sığındılar.",
+      "notes": "Participle phrase 'plotting invasion'; past verb 'found refuge'."
+    },
+    {
+      "id": 76,
+      "start_ms": 442044,
+      "end_ms": 447540,
+      "text": "The Emperor of Blefuscu had assembled an immense fleet ready to sail upon Lilliput.",
+      "translation": "Blefuscu İmparatoru Lilliput üzerine yelken açmaya hazır muazzam bir donanma toplamıştı.",
+      "notes": "Past perfect 'had assembled'; adjective phrase 'ready to sail'."
+    },
+    {
+      "id": 77,
+      "start_ms": 447940,
+      "end_ms": 453028,
+      "text": "Reldresal begged me in His Majesty's name to defend the nation from destruction.",
+      "translation": "Reldresal milleti yıkımdan korumam için Majesteleri adına bana yalvardı.",
+      "notes": "Prepositional phrase 'in His Majesty's name'; infinitive 'to defend'."
+    },
+    {
+      "id": 78,
+      "start_ms": 453428,
+      "end_ms": 458540,
+      "text": "I promised to defend the Emperor's person and state against all foreign aggressors.",
+      "translation": "Bütün yabancı saldırganlara karşı İmparator'un şahsını ve devletini koruyacağıma söz verdim.",
+      "notes": "Infinitive of purpose; preposition 'against foreign aggressors'."
+    },
+    {
+      "id": 79,
+      "start_ms": 458940,
+      "end_ms": 464652,
+      "text": "I formulated a bold naval strategy to capture the enemy's entire fleet at once.",
+      "translation": "Düşmanın bütün donanmasını tek seferde ele geçirmek için cesur bir denizcilik stratejisi hazırladım.",
+      "notes": "Infinitive 'to capture'; compound noun 'naval strategy'."
+    },
+    {
+      "id": 80,
+      "start_ms": 465052,
+      "end_ms": 469972,
+      "text": "The fate of two warring empires now rested upon my giant shoulders.",
+      "translation": "Savaşan iki imparatorluğun kaderi artık benim dev omuzlarıma dayanıyordu.",
+      "notes": "Past verb 'rested upon'; participial adjective 'warring empires'."
+    },
+    {
+      "id": 81,
+      "start_ms": 470972,
+      "end_ms": 476228,
+      "text": "The channel separating Lilliput from Blefuscu was only eight hundred yards wide.",
+      "translation": "Lilliput'u Blefuscu'dan ayıran boğaz sadece sekiz yüz yarda genişliğindeydi.",
+      "notes": "Participle modifier 'separating Lilliput'; measurement phrase."
+    },
+    {
+      "id": 82,
+      "start_ms": 476628,
+      "end_ms": 482004,
+      "text": "I consulted experienced sailors to determine the depth of the water across the strait.",
+      "translation": "Boğaz boyunca suyun derinliğini belirlemek için tecrübeli denizcilere danıştım.",
+      "notes": "Infinitive of purpose 'to determine depth'; past verb 'consulted'."
+    },
+    {
+      "id": 83,
+      "start_ms": 482404,
+      "end_ms": 486892,
+      "text": "They informed me that at high tide it was no more than six feet deep.",
+      "translation": "Suların yükseldiği gelgitte suyun altı fitten daha derin olmadığını bana bildirdiler.",
+      "notes": "Noun clause with 'that'; comparative 'no more than six feet deep'."
+    },
+    {
+      "id": 84,
+      "start_ms": 487292,
+      "end_ms": 492692,
+      "text": "I ordered a large quantity of the strongest cables and bars of iron to be forged.",
+      "translation": "En güçlü halatlardan ve demir çubuklardan büyük bir miktarın dövülmesini emrettim.",
+      "notes": "Passive infinitive structure 'to be forged'; past verb 'ordered'."
+    },
+    {
+      "id": 85,
+      "start_ms": 493092,
+      "end_ms": 499284,
+      "text": "I twisted three cables together to make a rope, and bent the iron bars into fifty hooks.",
+      "translation": "Bir urgan yapmak için üç halatı birbirine ördüm ve demir çubukları büküp elli kanca yaptım.",
+      "notes": "Coordinate past verbs 'twisted and bent'; infinitive of purpose."
+    },
+    {
+      "id": 86,
+      "start_ms": 499684,
+      "end_ms": 505252,
+      "text": "Fastening a hook to each cable, I set out for the northern coast overlooking Blefuscu.",
+      "translation": "Her bir halata bir kanca bağlayarak Blefuscu'ya bakan kuzey kıyısına doğru yola çıktım.",
+      "notes": "Participle clauses 'Fastening a hook' and 'overlooking Blefuscu'."
+    },
+    {
+      "id": 87,
+      "start_ms": 505652,
+      "end_ms": 511724,
+      "text": "I stripped off my coat, shoes, and stockings, and waded into the salty water.",
+      "translation": "Ceketimi, ayakkabılarımı ve çoraplarımı çıkardım ve tuzlu suyun içine daldım.",
+      "notes": "Coordinate past verbs 'stripped off and waded into'."
+    },
+    {
+      "id": 88,
+      "start_ms": 512124,
+      "end_ms": 517404,
+      "text": "I swam in the middle for about thirty yards until my feet touched the seabed again.",
+      "translation": "Ayaklarım deniz tabanına tekrar değene kadar ortada yaklaşık otuz yarda kadar yüzdüm.",
+      "notes": "Time clause with 'until'; past verb 'swam'."
+    },
+    {
+      "id": 89,
+      "start_ms": 517804,
+      "end_ms": 523228,
+      "text": "In less than half an hour, I reached the Blefuscudian harbor where the fleet lay anchored.",
+      "translation": "Yarım saatten az bir sürede donanmanın demirli yattığı Blefuscu limanına ulaştım.",
+      "notes": "Relative clause of place 'where fleet lay anchored'; time phrase."
+    },
+    {
+      "id": 90,
+      "start_ms": 523628,
+      "end_ms": 528740,
+      "text": "The enemy sailors were so terrified at the sight of me that they leaped overboard.",
+      "translation": "Düşman denizciler beni görünce o kadar dehşete düştüler ki denize atladılar.",
+      "notes": "Result clause 'so terrified that'; phrasal verb 'leaped overboard'."
+    },
+    {
+      "id": 91,
+      "start_ms": 529140,
+      "end_ms": 534852,
+      "text": "Thirty thousand men swam ashore, screaming with panic across the shallow waters.",
+      "translation": "Otuz bin adam sığ sular boyunca panikle çığlıklar atarak kıyıya doğru yüzdü.",
+      "notes": "Participle phrase 'screaming with panic'; past verb 'swam ashore'."
+    },
+    {
+      "id": 92,
+      "start_ms": 535252,
+      "end_ms": 540172,
+      "text": "I took my fifty hooks and fastened one to the prow of each royal warship.",
+      "translation": "Elli kancamı aldım ve her bir kraliyet savaş gemisinin pruvasına bir tane taktım.",
+      "notes": "Coordinate past verbs 'took and fastened'; possessive phrase."
+    },
+    {
+      "id": 93,
+      "start_ms": 540572,
+      "end_ms": 544988,
+      "text": "I tied all the cords together into one great knot at my chest.",
+      "translation": "Bütün ipleri göğsümün üzerinde tek bir büyük düğüm halinde birbirine bağladım.",
+      "notes": "Prepositional phrase 'into one great knot'; past verb 'tied'."
+    },
+    {
+      "id": 94,
+      "start_ms": 545388,
+      "end_ms": 551412,
+      "text": "The Blefuscudians fired thousands of arrows from the shore, striking my face and hands.",
+      "translation": "Blefusculular kıyıdan yüzüme ve ellerime isabet eden binlerce ok attılar.",
+      "notes": "Participle phrase 'striking face and hands'; past verb 'fired'."
+    },
+    {
+      "id": 95,
+      "start_ms": 551812,
+      "end_ms": 556468,
+      "text": "I put on my spectacles to protect my eyes from their blinding missiles.",
+      "translation": "Gözlerimi onların kör edici oklarından korumak için gözlüklerimi taktım.",
+      "notes": "Infinitive of purpose 'to protect eyes'; compound noun 'blinding missiles'."
+    },
+    {
+      "id": 96,
+      "start_ms": 556868,
+      "end_ms": 562100,
+      "text": "Taking my pocket-knife, I cut the anchor cables of fifty large warships.",
+      "translation": "Çakımı alarak elli büyük savaş gemisinin çapa halatlarını kestim.",
+      "notes": "Participle clause 'Taking pocket-knife'; past verb 'cut'."
+    },
+    {
+      "id": 97,
+      "start_ms": 562500,
+      "end_ms": 567468,
+      "text": "I took the knotted cord in my hand and began to pull the armada through the water.",
+      "translation": "Düğümlü urganı elime aldım ve donanmayı suyun içinden çekmeye başladım.",
+      "notes": "Coordinate past verbs 'took and began'; infinitive 'to pull'."
+    },
+    {
+      "id": 98,
+      "start_ms": 567868,
+      "end_ms": 573268,
+      "text": "The entire fleet of Blefuscu followed behind me like ducklings behind a mother swan.",
+      "translation": "Bütün Blefuscu donanması bir anne kuğunun ardından giden ördek yavruları gibi peşimden geldi.",
+      "notes": "Simile 'like ducklings behind a swan'; past verb 'followed'."
+    },
+    {
+      "id": 99,
+      "start_ms": 573668,
+      "end_ms": 579668,
+      "text": "I arrived at the royal port of Lilliput, shouting: 'Long live the Emperor of Lilliput!'",
+      "translation": "Lilliput'un kraliyet limanına ulaştım ve haykırdım: 'Çok yaşa Lilliput İmparatoru!'",
+      "notes": "Participle phrase 'shouting'; proper royal acclamation."
+    },
+    {
+      "id": 100,
+      "start_ms": 580068,
+      "end_ms": 585612,
+      "text": "The Emperor created me a Nardac on the spot, the highest title of honor in the realm.",
+      "translation": "İmparator beni oracıkta ülkedeki en yüksek onur unvanı olan Nardac ilan etti.",
+      "notes": "Appositive definition 'highest title of honor'; idiom 'on the spot'."
+    },
+    {
+      "id": 101,
+      "start_ms": 586612,
+      "end_ms": 591676,
+      "text": "The Emperor's ambition grew boundless after my glorious naval conquest.",
+      "translation": "Şanlı deniz zaferimden sonra İmparator'un hırsı sınır tanımaz bir hal aldı.",
+      "notes": "Copular verb 'grew boundless'; adjective 'naval conquest'."
+    },
+    {
+      "id": 102,
+      "start_ms": 592076,
+      "end_ms": 597260,
+      "text": "He desired to reduce Blefuscu into a mere province governed by a viceroy.",
+      "translation": "Blefuscu'yu bir vali tarafından yönetilen sıradan bir eyalete indirgemeyi arzuladı.",
+      "notes": "Passive participle modifier 'governed by a viceroy'; infinitive 'to reduce'."
+    },
+    {
+      "id": 103,
+      "start_ms": 597660,
+      "end_ms": 604212,
+      "text": "He demanded that I destroy all the Big-Endian exiles and force everyone to break eggs at the small end.",
+      "translation": "Büyük Uçlu tüm sürgünleri yok etmemi ve herkesi yumurtayı küçük uçtan kırmaya zorlamamı talep etti.",
+      "notes": "Subjunctive coordinate clauses 'destroy and force'; past verb 'demanded'."
+    },
+    {
+      "id": 104,
+      "start_ms": 604612,
+      "end_ms": 609604,
+      "text": "I flatly refused to be an instrument of enslaving a free and valiant people.",
+      "translation": "Özgür ve cesur bir halkı köleleştirmenin bir aracı olmayı kesin bir dille reddettim.",
+      "notes": "Verb + infinitive 'refused to be'; gerund phrase 'enslaving a people'."
+    },
+    {
+      "id": 105,
+      "start_ms": 610004,
+      "end_ms": 615428,
+      "text": "My refusal provoked the Emperor's secret displeasure and the hatred of his ministers.",
+      "translation": "Benim bu reddim İmparator'un gizli hoşnutsuzluğunu ve bakanlarının nefretini körükledi.",
+      "notes": "Coordinate objects 'displeasure and hatred'; past verb 'provoked'."
+    },
+    {
+      "id": 106,
+      "start_ms": 615828,
+      "end_ms": 621732,
+      "text": "Flimnap the High Treasurer and Skyresh Bolgolam the Admiral began plotting my downfall.",
+      "translation": "Maliye Bakanı Flimnap ile Amiral Skyresh Bolgolam benim çöküşümü planlamaya başladılar.",
+      "notes": "Coordinate subjects; verb + gerund 'began plotting'."
+    },
+    {
+      "id": 107,
+      "start_ms": 622132,
+      "end_ms": 627652,
+      "text": "One midnight, I was awakened by the terrified screams of thousands of citizens.",
+      "translation": "Bir gece yarısı binlerce yurttaşın dehşet dolu çığlıklarıyla uyandırıldım.",
+      "notes": "Passive voice 'was awakened by'; adjective 'terrified screams'."
+    },
+    {
+      "id": 108,
+      "start_ms": 628052,
+      "end_ms": 633404,
+      "text": "The royal palace was in flames, ignited by the carelessness of a maid of honor.",
+      "translation": "Kraliyet sarayı bir nedimenin dikkatsizliği yüzünden alevler içinde yanıyordu.",
+      "notes": "Passive participle 'ignited by carelessness'; prepositional phrase 'in flames'."
+    },
+    {
+      "id": 109,
+      "start_ms": 633804,
+      "end_ms": 639300,
+      "text": "The Empress's apartment was burning furiously, and their tiny ladders were useless.",
+      "translation": "İmparatoriçe'nin dairesi şiddetle yanıyordu ve onların minik merdivenleri hiçbir işe yaramıyordu.",
+      "notes": "Coordinate clauses; adjective 'useless'."
+    },
+    {
+      "id": 110,
+      "start_ms": 639700,
+      "end_ms": 644740,
+      "text": "No water buckets could quench the leaping fire threatening the magnificent building.",
+      "translation": "Görkemli binayı tehdit eden sıçrayan ateşi hiçbir su kovası söndüremiyordu.",
+      "notes": "Negative subject 'No water buckets'; modal 'could quench'."
+    },
+    {
+      "id": 111,
+      "start_ms": 645140,
+      "end_ms": 650780,
+      "text": "I came up to the courtyard and quickly devised an unorthodox method to save the palace.",
+      "translation": "Avluya geldim ve sarayı kurtarmak için hızla alışılmadık bir yöntem tasarladım.",
+      "notes": "Coordinate past verbs 'came up and devised'; adjective 'unorthodox'."
+    },
+    {
+      "id": 112,
+      "start_ms": 651180,
+      "end_ms": 657324,
+      "text": "Having consumed enormous quantities of wine that evening, I relieved myself upon the flames.",
+      "translation": "O akşam muazzam miktarda şarap tüketmiş olduğumdan, alevlerin üzerine işeyiverdim.",
+      "notes": "Perfect participle clause 'Having consumed'; euphemistic past 'relieved myself'."
+    },
+    {
+      "id": 113,
+      "start_ms": 657724,
+      "end_ms": 663820,
+      "text": "In three minutes, the fire was totally extinguished, and the rest of the palace was saved.",
+      "translation": "Üç dakika içinde yangın tamamen söndürüldü ve sarayın geri kalanı kurtarıldı.",
+      "notes": "Coordinate passive clauses 'was extinguished and was saved'."
+    },
+    {
+      "id": 114,
+      "start_ms": 664220,
+      "end_ms": 671108,
+      "text": "However, by the fundamental laws of Lilliput, it was high treason to urinate in the royal precincts.",
+      "translation": "Ancak Lilliput'un temel kanunlarına göre kraliyet sınırları içinde küçük abdest bozmak vatana ihanetti.",
+      "notes": "Dummy subject 'it was high treason to urinate'; prepositional phrase."
+    },
+    {
+      "id": 115,
+      "start_ms": 671508,
+      "end_ms": 676956,
+      "text": "The Empress was disgusted by my act and vowed never to inhabit those rooms again.",
+      "translation": "İmparatoriçe benim bu eylemimden iğrendi ve bir daha o odalarda asla oturmamaya ant içti.",
+      "notes": "Passive coordinate 'was disgusted and vowed'; negative infinitive 'never to inhabit'."
+    },
+    {
+      "id": 116,
+      "start_ms": 677356,
+      "end_ms": 682060,
+      "text": "Articles of impeachment were secretly drawn up against me for high treason.",
+      "translation": "Vatana ihanet suçlamasıyla aleyhimde gizlice azil maddeleri hazırlandı.",
+      "notes": "Passive voice 'were drawn up'; prepositional phrase 'against me'."
+    },
+    {
+      "id": 117,
+      "start_ms": 682460,
+      "end_ms": 688340,
+      "text": "My crimes included extinguishing the fire unlawfully and refusing to subjugate Blefuscu.",
+      "translation": "Suçlarım arasında yangını kanunsuz söndürmek ve Blefuscu'yu boyunduruk altına almayı reddetmek vardı.",
+      "notes": "List of gerund phrases as predicate nominatives."
+    },
+    {
+      "id": 118,
+      "start_ms": 688740,
+      "end_ms": 694836,
+      "text": "The Emperor and his council debated whether to poison me, starve me, or put out my eyes.",
+      "translation": "İmparator ve meclisi beni zehirlemeyi mi, aç bırakmayı mı yoksa gözlerimi oymayı mı tartıştı.",
+      "notes": "Indirect question with 'whether to... or'; series of infinitives."
+    },
+    {
+      "id": 119,
+      "start_ms": 695236,
+      "end_ms": 700468,
+      "text": "A faithful courtier slipped out at night and delivered a secret warning to my lodging.",
+      "translation": "Sadık bir saray mensubu gece gizlice dışarı süzüldü ve kaldığım yere gizli bir uyarı getirdi.",
+      "notes": "Coordinate past verbs 'slipped out and delivered'; compound noun 'secret warning'."
+    },
+    {
+      "id": 120,
+      "start_ms": 700868,
+      "end_ms": 706844,
+      "text": "I realized that even royal gratitude turns swiftly to venomous malice in small minds.",
+      "translation": "Küçük zihinlerde kraliyet minnettarlığının bile hızla zehirli bir hınca dönüştüğünü anladım.",
+      "notes": "Noun clause 'that gratitude turns to malice'; adverb 'swiftly'."
+    },
+    {
+      "id": 121,
+      "start_ms": 707844,
+      "end_ms": 713652,
+      "text": "Knowing that my eyes were to be put out within days, I resolved to escape immediately.",
+      "translation": "Birkaç gün içinde gözlerimin oyulacağını bilerek, derhal kaçmaya karar verdim.",
+      "notes": "Participle clause of knowledge; passive periphrastic 'were to be put out'."
+    },
+    {
+      "id": 122,
+      "start_ms": 714052,
+      "end_ms": 719404,
+      "text": "I walked to the coast, stepped into the channel, and waded across to Blefuscu.",
+      "translation": "Kıyıya yürüdüm, boğaza adım attım ve yürüyerek Blefuscu'ya geçtim.",
+      "notes": "Series of coordinated past action verbs."
+    },
+    {
+      "id": 123,
+      "start_ms": 719804,
+      "end_ms": 725852,
+      "text": "The Emperor of Blefuscu, his royal family, and his court welcomed me with genuine honor.",
+      "translation": "Blefuscu İmparatoru, kraliyet ailesi ve sarayı beni gerçek bir onurla karşıladılar.",
+      "notes": "Compound subject; prepositional phrase 'with genuine honor'."
+    },
+    {
+      "id": 124,
+      "start_ms": 726252,
+      "end_ms": 731916,
+      "text": "Three days after my arrival, I noticed a strange dark object floating out at sea.",
+      "translation": "Gelişimden üç gün sonra denizde uzakta yüzen garip koyu renkli bir nesne fark ettim.",
+      "notes": "Time phrase; perception verb 'noticed' + participle 'floating'."
+    },
+    {
+      "id": 125,
+      "start_ms": 732316,
+      "end_ms": 738172,
+      "text": "I waded out and discovered a real, full-sized overturned ship's boat drifting ashore.",
+      "translation": "Suda ilerledim ve kıyıya doğru sürüklenen gerçek, tam boy devrilmiş bir gemi filikası keşfettim.",
+      "notes": "Coordinate past verbs 'waded and discovered'; compound adjective 'full-sized'."
+    },
+    {
+      "id": 126,
+      "start_ms": 738572,
+      "end_ms": 744500,
+      "text": "With the help of twenty Blefuscudian ships and three thousand sailors, we towed it to port.",
+      "translation": "Yirmi Blefuscu gemisi ve üç bin denizcinin yardımıyla onu limana çektik.",
+      "notes": "Prepositional phrase of means; past verb 'towed'."
+    },
+    {
+      "id": 127,
+      "start_ms": 744900,
+      "end_ms": 750324,
+      "text": "It had suffered very little damage and was capable of carrying me across the open ocean.",
+      "translation": "Çok az hasar görmüştü ve beni açık okyanus boyunca taşımaya muktedirdi.",
+      "notes": "Past perfect coordinate with simple past; adjective 'capable of carrying'."
+    },
+    {
+      "id": 128,
+      "start_ms": 750724,
+      "end_ms": 756700,
+      "text": "The Emperor of Lilliput sent a furious envoy demanding that I be returned bound in chains.",
+      "translation": "Lilliput İmparatoru zincirlere bağlanmış halde iade edilmemi talep eden öfkeli bir elçi gönderdi.",
+      "notes": "Participle phrase with subjunctive 'that I be returned'; past verb 'sent'."
+    },
+    {
+      "id": 129,
+      "start_ms": 757100,
+      "end_ms": 763052,
+      "text": "The generous monarch of Blefuscu politely refused, offering me protection and asylum.",
+      "translation": "Blefuscu'nun cömert hükümdarı bana koruma ve sığınma teklif ederek bunu kibarca reddetti.",
+      "notes": "Coordinate participles describing diplomatic refusal; adverb 'politely'."
+    },
+    {
+      "id": 130,
+      "start_ms": 763452,
+      "end_ms": 769260,
+      "text": "I spent a month repairing the boat, fitting it with sails made of thirteen folds of linen.",
+      "translation": "Tekneyi onarmakla, ona on üç kat ketenden yapılmış yelkenler takmakla bir ay geçirdim.",
+      "notes": "Expression 'spent a month doing'; past participle modifier 'made of linen'."
+    },
+    {
+      "id": 131,
+      "start_ms": 769660,
+      "end_ms": 774964,
+      "text": "The Emperor supplied me with the carcasses of one hundred oxen and three hundred sheep.",
+      "translation": "İmparator bana yüz öküz ve üç yüz koyun karkası temin etti.",
+      "notes": "Prepositional phrase 'with carcasses of oxen'; past verb 'supplied'."
+    },
+    {
+      "id": 132,
+      "start_ms": 775364,
+      "end_ms": 780836,
+      "text": "He gave me fifty bags of gold coins and his own miniature portrait as a parting gift.",
+      "translation": "Bana elli torba altın sikke ve bir veda hediyesi olarak kendi minyatür portresini verdi.",
+      "notes": "Double object past verb 'gave'; compound noun 'parting gift'."
+    },
+    {
+      "id": 133,
+      "start_ms": 781236,
+      "end_ms": 786804,
+      "text": "I placed six live cows and two live bulls in my pockets to show to my countrymen.",
+      "translation": "Vatandaşlarıma göstermek için ceplerime altı canlı inek ve iki canlı boğa koydum.",
+      "notes": "Infinitive of purpose 'to show to countrymen'; numeral objects."
+    },
+    {
+      "id": 134,
+      "start_ms": 787204,
+      "end_ms": 794668,
+      "text": "On September 24, 1701, I set sail from Blefuscu, heading homeward into the boundless sea.",
+      "translation": "24 Eylül 1701'de uçsuz bucaksız denizin içine, eve doğru yönelerek Blefuscu'dan yelken açtım.",
+      "notes": "Participle phrase 'heading homeward'; date phrase."
+    },
+    {
+      "id": 135,
+      "start_ms": 795068,
+      "end_ms": 801380,
+      "text": "On the third day of my voyage, I sighted a sail on the horizon and hoisted my signal flag.",
+      "translation": "Yolculuğumun üçüncü gününde ufukta bir yelken gördüm ve işaret bayrağımı çektim.",
+      "notes": "Coordinate past verbs 'sighted and hoisted'; time phrase."
+    },
+    {
+      "id": 136,
+      "start_ms": 801780,
+      "end_ms": 807444,
+      "text": "It was an English merchant ship returning from Japan, commanded by Captain John Biddle.",
+      "translation": "Kaptan John Biddle'ın komutasında Japonya'dan dönmekte olan bir İngiliz ticaret gemisiydi.",
+      "notes": "Participle clause 'returning from Japan'; passive participle modifier 'commanded by'."
+    },
+    {
+      "id": 137,
+      "start_ms": 807844,
+      "end_ms": 813508,
+      "text": "The sailors took me aboard, astonished beyond words by my miniature cattle and sheep.",
+      "translation": "Denizciler beni gemiye aldılar; minyatür sığırlarım ve koyunlarım karşısında dilleri tutuldu.",
+      "notes": "Passive participle modifier 'astonished beyond words'; past verb 'took aboard'."
+    },
+    {
+      "id": 138,
+      "start_ms": 813908,
+      "end_ms": 819188,
+      "text": "They thought I was raving mad until I produced the tiny living beasts from my pocket.",
+      "translation": "Cebimden o minik canlı hayvanları çıkarana kadar aklımı kaçırmış bir deli olduğumu sandılar.",
+      "notes": "Time clause with 'until'; past continuous 'was raving mad'."
+    },
+    {
+      "id": 139,
+      "start_ms": 819588,
+      "end_ms": 826092,
+      "text": "I arrived safely in England in April 1702, returning to the open arms of my family.",
+      "translation": "Nisan 1702'de ailemin kucağına dönerek İngiltere'ye sağ salim vardım.",
+      "notes": "Participle phrase 'returning to open arms'; adverb 'safely'."
+    },
+    {
+      "id": 140,
+      "start_ms": 826492,
+      "end_ms": 831868,
+      "text": "Yet my restless wandering spirit could not long endure the quiet shores of home.",
+      "translation": "Fakat benim huzursuz, gezgin ruhum evin sakin kıyılarına uzun süre dayanamadı.",
+      "notes": "Adjective pair 'restless wandering'; modal negative 'could not long endure'."
+    },
+    {
+      "id": 141,
+      "start_ms": 832868,
+      "end_ms": 838508,
+      "text": "Having stayed only two months with my wife and children, I sailed again on the Adventure.",
+      "translation": "Karım ve çocuklarımla sadece iki ay kaldıktan sonra Adventure gemisiyle yeniden denize açıldım.",
+      "notes": "Perfect participle clause 'Having stayed'; past verb 'sailed'."
+    },
+    {
+      "id": 142,
+      "start_ms": 838908,
+      "end_ms": 844620,
+      "text": "A violent tempest drove our vessel thousands of leagues off course into the great Pacific.",
+      "translation": "Şiddetli bir fırtına gemimizi rotasından binlerce fersah öteye, büyük Pasifik'e sürükledi.",
+      "notes": "Measurement phrase 'thousands of leagues'; past verb 'drove'."
+    },
+    {
+      "id": 143,
+      "start_ms": 845020,
+      "end_ms": 850300,
+      "text": "We anchored near a strange, rocky continent to search for fresh drinking water.",
+      "translation": "Taze içme suyu aramak için yabancı, kayalık bir kıtanın yakınına demir attık.",
+      "notes": "Infinitive of purpose 'to search for water'; past verb 'anchored'."
+    },
+    {
+      "id": 144,
+      "start_ms": 850700,
+      "end_ms": 856556,
+      "text": "I wandered inland alone, admiring the barren crags and towering cliffs of the shore.",
+      "translation": "Kıyının çıplak kayalıklarına ve heybetli falezlerine hayran kalarak iç kısımlara tek başıma yürüdüm.",
+      "notes": "Participle phrase 'admiring crags'; past verb 'wandered'."
+    },
+    {
+      "id": 145,
+      "start_ms": 856956,
+      "end_ms": 861996,
+      "text": "Returning to the beach, I saw our rowboat fleeing in panic toward the ship.",
+      "translation": "Kumsala döndüğümde filikamızın panik içinde gemiye doğru kaçtığını gördüm.",
+      "notes": "Participle phrase 'Returning to beach'; perception verb 'saw fleeing'."
+    },
+    {
+      "id": 146,
+      "start_ms": 862396,
+      "end_ms": 867892,
+      "text": "Wading after them through the ocean waves was an enormous creature of monstrous size.",
+      "translation": "Okyanus dalgaları arasından onların peşinden suda ilerleyen şey devasa boyutlarda dev bir yaratıktı.",
+      "notes": "Inverted locative sentence; participle 'Wading after them'."
+    },
+    {
+      "id": 147,
+      "start_ms": 868292,
+      "end_ms": 873980,
+      "text": "He took strides as tall as church spires, but could not overtake the speeding rowboat.",
+      "translation": "Kilise kuleleri kadar yüksek adımlar atıyordu fakat hızla uzaklaşan filikaya yetişemedi.",
+      "notes": "Simile 'as tall as church spires'; coordinate clauses with 'but'."
+    },
+    {
+      "id": 148,
+      "start_ms": 874380,
+      "end_ms": 880212,
+      "text": "Terrified, I turned and ran inland as fast as my trembling legs could carry me.",
+      "translation": "Dehşete kapılmış halde arkamı döndüm ve titreyen bacaklarımın beni taşıyabildiği kadar hızlı iç kısımlara kaçtım.",
+      "notes": "Idiom 'as fast as legs could carry'; past verbs 'turned and ran'."
+    },
+    {
+      "id": 149,
+      "start_ms": 880612,
+      "end_ms": 886132,
+      "text": "I climbed a steep hill and found myself in a vast field of barley forty feet high.",
+      "translation": "Dik bir tepeye tırmandım ve kendimi on iki metre yüksekliğinde arpalardan oluşan devasa bir tarlada buldum.",
+      "notes": "Reflexive 'found myself'; measurement 'forty feet high'."
+    },
+    {
+      "id": 150,
+      "start_ms": 886532,
+      "end_ms": 891116,
+      "text": "The field was bounded by hedges at least one hundred and twenty feet tall.",
+      "translation": "Tarla en az otuz altı metre yüksekliğinde çitlerle çevriliydi.",
+      "notes": "Passive voice 'was bounded by'; measurement phrase."
+    },
+    {
+      "id": 151,
+      "start_ms": 891516,
+      "end_ms": 897228,
+      "text": "I came to a stile with four steps, each step six feet high and made of stone.",
+      "translation": "Her basamağı iki metre yüksekliğinde ve taştan yapılmış dört basamaklı bir çit merdivenine geldim.",
+      "notes": "Absolute description 'each step six feet high'; past verb 'came to'."
+    },
+    {
+      "id": 152,
+      "start_ms": 897628,
+      "end_ms": 903628,
+      "text": "Seven monstrous giants entered the field, armed with scythes as long as six lances.",
+      "translation": "Altı mızrak uzunluğunda tırpanlarla kuşanmış yedi devasa dev tarlaya girdi.",
+      "notes": "Passive participle modifier 'armed with scythes'; numeral 'Seven giants'."
+    },
+    {
+      "id": 153,
+      "start_ms": 904028,
+      "end_ms": 908756,
+      "text": "They began to reap the corn, advancing toward the spot where I lay hidden.",
+      "translation": "Benim saklandığım noktaya doğru ilerleyerek ekinleri biçmeye başladılar.",
+      "notes": "Verb + infinitive 'began to reap'; relative clause 'where I lay hidden'."
+    },
+    {
+      "id": 154,
+      "start_ms": 909156,
+      "end_ms": 915036,
+      "text": "One giant reaper approached within ten yards of my hiding place, foot raised high.",
+      "translation": "Dev bir orakçı ayağı havaya kalkmış halde saklandığım yerin dokuz metre yakınına kadar yaklaştı.",
+      "notes": "Absolute phrase 'foot raised high'; past verb 'approached'."
+    },
+    {
+      "id": 155,
+      "start_ms": 915436,
+      "end_ms": 920932,
+      "text": "Fearing that his next monstrous step would crush me to pieces, I screamed in terror.",
+      "translation": "Bir sonraki canavarca adımının beni paramparça edeceğinden korkarak dehşet içinde çığlık attım.",
+      "notes": "Participle clause of fear; result phrase 'crush to pieces'."
+    },
+    {
+      "id": 156,
+      "start_ms": 921332,
+      "end_ms": 926564,
+      "text": "The giant stopped, looked down, and spotted me trembling upon the ground.",
+      "translation": "Dev durdu, aşağı baktı ve beni yerde titrerken fark etti.",
+      "notes": "Series of coordinate past verbs; perception verb 'spotted me trembling'."
+    },
+    {
+      "id": 157,
+      "start_ms": 926964,
+      "end_ms": 932844,
+      "text": "He picked me up very carefully between his forefinger and thumb, inspecting me in wonder.",
+      "translation": "Beni hayretle inceleyerek işaret parmağı ile başparmağı arasında çok dikkatlice kaldırdı.",
+      "notes": "Participle phrase 'inspecting me in wonder'; phrasal verb 'picked up'."
+    },
+    {
+      "id": 158,
+      "start_ms": 933244,
+      "end_ms": 939100,
+      "text": "I was sixty feet high in the air, dangling like a tiny mouse before his huge eyes.",
+      "translation": "Havada on sekiz metre yüksekteydim, onun koca gözleri önünde minik bir fare gibi sallanıyordum.",
+      "notes": "Simile 'like a tiny mouse'; measurement phrase 'sixty feet high'."
+    },
+    {
+      "id": 159,
+      "start_ms": 939500,
+      "end_ms": 944972,
+      "text": "I clasped my hands together in supplication, speaking words of humble submission.",
+      "translation": "Alçakgönüllü bir teslimiyetin sözlerini söyleyerek ellerimi yalvarışla birbirine kenetledim.",
+      "notes": "Participle phrase 'speaking words'; past verb 'clasped'."
+    },
+    {
+      "id": 160,
+      "start_ms": 945372,
+      "end_ms": 950508,
+      "text": "The giant seemed pleased with my voice and placed me gently inside his pocket.",
+      "translation": "Dev sesimden memnun kalmış göründü ve beni nazikçe cebinin içine koydu.",
+      "notes": "Coordinate past predicates; adjective 'pleased with'."
+    },
+    {
+      "id": 161,
+      "start_ms": 951508,
+      "end_ms": 956668,
+      "text": "The giant farmer carried me home to his farmhouse and placed me on the dinner table.",
+      "translation": "Dev çiftçi beni çiftlik evine taşıdı ve yemek masasının üzerine koydu.",
+      "notes": "Coordinate past verbs 'carried and placed'; compound noun 'dinner table'."
+    },
+    {
+      "id": 162,
+      "start_ms": 957068,
+      "end_ms": 962252,
+      "text": "His wife shrieked and ran back, terrified as if I were a poisonous toad.",
+      "translation": "Karısı çığlık attı ve sanki zehirli bir kara kurbağasıymışım gibi dehşete düşerek geri kaçtı.",
+      "notes": "Subjunctive comparison 'as if I were'; coordinate past verbs 'shrieked and ran'."
+    },
+    {
+      "id": 163,
+      "start_ms": 962652,
+      "end_ms": 967548,
+      "text": "Seeing how politely I bowed and spoke, she soon grew fond of me.",
+      "translation": "Ne kadar kibarca eğilip konuştuğumu görünce çok geçmeden benden hoşlanmaya başladı.",
+      "notes": "Participle clause of perception; idiom 'grew fond of'."
+    },
+    {
+      "id": 164,
+      "start_ms": 967948,
+      "end_ms": 972796,
+      "text": "The farmer's nine-year-old daughter became my special caretaker and protector.",
+      "translation": "Çiftçinin dokuz yaşındaki kızı benim özel bakıcım ve koruyucum oldu.",
+      "notes": "Compound adjective 'nine-year-old'; coordinate predicate nouns."
+    },
+    {
+      "id": 165,
+      "start_ms": 973196,
+      "end_ms": 977756,
+      "text": "Her name was Glumdalclitch, which in their language meant 'little nurse.'",
+      "translation": "Adı Glumdalclitch idi; bu onların dilinde 'küçük bakıcı' anlamına geliyordu.",
+      "notes": "Relative clause with past verb; appositive meaning."
+    },
+    {
+      "id": 166,
+      "start_ms": 978156,
+      "end_ms": 983964,
+      "text": "She was exceedingly good-natured, gentle, and barely forty feet tall for her age.",
+      "translation": "Son derece iyi huylu, nazik ve yaşına göre ancak on iki metre boyundaydı.",
+      "notes": "Coordinate predicate adjectives; measurement phrase 'forty feet tall'."
+    },
+    {
+      "id": 167,
+      "start_ms": 984364,
+      "end_ms": 989620,
+      "text": "She fitted up a doll's cradle with soft blankets and placed me inside to sleep.",
+      "translation": "Yumuşak battaniyelerle bir oyuncak bebek beşiğini donattı ve uyumam için beni içine koydu.",
+      "notes": "Phrasal verb 'fitted up'; infinitive of purpose 'to sleep'."
+    },
+    {
+      "id": 168,
+      "start_ms": 990020,
+      "end_ms": 994940,
+      "text": "She sewed tiny shirts and coats for me out of fine Brobdingnagian linen.",
+      "translation": "İnce Brobdingnag keteninden benim için minik gömlekler ve ceketler dikti.",
+      "notes": "Prepositional phrase 'out of fine linen'; past verb 'sewed'."
+    },
+    {
+      "id": 169,
+      "start_ms": 995340,
+      "end_ms": 1000620,
+      "text": "She taught me their language patiently, pointing at objects and speaking clearly.",
+      "translation": "Nesneleri gösterip net bir şekilde konuşarak bana dillerini sabırla öğretti.",
+      "notes": "Coordinate participles 'pointing and speaking'; adverb 'patiently'."
+    },
+    {
+      "id": 170,
+      "start_ms": 1001020,
+      "end_ms": 1006420,
+      "text": "In the house, I faced many terrifying perils that amused the giant family.",
+      "translation": "Evde, dev aileyi eğlendiren pek çok dehşet verici tehlikeyle yüz yüze geldim.",
+      "notes": "Relative clause 'that amused the family'; past verb 'faced'."
+    },
+    {
+      "id": 171,
+      "start_ms": 1006820,
+      "end_ms": 1012340,
+      "text": "A giant house cat leaped onto the table, purring with a roar like twenty watermills.",
+      "translation": "Dev bir ev kedisi masaya atladı, yirmi su değirmeni gibi bir kükremeyle mırıldanarak.",
+      "notes": "Simile 'like twenty watermills'; participle phrase 'purring with a roar'."
+    },
+    {
+      "id": 172,
+      "start_ms": 1012740,
+      "end_ms": 1017876,
+      "text": "I drew my hanger and stood firm, which prevented the monster from attacking me.",
+      "translation": "Kılıcımı çektim ve dimdik durdum; bu durum canavarın bana saldırmasını engelledi.",
+      "notes": "Relative clause of result 'which prevented attacking'; past verbs 'drew and stood'."
+    },
+    {
+      "id": 173,
+      "start_ms": 1018276,
+      "end_ms": 1023556,
+      "text": "The farmer's infant baby seized me by the waist and popped my head into his mouth.",
+      "translation": "Çiftçinin henüz bebek olan çocuğu beni belimden yakaladı ve kafamı ağzının içine soktu.",
+      "notes": "Coordinate past verbs 'seized and popped'; prepositional phrase 'by the waist'."
+    },
+    {
+      "id": 174,
+      "start_ms": 1023956,
+      "end_ms": 1029596,
+      "text": "I roared so loudly that the frightened baby dropped me safely into Glumdalclitch's apron.",
+      "translation": "O kadar yüksek sesle kükredim ki korkan bebek beni sağ salim Glumdalclitch'in önlüğüne düşürdü.",
+      "notes": "Result clause 'so loudly that'; adverb 'safely'."
+    },
+    {
+      "id": 175,
+      "start_ms": 1029996,
+      "end_ms": 1035348,
+      "text": "Huge rats the size of mastiffs attacked me, but I killed one with my sword.",
+      "translation": "Danua köpeği büyüklüğündeki dev fareler bana saldırdı fakat birini kılıcımla öldürdüm.",
+      "notes": "Noun phrase of comparison 'size of mastiffs'; past verb 'killed'."
+    },
+    {
+      "id": 176,
+      "start_ms": 1035748,
+      "end_ms": 1041652,
+      "text": "Glumdalclitch washed my clothes, brushed my hair, and defended me from every danger.",
+      "translation": "Glumdalclitch giysilerimi yıkadı, saçlarımı taradı ve beni her tehlikeden korudu.",
+      "notes": "Series of coordinated past action verbs showing devotion."
+    },
+    {
+      "id": 177,
+      "start_ms": 1042052,
+      "end_ms": 1047236,
+      "text": "Her father, however, saw in me only a lucrative spectacle to make money.",
+      "translation": "Ancak babası bende para kazanmak için sadece karlı bir gösteri malzemesi gördü.",
+      "notes": "Adjective 'lucrative spectacle'; infinitive of purpose 'to make money'."
+    },
+    {
+      "id": 178,
+      "start_ms": 1047636,
+      "end_ms": 1052532,
+      "text": "He decided to carry me across the kingdom and exhibit me to paying crowds.",
+      "translation": "Beni krallığın dört bir yanına taşıyıp para ödeyen kalabalıklara sergilemeye karar verdi.",
+      "notes": "Coordinate infinitives 'to carry and exhibit'; past verb 'decided'."
+    },
+    {
+      "id": 179,
+      "start_ms": 1052932,
+      "end_ms": 1058140,
+      "text": "Glumdalclitch wept bitterly, fearing that the hard travel would kill her little pet.",
+      "translation": "Glumdalclitch zorlu yolculuğun minik evcil hayvanını öldüreceğinden korkarak acı acı ağladı.",
+      "notes": "Participle clause of fear; adverb 'bitterly'."
+    },
+    {
+      "id": 180,
+      "start_ms": 1058540,
+      "end_ms": 1063484,
+      "text": "Thus began my exhausting career as a traveling wonder of the giant realm.",
+      "translation": "Böylece devler ülkesinin gezgin bir harikası olarak yorucu kariyerim başlamış oldu.",
+      "notes": "Prepositional phrase 'as a traveling wonder'; past verb 'began'."
+    },
+    {
+      "id": 181,
+      "start_ms": 1064484,
+      "end_ms": 1070172,
+      "text": "My master carried me to eighteen towns, forcing me to perform ten times a day.",
+      "translation": "Efendim beni günde on kez gösteri yapmaya zorlayarak on sekiz kasabaya taşıdı.",
+      "notes": "Participle phrase 'forcing me to perform'; prepositional phrases."
+    },
+    {
+      "id": 182,
+      "start_ms": 1070572,
+      "end_ms": 1076716,
+      "text": "I was made to march on tables, flourish my sword, and drink toasts to the spectators.",
+      "translation": "Masa üzerinde yürümeye, kılıcımı sallamaya ve seyircilere kadeh kaldırmaya mecbur bırakıldım.",
+      "notes": "Passive infinitive series 'was made to march, flourish, drink'."
+    },
+    {
+      "id": 183,
+      "start_ms": 1077116,
+      "end_ms": 1082588,
+      "text": "Thousands of giants crowded around, paying high fees to see the tiny creature.",
+      "translation": "Binlerce dev minik yaratığı görmek için yüksek ücretler ödeyerek etrafıma üşüştü.",
+      "notes": "Participle phrase 'paying high fees'; infinitive of purpose 'to see'."
+    },
+    {
+      "id": 184,
+      "start_ms": 1082988,
+      "end_ms": 1089156,
+      "text": "The unending labor and constant travel wore down my health until I was reduced to skin and bones.",
+      "translation": "Bitmek bilmez çalışma ve sürekli yolculuk bir deri bir kemik kalana kadar sağlığımı yıprattı.",
+      "notes": "Time clause with 'until'; idiom 'reduced to skin and bones'."
+    },
+    {
+      "id": 185,
+      "start_ms": 1089556,
+      "end_ms": 1094788,
+      "text": "My master believed I would die soon and resolved to sell me for whatever he could get.",
+      "translation": "Efendim yakında öleceğimi düşündü ve ne koparabilirse beni satmaya karar verdi.",
+      "notes": "Coordinate past verbs 'believed and resolved'; noun clause."
+    },
+    {
+      "id": 186,
+      "start_ms": 1095188,
+      "end_ms": 1100276,
+      "text": "The Queen of Brobdingnag heard of me and commanded that I be brought to the royal court.",
+      "translation": "Brobdingnag Kraliçesi beni duydu ve kraliyet sarayına getirilmemi emretti.",
+      "notes": "Subjunctive passive clause 'that I be brought'; past verb 'commanded'."
+    },
+    {
+      "id": 187,
+      "start_ms": 1100676,
+      "end_ms": 1107468,
+      "text": "Her Majesty was so captivated by my speech and manners that she purchased me for a thousand gold pieces.",
+      "translation": "Majesteleri konuşmamdan ve terbiyemden öyle büyülendi ki beni bin altın sikke karşılığında satın aldı.",
+      "notes": "Result clause 'so captivated that'; prepositional phrase 'for gold pieces'."
+    },
+    {
+      "id": 188,
+      "start_ms": 1107868,
+      "end_ms": 1113340,
+      "text": "At my earnest request, Glumdalclitch was retained as my official nurse at court.",
+      "translation": "Benim samimi ricam üzerine Glumdalclitch sarayda resmi bakıcım olarak alıkonuldu.",
+      "notes": "Passive voice 'was retained as nurse'; prepositional phrase 'At earnest request'."
+    },
+    {
+      "id": 189,
+      "start_ms": 1113740,
+      "end_ms": 1119140,
+      "text": "The Queen had a luxurious traveling box built for me by her master cabinet-maker.",
+      "translation": "Kraliçe usta marangozuna benim için lüks bir seyahat kutusu inşa ettirdi.",
+      "notes": "Causative structure 'had a box built'; compound noun 'cabinet-maker'."
+    },
+    {
+      "id": 190,
+      "start_ms": 1119540,
+      "end_ms": 1126716,
+      "text": "It was sixteen feet square and twelve feet high, with sash windows, two beds, and soft chairs.",
+      "translation": "On altı fit kare tabanlı ve on iki fit yüksekliğindeydi; kanatlı pencereleri, iki yatağı ve yumuşak sandalyeleri vardı.",
+      "notes": "Measurement descriptions; prepositional phrase 'with sash windows'."
+    },
+    {
+      "id": 191,
+      "start_ms": 1127116,
+      "end_ms": 1132780,
+      "text": "I was placed on the Queen's dining table every day, conversing with the royal family.",
+      "translation": "Her gün kraliyet ailesiyle sohbet ederek Kraliçe'nin yemek masasına konuldum.",
+      "notes": "Participle phrase 'conversing with family'; passive voice 'was placed'."
+    },
+    {
+      "id": 192,
+      "start_ms": 1133180,
+      "end_ms": 1138748,
+      "text": "The Queen's dwarf, who was thirty feet tall, hated me out of spiteful jealousy.",
+      "translation": "Dokuz metre boyundaki Kraliçe'nin cücesi kindar bir kıskançlıkla benden nefret ediyordu.",
+      "notes": "Relative clause 'who was thirty feet tall'; prepositional phrase 'out of jealousy'."
+    },
+    {
+      "id": 193,
+      "start_ms": 1139148,
+      "end_ms": 1144452,
+      "text": "He constantly played dangerous practical jokes upon my tiny defenseless person.",
+      "translation": "Benim minik ve savunmasız şahsıma sürekli tehlikeli eşek şakaları yapıyordu.",
+      "notes": "Adverb 'constantly'; noun phrase 'dangerous practical jokes'."
+    },
+    {
+      "id": 194,
+      "start_ms": 1144852,
+      "end_ms": 1150636,
+      "text": "Once he shook an apple tree over me, dropping an apple as large as a barrel on my back.",
+      "translation": "Bir keresinde sırtıma fıçı büyüklüğünde bir elma düşürerek üzerime bir elma ağacını silkeledi.",
+      "notes": "Participle phrase 'dropping an apple'; simile 'as large as a barrel'."
+    },
+    {
+      "id": 195,
+      "start_ms": 1151036,
+      "end_ms": 1156364,
+      "text": "Another time, the malicious dwarf dumped me into a bowl of thick sweet cream.",
+      "translation": "Başka bir zaman o hain cüce beni koyu tatlı krema dolu bir kasenin içine boca etti.",
+      "notes": "Transitive past 'dumped into'; adjective 'malicious'."
+    },
+    {
+      "id": 196,
+      "start_ms": 1156764,
+      "end_ms": 1161660,
+      "text": "I was almost drowned before good Glumdalclitch rushed in and fished me out.",
+      "translation": "İyi kalpli Glumdalclitch içeri koşup beni dışarı çekmeden önce neredeyse boğuluyordum.",
+      "notes": "Passive 'was almost drowned'; time clause with 'before'."
+    },
+    {
+      "id": 197,
+      "start_ms": 1162060,
+      "end_ms": 1166812,
+      "text": "A monkey once snatched me from my box and carried me to the palace roof.",
+      "translation": "Bir maymun bir keresinde beni kutumdan kapıp sarayın çatısına kadar taşıdı.",
+      "notes": "Coordinate past verbs 'snatched and carried'; prepositional phrase."
+    },
+    {
+      "id": 198,
+      "start_ms": 1167212,
+      "end_ms": 1172924,
+      "text": "He stuffed food down my mouth as if I were his young cub, until soldiers rescued me.",
+      "translation": "Askerler beni kurtarana kadar sanki kendi yavrusuymuşum gibi ağzımdan içeri yemek tıkıştırdı.",
+      "notes": "Subjunctive comparison 'as if I were cub'; time clause with 'until'."
+    },
+    {
+      "id": 199,
+      "start_ms": 1173324,
+      "end_ms": 1179276,
+      "text": "Despite these hilarious and terrifying perils, I enjoyed the royal favor of the court.",
+      "translation": "Bu neşeli ve dehşet verici tehlikelere rağmen sarayın kraliyet iltifatlarının tadını çıkardım.",
+      "notes": "Preposition 'despite'; noun phrase 'royal favor'."
+    },
+    {
+      "id": 200,
+      "start_ms": 1179676,
+      "end_ms": 1184404,
+      "text": "The King took great pleasure in conversing with me about the government of Europe.",
+      "translation": "Kral benimle Avrupa'nın hükümet idaresi üzerine sohbet etmekten büyük zevk aldı.",
+      "notes": "Idiom 'took great pleasure in'; gerund phrase 'conversing with me'."
+    },
+    {
+      "id": 201,
+      "start_ms": 1185404,
+      "end_ms": 1190900,
+      "text": "The King of Brobdingnag was a wise philosopher-king who loved justice and peace.",
+      "translation": "Brobdingnag Kralı adaleti ve barışı seven bilge bir filozof-kraldı.",
+      "notes": "Relative clause 'who loved justice'; compound title 'philosopher-king'."
+    },
+    {
+      "id": 202,
+      "start_ms": 1191300,
+      "end_ms": 1197300,
+      "text": "He ordered me to give him an exact account of the laws, politics, and customs of England.",
+      "translation": "İngiltere'nin kanunları, siyaseti ve adetlerine dair ona eksiksiz bir hesap vermemi emretti.",
+      "notes": "Verb + object + infinitive 'ordered me to give'; compound noun 'exact account'."
+    },
+    {
+      "id": 203,
+      "start_ms": 1197700,
+      "end_ms": 1203868,
+      "text": "I described our glorious Parliament, our courts of justice, and our vast national treasury.",
+      "translation": "Şanlı Parlamentomuzu, adalet mahkemelerimizi ve devasa ulusal hazinemizi anlattım.",
+      "notes": "Series of direct objects with possessive pronouns; past verb 'described'."
+    },
+    {
+      "id": 204,
+      "start_ms": 1204268,
+      "end_ms": 1210604,
+      "text": "I spoke proudly of our great military victories, our fleets, and our religious factions.",
+      "translation": "Büyük askeri zaferlerimizden, donanmalarımızdan ve dini hiziplerimizden gururla bahsettim.",
+      "notes": "Adverb 'proudly'; prepositional series 'of victories, fleets, factions'."
+    },
+    {
+      "id": 205,
+      "start_ms": 1211004,
+      "end_ms": 1215684,
+      "text": "The King listened with grave attention, writing notes in his pocketbook.",
+      "translation": "Kral cebindeki deftere notlar yazarak ağırbaşlı bir dikkatle dinledi.",
+      "notes": "Participle phrase 'writing notes'; prepositional phrase 'with grave attention'."
+    },
+    {
+      "id": 206,
+      "start_ms": 1216084,
+      "end_ms": 1221988,
+      "text": "When I finished my boastful discourse, the King asked a series of penetrating questions.",
+      "translation": "Övüngen söylevimi bitirdiğimde Kral bir dizi can alıcı soru sordu.",
+      "notes": "Time clause with 'finished'; adjective 'penetrating questions'."
+    },
+    {
+      "id": 207,
+      "start_ms": 1222388,
+      "end_ms": 1227764,
+      "text": "He asked how our lawmakers were chosen and whether money decided political elections.",
+      "translation": "Yasa yapıcılarımızın nasıl seçildiğini ve siyasi seçimleri paranın belirleyip belirlemediğini sordu.",
+      "notes": "Indirect questions 'how were chosen' and 'whether money decided'."
+    },
+    {
+      "id": 208,
+      "start_ms": 1228164,
+      "end_ms": 1233900,
+      "text": "He inquired why our courts of law took decades to decide simple commercial disputes.",
+      "translation": "Basit ticari anlaşmazlıkları karara bağlamanın neden mahkemelerimizde on yıllar sürdüğünü sordu.",
+      "notes": "Indirect question with 'why'; measurement 'took decades'."
+    },
+    {
+      "id": 209,
+      "start_ms": 1234300,
+      "end_ms": 1239340,
+      "text": "He wondered why we needed standing armies if we were genuinely peaceful people.",
+      "translation": "Eğer gerçekten barışçıl insanlarsak neden daimi ordulara ihtiyaç duyduğumuzu merak etti.",
+      "notes": "Conditional clause 'if we were peaceful'; compound noun 'standing armies'."
+    },
+    {
+      "id": 210,
+      "start_ms": 1239740,
+      "end_ms": 1244924,
+      "text": "I offered to teach him the secret formula of gunpowder to win his royal favor.",
+      "translation": "Onun kraliyet lütfunu kazanmak için barutun gizli formülünü ona öğretmeyi teklif ettim.",
+      "notes": "Infinitive of purpose 'to win favor'; compound noun 'gunpowder'."
+    },
+    {
+      "id": 211,
+      "start_ms": 1245324,
+      "end_ms": 1250892,
+      "text": "I explained how a small quantity of black dust could blow up whole cities into the air.",
+      "translation": "Küçük bir miktar kara tozun bütün şehirleri havaya nasıl uçurabileceğini açıkladı.",
+      "notes": "Indirect question clause 'how dust could blow up cities'; modal 'could blow up'."
+    },
+    {
+      "id": 212,
+      "start_ms": 1251292,
+      "end_ms": 1256644,
+      "text": "I described how cannons could shatter ships and tear thousands of men to pieces.",
+      "translation": "Topların gemileri nasıl parçalayabileceğini ve binlerce insanı nasıl lime lime edebileceğini anlattım.",
+      "notes": "Coordinate verb phrases; modal 'could shatter and tear'."
+    },
+    {
+      "id": 213,
+      "start_ms": 1257044,
+      "end_ms": 1261820,
+      "text": "The King was struck with utter horror and disgust at my monstrous proposal.",
+      "translation": "Kral benim bu canavarca teklifim karşısında tam bir dehşet ve tiksintiyle sarsıldı.",
+      "notes": "Passive voice 'was struck with horror'; prepositional phrase 'at proposal'."
+    },
+    {
+      "id": 214,
+      "start_ms": 1262220,
+      "end_ms": 1267116,
+      "text": "He commanded me on pain of death never to mention that murderous secret again.",
+      "translation": "Ölüm cezası tehdidiyle o kanlı sırrı bir daha asla anmamamı bana emretti.",
+      "notes": "Prepositional phrase 'on pain of death'; negative infinitive 'never to mention'."
+    },
+    {
+      "id": 215,
+      "start_ms": 1267516,
+      "end_ms": 1272700,
+      "text": "He marveled that so diminutive an insect could harbor such bloodthirsty thoughts.",
+      "translation": "Bu kadar ufak tefek bir böceğin böylesine kana susamış düşünceler besleyebilmesine hayret etti.",
+      "notes": "Noun clause with 'that so diminutive an insect could harbor'; adjective 'bloodthirsty'."
+    },
+    {
+      "id": 216,
+      "start_ms": 1273100,
+      "end_ms": 1277876,
+      "text": "He picked me up gently in his vast hand and stroked my head sorrowfully.",
+      "translation": "Geniş elinin içinde beni nazikçe kaldırdı ve kederle başımı okşadı.",
+      "notes": "Coordinate past verbs 'picked up and stroked'; adverb 'sorrowfully'."
+    },
+    {
+      "id": 217,
+      "start_ms": 1278276,
+      "end_ms": 1284060,
+      "text": "'My little friend,' said the King, 'thy people seem to be the most pernicious race of vermin.'",
+      "translation": "'Benim minik dostum,' dedi Kral, 'senin halkın yeryüzündeki en zararlı haşarat ırkı gibi görünüyor.'",
+      "notes": "Superlative noun phrase 'most pernicious race of vermin'; direct address."
+    },
+    {
+      "id": 218,
+      "start_ms": 1284460,
+      "end_ms": 1289884,
+      "text": "'Nature ever suffered to crawl upon the surface of the earth,' concluded the monarch.",
+      "translation": "'Doğanın yeryüzünün üzerinde sürünmesine bugüne kadar katlandığı en zararlı yaratıklar,' diyerek sözünü bitirdi hükümdar.",
+      "notes": "Philosophical indictment; past verb 'concluded'."
+    },
+    {
+      "id": 219,
+      "start_ms": 1290284,
+      "end_ms": 1295684,
+      "text": "I felt deeply humiliated by his judgment, though I could not dispute his wisdom.",
+      "translation": "Onun bilgeliğine itiraz edemesem de verdiği bu hüküm karşısında kendimi derinden aşağılanmış hissettim.",
+      "notes": "Concession clause with 'though'; copular passive 'felt humiliated'."
+    },
+    {
+      "id": 220,
+      "start_ms": 1296084,
+      "end_ms": 1301100,
+      "text": "A wider perspective of human folly had opened before my astonished eyes.",
+      "translation": "Şaşkın gözlerimin önünde insan ahmaklığına dair daha geniş bir ufuk açılmıştı.",
+      "notes": "Past perfect 'had opened'; compound noun 'human folly'."
+    },
+    {
+      "id": 221,
+      "start_ms": 1302100,
+      "end_ms": 1307740,
+      "text": "I had lived two years in Brobdingnag, longing constantly for my homeland and kindred.",
+      "translation": "Brobdingnag'da vatanımın ve akrabalarımın hasretini sürekli çekerek iki yıl yaşamıştım.",
+      "notes": "Past perfect 'had lived'; participle phrase 'longing constantly'."
+    },
+    {
+      "id": 222,
+      "start_ms": 1308140,
+      "end_ms": 1314140,
+      "text": "The King and Queen took a journey to the south coast, taking Glumdalclitch and me along.",
+      "translation": "Kral ve Kraliçe güney sahiline bir seyahate çıktılar, Glumdalclitch ile beni de yanlarına aldılar.",
+      "notes": "Participle phrase 'taking Glumdalclitch and me along'; past verb 'took a journey'."
+    },
+    {
+      "id": 223,
+      "start_ms": 1314540,
+      "end_ms": 1319796,
+      "text": "I was indisposed and asked to be carried down to the seashore for fresh ocean air.",
+      "translation": "Rahatsızlandım ve taze okyanus havası almak için deniz kıyısına götürülmeyi istedim.",
+      "notes": "Passive infinitive 'to be carried down'; purpose phrase 'for fresh air'."
+    },
+    {
+      "id": 224,
+      "start_ms": 1320196,
+      "end_ms": 1325764,
+      "text": "A page boy carried my traveling box down to the rocks, where I lay on my hammock.",
+      "translation": "Bir uşak çocuk seyahat kutumu kayalıklara indirdi; orada hamağımda uzandım.",
+      "notes": "Relative clause 'where I lay on hammock'; past verb 'carried'."
+    },
+    {
+      "id": 225,
+      "start_ms": 1326164,
+      "end_ms": 1331804,
+      "text": "The boy went off to hunt for birds' eggs, leaving my box unattended upon the shore.",
+      "translation": "Çocuk kutumu kıyıda gözetimsiz bırakarak kuş yumurtaları avlamaya gitti.",
+      "notes": "Participle phrase 'leaving box unattended'; phrasal verb 'went off to hunt'."
+    },
+    {
+      "id": 226,
+      "start_ms": 1332204,
+      "end_ms": 1337052,
+      "text": "Suddenly, I felt a violent jerk that nearly flung me out of my bed.",
+      "translation": "Birdenbire beni neredeyse yatağımdan fırlatacak şiddetli bir sarsıntı hissettim.",
+      "notes": "Relative clause 'that nearly flung me'; adjective 'violent jerk'."
+    },
+    {
+      "id": 227,
+      "start_ms": 1337452,
+      "end_ms": 1343332,
+      "text": "The box was lifted rapidly into the air, ascending with terrifying, dizzying speed.",
+      "translation": "Kutu korkutucu, baş döndürücü bir hızla yükselerek hızla havaya kalktı.",
+      "notes": "Passive voice 'was lifted'; coordinate participles 'ascending with speed'."
+    },
+    {
+      "id": 228,
+      "start_ms": 1343732,
+      "end_ms": 1349180,
+      "text": "Looking through the sash window, I saw only clouds and boundless empty sky.",
+      "translation": "Kanatlı pencereden bakınca sadece bulutları ve uçsuz bucaksız boş gökyüzünü gördüm.",
+      "notes": "Participle clause 'Looking through window'; perception verb 'saw'."
+    },
+    {
+      "id": 229,
+      "start_ms": 1349580,
+      "end_ms": 1355436,
+      "text": "A monstrous eagle had gripped the iron ring on top of my box in its gigantic talons.",
+      "translation": "Devasa bir kartal kutumun üstündeki demir halkayı dev pençeleriyle kavramıştı.",
+      "notes": "Past perfect 'had gripped'; prepositional phrase 'in gigantic talons'."
+    },
+    {
+      "id": 230,
+      "start_ms": 1355836,
+      "end_ms": 1361500,
+      "text": "The bird was flying out to sea, intending to smash the box upon a rock and eat me.",
+      "translation": "Kuş kutuyu bir kayaya vurup parçalamak ve beni yemek niyetiyle denize doğru uçuyordu.",
+      "notes": "Participle phrase 'intending to smash'; past continuous 'was flying'."
+    },
+    {
+      "id": 231,
+      "start_ms": 1361900,
+      "end_ms": 1367588,
+      "text": "Suddenly, a furious flapping sounded above, accompanied by loud screeching.",
+      "translation": "Birdenbire yukarıdan gürültülü ciyaklamalar eşliğinde şiddetli bir kanat çırpma sesi duyuldu.",
+      "notes": "Passive participle modifier 'accompanied by screeching'; past verb 'sounded'."
+    },
+    {
+      "id": 232,
+      "start_ms": 1367988,
+      "end_ms": 1373724,
+      "text": "Two other giant eagles attacked my captor, fighting fiercely for possession of the prey.",
+      "translation": "İki diğer dev kartal avın mülkiyeti için kıyasıya savaşarak beni kaçıran kuşa saldırdı.",
+      "notes": "Participle phrase 'fighting fiercely'; past verb 'attacked'."
+    },
+    {
+      "id": 233,
+      "start_ms": 1374124,
+      "end_ms": 1379644,
+      "text": "In the struggle, the eagle released the iron ring, and my box plummeted down.",
+      "translation": "Boğuşma esnasında kartal demir halkayı bıraktı ve kutum dimdik aşağı düştü.",
+      "notes": "Coordinate past clauses; past verb 'plummeted down'."
+    },
+    {
+      "id": 234,
+      "start_ms": 1380044,
+      "end_ms": 1385372,
+      "text": "I fell thousands of feet through the air with a whistling rush that took my breath away.",
+      "translation": "Nefesimi kesen bir ıslık uğultusuyla havada binlerce fit aşağı düştüm.",
+      "notes": "Relative clause 'that took breath away'; past verb 'fell'."
+    },
+    {
+      "id": 235,
+      "start_ms": 1385772,
+      "end_ms": 1392636,
+      "text": "Crash! The box struck the ocean with a tremendous splash and sank deep into the waves.",
+      "translation": "Güm! Kutu muazzam bir şapırtıyla okyanusa çarptı ve dalgaların derinliklerine battı.",
+      "notes": "Onomatopoeia; coordinate past verbs 'struck and sank'."
+    },
+    {
+      "id": 236,
+      "start_ms": 1393036,
+      "end_ms": 1399036,
+      "text": "The water was kept out by tight joints, and the buoyant wooden box bobbed back to the surface.",
+      "translation": "Sızdırmaz ek yerleri suyu dışarıda tuttu ve batmayan tahta kutu tekrar yüzeye fırladı.",
+      "notes": "Passive voice 'was kept out'; coordinate clause 'box bobbed back'."
+    },
+    {
+      "id": 237,
+      "start_ms": 1399436,
+      "end_ms": 1405388,
+      "text": "I floated helplessly for hours upon the solitary sea, expecting death at every swell.",
+      "translation": "Her dalgada ölümü bekleyerek saatlerce kimsesiz denizin üzerinde çaresizce yüzdüm.",
+      "notes": "Participle phrase 'expecting death'; adverb 'helplessly'."
+    },
+    {
+      "id": 238,
+      "start_ms": 1405788,
+      "end_ms": 1411572,
+      "text": "Presently, I heard a grating sound against the side of the box and shouted in desperation.",
+      "translation": "Çok geçmeden kutunun yanına sürtünen bir ses duydum ve çaresizlik içinde bağırdım.",
+      "notes": "Coordinate past verbs 'heard and shouted'; participial adjective 'grating sound'."
+    },
+    {
+      "id": 239,
+      "start_ms": 1411972,
+      "end_ms": 1416916,
+      "text": "An English merchant ship had spotted the strange floating house and sent a boat.",
+      "translation": "Bir İngiliz ticaret gemisi bu garip yüzen evi fark etmiş ve bir sandal göndermişti.",
+      "notes": "Coordinate past perfect verbs 'had spotted and sent'."
+    },
+    {
+      "id": 240,
+      "start_ms": 1417316,
+      "end_ms": 1422572,
+      "text": "Carpenters sawed an opening, and I was pulled out into the arms of human sailors.",
+      "translation": "Marangozlar bir delik açtılar ve ben insan denizcilerin kollarına çekilip kurtarıldım.",
+      "notes": "Coordinate clauses; passive voice 'was pulled out'."
+    },
+    {
+      "id": 241,
+      "start_ms": 1423572,
+      "end_ms": 1429428,
+      "text": "My third voyage took me into the northern Pacific, where our ship was captured by pirates.",
+      "translation": "Üçüncü yolculuğum beni gemimizin korsanlar tarafından ele geçirildiği kuzey Pasifik'e götürdü.",
+      "notes": "Relative clause of place; passive voice 'was captured'."
+    },
+    {
+      "id": 242,
+      "start_ms": 1429828,
+      "end_ms": 1435492,
+      "text": "The cruel pirates cast me adrift in a small canoe with paddle and minimal provisions.",
+      "translation": "Zalim korsanlar beni bir kürek ve kıt erzakla küçük bir kano içinde denize salıverdiler.",
+      "notes": "Idiom 'cast me adrift'; coordinate prepositional objects."
+    },
+    {
+      "id": 243,
+      "start_ms": 1435892,
+      "end_ms": 1440884,
+      "text": "I landed upon a desolate rocky island and looked up to see a wondrous spectacle.",
+      "translation": "Issız kayalık bir adaya çıktım ve harikulade bir gösteri görmek için yukarı baktım.",
+      "notes": "Infinitive of purpose 'to see spectacle'; past verbs 'landed and looked'."
+    },
+    {
+      "id": 244,
+      "start_ms": 1441284,
+      "end_ms": 1447332,
+      "text": "Floating in the sky above me was an inhabited island, circular and made of solid rock.",
+      "translation": "Tepemdeki gökyüzünde yüzen şey, dairesel ve masif kayadan yapılmış meskun bir adaydı.",
+      "notes": "Inverted locative sentence; passive participle 'made of solid rock'."
+    },
+    {
+      "id": 245,
+      "start_ms": 1447732,
+      "end_ms": 1453636,
+      "text": "It moved through the air by means of a colossal lodestone or natural magnet in its center.",
+      "translation": "Merkezindeki devasa bir manyetit taşı veya doğal mıknatıs vasıtasıyla havada hareket ediyordu.",
+      "notes": "Prepositional phrase 'by means of'; compound noun 'colossal lodestone'."
+    },
+    {
+      "id": 246,
+      "start_ms": 1454036,
+      "end_ms": 1460012,
+      "text": "The island, called Laputa, lowered a rope chair and hoisted me up into their aerial city.",
+      "translation": "Laputa adı verilen ada bir halat sandalye indirdi ve beni gökteki şehirlerine yukarı çekti.",
+      "notes": "Appositive participle 'called Laputa'; coordinate past verbs."
+    },
+    {
+      "id": 247,
+      "start_ms": 1460412,
+      "end_ms": 1466460,
+      "text": "The inhabitants were obsessed with abstract geometry, mathematics, and musical theory.",
+      "translation": "Ahalisi soyut geometri, matematik ve müzik teorisine kafayı takmıştı.",
+      "notes": "Passive idiom 'were obsessed with'; coordinate noun objects."
+    },
+    {
+      "id": 248,
+      "start_ms": 1466860,
+      "end_ms": 1472284,
+      "text": "Their heads were all inclined to the right or left, with one eye turned directly inward.",
+      "translation": "Başlarının hepsi sağa veya sola eğikti; bir gözleri doğrudan içe dönüktü.",
+      "notes": "Passive participle modifier 'turned directly inward'; predicate adjectives."
+    },
+    {
+      "id": 249,
+      "start_ms": 1472684,
+      "end_ms": 1478876,
+      "text": "They were so lost in speculation that they required servants called 'flappers' to awaken them.",
+      "translation": "Tefekkür içinde öyle kaybolmuşlardı ki kendilerini uyandırmak için 'şaplakçı' denilen hizmetkarlara muhtaçtılar.",
+      "notes": "Result clause 'so lost that'; passive participle 'called flappers'."
+    },
+    {
+      "id": 250,
+      "start_ms": 1479276,
+      "end_ms": 1485156,
+      "text": "The flapper carried a bladder on a stick filled with dried peas to strike their ears and mouths.",
+      "translation": "Şaplakçı kulaklarına ve ağızlarına vurmak için bir sopanın ucunda kurutulmuş bezelyeyle dolu bir kese taşırdı.",
+      "notes": "Infinitive of purpose 'to strike'; past participle modifier 'filled with peas'."
+    },
+    {
+      "id": 251,
+      "start_ms": 1485556,
+      "end_ms": 1491124,
+      "text": "Without a flap on the mouth, a philosopher would forget to speak during conversation.",
+      "translation": "Ağzına bir şaplak yemezse, bir filozof sohbet esnasında konuşmayı unutuverirdi.",
+      "notes": "Prepositional phrase 'Without a flap'; conditional modal 'would forget'."
+    },
+    {
+      "id": 252,
+      "start_ms": 1491524,
+      "end_ms": 1496780,
+      "text": "I was granted permission to descend to the terrestrial continent of Balnibarbi below.",
+      "translation": "Aşağıdaki Balnibarbi kara kıtasına inmem için bana izin verildi.",
+      "notes": "Passive voice 'was granted permission'; infinitive 'to descend'."
+    },
+    {
+      "id": 253,
+      "start_ms": 1497180,
+      "end_ms": 1503204,
+      "text": "In the grand city of Lagado, I visited the world-famous Grand Academy of Projectors.",
+      "translation": "Büyük Lagado şehrinde dünyaca meşhur Hayalperest Mucitler Büyük Akademisi'ni ziyaret ettim.",
+      "notes": "Proper capitalized institution; past verb 'visited'."
+    },
+    {
+      "id": 254,
+      "start_ms": 1503604,
+      "end_ms": 1509340,
+      "text": "Here, professors pursued completely absurd and useless scientific experiments.",
+      "translation": "Burada profesörler tamamen saçma ve faydasız bilimsel deneylerin peşinden koşuyorlardı.",
+      "notes": "Coordinate adjectives 'absurd and useless'; past verb 'pursued'."
+    },
+    {
+      "id": 255,
+      "start_ms": 1509740,
+      "end_ms": 1515140,
+      "text": "One projector had spent eight years trying to extract sunbeams out of cucumbers.",
+      "translation": "Bir mucit hıyarlardan güneş ışınları çıkarmaya çalışarak sekiz yılını harcamıştı.",
+      "notes": "Past perfect continuous sense; infinitive 'to extract'."
+    },
+    {
+      "id": 256,
+      "start_ms": 1515540,
+      "end_ms": 1520364,
+      "text": "Another was attempting to soften marble into cushions for comfortable chairs.",
+      "translation": "Bir başkası rahat sandalyeler için mermeri yumuşatıp yastığa dönüştürmeye çabalıyordu.",
+      "notes": "Past continuous 'was attempting'; infinitive 'to soften'."
+    },
+    {
+      "id": 257,
+      "start_ms": 1520764,
+      "end_ms": 1526092,
+      "text": "A blind architect was designing a method for building houses from the roof downward.",
+      "translation": "Kör bir mimar evleri çatıdan aşağıya doğru inşa etmek için bir yöntem tasarlıyordu.",
+      "notes": "Compound directional phrase 'from roof downward'; past continuous 'was designing'."
+    },
+    {
+      "id": 258,
+      "start_ms": 1526492,
+      "end_ms": 1533572,
+      "text": "Philosophers proposed abolishing all spoken words, communicating only by carrying bundles of objects.",
+      "translation": "Filozoflar bütün konuşulan kelimeleri kaldırmayı, sadece nesne bohçaları taşıyarak anlaşmayı teklif ettiler.",
+      "notes": "Coordinate gerunds 'abolishing and communicating'; manner phrase."
+    },
+    {
+      "id": 259,
+      "start_ms": 1533972,
+      "end_ms": 1540116,
+      "text": "These intellectual follies had ruined the agriculture, commerce, and happiness of the people.",
+      "translation": "Bu entelektüel ahmaklıklar halkın tarımını, ticaretini ve mutluluğunu mahvetmişti.",
+      "notes": "Past perfect 'had ruined'; coordinate noun objects."
+    },
+    {
+      "id": 260,
+      "start_ms": 1540516,
+      "end_ms": 1546084,
+      "text": "I departed from this misguided land, yearning for simple common sense and virtue.",
+      "translation": "Basit sağduyunun ve erdemin hasretini çekerek bu yoldan çıkmış diyardan ayrıldım.",
+      "notes": "Participle phrase 'yearning for common sense'; past verb 'departed'."
+    },
+    {
+      "id": 261,
+      "start_ms": 1547084,
+      "end_ms": 1552868,
+      "text": "On my fourth voyage as captain of the Adventurer, my mutinous crew marooned me ashore.",
+      "translation": "Adventurer gemisinin kaptanı olarak dördüncü yolculuğumda, isyancı mürettebatım beni karaya terk etti.",
+      "notes": "Prepositional phrase 'as captain'; past verb 'marooned'."
+    },
+    {
+      "id": 262,
+      "start_ms": 1553268,
+      "end_ms": 1559484,
+      "text": "I walked inland into an idyllic, peaceful country with well-kept pastures and clean streams.",
+      "translation": "Bakımlı otlakları ve temiz dereleri olan huzurlu, cennet gibi bir ülkenin iç kısımlarına yürüdüm.",
+      "notes": "Compound adjectives 'well-kept, clean'; past verb 'walked inland'."
+    },
+    {
+      "id": 263,
+      "start_ms": 1559884,
+      "end_ms": 1566028,
+      "text": "Presently, I encountered a herd of hideous, deformed, and disgusting beasts in a field.",
+      "translation": "Çok geçmeden bir tarlada çirkin, deforme olmuş ve iğrenç hayvanlardan oluşan bir sürüyle karşılaştım.",
+      "notes": "Series of coordinate adjectives; past verb 'encountered'."
+    },
+    {
+      "id": 264,
+      "start_ms": 1566428,
+      "end_ms": 1573100,
+      "text": "They had human faces, hairy bodies, sharp claws, and behaved with unspeakable filth.",
+      "translation": "İnsan yüzleri, kıllı gövdeleri, keskin pençeleri vardı ve tarif edilemez bir pislikle davranıyorlardı.",
+      "notes": "Coordinate predicates; noun phrase 'unspeakable filth'."
+    },
+    {
+      "id": 265,
+      "start_ms": 1573500,
+      "end_ms": 1579404,
+      "text": "To my horror, they surrounded me and leaped into trees, discharging filth upon my head.",
+      "translation": "Dehşet içinde gördüm ki etrafımı sardılar ve kafama pislik saçarak ağaçlara tırmandılar.",
+      "notes": "Coordinate past verbs; participle phrase 'discharging filth'."
+    },
+    {
+      "id": 266,
+      "start_ms": 1579804,
+      "end_ms": 1585684,
+      "text": "Suddenly, a dapple-gray horse trotted into the glade with stately, dignified grace.",
+      "translation": "Birdenbire kır bir at vakur ve asil bir zarafetle orman açıklığına doğru tırıs gitti.",
+      "notes": "Prepositional phrase 'with dignified grace'; past verb 'trotted'."
+    },
+    {
+      "id": 267,
+      "start_ms": 1586084,
+      "end_ms": 1591172,
+      "text": "The savage monsters scattered in instant terror at the approach of the noble steed.",
+      "translation": "Vahşi canavarlar o soylu küheylanın yaklaşmasıyla anlık bir dehşet içinde darmadağın oldular.",
+      "notes": "Prepositional phrase 'at approach of steed'; past verb 'scattered'."
+    },
+    {
+      "id": 268,
+      "start_ms": 1591572,
+      "end_ms": 1597524,
+      "text": "The horse inspected me with calm curiosity, whinnying softly to a chestnut companion.",
+      "translation": "At sakin bir merakla beni inceledi, kestane rengi bir yoldaşına usulca kişnedi.",
+      "notes": "Coordinate participles; adverb 'softly'."
+    },
+    {
+      "id": 269,
+      "start_ms": 1597924,
+      "end_ms": 1603156,
+      "text": "They were the Houyhnhnms, a race of rational horses governed purely by reason.",
+      "translation": "Onlar Houyhnhnm'lerdi; tamamen akıl ve mantıkla yönetilen rasyonel atlar ırkı.",
+      "notes": "Appositive clause; passive participle modifier 'governed purely by reason'."
+    },
+    {
+      "id": 270,
+      "start_ms": 1603556,
+      "end_ms": 1609532,
+      "text": "The vile, brutish creatures I had encountered were the Yahoos, degraded human beasts.",
+      "translation": "Karşılaştığım o alçak, kaba yaratıklar ise yozlaşmış insan hayvanları olan Yahoo'lardı.",
+      "notes": "Appositive phrase 'degraded human beasts'; relative clause."
+    },
+    {
+      "id": 271,
+      "start_ms": 1609932,
+      "end_ms": 1615620,
+      "text": "The dapple-gray master took me to his clean, order-filled home built of timber and thatch.",
+      "translation": "Kır efendi beni kereste ve sazdan yapılmış temiz, düzen dolu evine götürdü.",
+      "notes": "Past participle modifier 'built of timber'; past verb 'took'."
+    },
+    {
+      "id": 272,
+      "start_ms": 1616020,
+      "end_ms": 1621660,
+      "text": "I lived among the Houyhnhnms for three glorious years, learning their harmonious language.",
+      "translation": "Ahenkli dillerini öğrenerek üç şanlı yıl boyunca Houyhnhnm'ler arasında yaşadım.",
+      "notes": "Participle phrase 'learning language'; duration phrase 'for three years'."
+    },
+    {
+      "id": 273,
+      "start_ms": 1622060,
+      "end_ms": 1628636,
+      "text": "In their tongue, there was no word for 'lie' or 'falsehood', only 'the thing which was not.'",
+      "translation": "Onların dilinde 'yalan' veya 'hile' kelimesi yoktu; sadece 'olmayan şey' tabiri vardı.",
+      "notes": "Philosophical linguistic detail; negative existential 'there was no word'."
+    },
+    {
+      "id": 274,
+      "start_ms": 1629036,
+      "end_ms": 1635660,
+      "text": "They knew no war, no crime, no jealousy, no disease, and no corrupt government.",
+      "translation": "Ne savaşı, ne suçu, ne kıskançlığı, ne hastalığı, ne de yozlaşmış hükümetleri bilirlerdi.",
+      "notes": "Parallel negative objects introduced by repeated 'no'."
+    },
+    {
+      "id": 275,
+      "start_ms": 1636060,
+      "end_ms": 1641604,
+      "text": "They governed their lives by friendship, benevolence, truth, and temperance.",
+      "translation": "Hayatlarını dostluk, iyilikseverlik, hakikat ve ölçülülükle idare ederlerdi.",
+      "notes": "Preposition 'by' followed by four classical virtues."
+    },
+    {
+      "id": 276,
+      "start_ms": 1642004,
+      "end_ms": 1648532,
+      "text": "When I described human wars, gunpowder, lawyers, and greed, my master stood appalled.",
+      "translation": "İnsan savaşlarını, barutu, avukatları ve açgözlülüğü anlattığımda efendim dehşet içinde kaldı.",
+      "notes": "Time clause with 'described'; predicate adjective 'stood appalled'."
+    },
+    {
+      "id": 277,
+      "start_ms": 1648932,
+      "end_ms": 1654620,
+      "text": "He concluded that civilized humans were merely Yahoos with a dangerous gift of intellect.",
+      "translation": "Medeni insanların sadece aklın tehlikeli bir yeteneğine sahip Yahoo'lar olduğu sonucuna vardı.",
+      "notes": "Noun clause 'that humans were Yahoos'; past verb 'concluded'."
+    },
+    {
+      "id": 278,
+      "start_ms": 1655020,
+      "end_ms": 1660420,
+      "text": "I felt deep shame for my own species and adored the noble virtue of the horses.",
+      "translation": "Kendi türümden derin bir utanç duydum ve atların soylu erdemine hayran kaldım.",
+      "notes": "Coordinate past verbs 'felt and adored'; noun phrase 'noble virtue'."
+    },
+    {
+      "id": 279,
+      "start_ms": 1660820,
+      "end_ms": 1665764,
+      "text": "I desired nothing more than to spend the remainder of my earthly days among them.",
+      "translation": "Dünyevi günlerimin geri kalanını onların arasında geçirmekten başka hiçbir şey arzulamazdım.",
+      "notes": "Comparative structure 'nothing more than to spend'; noun 'remainder'."
+    },
+    {
+      "id": 280,
+      "start_ms": 1666164,
+      "end_ms": 1671396,
+      "text": "A heavenly paradise of pure reason had banished every trace of human pride.",
+      "translation": "Saf aklın cennet gibi diyarı, insan kibrinin her bir izini silip atmıştı.",
+      "notes": "Past perfect 'had banished'; compound noun 'pure reason'."
+    },
+    {
+      "id": 281,
+      "start_ms": 1672396,
+      "end_ms": 1677724,
+      "text": "To my profound sorrow, the Grand Assembly of Houyhnhnms decreed my expulsion.",
+      "translation": "Büyük kederimle birlikte, Houyhnhnm'lerin Büyük Meclisi benim sınır dışı edilmeme hükmetti.",
+      "notes": "Prepositional phrase 'To profound sorrow'; past verb 'decreed'."
+    },
+    {
+      "id": 282,
+      "start_ms": 1678124,
+      "end_ms": 1684148,
+      "text": "Being an animal resembling a Yahoo, the council feared I might incite the beasts to rebellion.",
+      "translation": "Bir Yahoo'ya benzeyen bir hayvan olduğum için meclis canavarları isyana kışkırtabileceğimden korktu.",
+      "notes": "Participle clause of cause 'Being an animal'; modal 'might incite'."
+    },
+    {
+      "id": 283,
+      "start_ms": 1684548,
+      "end_ms": 1689756,
+      "text": "My master wept as he helped me build a sturdy canoe covered with Yahoo skins.",
+      "translation": "Yahoo derileriyle kaplı sağlam bir kano inşa etmeme yardım ederken efendim ağladı.",
+      "notes": "Time clause with 'as'; past participle modifier 'covered with skins'."
+    },
+    {
+      "id": 284,
+      "start_ms": 1690156,
+      "end_ms": 1695052,
+      "text": "I fell upon my knees and kissed his hoof in reverent, weeping gratitude.",
+      "translation": "Dizlerimin üzerine çöktüm ve hürmetli, ağlayan bir minnetle onun toynağını öptüm.",
+      "notes": "Coordinate past verbs 'fell and kissed'; adjective phrase 'reverent gratitude'."
+    },
+    {
+      "id": 285,
+      "start_ms": 1695452,
+      "end_ms": 1702940,
+      "text": "I sailed away on February 15, 1715, mourning the loss of the only true paradise on earth.",
+      "translation": "Yeryüzündeki tek gerçek cennetin kaybına yas tutarak 15 Şubat 1715'te yelken açtım.",
+      "notes": "Participle phrase 'mourning the loss'; date phrase."
+    },
+    {
+      "id": 286,
+      "start_ms": 1703340,
+      "end_ms": 1709364,
+      "text": "I was rescued against my will by a Portuguese ship commanded by the noble Don Pedro de Mendez.",
+      "translation": "Soylu Don Pedro de Mendez'in komutasındaki bir Portekiz gemisi tarafından rızam hilafına kurtarıldım.",
+      "notes": "Passive voice 'was rescued against my will'; past participle modifier."
+    },
+    {
+      "id": 287,
+      "start_ms": 1709764,
+      "end_ms": 1715956,
+      "text": "Don Pedro treated me with unmatched Christian charity, courtesy, and brotherly love.",
+      "translation": "Don Pedro bana eşsiz bir Hristiyan hayırseverliği, nezaketi ve kardeş sevgisiyle muamele etti.",
+      "notes": "Prepositional phrase 'with charity and courtesy'; past verb 'treated'."
+    },
+    {
+      "id": 288,
+      "start_ms": 1716356,
+      "end_ms": 1721852,
+      "text": "Yet so disgusted was I by human nature that I could scarcely endure his presence.",
+      "translation": "Fakat insan doğasından öyle tiksinmiştim ki onun varlığına bile zar zor katlanabiliyordum.",
+      "notes": "Inverted result clause 'so disgusted was I that'; adverb 'scarcely'."
+    },
+    {
+      "id": 289,
+      "start_ms": 1722252,
+      "end_ms": 1727772,
+      "text": "I returned to my home in Redriff in December, reunited with my wife and family.",
+      "translation": "Aralık ayında Redriff'teki evime döndüm; karım ve ailemle yeniden bir araya geldim.",
+      "notes": "Past participle modifier 'reunited with'; past verb 'returned'."
+    },
+    {
+      "id": 290,
+      "start_ms": 1728172,
+      "end_ms": 1733668,
+      "text": "When my wife embraced me, I swooned in horror at the touch and smell of a Yahoo.",
+      "translation": "Karım bana sarıldığında bir Yahoo'nun dokunuşu ve kokusu karşısında dehşet içinde kendimden geçtim.",
+      "notes": "Time clause with 'embraced'; past verb 'swooned in horror'."
+    },
+    {
+      "id": 291,
+      "start_ms": 1734068,
+      "end_ms": 1739396,
+      "text": "For a full year, I could not bear the sight or conversation of my own children.",
+      "translation": "Tam bir yıl boyunca öz çocuklarımın yüzüne bakmaya veya onlarla sohbet etmeye dayanamadım.",
+      "notes": "Modal negative 'could not bear'; duration phrase 'For a full year'."
+    },
+    {
+      "id": 292,
+      "start_ms": 1739796,
+      "end_ms": 1745316,
+      "text": "I bought two horses and spent four hours every day conversing with them in my stable.",
+      "translation": "İki at satın aldım ve ahırımda onlarla sohbet ederek her gün dört saat geçirdim.",
+      "notes": "Coordinate past verbs 'bought and spent'; gerund phrase 'conversing with them'."
+    },
+    {
+      "id": 293,
+      "start_ms": 1745716,
+      "end_ms": 1750516,
+      "text": "Their neighing and scent reminded me of the glorious virtues of the Houyhnhnms.",
+      "translation": "Onların kişnemesi ve kokusu bana Houyhnhnm'lerin şanlı erdemlerini hatırlattı.",
+      "notes": "Coordinate subjects; past verb 'reminded of'."
+    },
+    {
+      "id": 294,
+      "start_ms": 1750916,
+      "end_ms": 1756700,
+      "text": "Gradually, I learned to tolerate the presence of my family at the far end of the dining table.",
+      "translation": "Yavaş yavaş yemek masasının en uzak ucunda ailemin bulunmasına tahammül etmeyi öğrendim.",
+      "notes": "Verb + infinitive 'learned to tolerate'; adverb 'gradually'."
+    },
+    {
+      "id": 295,
+      "start_ms": 1757100,
+      "end_ms": 1762572,
+      "text": "Yet human pride remains to me the most intolerable and ridiculous of all vices.",
+      "translation": "Yine de insan kibri bana göre tüm kötülüklerin en katlanılmaz ve en gülünç olanı olarak kalmaktadır.",
+      "notes": "Superlative phrase 'most intolerable and ridiculous'; present verb 'remains'."
+    },
+    {
+      "id": 296,
+      "start_ms": 1762972,
+      "end_ms": 1768804,
+      "text": "That a puny, deformed, disease-ridden Yahoo should be swollen with pride amazes me.",
+      "translation": "Ufacık, sakat, hastalıklarla boğuşan bir Yahoo'nun kibirle kabarması beni hayrete düşürüyor.",
+      "notes": "Noun clause subject introduced by 'That'; modal 'should be swollen'."
+    },
+    {
+      "id": 297,
+      "start_ms": 1769204,
+      "end_ms": 1775108,
+      "text": "I wrote these travels not to amuse, but to inform and correct the follies of mankind.",
+      "translation": "Bu seyahatleri eğlendirmek için değil, insanlığın ahmaklıklarını bildirmek ve düzeltmek için yazdım.",
+      "notes": "Negative contrast 'not to amuse, but to inform'; coordinate infinitives."
+    },
+    {
+      "id": 298,
+      "start_ms": 1775508,
+      "end_ms": 1781844,
+      "text": "I bid farewell to the reader, entreating him to cast away pride, cruelty, and deceit.",
+      "translation": "Kibri, zalimliği ve aldatmayı bir kenara bırakması için yalvararak okuyucuya veda ediyorum.",
+      "notes": "Participle phrase 'entreating him to cast away'; present verb 'bid farewell'."
+    },
+    {
+      "id": 299,
+      "start_ms": 1782244,
+      "end_ms": 1787404,
+      "text": "May the memory of pure reason live forever in the minds of those who seek wisdom.",
+      "translation": "Saf aklın hatırası hikmet arayanların zihninde sonsuza dek yaşasın.",
+      "notes": "Optative modal 'May the memory live'; relative clause 'who seek wisdom'."
+    },
+    {
+      "id": 300,
+      "start_ms": 1787804,
+      "end_ms": 1793420,
+      "text": "Thus end the extraordinary travels of Lemuel Gulliver across the kingdoms of the world.",
+      "translation": "Böylece Lemuel Gulliver'ın dünya krallıkları boyunca yaptığı olağanüstü seyahatler sona erer.",
+      "notes": "Inverted closing sentence 'Thus end the travels'; transitional adverb 'Thus'."
+    }
+  ]
+}
