@@ -235,11 +235,11 @@ export interface AudioEngine {
 
 **Amaç:** 100 kitabın her biri için stüdyo kalitesinde doğal insan seslendirmesi (WAV & MP3), profesyonel dizgili PDF kitap ve şema uyumlu ders verisi eşliğinde kademelendirilmiş eksiksiz bir öğrenme kütüphanesi oluşturmak.
 
-- [ ] **F5.1 Multimedya Kütüphane Şeması ve İndeksleme:** Kitap ID, başlık, yazar, seviye (1-4), sayfa sayısı (15/25/35/50), tahmini süre, PDF/WAV/MP3 dosya yolları ve metaveri yapısı.
-- [ ] **F5.2 Doğal ve İnsansı Seslendirme Hattı (WAV / MP3 Studio TTS):** Robotik/eski sesler yerine Microsoft Edge Neural sesleri (Christopher/Guy/Jenny/Ryan) ile stüdyo kalitesinde, tonlamalı ve nefes alan kristal netliğinde seslendirme.
-- [ ] **F5.3 Profesyonel PDF Kitap Üretimi:** 100 kitabın her biri için sayfa sayfa (15, 25, 35, 50 sayfa), kapak, şık tipografi, sayfa numaraları ve alt/yan kelime notları içeren indirilebilir ve okunabilir PDF kitaplar.
-- [ ] **F5.4 Yüksek Kalite MP3 ve WAV Formatları:** Taşınabilirlik için hafif MP3 ve kayıpsız hassasiyet için WAV formatlarının birlikte sunulması.
-- [ ] **F5.5 25 Kitap x 15 Sayfa (Seviye 1 — A1/A2):** Fabllar ve temel seviye metinler (PDF + WAV + MP3 + JSON).
+- [x] **F5.1 Multimedya Kütüphane Şeması ve İndeksleme:** Kitap ID, başlık, yazar, seviye (1-4), sayfa sayısı (15/25/35/50), tahmini süre, PDF/WAV/MP3 dosya yolları ve metaveri yapısı.
+- [x] **F5.2 Doğal ve İnsansı Seslendirme Hattı (WAV / MP3 Studio TTS):** Robotik/eski sesler yerine Microsoft Edge Neural sesleri (Christopher/Guy/Jenny/Ryan) ile stüdyo kalitesinde, tonlamalı ve nefes alan kristal netliğinde seslendirme.
+- [x] **F5.3 Profesyonel PDF Kitap Üretimi:** 100 kitabın her biri için sayfa sayfa (15, 25, 35, 50 sayfa), kapak, şık tipografi, sayfa numaraları ve alt/yan kelime notları içeren indirilebilir ve okunabilir PDF kitaplar.
+- [x] **F5.4 Yüksek Kalite MP3 ve WAV Formatları:** Taşınabilirlik için hafif MP3 ve kayıpsız hassasiyet için WAV formatlarının birlikte sunulması.
+- [x] **F5.5 25 Kitap x 15 Sayfa (Seviye 1 — A1/A2):** Fabllar ve temel seviye metinler (PDF + WAV + MP3 + JSON).
 - [ ] **F5.6 25 Kitap x 25 Sayfa (Seviye 2 — B1):** Kısa klasikler ve macera öyküleri (PDF + WAV + MP3 + JSON).
 - [ ] **F5.7 25 Kitap x 35 Sayfa (Seviye 3 — B2):** Orta seviye öykü ve gizem metinleri (PDF + WAV + MP3 + JSON).
 - [ ] **F5.8 25 Kitap x 50 Sayfa (Seviye 4 — C1):** İleri seviye romanlar ve derin edebi metinler (PDF + WAV + MP3 + JSON).

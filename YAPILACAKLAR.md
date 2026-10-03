@@ -13,7 +13,11 @@ Bu belge, **DictaLearn** projesinde bir sonraki oturumda uygulanacak olan **Faz 
 [TAMAMLANDI] Faz 3: Kullanıcı Deneyimi, Shadowing & Hata Defteri
 [TAMAMLANDI] Faz 4: Ders Oluşturucu & Dışa Aktarma (SRT/VTT + Zip)
 ═════════════════════════════════════════════════════════════════
-[SIRADA]     Faz 5: 100 Kitaplık Multimedya Kütüphanesi (PDF + WAV + MP3 + JSON)
+[TAMAMLANDI] Faz 5.5: Seviye 1 — 25 Kitap x 15 Sayfa (7.500 Cümle, 3.000 Kelime, 400 Sayfa PDF, 13 Saat Ses)
+═════════════════════════════════════════════════════════════════
+[SIRADA]     Faz 5.6: Seviye 2 — 25 Kitap x 25 Sayfa (B1 Orta-Alt Klasikler)
+[SIRADA]     Faz 5.7: Seviye 3 — 25 Kitap x 35 Sayfa (B2 Orta Düzey Klasikler)
+[SIRADA]     Faz 5.8: Seviye 4 — 25 Kitap x 50 Sayfa (C1 İleri Düzey Klasikler)
 [SIRADA]     Faz 6: İkili Çalışma Modu (Kelime Kelime vs Cümle Cümle)
 [SIRADA]     Faz 7: Akıllı Türkçe Çeviri Sistemi (Android ML Kit & Web Sözlük)
 [SIRADA]     Faz 8: Yayın ve Paketleme (GitHub Pages & Release APK)
@@ -26,34 +30,39 @@ Bu belge, **DictaLearn** projesinde bir sonraki oturumda uygulanacak olan **Faz 
 **Amaç:** 100 kitabın her biri için stüdyo kalitesinde insansı seslendirme (WAV & MP3), profesyonel dizgili PDF kitap ve şema uyumlu ders verisi eşliğinde kademelendirilmiş eksiksiz bir öğrenme kütüphanesi oluşturmak.
 
 ### Kütüphane Kademeleri:
-1. **25 Kitap x 15 Sayfa (Seviye 1 — Başlangıç / A1-A2)**:
-   - Kısa fabllar, basitleştirilmiş dünya masalları ve temel diyaloglar.
-   - Her kitap için: **15 Sayfa PDF Kitap + Stüdyo WAV & MP3 Sesi + JSON**.
-   - Örnekler: *The Happy Prince*, *The Selfish Giant*, *Aesop's Classic Fables*, *The Tortoise and the Hare*, *The Little Red Hen*.
+1. **✅ [TAMAMLANDI] 25 Kitap x 15 Sayfa (Seviye 1 — Başlangıç-Orta / A2-B1)**:
+   - 25 dünya klasiği roman ve masal adaptasyonu.
+   - Her kitap: **15 Sayfa (300 Cümle) + 16 Sayfa ReportLab PDF + 120 Hedef Kelime + Stüdyo Christopher Neural WAV & MP3 (25-37 dk) + lesson.json**.
+   - Toplam: **7.500 Cümle, 3.000 Hedef Kelime, 400 Sayfa PDF, 13 Saat 2 Dakika Ses**.
+   - Web (`Web/public/lessons/`) ve Android (`Android/app/src/main/assets/lessons/`) senkronize edildi.
 2. **25 Kitap x 25 Sayfa (Seviye 2 — Orta-Alt / B1)**:
    - Popüler kısa klasikler ve macera öyküleri.
    - Her kitap için: **25 Sayfa PDF Kitap + Stüdyo WAV & MP3 Sesi + JSON**.
-   - Örnekler: *A Scandal in Bohemia (Sherlock Holmes)*, *The Gift of the Magi*, *White Fang (Adapted)*, *The Secret Garden (Ch. 1-3)*.
+   - Örnekler: *A Scandal in Bohemia (Sherlock Holmes)*, *The Gift of the Magi*, *White Fang (Expanded)*, *The Secret Garden (Expanded)*.
 3. **25 Kitap x 35 Sayfa (Seviye 3 — Orta / B2)**:
    - Orta seviye edebi öyküler, gizem ve denemeler.
    - Her kitap için: **35 Sayfa PDF Kitap + Stüdyo WAV & MP3 Sesi + JSON**.
-   - Örnekler: *The Red-Headed League*, *The Picture of Dorian Gray (Selection)*, *The Time Machine (H.G. Wells)*.
+   - Örnekler: *The Red-Headed League*, *The Picture of Dorian Gray (Selection)*, *The Time Machine (Expanded)*.
 4. **25 Kitap x 50 Sayfa (Seviye 4 — İleri / C1)**:
    - İleri seviye orijinal roman bölümleri, felsefi ve edebi başyapıtlar.
    - Her kitap için: **50 Sayfa PDF Kitap + Stüdyo WAV & MP3 Sesi + JSON**.
    - Örnekler: *Frankenstein*, *Great Expectations*, *Dracula (Excerpts)*, *Pride and Prejudice*.
 
 ### Görev Listesi:
-- [ ] **F5.1 Multimedya Kütüphane Şeması ve İndeksleme**:
-  - `library/index.json`: Kitap ID, başlık, yazar, seviye (1-4), sayfa sayısı (15/25/35/50), tahmini süre, PDF yolu, WAV yolu, MP3 yolu ve kapak resmi.
-- [ ] **F5.2 Doğal ve İnsansı Seslendirme Hattı (WAV / MP3 Studio TTS)**:
-  - Eski mekanik sesler yerine, Microsoft Edge Neural sesleri (Christopher/Guy/Jenny/Ryan) ile stüdyo netliğinde, tonlamalı ve nefes alan ses üretimi.
-- [ ] **F5.3 Profesyonel PDF Kitap Üretimi**:
-  - 100 kitabın her biri için sayfa sayfa (15, 25, 35, 50 sayfa), kapak, şık tipografi, sayfa numaraları ve alt/yan kelime notları içeren indirilebilir ve okunabilir PDF kitaplar.
-- [ ] **F5.4 Yüksek Kalite MP3 ve WAV Formatları**:
-  - Taşınabilirlik için optimize MP3 ve kayıpsız ses için WAV desteği.
-- [ ] **F5.5 - F5.8 Kademeli 100 Kitap Üretimi (25x15, 25x25, 25x35, 25x50)**:
-  - Her biri için PDF, WAV, MP3 ve JSON paketlerinin eksiksiz oluşturulması.
+- [x] **F5.1 Multimedya Kütüphane Şeması ve İndeksleme**:
+  - `lessons/`: 25 adet 15 sayfalık kitap klasörü eksiksiz şema v1 uyumlu `lesson.json` ile yapılandırıldı.
+- [x] **F5.2 Doğal ve İnsansı Seslendirme Hattı (WAV / MP3 Studio TTS)**:
+  - Microsoft Edge Neural TTS (`en-US-ChristopherNeural`), 24kHz 16-bit PCM WAV ve optimize MP3 ses üretimi.
+- [x] **F5.3 Profesyonel PDF Kitap Üretimi**:
+  - ReportLab ile iki sütunlu paralel metinli, 16 sayfalık (1 Kapak + 15 Hikaye), taşmasız 25 kitap PDF'i (400 sayfa).
+- [x] **F5.4 Yüksek Kalite MP3 ve WAV Formatları**:
+  - Her 25 kitap için kayıpsız 16-bit WAV ve MP3 formatı.
+- [x] **F5.5 Seviye 1 Kütüphanesi (25 Kitap x 15 Sayfa)**:
+  - 25 kitabın tamamı eksiksiz üretildi, test edildi ve çift yönlü senkronize edildi.
+- [ ] **F5.6 - F5.8 Kalan Seviyeler (25x25, 25x35, 25x50)**:
+  - Seviye 2, Seviye 3 ve Seviye 4 kitaplarının üretimi.
+- [ ] **F5.9 Kütüphane Gezgini ve PDF/Ses Oynatıcı (Web & Android)**:
+  - Sayfa sayısına (15, 25, 35, 50 sayfa), zorluk seviyesine ve tamamlanma durumuna göre filtreleme/arama ekranı; uygulama içi PDF okuyucu ve ses oynatıcı entegrasyonu.
 - [ ] **F5.9 Kütüphane Gezgini ve PDF/Ses Oynatıcı (Web & Android)**:
   - Sayfa sayısına (15, 25, 35, 50 sayfa), zorluk seviyesine ve tamamlanma durumuna göre filtreleme/arama ekranı; uygulama içi PDF okuyucu ve ses oynatıcı entegrasyonu.
 

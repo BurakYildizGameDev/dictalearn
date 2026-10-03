@@ -84,6 +84,46 @@ Proje tek bir monorepo altında, iki bağımsız istemci ve ortak bir ders stand
   - Başlık, Ders ID, ses yükleme, SRT/VTT yükleme, segment ekleme/silme, zaman aralığı düzenleme, **"Test Et"** ile segment sesini dinleme, İngilizce metin ve Türkçe çeviri girişi.
   - "Dersi Başlat" ile anında çalışma moduna aktarma.
 
+### ✅ Faz 5.5 — 25 Kitaplık Seviye 1 (15 Sayfalık) Kademeli Okuma & Dikte Kütüphanesi (%100 Tamamlandı)
+- **Kapsam ve Üretim Standartları**:
+  - **25 Kitap**: Dünya klasiklerinin CEFR A2-B1 seviyesine uyarlanmış eksiksiz 15'er bölümlük metinleri.
+  - **Tam 15 Sayfa x 20 Cümle = 300 Cümle / Kitap**: Kesintisiz 1..300 ID'li toplam **7.500 Cümle**.
+  - **Sayfa Başına 8 Hedef Terim = 120 Terim / Kitap**: Toplam **3.000 Hedef Kelime ve Dilbilgisi Notu**.
+  - **Milisaniye Senkron Stüdyo Seslendirmesi (Microsoft Edge Neural TTS)**: `en-US-ChristopherNeural` anlatıcı sesiyle, 400ms cümle arası ve 1000ms sayfa sonu duraklamalı, toplam **13 Saat 2 Dakika** süren stüdyo kaydı. Hem **16-bit 24kHz PCM WAV** hem de yüksek kaliteli **MP3** formatlarında üretildi.
+  - **16 Sayfalık Profesyonel ReportLab PDF Kitapları**: 1 Kapak + 15 Hikaye Sayfası, taşma yapmayan iki sütunlu (Sol İngilizce, Sağ Türkçe paralel metin) dizgi, alt 8 terimli kelime tahlil kutusu ve `NumberedCanvas` üst/alt bilgi alanı ile toplam **400 Sayfa PDF**.
+  - **Çift Yönlü Tam Senkronizasyon**: 25 kitabın tamamı hem `Web/public/lessons/` hem de `Android/app/src/main/assets/lessons/` dizinlerine kopyalandı.
+  - **Web Uygulama Entegrasyonu**: `Web/src/App.tsx` içindeki `PRESET_LESSONS` menüsüne 1'den 25'e kadar tüm kitaplar eklendi; Vitest test paketinde tüm 63 test başarıyla geçti.
+
+#### 📚 25 Kitaplık Koleksiyon Envanteri:
+| # | Kitap Başlığı ve Kimliği | Yazar / Eser | Cümle | Ses Süresi | PDF | Senkronizasyon |
+|---|---|---|:---:|:---:|:---:|:---:|
+| 1 | `book_01_the_happy_prince` | Oscar Wilde | 300 | 28.0 dk | 16 syf | ✅ Web & Android |
+| 2 | `book_02_the_selfish_giant` | Oscar Wilde | 300 | 27.8 dk | 16 syf | ✅ Web & Android |
+| 3 | `book_03_the_nightingale_and_the_rose` | Oscar Wilde | 300 | 28.7 dk | 16 syf | ✅ Web & Android |
+| 4 | `book_04_the_devoted_friend` | Oscar Wilde | 300 | 29.4 dk | 16 syf | ✅ Web & Android |
+| 5 | `book_05_the_remarkable_rocket` | Oscar Wilde | 300 | 32.8 dk | 16 syf | ✅ Web & Android |
+| 6 | `book_06_aesops_fables_part1` | Aesop (Ezop Masalları - 1) | 300 | 31.3 dk | 16 syf | ✅ Web & Android |
+| 7 | `book_07_aesops_fables_part2` | Aesop (Ezop Masalları - 2) | 300 | 31.6 dk | 16 syf | ✅ Web & Android |
+| 8 | `book_08_the_little_prince` | Antoine de Saint-Exupéry | 300 | 32.1 dk | 16 syf | ✅ Web & Android |
+| 9 | `book_09_grimms_fairy_tales` | Brothers Grimm (Grimm Kardeşler) | 300 | 35.1 dk | 16 syf | ✅ Web & Android |
+| 10 | `book_10_hans_christian_andersen` | Hans Christian Andersen | 300 | 35.6 dk | 16 syf | ✅ Web & Android |
+| 11 | `book_11_alices_adventures_in_wonderland` | Lewis Carroll (Alice) | 300 | 35.9 dk | 16 syf | ✅ Web & Android |
+| 12 | `book_12_the_adventures_of_pinocchio` | Carlo Collodi (Pinokyo) | 300 | 37.0 dk | 16 syf | ✅ Web & Android |
+| 13 | `book_13_the_wonderful_wizard_of_oz` | L. Frank Baum (Oz Büyücüsü) | 300 | 36.1 dk | 16 syf | ✅ Web & Android |
+| 14 | `book_14_the_jungle_book` | Rudyard Kipling (Orman Çocuğu) | 300 | 25.2 dk | 16 syf | ✅ Web & Android |
+| 15 | `book_15_the_wind_in_the_willows` | Kenneth Grahame (Söğütlükte Rüzgar) | 300 | 27.7 dk | 16 syf | ✅ Web & Android |
+| 16 | `book_16_peter_pan` | J. M. Barrie (Peter Pan) | 300 | 27.2 dk | 16 syf | ✅ Web & Android |
+| 17 | `book_17_the_merry_adventures_of_robin_hood` | Howard Pyle (Robin Hood) | 300 | 29.1 dk | 16 syf | ✅ Web & Android |
+| 18 | `book_18_king_arthur` | Kral Arthur Efsanesi | 300 | 29.5 dk | 16 syf | ✅ Web & Android |
+| 19 | `book_19_gullivers_travels` | Jonathan Swift (Gulliver) | 300 | 29.9 dk | 16 syf | ✅ Web & Android |
+| 20 | `book_20_treasure_island` | Robert Louis Stevenson (Define Adası) | 300 | 29.2 dk | 16 syf | ✅ Web & Android |
+| 21 | `book_21_around_the_world_in_eighty_days` | Jules Verne (80 Günde Devriâlem) | 300 | 32.3 dk | 16 syf | ✅ Web & Android |
+| 22 | `book_22_a_christmas_carol` | Charles Dickens (Noel Şarkısı) | 300 | 34.1 dk | 16 syf | ✅ Web & Android |
+| 23 | `book_23_the_secret_garden` | Frances Hodgson Burnett (Gizli Bahçe) | 300 | 32.4 dk | 16 syf | ✅ Web & Android |
+| 24 | `book_24_white_fang` | Jack London (Beyaz Diş) | 300 | 32.5 dk | 16 syf | ✅ Web & Android |
+| 25 | `book_25_the_time_machine` | H. G. Wells (Zaman Makinesi) | 300 | 30.4 dk | 16 syf | ✅ Web & Android |
+| **Σ** | **GENEL TOPLAM (25 KİTAP)** | **DÜNYA KLASİKLERİ KÜTÜPHANESİ** | **7.500** | **13.02 Saat** | **400 syf** | **TAMAMI HAZIR** |
+
 ---
 
 ## 3. Test ve Kalite Durumu
@@ -95,9 +135,34 @@ Proje tek bir monorepo altında, iki bağımsız istemci ve ortak bir ders stand
 
 ---
 
-## 4. Git Commit Geçmişi (23 Atomik Commit)
+## 4. Git Commit Geçmişi (Seçkin Kilometre Taşları)
 
 ```text
+cf6552b feat(book_25): complete 15-page 300-sentence edition of The Time Machine with studio audio, PDF, and app sync
+9ffd771 feat(book_24): complete 15-page 300-sentence edition of White Fang with studio audio, PDF, and app sync
+68a49be feat(book_23): complete 15-page 300-sentence edition of The Secret Garden with studio audio, PDF, and app sync
+010a7b0 feat(book_22): complete 15-page 300-sentence edition of A Christmas Carol with studio audio, PDF, and app sync
+99c0fd7 feat(book_21): complete 15-page 300-sentence edition of Around the World in Eighty Days with studio audio, PDF, and app sync
+7e33696 feat(book_20): complete 15-page 300-sentence edition of Treasure Island with studio audio, PDF, and app sync
+d292845 feat(book_19): complete 15-page 300-sentence edition of Gulliver's Travels with studio audio, PDF, and app sync
+f387f7c feat(book_18): complete 15-page 300-sentence edition of King Arthur with studio audio, PDF, and app sync
+26ba462 feat(book_17): complete 15-page 300-sentence edition of Robin Hood with studio audio, PDF, and app sync
+21735ab feat(book_16): complete 15-page 300-sentence edition of Peter Pan with studio audio, PDF, and app sync
+39f5066 feat(book_15): complete 15-page 300-sentence edition of The Wind in the Willows with studio audio, PDF, and app sync
+da653e4 feat(book_14): complete 15-page 300-sentence edition of The Jungle Book with studio audio, PDF, and app sync
+4019655 feat(book_13): complete 15-page 300-sentence edition of The Wonderful Wizard of Oz with studio audio, PDF, and app sync
+aa8809c feat(book_12): complete 15-page 300-sentence edition of The Adventures of Pinocchio with studio audio, PDF, and app sync
+ddf26b6 feat(book_11): complete 15-page 300-sentence edition of Alice in Wonderland with studio audio, PDF, and app sync
+9643064 feat(book_10): complete 15-page 300-sentence edition of Hans Christian Andersen Tales of Wonder with studio audio, PDF, and app sync
+e321194 feat(book_09): complete 15-page 300-sentence edition of Grimm's Fairy Tales with studio audio, PDF, and app sync
+073039d feat(book_08): complete 15-page 300-sentence edition of The Little Prince with studio audio, PDF, and app sync
+5778781 feat(book_07): complete 15-page 300-sentence edition of Aesop's Fables Part 2 with studio audio, PDF, and app sync
+8930f11 feat(book_06): complete 15-page 300-sentence edition of Aesop's Fables Part 1 with studio audio, PDF, and app sync
+7db1e22 feat(book_05): complete 15-page 300-sentence edition of The Remarkable Rocket with studio audio, PDF, and app sync
+ca3651e feat(book_04): complete 15-page 300-sentence edition of The Devoted Friend with studio audio, PDF, and app sync
+ca9597a feat(faz5): add Book 3 (The Nightingale and the Rose) with 15 pages x 20 sentences (300 total sentences)
+429c6fb feat(faz5): add Book 2 (The Selfish Giant) with 15 pages x 20 sentences (300 total sentences)
+4619cd7 feat(faz5): upgrade Book 1 (The Happy Prince) to 15 pages with 20 sentences per page (300 total sentences)
 d6dc947 docs: mark Phase 4 completed in PLAN.md
 a035e61 feat: implement lesson creator and editor UI for Web and Android (F4.3)
 3be8467 feat: implement zip package import and export with unit tests (F4.2)
@@ -122,3 +187,4 @@ cf2d733 feat(android): scaffold Android project with Gradle and Compose (F0.2)
 79bb955 feat(web): scaffold Vite React TypeScript Tailwind app (F0.1)
 9ff76f1 docs: initialize DictaLearn master specification and roadmap
 ```
+
