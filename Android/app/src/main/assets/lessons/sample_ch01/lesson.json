@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "lesson_id": "sample_ch01",
+  "title": "Chapter 1: The Departure",
+  "source_lang": "en",
+  "target_lang": "tr",
+  "audio_file": "audio.wav",
+  "attribution": {
+    "source": "DictaLearn Studio (Public Domain / Open Education)",
+    "license": "Public Domain"
+  },
+  "segments": [
+    {
+      "id": 1,
+      "start_ms": 0,
+      "end_ms": 4049,
+      "text": "He packed his small brown suitcase and opened the door.",
+      "translation": "Küçük kahverengi bavulunu topladı ve kapıyı açtı.",
+      "notes": "packed: düzenli fiil, -ed sonu /t/ okunur"
+    },
+    {
+      "id": 2,
+      "start_ms": 4849,
+      "end_ms": 7683,
+      "text": "The morning cold hit him immediately.",
+      "translation": "Sabahın soğuğu anında yüzüne çarptı.",
+      "notes": "immediately: zarf (hemen, derhal)"
+    },
+    {
+      "id": 3,
+      "start_ms": 8483,
+      "end_ms": 12102,
+      "text": "He walked down the quiet street toward the station.",
+      "translation": "İstasyona doğru sessiz sokakta yürüdü.",
+      "notes": "toward: -e doğru (yönelme edatı)"
+    },
+    {
+      "id": 4,
+      "start_ms": 12902,
+      "end_ms": 16706,
+      "text": "The early train was already waiting at the platform.",
+      "translation": "Erken tren peronda çoktan bekliyordu.",
+      "notes": "platform: peron, istasyon durağı"
+    },
+    {
+      "id": 5,
+      "start_ms": 17506,
+      "end_ms": 20820,
+      "text": "He found an empty seat next to the window.",
+      "translation": "Pencerenin yanında boş bir koltuk buldu.",
+      "notes": "next to: bitişiğinde, yanında"
+    },
+    {
+      "id": 6,
+      "start_ms": 21620,
+      "end_ms": 24669,
+      "text": "The journey was finally about to begin.",
+      "translation": "Yolculuk nihayet başlamak üzereydi.",
+      "notes": "about to: -mek üzere olmak"
+    }
+  ]
+}
