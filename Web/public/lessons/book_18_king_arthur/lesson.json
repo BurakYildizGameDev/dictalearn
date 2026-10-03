@@ -1,0 +1,2414 @@
+{
+  "schema_version": 1,
+  "lesson_id": "book_18_king_arthur",
+  "title": "King Arthur and the Knights of the Round Table (15 Sayfa / 300 Cümle / Graded Reader)",
+  "source_lang": "en",
+  "target_lang": "tr",
+  "audio_file": "audio.mp3",
+  "attribution": {
+    "source": "Howard Pyle & Sir Thomas Malory / Graded Reader Adaptasyonu (15 Sayfa x 20 Cümle)",
+    "license": "Public Domain / Educational Fair Use"
+  },
+  "segments": [
+    {
+      "id": 1,
+      "start_ms": 300,
+      "end_ms": 6012,
+      "text": "Long ago in ancient Britain, King Uther Pendragon died without an acknowledged heir.",
+      "translation": "Çok uzun zaman önce kadim Britanya'da Kral Uther Pendragon, bilinen bir varis bırakmadan öldü.",
+      "notes": "Past time phrase; prepositional phrase 'without an acknowledged heir'."
+    },
+    {
+      "id": 2,
+      "start_ms": 6412,
+      "end_ms": 11380,
+      "text": "The realm fell into bitter civil war as ambitious barons fought for the crown.",
+      "translation": "Hırslı baronlar taç için savaşırken ülke acı bir iç savaşa sürüklendi.",
+      "notes": "Time clause with 'as'; phrasal verb 'fell into'."
+    },
+    {
+      "id": 3,
+      "start_ms": 11780,
+      "end_ms": 17108,
+      "text": "Merlin the great enchanter placed a mysterious spell upon London cathedral yard.",
+      "translation": "Ulu büyücü Merlin, Londra katedralinin avlusuna gizemli bir büyü yerleştirdi.",
+      "notes": "Transitive past 'placed'; compound noun 'cathedral yard'."
+    },
+    {
+      "id": 4,
+      "start_ms": 17508,
+      "end_ms": 23244,
+      "text": "On Christmas Day, the barons discovered a huge block of white marble in the churchyard.",
+      "translation": "Noel Günü'nde baronlar kilise avlusunda devasa bir beyaz mermer blok keşfettiler.",
+      "notes": "Time phrase 'On Christmas Day'; prepositional phrase 'in the churchyard'."
+    },
+    {
+      "id": 5,
+      "start_ms": 23644,
+      "end_ms": 28948,
+      "text": "Upon the marble sat a steel anvil, through which was thrust a gleaming sword.",
+      "translation": "Mermerin üzerinde, içine parıldayan bir kılıcın saplandığı çelik bir örs duruyordu.",
+      "notes": "Inverted locative sentence; relative passive clause 'through which was thrust'."
+    },
+    {
+      "id": 6,
+      "start_ms": 29348,
+      "end_ms": 33860,
+      "text": "Written in letters of gold upon the blade were words of divine destiny.",
+      "translation": "Kılıcın namlusu üzerine altın harflerle ilahi kaderin sözleri yazılmıştı.",
+      "notes": "Inverted sentence; passive participle 'Written in letters of gold'."
+    },
+    {
+      "id": 7,
+      "start_ms": 34260,
+      "end_ms": 39972,
+      "text": "'Whoso pulleth out this sword is rightwise King born of all England,' the inscription read.",
+      "translation": "'Bu kılıcı buradan çeken kişi, tüm İngiltere'nin doğuştan hak sahibi kralıdır,' yazıyordu yazıtta.",
+      "notes": "Archaic relative clause 'Whoso pulleth'; predicate nominative."
+    },
+    {
+      "id": 8,
+      "start_ms": 40372,
+      "end_ms": 46684,
+      "text": "One by one, proud kings, mighty dukes, and renowned knights tried with all their strength.",
+      "translation": "Birer birer mağrur krallar, kudretli dükler ve namlı şövalyeler bütün güçleriyle denediler.",
+      "notes": "Frequency idiom 'one by one'; compound subject."
+    },
+    {
+      "id": 9,
+      "start_ms": 47084,
+      "end_ms": 52220,
+      "text": "Not a single warrior could move the magic blade even by a fraction of an inch.",
+      "translation": "Tek bir savaşçı bile sihirli namluyu kıl payı dahi kımıldatamadı.",
+      "notes": "Negative subject 'Not a single warrior'; modal 'could move'."
+    },
+    {
+      "id": 10,
+      "start_ms": 52620,
+      "end_ms": 57564,
+      "text": "A grand New Year tournament was proclaimed to test all champions of the realm.",
+      "translation": "Diyarın tüm şampiyonlarını sınamak için büyük bir Yeni Yıl turnuvası ilan edildi.",
+      "notes": "Passive voice 'was proclaimed'; infinitive of purpose 'to test'."
+    },
+    {
+      "id": 11,
+      "start_ms": 57964,
+      "end_ms": 63604,
+      "text": "Sir Ector rode to the tournament accompanied by his son Kay and young foster-brother Arthur.",
+      "translation": "Sör Ector, oğlu Kay ve genç evlatlık kardeşi Arthur eşliğinde turnuvaya at sürdü.",
+      "notes": "Passive participle modifier 'accompanied by'; compound noun 'foster-brother'."
+    },
+    {
+      "id": 12,
+      "start_ms": 64004,
+      "end_ms": 69236,
+      "text": "Kay had just been knighted, and Arthur served him dutifully as his humble squire.",
+      "translation": "Kay henüz yeni şövalye ilan edilmişti ve Arthur onun mütevazı yaveri olarak ona sadakatle hizmet ediyordu.",
+      "notes": "Past perfect passive 'had just been knighted'; adverb 'dutifully'."
+    },
+    {
+      "id": 13,
+      "start_ms": 69636,
+      "end_ms": 75444,
+      "text": "Arriving at the field, Sir Kay discovered that he had left his sword behind at their lodgings.",
+      "translation": "Meydana vardıklarında Sör Kay, kılıcını konakladıkları yerde unuttuğunu fark etti.",
+      "notes": "Participle clause 'Arriving at the field'; noun clause with past perfect."
+    },
+    {
+      "id": 14,
+      "start_ms": 75844,
+      "end_ms": 80332,
+      "text": "He sent young Arthur riding swiftly back to fetch the missing weapon.",
+      "translation": "Eksik silahı getirmesi için genç Arthur'u hızla geriye at sürmeye gönderdi.",
+      "notes": "Verb + object + participle 'sent Arthur riding'; infinitive 'to fetch'."
+    },
+    {
+      "id": 15,
+      "start_ms": 80732,
+      "end_ms": 85868,
+      "text": "Arthur found their lodging locked, but remembered the sword standing in the churchyard.",
+      "translation": "Arthur konaklama yerini kilitli buldu fakat kilise avlusunda duran kılıcı hatırladı.",
+      "notes": "Coordinate past verbs; participle phrase 'standing in churchyard'."
+    },
+    {
+      "id": 16,
+      "start_ms": 86268,
+      "end_ms": 91212,
+      "text": "'My brother Kay shall not lack a sword for the tournament,' thought the noble lad.",
+      "translation": "'Kardeşim Kay turnuva için kılıçsız kalmayacak,' diye düşündü soylu delikanlı.",
+      "notes": "Modal 'shall not lack'; direct thought."
+    },
+    {
+      "id": 17,
+      "start_ms": 91612,
+      "end_ms": 96988,
+      "text": "He rode into the quiet churchyard, gripped the golden hilt, and pulled lightly.",
+      "translation": "Sessiz kilise avlusuna at sürdü, altın kabzayı kavradı ve hafifçe çekti.",
+      "notes": "Series of coordinated past actions; adverb 'lightly'."
+    },
+    {
+      "id": 18,
+      "start_ms": 97388,
+      "end_ms": 102548,
+      "text": "The enchanted blade glided smoothly from the anvil like a knife through soft butter.",
+      "translation": "Büyülü namlu, yumuşak tereyağından geçen bir bıçak gibi örsten pürüzsüzce kayıverdi.",
+      "notes": "Simile 'like a knife through butter'; adverb 'smoothly'."
+    },
+    {
+      "id": 19,
+      "start_ms": 102948,
+      "end_ms": 108420,
+      "text": "When Arthur presented the weapon to Sir Ector, the old knight fell on his knees in awe.",
+      "translation": "Arthur silahı Sör Ector'a sunduğunda, yaşlı şövalye huşu içinde dizlerinin üzerine çöktü.",
+      "notes": "Time clause with 'presented'; prepositional phrase 'in awe'."
+    },
+    {
+      "id": 20,
+      "start_ms": 108820,
+      "end_ms": 113812,
+      "text": "The obscure foster-boy was revealed to be the true high King of all Britain.",
+      "translation": "O kimsenin tanımadığı evlatlık oğlanın tüm Britanya'nın gerçek ulu Kralı olduğu açığa çıktı.",
+      "notes": "Passive infinitive structure 'was revealed to be'; adjective 'obscure'."
+    },
+    {
+      "id": 21,
+      "start_ms": 114812,
+      "end_ms": 120452,
+      "text": "Arthur was crowned King at Pentecost amid the rejoicing of common folk and nobles.",
+      "translation": "Arthur, halkın ve soyluların sevinç gösterileri arasında Hamsin Yortusu'nda Kral olarak taç giydi.",
+      "notes": "Passive voice 'was crowned'; prepositional phrase 'amid the rejoicing'."
+    },
+    {
+      "id": 22,
+      "start_ms": 120852,
+      "end_ms": 125964,
+      "text": "In an early battle against a rebellious knight, Arthur's tournament sword shattered.",
+      "translation": "Asi bir şövalyeye karşı girdiği erken bir savaşta Arthur'un turnuva kılıcı parçalandı.",
+      "notes": "Prepositional phrase 'In an early battle'; past verb 'shattered'."
+    },
+    {
+      "id": 23,
+      "start_ms": 126364,
+      "end_ms": 131788,
+      "text": "Merlin took the grieving young king through a dark enchanted forest to a silent lake.",
+      "translation": "Merlin kederli genç kralı karanlık, büyülü bir ormandan geçirerek sessiz bir göle götürdü.",
+      "notes": "Prepositional phrases indicating journey; participial adjective 'grieving'."
+    },
+    {
+      "id": 24,
+      "start_ms": 132188,
+      "end_ms": 137324,
+      "text": "The water was as smooth as polished glass, mirroring the misty mountain peaks.",
+      "translation": "Su, puslu dağ zirvelerini yansıtan cilalı bir cam kadar pürüzsüzdü.",
+      "notes": "Simile 'as smooth as glass'; participle phrase 'mirroring peaks'."
+    },
+    {
+      "id": 25,
+      "start_ms": 137724,
+      "end_ms": 143772,
+      "text": "Suddenly, in the center of the lake, an arm clothed in white samite rose from the water.",
+      "translation": "Birdenbire gölün tam ortasında, beyaz ipeklere bürünmüş bir kol sudan yukarı yükseldi.",
+      "notes": "Passive participle modifier 'clothed in white samite'; inverted structure."
+    },
+    {
+      "id": 26,
+      "start_ms": 144172,
+      "end_ms": 149476,
+      "text": "The mysterious hand held aloft a magnificent sword set with precious jewels.",
+      "translation": "Gizemli el, değerli mücevherlerle süslenmiş görkemli bir kılıcı havada tutuyordu.",
+      "notes": "Phrasal idiom 'held aloft'; past participle modifier 'set with jewels'."
+    },
+    {
+      "id": 27,
+      "start_ms": 149876,
+      "end_ms": 155372,
+      "text": "'That is Excalibur, the blade of blades,' whispered Merlin in deep reverence.",
+      "translation": "'İşte bu Ekskalibur'dur, kılıçların kılıcı,' diye fısıldadı Merlin derin bir hürmetle.",
+      "notes": "Appositive title 'blade of blades'; prepositional phrase 'in deep reverence'."
+    },
+    {
+      "id": 28,
+      "start_ms": 155772,
+      "end_ms": 161100,
+      "text": "Presently, a fair damsel walked across the water toward the shore where they stood.",
+      "translation": "Çok geçmeden güzel bir genç kız, onların durduğu kıyıya doğru suyun üzerinde yürüyerek geldi.",
+      "notes": "Adverb 'presently'; relative clause of place 'where they stood'."
+    },
+    {
+      "id": 29,
+      "start_ms": 161500,
+      "end_ms": 166732,
+      "text": "'She is the Lady of the Lake,' said Merlin, 'ask her courteously for the blade.'",
+      "translation": "'O Göldeki Hanım'dır,' dedi Merlin, 'kılıcı ondan nezaketle iste.'",
+      "notes": "Imperative coordinate command; adverb 'courteously'."
+    },
+    {
+      "id": 30,
+      "start_ms": 167132,
+      "end_ms": 172268,
+      "text": "Arthur bowed low before the maiden and asked if he might possess the wondrous weapon.",
+      "translation": "Arthur genç kızın önünde yerlere kadar eğildi ve o harika silaha sahip olup olamayacağını sordu.",
+      "notes": "Indirect question with 'if he might possess'; adjective 'wondrous'."
+    },
+    {
+      "id": 31,
+      "start_ms": 172668,
+      "end_ms": 177900,
+      "text": "'The sword shall be thine,' answered the Lady, 'if thou rowest out to the center.'",
+      "translation": "'Kılıç senin olacaktır,' diye yanıtladı Hanım, 'eğer gölün ortasına kürek çekersen.'",
+      "notes": "Conditional clause with archaic verb 'if thou rowest'; archaic pronoun 'thine'."
+    },
+    {
+      "id": 32,
+      "start_ms": 178300,
+      "end_ms": 183340,
+      "text": "Arthur and Merlin stepped into a small boat moored among the lakeside reeds.",
+      "translation": "Arthur ve Merlin göl kenarındaki sazlıkların arasına bağlanmış küçük bir sandala bindiler.",
+      "notes": "Past participle modifier 'moored among reeds'; coordinate subjects."
+    },
+    {
+      "id": 33,
+      "start_ms": 183740,
+      "end_ms": 188108,
+      "text": "Arthur rowed to the center and took the sword and scabbard from the hand.",
+      "translation": "Arthur merkeze kürek çekti ve kılıç ile kını elin parmakları arasından aldı.",
+      "notes": "Coordinate past verbs 'rowed and took'; compound direct objects."
+    },
+    {
+      "id": 34,
+      "start_ms": 188508,
+      "end_ms": 194268,
+      "text": "As soon as his fingers gripped the hilt, the mysterious arm vanished beneath the waves.",
+      "translation": "Parmakları kabzayı kavrar kavramaz, o gizemli kol dalgaların altında gözden kayboldu.",
+      "notes": "Conjunction 'as soon as'; past verb 'vanished'."
+    },
+    {
+      "id": 35,
+      "start_ms": 194668,
+      "end_ms": 200380,
+      "text": "The blade shone with the blinding light of thirty torches, sharp beyond all imagining.",
+      "translation": "Kılıcın namlusu otuz meşalenin kör edici ışığıyla parıldıyordu; her türlü hayalin ötesinde keskindi.",
+      "notes": "Prepositional phrases of comparison; participial adjective 'blinding'."
+    },
+    {
+      "id": 36,
+      "start_ms": 200780,
+      "end_ms": 205556,
+      "text": "Merlin asked Arthur which he prized more: the sword or the scabbard.",
+      "translation": "Merlin Arthur'a hangisine daha çok değer verdiğini sordu: kılıca mı yoksa kına mı.",
+      "notes": "Indirect question clause 'which he prized more'; disjunctive choice."
+    },
+    {
+      "id": 37,
+      "start_ms": 205956,
+      "end_ms": 211524,
+      "text": "'I prize the sword ten times more than the scabbard,' answered Arthur immediately.",
+      "translation": "'Kılıca kından on kat daha fazla değer veriyorum,' diye yanıtladı Arthur derhal.",
+      "notes": "Comparative with multiplier 'ten times more than'; adverb 'immediately'."
+    },
+    {
+      "id": 38,
+      "start_ms": 211924,
+      "end_ms": 217300,
+      "text": "'Thou art unwise,' warned Merlin, 'for the scabbard is worth ten of the sword.'",
+      "translation": "'Akılsızca davranıyorsun,' diye uyardı Merlin, 'çünkü kın, kılıcın on katı değerindedir.'",
+      "notes": "Archaic grammar 'Thou art'; causal conjunction 'for'."
+    },
+    {
+      "id": 39,
+      "start_ms": 217700,
+      "end_ms": 223052,
+      "text": "'While thou wearest this scabbard, thou shalt never lose a single drop of blood.'",
+      "translation": "'Bu kını taktığın müddetçe asla tek bir damla bile kan kaybetmeyeceksin.'",
+      "notes": "Temporal clause with 'while'; modal promise 'thou shalt never lose'."
+    },
+    {
+      "id": 40,
+      "start_ms": 223452,
+      "end_ms": 229044,
+      "text": "Arthur buckled the wondrous weapon to his side, ready to establish peace across Britain.",
+      "translation": "Arthur, tüm Britanya'da barışı tesis etmeye hazır halde o harika silahı beline kuşandı.",
+      "notes": "Participial adjective phrase 'ready to establish peace'; past verb 'buckled'."
+    },
+    {
+      "id": 41,
+      "start_ms": 230044,
+      "end_ms": 235372,
+      "text": "King Arthur chose Camelot as the seat of his royal court and capital of Britain.",
+      "translation": "Kral Arthur, Camelot'u kraliyet sarayının merkezi ve Britanya'nın başkenti olarak seçti.",
+      "notes": "Prepositional phrases of role; proper noun 'Camelot'."
+    },
+    {
+      "id": 42,
+      "start_ms": 235772,
+      "end_ms": 241388,
+      "text": "He married fair Guinevere, the beautiful daughter of King Leodegrance of Cameliard.",
+      "translation": "Cameliard Kralı Leodegrance'ın güzel kızı olan dilber Guinevere ile evlendi.",
+      "notes": "Appositive clause identifying Guinevere; past verb 'married'."
+    },
+    {
+      "id": 43,
+      "start_ms": 241788,
+      "end_ms": 247572,
+      "text": "As a wedding gift, Leodegrance sent the ancient Round Table, crafted by Merlin.",
+      "translation": "Bir düğün hediyesi olarak Leodegrance, Merlin tarafından yapılmış kadim Yuvarlak Masa'yı gönderdi.",
+      "notes": "Past participle modifier 'crafted by Merlin'; compound noun 'wedding gift'."
+    },
+    {
+      "id": 44,
+      "start_ms": 247972,
+      "end_ms": 253084,
+      "text": "The table was so vast that one hundred and fifty knights could sit around it together.",
+      "translation": "Masa öyle büyüktü ki, yüz elli şövalye etrafında hep birlikte oturabilirdi.",
+      "notes": "Result clause 'so vast that'; modal 'could sit'."
+    },
+    {
+      "id": 45,
+      "start_ms": 253484,
+      "end_ms": 259052,
+      "text": "Its round shape symbolized absolute equality, where no knight sat above another.",
+      "translation": "Yuvarlak şekli, hiçbir şövalyenin bir diğerinin üzerinde oturmadığı mutlak eşitliği simgeliyordu.",
+      "notes": "Relative clause 'where no knight sat above'; noun 'equality'."
+    },
+    {
+      "id": 46,
+      "start_ms": 259452,
+      "end_ms": 264684,
+      "text": "Upon each high-backed chair, letters of gold magically spelled the knight's name.",
+      "translation": "Yüksek arkalıklı her sandalyenin üzerinde, altın harfler sihirli bir şekilde şövalyenin adını yazıyordu.",
+      "notes": "Adverb 'magically'; compound adjective 'high-backed'."
+    },
+    {
+      "id": 47,
+      "start_ms": 265084,
+      "end_ms": 270628,
+      "text": "Only one seat remained empty, covered with a dark velvet cloth of dread mystery.",
+      "translation": "Korkunç bir gizemin koyu kadife örtüsüyle kaplanmış sadece tek bir koltuk boş kaldı.",
+      "notes": "Passive participle 'covered with'; compound noun 'velvet cloth'."
+    },
+    {
+      "id": 48,
+      "start_ms": 271028,
+      "end_ms": 276452,
+      "text": "It was the Siege Perilous, reserved exclusively for the purest knight in the world.",
+      "translation": "Bu, sadece dünyadaki en saf şövalyeye ayrılmış olan Tehlikeli Koltuk (Siege Perilous) idi.",
+      "notes": "Superlative phrase 'purest knight in the world'; past participle 'reserved'."
+    },
+    {
+      "id": 49,
+      "start_ms": 276852,
+      "end_ms": 282228,
+      "text": "'Whoso sits here unlawfully shall be consumed by holy fire,' warned Merlin.",
+      "translation": "'Buraya haksız yere oturan kişi kutsal ateşle kül olacaktır,' diye uyardı Merlin.",
+      "notes": "Archaic subject 'Whoso sits'; passive modal 'shall be consumed'."
+    },
+    {
+      "id": 50,
+      "start_ms": 282628,
+      "end_ms": 288172,
+      "text": "At Pentecost every year, King Arthur held a grand assembly of all his knights.",
+      "translation": "Kral Arthur her yıl Hamsin Yortusu'nda bütün şövalyelerinin büyük bir meclisini toplardı.",
+      "notes": "Frequency phrase 'every year'; compound noun 'grand assembly'."
+    },
+    {
+      "id": 51,
+      "start_ms": 288572,
+      "end_ms": 293300,
+      "text": "Every knight swore a solemn oath of chivalry upon the Holy Gospels.",
+      "translation": "Her şövalye Kutsal İncil üzerine kutsal bir şövalyelik yemini etti.",
+      "notes": "Prepositional phrase 'upon the Gospels'; compound noun 'oath of chivalry'."
+    },
+    {
+      "id": 52,
+      "start_ms": 293700,
+      "end_ms": 299316,
+      "text": "They swore never to commit outrage or murder, and never to flee from righteous battle.",
+      "translation": "Asla bir zorbalık veya cinayet işlemeyeceklerine ve haklı savaştan asla kaçmayacaklarına yemin ettiler.",
+      "notes": "Coordinate negative infinitives 'never to commit... and never to flee'."
+    },
+    {
+      "id": 53,
+      "start_ms": 299716,
+      "end_ms": 305788,
+      "text": "They swore to grant mercy to whoever pleaded for it, and always to protect ladies in distress.",
+      "translation": "Merhamet dileyen herkese merhamet göstereceklerine ve zor durumdaki hanımları daima koruyacaklarına yemin ettiler.",
+      "notes": "Relative noun clause 'whoever pleaded'; parallel infinitives."
+    },
+    {
+      "id": 54,
+      "start_ms": 306188,
+      "end_ms": 312020,
+      "text": "They swore to stand against all tyranny, falsehood, and betrayal throughout the land.",
+      "translation": "Ülke genelinde her türlü tiranlığa, yalana ve ihanete karşı duracaklarına ant içtiler.",
+      "notes": "Prepositional phrase 'throughout the land'; coordinate noun objects."
+    },
+    {
+      "id": 55,
+      "start_ms": 312420,
+      "end_ms": 317868,
+      "text": "Thus was founded the famous Fellowship of the Round Table, envy of all Christendom.",
+      "translation": "Böylece tüm Hristiyan dünyasının gıptayla baktığı meşhur Yuvarlak Masa Yoldaşlığı kurulmuş oldu.",
+      "notes": "Passive inverted structure 'Thus was founded'; appositive noun phrase."
+    },
+    {
+      "id": 56,
+      "start_ms": 318268,
+      "end_ms": 323644,
+      "text": "King Arthur ruled with wisdom, courage, and unmatched gentleness of spirit.",
+      "translation": "Kral Arthur bilgelikle, cesaretle ve eşsiz bir ruh zarafetiyle hüküm sürdü.",
+      "notes": "Series of prepositional objects; adjective 'unmatched'."
+    },
+    {
+      "id": 57,
+      "start_ms": 324044,
+      "end_ms": 329684,
+      "text": "From every distant kingdom, brave young champions traveled to Camelot to seek knighthood.",
+      "translation": "Her uzak krallıktan cesur genç şampiyonlar, şövalyelik unvanı almak için Camelot'a geldiler.",
+      "notes": "Infinitive of purpose 'to seek knighthood'; past verb 'traveled'."
+    },
+    {
+      "id": 58,
+      "start_ms": 330084,
+      "end_ms": 336612,
+      "text": "Under Arthur's banner, justice replaced tyranny, and roads became safe for weary travelers.",
+      "translation": "Arthur'un sancağı altında adalet tiranlığın yerini aldı ve yollar yorgun yolcular için güvenli hale geldi.",
+      "notes": "Coordinate clauses; compound adjective 'weary travelers'."
+    },
+    {
+      "id": 59,
+      "start_ms": 337012,
+      "end_ms": 342652,
+      "text": "The white walls of Camelot rose into the sky like a shining beacon of human nobility.",
+      "translation": "Camelot'un beyaz surları insan asaletinin parıldayan bir feneri gibi gökyüzüne doğru yükseldi.",
+      "notes": "Simile 'like a shining beacon'; past verb 'rose into sky'."
+    },
+    {
+      "id": 60,
+      "start_ms": 343052,
+      "end_ms": 347972,
+      "text": "The golden age of Britain had begun, glorious and full of promise.",
+      "translation": "Britanya'nın altın çağı şanlı ve umut dolu bir şekilde başlamıştı.",
+      "notes": "Past perfect 'had begun'; coordinate adjectives 'glorious and full of promise'."
+    },
+    {
+      "id": 61,
+      "start_ms": 348972,
+      "end_ms": 354588,
+      "text": "Among all the champions of the Round Table, Sir Lancelot was peerless in strength.",
+      "translation": "Yuvarlak Masa'nın bütün şampiyonları arasında Sör Lancelot güçte emsalsizdi.",
+      "notes": "Prepositional phrase 'Among all champions'; predicate adjective 'peerless'."
+    },
+    {
+      "id": 62,
+      "start_ms": 354988,
+      "end_ms": 359644,
+      "text": "He had been brought up in France by the Lady of the Lake in her water-palace.",
+      "translation": "Fransa'da Göldeki Hanım tarafından onun su sarayında büyütülmüştü.",
+      "notes": "Past perfect passive 'had been brought up'; prepositional phrases."
+    },
+    {
+      "id": 63,
+      "start_ms": 360044,
+      "end_ms": 365348,
+      "text": "When he reached young manhood, she sent him to Camelot to be knighted by King Arthur.",
+      "translation": "Genç adamlığa ulaştığında, Kral Arthur tarafından şövalye ilan edilmesi için onu Camelot'a gönderdi.",
+      "notes": "Time clause with 'reached'; passive infinitive 'to be knighted'."
+    },
+    {
+      "id": 64,
+      "start_ms": 365748,
+      "end_ms": 371340,
+      "text": "Arthur took one look at the youth's broad shoulders and noble eyes and loved him instantly.",
+      "translation": "Arthur gencin geniş omuzlarına ve soylu gözlerine şöyle bir baktı ve onu anında sevdi.",
+      "notes": "Idiom 'took one look at'; coordinate past verbs 'looked and loved'."
+    },
+    {
+      "id": 65,
+      "start_ms": 371740,
+      "end_ms": 377236,
+      "text": "On Saint John's Eve, Arthur dubbed him knight with Excalibur upon both shoulders.",
+      "translation": "Aziz John Arefesi'nde Arthur Ekskalibur ile her iki omzuna dokunarak onu şövalye ilan etti.",
+      "notes": "Time phrase; transitive verb 'dubbed him knight'."
+    },
+    {
+      "id": 66,
+      "start_ms": 377636,
+      "end_ms": 383252,
+      "text": "From that day forward, Lancelot proved himself the fiercest fighter in all the world.",
+      "translation": "O günden itibaren Lancelot dünyadaki en amansız savaşçı olduğunu kanıtladı.",
+      "notes": "Time phrase 'From that day forward'; reflexive 'proved himself'."
+    },
+    {
+      "id": 67,
+      "start_ms": 383652,
+      "end_ms": 388860,
+      "text": "In every tournament, he unseated twenty or thirty knights with his mighty lance.",
+      "translation": "Her turnuvada kudretli mızrağıyla yirmi veya otuz şövalyeyi atından düşürdü.",
+      "notes": "Transitive past 'unseated'; measurement phrase 'twenty or thirty'."
+    },
+    {
+      "id": 68,
+      "start_ms": 389260,
+      "end_ms": 393700,
+      "text": "No champion could stand against his thunderous charge on horseback.",
+      "translation": "Hiçbir şampiyon at sırtındaki onun gök gürültüsünü andıran hücumuna karşı koyamazdı.",
+      "notes": "Negative subject 'no champion'; adjective 'thunderous charge'."
+    },
+    {
+      "id": 69,
+      "start_ms": 394100,
+      "end_ms": 400484,
+      "text": "Yet for all his ferocious prowess in battle, Lancelot was courteous and merciful to the vanquished.",
+      "translation": "Savaştaki tüm o yırtıcı maharetine rağmen Lancelot, yenilenlere karşı kibar ve merhametliydi.",
+      "notes": "Concessive preposition 'yet for all'; coordinate predicate adjectives."
+    },
+    {
+      "id": 70,
+      "start_ms": 400884,
+      "end_ms": 408012,
+      "text": "He went forth on solitary quests, slaying giants, overthrowing tyrants, and delivering captives.",
+      "translation": "Yalnız başına görevlere çıktı; devleri öldürdü, tiranları devirdi ve esirleri kurtardı.",
+      "notes": "Series of coordinated participles describing heroic deeds."
+    },
+    {
+      "id": 71,
+      "start_ms": 408412,
+      "end_ms": 413716,
+      "text": "He rescued Queen Guinevere from the clutches of the traitorous knight Sir Meliagrance.",
+      "translation": "Kraliçe Guinevere'yi hain şövalye Sör Meliagrance'ın pençelerinden kurtardı.",
+      "notes": "Transitive past 'rescued'; compound noun 'traitorous knight'."
+    },
+    {
+      "id": 72,
+      "start_ms": 414116,
+      "end_ms": 419348,
+      "text": "A deep and dangerous love blossomed in secret between Lancelot and the Queen.",
+      "translation": "Lancelot ile Kraliçe arasında gizlice derin ve tehlikeli bir aşk filizlendi.",
+      "notes": "Subject 'deep and dangerous love'; past verb 'blossomed'."
+    },
+    {
+      "id": 73,
+      "start_ms": 419748,
+      "end_ms": 425364,
+      "text": "Lancelot tore his own heart with guilt, for he loved King Arthur above all men.",
+      "translation": "Lancelot suçluluk duygusuyla kendi kalbini paraladı, zira Kral Arthur'u her şeyden çok seviyordu.",
+      "notes": "Causal clause with 'for'; idiom 'above all men'."
+    },
+    {
+      "id": 74,
+      "start_ms": 425764,
+      "end_ms": 430972,
+      "text": "He rode out into the wilderness on endless adventures to escape his guilty thoughts.",
+      "translation": "Suçlu düşüncelerinden kaçmak için sonu gelmez maceralarla yaban diyara doğru at sürdü.",
+      "notes": "Infinitive of purpose 'to escape thoughts'; phrasal verb 'rode out into'."
+    },
+    {
+      "id": 75,
+      "start_ms": 431372,
+      "end_ms": 436604,
+      "text": "Every captured knight he sent back to Camelot to kneel before Arthur and Guinevere.",
+      "translation": "Esir aldığı her şövalyeyi Arthur ve Guinevere'nin önünde diz çökmeleri için Camelot'a geri gönderdi.",
+      "notes": "Inverted sentence; infinitive of purpose 'to kneel'."
+    },
+    {
+      "id": 76,
+      "start_ms": 437004,
+      "end_ms": 442692,
+      "text": "The halls of Camelot echoed constantly with praise of Sir Lancelot's supreme valor.",
+      "translation": "Camelot'un salonları Sör Lancelot'un üstün yiğitliğine edilen övgülerle sürekli çınladı.",
+      "notes": "Prepositional phrase 'with praise of valor'; past verb 'echoed'."
+    },
+    {
+      "id": 77,
+      "start_ms": 443092,
+      "end_ms": 448684,
+      "text": "He was Arthur's dearest friend, the right arm of Camelot, and the shield of Britain.",
+      "translation": "O, Arthur'un en sevgili dostu, Camelot'un sağ kolu ve Britanya'nın kalkanıydı.",
+      "notes": "Series of predicate nominatives and metaphorical titles."
+    },
+    {
+      "id": 78,
+      "start_ms": 449084,
+      "end_ms": 454100,
+      "text": "Yet the seeds of future tragedy were already planted in that noble fellowship.",
+      "translation": "Yine de gelecekteki trajedinin tohumları o soylu yoldaşlığın içine şimdiden ekilmişti.",
+      "notes": "Passive voice 'were already planted'; compound noun 'seeds of tragedy'."
+    },
+    {
+      "id": 79,
+      "start_ms": 454500,
+      "end_ms": 459660,
+      "text": "For where the highest honor blooms, the darkest shadows are often cast.",
+      "translation": "Zira en yüksek onurun yeşerdiği yerde, genellikle en karanlık gölgeler düşer.",
+      "notes": "Philosophical proverb; passive voice 'are cast'."
+    },
+    {
+      "id": 80,
+      "start_ms": 460060,
+      "end_ms": 466132,
+      "text": "Lancelot returned to court crowned with glory, hiding his secret sorrow behind his smile.",
+      "translation": "Lancelot şanla taçlanmış halde saraya döndü, gizli kederini tebessümünün ardına saklayarak.",
+      "notes": "Participle phrases 'crowned with glory' and 'hiding sorrow'."
+    },
+    {
+      "id": 81,
+      "start_ms": 467132,
+      "end_ms": 473612,
+      "text": "On New Year's Day, as the court feasted at Camelot, a terrifying stranger rode into the hall.",
+      "translation": "Yeni Yıl Günü'nde saray Camelot'ta ziyafet çekerken salona korkunç bir yabancı at sürdü.",
+      "notes": "Time clause with 'as'; past verb 'rode into'."
+    },
+    {
+      "id": 82,
+      "start_ms": 474012,
+      "end_ms": 479028,
+      "text": "He was a towering giant, and everything about him was bright emerald green.",
+      "translation": "O dev gibi bir adamdı ve onunla ilgili her şey parlak zümrüt yeşiliydi.",
+      "notes": "Coordinate clauses; compound adjective 'emerald green'."
+    },
+    {
+      "id": 83,
+      "start_ms": 479428,
+      "end_ms": 486148,
+      "text": "His skin, his hair, his beard, his armor, and even his enormous horse were entirely green.",
+      "translation": "Teni, saçları, sakalı, zırhı ve hatta devasa atı bile tamamen yeşildi.",
+      "notes": "Series of subjects; predicate adjective 'entirely green'."
+    },
+    {
+      "id": 84,
+      "start_ms": 486548,
+      "end_ms": 491564,
+      "text": "He carried a bough of holly in one hand and a monstrous battleaxe in the other.",
+      "translation": "Bir elinde bir çobanpüskülü dalı, diğerinde ise canavarca bir savaş baltası taşıyordu.",
+      "notes": "Parallel prepositional phrases 'in one hand... in the other'."
+    },
+    {
+      "id": 85,
+      "start_ms": 491964,
+      "end_ms": 497460,
+      "text": "'I offer a New Year's game to the brave knights of Arthur's court,' boomed the Green Knight.",
+      "translation": "'Arthur'un sarayının cesur şövalyelerine bir Yeni Yıl oyunu teklif ediyorum,' diye gürledi Yeşil Şövalye.",
+      "notes": "Transitive past 'boomed'; compound noun 'New Year's game'."
+    },
+    {
+      "id": 86,
+      "start_ms": 497860,
+      "end_ms": 504652,
+      "text": "'Any knight may strike me one blow with this axe, if he agrees to receive a blow in return one year hence.'",
+      "translation": "'Herhangi bir şövalye bu baltayla bana bir darbe vurabilir, bir yıl sonra karşılığında bir darbe almayı kabul ederse.'",
+      "notes": "Conditional clause; archaic time phrase 'one year hence'."
+    },
+    {
+      "id": 87,
+      "start_ms": 505052,
+      "end_ms": 509756,
+      "text": "The knights sat in stunned silence at this eerie, monstrous proposition.",
+      "translation": "Şövalyeler bu tekinsiz, canavarca teklif karşısında donakalmış bir sessizlik içinde oturdular.",
+      "notes": "Prepositional phrase 'in stunned silence'; adjective pair 'eerie, monstrous'."
+    },
+    {
+      "id": 88,
+      "start_ms": 510156,
+      "end_ms": 515796,
+      "text": "Sir Gawain, Arthur's noble nephew, stepped forward and accepted the challenge.",
+      "translation": "Arthur'un soylu yeğeni Sör Gawain öne çıktı ve meydan okumayı kabul etti.",
+      "notes": "Appositive clause; coordinate past verbs 'stepped and accepted'."
+    },
+    {
+      "id": 89,
+      "start_ms": 516196,
+      "end_ms": 521116,
+      "text": "The Green Knight knelt calmly, baring his thick green neck upon the floor.",
+      "translation": "Yeşil Şövalye sakince diz çöktü, kalın yeşil boynunu zemine doğru açtı.",
+      "notes": "Participle phrase 'baring his neck'; adverb 'calmly'."
+    },
+    {
+      "id": 90,
+      "start_ms": 521516,
+      "end_ms": 526964,
+      "text": "Gawain swung the heavy axe with all his might and severed the giant's head in one blow.",
+      "translation": "Gawain bütün gücüyle ağır baltayı savurdu ve tek bir darbede devin başını kopardı.",
+      "notes": "Coordinate past verbs 'swung and severed'; phrase 'in one blow'."
+    },
+    {
+      "id": 91,
+      "start_ms": 527364,
+      "end_ms": 532044,
+      "text": "The head rolled across the pavement, but the headless body did not fall.",
+      "translation": "Kafa taş döşeme boyunca yuvarlandı fakat başsız gövde yere düşmedi.",
+      "notes": "Coordinate clauses with 'but'; participial adjective 'headless body'."
+    },
+    {
+      "id": 92,
+      "start_ms": 532444,
+      "end_ms": 538228,
+      "text": "The giant walked forward, picked up his severed head by the hair, and mounted his horse.",
+      "translation": "Dev ileri yürüdü, kesik başını saçlarından tutarak kaldırdı ve atına bindi.",
+      "notes": "Series of coordinated past actions showing supernatural power."
+    },
+    {
+      "id": 93,
+      "start_ms": 538628,
+      "end_ms": 544292,
+      "text": "The head opened its eyes and spoke to Gawain: 'Meet me at the Green Chapel next New Year!'",
+      "translation": "Kafa gözlerini açtı ve Gawain'e seslendi: 'Gelecek Yeni Yıl'da benimle Yeşil Şapel'de buluş!'",
+      "notes": "Direct command; proper location 'Green Chapel'."
+    },
+    {
+      "id": 94,
+      "start_ms": 544692,
+      "end_ms": 549660,
+      "text": "The green rider galloped out into the winter storm, holding his head high.",
+      "translation": "Yeşil süvari başını havada tutarak kış fırtınasının içine doğru dörtnala uzaklaştı.",
+      "notes": "Participle phrase 'holding head high'; phrasal verb 'galloped out into'."
+    },
+    {
+      "id": 95,
+      "start_ms": 550060,
+      "end_ms": 555388,
+      "text": "A year later, Gawain rode through cold wilderness to keep his solemn promise.",
+      "translation": "Bir yıl sonra Gawain kutsal sözünü tutmak için dondurucu yaban diyarda at sürdü.",
+      "notes": "Infinitive of purpose 'to keep promise'; compound noun 'cold wilderness'."
+    },
+    {
+      "id": 96,
+      "start_ms": 555788,
+      "end_ms": 561452,
+      "text": "He arrived at a mysterious castle where a hospitable lord and lady entertained him warmly.",
+      "translation": "Misafirperver bir lord ile leydinin kendisini sıcak bir şekilde ağırladığı gizemli bir kaleye vardı.",
+      "notes": "Relative clause of place 'where lord entertained him'; adverb 'warmly'."
+    },
+    {
+      "id": 97,
+      "start_ms": 561852,
+      "end_ms": 567636,
+      "text": "The lady tested his chivalry, offering him a green magic girdle said to protect from death.",
+      "translation": "Leydi onun şövalyeliğini sınadı, ona ölümden koruduğu söylenen yeşil sihirli bir kuşak teklif etti.",
+      "notes": "Participle clauses 'testing chivalry' and 'offering girdle'."
+    },
+    {
+      "id": 98,
+      "start_ms": 568036,
+      "end_ms": 574180,
+      "text": "At the Green Chapel, the Green Knight raised the axe three times over Gawain's bared neck.",
+      "translation": "Yeşil Şapel'de Yeşil Şövalye baltayı Gawain'in çıplak boynu üzerinde üç kez havaya kaldırdı.",
+      "notes": "Frequency phrase 'three times'; participial adjective 'bared neck'."
+    },
+    {
+      "id": 99,
+      "start_ms": 574580,
+      "end_ms": 580484,
+      "text": "He gave Gawain only a tiny nick upon the skin because Gawain had concealed the green girdle.",
+      "translation": "Gawain yeşil kuşağı gizlediği için onun tenine sadece minicik bir çizik attı.",
+      "notes": "Causal clause with 'because'; past perfect 'had concealed'."
+    },
+    {
+      "id": 100,
+      "start_ms": 580884,
+      "end_ms": 586500,
+      "text": "'Thou art the purest knight in Britain,' laughed the Green Knight, revealing his enchantment.",
+      "translation": "'Sen Britanya'daki en saf şövalyesin,' diye güldü Yeşil Şövalye, üzerindeki büyüyü açıklayarak.",
+      "notes": "Participle phrase 'revealing enchantment'; archaic 'thou art'."
+    },
+    {
+      "id": 101,
+      "start_ms": 587500,
+      "end_ms": 593260,
+      "text": "A tall, handsome young man arrived at Camelot requesting three boons of the King.",
+      "translation": "Kraldan üç lütuf dileyen uzun boylu, yakışıklı genç bir adam Camelot'a geldi.",
+      "notes": "Participle phrase 'requesting three boons'; adjective pair 'tall, handsome'."
+    },
+    {
+      "id": 102,
+      "start_ms": 593660,
+      "end_ms": 599108,
+      "text": "His first request was only for food and drink in the palace kitchens for twelve months.",
+      "translation": "İlk isteği yalnızca on iki ay boyunca saray mutfaklarında yiyecek ve içecek verilmesiydi.",
+      "notes": "Predicate noun phrase; duration phrase 'for twelve months'."
+    },
+    {
+      "id": 103,
+      "start_ms": 599508,
+      "end_ms": 606228,
+      "text": "Sir Kay, the cynical steward, mocked the young stranger and named him Beaumains (Fair-hands).",
+      "translation": "Alaycı kahya Sör Kay, genç yabancıyla alay etti ve ona Beaumains (Güzel-eller) adını taktı.",
+      "notes": "Coordinate past verbs 'mocked and named'; appositive nickname."
+    },
+    {
+      "id": 104,
+      "start_ms": 606628,
+      "end_ms": 612820,
+      "text": "For a full year, Beaumains worked meekly turning meat spits and scrubbing pots with scullions.",
+      "translation": "Tam bir yıl boyunca Beaumains et şişlerini çevirerek ve mutfak yamaklarıyla tencereleri ovarak alçakgönüllülükle çalıştı.",
+      "notes": "Coordinate participles describing humble labor; adverb 'meekly'."
+    },
+    {
+      "id": 105,
+      "start_ms": 613220,
+      "end_ms": 619004,
+      "text": "Sir Lancelot was kind to him, sensing that noble blood flowed beneath his rough linen.",
+      "translation": "Sör Lancelot, kaba keteninin altında soylu bir kanın aktığını sezerek ona nazik davrandı.",
+      "notes": "Participle clause of perception; noun clause 'that noble blood flowed'."
+    },
+    {
+      "id": 106,
+      "start_ms": 619404,
+      "end_ms": 624924,
+      "text": "At the next feast, a sharp-tongued damsel named Lynette rushed into the royal hall.",
+      "translation": "Bir sonraki şölende, Lynette adında sivri dilli bir genç kız saray salonuna daldı.",
+      "notes": "Appositive participle 'named Lynette'; compound adjective 'sharp-tongued'."
+    },
+    {
+      "id": 107,
+      "start_ms": 625324,
+      "end_ms": 631732,
+      "text": "She pleaded for a champion to rescue her sister, Lady Lyonesse, imprisoned by the Red Knight.",
+      "translation": "Kızıl Şövalye tarafından hapsedilen kız kardeşi Leydi Lyonesse'i kurtarmak için bir şampiyon diledi.",
+      "notes": "Past participle modifier 'imprisoned by'; infinitive of purpose 'to rescue'."
+    },
+    {
+      "id": 108,
+      "start_ms": 632132,
+      "end_ms": 637124,
+      "text": "Beaumains stepped forward and claimed his remaining two boons from King Arthur.",
+      "translation": "Beaumains öne çıktı ve Kral Arthur'dan kalan iki lütfunu talep etti.",
+      "notes": "Coordinate past verbs 'stepped and claimed'; ordinal 'remaining two'."
+    },
+    {
+      "id": 109,
+      "start_ms": 637524,
+      "end_ms": 642780,
+      "text": "He asked for this dangerous quest and requested that Sir Lancelot knight him on the road.",
+      "translation": "Bu tehlikeli görevi istedi ve yolda Sör Lancelot'un kendisini şövalye ilan etmesini talep etti.",
+      "notes": "Coordinate past verbs; noun clause with subjunctive 'knight him'."
+    },
+    {
+      "id": 110,
+      "start_ms": 643180,
+      "end_ms": 648388,
+      "text": "Lynette was furious that a lowly kitchen scullion was assigned to her noble mission.",
+      "translation": "Soylu görevine değersiz bir mutfak yamağının verilmesine Lynette öfkeden deliye döndü.",
+      "notes": "Predicate adjective 'furious that'; passive voice 'was assigned to'."
+    },
+    {
+      "id": 111,
+      "start_ms": 648788,
+      "end_ms": 654308,
+      "text": "She rode ahead insulting Beaumains constantly, calling him a greasy pot-washer.",
+      "translation": "Onu yağlı bir tencere yıkayıcısı diye çağırarak ve Beaumains'e durmaksızın hakaretler yağdırarak önden at sürdü.",
+      "notes": "Coordinate participles 'insulting and calling'; adverb 'constantly'."
+    },
+    {
+      "id": 112,
+      "start_ms": 654708,
+      "end_ms": 660468,
+      "text": "Beaumains answered every cruel insult with serene courtesy and unwavering patience.",
+      "translation": "Beaumains her zalimce hakarete engin bir nezaket ve sarsılmaz bir sabırla karşılık verdi.",
+      "notes": "Coordinate noun phrases with adjectives; past verb 'answered'."
+    },
+    {
+      "id": 113,
+      "start_ms": 660868,
+      "end_ms": 666532,
+      "text": "On the road, he fought and defeated the Black Knight, donning the fallen warrior's armor.",
+      "translation": "Yolda Kara Şövalye ile savaşıp onu yendi; yere düşen savaşçının zırhını kuşandı.",
+      "notes": "Participle phrase 'donning armor'; coordinate past verbs 'fought and defeated'."
+    },
+    {
+      "id": 114,
+      "start_ms": 666932,
+      "end_ms": 671636,
+      "text": "Next he overcame the Green Knight and the Blue Knight in single combat.",
+      "translation": "Sonra teke tek dövüşte Yeşil Şövalye'yi ve Mavi Şövalye'yi alt etti.",
+      "notes": "Transitive past 'overcame'; prepositional phrase 'in single combat'."
+    },
+    {
+      "id": 115,
+      "start_ms": 672036,
+      "end_ms": 678420,
+      "text": "Lynette's sharp scorn gradually softened into amazement, respect, and deep admiration.",
+      "translation": "Lynette'in keskin kibri yavaş yavaş hayrete, saygıya ve derin bir hayranlığa dönüştü.",
+      "notes": "Adverb 'gradually'; phrasal verb 'softened into'."
+    },
+    {
+      "id": 116,
+      "start_ms": 678820,
+      "end_ms": 683836,
+      "text": "Sir Lancelot caught up with them and dubbed Beaumains a knight of the Round Table.",
+      "translation": "Sör Lancelot onlara yetişti ve Beaumains'i Yuvarlak Masa şövalyesi ilan etti.",
+      "notes": "Phrasal verb 'caught up with'; coordinate past 'dubbed'."
+    },
+    {
+      "id": 117,
+      "start_ms": 684236,
+      "end_ms": 689276,
+      "text": "The youth revealed that he was Sir Gareth of Orkney, nephew to King Arthur.",
+      "translation": "Genç adam kendisinin Orkney'li Sör Gareth, yani Kral Arthur'un yeğeni olduğunu açıkladı.",
+      "notes": "Noun clause with past tense; appositive relationship."
+    },
+    {
+      "id": 118,
+      "start_ms": 689676,
+      "end_ms": 695556,
+      "text": "At Castle Dangerous, Gareth fought the terrifying Red Knight of the Red Lawns for hours.",
+      "translation": "Korkulu Kale'de Gareth, Kızıl Düzlüklerin dehşet saçan Kızıl Şövalyesi ile saatlerce savaştı.",
+      "notes": "Prepositional phrases indicating location and duration."
+    },
+    {
+      "id": 119,
+      "start_ms": 695956,
+      "end_ms": 702244,
+      "text": "Gareth struck down the tyrant, broke the cruel siege, and rescued fair Lady Lyonesse.",
+      "translation": "Gareth tiranı yere serdi, zalim kuşatmayı yardı ve güzel Leydi Lyonesse'i kurtardı.",
+      "notes": "Series of coordinated past action verbs."
+    },
+    {
+      "id": 120,
+      "start_ms": 702644,
+      "end_ms": 709340,
+      "text": "Sir Gareth won everlasting glory, marrying fair Lyonesse amid royal rejoicing at Camelot.",
+      "translation": "Sör Gareth, Camelot'taki kraliyet şenlikleri arasında güzel Lyonesse ile evlenerek ebedi bir şan kazandı.",
+      "notes": "Participle phrase 'marrying fair Lyonesse'; compound noun 'everlasting glory'."
+    },
+    {
+      "id": 121,
+      "start_ms": 710340,
+      "end_ms": 715308,
+      "text": "Second only to Sir Lancelot in renown was Sir Tristram of Lyonesse.",
+      "translation": "Şöhrette Sör Lancelot'tan hemen sonra Lyonesse'li Sör Tristram gelirdi.",
+      "notes": "Inverted comparative sentence 'Second only to'; proper name."
+    },
+    {
+      "id": 122,
+      "start_ms": 715708,
+      "end_ms": 721420,
+      "text": "Tristram was a valiant knight, a master hunter, and the sweetest harper in Christendom.",
+      "translation": "Tristram yiğit bir şövalye, usta bir avcı ve Hristiyan dünyasının en tatlı arpçısıydı.",
+      "notes": "Series of predicate nominatives with superlatives."
+    },
+    {
+      "id": 123,
+      "start_ms": 721820,
+      "end_ms": 727964,
+      "text": "After slaying the Irish champion Sir Marhaus, Tristram was poisoned by a cursed blade.",
+      "translation": "İrlandalı şampiyon Sör Marhaus'u öldürdükten sonra Tristram lanetli bir kılıçla zehirlendi.",
+      "notes": "Prepositional phrase with gerund; passive voice 'was poisoned'."
+    },
+    {
+      "id": 124,
+      "start_ms": 728364,
+      "end_ms": 733596,
+      "text": "Only the Queen of Ireland and her daughter, fair Isolde, possessed the cure.",
+      "translation": "Sadece İrlanda Kraliçesi ve kızı güzel Isolde bu ilaca sahipti.",
+      "notes": "Subject coordinate; transitive past 'possessed'."
+    },
+    {
+      "id": 125,
+      "start_ms": 733996,
+      "end_ms": 739492,
+      "text": "Disguised as a wandering minstrel named Tramtrist, he sailed to the Irish court.",
+      "translation": "Tramtrist adında gezgin bir ozan kılığına bürünerek İrlanda sarayına yelken açtı.",
+      "notes": "Passive participle modifier 'Disguised as'; past verb 'sailed'."
+    },
+    {
+      "id": 126,
+      "start_ms": 739892,
+      "end_ms": 745004,
+      "text": "Fair Isolde healed his festering wound with soothing herbs and magic balms.",
+      "translation": "Güzel Isolde onun iltihaplı yarasını teskin edici otlar ve sihirli merhemlerle iyileştirdi.",
+      "notes": "Instrument phrase 'with soothing herbs'; adjective 'festering'."
+    },
+    {
+      "id": 127,
+      "start_ms": 745404,
+      "end_ms": 750444,
+      "text": "They grew to love each other deeply while making music together in the castle garden.",
+      "translation": "Kale bahçesinde birlikte müzik yaparlarken birbirlerini derinden sevmeye başladılar.",
+      "notes": "Idiomatic development 'grew to love'; temporal clause with 'while'."
+    },
+    {
+      "id": 128,
+      "start_ms": 750844,
+      "end_ms": 757660,
+      "text": "Later, King Mark of Cornwall, Tristram's uncle, sent Tristram to claim Isolde as Mark's bride.",
+      "translation": "Daha sonra Cornwall Kralı Mark, yani Tristram'ın amcası, Isolde'yi kendine gelin olarak istemesi için Tristram'ı gönderdi.",
+      "notes": "Appositive clause; infinitive of purpose 'to claim Isolde'."
+    },
+    {
+      "id": 129,
+      "start_ms": 758060,
+      "end_ms": 763748,
+      "text": "Bound by knightly honor to his uncle, Tristram escorted the fair maiden across the sea.",
+      "translation": "Amcasına olan şövalyelik onuruyla bağlı olan Tristram, güzel kıza deniz boyunca eşlik etti.",
+      "notes": "Past participle modifier 'Bound by honor'; past verb 'escorted'."
+    },
+    {
+      "id": 130,
+      "start_ms": 764148,
+      "end_ms": 769932,
+      "text": "On the voyage, the weather grew sweltering and the two travelers became parched with thirst.",
+      "translation": "Yolculukta hava bunaltıcı bir hal aldı ve iki yolcu susuzluktan kavruldu.",
+      "notes": "Coordinate clauses; copular verbs 'grew and became'."
+    },
+    {
+      "id": 131,
+      "start_ms": 770332,
+      "end_ms": 775660,
+      "text": "A maiden mistakenly brought them a golden flask containing a powerful love potion.",
+      "translation": "Bir hizmetçi kız yanlışlıkla onlara içinde güçlü bir aşk iksiri bulunan altın bir şişe getirdi.",
+      "notes": "Participial adjective 'containing potion'; adverb 'mistakenly'."
+    },
+    {
+      "id": 132,
+      "start_ms": 776060,
+      "end_ms": 781148,
+      "text": "Isolde's mother had brewed the potion for Isolde and King Mark on their wedding night.",
+      "translation": "Isolde'nin annesi bu iksiri düğün gecelerinde Isolde ve Kral Mark için kaynatmıştı.",
+      "notes": "Past perfect 'had brewed'; prepositional phrase 'for wedding night'."
+    },
+    {
+      "id": 133,
+      "start_ms": 781548,
+      "end_ms": 786996,
+      "text": "Tristram and Isolde drank the sweet wine together, knowing nothing of its enchantment.",
+      "translation": "Tristram ve Isolde büyüsünden hiç haberleri olmadan tatlı şarabı birlikte içtiler.",
+      "notes": "Participle phrase 'knowing nothing of'; past verb 'drank'."
+    },
+    {
+      "id": 134,
+      "start_ms": 787396,
+      "end_ms": 793084,
+      "text": "Instantly, an immortal, undying passion bound their two souls together forever.",
+      "translation": "Anında, ölümsüz ve tükenmez bir tutku bu iki ruhu sonsuza dek birbirine bağladı.",
+      "notes": "Adverb 'instantly'; coordinate adjectives 'immortal, undying'."
+    },
+    {
+      "id": 135,
+      "start_ms": 793484,
+      "end_ms": 798716,
+      "text": "Though Isolde was wed to King Mark, her heart belonged eternally to Tristram.",
+      "translation": "Isolde Kral Mark ile evlense de, kalbi ebediyen Tristram'a aitti.",
+      "notes": "Concession clause with 'though'; adverb 'eternally'."
+    },
+    {
+      "id": 136,
+      "start_ms": 799116,
+      "end_ms": 804756,
+      "text": "Tristram suffered agonies between his sacred oath to his uncle and his love for Isolde.",
+      "translation": "Tristram amcasına ettiği kutsal yemin ile Isolde'ye olan aşkı arasında büyük ızdıraplar çekti.",
+      "notes": "Prepositional phrase 'between oath and love'; past verb 'suffered'."
+    },
+    {
+      "id": 137,
+      "start_ms": 805156,
+      "end_ms": 810652,
+      "text": "King Mark grew suspicious, cruel, and treacherous toward his heroic nephew.",
+      "translation": "Kral Mark kahraman yeğenine karşı şüpheci, zalim ve kalleş bir tavır takındı.",
+      "notes": "Series of predicate adjectives; directional phrase 'toward nephew'."
+    },
+    {
+      "id": 138,
+      "start_ms": 811052,
+      "end_ms": 816260,
+      "text": "Arthur welcomed Sir Tristram to Camelot and granted him a seat at the Round Table.",
+      "translation": "Arthur Sör Tristram'ı Camelot'ta karşıladı ve ona Yuvarlak Masa'da bir koltuk bahşetti.",
+      "notes": "Coordinate past verbs 'welcomed and granted'."
+    },
+    {
+      "id": 139,
+      "start_ms": 816660,
+      "end_ms": 822108,
+      "text": "Tristram's tragic romance became one of the greatest legends sung by every harper.",
+      "translation": "Tristram'ın trajik aşkı her arpçı tarafından şarkısı söylenen en büyük efsanelerden biri oldu.",
+      "notes": "Passive participle modifier 'sung by every harper'; superlative phrase."
+    },
+    {
+      "id": 140,
+      "start_ms": 822508,
+      "end_ms": 828148,
+      "text": "Honor, loyalty, and love remained forever intertwined in the heart of Camelot.",
+      "translation": "Onur, sadakat ve aşk Camelot'un kalbinde sonsuza dek birbirine kenetlenmiş olarak kaldı.",
+      "notes": "Coordinate subjects; copular past 'remained intertwined'."
+    },
+    {
+      "id": 141,
+      "start_ms": 829148,
+      "end_ms": 834980,
+      "text": "At the feast of Pentecost, a wondrous miracle manifested in the great hall of Camelot.",
+      "translation": "Hamsin Yortusu şöleninde, Camelot'un büyük salonunda harika bir mucize zuhur etti.",
+      "notes": "Time phrase; past verb 'manifested'."
+    },
+    {
+      "id": 142,
+      "start_ms": 835380,
+      "end_ms": 840780,
+      "text": "All the windows of the hall shut suddenly of their own accord without human hands.",
+      "translation": "Salondaki tüm pencereler insan eli değmeksizin kendi kendine aniden kapandı.",
+      "notes": "Idiom 'of their own accord'; adverb 'suddenly'."
+    },
+    {
+      "id": 143,
+      "start_ms": 841180,
+      "end_ms": 846892,
+      "text": "A blinding beam of heavenly sunlight illuminated the chamber seven times brighter than day.",
+      "translation": "Cennetten gelen kör edici bir güneş ışığı hüzmesi odayı gündüzden yedi kat daha parlak aydınlattı.",
+      "notes": "Comparative multiplier 'seven times brighter'; participial adjective 'blinding'."
+    },
+    {
+      "id": 144,
+      "start_ms": 847292,
+      "end_ms": 853244,
+      "text": "A crack of thunder shook the stone walls, and the room was filled with celestial fragrance.",
+      "translation": "Bir gök gürültüsü taş duvarları sarstı ve oda ilahi kokularla dolup taştı.",
+      "notes": "Coordinate clauses; passive 'was filled with'."
+    },
+    {
+      "id": 145,
+      "start_ms": 853644,
+      "end_ms": 858756,
+      "text": "Gliding through the hall came the Holy Grail, the sacred cup of the Last Supper.",
+      "translation": "Salondan süzülerek gelen şey, Son Akşam Yemeği'nin kutsal kadehi olan Kutsal Kase idi.",
+      "notes": "Inverted sentence; appositive definition 'sacred cup'."
+    },
+    {
+      "id": 146,
+      "start_ms": 859156,
+      "end_ms": 864652,
+      "text": "The holy vessel was covered in white samite, so that no knight could see it uncovered.",
+      "translation": "Kutsal kap beyaz ipeklerle örtülüydü, öyle ki hiçbir şövalye onu örtüsüz göremedi.",
+      "notes": "Result clause 'so that no knight could see'; passive 'was covered'."
+    },
+    {
+      "id": 147,
+      "start_ms": 865052,
+      "end_ms": 870548,
+      "text": "It passed through the hall and vanished into the ceiling as mysteriously as it had arrived.",
+      "translation": "Salondan geçti ve geldiği gibi gizemli bir şekilde tavana doğru gözden kayboldu.",
+      "notes": "Simile of manner 'as mysteriously as it had arrived'; coordinate past verbs."
+    },
+    {
+      "id": 148,
+      "start_ms": 870948,
+      "end_ms": 876228,
+      "text": "Every knight found himself served with the rarest meats and wines he loved best.",
+      "translation": "Her şövalye önüne en sevdiği en nadide etlerin ve şarapların sunulduğunu gördü.",
+      "notes": "Reflexive structure 'found himself served'; superlative 'rarest'."
+    },
+    {
+      "id": 149,
+      "start_ms": 876628,
+      "end_ms": 882436,
+      "text": "Sir Gawain rose and vowed that he would ride forth on quest to see the Grail unveiled.",
+      "translation": "Sör Gawain ayağa kalktı ve Kase'yi örtüsüz görmek için göreve çıkacağına yemin etti.",
+      "notes": "Coordinate past verbs 'rose and vowed'; noun clause with modal."
+    },
+    {
+      "id": 150,
+      "start_ms": 882836,
+      "end_ms": 888620,
+      "text": "One by one, all one hundred and fifty knights of the Round Table took the same solemn vow.",
+      "translation": "Birer birer, Yuvarlak Masa'nın yüz elli şövalyesinin tamamı aynı kutsal yemini ettiler.",
+      "notes": "Frequency idiom 'one by one'; adjective 'same solemn'."
+    },
+    {
+      "id": 151,
+      "start_ms": 889020,
+      "end_ms": 894156,
+      "text": "King Arthur wept bitter tears when he heard their vows, knowing what this meant.",
+      "translation": "Kral Arthur bunun ne anlama geldiğini bilerek yeminlerini duyduğunda acı gözyaşları döktü.",
+      "notes": "Time clause with 'when'; participle phrase 'knowing what this meant'."
+    },
+    {
+      "id": 152,
+      "start_ms": 894556,
+      "end_ms": 900388,
+      "text": "'Ye have bereft me of the fairest fellowship that ever was seen in any realm!' cried Arthur.",
+      "translation": "'Herhangi bir diyarda görülebilecek en güzel yoldaşlıktan beni mahrum ettiniz!' diye haykırdı Arthur.",
+      "notes": "Archaic grammar 'Ye have bereft me'; superlative relative clause."
+    },
+    {
+      "id": 153,
+      "start_ms": 900788,
+      "end_ms": 906380,
+      "text": "'Many of ye shall never return to Camelot, for this quest is not of worldly strength.'",
+      "translation": "'Pek çoğunuz Camelot'a bir daha asla dönemeyecek, çünkü bu görev dünyevi güçle başarılamaz.'",
+      "notes": "Negative modal 'shall never return'; causal clause with 'for'."
+    },
+    {
+      "id": 154,
+      "start_ms": 906780,
+      "end_ms": 912300,
+      "text": "The next morning, after solemn mass at the cathedral, the knights prepared to depart.",
+      "translation": "Ertesi sabah katedraldeki kutsal ayinin ardından şövalyeler yola çıkmaya hazırlandılar.",
+      "notes": "Time phrase; infinitive 'prepared to depart'."
+    },
+    {
+      "id": 155,
+      "start_ms": 912700,
+      "end_ms": 918364,
+      "text": "Queen Guinevere and the ladies wept aloud as the splendid champions rode through the gates.",
+      "translation": "Görkemli şampiyonlar kapılardan geçerken Kraliçe Guinevere ve leydiler sesli sesli ağladılar.",
+      "notes": "Time clause with 'as'; adverb 'aloud'."
+    },
+    {
+      "id": 156,
+      "start_ms": 918764,
+      "end_ms": 924548,
+      "text": "They dispersed across England, each knight choosing his own lonely path into the wilderness.",
+      "translation": "Her bir şövalye yaban diyara doğru kendi yalnız yolunu seçerek İngiltere'nin dört bir yanına dağıldılar.",
+      "notes": "Absolute construction 'each knight choosing path'; past verb 'dispersed'."
+    },
+    {
+      "id": 157,
+      "start_ms": 924948,
+      "end_ms": 930276,
+      "text": "Many knights sought the Grail through pride and martial prowess, failing miserably.",
+      "translation": "Pek çok şövalye kibir ve savaş maharetiyle Kase'yi aradı ve feci şekilde başarısız oldu.",
+      "notes": "Participle phrase 'failing miserably'; coordinate nouns 'pride and prowess'."
+    },
+    {
+      "id": 158,
+      "start_ms": 930676,
+      "end_ms": 937108,
+      "text": "For the Holy Grail could be attained not by arms or iron steel, but by spiritual purity.",
+      "translation": "Zira Kutsal Kase silahlardan veya demir çelikten değil, ruhsal saflıktan geçerek elde edilebilirdi.",
+      "notes": "Negative contrast 'not by... but by'; passive modal 'could be attained'."
+    },
+    {
+      "id": 159,
+      "start_ms": 937508,
+      "end_ms": 942236,
+      "text": "The grand fellowship that had united Britain was scattered across the world.",
+      "translation": "Britanya'yı birleştiren o ulu yoldaşlık dünyanın dört bir yanına dağılmıştı.",
+      "notes": "Relative clause 'that had united Britain'; passive voice 'was scattered'."
+    },
+    {
+      "id": 160,
+      "start_ms": 942636,
+      "end_ms": 947916,
+      "text": "The final era of King Arthur's reign was unfolding beneath ominous skies.",
+      "translation": "Kral Arthur'un hükümdarlığının son dönemi uğursuz gökyüzünün altında seriliyordu.",
+      "notes": "Past continuous 'was unfolding'; adjective 'ominous skies'."
+    },
+    {
+      "id": 161,
+      "start_ms": 948916,
+      "end_ms": 954628,
+      "text": "Sir Galahad was the son of Sir Lancelot, born without sin and pure of heart.",
+      "translation": "Sör Galahad Sör Lancelot'un oğluydu; günahsız ve tertemiz bir kalple doğmuştu.",
+      "notes": "Coordinate prepositional phrases describing virtue; past participle 'born'."
+    },
+    {
+      "id": 162,
+      "start_ms": 955028,
+      "end_ms": 960644,
+      "text": "He had safely occupied the Siege Perilous, where his name appeared in letters of gold.",
+      "translation": "Adının altın harflerle belirdiği Tehlikeli Koltuk'a güvenle oturmuştu.",
+      "notes": "Past perfect 'had occupied'; relative clause of place."
+    },
+    {
+      "id": 163,
+      "start_ms": 961044,
+      "end_ms": 967020,
+      "text": "He bore a white shield with a red cross drawn in holy blood by Saint Joseph of Arimathea.",
+      "translation": "Üzerinde Aramatyalı Aziz Yusuf tarafından kutsal kanla çizilmiş kırmızı bir haç olan beyaz bir kalkan taşıyordu.",
+      "notes": "Passive participle modifier 'drawn in holy blood'; past verb 'bore'."
+    },
+    {
+      "id": 164,
+      "start_ms": 967420,
+      "end_ms": 973252,
+      "text": "Galahad rode with Sir Percival and Sir Bors across strange, enchanted lands.",
+      "translation": "Galahad Sör Percival ve Sör Bors ile birlikte garip, büyülü diyarlar boyunca at sürdü.",
+      "notes": "Prepositional phrase 'with Percival and Bors'; adjective 'enchanted'."
+    },
+    {
+      "id": 165,
+      "start_ms": 973652,
+      "end_ms": 978668,
+      "text": "They were guided by divine visions and protected from worldly temptations.",
+      "translation": "İlahi rüyalarla yönlendirildiler ve dünyevi ayartmalardan korundular.",
+      "notes": "Passive coordinates 'were guided and protected'."
+    },
+    {
+      "id": 166,
+      "start_ms": 979068,
+      "end_ms": 984132,
+      "text": "They reached the mystical Castle of Carbonek, home of the wounded Fisher King.",
+      "translation": "Yaralı Balıkçı Kral'ın evi olan mistik Carbonek Kalesi'ne ulaştılar.",
+      "notes": "Transitive past 'reached'; appositive description."
+    },
+    {
+      "id": 167,
+      "start_ms": 984532,
+      "end_ms": 989932,
+      "text": "In the sanctuary of the castle, the three chosen knights witnessed the holy mystery.",
+      "translation": "Kalenin mabedinde, seçilmiş üç şövalye kutsal gizeme tanıklık ettiler.",
+      "notes": "Prepositional phrases; past verb 'witnessed'."
+    },
+    {
+      "id": 168,
+      "start_ms": 990332,
+      "end_ms": 996188,
+      "text": "Joseph of Arimathea descended with an army of angels carrying candles of blazing light.",
+      "translation": "Aramatyalı Yusuf, alev alev yanan mumlar taşıyan bir melekler ordusuyla aşağı indi.",
+      "notes": "Participle phrase 'carrying candles of light'; past verb 'descended'."
+    },
+    {
+      "id": 169,
+      "start_ms": 996588,
+      "end_ms": 1002876,
+      "text": "Before their weeping eyes, the Holy Grail appeared entirely unveiled upon an altar of silver.",
+      "translation": "Ağlayan gözlerinin önünde Kutsal Kase gümüşten bir sunak üzerinde tamamen örtüsüz belirdi.",
+      "notes": "Prepositional phrases; adverb 'entirely'."
+    },
+    {
+      "id": 170,
+      "start_ms": 1003276,
+      "end_ms": 1008700,
+      "text": "Galahad knelt before the holy vessel, trembling with ecstatic spiritual joy.",
+      "translation": "Galahad vecd dolu ruhani bir sevinçle titreyerek kutsal kabın önünde diz çöktü.",
+      "notes": "Participle phrase 'trembling with joy'; past verb 'knelt'."
+    },
+    {
+      "id": 171,
+      "start_ms": 1009100,
+      "end_ms": 1014500,
+      "text": "He took the holy sacrament from the cup, and his soul was filled with heavenly peace.",
+      "translation": "Kutsal ayini kaseden aldı ve ruhu cennetten gelen bir huzurla doldu.",
+      "notes": "Coordinate clauses; passive 'was filled with'."
+    },
+    {
+      "id": 172,
+      "start_ms": 1014900,
+      "end_ms": 1021692,
+      "text": "'Lord, I thank thee,' whispered Galahad, 'for now my earthly eyes behold what my soul desired.'",
+      "translation": "'Rabbim sana şükrederim,' diye fısıldadı Galahad, 'çünkü artık dünyevi gözlerim ruhumun arzuladığı şeyi görüyor.'",
+      "notes": "Archaic prayer 'I thank thee'; noun clause 'what my soul desired'."
+    },
+    {
+      "id": 173,
+      "start_ms": 1022092,
+      "end_ms": 1027036,
+      "text": "Galahad prayed that he might pass from this earthly life to the heavenly kingdom.",
+      "translation": "Galahad bu dünyevi hayattan cennet krallığına göçebilmek için dua etti.",
+      "notes": "Noun clause with modal 'that he might pass'; adjective 'earthly'."
+    },
+    {
+      "id": 174,
+      "start_ms": 1027436,
+      "end_ms": 1032932,
+      "text": "His prayer was granted, and angels descended to carry his pure soul into heaven.",
+      "translation": "Duası kabul edildi ve melekler onun saf ruhunu cennete taşımak için aşağı indiler.",
+      "notes": "Passive coordinate 'prayer was granted'; infinitive of purpose 'to carry'."
+    },
+    {
+      "id": 175,
+      "start_ms": 1033332,
+      "end_ms": 1038732,
+      "text": "A divine hand reached down from the clouds and bore the Holy Grail away forever.",
+      "translation": "Bulutlardan ilahi bir el aşağı uzandı ve Kutsal Kase'yi sonsuza dek alıp götürdü.",
+      "notes": "Coordinate past verbs 'reached and bore away'; adverb 'forever'."
+    },
+    {
+      "id": 176,
+      "start_ms": 1039132,
+      "end_ms": 1043980,
+      "text": "No mortal eye on earth has ever seen the holy vessel from that day to this.",
+      "translation": "O günden bugüne yeryüzündeki hiçbir fani göz o kutsal kabı bir daha asla görmedi.",
+      "notes": "Present perfect with 'has ever seen'; negative subject 'No mortal eye'."
+    },
+    {
+      "id": 177,
+      "start_ms": 1044380,
+      "end_ms": 1049348,
+      "text": "Sir Percival took holy vows and died a hermit in the wilderness a year later.",
+      "translation": "Sör Percival kutsal yeminler etti ve bir yıl sonra yaban diyarda bir münzevi olarak öldü.",
+      "notes": "Coordinate past verbs 'took and died'; noun 'hermit'."
+    },
+    {
+      "id": 178,
+      "start_ms": 1049748,
+      "end_ms": 1054884,
+      "text": "Only Sir Bors returned to Camelot to tell King Arthur the tale of the Grail.",
+      "translation": "Kral Arthur'a Kase'nin hikayesini anlatmak için Camelot'a sadece Sör Bors geri döndü.",
+      "notes": "Infinitive of purpose 'to tell the tale'; subject modifier 'Only Sir Bors'."
+    },
+    {
+      "id": 179,
+      "start_ms": 1055284,
+      "end_ms": 1060372,
+      "text": "Arthur wept in sorrow for the many glorious knights who would never sit with him again.",
+      "translation": "Arthur kendisiyle bir daha asla oturamayacak olan pek çok şanlı şövalye için kederle ağladı.",
+      "notes": "Relative clause 'who would never sit'; prepositional phrase 'in sorrow'."
+    },
+    {
+      "id": 180,
+      "start_ms": 1060772,
+      "end_ms": 1065956,
+      "text": "The golden fellowship had achieved its highest quest, but Camelot was broken.",
+      "translation": "Altın yoldaşlık en yüce görevini başarmıştı fakat Camelot parçalanmıştı.",
+      "notes": "Past perfect coordinate with past simple; predicate adjective 'broken'."
+    },
+    {
+      "id": 181,
+      "start_ms": 1066956,
+      "end_ms": 1072356,
+      "text": "While the best knights were absent on the Grail quest, wicked men plotted at court.",
+      "translation": "En iyi şövalyeler Kase arayışında uzaktayken sarayda kötü niyetli adamlar komplo kurdular.",
+      "notes": "Time clause with 'while'; past verb 'plotted'."
+    },
+    {
+      "id": 182,
+      "start_ms": 1072756,
+      "end_ms": 1078588,
+      "text": "Chief among these was Sir Mordred, Arthur's treacherous nephew, full of dark malice.",
+      "translation": "Bunların başında, Arthur'un karanlık bir hınçla dolu hain yeğeni Sör Mordred geliyordu.",
+      "notes": "Inverted sentence 'Chief among these was Mordred'; appositive phrase."
+    },
+    {
+      "id": 183,
+      "start_ms": 1078988,
+      "end_ms": 1084724,
+      "text": "Mordred hated King Arthur, envied Sir Lancelot, and coveted the crown of Britain.",
+      "translation": "Mordred Kral Arthur'dan nefret ediyor, Sör Lancelot'u kıskanıyor ve Britanya tacına göz dikiyordu.",
+      "notes": "Series of coordinated past verbs expressing malice."
+    },
+    {
+      "id": 184,
+      "start_ms": 1085124,
+      "end_ms": 1090980,
+      "text": "He watched Lancelot and Queen Guinevere, seeking evidence of treason to destroy them.",
+      "translation": "Onları yok etmek için bir ihanet kanıtı arayarak Lancelot ile Kraliçe Guinevere'yi gözetledi.",
+      "notes": "Participle phrase 'seeking evidence'; infinitive of purpose 'to destroy'."
+    },
+    {
+      "id": 185,
+      "start_ms": 1091380,
+      "end_ms": 1096180,
+      "text": "He whispered poisoned words into the ears of young and ambitious knights.",
+      "translation": "Genç ve hırslı şövalyelerin kulaklarına zehirli sözler fısıldadı.",
+      "notes": "Prepositional phrases; participial adjective 'poisoned words'."
+    },
+    {
+      "id": 186,
+      "start_ms": 1096580,
+      "end_ms": 1102220,
+      "text": "He reminded them that Lancelot was a foreigner who commanded too much royal influence.",
+      "translation": "Onlara Lancelot'un kral üzerinde çok fazla nüfuz sahibi olan bir yabancı olduğunu hatırlattı.",
+      "notes": "Noun clause with relative 'who commanded influence'; past verb 'reminded'."
+    },
+    {
+      "id": 187,
+      "start_ms": 1102620,
+      "end_ms": 1107660,
+      "text": "Sir Gawain and his brothers refused to listen to Mordred's wicked slanders.",
+      "translation": "Sör Gawain ve kardeşleri Mordred'in hain iftiralarını dinlemeyi reddettiler.",
+      "notes": "Verb + infinitive 'refused to listen'; possessive noun phrase."
+    },
+    {
+      "id": 188,
+      "start_ms": 1108060,
+      "end_ms": 1113460,
+      "text": "'Sir Lancelot has saved the King and Queen a hundred times,' said noble Gawain.",
+      "translation": "'Sör Lancelot Kralı ve Kraliçeyi yüz kez kurtardı,' dedi soylu Gawain.",
+      "notes": "Present perfect 'has saved'; frequency phrase 'a hundred times'."
+    },
+    {
+      "id": 189,
+      "start_ms": 1113860,
+      "end_ms": 1118948,
+      "text": "But Mordred persisted, waiting for the fatal opportunity to trap the Queen.",
+      "translation": "Fakat Mordred vazgeçmedi, Kraliçeyi tuzağa düşürmek için o ölümcül fırsatı bekledi.",
+      "notes": "Coordinate clauses with 'but'; participle phrase 'waiting for opportunity'."
+    },
+    {
+      "id": 190,
+      "start_ms": 1119348,
+      "end_ms": 1124916,
+      "text": "One evening, while Arthur was away hunting, Lancelot visited the Queen's chamber.",
+      "translation": "Bir akşam Arthur uzakta avdayken Lancelot Kraliçe'nin dairesini ziyaret etti.",
+      "notes": "Time clause with 'while'; past verb 'visited'."
+    },
+    {
+      "id": 191,
+      "start_ms": 1125316,
+      "end_ms": 1131100,
+      "text": "Mordred and twelve armed knights surrounded the door, shouting accusations of high treason.",
+      "translation": "Mordred ve on iki silahlı şövalye vatana ihanet suçlamaları haykırarak kapıyı sardılar.",
+      "notes": "Participle phrase 'shouting accusations'; past verb 'surrounded'."
+    },
+    {
+      "id": 192,
+      "start_ms": 1131500,
+      "end_ms": 1137260,
+      "text": "Lancelot was unarmed except for his cloak, but his warrior spirit was indomitable.",
+      "translation": "Lancelot pelerini dışında silahsızdı fakat savaşçı ruhu boyun eğmezdi.",
+      "notes": "Exceptive preposition 'except for'; adjective 'indomitable'."
+    },
+    {
+      "id": 193,
+      "start_ms": 1137660,
+      "end_ms": 1143612,
+      "text": "He opened the door a crack, pulled one armored knight inside, and barred the entrance.",
+      "translation": "Kapıyı araladı, zırhlı bir şövalyeyi içeri çekti ve girişi sürgüledi.",
+      "notes": "Series of coordinated past actions showing tactical skill."
+    },
+    {
+      "id": 194,
+      "start_ms": 1144012,
+      "end_ms": 1149508,
+      "text": "He slew the intruder, put on his armor, and drew his sword with blazing fury.",
+      "translation": "İçeri giren adamı öldürdü, onun zırhını giydi ve alev alev yanan bir öfkeyle kılıcını çekti.",
+      "notes": "Series of coordinated past action verbs; manner phrase 'with fury'."
+    },
+    {
+      "id": 195,
+      "start_ms": 1149908,
+      "end_ms": 1154804,
+      "text": "He burst through the door, killing twelve knights and wounding Sir Mordred.",
+      "translation": "Kapıyı kırıp dışarı fırladı, on iki şövalyeyi öldürdü ve Sör Mordred'i yaraladı.",
+      "notes": "Participle phrases describing combat; phrasal verb 'burst through'."
+    },
+    {
+      "id": 196,
+      "start_ms": 1155204,
+      "end_ms": 1160772,
+      "text": "Lancelot fled to his castle, promising Guinevere he would protect her from any harm.",
+      "translation": "Her türlü zarardan koruyacağına dair Guinevere'ye söz vererek Lancelot şatosuna kaçtı.",
+      "notes": "Participle clause with noun clause; past verb 'fled'."
+    },
+    {
+      "id": 197,
+      "start_ms": 1161172,
+      "end_ms": 1166596,
+      "text": "When King Arthur returned, Mordred presented his twisted report of the bloody affray.",
+      "translation": "Kral Arthur döndüğünde Mordred kanlı çatışmaya dair kendi çarpıtılmış raporunu sundu.",
+      "notes": "Time clause with 'when'; adjective 'twisted report'."
+    },
+    {
+      "id": 198,
+      "start_ms": 1166996,
+      "end_ms": 1172180,
+      "text": "By the strict law of the realm, the Queen was sentenced to be burned at the stake.",
+      "translation": "Diyarın katı kanunlarına göre Kraliçe odun yığınında yakılarak öldürülmeye mahkum edildi.",
+      "notes": "Passive infinitive structure 'was sentenced to be burned'; prepositional phrase 'at the stake'."
+    },
+    {
+      "id": 199,
+      "start_ms": 1172580,
+      "end_ms": 1177908,
+      "text": "Arthur's heart broke with agony, but his royal oath bound him to enforce the law.",
+      "translation": "Arthur'un kalbi ızdırapla parçalandı fakat kraliyet yemini onu kanunu uygulamaya mecbur kıldı.",
+      "notes": "Coordinate clauses with 'but'; infinitive of obligation 'bound him to enforce'."
+    },
+    {
+      "id": 200,
+      "start_ms": 1178308,
+      "end_ms": 1183612,
+      "text": "Civil war now loomed dark and inevitable over the tragic kingdom of Camelot.",
+      "translation": "İç savaş artık Camelot'un trajik krallığı üzerinde karanlık ve kaçınılmaz bir şekilde belirdi.",
+      "notes": "Coordinate adjectives 'dark and inevitable'; past verb 'loomed'."
+    },
+    {
+      "id": 201,
+      "start_ms": 1184612,
+      "end_ms": 1190756,
+      "text": "On the dreadful morning of execution, Queen Guinevere was led to the stake outside Carlisle.",
+      "translation": "Korkunç infaz sabahında Kraliçe Guinevere, Carlisle'ın dışındaki odun yığınına götürüldü.",
+      "notes": "Passive voice 'was led to the stake'; time phrase."
+    },
+    {
+      "id": 202,
+      "start_ms": 1191156,
+      "end_ms": 1196124,
+      "text": "She wore only a white smock, weeping and praying as the torches were lit.",
+      "translation": "Meşaleler yakılırken ağlayarak ve dua ederek üzerinde sadece beyaz bir gömlek vardı.",
+      "notes": "Time clause with passive 'as torches were lit'; coordinate participles."
+    },
+    {
+      "id": 203,
+      "start_ms": 1196524,
+      "end_ms": 1201972,
+      "text": "Suddenly, the thunder of charging hooves shook the field as Sir Lancelot arrived.",
+      "translation": "Sör Lancelot yetiştiğinde hücum eden toynakların gürültüsü birdenbire meydanı sarstı.",
+      "notes": "Time clause with 'as'; compound noun 'thunder of hooves'."
+    },
+    {
+      "id": 204,
+      "start_ms": 1202372,
+      "end_ms": 1207628,
+      "text": "Lancelot and his kinsmen cut through the guards like a storm through autumn leaves.",
+      "translation": "Lancelot ve akrabaları sonbahar yaprakları arasından geçen bir fırtına gibi muhafızları biçtiler.",
+      "notes": "Simile 'like a storm through leaves'; phrasal verb 'cut through'."
+    },
+    {
+      "id": 205,
+      "start_ms": 1208028,
+      "end_ms": 1214316,
+      "text": "In the confusion and blinding dust, Lancelot unknowingly struck down two unarmed knights.",
+      "translation": "Kargaşada ve kör edici tozda Lancelot farkında olmadan silahsız iki şövalyeyi yere serdi.",
+      "notes": "Adverb 'unknowingly'; coordinate nouns 'confusion and dust'."
+    },
+    {
+      "id": 206,
+      "start_ms": 1214716,
+      "end_ms": 1220260,
+      "text": "They were Sir Gareth and Sir Gaheris, the beloved younger brothers of Sir Gawain.",
+      "translation": "Bunlar Sör Gawain'in çok sevdiği küçük kardeşleri olan Sör Gareth ile Sör Gaheris idi.",
+      "notes": "Appositive identification; adjective 'beloved'."
+    },
+    {
+      "id": 207,
+      "start_ms": 1220660,
+      "end_ms": 1226588,
+      "text": "Lancelot lifted the Queen onto his saddle and galloped away to his castle of Joyous Gard.",
+      "translation": "Lancelot Kraliçeyi eyerine kaldırdı ve Joyous Gard'daki şatosuna doğru dörtnala uzaklaştı.",
+      "notes": "Coordinate past verbs 'lifted and galloped away'; proper castle name."
+    },
+    {
+      "id": 208,
+      "start_ms": 1226988,
+      "end_ms": 1231908,
+      "text": "When Gawain learned of his brothers' deaths, his noble heart turned to stone.",
+      "translation": "Gawain kardeşlerinin ölümünü öğrendiğinde soylu kalbi taşa döndü.",
+      "notes": "Time clause with 'learned of'; metaphor 'heart turned to stone'."
+    },
+    {
+      "id": 209,
+      "start_ms": 1232308,
+      "end_ms": 1238284,
+      "text": "'From this day forth,' swore Gawain, 'I will never cease from warring against Lancelot!'",
+      "translation": "'Bu günden itibaren,' diye ant içti Gawain, 'Lancelot ile savaşmaktan asla vazgeçmeyeceğim!'",
+      "notes": "Negative future modal 'will never cease from'; time phrase 'from this day forth'."
+    },
+    {
+      "id": 210,
+      "start_ms": 1238684,
+      "end_ms": 1243868,
+      "text": "Gawain demanded that King Arthur lead the royal army to besiege Joyous Gard.",
+      "translation": "Gawain Kral Arthur'un kraliyet ordusunu Joyous Gard'ı kuşatmak üzere yönetmesini talep etti.",
+      "notes": "Subjunctive noun clause 'lead army to besiege'; past verb 'demanded'."
+    },
+    {
+      "id": 211,
+      "start_ms": 1244268,
+      "end_ms": 1249932,
+      "text": "Arthur loved Lancelot still, but Gawain's terrible grief forced the King's hand.",
+      "translation": "Arthur Lancelot'u hala seviyordu fakat Gawain'in korkunç kederi Kral'ın elini zorladı.",
+      "notes": "Coordinate clauses with 'but'; idiom 'forced King's hand'."
+    },
+    {
+      "id": 212,
+      "start_ms": 1250332,
+      "end_ms": 1255732,
+      "text": "For months, the royal army besieged the mighty walls of Lancelot's castle.",
+      "translation": "Aylar boyunca kraliyet ordusu Lancelot'un kalesinin devasa surlarını kuşattı.",
+      "notes": "Duration phrase 'For months'; transitive past 'besieged'."
+    },
+    {
+      "id": 213,
+      "start_ms": 1256132,
+      "end_ms": 1261580,
+      "text": "Lancelot refused to ride out and kill the King's men, holding back his knights.",
+      "translation": "Lancelot şövalyelerini dizginleyerek dışarı çıkıp Kral'ın adamlarını öldürmeyi reddetti.",
+      "notes": "Verb + infinitive 'refused to ride out'; participle phrase 'holding back'."
+    },
+    {
+      "id": 214,
+      "start_ms": 1261980,
+      "end_ms": 1267476,
+      "text": "When forced to skirmish, Lancelot unhorsed Arthur gently and helped him mount again.",
+      "translation": "Çarpışmaya mecbur kaldığında Lancelot Arthur'u nezaketle atından düşürdü ve tekrar ata binmesine yardım etti.",
+      "notes": "Adverb 'gently'; coordinate past verbs 'unhorsed and helped mount'."
+    },
+    {
+      "id": 215,
+      "start_ms": 1267876,
+      "end_ms": 1273756,
+      "text": "'My lord King, I will never strike my sovereign lord,' said Lancelot with tears.",
+      "translation": "'Kralım efendim, ben hükümdar efendime asla kılıç vurmam,' dedi Lancelot gözyaşlarıyla.",
+      "notes": "Future modal negative 'will never strike'; direct address."
+    },
+    {
+      "id": 216,
+      "start_ms": 1274156,
+      "end_ms": 1279820,
+      "text": "The Pope intervened, commanding Arthur to take back Guinevere and establish peace.",
+      "translation": "Papa araya girdi, Arthur'a Guinevere'yi geri almasını ve barış tesis etmesini emretti.",
+      "notes": "Participle phrase of command; past verb 'intervened'."
+    },
+    {
+      "id": 217,
+      "start_ms": 1280220,
+      "end_ms": 1286172,
+      "text": "Lancelot returned the Queen to Arthur with royal dignity and went into voluntary exile.",
+      "translation": "Lancelot Kraliçeyi kraliyet asaletiyle Arthur'a iade etti ve kendi rızasıyla sürgüne gitti.",
+      "notes": "Coordinate past verbs 'returned and went'; compound noun 'voluntary exile'."
+    },
+    {
+      "id": 218,
+      "start_ms": 1286572,
+      "end_ms": 1291972,
+      "text": "He sailed to France with his followers, leaving England with a heavy, broken heart.",
+      "translation": "Arkasında kırık, ağır bir yürekle İngiltere'yi bırakarak takipçileriyle birlikte Fransa'ya yelken açtı.",
+      "notes": "Participle phrase 'leaving England with broken heart'; past verb 'sailed'."
+    },
+    {
+      "id": 219,
+      "start_ms": 1292372,
+      "end_ms": 1297892,
+      "text": "Gawain persuaded Arthur to pursue Lancelot across the sea to continue the vendetta.",
+      "translation": "Gawain bu kan davasını sürdürmek için deniz aşırı Lancelot'un peşine düşmesi konusunda Arthur'u ikna etti.",
+      "notes": "Verb + object + infinitive 'persuaded Arthur to pursue'; noun 'vendetta'."
+    },
+    {
+      "id": 220,
+      "start_ms": 1298292,
+      "end_ms": 1303188,
+      "text": "Arthur left Britain in the hands of Sir Mordred as regent during his absence.",
+      "translation": "Arthur yokluğu sırasında Britanya'yı naip olarak Sör Mordred'in ellerine bıraktı.",
+      "notes": "Prepositional phrase 'as regent during absence'; past verb 'left'."
+    },
+    {
+      "id": 221,
+      "start_ms": 1304188,
+      "end_ms": 1309732,
+      "text": "No sooner had King Arthur crossed to France than Mordred enacted his ultimate treason.",
+      "translation": "Kral Arthur Fransa'ya henüz yeni geçmişti ki Mordred en büyük ihanetini hayata geçirdi.",
+      "notes": "Inverted structure 'No sooner had Arthur crossed than'; noun phrase 'ultimate treason'."
+    },
+    {
+      "id": 222,
+      "start_ms": 1310132,
+      "end_ms": 1315172,
+      "text": "He forged letters proclaiming that King Arthur had been slain in battle abroad.",
+      "translation": "Kral Arthur'un denizaşırı bir savaşta öldürüldüğünü ilan eden sahte mektuplar düzenledi.",
+      "notes": "Participle phrase 'proclaiming that'; past perfect passive 'had been slain'."
+    },
+    {
+      "id": 223,
+      "start_ms": 1315572,
+      "end_ms": 1320900,
+      "text": "He summoned a corrupt parliament and had himself crowned King of Britain at Canterbury.",
+      "translation": "Yozlaşmış bir meclis topladı ve Canterbury'de kendini Britanya Kralı ilan ettirdi.",
+      "notes": "Causative structure 'had himself crowned'; coordinate past verbs."
+    },
+    {
+      "id": 224,
+      "start_ms": 1321300,
+      "end_ms": 1326724,
+      "text": "He attempted to force Queen Guinevere to marry him to legitimize his stolen throne.",
+      "translation": "Çalıntı tahtını meşrulaştırmak için Kraliçe Guinevere'yi kendisiyle evlenmeye zorlamaya kalkıştı.",
+      "notes": "Verb + infinitive 'attempted to force'; infinitive of purpose 'to legitimize'."
+    },
+    {
+      "id": 225,
+      "start_ms": 1327124,
+      "end_ms": 1333124,
+      "text": "Guinevere feigned consent, but secretly fled into the Tower of London with loyal guards.",
+      "translation": "Guinevere razıymış gibi davrandı fakat sadık muhafızlarıyla gizlice Londra Kulesi'ne sığındı.",
+      "notes": "Coordinate past clauses with 'but'; adverb 'secretly'."
+    },
+    {
+      "id": 226,
+      "start_ms": 1333524,
+      "end_ms": 1339428,
+      "text": "She locked the gates, provisioned the fortress, and defied Mordred's army from the walls.",
+      "translation": "Kapıları kilitledi, kaleye erzak yığdı ve surlardan Mordred'in ordusuna meydan okudu.",
+      "notes": "Series of coordinated past actions showing female resolve."
+    },
+    {
+      "id": 227,
+      "start_ms": 1339828,
+      "end_ms": 1345468,
+      "text": "Mordred besieged the Tower with siege engines, but could not breach its ancient stone.",
+      "translation": "Mordred kuşatma makineleriyle Kule'yi kuşattı fakat onun kadim taşlarını aşamadı.",
+      "notes": "Coordinate clauses with 'but'; modal negative 'could not breach'."
+    },
+    {
+      "id": 228,
+      "start_ms": 1345868,
+      "end_ms": 1351292,
+      "text": "News of this monstrous betrayal reached King Arthur in France by swift messenger.",
+      "translation": "Bu canavarca ihanetin haberi Fransa'daki Kral Arthur'a tez canlı bir ulakla ulaştı.",
+      "notes": "Prepositional phrase 'by swift messenger'; past verb 'reached'."
+    },
+    {
+      "id": 229,
+      "start_ms": 1351692,
+      "end_ms": 1357548,
+      "text": "Arthur was struck with devastating sorrow: his own kin had stolen his realm and throne.",
+      "translation": "Arthur yıkıcı bir kederle sarsıldı: kendi öz kanı ülkesini ve tahtını çalmıştı.",
+      "notes": "Passive voice 'was struck with'; past perfect 'had stolen'."
+    },
+    {
+      "id": 230,
+      "start_ms": 1357948,
+      "end_ms": 1363084,
+      "text": "He immediately ordered his fleet to turn about and sail full speed back to Britain.",
+      "translation": "Derhal donanmasına geriye dönüp tam süratle Britanya'ya yelken açması emrini verdi.",
+      "notes": "Verb + object + infinitive 'ordered fleet to turn'; compound noun 'full speed'."
+    },
+    {
+      "id": 231,
+      "start_ms": 1363484,
+      "end_ms": 1369172,
+      "text": "Mordred marched to the coast with a vast host of rebellious barons and foreign mercenaries.",
+      "translation": "Mordred asi baronlardan ve yabancı paralı askerlerden oluşan devasa bir orduyla sahile yürüdü.",
+      "notes": "Prepositional phrase 'with a vast host'; past verb 'marched'."
+    },
+    {
+      "id": 232,
+      "start_ms": 1369572,
+      "end_ms": 1375284,
+      "text": "When Arthur's ships attempted to land at Dover, Mordred's archers showered them with arrows.",
+      "translation": "Arthur'un gemileri Dover'da karaya çıkmaya çalıştığında Mordred'in okçuları onları ok yağmuruna tuttular.",
+      "notes": "Time clause with 'when'; transitive past 'showered with arrows'."
+    },
+    {
+      "id": 233,
+      "start_ms": 1375684,
+      "end_ms": 1381012,
+      "text": "Arthur and his knights leaped into the surf with drawn swords, fighting desperately.",
+      "translation": "Arthur ve şövalyeleri çekilmiş kılıçlarla köpüklere atladılar, canla başla savaştılar.",
+      "notes": "Coordinate past verbs; participle phrase 'fighting desperately'."
+    },
+    {
+      "id": 234,
+      "start_ms": 1381412,
+      "end_ms": 1386500,
+      "text": "Sir Gawain fought like a lion, carving a path through the traitorous ranks.",
+      "translation": "Sör Gawain hain safların arasından kendine yol açarak bir aslan gibi savaştı.",
+      "notes": "Simile 'like a lion'; participle phrase 'carving a path'."
+    },
+    {
+      "id": 235,
+      "start_ms": 1386900,
+      "end_ms": 1392060,
+      "text": "During the fierce landing, Gawain was struck full upon the old wound on his head.",
+      "translation": "Şiddetli çıkarma sırasında Gawain başındaki o eski yaranın tam üzerine bir darbe aldı.",
+      "notes": "Prepositional phrase 'During the landing'; passive voice 'was struck full'."
+    },
+    {
+      "id": 236,
+      "start_ms": 1392460,
+      "end_ms": 1397788,
+      "text": "The royal troops drove Mordred's army back, winning the bloody beaches of Dover.",
+      "translation": "Kraliyet birlikleri Mordred'in ordusunu geri püskürttü, Dover'ın kanlı kumsallarını kazandı.",
+      "notes": "Coordinate participles describing victory; past verb 'drove back'."
+    },
+    {
+      "id": 237,
+      "start_ms": 1398188,
+      "end_ms": 1403204,
+      "text": "Gawain collapsed on the sand, realizing his mortal hour was at hand.",
+      "translation": "Gawain ecel saatinin yaklaştığını anlayarak kumsalın üzerine yığıldı.",
+      "notes": "Participle clause 'realizing hour was at hand'; past verb 'collapsed'."
+    },
+    {
+      "id": 238,
+      "start_ms": 1403604,
+      "end_ms": 1409220,
+      "text": "Before he died, Gawain wept and wrote a letter of forgiveness to Sir Lancelot.",
+      "translation": "Ölmeden önce Gawain ağladı ve Sör Lancelot'a bir bağışlama mektubu yazdı.",
+      "notes": "Time clause 'before he died'; coordinate past verbs 'wept and wrote'."
+    },
+    {
+      "id": 239,
+      "start_ms": 1409620,
+      "end_ms": 1414804,
+      "text": "He begged Lancelot to return to Britain and save King Arthur from destruction.",
+      "translation": "Lancelot'a Britanya'ya dönüp Kral Arthur'u felaketten kurtarması için yalvardı.",
+      "notes": "Verb + object + infinitive 'begged Lancelot to return and save'."
+    },
+    {
+      "id": 240,
+      "start_ms": 1415204,
+      "end_ms": 1420532,
+      "text": "Gawain breathed his last in Arthur's weeping arms, the truest knight of the realm.",
+      "translation": "Diyarın en sadık şövalyesi olarak Gawain, Arthur'un ağlayan kolları arasında son nefesini verdi.",
+      "notes": "Appositive title 'truest knight'; idiom 'breathed his last'."
+    },
+    {
+      "id": 241,
+      "start_ms": 1421532,
+      "end_ms": 1426932,
+      "text": "King Arthur buried Sir Gawain in the chapel of Dover Castle with great lamentation.",
+      "translation": "Kral Arthur Sör Gawain'i büyük bir feryat figan içinde Dover Kalesi'nin şapeline gömdü.",
+      "notes": "Prepositional phrase 'with great lamentation'; past verb 'buried'."
+    },
+    {
+      "id": 242,
+      "start_ms": 1427332,
+      "end_ms": 1432588,
+      "text": "He marched westward following Mordred's retreating forces toward Salisbury Plain.",
+      "translation": "Salisbury Düzlüğü'ne doğru Mordred'in geri çekilen birliklerini takip ederek batıya yürüdü.",
+      "notes": "Participle phrase 'following retreating forces'; directional adverb 'westward'."
+    },
+    {
+      "id": 243,
+      "start_ms": 1432988,
+      "end_ms": 1438388,
+      "text": "The entire island was torn asunder, brother fighting brother in tragic darkness.",
+      "translation": "Bütün ada parçalanmıştı; kardeş kardeşe karşı trajik bir karanlıkta savaşıyordu.",
+      "notes": "Passive voice 'was torn asunder'; absolute phrase 'brother fighting brother'."
+    },
+    {
+      "id": 244,
+      "start_ms": 1438788,
+      "end_ms": 1444020,
+      "text": "On Trinity Sunday eve, King Arthur lay sleeping in his royal pavilion.",
+      "translation": "Teslis Pazarı arifesinde Kral Arthur kraliyet çadırında uyuyordu.",
+      "notes": "Time phrase; past continuous idiom 'lay sleeping'."
+    },
+    {
+      "id": 245,
+      "start_ms": 1444420,
+      "end_ms": 1449916,
+      "text": "He had a terrifying dream wherein he sat on a chair bound to a great turning wheel.",
+      "translation": "Büyük dönen bir tekerleğe bağlı bir sandalyede oturduğu korkunç bir rüya gördü.",
+      "notes": "Relative clause 'wherein he sat'; past participle modifier 'bound to wheel'."
+    },
+    {
+      "id": 246,
+      "start_ms": 1450316,
+      "end_ms": 1456460,
+      "text": "Beneath the wheel swarmed black water full of serpents, dragons, and hideous beasts.",
+      "translation": "Tekerleğin altında yılanlar, ejderhalar ve iğrenç canavarlarla dolu kara sular kaynıyordu.",
+      "notes": "Inverted locative sentence; adjective phrase 'full of serpents'."
+    },
+    {
+      "id": 247,
+      "start_ms": 1456860,
+      "end_ms": 1462212,
+      "text": "The wheel overturned, dumping Arthur into the ravenous monsters' gaping jaws.",
+      "translation": "Tekerlek devrildi, Arthur'u obur canavarların ardına kadar açık çenelerine boca etti.",
+      "notes": "Coordinate past clauses; participle phrase 'dumping Arthur'."
+    },
+    {
+      "id": 248,
+      "start_ms": 1462612,
+      "end_ms": 1467724,
+      "text": "He woke shouting in terror, and presently fell into a second profound vision.",
+      "translation": "Dehşet içinde bağırarak uyandı ve çok geçmeden ikinci derin bir rüyaya daldı.",
+      "notes": "Coordinate past verbs; participle phrase 'shouting in terror'."
+    },
+    {
+      "id": 249,
+      "start_ms": 1468124,
+      "end_ms": 1473476,
+      "text": "The ghost of Sir Gawain appeared to him, surrounded by beautiful weeping maidens.",
+      "translation": "Güzel, ağlayan genç kızlarla çevrili halde Sör Gawain'in hayaleti ona göründü.",
+      "notes": "Passive participle modifier 'surrounded by maidens'; past verb 'appeared'."
+    },
+    {
+      "id": 250,
+      "start_ms": 1473876,
+      "end_ms": 1479156,
+      "text": "'Uncle,' spoke Gawain's spirit, 'God hath sent me to warn thee of thy death.'",
+      "translation": "'Amca,' diye konuştu Gawain'in ruhu, 'Tanrı seni ölümün konusunda uyarmam için beni gönderdi.'",
+      "notes": "Archaic verbs 'hath sent'; infinitive of purpose 'to warn thee'."
+    },
+    {
+      "id": 251,
+      "start_ms": 1479556,
+      "end_ms": 1484956,
+      "text": "'If thou fightest with Mordred tomorrow, thou shalt be slain and thy realm destroyed.'",
+      "translation": "'Eğer yarın Mordred ile savaşırsan öldürüleceksin ve ülken yok edilecek.'",
+      "notes": "Conditional clause with archaic forms; passive future modal."
+    },
+    {
+      "id": 252,
+      "start_ms": 1485356,
+      "end_ms": 1490924,
+      "text": "'Make a truce for a month and a day, for within that time Sir Lancelot will arrive.'",
+      "translation": "'Bir ay bir günlüğüne bir ateşkes yap, çünkü bu süre içinde Sör Lancelot gelecektir.'",
+      "notes": "Imperative 'make a truce'; future modal 'Lancelot will arrive'."
+    },
+    {
+      "id": 253,
+      "start_ms": 1491324,
+      "end_ms": 1495836,
+      "text": "'Lancelot and his knights will defeat Mordred and deliver thee into safety.'",
+      "translation": "'Lancelot ve şövalyeleri Mordred'i yenecek ve seni güvenliğe kavuşturacaktır.'",
+      "notes": "Coordinate future modal predicates; direct prophecy."
+    },
+    {
+      "id": 254,
+      "start_ms": 1496236,
+      "end_ms": 1500916,
+      "text": "Arthur woke with trembling limbs and summoned his remaining knights at dawn.",
+      "translation": "Arthur titreyen uzuvlarla uyandı ve şafakta hayatta kalan şövalyelerini topladı.",
+      "notes": "Prepositional phrase 'with trembling limbs'; coordinate past verbs."
+    },
+    {
+      "id": 255,
+      "start_ms": 1501316,
+      "end_ms": 1506380,
+      "text": "He sent Sir Lucan and Sir Bedivere to negotiate a month's truce with Mordred.",
+      "translation": "Mordred ile bir aylık bir ateşkes müzakere etmek için Sör Lucan ve Sör Bedivere'i gönderdi.",
+      "notes": "Infinitive of purpose 'to negotiate truce'; proper names."
+    },
+    {
+      "id": 256,
+      "start_ms": 1506780,
+      "end_ms": 1512108,
+      "text": "Mordred agreed to the truce in exchange for Cornwall and Kent during Arthur's life.",
+      "translation": "Mordred Arthur'un sağlığında Cornwall ve Kent'in verilmesi karşılığında ateşkesi kabul etti.",
+      "notes": "Prepositional phrase 'in exchange for'; past verb 'agreed'."
+    },
+    {
+      "id": 257,
+      "start_ms": 1512508,
+      "end_ms": 1517572,
+      "text": "They agreed to meet on Camlann field with fourteen knights each to sign the treaty.",
+      "translation": "Anlaşmayı imzalamak için her iki taraftan on dörder şövalyeyle Camlann meydanında buluşmayı kabul ettiler.",
+      "notes": "Infinitive of purpose 'to sign treaty'; numeral 'fourteen knights each'."
+    },
+    {
+      "id": 258,
+      "start_ms": 1517972,
+      "end_ms": 1524476,
+      "text": "Before riding out, Arthur warned his men: 'If ye see any sword drawn, strike fiercely!'",
+      "translation": "At sürmeden önce Arthur adamlarını uyardı: 'Eğer çekilen bir tek kılıç görürseniz, acımasızca vurun!'",
+      "notes": "Condition 'If ye see sword drawn'; imperative 'strike fiercely'."
+    },
+    {
+      "id": 259,
+      "start_ms": 1524876,
+      "end_ms": 1529796,
+      "text": "Mordred gave the exact same deadly command to his own suspicious army.",
+      "translation": "Mordred kendi şüpheci ordusuna da tıpatıp aynı ölümcül emri verdi.",
+      "notes": "Transitive past 'gave'; compound adjective 'exact same'."
+    },
+    {
+      "id": 260,
+      "start_ms": 1530196,
+      "end_ms": 1535308,
+      "text": "An invisible thread of catastrophic fate hung over the doomed field of Camlann.",
+      "translation": "Camlann'ın lanetli meydanı üzerinde felaket dolu bir kaderin görünmez ipliği asılı duruyordu.",
+      "notes": "Metaphor 'thread of fate hung'; participial adjective 'doomed field'."
+    },
+    {
+      "id": 261,
+      "start_ms": 1536308,
+      "end_ms": 1541876,
+      "text": "The two leaders met on the heath, drank wine, and discussed the terms of peace.",
+      "translation": "İki lider kırda buluştular, şarap içtiler ve barış şartlarını müzakere ettiler.",
+      "notes": "Series of coordinated past action verbs; noun phrase 'terms of peace'."
+    },
+    {
+      "id": 262,
+      "start_ms": 1542276,
+      "end_ms": 1547364,
+      "text": "Suddenly, an adder slid out of a heath-bush and stung a knight upon the foot.",
+      "translation": "Birdenbire bir funda çalısından bir engerek yılanı süzüldü ve bir şövalyeyi ayağından soktu.",
+      "notes": "Coordinate past verbs 'slid and stung'; compound noun 'heath-bush'."
+    },
+    {
+      "id": 263,
+      "start_ms": 1547764,
+      "end_ms": 1552684,
+      "text": "Feeling the sharp bite, the knight drew his sword to kill the venomous serpent.",
+      "translation": "Keskin ısırığı hisseden şövalye zehirli yılanı öldürmek için kılıcını çekti.",
+      "notes": "Participle clause of perception; infinitive of purpose 'to kill serpent'."
+    },
+    {
+      "id": 264,
+      "start_ms": 1553084,
+      "end_ms": 1558796,
+      "text": "When the two armies saw the sun flash upon the drawn blade, horns blew wildly.",
+      "translation": "İki ordu güneşte çekilmiş namlunun parıldadığını görünce borular çılgınca öttü.",
+      "notes": "Time clause with 'saw flash'; coordinate clauses."
+    },
+    {
+      "id": 265,
+      "start_ms": 1559196,
+      "end_ms": 1564692,
+      "text": "'Treason!' shouted the hosts, and one hundred thousand men charged into battle.",
+      "translation": "'İhanet!' diye haykırdı ordular ve yüz bin adam savaşa hücum etti.",
+      "notes": "Numeral 'one hundred thousand'; past verb 'charged'."
+    },
+    {
+      "id": 266,
+      "start_ms": 1565092,
+      "end_ms": 1570084,
+      "text": "Never was seen so doleful and bloody a battle in all of Christian Britain.",
+      "translation": "Tüm Hristiyan Britanya'sında böylesine kederli ve kanlı bir savaş hiç görülmemişti.",
+      "notes": "Inverted negative passive sentence 'Never was seen so doleful a battle'."
+    },
+    {
+      "id": 267,
+      "start_ms": 1570484,
+      "end_ms": 1575884,
+      "text": "They fought throughout the day, swords shattering shields and lances piercing armor.",
+      "translation": "Gün boyunca savaştılar; kılıçlar kalkanları parçaladı, mızraklar zırhları delip geçti.",
+      "notes": "Absolute constructions with participles; duration phrase."
+    },
+    {
+      "id": 268,
+      "start_ms": 1576284,
+      "end_ms": 1581084,
+      "text": "The green heath turned crimson with the blood of the bravest knights in the world.",
+      "translation": "Yeşil kır, dünyadaki en cesur şövalyelerin kanıyla kızıla döndü.",
+      "notes": "Copular verb 'turned crimson'; superlative 'bravest knights'."
+    },
+    {
+      "id": 269,
+      "start_ms": 1581484,
+      "end_ms": 1587388,
+      "text": "King Arthur rode through the carnage like an enraged lion, wielding Excalibur with fury.",
+      "translation": "Kral Arthur alevlenen bir aslan gibi kan gölünün içinden at sürdü, Ekskalibur'u öfkeyle savurdu.",
+      "notes": "Simile 'like an enraged lion'; participle phrase 'wielding Excalibur'."
+    },
+    {
+      "id": 270,
+      "start_ms": 1587788,
+      "end_ms": 1593404,
+      "text": "By evening, the great army of Britain lay dead upon the silent, bloody heather.",
+      "translation": "Akşama doğru Britanya'nın ulu ordusu sessiz, kanlı süpürge otlarının üzerinde ölü yatıyordu.",
+      "notes": "Time phrase 'By evening'; copular past 'lay dead'."
+    },
+    {
+      "id": 271,
+      "start_ms": 1593804,
+      "end_ms": 1599972,
+      "text": "Of all the Round Table, only King Arthur, Sir Lucan, and Sir Bedivere survived.",
+      "translation": "Bütün Yuvarlak Masa'dan sadece Kral Arthur, Sör Lucan ve Sör Bedivere hayatta kaldı.",
+      "notes": "Exceptive phrase 'Of all Round Table'; past verb 'survived'."
+    },
+    {
+      "id": 272,
+      "start_ms": 1600372,
+      "end_ms": 1606852,
+      "text": "Arthur looked across the slaughter and wept: 'O Jesu! Where are all my noble knights?'",
+      "translation": "Arthur katliama baktı ve ağladı: 'Ey İsa! Nerede benim bütün o soylu şövalyelerim?'",
+      "notes": "Coordinate past verbs 'looked and wept'; lamenting rhetorical question."
+    },
+    {
+      "id": 273,
+      "start_ms": 1607252,
+      "end_ms": 1612508,
+      "text": "Then Arthur saw Sir Mordred leaning upon his bloody sword amidst a pile of dead.",
+      "translation": "Sonra Arthur ölüler yığınının ortasında kanlı kılıcına yaslanan Sör Mordred'i gördü.",
+      "notes": "Perception verb 'saw' + participle 'leaning upon'; prepositional phrase."
+    },
+    {
+      "id": 274,
+      "start_ms": 1612908,
+      "end_ms": 1618500,
+      "text": "'Give me my spear,' cried Arthur, 'for there stands the traitor who caused this woe!'",
+      "translation": "'Bana mızrağımı verin,' diye haykırdı Arthur, 'zira bu felakete sebep olan hain işte orada duruyor!'",
+      "notes": "Imperative 'give me spear'; relative clause 'who caused this woe'."
+    },
+    {
+      "id": 275,
+      "start_ms": 1618900,
+      "end_ms": 1624060,
+      "text": "Sir Lucan pleaded with the King to remember Gawain's warning and spare himself.",
+      "translation": "Sör Lucan Gawain'in uyarısını hatırlaması ve kendini kollaması için Kral'a yalvardı.",
+      "notes": "Verb + object + infinitive 'pleaded to remember and spare'."
+    },
+    {
+      "id": 276,
+      "start_ms": 1624460,
+      "end_ms": 1630004,
+      "text": "'Tide life, tide death,' cried Arthur, 'he shall not escape my hand!'",
+      "translation": "'İster ölüm olsun ister yaşam,' diye haykırdı Arthur, 'elimden kurtulamayacak!'",
+      "notes": "Archaic idiom 'Tide life, tide death'; modal 'shall not escape'."
+    },
+    {
+      "id": 277,
+      "start_ms": 1630404,
+      "end_ms": 1635348,
+      "text": "Arthur charged at Mordred with his spear, crying out in righteous anguish.",
+      "translation": "Arthur haklı bir ızdırap içinde haykırarak mızrağıyla Mordred'e doğru hücum etti.",
+      "notes": "Prepositional phrase 'with his spear'; participle phrase 'crying out'."
+    },
+    {
+      "id": 278,
+      "start_ms": 1635748,
+      "end_ms": 1641028,
+      "text": "He ran Mordred through the body with the spear until the blade protruded from his back.",
+      "translation": "Mızrağın ucu arkasından çıkana kadar mızrağı Mordred'in gövdesine sapladı.",
+      "notes": "Time clause with 'until'; phrasal verb 'ran through'."
+    },
+    {
+      "id": 279,
+      "start_ms": 1641428,
+      "end_ms": 1647308,
+      "text": "Feeling his death wound, Mordred lunged forward and struck Arthur on the helmet with his sword.",
+      "translation": "Ölümcül yarasını hisseden Mordred ileri atıldı ve kılıcıyla Arthur'un miğferine vurdu.",
+      "notes": "Participle phrase of perception; coordinate past verbs 'lunged and struck'."
+    },
+    {
+      "id": 280,
+      "start_ms": 1647708,
+      "end_ms": 1652892,
+      "text": "The blow pierced the helmet into the brain, and the traitor fell dead upon the earth.",
+      "translation": "Darbe miğferi delip beyne kadar girdi ve hain toprak üzerine ölü olarak yığıldı.",
+      "notes": "Coordinate clauses; resultative adjective 'fell dead'."
+    },
+    {
+      "id": 281,
+      "start_ms": 1653892,
+      "end_ms": 1658932,
+      "text": "Sir Bedivere carried the mortally wounded King to the shores of a peaceful lake.",
+      "translation": "Sör Bedivere ölümcül şekilde yaralanan Kralı huzurlu bir gölün kıyılarına taşıdı.",
+      "notes": "Adverbial participle 'mortally wounded'; past verb 'carried'."
+    },
+    {
+      "id": 282,
+      "start_ms": 1659332,
+      "end_ms": 1663844,
+      "text": "Arthur knew his earthly end was approaching swiftly in the twilight.",
+      "translation": "Arthur alacakaranlıkta dünyevi sonunun hızla yaklaşmakta olduğunu biliyordu.",
+      "notes": "Noun clause with past continuous; prepositional phrase 'in the twilight'."
+    },
+    {
+      "id": 283,
+      "start_ms": 1664244,
+      "end_ms": 1670364,
+      "text": "'Take Excalibur, my good Bedivere,' whispered the dying King, 'and throw it into the water.'",
+      "translation": "'Ekskalibur'u al iyi Bedivere,' diye fısıldadı ölmekte olan Kral, 've onu suya fırlat.'",
+      "notes": "Direct command; coordinate imperatives 'take and throw'."
+    },
+    {
+      "id": 284,
+      "start_ms": 1670764,
+      "end_ms": 1675420,
+      "text": "'Watch what happens, and return quickly to tell me what thou seest.'",
+      "translation": "'Ne olduğunu izle ve ne gördüğünü bana söylemek için çabuk dön.'",
+      "notes": "Imperative coordinates; noun clauses with 'what'."
+    },
+    {
+      "id": 285,
+      "start_ms": 1675820,
+      "end_ms": 1681340,
+      "text": "Bedivere took the wondrous sword, but was overcome by the beauty of its golden hilt.",
+      "translation": "Bedivere harika kılıcı aldı fakat altın kabzasının güzelliğine kapıldı.",
+      "notes": "Coordinate clauses with 'but'; passive voice 'was overcome by'."
+    },
+    {
+      "id": 286,
+      "start_ms": 1681740,
+      "end_ms": 1687740,
+      "text": "He hid Excalibur behind a tree and returned, lying that he had seen only ripples on the water.",
+      "translation": "Ekskalibur'u bir ağacın arkasına sakladı ve geri döndü; suda sadece dalgacıklar gördüğünü söyleyerek yalan attı.",
+      "notes": "Participle clause 'lying that...'; past verbs 'hid and returned'."
+    },
+    {
+      "id": 287,
+      "start_ms": 1688140,
+      "end_ms": 1693900,
+      "text": "'Thou hast betrayed me twice,' whispered Arthur sorrowfully when Bedivere failed again.",
+      "translation": "Bedivere tekrar başarısız olduğunda Arthur kederle fısıldadı: 'Bana iki kez ihanet ettin.'",
+      "notes": "Present perfect 'hast betrayed'; time clause with 'when'."
+    },
+    {
+      "id": 288,
+      "start_ms": 1694300,
+      "end_ms": 1699244,
+      "text": "'For my sake, go a third time and fling the blade into the deep current.'",
+      "translation": "'Benim hatırım için üçüncü kez git ve namluyu derin akıntıya fırlat.'",
+      "notes": "Prepositional phrase 'for my sake'; imperative 'fling the blade'."
+    },
+    {
+      "id": 289,
+      "start_ms": 1699644,
+      "end_ms": 1705236,
+      "text": "Bedivere ran to the water's edge, seized the sword, and heaved it with all his might.",
+      "translation": "Bedivere suyun kenarına koştu, kılıcı kavradı ve bütün gücüyle savurdu.",
+      "notes": "Series of coordinated past action verbs; phrase 'with all his might'."
+    },
+    {
+      "id": 290,
+      "start_ms": 1705636,
+      "end_ms": 1710268,
+      "text": "The sword flashed through the air, turning over and over in the moonlight.",
+      "translation": "Kılıç ay ışığında döne döne havada parıldadı.",
+      "notes": "Participle phrase 'turning over and over'; past verb 'flashed'."
+    },
+    {
+      "id": 291,
+      "start_ms": 1710668,
+      "end_ms": 1716236,
+      "text": "Before it touched the surface, an arm clothed in white samite rose from the water.",
+      "translation": "Yüzeye değmeden önce, beyaz ipeklere bürünmüş bir kol sudan yukarı yükseldi.",
+      "notes": "Time clause with 'before'; passive participle modifier 'clothed in samite'."
+    },
+    {
+      "id": 292,
+      "start_ms": 1716636,
+      "end_ms": 1722444,
+      "text": "The hand caught Excalibur by the hilt, brandished it three times, and drew it under.",
+      "translation": "El Ekskalibur'u kabzasından yakaladı, üç kez havada salladı ve suyun altına çekti.",
+      "notes": "Series of coordinated past actions showing supernatural reclamation."
+    },
+    {
+      "id": 293,
+      "start_ms": 1722844,
+      "end_ms": 1727764,
+      "text": "Bedivere returned in awe and recounted the wondrous marvel to King Arthur.",
+      "translation": "Bedivere huşu içinde geri döndü ve o harikulade mucizeyi Kral Arthur'a anlattı.",
+      "notes": "Coordinate past verbs 'returned and recounted'; prepositional phrase 'in awe'."
+    },
+    {
+      "id": 294,
+      "start_ms": 1728164,
+      "end_ms": 1732868,
+      "text": "'Now carry me to the water's edge,' said the King in a faint voice.",
+      "translation": "'Şimdi beni suyun kenarına taşı,' dedi Kral zayıf bir sesle.",
+      "notes": "Imperative 'carry me'; prepositional phrase 'in a faint voice'."
+    },
+    {
+      "id": 295,
+      "start_ms": 1733268,
+      "end_ms": 1738812,
+      "text": "At the shore floated a dark barge carrying three crowned queens in black hoods.",
+      "translation": "Kıyıda, siyah kukuletalı taçlı üç kraliçeyi taşıyan karanlık bir tekne yüzüyordu.",
+      "notes": "Inverted locative sentence; participle phrase 'carrying three queens'."
+    },
+    {
+      "id": 296,
+      "start_ms": 1739212,
+      "end_ms": 1744132,
+      "text": "They wept aloud and received the dying King with infinite, tender sorrow.",
+      "translation": "Sesli sesli ağladılar ve ölmekte olan Kralı sonsuz, şefkatli bir kederle kabul ettiler.",
+      "notes": "Coordinate past verbs 'wept and received'; adjective pair 'infinite, tender'."
+    },
+    {
+      "id": 297,
+      "start_ms": 1744532,
+      "end_ms": 1749548,
+      "text": "One queen laid Arthur's head upon her lap, calling him her dearest brother.",
+      "translation": "Kraliçelerden biri Arthur'un başını kucağına koydu, ona en sevgili kardeşi diye seslendi.",
+      "notes": "Participle phrase 'calling him her brother'; past verb 'laid'."
+    },
+    {
+      "id": 298,
+      "start_ms": 1749948,
+      "end_ms": 1755276,
+      "text": "'I go to the valley of Avalon to be healed of my grievous wound,' whispered Arthur.",
+      "translation": "'Ağır yaramdan şifa bulmak için Avalon vadisine gidiyorum,' diye fısıldadı Arthur.",
+      "notes": "Passive infinitive 'to be healed of'; present continuous for future."
+    },
+    {
+      "id": 299,
+      "start_ms": 1755676,
+      "end_ms": 1761388,
+      "text": "The dark barge glided silently into the mist, carrying the great King into eternity.",
+      "translation": "Karanlık tekne ulu Kralı ebediyete taşıyarak sislerin içine doğru sessizce süzüldü.",
+      "notes": "Participle phrase 'carrying King into eternity'; adverb 'silently'."
+    },
+    {
+      "id": 300,
+      "start_ms": 1761788,
+      "end_ms": 1768124,
+      "text": "Upon his tomb in Glastonbury was written: Here lies Arthur, King that was and King that shall be.",
+      "translation": "Glastonbury'deki mezarının üzerine şöyle yazıldı: Burada Arthur yatıyor; geçmişin Kralı ve geleceğin Kralı.",
+      "notes": "Famous epitaph: 'Rex quondam, Rexque futurus'; passive inverted structure."
+    }
+  ]
+}

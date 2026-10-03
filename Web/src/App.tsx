@@ -136,6 +136,13 @@ const PRESET_LESSONS: PresetLesson[] = [
     pdfUrl: '/lessons/book_17_the_merry_adventures_of_robin_hood/book_17_the_merry_adventures_of_robin_hood.pdf',
   },
   {
+    id: 'book_18_king_arthur',
+    name: "18. King Arthur (15 Sayfa / 300 Cümle)",
+    jsonUrl: '/lessons/book_18_king_arthur/lesson.json',
+    audioUrl: '/lessons/book_18_king_arthur/audio.mp3',
+    pdfUrl: '/lessons/book_18_king_arthur/book_18_king_arthur.pdf',
+  },
+  {
     id: 'sample_ch01',
     name: 'Demo: The Departure (6 Cümle)',
     jsonUrl: '/lessons/sample_ch01/lesson.json',
