@@ -94,6 +94,13 @@ const PRESET_LESSONS: PresetLesson[] = [
     pdfUrl: '/lessons/book_11_alices_adventures_in_wonderland/book_11_alices_adventures_in_wonderland.pdf',
   },
   {
+    id: 'book_12_the_adventures_of_pinocchio',
+    name: "12. The Adventures of Pinocchio (15 Sayfa / 300 Cümle)",
+    jsonUrl: '/lessons/book_12_the_adventures_of_pinocchio/lesson.json',
+    audioUrl: '/lessons/book_12_the_adventures_of_pinocchio/audio.mp3',
+    pdfUrl: '/lessons/book_12_the_adventures_of_pinocchio/book_12_the_adventures_of_pinocchio.pdf',
+  },
+  {
     id: 'sample_ch01',
     name: 'Demo: The Departure (6 Cümle)',
     jsonUrl: '/lessons/sample_ch01/lesson.json',
