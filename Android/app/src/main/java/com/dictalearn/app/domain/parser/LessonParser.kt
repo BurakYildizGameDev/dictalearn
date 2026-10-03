@@ -129,4 +129,36 @@ object LessonParser {
             )
         )
     }
+
+    fun toJson(lesson: Lesson): String {
+        val root = JSONObject()
+        root.put("schema_version", lesson.schemaVersion)
+        root.put("lesson_id", lesson.lessonId)
+        root.put("title", lesson.title)
+        root.put("source_lang", lesson.sourceLang)
+        root.put("target_lang", lesson.targetLang)
+        root.put("audio_file", lesson.audioFile)
+
+        lesson.attribution?.let {
+            val attr = JSONObject()
+            attr.put("source", it.source)
+            attr.put("license", it.license)
+            root.put("attribution", attr)
+        }
+
+        val segmentsArray = org.json.JSONArray()
+        for (seg in lesson.segments) {
+            val segObj = JSONObject()
+            segObj.put("id", seg.id)
+            segObj.put("start_ms", seg.startMs)
+            segObj.put("end_ms", seg.endMs)
+            segObj.put("text", seg.text)
+            seg.translation?.let { segObj.put("translation", it) }
+            seg.notes?.let { segObj.put("notes", it) }
+            segmentsArray.put(segObj)
+        }
+        root.put("segments", segmentsArray)
+
+        return root.toString(2)
+    }
 }
