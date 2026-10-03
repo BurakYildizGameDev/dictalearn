@@ -1,0 +1,2414 @@
+{
+  "schema_version": 1,
+  "lesson_id": "book_14_the_jungle_book",
+  "title": "The Jungle Book: Mowgli of the Free People (15 Sayfa / 300 Cümle / Graded Reader)",
+  "source_lang": "en",
+  "target_lang": "tr",
+  "audio_file": "audio.mp3",
+  "attribution": {
+    "source": "Rudyard Kipling / Graded Reader Adaptasyonu (15 Sayfa x 20 Cümle)",
+    "license": "Public Domain / Educational Fair Use"
+  },
+  "segments": [
+    {
+      "id": 1,
+      "start_ms": 300,
+      "end_ms": 4428,
+      "text": "It was seven o'clock of a warm evening in the Seeonee hills.",
+      "translation": "Seeonee tepelerinde ılık bir akşam saat yedi sularıydı.",
+      "notes": "Past time phrase; 'warm evening' describes climate."
+    },
+    {
+      "id": 2,
+      "start_ms": 4828,
+      "end_ms": 9196,
+      "text": "Father Wolf woke up from his day's rest and stretched his paws.",
+      "translation": "Baba Kurt gündüz uykusundan uyandı ve patilerini esnetti.",
+      "notes": "Phrasal verb 'wake up'; regular past 'stretched'."
+    },
+    {
+      "id": 3,
+      "start_ms": 9596,
+      "end_ms": 14924,
+      "text": "Mother Wolf lay with her big gray nose dropped across her four tumbling cubs.",
+      "translation": "Anne Kurt, büyük gri burnunu yuvarlanan dört yavrusunun üzerine koymuş yatıyordu.",
+      "notes": "Irregular verb 'lay' (past of lie); participial adjective 'tumbling'."
+    },
+    {
+      "id": 4,
+      "start_ms": 15324,
+      "end_ms": 19332,
+      "text": "The moon shone into the mouth of the cave where they all lived.",
+      "translation": "Ay ışığı, hepsinin birlikte yaşadığı mağaranın ağzına vuruyordu.",
+      "notes": "Irregular past 'shone' (shine); relative clause 'where they all lived'."
+    },
+    {
+      "id": 5,
+      "start_ms": 19732,
+      "end_ms": 24532,
+      "text": "Suddenly, a dry rustle sounded among the thick bushes outside.",
+      "translation": "Aniden, dışarıdaki sık çalıların arasında kuru bir hışırtı duyuldu.",
+      "notes": "Adverb 'suddenly'; preposition 'among' for groups."
+    },
+    {
+      "id": 6,
+      "start_ms": 24932,
+      "end_ms": 28796,
+      "text": "Father Wolf sprang forward with his ears pointed high.",
+      "translation": "Baba Kurt kulaklarını dikmiş halde ileriye doğru fırladı.",
+      "notes": "Irregular past 'sprang' (spring); participle phrase 'with his ears pointed'."
+    },
+    {
+      "id": 7,
+      "start_ms": 29196,
+      "end_ms": 32892,
+      "text": "Something was coming up the hill in the dark shadows.",
+      "translation": "Karanlık gölgelerin içinde bir şey tepeye doğru çıkıyordu.",
+      "notes": "Past continuous 'was coming'; indefinite pronoun 'something'."
+    },
+    {
+      "id": 8,
+      "start_ms": 33292,
+      "end_ms": 38836,
+      "text": "Directly in front of him, holding on by a low branch, stood a tiny baby.",
+      "translation": "Tam önünde, alçak bir dala tutunarak duran küçücük bir bebek vardı.",
+      "notes": "Inverted sentence structure; participial clause 'holding on by'."
+    },
+    {
+      "id": 9,
+      "start_ms": 39236,
+      "end_ms": 43364,
+      "text": "He was a naked brown human baby who could scarcely walk.",
+      "translation": "Henüz zar zor yürüyebilen, çıplak, esmer bir insan yavrusuydu.",
+      "notes": "Adverb 'scarcely' means barely or hardly."
+    },
+    {
+      "id": 10,
+      "start_ms": 43764,
+      "end_ms": 48228,
+      "text": "The little boy looked up into Father Wolf's face and laughed happily.",
+      "translation": "Küçük oğlan Baba Kurt'un yüzüne baktı ve neşeyle güldü.",
+      "notes": "Phrasal verb 'look up into'; adverb 'happily'."
+    },
+    {
+      "id": 11,
+      "start_ms": 48628,
+      "end_ms": 52492,
+      "text": "'Is that a man's cub?' asked Mother Wolf softly.",
+      "translation": "'O bir insan yavrusu mu?' diye sordu Anne Kurt usulca.",
+      "notes": "Direct question; possessive 'man's cub'."
+    },
+    {
+      "id": 12,
+      "start_ms": 52892,
+      "end_ms": 57668,
+      "text": "'I have never seen one before in our hills,' replied Father Wolf.",
+      "translation": "'Tepelerimizde daha önce hiç böylesini görmemiştim,' diye yanıtladı Baba Kurt.",
+      "notes": "Present perfect with 'never' indicates life experience."
+    },
+    {
+      "id": 13,
+      "start_ms": 58068,
+      "end_ms": 62604,
+      "text": "Father Wolf picked the baby up very carefully between his jaws.",
+      "translation": "Baba Kurt bebeği çenelerinin arasına alıp çok dikkatlice kaldırdı.",
+      "notes": "Separable phrasal verb 'picked up'; adverb 'carefully'."
+    },
+    {
+      "id": 14,
+      "start_ms": 63004,
+      "end_ms": 67084,
+      "text": "Not a single tooth scratched the tender skin of the child.",
+      "translation": "Tek bir diş bile çocuğun narin cildini çizmedi.",
+      "notes": "Negative subject 'not a single tooth'; adjective 'tender'."
+    },
+    {
+      "id": 15,
+      "start_ms": 67484,
+      "end_ms": 71324,
+      "text": "He placed the boy down beside his own little cubs.",
+      "translation": "Oğlanı kendi minik yavrularının yanına bıraktı.",
+      "notes": "Preposition 'beside' means next to."
+    },
+    {
+      "id": 16,
+      "start_ms": 71724,
+      "end_ms": 75588,
+      "text": "The tiny infant pushed his way close to the warm fur.",
+      "translation": "Minik bebek sıcak kürkün yanına sokulmak için yol açtı.",
+      "notes": "Expression 'push one's way'; comparative closeness 'close to'."
+    },
+    {
+      "id": 17,
+      "start_ms": 75988,
+      "end_ms": 80500,
+      "text": "'He has no fear at all,' said Mother Wolf with a proud smile.",
+      "translation": "'Onda hiç korku yok,' dedi Anne Kurt gururlu bir tebessümle.",
+      "notes": "Negative expression 'no fear at all'; prepositional phrase 'with a proud smile'."
+    },
+    {
+      "id": 18,
+      "start_ms": 80900,
+      "end_ms": 85028,
+      "text": "The other four wolf cubs nudged their new brother playfully.",
+      "translation": "Diğer dört kurt yavrusu yeni kardeşlerini oyunbazca dürttü.",
+      "notes": "Past tense 'nudged'; adverb 'playfully'."
+    },
+    {
+      "id": 19,
+      "start_ms": 85428,
+      "end_ms": 89556,
+      "text": "A great shadow fell across the entrance of the dark cave.",
+      "translation": "Karanlık mağaranın girişine koca bir gölge düştü.",
+      "notes": "Irregular past 'fell' (fall); preposition 'across'."
+    },
+    {
+      "id": 20,
+      "start_ms": 89956,
+      "end_ms": 93580,
+      "text": "The wild law of the jungle was about to be tested.",
+      "translation": "Ormanın vahşi kanunları sınanmak üzereydi.",
+      "notes": "Idiomatic structure 'was about to' expresses immediate future in the past."
+    },
+    {
+      "id": 21,
+      "start_ms": 94580,
+      "end_ms": 98804,
+      "text": "A huge striped head appeared in the narrow entrance of the cave.",
+      "translation": "Mağaranın dar girişinde devasa çizgili bir kafa belirdi.",
+      "notes": "Adjective 'striped'; noun phrase 'narrow entrance'."
+    },
+    {
+      "id": 22,
+      "start_ms": 99204,
+      "end_ms": 104052,
+      "text": "It was Shere Khan, the great tiger who lived near the Waingunga river.",
+      "translation": "Bu, Waingunga nehri yakınlarında yaşayan büyük kaplan Shere Han'dı.",
+      "notes": "Relative clause introduced by 'who' defining the tiger."
+    },
+    {
+      "id": 23,
+      "start_ms": 104452,
+      "end_ms": 108460,
+      "text": "His yellow eyes burned with angry greed in the darkness.",
+      "translation": "Sarı gözleri karanlıkta öfkeli bir açgözlülükle parlıyordu.",
+      "notes": "Metaphorical verb 'burned with'; noun 'greed'."
+    },
+    {
+      "id": 24,
+      "start_ms": 108860,
+      "end_ms": 113180,
+      "text": "'A man-cub entered this cave,' growled the big lame tiger.",
+      "translation": "'Bu mağaraya bir insan yavrusu girdi,' diye homurdandı koca topal kaplan.",
+      "notes": "Present perfect / simple past; adjective 'lame' means limping."
+    },
+    {
+      "id": 25,
+      "start_ms": 113580,
+      "end_ms": 117468,
+      "text": "'Give him to me at once, for he is my lawful prey!'",
+      "translation": "'Onu derhal bana verin, zira o benim meşru avımdır!'",
+      "notes": "Imperative sentence; coordinating conjunction 'for' meaning because."
+    },
+    {
+      "id": 26,
+      "start_ms": 117868,
+      "end_ms": 122164,
+      "text": "Father Wolf stood tall and stared into the tiger's eyes.",
+      "translation": "Baba Kurt dik durdu ve kaplanın gözlerinin içine baktı.",
+      "notes": "Irregular past 'stood' (stand); phrasal verb 'stare into'."
+    },
+    {
+      "id": 27,
+      "start_ms": 122564,
+      "end_ms": 126740,
+      "text": "'The wolves are a free people,' answered Father Wolf firmly.",
+      "translation": "'Kurtlar özgür bir halktır,' diye yanıt verdi Baba Kurt kararlılıkla.",
+      "notes": "Collective noun 'free people'; adverb 'firmly'."
+    },
+    {
+      "id": 28,
+      "start_ms": 127140,
+      "end_ms": 131316,
+      "text": "'We take orders only from the leader of the pack, not from you.'",
+      "translation": "'Biz emirleri sadece sürünün liderinden alırız, senden değil.'",
+      "notes": "Negative contrast 'not from you'; noun phrase 'leader of the pack'."
+    },
+    {
+      "id": 29,
+      "start_ms": 131716,
+      "end_ms": 136132,
+      "text": "Shere Khan let out a roar of rage that echoed through the hills.",
+      "translation": "Shere Han tepelerde yankılanan bir öfke kükremesi kopardı.",
+      "notes": "Phrasal verb 'let out'; relative clause 'that echoed'."
+    },
+    {
+      "id": 30,
+      "start_ms": 136532,
+      "end_ms": 140444,
+      "text": "Mother Wolf shook her gray coat and sprang to the front.",
+      "translation": "Anne Kurt gri kürkünü silkeledi ve öne doğru atıldı.",
+      "notes": "Irregular past 'shook' (shake); phrasal verb 'spring to'."
+    },
+    {
+      "id": 31,
+      "start_ms": 140844,
+      "end_ms": 145332,
+      "text": "Her green eyes glowed like two green stars against the tiger.",
+      "translation": "Yeşil gözleri kaplana karşı iki yeşil yıldız gibi parladı.",
+      "notes": "Simile 'like two green stars'; preposition 'against'."
+    },
+    {
+      "id": 32,
+      "start_ms": 145732,
+      "end_ms": 149692,
+      "text": "'The man's cub belongs to me!' she cried fiercely.",
+      "translation": "'Bu insan yavrusu bana aittir!' diye haykırdı yırtıcı bir sesle.",
+      "notes": "Verb 'belong to'; adverb 'fiercely'."
+    },
+    {
+      "id": 33,
+      "start_ms": 150092,
+      "end_ms": 153524,
+      "text": "'He shall not be killed by your wicked claws!'",
+      "translation": "'Senin hain pençelerinle öldürülmeyecek!'",
+      "notes": "Archaic/emphatic modal 'shall not be killed' (passive)."
+    },
+    {
+      "id": 34,
+      "start_ms": 153924,
+      "end_ms": 157860,
+      "text": "'He shall live to run with the Free Pack across the valleys.'",
+      "translation": "'O, vadiler boyunca Özgür Sürü ile koşmak için yaşayacak.'",
+      "notes": "Infinitive of purpose 'to run with'; preposition 'across'."
+    },
+    {
+      "id": 35,
+      "start_ms": 158260,
+      "end_ms": 162316,
+      "text": "'And in the end, lame butcher, he shall hunt you down!'",
+      "translation": "'Ve sonunda, seni topal kasap, o senin peşine düşüp seni avlayacak!'",
+      "notes": "Vocative phrase 'lame butcher'; phrasal verb 'hunt down'."
+    },
+    {
+      "id": 36,
+      "start_ms": 162716,
+      "end_ms": 167324,
+      "text": "Shere Khan stepped backward into the bushes because he knew her fury.",
+      "translation": "Shere Han çalıların arasına doğru geriledi çünkü onun öfkesini biliyordu.",
+      "notes": "Phrasal verb 'step backward'; causal conjunction 'because'."
+    },
+    {
+      "id": 37,
+      "start_ms": 167724,
+      "end_ms": 171924,
+      "text": "He knew that fighting a mother wolf in her den meant certain death.",
+      "translation": "İnindeki bir anne kurtla savaşmanın kesin ölüm anlamına geldiğini biliyordu.",
+      "notes": "Gerund subject 'fighting a mother wolf'; noun 'den'."
+    },
+    {
+      "id": 38,
+      "start_ms": 172324,
+      "end_ms": 176644,
+      "text": "'Each dog barks in his own yard,' muttered the tiger bitterly.",
+      "translation": "'Her köpek kendi avlusunda havlar,' diye mırıldandı kaplan acıyla.",
+      "notes": "Proverbial expression; adverb 'bitterly'."
+    },
+    {
+      "id": 39,
+      "start_ms": 177044,
+      "end_ms": 180644,
+      "text": "'We shall see what the Pack says at the Council Rock!'",
+      "translation": "'Sürünün Konsey Kayası'nda ne diyeceğini hep birlikte göreceğiz!'",
+      "notes": "Future clause 'what the Pack says'."
+    },
+    {
+      "id": 40,
+      "start_ms": 181044,
+      "end_ms": 185796,
+      "text": "With a low snarl, the striped beast vanished into the dark jungle.",
+      "translation": "Alçak bir homurtuyla çizgili canavar karanlık ormanda gözden kayboldu.",
+      "notes": "Prepositional phrase 'with a low snarl'; verb 'vanished'."
+    },
+    {
+      "id": 41,
+      "start_ms": 186796,
+      "end_ms": 191452,
+      "text": "Once a month, the Seeonee wolf pack gathered at the Council Rock.",
+      "translation": "Ayda bir kez, Seeonee kurt sürüsü Konsey Kayası'nda toplanırdı.",
+      "notes": "Frequency phrase 'once a month'; past verb 'gathered'."
+    },
+    {
+      "id": 42,
+      "start_ms": 191852,
+      "end_ms": 196868,
+      "text": "Akela, the great gray Lone Wolf, lay upon the highest boulder.",
+      "translation": "Büyük gri Yalnız Kurt Akela, en yüksek kaya kütlesinin üzerinde yatıyordu.",
+      "notes": "Apposition 'the great gray Lone Wolf'; superlative 'highest'."
+    },
+    {
+      "id": 43,
+      "start_ms": 197268,
+      "end_ms": 201108,
+      "text": "He guided the pack by his strength and his long wisdom.",
+      "translation": "Sürüye gücü ve engin bilgeliğiyle yol gösteriyordu.",
+      "notes": "Transitive verb 'guided'; abstract noun 'wisdom'."
+    },
+    {
+      "id": 44,
+      "start_ms": 201508,
+      "end_ms": 205708,
+      "text": "The mother wolves brought forward all the new cubs for inspection.",
+      "translation": "Anne kurtlar, denetim için tüm yeni yavruları öne getirdiler.",
+      "notes": "Phrasal verb 'brought forward'; noun for purpose 'for inspection'."
+    },
+    {
+      "id": 45,
+      "start_ms": 206108,
+      "end_ms": 209996,
+      "text": "Mother Wolf pushed little Mowgli into the open circle.",
+      "translation": "Anne Kurt minik Mowgli'yi açık halkanın ortasına doğru itti.",
+      "notes": "Proper name 'Mowgli'; adjective 'open'."
+    },
+    {
+      "id": 46,
+      "start_ms": 210396,
+      "end_ms": 215148,
+      "text": "The child sat on the warm stones and began playing with bright pebbles.",
+      "translation": "Çocuk ılık taşların üzerine oturdu ve parlak çakıl taşlarıyla oynamaya başladı.",
+      "notes": "Verb followed by gerund 'began playing'; noun 'pebbles'."
+    },
+    {
+      "id": 47,
+      "start_ms": 215548,
+      "end_ms": 219892,
+      "text": "From beyond the rocks, Shere Khan's roaring voice echoed.",
+      "translation": "Kayaların ötesinden Shere Han'ın kükreyen sesi yankılandı.",
+      "notes": "Preposition 'beyond'; participial adjective 'roaring'."
+    },
+    {
+      "id": 48,
+      "start_ms": 220292,
+      "end_ms": 224420,
+      "text": "'The child is mine!' roared the tiger from the shadows.",
+      "translation": "'O çocuk benimdir!' diye kükredi kaplan gölgelerin arasından.",
+      "notes": "Possessive pronoun 'mine'; prepositional phrase 'from the shadows'."
+    },
+    {
+      "id": 49,
+      "start_ms": 224820,
+      "end_ms": 228756,
+      "text": "Akela did not even turn his gray head toward the noise.",
+      "translation": "Akela gri başını gürültüye doğru çevirmedi bile.",
+      "notes": "Negative past 'did not even turn'; directional preposition 'toward'."
+    },
+    {
+      "id": 50,
+      "start_ms": 229156,
+      "end_ms": 233380,
+      "text": "'Who speaks for this cub among the Free People?' asked Akela.",
+      "translation": "'Özgür Halk arasında bu yavru için kim söz söyleyecek?' diye sordu Akela.",
+      "notes": "Question with subject 'who'; preposition 'among'."
+    },
+    {
+      "id": 51,
+      "start_ms": 233780,
+      "end_ms": 237932,
+      "text": "The law required two members who were not his parents to speak.",
+      "translation": "Kanun, çocuğun anne babası olmayan iki üyenin konuşmasını şart koşuyordu.",
+      "notes": "Verb 'required' followed by object + infinitive."
+    },
+    {
+      "id": 52,
+      "start_ms": 238332,
+      "end_ms": 243396,
+      "text": "Baloo, the sleepy brown bear who taught the cubs the law, stood up.",
+      "translation": "Yavrulara kanunu öğreten uykucu kahverengi ayı Baloo ayağa kalktı.",
+      "notes": "Appositive clause with relative pronoun 'who'; phrasal verb 'stood up'."
+    },
+    {
+      "id": 53,
+      "start_ms": 243796,
+      "end_ms": 247588,
+      "text": "'I speak for the man's cub,' said the gentle bear.",
+      "translation": "'İnsan yavrusu adına ben söz alıyorum,' dedi nazik ayı.",
+      "notes": "Phrasal verb 'speak for'; adjective 'gentle'."
+    },
+    {
+      "id": 54,
+      "start_ms": 247988,
+      "end_ms": 252500,
+      "text": "'A man-cub hurts nobody, and I will personally teach him the Law.'",
+      "translation": "'Bir insan yavrusu kimseye zarar vermez ve Kanun'u ona bizzat ben öğreteceğim.'",
+      "notes": "Indefinite pronoun 'nobody'; adverb 'personally'."
+    },
+    {
+      "id": 55,
+      "start_ms": 252900,
+      "end_ms": 257100,
+      "text": "'We need another voice,' called Akela into the quiet night.",
+      "translation": "'Başka bir sese daha ihtiyacımız var,' diye seslendi Akela sessiz geceye.",
+      "notes": "Adjective 'another' with singular countable noun; adjective 'quiet'."
+    },
+    {
+      "id": 56,
+      "start_ms": 257500,
+      "end_ms": 261460,
+      "text": "Then a black shadow dropped silently from a high tree.",
+      "translation": "Sonra yüksek bir ağaçtan sessizce kara bir gölge indi.",
+      "notes": "Adverb 'silently'; past verb 'dropped'."
+    },
+    {
+      "id": 57,
+      "start_ms": 261860,
+      "end_ms": 266852,
+      "text": "It was Bagheera the Black Panther, ink-black and terrible in strength.",
+      "translation": "Bu, mürekkep karası ve müthiş güçlü Kara Panter Bagheera'ydı.",
+      "notes": "Compound adjective 'ink-black'; prepositional phrase 'in strength'."
+    },
+    {
+      "id": 58,
+      "start_ms": 267252,
+      "end_ms": 271236,
+      "text": "'To kill a naked cub is shameful,' purred the panther.",
+      "translation": "'Çıplak bir yavruyu öldürmek utanç vericidir,' diye mırıldandı panter.",
+      "notes": "Infinitive as subject 'To kill...'; adjective 'shameful'."
+    },
+    {
+      "id": 59,
+      "start_ms": 271636,
+      "end_ms": 276100,
+      "text": "'I offer a freshly killed fat bull to buy his life for the pack.'",
+      "translation": "'Sürü adına onun canını satın almak için yeni öldürülmüş semiz bir boğa teklif ediyorum.'",
+      "notes": "Adverb + participle 'freshly killed'; infinitive 'to buy'."
+    },
+    {
+      "id": 60,
+      "start_ms": 276500,
+      "end_ms": 281276,
+      "text": "The wolves accepted the gift, and Mowgli was welcomed into the pack.",
+      "translation": "Kurtlar hediyeyi kabul etti ve Mowgli sürüye resmen kabul edildi.",
+      "notes": "Passive voice 'was welcomed into'; coordinating conjunction 'and'."
+    },
+    {
+      "id": 61,
+      "start_ms": 282276,
+      "end_ms": 286140,
+      "text": "Mowgli grew up among the wolf cubs under the hot sun.",
+      "translation": "Mowgli, kızgın güneşin altında kurt yavrularının arasında büyüdü.",
+      "notes": "Phrasal verb 'grew up'; prepositional phrase 'under the hot sun'."
+    },
+    {
+      "id": 62,
+      "start_ms": 286540,
+      "end_ms": 291388,
+      "text": "Father Wolf taught him his business, and the meaning of every jungle sound.",
+      "translation": "Baba Kurt ona işini ve her orman sesinin anlamını öğretti.",
+      "notes": "Double object verb 'taught him his business'; noun 'meaning'."
+    },
+    {
+      "id": 63,
+      "start_ms": 291788,
+      "end_ms": 295916,
+      "text": "Every rustle in the grass meant something important for his safety.",
+      "translation": "Çimlerdeki her bir hışırtı, onun güvenliği için önemli bir anlam taşıyordu.",
+      "notes": "Determiner 'every' with singular noun; adjective 'important'."
+    },
+    {
+      "id": 64,
+      "start_ms": 296316,
+      "end_ms": 300324,
+      "text": "Baloo taught him how to tell a rotten branch from a sound one.",
+      "translation": "Baloo ona çürük bir dalı sağlam olanından nasıl ayırt edeceğini öğretti.",
+      "notes": "Idiomatic expression 'tell A from B'; adjective 'rotten'."
+    },
+    {
+      "id": 65,
+      "start_ms": 300724,
+      "end_ms": 305356,
+      "text": "He taught him how to speak politely to the wild bees when stealing honey.",
+      "translation": "Baloo ona bal çalarken yaban arılarıyla nasıl kibarca konuşulacağını öğretti.",
+      "notes": "Adverb 'politely'; participle temporal clause 'when stealing honey'."
+    },
+    {
+      "id": 66,
+      "start_ms": 305756,
+      "end_ms": 309860,
+      "text": "Mowgli learned to swim in the deep mountain pools like an otter.",
+      "translation": "Mowgli derin dağ göletlerinde bir su samuru gibi yüzmeyi öğrendi.",
+      "notes": "Verb + infinitive 'learned to swim'; simile 'like an otter'."
+    },
+    {
+      "id": 67,
+      "start_ms": 310260,
+      "end_ms": 314244,
+      "text": "He learned to climb trees almost as fast as he could run.",
+      "translation": "Ağaçlara neredeyse koşabildiği kadar hızlı tırmanmayı öğrendi.",
+      "notes": "Comparative equality 'as fast as'; modal 'could'."
+    },
+    {
+      "id": 68,
+      "start_ms": 314644,
+      "end_ms": 319444,
+      "text": "Bagheera showed him how to walk silently without cracking dry twigs.",
+      "translation": "Bagheera ona kuru dalları kırmadan nasıl sessizce yürüneceğini gösterdi.",
+      "notes": "Preposition 'without' followed by gerund 'cracking'."
+    },
+    {
+      "id": 69,
+      "start_ms": 319844,
+      "end_ms": 323828,
+      "text": "The boy could hang by his hands from branches for an hour.",
+      "translation": "Çocuk kollarından dallara tutunarak bir saat boyunca asılı kalabiliyordu.",
+      "notes": "Prepositional phrase 'by his hands'; duration 'for an hour'."
+    },
+    {
+      "id": 70,
+      "start_ms": 324228,
+      "end_ms": 328956,
+      "text": "'The Law of the Jungle is old and true as the sky,' said Baloo.",
+      "translation": "'Orman Kanunu gökyüzü kadar eski ve gerçektir,' derdi Baloo.",
+      "notes": "Adjective comparison 'old and true as the sky'."
+    },
+    {
+      "id": 71,
+      "start_ms": 329356,
+      "end_ms": 333796,
+      "text": "Mowgli had to memorize the Master Words for every hunting tribe.",
+      "translation": "Mowgli her avcı kabile için geçerli Efendi Sözleri'ni ezberlemek zorundaydı.",
+      "notes": "Modal of past obligation 'had to'; verb 'memorize'."
+    },
+    {
+      "id": 72,
+      "start_ms": 334196,
+      "end_ms": 338780,
+      "text": "'We be of one blood, ye and I,' was the ancient greeting.",
+      "translation": "'Biz aynı kandanız, sen ve ben,' kadim selamlama cümlesiydi.",
+      "notes": "Archaic subjunctive grammar 'We be... ye and I'."
+    },
+    {
+      "id": 73,
+      "start_ms": 339180,
+      "end_ms": 344220,
+      "text": "With those words, no bird, snake, or beast would harm him.",
+      "translation": "Bu sözlerle hiçbir kuş, yılan ya da canavar ona zarar veremezdi.",
+      "notes": "Negative determiner 'no'; conditional modal 'would harm'."
+    },
+    {
+      "id": 74,
+      "start_ms": 344620,
+      "end_ms": 349156,
+      "text": "Sometimes Mowgli grew tired and wanted to play all afternoon.",
+      "translation": "Bazen Mowgli yorulur ve bütün öğleden sonra oyun oynamak isterdi.",
+      "notes": "Copular verb 'grew tired'; time phrase 'all afternoon'."
+    },
+    {
+      "id": 75,
+      "start_ms": 349556,
+      "end_ms": 353900,
+      "text": "Then Baloo gave him a soft cuff on the ear with his great paw.",
+      "translation": "O zaman Baloo kocaman pençesiyle onun kulağına hafif bir tokat indirirdi.",
+      "notes": "Noun 'cuff' meaning light slap; preposition 'with'."
+    },
+    {
+      "id": 76,
+      "start_ms": 354300,
+      "end_ms": 359316,
+      "text": "'Better that he be bruised by me than killed by ignorance,' argued Baloo.",
+      "translation": "'Cehalet yüzünden öleceğine benim tarafımdan hafifçe hırpalanması daha iyidir,' derdi Baloo.",
+      "notes": "Subjunctive 'that he be bruised'; comparative 'better... than'."
+    },
+    {
+      "id": 77,
+      "start_ms": 359716,
+      "end_ms": 364492,
+      "text": "Bagheera often watched their lessons with glowing, approving eyes.",
+      "translation": "Bagheera onların derslerini çoğu zaman parıldayan, onaylayan gözlerle izlerdi.",
+      "notes": "Adverb of frequency 'often'; participial adjectives 'glowing, approving'."
+    },
+    {
+      "id": 78,
+      "start_ms": 364892,
+      "end_ms": 369548,
+      "text": "The boy was quick, bright, and loved the green wild world.",
+      "translation": "Çocuk çevik ve zekiydi, yeşil vahşi dünyayı çok seviyordu.",
+      "notes": "Adjectives 'quick, bright'; coordinate predicate."
+    },
+    {
+      "id": 79,
+      "start_ms": 369948,
+      "end_ms": 374268,
+      "text": "Yet there were creatures in the treetops who respected no law at all.",
+      "translation": "Yine de ağaç tepelerinde hiçbir kanuna saygı duymayan yaratıklar vardı.",
+      "notes": "Adverb 'yet'; relative clause 'who respected no law'."
+    },
+    {
+      "id": 80,
+      "start_ms": 374668,
+      "end_ms": 378916,
+      "text": "Danger was watching the little human boy from the high branches.",
+      "translation": "Yüksek dallardan tehlike, küçük insan oğlanını gizlice gözetliyordu.",
+      "notes": "Past continuous 'was watching'; personification of 'danger'."
+    },
+    {
+      "id": 81,
+      "start_ms": 379916,
+      "end_ms": 385028,
+      "text": "The Bandar-log, or Monkey-People, lived high up in the dense branches.",
+      "translation": "Bandar-log, yani Maymun Halkı, sık dalların çok yukarısında yaşardı.",
+      "notes": "Parenthetical apposition; prepositional phrase 'high up in'."
+    },
+    {
+      "id": 82,
+      "start_ms": 385428,
+      "end_ms": 390084,
+      "text": "They had no law, no leaders, and no memory of yesterday.",
+      "translation": "Onların ne bir kanunu, ne liderleri, ne de dünden kalan bir hafızaları vardı.",
+      "notes": "Parallel structure with repeated negative 'no'."
+    },
+    {
+      "id": 83,
+      "start_ms": 390484,
+      "end_ms": 395164,
+      "text": "They spent their hours chattering and bragging about their foolish greatness.",
+      "translation": "Vakitlerini gevezelik ederek ve aptalca büyüklükleriyle övünerek geçirirlerdi.",
+      "notes": "Expression 'spend hours doing'; phrasal verb 'brag about'."
+    },
+    {
+      "id": 84,
+      "start_ms": 395564,
+      "end_ms": 399740,
+      "text": "Baloo had strictly forbidden Mowgli to talk to any monkey.",
+      "translation": "Baloo, Mowgli'nin herhangi bir maymunla konuşmasını kesinlikle yasaklamıştı.",
+      "notes": "Past perfect 'had strictly forbidden'; infinitive 'to talk'."
+    },
+    {
+      "id": 85,
+      "start_ms": 400140,
+      "end_ms": 404796,
+      "text": "'They are without shame and have no speech of their own,' warned the bear.",
+      "translation": "'Onlarda utanma yoktur ve kendilerine ait bir dilleri bile bulunmaz,' diye uyarmıştı ayı.",
+      "notes": "Preposition 'without'; idiomatic phrase 'of their own'."
+    },
+    {
+      "id": 86,
+      "start_ms": 405196,
+      "end_ms": 410620,
+      "text": "One hot day, Mowgli rested peacefully in the shade between his two teachers.",
+      "translation": "Sıcak bir günde Mowgli, iki öğretmeninin arasındaki gölgede huzurla dinleniyordu.",
+      "notes": "Adverb 'peacefully'; preposition 'between' for two items."
+    },
+    {
+      "id": 87,
+      "start_ms": 411020,
+      "end_ms": 416036,
+      "text": "Suddenly, many hairy arms reached down from the green canopy above.",
+      "translation": "Aniden, yukarıdaki yeşil kubbeden aşağıya doğru pek çok kıllı kol uzandı.",
+      "notes": "Adverb 'suddenly'; phrasal verb 'reached down'."
+    },
+    {
+      "id": 88,
+      "start_ms": 416436,
+      "end_ms": 421572,
+      "text": "Before Mowgli could cry out, strong fingers snatched him by the waist.",
+      "translation": "Mowgli haykıramadan önce, güçlü parmaklar onu belinden yakaladı.",
+      "notes": "Conjunction 'before'; verb 'snatched' with preposition 'by the waist'."
+    },
+    {
+      "id": 89,
+      "start_ms": 421972,
+      "end_ms": 426076,
+      "text": "He was yanked violently into the upper branches of the trees.",
+      "translation": "Ağaçların üst dallarına doğru şiddetle çekiliverdi.",
+      "notes": "Passive voice 'was yanked'; adverb 'violently'."
+    },
+    {
+      "id": 90,
+      "start_ms": 426476,
+      "end_ms": 430892,
+      "text": "Baloo woke up with a roar and began crashing through the undergrowth.",
+      "translation": "Baloo bir kükremeyle uyandı ve bodur çalıların arasından gürültüyle koşmaya başladı.",
+      "notes": "Coordinate clauses; preposition 'through'."
+    },
+    {
+      "id": 91,
+      "start_ms": 431292,
+      "end_ms": 435684,
+      "text": "Bagheera leaped up the trunk with claws digging into the rough bark.",
+      "translation": "Bagheera, pençelerini sert kabuğa geçirerek ağaç gövdesine sıçradı.",
+      "notes": "Absolute participle phrase 'with claws digging into'."
+    },
+    {
+      "id": 92,
+      "start_ms": 436084,
+      "end_ms": 440260,
+      "text": "But the monkeys were already high above the reach of any panther.",
+      "translation": "Fakat maymunlar bir panterin ulaşabileceği yerin çok üstündeydiler bile.",
+      "notes": "Adverb 'already'; noun phrase 'the reach of'."
+    },
+    {
+      "id": 93,
+      "start_ms": 440660,
+      "end_ms": 444764,
+      "text": "They carried Mowgli along the swinging highways of the jungle.",
+      "translation": "Mowgli'yi ormanın sallanan ağaç otoyolları boyunca taşıdılar.",
+      "notes": "Metaphor 'swinging highways of the jungle'."
+    },
+    {
+      "id": 94,
+      "start_ms": 445164,
+      "end_ms": 450036,
+      "text": "Two strong monkeys held his arms and bounded across wide empty air.",
+      "translation": "İki güçlü maymun onun kollarını tutuyor ve geniş boşluklar boyunca sıçrıyordu.",
+      "notes": "Parallel verbs 'held' and 'bounded'."
+    },
+    {
+      "id": 95,
+      "start_ms": 450436,
+      "end_ms": 454756,
+      "text": "Mowgli looked down and saw the green earth spinning far below.",
+      "translation": "Mowgli aşağı baktı ve yeşil yeryüzünün çok aşağıda fırıl fırıl döndüğünü gördü.",
+      "notes": "Perception verb 'saw' followed by participle 'spinning'."
+    },
+    {
+      "id": 96,
+      "start_ms": 455156,
+      "end_ms": 459740,
+      "text": "The monkeys shouted and mocked the furious beasts down on the ground.",
+      "translation": "Maymunlar çığlıklar atıyor ve yerdeki öfkeli canavarlarla alay ediyorlardı.",
+      "notes": "Past tense 'mocked'; prepositional phrase 'on the ground'."
+    },
+    {
+      "id": 97,
+      "start_ms": 460140,
+      "end_ms": 465180,
+      "text": "'Look at us!' screamed the Bandar-log, 'We are wise and wonderful!'",
+      "translation": "'Bize bakın!' diye çığlık attı Bandar-log, 'Biz bilge ve harikayız!'",
+      "notes": "Imperative 'look at us'; coordinate adjectives 'wise and wonderful'."
+    },
+    {
+      "id": 98,
+      "start_ms": 465580,
+      "end_ms": 470020,
+      "text": "Mowgli knew that monkeys never kept a single promise or plan.",
+      "translation": "Mowgli, maymunların tek bir sözü veya planı asla tutmadığını biliyordu.",
+      "notes": "Noun clause 'that monkeys never kept'; quantifier 'a single'."
+    },
+    {
+      "id": 99,
+      "start_ms": 470420,
+      "end_ms": 475388,
+      "text": "He felt dizzy, bruised, and terribly frightened in their rough hands.",
+      "translation": "Onların kaba ellerinde başı dönmüş, berelenmiş ve feci halde korkmuş hissediyordu.",
+      "notes": "Copular verb 'felt' with coordinate adjectives; adverb 'terribly'."
+    },
+    {
+      "id": 100,
+      "start_ms": 475788,
+      "end_ms": 479652,
+      "text": "He needed to send a message before he vanished completely.",
+      "translation": "Tamamen gözden kaybolmadan önce bir haber göndermesi gerekiyordu.",
+      "notes": "Infinitive 'to send'; time clause with 'before'."
+    },
+    {
+      "id": 101,
+      "start_ms": 480652,
+      "end_ms": 485572,
+      "text": "High above the green jungle canopy, Chil the Kite soared gracefully.",
+      "translation": "Yeşil orman örtüsünün çok yukarısında, Çaylak Chil zarifçe süzülüyordu.",
+      "notes": "Prepositional phrase 'high above'; adverb 'gracefully'."
+    },
+    {
+      "id": 102,
+      "start_ms": 485972,
+      "end_ms": 490364,
+      "text": "His sharp black eyes watched the forest for any sign of food.",
+      "translation": "Keskin siyah gözleri herhangi bir yiyecek işareti bulmak için ormanı gözetliyordu.",
+      "notes": "Preposition 'for'; noun phrase 'sign of food'."
+    },
+    {
+      "id": 103,
+      "start_ms": 490764,
+      "end_ms": 495708,
+      "text": "Suddenly, a loud human cry reached his sharp ears from the leaves.",
+      "translation": "Aniden, yaprakların arasından keskin kulaklarına gür bir insan haykırışı ulaştı.",
+      "notes": "Adjective 'sharp'; prepositional phrase 'from the leaves'."
+    },
+    {
+      "id": 104,
+      "start_ms": 496108,
+      "end_ms": 500980,
+      "text": "'We be of one blood, thou and I!' shouted Mowgli desperately.",
+      "translation": "'Biz aynı kandanız, sen ve ben!' diye var gücüyle bağırdı Mowgli çaresizce.",
+      "notes": "Archaic greeting 'thou and I'; adverb 'desperately'."
+    },
+    {
+      "id": 105,
+      "start_ms": 501380,
+      "end_ms": 505772,
+      "text": "Chil glanced down through the sunlit branches in great surprise.",
+      "translation": "Chil büyük bir şaşkınlıkla güneşli dalların arasından aşağıya baktı.",
+      "notes": "Phrasal verb 'glance down'; prepositional phrase 'in great surprise'."
+    },
+    {
+      "id": 106,
+      "start_ms": 506172,
+      "end_ms": 510564,
+      "text": "He saw a little human boy being dragged along by the monkeys.",
+      "translation": "Maymunlar tarafından sürüklenip götürülen küçük bir insan çocuğu gördü.",
+      "notes": "Passive participle construction 'being dragged along'."
+    },
+    {
+      "id": 107,
+      "start_ms": 510964,
+      "end_ms": 516052,
+      "text": "'Mark my trail!' cried Mowgli as he was carried across the treetops.",
+      "translation": "'İzimi takip et!' diye haykırdı Mowgli ağaç tepeleri boyunca taşınırken.",
+      "notes": "Imperative 'mark my trail'; passive time clause 'as he was carried'."
+    },
+    {
+      "id": 108,
+      "start_ms": 516452,
+      "end_ms": 520868,
+      "text": "'Tell Baloo and Bagheera that they are taking me to the Cold Lairs!'",
+      "translation": "'Baloo ve Bagheera'ya beni Soğuk İnler'e götürdüklerini söyle!'",
+      "notes": "Imperative verb 'tell' with indirect object and noun clause."
+    },
+    {
+      "id": 109,
+      "start_ms": 521268,
+      "end_ms": 525492,
+      "text": "Chil the Kite dipped his wings in acknowledgment of the Master Word.",
+      "translation": "Çaylak Chil, Efendi Sözü'nün hürmetine kanatlarını aşağı indirerek selam verdi.",
+      "notes": "Noun phrase 'in acknowledgment of'; proper noun 'Master Word'."
+    },
+    {
+      "id": 110,
+      "start_ms": 525892,
+      "end_ms": 530572,
+      "text": "'I will tell them, Little Brother,' called the great bird as he turned.",
+      "translation": "'Onlara haber vereceğim Küçük Kardeş,' diye seslendi koca kuş geri dönerken.",
+      "notes": "Direct speech; time clause 'as he turned'."
+    },
+    {
+      "id": 111,
+      "start_ms": 530972,
+      "end_ms": 536492,
+      "text": "Far down on the dark jungle floor, Baloo and Bagheera ran helplessly.",
+      "translation": "Aşağıda, karanlık orman zemininde Baloo ve Bagheera çaresizce koşuyordu.",
+      "notes": "Adverbs 'far down' and 'helplessly'."
+    },
+    {
+      "id": 112,
+      "start_ms": 536892,
+      "end_ms": 541068,
+      "text": "They could not leap from branch to branch like the lawless monkeys.",
+      "translation": "Kanun tanımaz maymunlar gibi daldan dala atlayamıyorlardı.",
+      "notes": "Modal 'could not'; prepositional phrase 'from branch to branch'."
+    },
+    {
+      "id": 113,
+      "start_ms": 541468,
+      "end_ms": 546172,
+      "text": "Suddenly Chil circled low and dropped like a falling leaf before them.",
+      "translation": "Birdenbire Chil alçaktan daireler çizdi ve önlerine düşen bir yaprak gibi süzüldü.",
+      "notes": "Coordinated verbs 'circled' and 'dropped'; simile 'like a falling leaf'."
+    },
+    {
+      "id": 114,
+      "start_ms": 546572,
+      "end_ms": 550052,
+      "text": "'Mowgli has given the Word!' whistled the kite.",
+      "translation": "'Mowgli Söz'ü söyledi!' diye ıslık çaldı çaylak.",
+      "notes": "Present perfect 'has given'; proper term 'the Word'."
+    },
+    {
+      "id": 115,
+      "start_ms": 550452,
+      "end_ms": 554916,
+      "text": "'The Bandar-log have carried him across the river to the Cold Lairs.'",
+      "translation": "'Bandar-log onu nehrin karşısına, Soğuk İnler'e kaçırdı.'",
+      "notes": "Present perfect with collective subject; prepositional phrase 'to the Cold Lairs'."
+    },
+    {
+      "id": 116,
+      "start_ms": 555316,
+      "end_ms": 559060,
+      "text": "Baloo groaned in despair when he heard the dreaded name.",
+      "translation": "Baloo o korkunç ismi duyunca umutsuzlukla inledi.",
+      "notes": "Prepositional phrase 'in despair'; time clause 'when he heard'."
+    },
+    {
+      "id": 117,
+      "start_ms": 559460,
+      "end_ms": 564116,
+      "text": "The Cold Lairs was an ancient ruined city buried deep in the forest.",
+      "translation": "Soğuk İnler, ormanın derinliklerine gömülmüş kadim bir harabe şehirdi.",
+      "notes": "Participial phrase 'buried deep in the forest'."
+    },
+    {
+      "id": 118,
+      "start_ms": 564516,
+      "end_ms": 569268,
+      "text": "'We cannot fight the whole monkey tribe alone,' said Bagheera grimly.",
+      "translation": "'Bütün maymun kabilesiyle tek başımıza savaşamayız,' dedi Bagheera sertçe.",
+      "notes": "Modal 'cannot fight'; adverb 'grimly'."
+    },
+    {
+      "id": 119,
+      "start_ms": 569668,
+      "end_ms": 573892,
+      "text": "'There is only one creature whom the monkeys fear more than death.'",
+      "translation": "'Maymunların ölümden bile daha çok korktuğu tek bir yaratık var.'",
+      "notes": "Existential 'there is'; relative clause with 'whom'."
+    },
+    {
+      "id": 120,
+      "start_ms": 574292,
+      "end_ms": 579332,
+      "text": "'We must go immediately to Kaa the Rock Python,' declared the panther.",
+      "translation": "'Derhal Kaya Pitonu Kaa'ya gitmeliyiz,' dedi panter kararlılıkla.",
+      "notes": "Modal of obligation 'must go'; adverb 'immediately'."
+    },
+    {
+      "id": 121,
+      "start_ms": 580332,
+      "end_ms": 585420,
+      "text": "Kaa the Rock Python was thirty feet of mottled, cold muscular power.",
+      "translation": "Kaya Pitonu Kaa, alacalı ve soğuk kas gücünden oluşan otuz fitlik bir devdi.",
+      "notes": "Measurement phrase 'thirty feet of'; compound adjective 'mottled'."
+    },
+    {
+      "id": 122,
+      "start_ms": 585820,
+      "end_ms": 590140,
+      "text": "He had changed his skin recently and was very hungry for a hunt.",
+      "translation": "Kısa süre önce derisini değiştirmişti ve avlanmaya çok açtı.",
+      "notes": "Past perfect 'had changed'; adjective 'hungry for'."
+    },
+    {
+      "id": 123,
+      "start_ms": 590540,
+      "end_ms": 595820,
+      "text": "When Bagheera explained that the monkeys insulted him, Kaa's eyes flashed.",
+      "translation": "Bagheera maymunların kendisine hakaret ettiğini anlatınca, Kaa'nın gözleri parladı.",
+      "notes": "Time clause with 'when'; verb 'flashed' indicates anger."
+    },
+    {
+      "id": 124,
+      "start_ms": 596220,
+      "end_ms": 600804,
+      "text": "Together the three mighty hunters raced through the night toward the ruins.",
+      "translation": "Birlikte bu üç ulu avcı, gece boyunca harabelere doğru hızla koştular.",
+      "notes": "Subject with apposition 'the three mighty hunters'; directional phrase 'toward the ruins'."
+    },
+    {
+      "id": 125,
+      "start_ms": 601204,
+      "end_ms": 605692,
+      "text": "The Cold Lairs stood silent under the cold light of the midnight moon.",
+      "translation": "Soğuk İnler, gece yarısı ayının soğuk ışığı altında sessizce duruyordu.",
+      "notes": "Copular verb 'stood silent'; prepositional phrase 'under the cold light'."
+    },
+    {
+      "id": 126,
+      "start_ms": 606092,
+      "end_ms": 611156,
+      "text": "Broken marble palaces and crumbling temples lay half-hidden among vines.",
+      "translation": "Kırık mermer saraylar ve çöken tapınaklar sarmaşıklar arasında yarı gizli yatıyordu.",
+      "notes": "Participial adjectives 'broken, crumbling'; compound adjective 'half-hidden'."
+    },
+    {
+      "id": 127,
+      "start_ms": 611556,
+      "end_ms": 616308,
+      "text": "Mowgli was locked inside a small summerhouse with hundreds of cobras.",
+      "translation": "Mowgli yüzlerce kobranın bulunduğu küçük bir yazlık köşkte kilitli tutuluyordu.",
+      "notes": "Passive voice 'was locked'; prepositional phrase 'with hundreds of cobras'."
+    },
+    {
+      "id": 128,
+      "start_ms": 616708,
+      "end_ms": 621772,
+      "text": "He quickly gave the Snake's Master Word, and the cobras did not strike him.",
+      "translation": "Hemen Yılan Efendi Sözü'nü söyledi ve kobralar ona saldırmadı.",
+      "notes": "Coordinate clauses with 'and'; negative past 'did not strike'."
+    },
+    {
+      "id": 129,
+      "start_ms": 622172,
+      "end_ms": 627404,
+      "text": "Suddenly, Bagheera bounded onto the terrace, striking left and right.",
+      "translation": "Birdenbire Bagheera terasa fırladı, sağa sola pençe savurdu.",
+      "notes": "Participial phrase describing action 'striking left and right'."
+    },
+    {
+      "id": 130,
+      "start_ms": 627804,
+      "end_ms": 632580,
+      "text": "Hundreds of monkeys screamed in fury and swarmed over the black panther.",
+      "translation": "Yüzlerce maymun öfkeyle çığlık atıp kara panterin üzerine üşüştü.",
+      "notes": "Coordinate past verbs 'screamed' and 'swarmed'."
+    },
+    {
+      "id": 131,
+      "start_ms": 632980,
+      "end_ms": 638092,
+      "text": "They were too numerous for one beast, and Bagheera was nearly overwhelmed.",
+      "translation": "Tek bir canavar için çok kalabalıktılar ve Bagheera neredeyse ezilmek üzereydi.",
+      "notes": "Structure 'too + adjective + for'; passive 'was nearly overwhelmed'."
+    },
+    {
+      "id": 132,
+      "start_ms": 638492,
+      "end_ms": 643748,
+      "text": "Baloo charged up the terrace with mighty blows, roaring with thunderous fury.",
+      "translation": "Baloo gök gürültüsünü andıran bir öfkeyle kükreyerek, kudretli darbelerle terasa daldı.",
+      "notes": "Participial phrase 'roaring with thunderous fury'."
+    },
+    {
+      "id": 133,
+      "start_ms": 644148,
+      "end_ms": 649332,
+      "text": "Then a deep, terrifying hiss silenced every creature across the courtyard.",
+      "translation": "Sonra derin ve dehşet verici bir tıslama avludaki tüm yaratıkları susturdu.",
+      "notes": "Adjective 'terrifying'; transitive past verb 'silenced'."
+    },
+    {
+      "id": 134,
+      "start_ms": 649732,
+      "end_ms": 654076,
+      "text": "Kaa poured his enormous body over the wall like a sliding river.",
+      "translation": "Kaa devasa gövdesini kayan bir nehir gibi duvarın üzerinden aşağı akıttı.",
+      "notes": "Metaphor 'poured his enormous body'; simile 'like a sliding river'."
+    },
+    {
+      "id": 135,
+      "start_ms": 654476,
+      "end_ms": 659180,
+      "text": "The monkey tribe froze in sheer horror at the sight of the great python.",
+      "translation": "Maymun kabilesi, koca pitonu görmenin getirdiği katıksız dehşetle donakaldı.",
+      "notes": "Phrasal verb 'froze in'; prepositional phrase 'at the sight of'."
+    },
+    {
+      "id": 136,
+      "start_ms": 659580,
+      "end_ms": 664620,
+      "text": "Kaa broke open the wall of Mowgli's prison with one heavy blow of his head.",
+      "translation": "Kaa kafasının tek bir ağır darbesiyle Mowgli'nin zindan duvarını kırıp açtı.",
+      "notes": "Phrasal verb 'broke open'; instrument phrase 'with one heavy blow'."
+    },
+    {
+      "id": 137,
+      "start_ms": 665020,
+      "end_ms": 669916,
+      "text": "Mowgli leaped out and embraced Baloo and Bagheera with tears of joy.",
+      "translation": "Mowgli dışarı fırladı ve sevinç gözyaşlarıyla Baloo ile Bagheera'ya sarıldı.",
+      "notes": "Coordinated actions 'leaped out' and 'embraced'; noun phrase 'tears of joy'."
+    },
+    {
+      "id": 138,
+      "start_ms": 670316,
+      "end_ms": 675236,
+      "text": "Kaa began his mysterious, rhythmic dance under the silver moonlight.",
+      "translation": "Kaa gümüşi ay ışığı altında gizemli ve ritmik dansına başladı.",
+      "notes": "Adjectives 'mysterious, rhythmic'; prepositional phrase 'under silver moonlight'."
+    },
+    {
+      "id": 139,
+      "start_ms": 675636,
+      "end_ms": 681132,
+      "text": "The monkeys stood like stone, helpless and spellbound by his circling coils.",
+      "translation": "Maymunlar onun dönen kıvrımlarıyla büyülenmiş ve çaresizce taş gibi kalakaldılar.",
+      "notes": "Simile 'like stone'; coordinate adjectives 'helpless and spellbound'."
+    },
+    {
+      "id": 140,
+      "start_ms": 681532,
+      "end_ms": 686524,
+      "text": "Bagheera led Mowgli away quickly before the serpent's magic took hold.",
+      "translation": "Yılanın büyüsü etkisini göstermeden önce Bagheera, Mowgli'yi oradan hızla uzaklaştırdı.",
+      "notes": "Phrasal verb 'led away'; idiom 'took hold' means became effective."
+    },
+    {
+      "id": 141,
+      "start_ms": 687524,
+      "end_ms": 692444,
+      "text": "Years passed in the jungle, and Mowgli grew into a strong young hunter.",
+      "translation": "Ormanda yıllar geçti ve Mowgli güçlü, genç bir avcıya dönüştü.",
+      "notes": "Phrasal verb 'grew into'; noun phrase 'strong young hunter'."
+    },
+    {
+      "id": 142,
+      "start_ms": 692844,
+      "end_ms": 697572,
+      "text": "His muscles were hard as iron, and he ran as swiftly as a deer.",
+      "translation": "Kasları demir gibi sertti ve bir geyik kadar hızlı koşabiliyordu.",
+      "notes": "Simile 'hard as iron'; comparative adverb 'as swiftly as'."
+    },
+    {
+      "id": 143,
+      "start_ms": 697972,
+      "end_ms": 702556,
+      "text": "Akela was growing old and could no longer kill his buck with one leap.",
+      "translation": "Akela yaşlanıyordu ve artık tek sıçrayışta geyiğini avlayamıyordu.",
+      "notes": "Past continuous 'was growing'; negative time phrase 'no longer'."
+    },
+    {
+      "id": 144,
+      "start_ms": 702956,
+      "end_ms": 708284,
+      "text": "Shere Khan noticed the leader's weakness and began whispering among younger wolves.",
+      "translation": "Shere Han liderin zayıflığını fark etti ve genç kurtların arasına fısıltı yaymaya başladı.",
+      "notes": "Coordinate predicates; gerund 'whispering'."
+    },
+    {
+      "id": 145,
+      "start_ms": 708684,
+      "end_ms": 713244,
+      "text": "He gave them sweet scraps of meat and turned their hearts against Mowgli.",
+      "translation": "Onlara tatlı et parçaları verdi ve kalplerini Mowgli'ye karşı kışkırttı.",
+      "notes": "Phrasal verb 'turned against'; compound noun 'scraps of meat'."
+    },
+    {
+      "id": 146,
+      "start_ms": 713644,
+      "end_ms": 718444,
+      "text": "Bagheera took Mowgli aside under the shadow of a giant fig tree.",
+      "translation": "Bagheera devasa bir incir ağacının gölgesinde Mowgli'yi bir kenara çekti.",
+      "notes": "Phrasal verb 'took aside'; prepositional phrase 'under the shadow'."
+    },
+    {
+      "id": 147,
+      "start_ms": 718844,
+      "end_ms": 723644,
+      "text": "'The time has come, Little Brother,' whispered the dark panther softly.",
+      "translation": "'Vakit geldi Küçük Kardeş,' diye fısıldadı kara panter usulca.",
+      "notes": "Present perfect 'has come'; adverb 'softly'."
+    },
+    {
+      "id": 148,
+      "start_ms": 724044,
+      "end_ms": 729180,
+      "text": "'Akela missed his kill yesterday, and tomorrow the young wolves will depose him.'",
+      "translation": "'Akela dün avını kaçırdı ve yarın genç kurtlar onu tahttan indirecek.'",
+      "notes": "Time words 'yesterday' and 'tomorrow'; future modal 'will depose'."
+    },
+    {
+      "id": 149,
+      "start_ms": 729580,
+      "end_ms": 733516,
+      "text": "'They hate you because they cannot look you straight in the eyes.'",
+      "translation": "'Senden nefret ediyorlar çünkü senin doğrudan gözlerinin içine bakamıyorlar.'",
+      "notes": "Causal clause with 'because'; idiom 'look straight in the eyes'."
+    },
+    {
+      "id": 150,
+      "start_ms": 733916,
+      "end_ms": 738932,
+      "text": "'There is only one thing in the world that every beast fears,' Bagheera said.",
+      "translation": "'Dünyada her canavarın korktuğu tek bir şey vardır,' dedi Bagheera.",
+      "notes": "Relative clause 'that every beast fears'; existential 'there is'."
+    },
+    {
+      "id": 151,
+      "start_ms": 739332,
+      "end_ms": 743532,
+      "text": "'You must go down to the human village and fetch the Red Flower.'",
+      "translation": "'İnsan köyüne inip Kırmızı Çiçek'i getirmelisin.'",
+      "notes": "Modal 'must go'; proper metaphor 'the Red Flower' for fire."
+    },
+    {
+      "id": 152,
+      "start_ms": 743932,
+      "end_ms": 748612,
+      "text": "No beast in the jungle dared to call fire by its real human name.",
+      "translation": "Ormandaki hiçbir canavar ateşi gerçek insani adıyla anmaya cesaret edemezdi.",
+      "notes": "Negative subject 'no beast'; verb 'dared to call'."
+    },
+    {
+      "id": 153,
+      "start_ms": 749012,
+      "end_ms": 753476,
+      "text": "Mowgli hurried silently down the valley under the cover of dusk.",
+      "translation": "Mowgli alacakaranlığın örtüsü altında vadiden aşağı sessizce aceleyle indi.",
+      "notes": "Adverb 'silently'; prepositional phrase 'under the cover of dusk'."
+    },
+    {
+      "id": 154,
+      "start_ms": 753876,
+      "end_ms": 757908,
+      "text": "He peeked through the window of a small mud hut in the village.",
+      "translation": "Köydeki küçük bir çamur kulübenin penceresinden içeriye gizlice baktı.",
+      "notes": "Past verb 'peeked through'; compound noun 'mud hut'."
+    },
+    {
+      "id": 155,
+      "start_ms": 758308,
+      "end_ms": 762268,
+      "text": "A woman was feeding glowing red embers into a clay pot.",
+      "translation": "Bir kadın kilden bir çömleğin içine parıldayan kırmızı korlar koyuyordu.",
+      "notes": "Past continuous 'was feeding'; participial adjective 'glowing'."
+    },
+    {
+      "id": 156,
+      "start_ms": 762668,
+      "end_ms": 767516,
+      "text": "When she walked outside to draw water, Mowgli slipped in like a shadow.",
+      "translation": "Kadın su çekmek için dışarı çıktığında Mowgli bir gölge gibi içeri süzüldü.",
+      "notes": "Time clause 'when she walked'; infinitive of purpose 'to draw water'."
+    },
+    {
+      "id": 157,
+      "start_ms": 767916,
+      "end_ms": 772380,
+      "text": "He grasped the clay pot filled with glowing coals and dry twigs.",
+      "translation": "İçi yanan kömürler ve kuru dallarla dolu kil çömleği kavradı.",
+      "notes": "Past participle phrase 'filled with glowing coals'."
+    },
+    {
+      "id": 158,
+      "start_ms": 772780,
+      "end_ms": 777412,
+      "text": "He blew on the embers carefully until little yellow flames danced.",
+      "translation": "Küçük sarı alevler dans edene kadar korların üzerine dikkatlice üfledi.",
+      "notes": "Preposition 'on'; time clause 'until little yellow flames danced'."
+    },
+    {
+      "id": 159,
+      "start_ms": 777812,
+      "end_ms": 782012,
+      "text": "He carried the burning pot back toward the high hills of Seeonee.",
+      "translation": "Ateş yanan çömleği Seeonee'nin yüksek tepelerine doğru geri taşıdı.",
+      "notes": "Participial adjective 'burning'; directional preposition 'toward'."
+    },
+    {
+      "id": 160,
+      "start_ms": 782412,
+      "end_ms": 786180,
+      "text": "He now held the master weapon that would decide his fate.",
+      "translation": "Artık kaderini belirleyecek olan efendi silahı elinde tutuyordu.",
+      "notes": "Relative clause 'that would decide his fate'; noun 'weapon'."
+    },
+    {
+      "id": 161,
+      "start_ms": 787180,
+      "end_ms": 791380,
+      "text": "The Council Rock was packed with snarling wolves under the moon.",
+      "translation": "Konsey Kayası ayın altında hırlaşan kurtlarla dolup taşmıştı.",
+      "notes": "Passive participle 'packed with'; participial adjective 'snarling'."
+    },
+    {
+      "id": 162,
+      "start_ms": 791780,
+      "end_ms": 797036,
+      "text": "Akela sat beside his empty rock, battered and silent with old age.",
+      "translation": "Akela boş kayasının yanında, yaşlılıktan yıpranmış ve sessizce oturuyordu.",
+      "notes": "Coordinate adjectives 'battered and silent'; cause phrase 'with old age'."
+    },
+    {
+      "id": 163,
+      "start_ms": 797436,
+      "end_ms": 802980,
+      "text": "Shere Khan stepped boldly into the circle, surrounded by young rebel wolves.",
+      "translation": "Shere Han, etrafını sarmış genç isyancı kurtlarla halkanın içine cüretkarca adım attı.",
+      "notes": "Past participle phrase 'surrounded by'; adverb 'boldly'."
+    },
+    {
+      "id": 164,
+      "start_ms": 803380,
+      "end_ms": 807988,
+      "text": "'Give the man-cub to me!' shouted the tiger with greedy arrogance.",
+      "translation": "'O insan yavrusunu bana verin!' diye bağırdı kaplan açgözlü bir küstahlıkla.",
+      "notes": "Imperative 'give... to me'; noun phrase 'greedy arrogance'."
+    },
+    {
+      "id": 165,
+      "start_ms": 808388,
+      "end_ms": 812780,
+      "text": "'He has lived too long among us, and he is a man after all.'",
+      "translation": "'Aramızda çok uzun süre yaşadı ve nihayetinde o bir insan.'",
+      "notes": "Present perfect 'has lived'; transitional phrase 'after all'."
+    },
+    {
+      "id": 166,
+      "start_ms": 813180,
+      "end_ms": 818076,
+      "text": "Mowgli walked forward calmly, holding the clay pot behind his back.",
+      "translation": "Mowgli elindeki kil çömleği arkasında tutarak sakin adımlarla öne doğru yürüdü.",
+      "notes": "Participle clause 'holding the clay pot'; adverb 'calmly'."
+    },
+    {
+      "id": 167,
+      "start_ms": 818476,
+      "end_ms": 822268,
+      "text": "He looked around at the wolves who had once called him brother.",
+      "translation": "Vaktiyle kendisine kardeş diyen kurtlara şöyle bir baktı.",
+      "notes": "Phrasal verb 'looked around at'; past perfect relative clause 'who had once called'."
+    },
+    {
+      "id": 168,
+      "start_ms": 822668,
+      "end_ms": 827012,
+      "text": "'You have told me often that I am a man,' said Mowgli proudly.",
+      "translation": "'Bana sık sık bir insan olduğumu söylediniz,' dedi Mowgli gururla.",
+      "notes": "Present perfect 'have told'; noun clause 'that I am a man'."
+    },
+    {
+      "id": 169,
+      "start_ms": 827412,
+      "end_ms": 831972,
+      "text": "'And indeed, I see that you have turned into dogs of Shere Khan.'",
+      "translation": "'Ve gerçekten de Shere Han'ın köpeklerine dönüştüğünüzü görüyorum.'",
+      "notes": "Phrasal verb 'turned into'; transitional adverb 'indeed'."
+    },
+    {
+      "id": 170,
+      "start_ms": 832372,
+      "end_ms": 837340,
+      "text": "He thrust a dry branch into the pot, and it burst into brilliant fire.",
+      "translation": "Çömleğin içine kuru bir dal soktu ve dal birdenbire göz alıcı bir ateşle alev aldı.",
+      "notes": "Phrasal verb 'burst into'; adjective 'brilliant'."
+    },
+    {
+      "id": 171,
+      "start_ms": 837740,
+      "end_ms": 842828,
+      "text": "The pack shrank backward in blind terror, whining at the leaping flames.",
+      "translation": "Sürü, sıçrayan alevler karşısında inleyerek kör bir dehşet içinde geriye çekildi.",
+      "notes": "Past verb 'shrank backward'; participle phrase 'whining at'."
+    },
+    {
+      "id": 172,
+      "start_ms": 843228,
+      "end_ms": 847932,
+      "text": "Mowgli strode toward Shere Khan with the blazing brand raised high.",
+      "translation": "Mowgli elinde havaya kaldırdığı alevli meşaleyle Shere Han'a doğru yürüdü.",
+      "notes": "Irregular past 'strode' (stride); absolute construction 'with the blazing brand raised'."
+    },
+    {
+      "id": 173,
+      "start_ms": 848332,
+      "end_ms": 852988,
+      "text": "The striped butcher cowered on his belly, whimpering like a beaten dog.",
+      "translation": "Çizgili kasap, dövülmüş bir köpek gibi inleyerek karnının üzerine sindi.",
+      "notes": "Simile 'like a beaten dog'; coordinate participle 'whimpering'."
+    },
+    {
+      "id": 174,
+      "start_ms": 853388,
+      "end_ms": 859196,
+      "text": "'Up, dog!' cried Mowgli, striking the tiger across the whiskers with fire.",
+      "translation": "'Kalk ayağa, seni köpek!' diye haykırdı Mowgli, bıyıklarına ateşle vurarak.",
+      "notes": "Imperative 'up, dog!'; participial phrase 'striking the tiger'."
+    },
+    {
+      "id": 175,
+      "start_ms": 859596,
+      "end_ms": 864204,
+      "text": "Sparks flew into Shere Khan's fur, and he shrieked in agony.",
+      "translation": "Shere Han'ın kürküne kıvılcımlar saçıldı ve kaplan acı içinde çığlık attı.",
+      "notes": "Prepositional phrase 'in agony'; past verb 'shrieked'."
+    },
+    {
+      "id": 176,
+      "start_ms": 864604,
+      "end_ms": 871084,
+      "text": "'Go now, but remember that when I return, I bring your skin!' Mowgli warned.",
+      "translation": "'Şimdi defol, ama geri döndüğümde senin postunu getireceğimi unutma!' diye uyardı Mowgli.",
+      "notes": "Imperative 'go now'; time clause 'when I return'."
+    },
+    {
+      "id": 177,
+      "start_ms": 871484,
+      "end_ms": 875660,
+      "text": "Shere Khan scrambled down the hillside into the black night.",
+      "translation": "Shere Han karanlık gecenin içine doğru dağ yamacından aşağı apar topar kaçtı.",
+      "notes": "Phrasal verb 'scrambled down'; directional phrase 'into the black night'."
+    },
+    {
+      "id": 178,
+      "start_ms": 876060,
+      "end_ms": 881004,
+      "text": "Then Mowgli turned to Akela and promised that the old wolf would live in peace.",
+      "translation": "Sonra Mowgli Akela'ya döndü ve yaşlı kurdun barış içinde yaşayacağına söz verdi.",
+      "notes": "Noun clause 'that the old wolf would live'; prepositional phrase 'in peace'."
+    },
+    {
+      "id": 179,
+      "start_ms": 881404,
+      "end_ms": 886996,
+      "text": "Suddenly, warm drops rolled down Mowgli's cheeks, puzzling the brave boy.",
+      "translation": "Birdenbire, Mowgli'nin yanaklarından aşağı sıcak damlalar süzüldü ve bu cesur çocuğu şaşırttı.",
+      "notes": "Participial phrase 'puzzling the brave boy'; subject 'warm drops'."
+    },
+    {
+      "id": 180,
+      "start_ms": 887396,
+      "end_ms": 892820,
+      "text": "'Do not be ashamed, Little Brother,' whispered Bagheera, 'they are only tears.'",
+      "translation": "'Utanma Küçük Kardeş,' diye fısıldadı Bagheera, 'onlar sadece gözyaşı.'",
+      "notes": "Negative imperative 'do not be ashamed'; adverb 'only'."
+    },
+    {
+      "id": 181,
+      "start_ms": 893820,
+      "end_ms": 899076,
+      "text": "Mowgli walked down the long mountain slope into the valley of cultivated fields.",
+      "translation": "Mowgli uzun dağ yamacından aşağı inerek ekili tarlaların bulunduğu vadiye vardı.",
+      "notes": "Adjective 'cultivated'; prepositional phrase 'into the valley'."
+    },
+    {
+      "id": 182,
+      "start_ms": 899476,
+      "end_ms": 904972,
+      "text": "The human village had mud walls, thatched roofs, and loud barking dogs.",
+      "translation": "İnsan köyünün çamur duvarları, sazdan çatıları ve havlayan gürültücü köpekleri vardı.",
+      "notes": "Coordinate noun phrases with adjectives; participial adjective 'barking'."
+    },
+    {
+      "id": 183,
+      "start_ms": 905372,
+      "end_ms": 910340,
+      "text": "The villagers gathered around him, pointing at his scars and naked chest.",
+      "translation": "Köylüler onun yara izlerini ve çıplak göğsünü işaret ederek etrafına toplandılar.",
+      "notes": "Participial phrase 'pointing at'; compound noun 'scars and naked chest'."
+    },
+    {
+      "id": 184,
+      "start_ms": 910740,
+      "end_ms": 915444,
+      "text": "A kind woman named Messua looked into his dark eyes and gasped.",
+      "translation": "Messua adında müşfik bir kadın onun kara gözlerinin içine baktı ve heyecanla nefesini tuttu.",
+      "notes": "Past participle modifier 'named Messua'; coordinate past verbs."
+    },
+    {
+      "id": 185,
+      "start_ms": 915844,
+      "end_ms": 920644,
+      "text": "'He has the eyes of my little boy whom the tiger stole!' she wept.",
+      "translation": "'Kaplanın çaldığı küçük oğlumun gözlerine sahip!' diyerek ağladı.",
+      "notes": "Relative clause 'whom the tiger stole'; present tense 'has the eyes'."
+    },
+    {
+      "id": 186,
+      "start_ms": 921044,
+      "end_ms": 926084,
+      "text": "Messua took Mowgli into her warm hut and gave him sweet milk and bread.",
+      "translation": "Messua Mowgli'yi sıcak kulübesine aldı ve ona tatlı süt ile ekmek verdi.",
+      "notes": "Double object construction 'gave him sweet milk and bread'."
+    },
+    {
+      "id": 187,
+      "start_ms": 926484,
+      "end_ms": 931620,
+      "text": "Mowgli found living inside four walls very stifling and uncomfortable.",
+      "translation": "Mowgli dört duvar arasında yaşamayı son derece boğucu ve rahatsız edici buldu.",
+      "notes": "Complex transitive structure 'found [gerund] [adjectives]'."
+    },
+    {
+      "id": 188,
+      "start_ms": 932020,
+      "end_ms": 936676,
+      "text": "The coarse cloth they put on him felt heavy and itchy against his skin.",
+      "translation": "Üzerine giydirdikleri kaba kumaş, tenine ağır ve kaşındırıcı geldi.",
+      "notes": "Adjectives 'heavy and itchy'; relative clause 'they put on him'."
+    },
+    {
+      "id": 189,
+      "start_ms": 937076,
+      "end_ms": 941564,
+      "text": "He could not sleep on the raised wooden bed and lay on the earthen floor.",
+      "translation": "Yüksek ahşap yatakta uyuyamadı ve toprak zeminin üzerine yattı.",
+      "notes": "Coordinate past verbs; compound noun 'earthen floor'."
+    },
+    {
+      "id": 190,
+      "start_ms": 941964,
+      "end_ms": 947676,
+      "text": "Every evening he had to learn human words like plow, coins, and taxes.",
+      "translation": "Her akşam saban, madeni para ve vergi gibi insani kelimeleri öğrenmek zorundaydı.",
+      "notes": "Modal obligation 'had to learn'; preposition 'like' for examples."
+    },
+    {
+      "id": 191,
+      "start_ms": 948076,
+      "end_ms": 953356,
+      "text": "He thought the villagers were foolish, noisy, and clumsy in their movements.",
+      "translation": "Köylülerin hareketlerinde akılsız, gürültücü ve hantal olduklarını düşünüyordu.",
+      "notes": "Noun clause 'the villagers were...'; coordinate adjectives."
+    },
+    {
+      "id": 192,
+      "start_ms": 953756,
+      "end_ms": 958604,
+      "text": "To earn his food, Mowgli was put in charge of the village buffalo herd.",
+      "translation": "Yiyeceğini hak etmek için Mowgli köyün manda sürüsünün başına verildi.",
+      "notes": "Infinitive of purpose 'to earn'; idiom 'put in charge of'."
+    },
+    {
+      "id": 193,
+      "start_ms": 959004,
+      "end_ms": 964188,
+      "text": "Rama, the great leader bull, obeyed Mowgli's commands without question.",
+      "translation": "Büyük lider boğa Rama, Mowgli'nin emirlerine sorgusuz sualsiz itaat ediyordu.",
+      "notes": "Prepositional phrase 'without question'; proper noun 'Rama'."
+    },
+    {
+      "id": 194,
+      "start_ms": 964588,
+      "end_ms": 969124,
+      "text": "Every morning Mowgli drove the herd out to the wide grassy marshes.",
+      "translation": "Her sabah Mowgli sürüyü otlu geniş bataklıklara doğru otlatmaya götürürdü.",
+      "notes": "Phrasal verb 'drove out to'; adjective 'grassy'."
+    },
+    {
+      "id": 195,
+      "start_ms": 969524,
+      "end_ms": 973820,
+      "text": "The heavy buffaloes wallowed contentedly in the cool black mud.",
+      "translation": "Ağır mandalar serin kara çamurun içinde memnuniyetle yuvarlandılar.",
+      "notes": "Adverb 'contentedly'; past verb 'wallowed'."
+    },
+    {
+      "id": 196,
+      "start_ms": 974220,
+      "end_ms": 978852,
+      "text": "Mowgli lay on the back of a huge bull and watched the distant jungle.",
+      "translation": "Mowgli dev bir boğanın sırtına uzanıp uzaktaki ormanı izledi.",
+      "notes": "Coordinate past verbs; adjective 'distant'."
+    },
+    {
+      "id": 197,
+      "start_ms": 979252,
+      "end_ms": 983092,
+      "text": "He missed the freedom of running with his brothers under the moon.",
+      "translation": "Ay ışığı altında kardeşleriyle koşmanın özgürlüğünü çok özlüyordu.",
+      "notes": "Gerund object 'running with his brothers'; noun 'freedom'."
+    },
+    {
+      "id": 198,
+      "start_ms": 983492,
+      "end_ms": 987836,
+      "text": "The village boys mocked him because he did not understand their games.",
+      "translation": "Köyün çocukları oyunlarını anlamadığı için onunla alay ettiler.",
+      "notes": "Causal clause with 'because'; negative past 'did not understand'."
+    },
+    {
+      "id": 199,
+      "start_ms": 988236,
+      "end_ms": 992916,
+      "text": "Mowgli held his temper because he remembered the wise teachings of Baloo.",
+      "translation": "Mowgli öfkesine hakim oldu çünkü Baloo'nun bilgece öğretilerini hatırlıyordu.",
+      "notes": "Idiom 'held his temper'; possessive 'teachings of Baloo'."
+    },
+    {
+      "id": 200,
+      "start_ms": 993316,
+      "end_ms": 997468,
+      "text": "A gray head appeared at the edge of the tall sugarcane field.",
+      "translation": "Uzun şeker kamışı tarlasının kenarında gri bir baş belirdi.",
+      "notes": "Prepositional phrase 'at the edge of'; compound noun 'sugarcane field'."
+    },
+    {
+      "id": 201,
+      "start_ms": 998468,
+      "end_ms": 1002572,
+      "text": "It was Gray Brother, the eldest of Mother Wolf's cubs.",
+      "translation": "Bu, Anne Kurt'un yavrularının en büyüğü olan Gri Kardeş'ti.",
+      "notes": "Superlative 'eldest'; appositive noun phrase."
+    },
+    {
+      "id": 202,
+      "start_ms": 1002972,
+      "end_ms": 1006980,
+      "text": "He pressed his cool nose into the palm of Mowgli's hand.",
+      "translation": "Soğuk burnunu Mowgli'nin avucunun içine bastırdı.",
+      "notes": "Phrasal action 'pressed into'; possessive 'Mowgli's hand'."
+    },
+    {
+      "id": 203,
+      "start_ms": 1007380,
+      "end_ms": 1011868,
+      "text": "'Shere Khan has returned to the district,' whispered the gray wolf.",
+      "translation": "'Shere Han bu bölgeye geri döndü,' diye fısıldadı gri kurt.",
+      "notes": "Present perfect 'has returned'; noun 'district'."
+    },
+    {
+      "id": 204,
+      "start_ms": 1012268,
+      "end_ms": 1016396,
+      "text": "'His burns have healed, and he has sworn to take your life.'",
+      "translation": "'Yanıkları iyileşti ve senin canını almaya yemin etti.'",
+      "notes": "Present perfect coordinate verbs 'have healed' and 'has sworn'."
+    },
+    {
+      "id": 205,
+      "start_ms": 1016796,
+      "end_ms": 1021284,
+      "text": "'Where is the striped butcher hiding now?' asked Mowgli sternly.",
+      "translation": "'Çizgili kasap şimdi nerede saklanıyor?' diye sordu Mowgli sert bir ifadeyle.",
+      "notes": "Present continuous question; adverb 'sternly'."
+    },
+    {
+      "id": 206,
+      "start_ms": 1021684,
+      "end_ms": 1026700,
+      "text": "'He waits at the great ravine of the Waingunga river,' replied Gray Brother.",
+      "translation": "'Waingunga nehrinin büyük geçidinde bekliyor,' diye yanıtladı Gri Kardeş.",
+      "notes": "Present tense; prepositional phrase 'at the great ravine'."
+    },
+    {
+      "id": 207,
+      "start_ms": 1027100,
+      "end_ms": 1031588,
+      "text": "'He ate a full meal this morning and is sleeping heavily in the shade.'",
+      "translation": "'Bu sabah karnını tıka basa doyurdu ve gölgede derin uykuda yatıyor.'",
+      "notes": "Past + present continuous; adverb 'heavily'."
+    },
+    {
+      "id": 208,
+      "start_ms": 1031988,
+      "end_ms": 1036668,
+      "text": "Mowgli's eyes sparkled with fierce, calculating determination.",
+      "translation": "Mowgli'nin gözleri yırtıcı ve hesaplı bir kararlılıkla parıldadı.",
+      "notes": "Coordinate adjectives 'fierce, calculating'; preposition 'with'."
+    },
+    {
+      "id": 209,
+      "start_ms": 1037068,
+      "end_ms": 1041916,
+      "text": "'A full belly makes a lazy hunter,' said Mowgli with a grim smile.",
+      "translation": "'Tıkabasa dolu bir karın, avcıyı tembel yapar,' dedi Mowgli sert bir tebessümle.",
+      "notes": "Proverbial statement; noun phrase 'lazy hunter'."
+    },
+    {
+      "id": 210,
+      "start_ms": 1042316,
+      "end_ms": 1046948,
+      "text": "'We can trap him inside the deep ravine between two steep walls.'",
+      "translation": "'İki dik duvar arasındaki derin geçitte onu kapana kıstırabiliriz.'",
+      "notes": "Modal 'can trap'; prepositional phrase 'between two steep walls'."
+    },
+    {
+      "id": 211,
+      "start_ms": 1047348,
+      "end_ms": 1052196,
+      "text": "'How can a single man and one wolf fight a tiger?' asked Gray Brother.",
+      "translation": "'Tek bir insan ve bir kurt bir kaplanla nasıl savaşabilir?' diye sordu Gri Kardeş.",
+      "notes": "Modal question; singular subjects."
+    },
+    {
+      "id": 212,
+      "start_ms": 1052596,
+      "end_ms": 1057708,
+      "text": "'We will not fight with our claws, but with the herd,' Mowgli explained.",
+      "translation": "'Pençelerimizle değil, sürüyle savaşacağız,' diye açıkladı Mowgli.",
+      "notes": "Negative contrast 'not with... but with'; future modal 'will'."
+    },
+    {
+      "id": 213,
+      "start_ms": 1058108,
+      "end_ms": 1062452,
+      "text": "Akela suddenly stepped out from the bushes to join his brothers.",
+      "translation": "Akela kardeşlerine katılmak için aniden çalıların arasından çıkageldi.",
+      "notes": "Infinitive of purpose 'to join'; phrasal verb 'stepped out'."
+    },
+    {
+      "id": 214,
+      "start_ms": 1062852,
+      "end_ms": 1067388,
+      "text": "The old wolf was ready to follow Mowgli's leadership until the end.",
+      "translation": "Yaşlı kurt sonuna kadar Mowgli'nin liderliğini takip etmeye hazırdı.",
+      "notes": "Adjective + infinitive 'ready to follow'; prepositional phrase 'until the end'."
+    },
+    {
+      "id": 215,
+      "start_ms": 1067788,
+      "end_ms": 1072156,
+      "text": "'We must divide the herd into two groups,' Mowgli instructed.",
+      "translation": "'Sürüyü iki gruba ayırmalıyız,' diye talimat verdi Mowgli.",
+      "notes": "Modal of obligation 'must divide'; preposition 'into two groups'."
+    },
+    {
+      "id": 216,
+      "start_ms": 1072556,
+      "end_ms": 1076540,
+      "text": "'The cows and calves must go to the upper end of the gorge.'",
+      "translation": "'İnekler ve buzağılar boğazın yukarı ucuna gitmeli.'",
+      "notes": "Compound subject; modal 'must go'."
+    },
+    {
+      "id": 217,
+      "start_ms": 1076940,
+      "end_ms": 1081428,
+      "text": "'The heavy bulls under Rama will charge down from the lower entrance.'",
+      "translation": "'Rama'nın idaresindeki ağır boğalar ise aşağı girişten hücuma geçecek.'",
+      "notes": "Future modal 'will charge'; prepositional phrase 'under Rama'."
+    },
+    {
+      "id": 218,
+      "start_ms": 1081828,
+      "end_ms": 1086244,
+      "text": "The two wolves dashed through the marsh to guide the cows quietly.",
+      "translation": "İki kurt inekleri sessizce yönlendirmek için bataklıktan hızla koştular.",
+      "notes": "Infinitive of purpose 'to guide'; adverb 'quietly'."
+    },
+    {
+      "id": 219,
+      "start_ms": 1086644,
+      "end_ms": 1091060,
+      "text": "Mowgli mounted Rama's broad back and whispered into the bull's ear.",
+      "translation": "Mowgli Rama'nın geniş sırtına bindi ve boğanın kulağına fısıldadı.",
+      "notes": "Coordinated actions 'mounted' and 'whispered'."
+    },
+    {
+      "id": 220,
+      "start_ms": 1091460,
+      "end_ms": 1095276,
+      "text": "The great trap was set for the lord of the striped skin.",
+      "translation": "Çizgili postun efendisi için büyük tuzak kurulmuştu.",
+      "notes": "Passive voice 'was set'; title phrase 'lord of the striped skin'."
+    },
+    {
+      "id": 221,
+      "start_ms": 1096276,
+      "end_ms": 1100764,
+      "text": "The gorge was narrow, with steep rock walls rising straight up.",
+      "translation": "Boğaz dardı ve sarp kaya duvarları dimdik yukarı yükseliyordu.",
+      "notes": "Absolute clause 'with steep rock walls rising'; adjective 'narrow'."
+    },
+    {
+      "id": 222,
+      "start_ms": 1101164,
+      "end_ms": 1106132,
+      "text": "At the bottom of the ravine, Shere Khan woke to a low rumbling sound.",
+      "translation": "Geçidin dibinde Shere Han derinden gelen bir uğultu sesine uyandı.",
+      "notes": "Phrasal verb 'woke to'; compound noun 'low rumbling sound'."
+    },
+    {
+      "id": 223,
+      "start_ms": 1106532,
+      "end_ms": 1111332,
+      "text": "The ground under his heavy paws began to tremble with increasing violence.",
+      "translation": "Ağır patilerinin altındaki zemin giderek artan bir şiddetle titremeye başladı.",
+      "notes": "Verb followed by infinitive 'began to tremble'; prepositional phrase 'with increasing violence'."
+    },
+    {
+      "id": 224,
+      "start_ms": 1111732,
+      "end_ms": 1116268,
+      "text": "From the upper entrance came a panicked stampede of wild cows.",
+      "translation": "Yukarı girişten çılgınca kaçışan vahşi ineklerin izdihamı geldi.",
+      "notes": "Inverted locative sentence; adjective 'panicked'."
+    },
+    {
+      "id": 225,
+      "start_ms": 1116668,
+      "end_ms": 1120820,
+      "text": "The tiger turned to flee down the gorge toward the open plain.",
+      "translation": "Kaplan açık ovaya doğru boğazdan aşağı kaçmak için döndü.",
+      "notes": "Infinitive of purpose 'to flee'; directional preposition 'toward'."
+    },
+    {
+      "id": 226,
+      "start_ms": 1121220,
+      "end_ms": 1125180,
+      "text": "But at the lower entrance stood Mowgli on the back of Rama.",
+      "translation": "Fakat aşağı girişte Rama'nın sırtında Mowgli duruyordu.",
+      "notes": "Inverted sentence; prepositional phrase 'at the lower entrance'."
+    },
+    {
+      "id": 227,
+      "start_ms": 1125580,
+      "end_ms": 1130428,
+      "text": "Beside him were rows of massive bulls with lowered, sharp horns.",
+      "translation": "Onun yanında aşağı indirilmiş keskin boynuzlarıyla sıra sıra devasa boğalar vardı.",
+      "notes": "Inverted structure; participial adjective 'lowered'."
+    },
+    {
+      "id": 228,
+      "start_ms": 1130828,
+      "end_ms": 1135748,
+      "text": "'Charge, Rama!' shouted Mowgli with all the power of his voice.",
+      "translation": "'Hücum, Rama!' diye var gücüyle haykırdı Mowgli.",
+      "notes": "Imperative 'charge'; prepositional phrase 'with all the power'."
+    },
+    {
+      "id": 229,
+      "start_ms": 1136148,
+      "end_ms": 1140924,
+      "text": "The bulls plunged forward in an unstoppable wave of muscle and horn.",
+      "translation": "Boğalar durdurulamaz bir kas ve boynuz dalgası halinde ileri atıldılar.",
+      "notes": "Phrasal verb 'plunged forward'; prepositional phrase 'in an unstoppable wave'."
+    },
+    {
+      "id": 230,
+      "start_ms": 1141324,
+      "end_ms": 1145236,
+      "text": "Shere Khan was trapped between the two charging herds.",
+      "translation": "Shere Han hücuma kalkan iki sürünün arasında kapana kısıldı.",
+      "notes": "Passive voice 'was trapped'; preposition 'between'."
+    },
+    {
+      "id": 231,
+      "start_ms": 1145636,
+      "end_ms": 1150388,
+      "text": "He tried desperately to scramble up the slippery clay walls of the ravine.",
+      "translation": "Geçidin kaygan killi duvarlarına tırmanmak için çaresizce çabaladı.",
+      "notes": "Infinitive 'to scramble up'; coordinate adjectives 'slippery clay'."
+    },
+    {
+      "id": 232,
+      "start_ms": 1150788,
+      "end_ms": 1155396,
+      "text": "His heavy belly dragged him down, and his claws found no grip.",
+      "translation": "Ağır karnı onu aşağı çekiyordu ve pençeleri tutunacak hiçbir yer bulamadı.",
+      "notes": "Coordinate past clauses; noun phrase 'no grip'."
+    },
+    {
+      "id": 233,
+      "start_ms": 1155796,
+      "end_ms": 1159924,
+      "text": "The thundering hooves struck him like a storm of iron hammers.",
+      "translation": "Gürleyen toynaklar demir çekiç fırtınası gibi ona çarptı.",
+      "notes": "Simile 'like a storm of iron hammers'; participial adjective 'thundering'."
+    },
+    {
+      "id": 234,
+      "start_ms": 1160324,
+      "end_ms": 1164812,
+      "text": "Rama smashed into the tiger and trampled him beneath his heavy feet.",
+      "translation": "Rama kaplana var gücüyle çarptı ve onu ağır ayaklarının altında çiğnedi.",
+      "notes": "Coordinated actions 'smashed into' and 'trampled'; preposition 'beneath'."
+    },
+    {
+      "id": 235,
+      "start_ms": 1165212,
+      "end_ms": 1169532,
+      "text": "The bulls roared in fury as they swept over the fallen predator.",
+      "translation": "Boğalar yere düşen yırtıcının üzerinden geçerken öfkeyle böğürdüler.",
+      "notes": "Time clause with 'as'; participial adjective 'fallen predator'."
+    },
+    {
+      "id": 236,
+      "start_ms": 1169932,
+      "end_ms": 1175020,
+      "text": "When the dust finally cleared, the striped terror was motionless on the ground.",
+      "translation": "Toz duman nihayet dağıldığında, çizgili dehşet yerde hareketsiz yatıyordu.",
+      "notes": "Time clause 'when the dust cleared'; adjective 'motionless'."
+    },
+    {
+      "id": 237,
+      "start_ms": 1175420,
+      "end_ms": 1181036,
+      "text": "Shere Khan had met his end, not by human steel, but by jungle justice.",
+      "translation": "Shere Han sonunu insan çeliğiyle değil, orman adaletiyle bulmuştu.",
+      "notes": "Past perfect 'had met'; negative contrast 'not by... but by'."
+    },
+    {
+      "id": 238,
+      "start_ms": 1181436,
+      "end_ms": 1185756,
+      "text": "Mowgli leaped down from Rama's back with his sharp hunting knife.",
+      "translation": "Mowgli keskin av bıçağıyla Rama'nın sırtından aşağı atladı.",
+      "notes": "Phrasal verb 'leaped down from'; prepositional phrase 'with his sharp knife'."
+    },
+    {
+      "id": 239,
+      "start_ms": 1186156,
+      "end_ms": 1190908,
+      "text": "'I made a promise to the Free Pack,' said Mowgli to the listening wind.",
+      "translation": "'Özgür Sürü'ye bir söz vermiştim,' dedi Mowgli dinleyen rüzgara.",
+      "notes": "Past tense 'made a promise'; participial adjective 'listening'."
+    },
+    {
+      "id": 240,
+      "start_ms": 1191308,
+      "end_ms": 1195916,
+      "text": "He began stripping the great striped hide to bring back to Council Rock.",
+      "translation": "Konsey Kayası'na geri götürmek üzere koca çizgili postu yüzmeye başladı.",
+      "notes": "Gerund object 'stripping'; infinitive of purpose 'to bring back'."
+    },
+    {
+      "id": 241,
+      "start_ms": 1196916,
+      "end_ms": 1201788,
+      "text": "A foolish village hunter named Buldeo arrived and tried to claim the skin.",
+      "translation": "Buldeo adında aptal bir köy avcısı çıkageldi ve post üzerinde hak iddia etmeye kalkıştı.",
+      "notes": "Coordinate past verbs 'arrived and tried'; infinitive 'to claim'."
+    },
+    {
+      "id": 242,
+      "start_ms": 1202188,
+      "end_ms": 1206676,
+      "text": "Gray Brother pinned the frightened old hunter to the ground with one growl.",
+      "translation": "Gri Kardeş tek bir homurtuyla o korkmuş yaşlı avcıyı yere serdi.",
+      "notes": "Phrasal verb 'pinned to'; prepositional phrase 'with one growl'."
+    },
+    {
+      "id": 243,
+      "start_ms": 1207076,
+      "end_ms": 1212404,
+      "text": "Buldeo ran screaming back to the village, shouting that Mowgli was a sorcerer.",
+      "translation": "Buldeo Mowgli'nin bir büyücü olduğunu haykırarak çığlıklar içinde köye geri kaçtı.",
+      "notes": "Participle clause 'shouting that...'; noun 'sorcerer'."
+    },
+    {
+      "id": 244,
+      "start_ms": 1212804,
+      "end_ms": 1217628,
+      "text": "When Mowgli returned to the village, stones flew through the air at him.",
+      "translation": "Mowgli köye döndüğünde, havada ona doğru taşlar uçuştu.",
+      "notes": "Time clause; prepositional phrase 'through the air at him'."
+    },
+    {
+      "id": 245,
+      "start_ms": 1218028,
+      "end_ms": 1224172,
+      "text": "'Sorcerer! Wolf-demon!' screamed the superstitious villagers in fear.",
+      "translation": "'Büyücü! Kurt-iblis!' diye haykırdı batıl inançlı köylüler korku içinde.",
+      "notes": "Vocative epithets; adjective 'superstitious'."
+    },
+    {
+      "id": 246,
+      "start_ms": 1224572,
+      "end_ms": 1232204,
+      "text": "Only Messua wept and cried, 'My son! My son! Forgive their foolishness!'",
+      "translation": "Yalnızca Messua ağlayarak seslendi: 'Oğlum! Oğlum! Onların aptallığını bağışla!'",
+      "notes": "Adverb 'only'; imperative 'forgive their foolishness'."
+    },
+    {
+      "id": 247,
+      "start_ms": 1232604,
+      "end_ms": 1237044,
+      "text": "Mowgli turned his back on the village without throwing a single stone.",
+      "translation": "Mowgli tek bir taş bile atmadan köye sırtını döndü.",
+      "notes": "Idiom 'turned his back on'; preposition 'without' + gerund."
+    },
+    {
+      "id": 248,
+      "start_ms": 1237444,
+      "end_ms": 1242052,
+      "text": "'Men are as fickle and ungrateful as the monkeys,' thought the boy.",
+      "translation": "'İnsanlar da maymunlar kadar dönek ve nankör,' diye düşündü çocuk.",
+      "notes": "Comparative equality 'as fickle and ungrateful as'."
+    },
+    {
+      "id": 249,
+      "start_ms": 1242452,
+      "end_ms": 1246820,
+      "text": "He carried the heavy tiger hide up the mountain into the deep jungle.",
+      "translation": "Ağır kaplan postunu dağın yukarısına, ormanın derinliklerine doğru taşıdı.",
+      "notes": "Directional phrases 'up the mountain into'."
+    },
+    {
+      "id": 250,
+      "start_ms": 1247220,
+      "end_ms": 1251396,
+      "text": "Night had fallen when he finally reached the high Council Rock.",
+      "translation": "Yüksek Konsey Kayası'na nihayet ulaştığında gece çökmüştü.",
+      "notes": "Past perfect 'had fallen'; time clause with 'reached'."
+    },
+    {
+      "id": 251,
+      "start_ms": 1251796,
+      "end_ms": 1256788,
+      "text": "Akela, Bagheera, and Baloo were waiting among the silent wolves.",
+      "translation": "Akela, Bagheera ve Baloo sessiz kurtların arasında bekliyorlardı.",
+      "notes": "Past continuous 'were waiting'; preposition 'among'."
+    },
+    {
+      "id": 252,
+      "start_ms": 1257188,
+      "end_ms": 1261916,
+      "text": "Mowgli pegged the enormous striped hide across the flat council boulder.",
+      "translation": "Mowgli devasa çizgili postu düz konsey kayasının üzerine kazıklarla gerdi.",
+      "notes": "Transitive past verb 'pegged'; preposition 'across'."
+    },
+    {
+      "id": 253,
+      "start_ms": 1262316,
+      "end_ms": 1266252,
+      "text": "Akela climbed up and lay across the dead tiger's head.",
+      "translation": "Akela yukarı tırmandı ve ölü kaplanın kafasının üzerine uzandı.",
+      "notes": "Coordinate past verbs 'climbed and lay'."
+    },
+    {
+      "id": 254,
+      "start_ms": 1266652,
+      "end_ms": 1271332,
+      "text": "The old wolf lifted his muzzle to the stars and let out the hunting howl.",
+      "translation": "Yaşlı kurt burnunu yıldızlara doğru kaldırdı ve av ulumasını koyuverdi.",
+      "notes": "Coordinate clauses; noun phrase 'hunting howl'."
+    },
+    {
+      "id": 255,
+      "start_ms": 1271732,
+      "end_ms": 1276340,
+      "text": "Wolf after wolf joined the chorus until the hills shook with music.",
+      "translation": "Tepeler bu müzikle sarsılana kadar kurt üstüne kurt koroya katıldı.",
+      "notes": "Repetitive subject 'wolf after wolf'; time clause with 'until'."
+    },
+    {
+      "id": 256,
+      "start_ms": 1276740,
+      "end_ms": 1280844,
+      "text": "The pack begged Mowgli and Akela to lead them once again.",
+      "translation": "Sürü, Mowgli ve Akela'ya kendilerini bir kez daha yönetmeleri için yalvardı.",
+      "notes": "Verb + object + infinitive 'begged them to lead'."
+    },
+    {
+      "id": 257,
+      "start_ms": 1281244,
+      "end_ms": 1286740,
+      "text": "'No,' answered Mowgli softly, 'I have been hunted by men and by wolves.'",
+      "translation": "'Hayır,' diye yanıtladı Mowgli usulca, 'ben hem insanlar hem de kurtlar tarafından avlandım.'",
+      "notes": "Present perfect passive 'have been hunted by'."
+    },
+    {
+      "id": 258,
+      "start_ms": 1287140,
+      "end_ms": 1292132,
+      "text": "'From now on, I will hunt alone in the jungle with my four wolf brothers.'",
+      "translation": "'Bundan böyle, ormanda dört kurt kardeşimle birlikte tek başıma avlanacağım.'",
+      "notes": "Time phrase 'from now on'; modal 'will hunt alone'."
+    },
+    {
+      "id": 259,
+      "start_ms": 1292532,
+      "end_ms": 1297428,
+      "text": "Bagheera stepped forward and rubbed his glossy cheek against Mowgli's leg.",
+      "translation": "Bagheera öne adım attı ve parlak yanağını Mowgli'nin bacağına sürttü.",
+      "notes": "Coordinate past verbs; adjective 'glossy'."
+    },
+    {
+      "id": 260,
+      "start_ms": 1297828,
+      "end_ms": 1302532,
+      "text": "The boy had proven himself master of the jungle and lord of the beasts.",
+      "translation": "Çocuk kendisinin ormanın efendisi ve canavarların hükümdarı olduğunu kanıtlamıştı.",
+      "notes": "Past perfect 'had proven'; titles in apposition."
+    },
+    {
+      "id": 261,
+      "start_ms": 1303532,
+      "end_ms": 1309100,
+      "text": "Years drifted by, and Mowgli grew into a tall, broad-shouldered young man.",
+      "translation": "Yıllar akıp geçti ve Mowgli uzun boylu, geniş omuzlu genç bir adama dönüştü.",
+      "notes": "Phrasal verb 'drifted by'; compound adjective 'broad-shouldered'."
+    },
+    {
+      "id": 262,
+      "start_ms": 1309500,
+      "end_ms": 1314420,
+      "text": "He was swifter than any deer and stronger than any beast save the elephant.",
+      "translation": "Filden başka her canavardan daha güçlü ve her geyikten daha hızlıydı.",
+      "notes": "Comparative adjectives; archaic preposition 'save' meaning except."
+    },
+    {
+      "id": 263,
+      "start_ms": 1314820,
+      "end_ms": 1319404,
+      "text": "Then came the season of the Spring Running, when all the jungle woke.",
+      "translation": "Sonra bütün ormanın uyandığı Bahar Koşusu mevsimi geldi çattı.",
+      "notes": "Inverted structure; relative time clause 'when all the jungle woke'."
+    },
+    {
+      "id": 264,
+      "start_ms": 1319804,
+      "end_ms": 1324532,
+      "text": "The red flowers of the dhak tree blossomed like sparks in the green sea.",
+      "translation": "Dhak ağacının kırmızı çiçekleri yeşil denizde birer kıvılcım gibi açtı.",
+      "notes": "Simile 'like sparks in the green sea'; past verb 'blossomed'."
+    },
+    {
+      "id": 265,
+      "start_ms": 1324932,
+      "end_ms": 1329492,
+      "text": "The smell of damp earth and new grass filled the warm night breeze.",
+      "translation": "Nemli toprağın ve taze çimenin kokusu ılık gece esintisini doldurdu.",
+      "notes": "Compound subject; past verb 'filled'."
+    },
+    {
+      "id": 266,
+      "start_ms": 1329892,
+      "end_ms": 1334404,
+      "text": "All the animals were singing, calling to their mates in the shadows.",
+      "translation": "Bütün hayvanlar şarkı söylüyor, gölgelerin içindeki eşlerine sesleniyordu.",
+      "notes": "Past continuous; participle phrase 'calling to their mates'."
+    },
+    {
+      "id": 267,
+      "start_ms": 1334804,
+      "end_ms": 1339580,
+      "text": "Mowgli felt a strange, restless sorrow inside his young heart.",
+      "translation": "Mowgli genç yüreğinin içinde garip, huzursuz bir keder hissetti.",
+      "notes": "Copular verb 'felt'; coordinate adjectives 'strange, restless'."
+    },
+    {
+      "id": 268,
+      "start_ms": 1339980,
+      "end_ms": 1344684,
+      "text": "He had no desire to hunt, and the meat tasted tasteless to him.",
+      "translation": "İçinde avlanmaya dair hiçbir istek yoktu ve et ona tatsız geliyordu.",
+      "notes": "Noun phrase 'no desire to hunt'; copular verb 'tasted'."
+    },
+    {
+      "id": 269,
+      "start_ms": 1345084,
+      "end_ms": 1349884,
+      "text": "He ran through the jungle all night, but he could not run away from his mood.",
+      "translation": "Bütün gece ormanın içinde koştu ama ruh halinden bir türlü kaçamadı.",
+      "notes": "Phrasal verb 'run away from'; noun 'mood'."
+    },
+    {
+      "id": 270,
+      "start_ms": 1350284,
+      "end_ms": 1355348,
+      "text": "He found Baloo resting under a flowering vine, looking old and frail.",
+      "translation": "Baloo'yu çiçekli bir sarmaşığın altında dinlenirken, yaşlı ve bitkin halde buldu.",
+      "notes": "Perception verb + participle; coordinate adjectives 'old and frail'."
+    },
+    {
+      "id": 271,
+      "start_ms": 1355748,
+      "end_ms": 1360716,
+      "text": "'What is the matter with me, Baloo?' cried Mowgli in deep distress.",
+      "translation": "'Bana ne oluyor Baloo?' diye haykırdı Mowgli derin bir sıkıntı içinde.",
+      "notes": "Idiomatic question 'what is the matter with me'; prepositional phrase 'in deep distress'."
+    },
+    {
+      "id": 272,
+      "start_ms": 1361116,
+      "end_ms": 1365916,
+      "text": "'The Time of New Leaves has arrived, Little Brother,' said the old bear.",
+      "translation": "'Taze Yapraklar Mevsimi geldi çattı Küçük Kardeş,' dedi yaşlı ayı.",
+      "notes": "Present perfect 'has arrived'; title 'Time of New Leaves'."
+    },
+    {
+      "id": 273,
+      "start_ms": 1366316,
+      "end_ms": 1370228,
+      "text": "'The jungle is changing, and you are no longer a boy.'",
+      "translation": "'Orman değişiyor ve sen artık bir çocuk değilsin.'",
+      "notes": "Present continuous coordinate with negative adverb 'no longer'."
+    },
+    {
+      "id": 274,
+      "start_ms": 1370628,
+      "end_ms": 1375356,
+      "text": "Bagheera bounded silently out of the ferns and sat beside the youth.",
+      "translation": "Bagheera eğrelti otlarının arasından sessizce sıçrayıp gencin yanına oturdu.",
+      "notes": "Adverb 'silently'; noun 'youth' meaning young man."
+    },
+    {
+      "id": 275,
+      "start_ms": 1375756,
+      "end_ms": 1380412,
+      "text": "'A man goes to man at the last,' purred the black panther tenderly.",
+      "translation": "'İnsan sonunda yine insana gider,' diye usulca mırıldandı kara panter şefkatle.",
+      "notes": "Idiomatic expression 'at the last'; adverb 'tenderly'."
+    },
+    {
+      "id": 276,
+      "start_ms": 1380812,
+      "end_ms": 1385180,
+      "text": "'Though we love you more than our own kin, your place is among men.'",
+      "translation": "'Seni kendi soyumuzdan daha çok sevsek de, senin yerin insanların arasıdır.'",
+      "notes": "Concession clause with 'though'; comparative 'more than'."
+    },
+    {
+      "id": 277,
+      "start_ms": 1385580,
+      "end_ms": 1389900,
+      "text": "Mowgli looked down at his brown human hands and sighed deeply.",
+      "translation": "Mowgli esmer insan ellerine baktı ve derin bir iç çekti.",
+      "notes": "Directional phrase 'looked down at'; adverb 'deeply'."
+    },
+    {
+      "id": 278,
+      "start_ms": 1390300,
+      "end_ms": 1394980,
+      "text": "He remembered Messua's gentle voice and her warm mud hut in the valley.",
+      "translation": "Messua'nın nazik sesini ve vadideki sıcak çamur kulübesini hatırladı.",
+      "notes": "Coordinated objects with adjectives; noun 'valley'."
+    },
+    {
+      "id": 279,
+      "start_ms": 1395380,
+      "end_ms": 1400252,
+      "text": "The wild green forest was his home, but a new world was calling him.",
+      "translation": "Vahşi yeşil orman onun eviydi ama yeni bir dünya ona sesleniyordu.",
+      "notes": "Coordinate clauses with 'but'; past continuous 'was calling'."
+    },
+    {
+      "id": 280,
+      "start_ms": 1400652,
+      "end_ms": 1405476,
+      "text": "Tears fell once more, not from weakness, but from the pain of parting.",
+      "translation": "Gözyaşları bir kez daha döküldü; güçsüzlükten değil, ayrılığın acısından.",
+      "notes": "Negative contrast 'not from... but from'; noun 'parting'."
+    },
+    {
+      "id": 281,
+      "start_ms": 1406476,
+      "end_ms": 1411420,
+      "text": "At sunrise, Mowgli climbed the Council Rock for the very last time.",
+      "translation": "Gün doğumunda Mowgli, Konsey Kayası'na son kez tırmandı.",
+      "notes": "Time phrase 'at sunrise'; emphatic modifier 'for the very last time'."
+    },
+    {
+      "id": 282,
+      "start_ms": 1411820,
+      "end_ms": 1416524,
+      "text": "The Free Pack gathered below in silent ranks, heads held low.",
+      "translation": "Özgür Sürü, başları eğik halde aşağıda sessiz saflar halinde toplandı.",
+      "notes": "Absolute participle construction 'heads held low'; noun 'ranks'."
+    },
+    {
+      "id": 283,
+      "start_ms": 1416924,
+      "end_ms": 1422516,
+      "text": "Father Wolf, Mother Wolf, Baloo, and Bagheera stood close around him.",
+      "translation": "Baba Kurt, Anne Kurt, Baloo ve Bagheera etrafında dimdik durdular.",
+      "notes": "Multiple subjects; adverbial modifier 'close around him'."
+    },
+    {
+      "id": 284,
+      "start_ms": 1422916,
+      "end_ms": 1428220,
+      "text": "'Listen, O Free People!' spoke Mowgli with clear and steady dignity.",
+      "translation": "'Dinleyin, ey Özgür Halk!' diye konuştu Mowgli berrak ve vakur bir asaletle.",
+      "notes": "Archaic vocative 'O Free People!'; coordinate adjectives 'clear and steady'."
+    },
+    {
+      "id": 285,
+      "start_ms": 1428620,
+      "end_ms": 1433468,
+      "text": "'I return to my own people, but my heart remains in this green realm.'",
+      "translation": "'Kendi halkıma dönüyorum ama kalbim bu yeşil diyarda kalıyor.'",
+      "notes": "Present simple coordinate clauses; noun 'realm'."
+    },
+    {
+      "id": 286,
+      "start_ms": 1433868,
+      "end_ms": 1437852,
+      "text": "'May the jungle ever give you good hunting and cool waters.'",
+      "translation": "'Orman size daima bereketli avlar ve serin sular bahşetsin.'",
+      "notes": "Optative modal 'may the jungle ever give'."
+    },
+    {
+      "id": 287,
+      "start_ms": 1438252,
+      "end_ms": 1442548,
+      "text": "Mother Wolf laid her gray muzzle against Mowgli's bare feet.",
+      "translation": "Anne Kurt gri burnunu Mowgli'nin çıplak ayaklarına dayadı.",
+      "notes": "Past verb 'laid'; preposition 'against'."
+    },
+    {
+      "id": 288,
+      "start_ms": 1442948,
+      "end_ms": 1448732,
+      "text": "'My little frog, you have paid every debt to the pack ten times over,' she whispered.",
+      "translation": "'Benim minik kurbağam, sürüye olan her borcunu katbekat ödedin,' diye fısıldadı.",
+      "notes": "Vocative nickname 'my little frog'; present perfect 'have paid'."
+    },
+    {
+      "id": 289,
+      "start_ms": 1449132,
+      "end_ms": 1454556,
+      "text": "Baloo embraced him with his great furry arms, unable to hold back his sorrow.",
+      "translation": "Baloo kederini tutamayarak devasa tüylü kollarıyla ona sarıldı.",
+      "notes": "Participial clause of result 'unable to hold back'."
+    },
+    {
+      "id": 290,
+      "start_ms": 1454956,
+      "end_ms": 1460260,
+      "text": "'Remember the Law, Little Brother, and walk always with honor,' said the bear.",
+      "translation": "'Kanun'u hatırla Küçük Kardeş ve daima onurunla yürü,' dedi ayı.",
+      "notes": "Imperative coordinates 'remember' and 'walk'; prepositional phrase 'with honor'."
+    },
+    {
+      "id": 291,
+      "start_ms": 1460660,
+      "end_ms": 1465460,
+      "text": "Bagheera bounded to a high rock and raised his deep voice to the sky.",
+      "translation": "Bagheera yüksek bir kayaya sıçradı ve gür sesini gökyüzüne doğru yükseltti.",
+      "notes": "Coordinate past verbs 'bounded and raised'."
+    },
+    {
+      "id": 292,
+      "start_ms": 1465860,
+      "end_ms": 1470564,
+      "text": "'The jungle is free to thee whenever thou returnest!' cried the panther.",
+      "translation": "'Ne zaman dönersen dön, bu orman sana ardına kadar açıktır!' diye haykırdı panter.",
+      "notes": "Poetic/archaic grammar 'to thee whenever thou returnest'."
+    },
+    {
+      "id": 293,
+      "start_ms": 1470964,
+      "end_ms": 1476052,
+      "text": "The four young wolves stepped to Mowgli's side with bright, faithful eyes.",
+      "translation": "Dört genç kurt parlak ve sadık gözlerle Mowgli'nin yanı başına geçti.",
+      "notes": "Prepositional phrase 'to Mowgli's side'; coordinate adjectives 'bright, faithful'."
+    },
+    {
+      "id": 294,
+      "start_ms": 1476452,
+      "end_ms": 1481444,
+      "text": "'We will walk with you to the edge of the cultivated fields,' said Gray Brother.",
+      "translation": "'Ekili tarlaların sınırına kadar seninle birlikte yürüyeceğiz,' dedi Gri Kardeş.",
+      "notes": "Future modal 'will walk'; noun phrase 'edge of the cultivated fields'."
+    },
+    {
+      "id": 295,
+      "start_ms": 1481844,
+      "end_ms": 1486908,
+      "text": "Together the five brothers walked down the long, sun-drenched jungle trail.",
+      "translation": "Beş kardeş birlikte güneşle yıkanmış uzun orman patikasından aşağı yürüdüler.",
+      "notes": "Adjective 'sun-drenched'; compound noun 'jungle trail'."
+    },
+    {
+      "id": 296,
+      "start_ms": 1487308,
+      "end_ms": 1492324,
+      "text": "The morning wind carried the sweet scents of wild jasmine and damp pine.",
+      "translation": "Sabah rüzgarı yaban yasemini ve nemli çamın tatlı kokularını taşıyordu.",
+      "notes": "Compound subjects and objects; adjective 'sweet'."
+    },
+    {
+      "id": 297,
+      "start_ms": 1492724,
+      "end_ms": 1497620,
+      "text": "At the fence of the village, Mowgli stopped and turned for one final look.",
+      "translation": "Köyün çitinde Mowgli durdu ve son bir kez bakmak için geriye döndü.",
+      "notes": "Prepositional phrase 'at the fence'; infinitive of purpose 'for one final look'."
+    },
+    {
+      "id": 298,
+      "start_ms": 1498020,
+      "end_ms": 1503036,
+      "text": "The four wolves sat in a row upon the green ridge, watching him proudly.",
+      "translation": "Dört kurt yeşil sırtın üzerinde yan yana oturmuş, onu gururla izliyordu.",
+      "notes": "Participial phrase 'watching him proudly'; preposition 'upon'."
+    },
+    {
+      "id": 299,
+      "start_ms": 1503436,
+      "end_ms": 1508500,
+      "text": "Mowgli stepped across the threshold into the village toward Messua's open door.",
+      "translation": "Mowgli eşikten geçerek Messua'nın açık kapısına doğru köye adım attı.",
+      "notes": "Prepositional phrases 'across the threshold' and 'toward open door'."
+    },
+    {
+      "id": 300,
+      "start_ms": 1508900,
+      "end_ms": 1514324,
+      "text": "He was a man among men now, but forever Mowgli, child of the Free People.",
+      "translation": "Artık insanlar arasında bir insandı ama ebediyen Özgür Halk'ın çocuğu Mowgli olarak kalacaktı.",
+      "notes": "Contrasting coordinate clause; eternal epithet 'child of the Free People'."
+    }
+  ]
+}
