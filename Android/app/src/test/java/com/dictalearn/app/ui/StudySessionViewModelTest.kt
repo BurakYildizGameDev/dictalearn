@@ -1,6 +1,8 @@
 package com.dictalearn.app.ui
 
+import com.dictalearn.app.data.mistakes.InMemoryMistakeRepository
 import com.dictalearn.app.domain.audio.FakeAudioEngine
+import com.dictalearn.app.domain.mistakes.MistakeKind
 import com.dictalearn.app.domain.model.Lesson
 import com.dictalearn.app.domain.model.Segment
 import org.junit.Assert.*
@@ -11,6 +13,7 @@ class StudySessionViewModelTest {
 
     private lateinit var lesson: Lesson
     private lateinit var fakeAudioEngine: FakeAudioEngine
+    private lateinit var mistakeRepo: InMemoryMistakeRepository
     private lateinit var viewModel: StudySessionViewModel
 
     @Before
@@ -28,7 +31,13 @@ class StudySessionViewModelTest {
             )
         )
         fakeAudioEngine = FakeAudioEngine()
-        viewModel = StudySessionViewModel(lesson, fakeAudioEngine, autoPlay = true)
+        mistakeRepo = InMemoryMistakeRepository()
+        viewModel = StudySessionViewModel(
+            lesson = lesson,
+            audioEngine = fakeAudioEngine,
+            mistakeRepository = mistakeRepo,
+            autoPlay = true
+        )
     }
 
     @Test
@@ -41,14 +50,68 @@ class StudySessionViewModelTest {
     }
 
     @Test
-    fun submitAnswer_transitionsToReviewing() {
+    fun submitPerfectAnswer_transitionsDirectlyToShadowing() {
         viewModel.setTypedText("he packed his suitcase")
+        viewModel.submitAnswer()
+
+        assertEquals(SessionState.SHADOWING, viewModel.state.value)
+        val diff = viewModel.diffResult.value
+        assertNotNull(diff)
+        assertTrue(diff!!.isPerfect)
+        assertTrue(mistakeRepo.getMistakes().isEmpty())
+    }
+
+    @Test
+    fun submitImperfectAnswer_transitionsToReviewing_andLogsMistakes() {
+        viewModel.setTypedText("he suitcase") // missing packed, his
         viewModel.submitAnswer()
 
         assertEquals(SessionState.REVIEWING, viewModel.state.value)
         val diff = viewModel.diffResult.value
         assertNotNull(diff)
-        assertTrue(diff!!.isPerfect)
+        assertFalse(diff!!.isPerfect)
+
+        val mistakes = mistakeRepo.getMistakes()
+        assertTrue(mistakes.isNotEmpty())
+        assertTrue(mistakes.any { it.word == "packed" && it.kind == MistakeKind.MISSING })
+    }
+
+    @Test
+    fun correctionFlow_advancesToShadowingWhenCorrect() {
+        viewModel.setTypedText("he suitcase")
+        viewModel.submitAnswer()
+        assertEquals(SessionState.REVIEWING, viewModel.state.value)
+
+        // Wrong correction attempt
+        viewModel.setCorrectionText("he his suitcase")
+        viewModel.submitCorrection()
+        assertEquals(SessionState.REVIEWING, viewModel.state.value)
+        assertFalse(viewModel.correctionDiff.value!!.isPerfect)
+
+        // Perfect correction attempt
+        viewModel.setCorrectionText("he packed his suitcase")
+        viewModel.submitCorrection()
+        assertEquals(SessionState.SHADOWING, viewModel.state.value)
+        assertTrue(viewModel.correctionDiff.value!!.isPerfect)
+    }
+
+    @Test
+    fun skipCorrection_transitionsFromReviewingToShadowing() {
+        viewModel.setTypedText("he suitcase")
+        viewModel.submitAnswer()
+        assertEquals(SessionState.REVIEWING, viewModel.state.value)
+
+        viewModel.skipCorrection()
+        assertEquals(SessionState.SHADOWING, viewModel.state.value)
+    }
+
+    @Test
+    fun toggleTranslation_flipsBoolean() {
+        assertFalse(viewModel.showTranslation.value)
+        viewModel.toggleTranslation()
+        assertTrue(viewModel.showTranslation.value)
+        viewModel.toggleTranslation()
+        assertFalse(viewModel.showTranslation.value)
     }
 
     @Test
@@ -74,6 +137,7 @@ class StudySessionViewModelTest {
     fun nextSegment_advancesOrCompletes() {
         viewModel.setTypedText("he packed his suitcase")
         viewModel.submitAnswer()
+        assertEquals(SessionState.SHADOWING, viewModel.state.value)
         viewModel.nextSegment()
 
         assertEquals(SessionState.DICTATING, viewModel.state.value)
@@ -81,6 +145,7 @@ class StudySessionViewModelTest {
 
         viewModel.setTypedText("the morning cold hit him")
         viewModel.submitAnswer()
+        assertEquals(SessionState.SHADOWING, viewModel.state.value)
         viewModel.nextSegment()
 
         assertEquals(SessionState.COMPLETED, viewModel.state.value)
@@ -91,5 +156,13 @@ class StudySessionViewModelTest {
         assertEquals(0, viewModel.replayCount.value)
         viewModel.replaySegment()
         assertEquals(1, viewModel.replayCount.value)
+    }
+
+    @Test
+    fun setSpeed_updatesAudioEngineAndState() {
+        assertEquals(1.0f, viewModel.speed.value, 1e-6f)
+        viewModel.setSpeed(0.75f)
+        assertEquals(0.75f, viewModel.speed.value, 1e-6f)
+        assertEquals(0.75f, fakeAudioEngine.getSpeed(), 1e-6f)
     }
 }

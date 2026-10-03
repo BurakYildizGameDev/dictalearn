@@ -11,6 +11,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import com.dictalearn.app.data.audio.MediaPlayerAudioEngine
+import com.dictalearn.app.data.mistakes.InMemoryMistakeRepository
 import com.dictalearn.app.domain.parser.LessonParser
 import com.dictalearn.app.ui.StudySessionScreen
 import com.dictalearn.app.ui.StudySessionViewModel
@@ -41,9 +42,11 @@ class MainActivity : ComponentActivity() {
                     val result = LessonParser.parse(json)
                     if (result.isValid && result.lesson != null) {
                         audioEngine.load("assets/lessons/sample_ch01/audio.wav")
+                        val mistakeRepo = InMemoryMistakeRepository()
                         viewModel = StudySessionViewModel(
                             lesson = result.lesson,
                             audioEngine = audioEngine,
+                            mistakeRepository = mistakeRepo,
                             autoPlay = true
                         )
                     } else {
