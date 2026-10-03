@@ -18,7 +18,7 @@ interface PresetLesson {
 const PRESET_LESSONS: PresetLesson[] = [
   {
     id: 'book_01_the_happy_prince',
-    name: 'The Happy Prince (15 Sayfa Kitap / 60 Cümle)',
+    name: 'The Happy Prince (15 Sayfa Kitap / 300 Cümle)',
     jsonUrl: '/lessons/book_01_the_happy_prince/lesson.json',
     audioUrl: '/lessons/book_01_the_happy_prince/audio.mp3',
     pdfUrl: '/lessons/book_01_the_happy_prince/book_01_the_happy_prince.pdf',

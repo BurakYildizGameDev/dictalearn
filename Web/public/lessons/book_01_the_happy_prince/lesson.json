@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "lesson_id": "book_01_the_happy_prince",
-  "title": "The Happy Prince (15 Sayfa / Graded Reader)",
+  "title": "The Happy Prince (15 Sayfa / 300 Cümle / Graded Reader)",
   "source_lang": "en",
   "target_lang": "tr",
   "audio_file": "audio.mp3",
   "attribution": {
-    "source": "Oscar Wilde / Public Domain / Graded Reader Adaptasyonu",
+    "source": "Oscar Wilde / Public Domain / Graded Reader Adaptasyonu (15 Sayfa x 20 Cümle)",
     "license": "Public Domain"
   },
   "segments": [
@@ -16,7 +16,7 @@
       "end_ms": 5844,
       "text": "High above the city, on a tall column, stood the statue of the Happy Prince.",
       "translation": "Şehrin çok yukarısında, yüksek bir sütunun üzerinde Mutlu Prens'in heykeli duruyordu.",
-      "notes": "Sayfa 1 | 'High above': çok yukarısında; 'column': sütun, mermer direk; 'stood': stand fiilinin düzensiz geçmiş zaman hali."
+      "notes": "Sayfa 1 | 'High above': çok yukarısında; 'column': mermer sütun; 'stood': stand fiilinin düzensiz hali."
     },
     {
       "id": 2,
@@ -24,7 +24,7 @@
       "end_ms": 10324,
       "text": "He was gilded all over with thin leaves of fine gold.",
       "translation": "Tepeden tırnağa saf altından ince yapraklarla yaldızlanmıştı.",
-      "notes": "Sayfa 1 | 'gilded all over': her yeri yaldızlanmış/kaplanmış; 'fine gold': saf/som altın."
+      "notes": "Sayfa 1 | 'gilded all over': her yeri yaldızla kaplı; 'fine gold': saf som altın."
     },
     {
       "id": 3,
@@ -32,463 +32,2383 @@
       "end_ms": 16724,
       "text": "For eyes he had two bright sapphires, and a large red ruby glowed on his sword-hilt.",
       "translation": "Gözleri iki parlak safirdi ve kılıcının kabzasında büyük kırmızı bir yakut parıldıyordu.",
-      "notes": "Sayfa 1 | 'sapphire': safir; 'ruby': yakut; 'sword-hilt': kılıç kabzası; 'glowed': ışıltıyla parıldamak."
+      "notes": "Sayfa 1 | 'sapphire': safir taşı; 'ruby': yakut; 'sword-hilt': kılıç kabzası; 'glowed': ışıltıyla parıldamak."
     },
     {
       "id": 4,
       "start_ms": 17124,
-      "end_ms": 21468,
-      "text": "Everyone admired him because he looked so beautiful and peaceful.",
-      "translation": "Çok güzel ve huzurlu göründüğü için herkes ona hayrandı.",
-      "notes": "Sayfa 1 | 'admire': hayran olmak, takdir etmek; 'peaceful': huzurlu, dingin."
+      "end_ms": 22068,
+      "text": "Everyone in the city admired him because he looked so magnificent and peaceful.",
+      "translation": "Şehirdeki herkes çok görkemli ve huzurlu göründüğü için ona hayrandı.",
+      "notes": "Sayfa 1 | 'admire': hayran kalmak; 'magnificent': görkemli; 'peaceful': dingin, huzurlu."
     },
     {
       "id": 5,
-      "start_ms": 22368,
-      "end_ms": 26280,
-      "text": "One autumn night there flew over the city a little Swallow.",
-      "translation": "Bir sonbahar gecesi şehrin üzerinden küçük bir kırlangıç uçup geçti.",
-      "notes": "Sayfa 2 | 'autumn': sonbahar (/ˈɔːtəm/, n okunmaz); 'swallow': kırlangıç; devrik cümle yapısı ('there flew...')."
+      "start_ms": 22468,
+      "end_ms": 27508,
+      "text": "\"He is as beautiful as a weathercock,\" remarked one of the Town Councillors.",
+      "translation": "Şehir Meclisi üyelerinden biri \"Rüzgârgülü kadar güzel,\" diye belirtti.",
+      "notes": "Sayfa 1 | 'as beautiful as...': kadar güzel (benzetme); 'weathercock': rüzgârgülü; 'Town Councillor': meclis üyesi."
     },
     {
       "id": 6,
-      "start_ms": 26680,
-      "end_ms": 30736,
-      "text": "His friends had gone away to Egypt six weeks before.",
-      "translation": "Arkadaşları altı hafta önce Mısır'a göç edip gitmişti.",
-      "notes": "Sayfa 2 | 'had gone away': Past Perfect Tense (önceden gitmişlerdi); 'Egypt': Mısır."
+      "start_ms": 27908,
+      "end_ms": 32972,
+      "text": "He wished to gain a reputation for having artistic tastes among the citizens.",
+      "translation": "Vatandaşlar arasında sanatsal zevkleri olduğuna dair bir itibar kazanmak istiyordu.",
+      "notes": "Sayfa 1 | 'gain a reputation': ün/itibar kazanmak; 'artistic tastes': sanatsal beğeni."
     },
     {
       "id": 7,
-      "start_ms": 31136,
-      "end_ms": 35672,
-      "text": "\"Where shall I stay tonight?\" he thought as he looked at the dark houses.",
-      "translation": "Karanlık evlere bakarken \"Bu gece nerede kalsam acaba?\" diye düşündü.",
-      "notes": "Sayfa 2 | 'Where shall I...': kibar niyet/öneri kalıbı ('Nereye sığınsam?'); 'as he looked': baktığı esnada."
+      "start_ms": 33372,
+      "end_ms": 39516,
+      "text": "\"Only he is not quite so useful,\" he added, fearing that people might think him unpractical.",
+      "translation": "İnsanların kendisini pratik olmayan biri sanmasından korkarak \"Yalnızca onun kadar faydalı değil,\" diye ekledi.",
+      "notes": "Sayfa 1 | 'not quite so...': o kadar da değil; 'unpractical': hayalperest, pratik olmayan."
     },
     {
       "id": 8,
-      "start_ms": 36072,
-      "end_ms": 41568,
-      "text": "Then he saw the statue on the tall column and decided to sleep between its golden feet.",
-      "translation": "Sonra yüksek sütundaki heykeli gördü ve onun altın ayakları arasında uyumaya karar verdi.",
-      "notes": "Sayfa 2 | 'decided to sleep': karar vermek (decide + to-infinitive); 'between': iki şeyin arasında."
+      "start_ms": 39916,
+      "end_ms": 45172,
+      "text": "\"Why can't you be like the Happy Prince?\" asked a sensible mother of her crying boy.",
+      "translation": "Sağduyulu bir anne, ağlayan oğluna \"Neden Mutlu Prens gibi olamıyorsun?\" diye sordu.",
+      "notes": "Sayfa 1 | 'sensible': aklı başında, sağduyulu (sensitive ile karıştırılmamalı)."
     },
     {
       "id": 9,
-      "start_ms": 42468,
-      "end_ms": 47748,
-      "text": "Just as he was putting his head under his wing, a large drop of water fell on him.",
-      "translation": "Tam başını kanadının altına koyuyordu ki üzerine büyük bir su damlası düştü.",
-      "notes": "Sayfa 3 | 'Just as': tam o anda; 'drop of water': su damlası; 'fell': fall fiilinin 2. hali."
+      "start_ms": 45572,
+      "end_ms": 50012,
+      "text": "\"The Happy Prince never even dreams of crying for anything at all.\"",
+      "translation": "\"Mutlu Prens herhangi bir şey için ağlamayı aklından bile geçirmez.\"",
+      "notes": "Sayfa 1 | 'never dreams of...': rüyasında bile görmez, aklından geçirmez; 'at all': hiç mi hiç."
     },
     {
       "id": 10,
-      "start_ms": 48148,
-      "end_ms": 53932,
-      "text": "\"What a strange thing!\" cried the bird, for the sky was clear and full of stars.",
-      "translation": "\"Ne garip bir şey!\" diye haykırdı kuş, çünkü gökyüzü berrak ve yıldızlarla doluydu.",
-      "notes": "Sayfa 3 | 'What a strange thing!': ünlem kalıbı; 'for': burada 'çünkü' anlamında bağlaç olarak kullanılmıştır."
+      "start_ms": 50412,
+      "end_ms": 54348,
+      "text": "The little boy was crying because he wanted the distant moon.",
+      "translation": "Küçük çocuk, uzaktaki ayı istediği için ağlıyordu.",
+      "notes": "Sayfa 1 | 'cry for the moon': imkânsız olanı istemek deyimi."
     },
     {
       "id": 11,
-      "start_ms": 54332,
-      "end_ms": 59924,
-      "text": "A second drop fell, and then a third, so he looked up into the statue's face.",
-      "translation": "İkinci bir damla düştü, ardından üçüncüsü; bunun üzerine başını kaldırıp heykelin yüzüne baktı.",
-      "notes": "Sayfa 3 | 'looked up into': yukarı doğru bakmak; 'statue's face': heykelin yüzü (iyelik eki 's)."
+      "start_ms": 54748,
+      "end_ms": 60100,
+      "text": "\"I am glad there is someone in the world who is quite happy,\" muttered a disappointed man.",
+      "translation": "Hayal kırıklığına uğramış bir adam \"Dünyada tamamen mutlu birinin olmasına sevindim,\" diye mırıldandı.",
+      "notes": "Sayfa 1 | 'mutter': kısık sesle mırıldanmak; 'disappointed': hayal kırıklığına uğramış."
     },
     {
       "id": 12,
-      "start_ms": 60324,
-      "end_ms": 65724,
-      "text": "The eyes of the Happy Prince were filled with tears, running down his golden cheeks.",
-      "translation": "Mutlu Prens'in gözleri yaşlarla dolmuştu ve gözyaşları altın yanaklarından aşağı süzülüyordu.",
-      "notes": "Sayfa 3 | 'filled with tears': gözyaşlarıyla dolu; 'running down': aşağı akmak/süzülmek; 'cheeks': yanaklar."
+      "start_ms": 60500,
+      "end_ms": 64964,
+      "text": "He gazed at the wonderful statue with tired and weary eyes.",
+      "translation": "Harika heykele yorgun ve bitkin gözlerle uzun uzun baktı.",
+      "notes": "Sayfa 1 | 'gaze at': gözünü dikip bakmak; 'weary': aşırı bitkin ve bezgin."
     },
     {
       "id": 13,
-      "start_ms": 66624,
-      "end_ms": 70032,
-      "text": "\"Who are you?\" asked the bird in surprise.",
-      "translation": "Kuş şaşkınlıkla \"Sen kimsin?\" diye sordu.",
-      "notes": "Sayfa 4 | 'in surprise': şaşkınlık içinde, hayretle."
+      "start_ms": 65364,
+      "end_ms": 70164,
+      "text": "\"He looks just like a holy angel,\" said the Charity Children in joy.",
+      "translation": "Yetimhane Çocukları neşe içinde \"Tıpkı kutsal bir meleğe benziyor,\" dediler.",
+      "notes": "Sayfa 1 | 'Charity Children': yetimhane/hayır kurumu çocukları; 'holy angel': kutsal melek."
     },
     {
       "id": 14,
-      "start_ms": 70432,
-      "end_ms": 77224,
-      "text": "\"I am the Happy Prince, but now I can see all the sorrow and misery of my city,\" answered the statue.",
-      "translation": "Heykel \"Ben Mutlu Prens'im; fakat artık şehrimin tüm kederini ve sefaletini görebiliyorum,\" diye yanıtladı.",
-      "notes": "Sayfa 4 | 'sorrow': derin üzüntü, keder; 'misery': sefalet, yokluk."
+      "start_ms": 70564,
+      "end_ms": 74740,
+      "text": "They were coming out of the cathedral in their bright scarlet cloaks.",
+      "translation": "Parlak kızıl pelerinleriyle katedralden dışarı çıkıyorlardı.",
+      "notes": "Sayfa 1 | 'cathedral': katedral, ulu kilise; 'scarlet': al, parlak kırmızı; 'cloak': pelerin."
     },
     {
       "id": 15,
-      "start_ms": 77624,
-      "end_ms": 82424,
-      "text": "\"Far away in a little street, there is a poor house with an open window.\"",
-      "translation": "\"Uzakta, küçük bir sokakta penceresi açık yoksul bir ev var.\"",
-      "notes": "Sayfa 4 | 'Far away': uzaklarda; 'with an open window': penceresi açık olan (niteleme)."
+      "start_ms": 75140,
+      "end_ms": 80132,
+      "text": "They also wore clean white pinafores and smiled under the morning sunlight.",
+      "translation": "Ayrıca tertemiz beyaz önlükler giymişlerdi ve sabah güneşinin altında gülümsüyorlardı.",
+      "notes": "Sayfa 1 | 'pinafore': askılı iş/okul önlüğü; 'sunlight': gün ışığı."
     },
     {
       "id": 16,
-      "start_ms": 82824,
-      "end_ms": 89616,
-      "text": "\"A tired woman sits at a table, embroidering passion-flowers on a satin gown for the Queen's maid of honour.\"",
-      "translation": "\"Masanın başında yorgun bir kadın oturuyor, Kraliçe'nin nedimesi için saten bir elbiseye çarkıfelek çiçekleri işliyor.\"",
-      "notes": "Sayfa 4 | 'embroider': nakış işlemek; 'satin gown': saten gece elbisesi; 'maid of honour': baş nedime."
+      "start_ms": 80532,
+      "end_ms": 84660,
+      "text": "\"How do you know that?\" asked the strict Mathematical Master.",
+      "translation": "Sert Matematik Öğretmeni \"Bunu nereden biliyorsunuz?\" diye sordu.",
+      "notes": "Sayfa 1 | 'strict': katı, tavizsiz; 'Mathematical Master': Viktorya dönemi matematik hocası."
     },
     {
       "id": 17,
-      "start_ms": 90516,
-      "end_ms": 95532,
-      "text": "\"In a bed in the corner of the room, her little boy is lying sick with fever.\"",
-      "translation": "\"Odanın köşesindeki bir yatakta, küçük oğlu ateşler içinde hasta yatıyor.\"",
-      "notes": "Sayfa 5 | 'in the corner': köşede; 'lying sick': hasta yatmak; 'fever': yüksek ateş."
+      "start_ms": 85060,
+      "end_ms": 88564,
+      "text": "\"You have never seen a real angel in your life.\"",
+      "translation": "\"Hayatınızda hiç gerçek bir melek görmediniz ki.\"",
+      "notes": "Sayfa 1 | Present Perfect Tense ('have never seen': hayat boyu deneyim)."
     },
     {
       "id": 18,
-      "start_ms": 95932,
-      "end_ms": 101284,
-      "text": "\"He is asking for oranges, but his mother has nothing to give him but river water.\"",
-      "translation": "\"Portakal istiyor, fakat annesinin ona nehir suyundan başka verecek hiçbir şeyi yok.\"",
-      "notes": "Sayfa 5 | 'ask for': talep etmek, istemek; 'nothing... but': ...-den başka hiçbir şey."
+      "start_ms": 88964,
+      "end_ms": 93740,
+      "text": "\"Ah, but we have seen them in our dreams,\" answered the children gently.",
+      "translation": "Çocuklar usulca \"Ah, ama onları rüyalarımızda gördük,\" diye yanıt verdiler.",
+      "notes": "Sayfa 1 | 'in our dreams': rüyalarımızda; 'gently': kibarca, tatlılıkla."
     },
     {
       "id": 19,
-      "start_ms": 101684,
-      "end_ms": 106772,
-      "text": "\"Swallow, little Swallow, will you not take her the ruby out of my sword-hilt?\"",
-      "translation": "\"Kırlangıç, minik Kırlangıç, kılıcımın kabzasındaki yakutu ona götürmez misin?\"",
-      "notes": "Sayfa 5 | 'will you not...': rica/yalvarış tonu; 'take her the ruby': yakutu kadına götürmek."
+      "start_ms": 94140,
+      "end_ms": 98796,
+      "text": "The Mathematical Master frowned and looked very severe at their answer.",
+      "translation": "Matematik Öğretmeni onların cevabı karşısında kaşlarını çattı ve çok sert baktı.",
+      "notes": "Sayfa 1 | 'frown': kaşlarını çatmak; 'severe': sert, asık suratlı."
     },
     {
       "id": 20,
-      "start_ms": 107172,
-      "end_ms": 112116,
-      "text": "The kind Swallow picked out the great ruby and flew over the roofs of the town.",
-      "translation": "İyiliksever Kırlangıç o koca yakutu söküp aldı ve kasabanın çatılarının üzerinden uçtu.",
-      "notes": "Sayfa 5 | 'picked out': sökmek, ayıklamak; 'roofs': çatılar (roof kelimesinin çoğulu)."
+      "start_ms": 99196,
+      "end_ms": 103876,
+      "text": "He did not approve of young children daydreaming during their daily studies.",
+      "translation": "Küçük çocukların günlük dersleri sırasında hayallere dalmasını hiç onaylamazdı.",
+      "notes": "Sayfa 1 | 'approve of': onaylamak/tasvip etmek; 'daydreaming': gündüz düşlerine dalma."
     },
     {
       "id": 21,
-      "start_ms": 113016,
-      "end_ms": 117552,
-      "text": "The bird dropped the bright ruby on the table beside the woman's thimble.",
-      "translation": "Kuş, parlak yakutu masanın üzerine, kadının yüksüğünün yanına bıraktı.",
-      "notes": "Sayfa 6 | 'beside': yanında; 'thimble': dikiş yüksüğü."
+      "start_ms": 104876,
+      "end_ms": 109604,
+      "text": "One autumn night, a little Swallow flew alone over the great city.",
+      "translation": "Bir sonbahar gecesi, küçük bir kırlangıç büyük şehrin üzerinde tek başına uçtu.",
+      "notes": "Sayfa 2 | 'autumn': sonbahar (/ˈɔːtəm/); 'flew': fly fiilinin geçmiş zamanı; 'alone': yapayalnız."
     },
     {
       "id": 22,
-      "start_ms": 117952,
-      "end_ms": 123256,
-      "text": "Then he flew gently round the bed, fanning the boy's forehead with his wings.",
-      "translation": "Ardından yatağın etrafında nazikçe uçarak kanatlarıyla çocuğun alnını serinletti.",
-      "notes": "Sayfa 6 | 'gently': kibarca, nazikçe; 'fanning': yelpazelemek, serinletmek; 'forehead': alın."
+      "start_ms": 110004,
+      "end_ms": 114372,
+      "text": "His friends had gone away to sunny Egypt six weeks before.",
+      "translation": "Arkadaşları altı hafta önce güneşli Mısır'a göç edip gitmişti.",
+      "notes": "Sayfa 2 | 'had gone away': Past Perfect (önceden gitmişlerdi); 'sunny Egypt': güneşli Mısır."
     },
     {
       "id": 23,
-      "start_ms": 123656,
-      "end_ms": 131528,
-      "text": "When the bird returned to the Prince, he said, \"It is strange, but I feel quite warm now, although it is so cold.\"",
-      "translation": "Kuş Prens'in yanına döndüğünde, \"Çok garip, hava bu kadar soğuk olmasına rağmen şu an kendimi sıcacık hissediyorum,\" dedi.",
-      "notes": "Sayfa 6 | 'quite warm': epeyce sıcak; 'although': -e rağmen (zıtlık bağlacı)."
+      "start_ms": 114772,
+      "end_ms": 118924,
+      "text": "He had stayed behind because he was in love with a beautiful Reed.",
+      "translation": "Güzel bir sazlık kamışına aşık olduğu için geride kalmıştı.",
+      "notes": "Sayfa 2 | 'stay behind': geride kalmak; 'in love with': birine aşık olmak; 'reed': su kamışı."
     },
     {
       "id": 24,
-      "start_ms": 131928,
-      "end_ms": 136320,
-      "text": "\"That is because you have done a good action,\" said the Prince softly.",
-      "translation": "Prens usulca, \"Bunun sebebi güzel bir iyilik yapmış olmandır,\" dedi.",
-      "notes": "Sayfa 6 | 'That is because...': 'Bunun sebebi şudur ki...'; 'softly': usulca, yumuşak bir sesle."
+      "start_ms": 119324,
+      "end_ms": 123452,
+      "text": "He had met her early in the spring as he was flying down the river.",
+      "translation": "Onunla ilkbaharın başlarında nehir boyunca uçarken tanışmıştı.",
+      "notes": "Sayfa 2 | 'early in the spring': baharın başlarında; 'as he was flying': uçtuğu esnada."
     },
     {
       "id": 25,
-      "start_ms": 137220,
-      "end_ms": 143148,
-      "text": "The next night, the Prince said, \"Far across the city I see a young student in an attic.\"",
-      "translation": "Ertesi gece Prens, \"Şehrin öte ucunda, tavan arasında genç bir öğrenci görüyorum,\" dedi.",
-      "notes": "Sayfa 7 | 'Far across': öte ucunda/karşı tarafında; 'attic': tavan arası odası."
+      "start_ms": 123852,
+      "end_ms": 127836,
+      "text": "He was chasing a big yellow moth over the quiet water.",
+      "translation": "Durgun suyun üzerinde iri sarı bir pervaneyi kovalıyordu.",
+      "notes": "Sayfa 2 | 'chase': kovalamak; 'moth': gece kelebeği, pervane."
     },
     {
       "id": 26,
-      "start_ms": 143548,
-      "end_ms": 148924,
-      "text": "\"He is trying to finish a play for the director of the theatre, but he is too cold to write.\"",
-      "translation": "\"Tiyatro müdürü için bir tiyatro oyununu bitirmeye çalışıyor, fakat yazamayacak kadar çok üşümüş.\"",
-      "notes": "Sayfa 7 | 'play': tiyatro oyunu; 'too cold to write': 'too + sıfat + to-fiil' (yazamayacak kadar soğuk)."
+      "start_ms": 128236,
+      "end_ms": 132772,
+      "text": "He had been so attracted by her slender waist that he stopped to talk.",
+      "translation": "Kamışın incecik narin belinden öyle büyülenmişti ki durup onunla konuştu.",
+      "notes": "Sayfa 2 | 'attracted by': -den etkilenmiş; 'slender waist': incecik zarif bel."
     },
     {
       "id": 27,
-      "start_ms": 149324,
-      "end_ms": 153620,
-      "text": "\"There is no fire in the grate, and hunger has made him faint.\"",
-      "translation": "\"Şöminede hiç ateş yok ve açlık onu bitkin düşürmüş.\"",
-      "notes": "Sayfa 7 | 'grate': şömine ızgarası; 'faint': dermansız, kendinden geçecek derecede bitkin."
+      "start_ms": 133172,
+      "end_ms": 137828,
+      "text": "\"Shall I love you?\" asked the Swallow, who liked to speak directly.",
+      "translation": "Doğrudan konuya girmeyi seven Kırlangıç \"Seni seveyim mi?\" diye sordu.",
+      "notes": "Sayfa 2 | 'Shall I...?': Yapayım mı?; 'speak directly': dobra ve açık konuşmak."
     },
     {
       "id": 28,
-      "start_ms": 154020,
-      "end_ms": 159684,
-      "text": "\"Take out one of my sapphire eyes and bring it to him so he may buy food and firewood.\"",
-      "translation": "\"Safir gözlerimden birini çıkar ve ona götür ki yiyecek ve yakacak odun alabilsin.\"",
-      "notes": "Sayfa 7 | 'Take out': yerinden çıkarmak; 'so (that) he may...': -ebilsin diye (amaç bildirir); 'firewood': yakacak odun."
+      "start_ms": 138228,
+      "end_ms": 142500,
+      "text": "The slender Reed bowed her head gracefully in the gentle breeze.",
+      "translation": "Zarif Kamış tatlı esintide başını incelikle öne eğdi.",
+      "notes": "Sayfa 2 | 'bow': başını öne eğmek; 'gracefully': zarafetle; 'breeze': hafif esinti."
     },
     {
       "id": 29,
-      "start_ms": 160584,
-      "end_ms": 165960,
-      "text": "The Swallow did not want to pluck out the Prince's eye, but the Prince begged him to obey.",
-      "translation": "Kırlangıç Prens'in gözünü yerinden sökmek istemedi, fakat Prens sözünü dinlemesi için ona yalvardı.",
-      "notes": "Sayfa 8 | 'pluck out': çekip koparmak/sökmek; 'begged': yalvardı; 'obey': itaat etmek, söz dinlemek."
+      "start_ms": 142900,
+      "end_ms": 147916,
+      "text": "So the Swallow flew round and round her, touching the water with his wings.",
+      "translation": "Bunun üzerine Kırlangıç, kanatlarıyla suya dokunarak onun etrafında döne döne uçtu.",
+      "notes": "Sayfa 2 | 'round and round': fırıl fırıl, döne döne; 'touching': dokunarak."
     },
     {
       "id": 30,
-      "start_ms": 166360,
-      "end_ms": 171160,
-      "text": "So the bird took out the precious jewel and flew down to the student's garret.",
-      "translation": "Bunun üzerine kuş bu değerli mücevheri çıkardı ve öğrencinin tavan arasındaki odasına uçtu.",
-      "notes": "Sayfa 8 | 'precious jewel': değerli mücevher; 'garret': küçük tavan arası dairesi."
+      "start_ms": 148316,
+      "end_ms": 152972,
+      "text": "He made bright silver ripples on the river surface to show his devotion.",
+      "translation": "Bağlılığını göstermek için nehir yüzeyinde parlak gümüşi dalgacıklar oluşturdu.",
+      "notes": "Sayfa 2 | 'ripples': küçük su halkaları/dalgacıkları; 'devotion': sadakat, gönülden bağlılık."
     },
     {
       "id": 31,
-      "start_ms": 171560,
-      "end_ms": 177104,
-      "text": "The young man found the sapphire lying on his withered violets and cried out with joy.",
-      "translation": "Genç adam kurumuş menekşelerinin üzerinde yatan safiri buldu ve sevinçle haykırdı.",
-      "notes": "Sayfa 8 | 'withered': solmuş, kurumuş; 'violets': menekşeler; 'with joy': sevinçle."
+      "start_ms": 153372,
+      "end_ms": 158268,
+      "text": "This was his courtship, and it lasted happily all through the long summer.",
+      "translation": "Bu onun kur yapma biçimiydi ve uzun yaz boyunca mutlulukla devam etti.",
+      "notes": "Sayfa 2 | 'courtship': flört/kur yapma dönemi; 'all through': boyunca."
     },
     {
       "id": 32,
-      "start_ms": 177504,
-      "end_ms": 181464,
-      "text": "\"Now I can finish my play!\" he shouted happily.",
-      "translation": "\"Artık oyunumu bitirebilirim!\" diye mutlulukla bağırdı.",
-      "notes": "Sayfa 8 | 'shouted happily': neşeyle bağırmak."
+      "start_ms": 158668,
+      "end_ms": 163420,
+      "text": "\"It is a ridiculous attachment,\" twittered the other swallows in mockery.",
+      "translation": "Diğer kırlangıçlar alay ederek \"Bu çok gülünç bir bağlanma,\" diye cıvıldaştılar.",
+      "notes": "Sayfa 2 | 'ridiculous attachment': gülünç bağlılık; 'in mockery': alay ederek."
     },
     {
       "id": 33,
-      "start_ms": 182364,
-      "end_ms": 188004,
-      "text": "On the third day, the Swallow came to say goodbye, but the Prince had one more plea.",
-      "translation": "Üçüncü gün Kırlangıç veda etmek için geldi, fakat Prens'in bir ricası daha vardı.",
-      "notes": "Sayfa 9 | 'say goodbye': vedalaşmak; 'plea': içten rica, yakarış."
+      "start_ms": 163820,
+      "end_ms": 168404,
+      "text": "\"She has no money at all, and she has far too many relations.\"",
+      "translation": "\"Hiç parası yok ve haddinden fazla akrabası var.\"",
+      "notes": "Sayfa 2 | 'no money at all': zerre parası yok; 'relations': akrabalar, hısımlar."
     },
     {
       "id": 34,
-      "start_ms": 188404,
-      "end_ms": 193204,
-      "text": "\"In the square below,\" said the Prince, \"there stands a little match girl.\"",
-      "translation": "Prens \"Aşağıdaki meydanda kibrit satan küçük bir kız çocuğu duruyor,\" dedi.",
-      "notes": "Sayfa 9 | 'square': meydan; 'match girl': kibritçi kız (kibrit satan kız)."
+      "start_ms": 168804,
+      "end_ms": 173868,
+      "text": "Indeed, the banks of the river were densely covered with thousands of reeds.",
+      "translation": "Gerçekten de nehir kıyıları binlerce sazlık kamışıyla sımsıkı kaplıydı.",
+      "notes": "Sayfa 2 | 'banks of the river': nehir kıyıları/sedleri; 'densely': yoğun şekilde."
     },
     {
       "id": 35,
-      "start_ms": 193604,
-      "end_ms": 198092,
-      "text": "\"She has let her matches fall in the gutter, and they are all spoiled.\"",
-      "translation": "\"Kibritlerini su oluğuna düşürdü ve hepsi mahvoldu.\"",
-      "notes": "Sayfa 9 | 'let fall': düşürmek; 'gutter': su oluğu/lağım arkı; 'spoiled': bozulmuş, ziyan olmuş."
+      "start_ms": 174268,
+      "end_ms": 178876,
+      "text": "When the autumn arrived, all the other swallows gathered and flew away.",
+      "translation": "Sonbahar geldiğinde diğer tüm kırlangıçlar toplandı ve uçup gitti.",
+      "notes": "Sayfa 2 | 'gathered': toplanıp bir araya geldi; 'flew away': uzaklara uçtu."
     },
     {
       "id": 36,
-      "start_ms": 198492,
-      "end_ms": 203916,
-      "text": "\"Her father will beat her if she does not bring home some money, and she is crying bitterly.\"",
-      "translation": "\"Eve biraz para götürmezse babası onu dövecek ve kız çocuğu acı acı ağlıyor.\"",
-      "notes": "Sayfa 9 | 'crying bitterly': hıçkıra hıçkıra, acı acı ağlamak; 'First Conditional' kuralı (will + if)."
+      "start_ms": 179276,
+      "end_ms": 184196,
+      "text": "After his companions had departed, the little Swallow felt very lonely.",
+      "translation": "Yoldaşları göçüp gittikten sonra küçük Kırlangıç kendini çok yalnız hissetti.",
+      "notes": "Sayfa 2 | 'companions': yol arkadaşları; 'depart': ayrılmak/yola çıkmak."
     },
     {
       "id": 37,
-      "start_ms": 204816,
-      "end_ms": 209544,
-      "text": "\"Pluck out my other eye and give it to her, so her father will not hurt her.\"",
-      "translation": "\"Diğer gözümü de çıkar ve ona ver, böylece babası ona zarar vermez.\"",
-      "notes": "Sayfa 10 | 'hurt her': canını yakmak, ona vurmak."
+      "start_ms": 184596,
+      "end_ms": 189012,
+      "text": "He began to grow tired of his quiet and motionless lady-love.",
+      "translation": "Sessiz ve hareketsiz sevgilisinden yavaş yavaş sıkılmaya başladı.",
+      "notes": "Sayfa 2 | 'grow tired of': -den usanmak/sıkılmak; 'motionless': kımıldamayan."
     },
     {
       "id": 38,
-      "start_ms": 209944,
-      "end_ms": 215056,
-      "text": "\"I cannot do that,\" said the Swallow, \"for then you would be completely blind.\"",
-      "translation": "Kırlangıç \"Bunu yapamam, çünkü o zaman tamamen kör olursun,\" dedi.",
-      "notes": "Sayfa 10 | 'completely blind': tamamen kör; 'would be': tahmin/koşul olasılığı."
+      "start_ms": 189412,
+      "end_ms": 194404,
+      "text": "\"She has no conversation,\" he said, \"and I fear she is a flirt.\"",
+      "translation": "\"Hiç sohbeti yok,\" dedi, \"ve korkarım ki o bir işveli flörtöz.\"",
+      "notes": "Sayfa 2 | 'have no conversation': konuşacak lafı olmamak; 'flirt': cilveli kimse."
     },
     {
       "id": 39,
-      "start_ms": 215456,
-      "end_ms": 221288,
-      "text": "But the Prince insisted, and the bird obeyed, dropping the sapphire into the girl's hand.",
-      "translation": "Fakat Prens ısrar etti ve kuş itaat ederek safiri kızın avucuna bıraktı.",
-      "notes": "Sayfa 10 | 'insisted': ısrar etti; 'dropping': düşürerek/bırakarak (zarf-fiil)."
+      "start_ms": 194804,
+      "end_ms": 200372,
+      "text": "\"Whenever the wind blows, she bends and makes graceful bows to every breeze.\"",
+      "translation": "\"Rüzgâr ne zaman esse eğiliyor ve her esintiye zarif reveranslar yapıyor.\"",
+      "notes": "Sayfa 2 | 'whenever': her ne zaman... olsa; 'graceful bows': zarif baş eğişler."
     },
     {
       "id": 40,
-      "start_ms": 221688,
-      "end_ms": 227784,
-      "text": "Then the Swallow returned and whispered, \"You are blind now, so I will stay with you always.\"",
-      "translation": "Sonra Kırlangıç geri döndü ve fısıldadı: \"Artık körsün, bu yüzden daima seninle kalacağım.\"",
-      "notes": "Sayfa 10 | 'whispered': fısıldadı; 'stay with you always': sonsuza dek senin yanında kalmak."
+      "start_ms": 200772,
+      "end_ms": 206316,
+      "text": "\"I admit she is domestic, but I love travel and my wife should love travel too.\"",
+      "translation": "\"Evcimen olduğunu kabul ediyorum, ama ben gezmeyi seviyorum ve eşim de gezmeyi sevmeli.\"",
+      "notes": "Sayfa 2 | 'domestic': evine düşkün, evcimen; 'admit': kabul/itiraf etmek."
     },
     {
       "id": 41,
-      "start_ms": 228684,
-      "end_ms": 234612,
-      "text": "All the next day the Swallow sat on the Prince's shoulder and told him stories of strange lands.",
-      "translation": "Ertesi gün boyunca Kırlangıç Prens'in omzunda oturdu ve ona uzak diyarların hikayelerini anlattı.",
-      "notes": "Sayfa 11 | 'shoulder': omuz; 'strange lands': yabancı/egzotik diyarlar."
+      "start_ms": 207316,
+      "end_ms": 211756,
+      "text": "\"Will you come away with me to Egypt?\" he finally asked the Reed.",
+      "translation": "Sonunda Kamış'a \"Benimle Mısır'a gelir misin?\" diye sordu.",
+      "notes": "Sayfa 3 | 'come away with': biriyle alıp başını gitmek; 'finally': nihayet."
     },
     {
       "id": 42,
-      "start_ms": 235012,
-      "end_ms": 243292,
-      "text": "\"Dear little bird,\" said the Prince, \"you tell me of marvelous things, but more marvelous than anything is the suffering of men and women.\"",
-      "translation": "Prens \"Sevgili küçük kuş,\" dedi, \"bana harika şeyler anlatıyorsun; fakat her şeyden daha çarpıcı olan insanlığın çektiği acılardır.\"",
-      "notes": "Sayfa 11 | 'marvelous': harika, olağanüstü; 'suffering': acı, keder, ıstırap."
+      "start_ms": 212156,
+      "end_ms": 216884,
+      "text": "The Reed shook her head softly, for she was too attached to her home.",
+      "translation": "Kamış başını usulca salladı, çünkü evine ve köklerine fazlasıyla bağlıydı.",
+      "notes": "Sayfa 3 | 'shook her head': başını olumsuz anlamda salladı; 'attached to': bir yere gönülden bağlı."
     },
     {
       "id": 43,
-      "start_ms": 243692,
-      "end_ms": 248420,
-      "text": "\"Fly over my city, little Swallow, and tell me what you see there.\"",
-      "translation": "\"Şehrimin üzerinde uç minik Kırlangıç ve orada neler gördüğünü bana anlat.\"",
-      "notes": "Sayfa 11 | 'Fly over': üzerinden uçmak; 'what you see': gördüğün şeyleri."
+      "start_ms": 217284,
+      "end_ms": 222348,
+      "text": "\"You have been trifling with my feelings!\" cried the Swallow in disappointment.",
+      "translation": "Kırlangıç hayal kırıklığıyla \"Benim duygularımla alay edip gönül eğlendirmişsin!\" diye bağırdı.",
+      "notes": "Sayfa 3 | 'trifle with feelings': birinin duygularıyla oynamak/gönül eğlendirmek."
     },
     {
       "id": 44,
-      "start_ms": 248820,
-      "end_ms": 256500,
-      "text": "So the Swallow flew over the great city and saw the rich making merry in their beautiful houses, while beggars sat at the gates.",
-      "translation": "Böylece Kırlangıç koca şehrin üzerinde uçtu; dilenciler kapılarda otururken, zenginlerin güzel evlerinde eğlendiğini gördü.",
-      "notes": "Sayfa 11 | 'making merry': neşeyle eğlenmek; 'beggars': dilenciler; 'while': -iken."
+      "start_ms": 222748,
+      "end_ms": 227404,
+      "text": "\"I am leaving for the great Pyramids right now; farewell forever!\"",
+      "translation": "\"Hemen şimdi ulu Piramitlere doğru yola çıkıyorum; sonsuza dek elveda!\"",
+      "notes": "Sayfa 3 | 'leave for': bir yere doğru hareket etmek; 'farewell': elveda."
     },
     {
       "id": 45,
-      "start_ms": 257400,
-      "end_ms": 263688,
-      "text": "In dark lanes he saw the white faces of starving children looking out listlessly at the black streets.",
-      "translation": "Karanlık sokaklarda, açlıktan ölmek üzere olan çocukların bitkin ve donuk bakışlarla kapkara sokakları izleyen solgun yüzlerini gördü.",
-      "notes": "Sayfa 12 | 'lanes': dar sokaklar; 'starving': açlıktan ölmek üzere olan; 'listlessly': dermansızca, donukça."
+      "start_ms": 227804,
+      "end_ms": 232820,
+      "text": "He flew all day long, and at nightfall he arrived at the bustling city.",
+      "translation": "Bütün gün boyunca uçtu ve akşam karanlığı çöktüğünde hareketli şehre ulaştı.",
+      "notes": "Sayfa 3 | 'all day long': gün boyunca; 'nightfall': akşam alacakaranlığı; 'bustling': cıvıl cıvıl."
     },
     {
       "id": 46,
-      "start_ms": 264088,
-      "end_ms": 270544,
-      "text": "Under the archway of a bridge, two little boys were lying in one another's arms to keep themselves warm.",
-      "translation": "Bir köprünün kemeri altında, iki küçük oğlan çocuğu birbirlerini sıcak tutabilmek için sarılmış yatıyordu.",
-      "notes": "Sayfa 12 | 'archway': kemer altı; 'in one another's arms': birbirlerinin kollarında."
+      "start_ms": 233220,
+      "end_ms": 237804,
+      "text": "\"Where shall I find shelter tonight?\" he wondered, looking around.",
+      "translation": "Etrafa bakınarak \"Bu gece nerede barınak bulsam acaba?\" diye düşündü.",
+      "notes": "Sayfa 3 | 'find shelter': barınak/sığınak bulmak; 'wonder': merak etmek, düşünmek."
     },
     {
       "id": 47,
-      "start_ms": 270944,
-      "end_ms": 275096,
-      "text": "The bird flew back and told the Prince everything he had witnessed.",
-      "translation": "Kuş geri uçtu ve tanık olduğu her şeyi Prens'e anlattı.",
-      "notes": "Sayfa 12 | 'witnessed': şahit oldu, gözleriyle gördü."
+      "start_ms": 238204,
+      "end_ms": 242668,
+      "text": "\"I hope the town has made proper preparations for a travelling bird.\"",
+      "translation": "\"Umarım kasaba seyahat eden bir kuş için uygun hazırlıklar yapmıştır.\"",
+      "notes": "Sayfa 3 | 'proper preparations': layıkıyla hazırlık; 'travelling': gezgin."
     },
     {
       "id": 48,
-      "start_ms": 275496,
-      "end_ms": 282720,
-      "text": "\"I am covered with fine gold,\" said the Prince; \"take it off, leaf by leaf, and give it to my poor people.\"",
-      "translation": "Prens \"Saf altınla kaplıyım,\" dedi; \"onu yaprak yaprak sök ve yoksul halkıma dağıt.\"",
-      "notes": "Sayfa 12 | 'leaf by leaf': yaprak yaprak, azar azar; 'covered with': ile kaplı."
+      "start_ms": 243068,
+      "end_ms": 247868,
+      "text": "Then he looked up and noticed the golden statue standing high on the column.",
+      "translation": "Sonra yukarı baktı ve sütunun üzerinde yüksekte duran altın heykeli fark etti.",
+      "notes": "Sayfa 3 | 'looked up': başını yukarı kaldırdı; 'notice': farkına varmak."
     },
     {
       "id": 49,
-      "start_ms": 283620,
-      "end_ms": 290124,
-      "text": "Leaf after leaf of the fine gold the Swallow picked off, until the Happy Prince looked dull and grey.",
-      "translation": "Kırlangıç saf altını yaprak yaprak söktü; ta ki Mutlu Prens mat ve gri görünene dek.",
-      "notes": "Sayfa 13 | 'Leaf after leaf': art arda yapraklar; 'dull': mat, ışıltısız; 'until': -e kadar."
+      "start_ms": 248268,
+      "end_ms": 252852,
+      "text": "\"I will put up there,\" he said happily, \"it is a fine position.\"",
+      "translation": "Mutlulukla \"Orada konaklayacağım,\" dedi, \"konumu gayet harika.\"",
+      "notes": "Sayfa 3 | 'put up': geceyi geçirmek/konaklamak; 'fine position': güzel konum."
     },
     {
       "id": 50,
-      "start_ms": 290524,
-      "end_ms": 297676,
-      "text": "Leaf after leaf he brought to the poor, and the children's faces grew rosier as they laughed and played games in the street.",
-      "translation": "Altınları yaprak yaprak yoksullara taşıdı; çocuklar sokakta gülüp oyunlar oynadıkça yüzlerine neşeli bir renk geldi.",
-      "notes": "Sayfa 13 | 'grew rosier': yanaklarına kan geldi, pembeleşti; 'grow + sıfat': gittikçe bir hale bürünmek."
+      "start_ms": 253252,
+      "end_ms": 257980,
+      "text": "\"There is plenty of fresh air and a wonderful view of the entire city.\"",
+      "translation": "\"Bolca temiz hava ve bütün şehrin harika bir manzarası var.\"",
+      "notes": "Sayfa 3 | 'plenty of': bolca; 'entire city': bütün şehir."
     },
     {
       "id": 51,
-      "start_ms": 298076,
-      "end_ms": 304844,
-      "text": "Then the frost came, and the streets looked as if they were made of silver, clear and glittering like daggers.",
-      "translation": "Derken ayaz bastırdı ve sokaklar sanki gümüşten yapılmış gibi hançer misali berrak ve pırıl pırıl görünüyordu.",
-      "notes": "Sayfa 13 | 'frost': dondurucu ayaz, kırağı; 'as if': sanki; 'glittering like daggers': hançer gibi parıldayan."
+      "start_ms": 258380,
+      "end_ms": 263180,
+      "text": "So he flew down and alighted softly between the feet of the Happy Prince.",
+      "translation": "Böylece aşağı süzüldü ve usulca Mutlu Prens'in ayakları arasına kondu.",
+      "notes": "Sayfa 3 | 'alight': (kuş/uçak) yere konmak; 'softly': yumuşakça."
     },
     {
       "id": 52,
-      "start_ms": 305244,
-      "end_ms": 311124,
-      "text": "Long icicles hung down from the roofs of the houses, and everyone went about in furs.",
-      "translation": "Evlerin çatılarından uzun buz sarkıtları sarkıyordu ve herkes kürkler içinde dolaşıyordu.",
-      "notes": "Sayfa 13 | 'icicles': buz sarkıtları; 'hung down': aşağı sarkmak; 'furs': kürkler."
+      "start_ms": 263580,
+      "end_ms": 268380,
+      "text": "\"I have a golden bedroom tonight,\" he whispered softly to himself.",
+      "translation": "Kendi kendine usulca \"Bu gece altın bir yatak odam var,\" diye fısıldadı.",
+      "notes": "Sayfa 3 | 'whisper to oneself': kendi kendine fısıldamak; 'golden': altından yapılma."
     },
     {
       "id": 53,
-      "start_ms": 312024,
-      "end_ms": 318144,
-      "text": "The poor little Swallow grew colder and colder, but he would not leave the Prince he loved so well.",
-      "translation": "Zavallı minik Kırlangıç gittikçe daha çok üşüyordu; fakat çok sevdiği Prens'ini terk etmek istemedi.",
-      "notes": "Sayfa 14 | 'colder and colder': gitgide daha soğuk; 'would not leave': terk etmeyi reddetti."
+      "start_ms": 268780,
+      "end_ms": 272980,
+      "text": "He prepared to go to sleep and tucked his head beneath his warm wing.",
+      "translation": "Uyumaya hazırlandı ve başını sıcacık kanadının altına soktu.",
+      "notes": "Sayfa 3 | 'tuck beneath': altına sokmak/saklamak; 'wing': kanat."
     },
     {
       "id": 54,
-      "start_ms": 318544,
-      "end_ms": 324736,
-      "text": "He tried to keep himself warm by flapping his wings, but at last he knew that he was going to die.",
-      "translation": "Kanatlarını çırparak kendini sıcak tutmaya çalıştı, fakat sonunda öleceğini anladı.",
-      "notes": "Sayfa 14 | 'by flapping': kanat çırparak (-erek/-arak anlamı: by + V-ing); 'at last': en sonunda."
+      "start_ms": 273380,
+      "end_ms": 278396,
+      "text": "But just as he closed his eyes, a large drop of water fell upon him.",
+      "translation": "Fakat tam gözlerini kapattığı anda üzerine büyük bir su damlası düştü.",
+      "notes": "Sayfa 3 | 'just as': tam ... iken; 'drop of water': su damlası; 'fell upon': üstüne düştü."
     },
     {
       "id": 55,
-      "start_ms": 325136,
-      "end_ms": 331328,
-      "text": "\"Goodbye, dear Prince!\" he murmured softly. \"Will you let me kiss your hand?\"",
-      "translation": "Usulca \"Elveda sevgili Prens!\" diye mırıldandı. \"Elini öpmeme izin verir misin?\"",
-      "notes": "Sayfa 14 | 'murmured softly': usulca mırıldandı; 'let me kiss': öpmeme müsaade et."
+      "start_ms": 278796,
+      "end_ms": 283500,
+      "text": "\"What a curious thing!\" cried the Swallow, looking up at the sky.",
+      "translation": "Kırlangıç gökyüzüne bakarak \"Ne tuhaf bir şey!\" diye haykırdı.",
+      "notes": "Sayfa 3 | 'curious': burada 'tuhaf, alışılmadık' anlamında kullanılmıştır."
     },
     {
       "id": 56,
-      "start_ms": 331728,
-      "end_ms": 339000,
-      "text": "He kissed the Happy Prince on the lips and fell down dead at his feet, while inside the statue the leaden heart snapped in two.",
-      "translation": "Mutlu Prens'i dudaklarından öptü ve ayaklarının dibine cansız düştü; o esnada heykelin içindeki kurşun kalp ikiye ayrıldı.",
-      "notes": "Sayfa 14 | 'fell down dead': cansız yere yığılmak; 'leaden heart': kurşun kalp; 'snapped in two': çıt sesiyle ikiye bölünmek."
+      "start_ms": 283900,
+      "end_ms": 289012,
+      "text": "\"There is not a single cloud in the sky, and the stars are bright and clear.\"",
+      "translation": "\"Gökyüzünde tek bir bulut bile yok ve yıldızlar berrak ve pırıl pırıl.\"",
+      "notes": "Sayfa 3 | 'not a single': tek bir dahi yok; 'bright and clear': parlak ve berrak."
     },
     {
       "id": 57,
-      "start_ms": 339900,
-      "end_ms": 345516,
-      "text": "Early the next morning, the Mayor and the Town Councillors walked through the square below.",
-      "translation": "Ertesi sabah erkenden Belediye Başkanı ve Şehir Meclisi Üyeleri aşağıdaki meydandan geçiyordu.",
-      "notes": "Sayfa 15 | 'Mayor': Belediye Başkanı; 'Town Councillors': Belediye/şehir meclis üyeleri."
+      "start_ms": 289412,
+      "end_ms": 293420,
+      "text": "\"Yet it is raining heavily in this strange and chilly city!\"",
+      "translation": "\"Yine de bu garip ve ayaz şehirde bardaktan boşanırcasına yağmur yağıyor!\"",
+      "notes": "Sayfa 3 | 'chilly': ayaz, buz gibi; 'raining heavily': şiddetle yağmak."
     },
     {
       "id": 58,
-      "start_ms": 345916,
-      "end_ms": 354388,
-      "text": "\"Dear me! How shabby the Happy Prince looks without his ruby, his eyes, and his gold!\" exclaimed the Mayor.",
-      "translation": "Belediye Başkanı \"Aman Tanrım! Yakutu, gözleri ve altını olmayınca Mutlu Prens ne kadar da pejmurde görünüyor!\" diye bağırdı.",
-      "notes": "Sayfa 15 | 'Dear me!': 'Aman Tanrım / Vah vah'; 'shabby': döküntü, pejmurde, hırpani."
+      "start_ms": 293820,
+      "end_ms": 298140,
+      "text": "Then a second heavy drop of water fell right upon his feathers.",
+      "translation": "Ardından tüylerinin tam üzerine ikinci bir ağır su damlası düştü.",
+      "notes": "Sayfa 3 | 'feathers': kuş tüyleri; 'right upon': tam üzerine."
     },
     {
       "id": 59,
-      "start_ms": 354788,
-      "end_ms": 360764,
-      "text": "So they pulled down the statue and melted it in a furnace, but the broken lead heart would not melt.",
-      "translation": "Böylece heykeli yıktılar ve bir eritme ocağında erittiler; fakat kırık kurşun kalp bir türlü erimedi.",
-      "notes": "Sayfa 15 | 'pulled down': yerinden yıkıp indirmek; 'furnace': ergitme fırını/ocağı; 'would not melt': erimeye yanaşmadı."
+      "start_ms": 298540,
+      "end_ms": 303556,
+      "text": "\"What is the use of a statue if it cannot keep the rain off?\" he complained.",
+      "translation": "\"Yağmuru bile kesemiyorsa bir heykel ne işe yarar ki?\" diye yakındı.",
+      "notes": "Sayfa 3 | 'what is the use of...': ... neye yarar ki?; 'keep off': uzak tutmak/kesmek."
     },
     {
       "id": 60,
-      "start_ms": 361164,
-      "end_ms": 369228,
-      "text": "God said to His angels, \"Bring Me the two most precious things in the city,\" and the angels brought Him the leaden heart and the dead bird.",
-      "translation": "Tanrı meleklerine \"Bana şehirdeki en değerli iki şeyi getirin,\" dedi ve melekler O'na kurşun kalbi ve ölü kuşu getirdiler.",
-      "notes": "Sayfa 15 | 'most precious things': en değerli/kıymetli şeyler; Oscar Wilde'ın masalının ölümsüz sonu."
+      "start_ms": 303956,
+      "end_ms": 309164,
+      "text": "\"I must look for a good chimney-pot,\" he said, and determined to fly away.",
+      "translation": "\"Kendime iyi bir baca başlığı bulmalıyım,\" dedi ve uçup gitmeye karar verdi.",
+      "notes": "Sayfa 3 | 'chimney-pot': baca tepeliği; 'determined to': -e kesin karar verdi."
+    },
+    {
+      "id": 61,
+      "start_ms": 310164,
+      "end_ms": 315012,
+      "text": "But before he could open his wings, a third drop fell upon his head.",
+      "translation": "Fakat kanatlarını açamadan önce başına üçüncü bir damla düştü.",
+      "notes": "Sayfa 4 | 'before he could open': açamadan önce; 'fell upon': üzerine düştü."
+    },
+    {
+      "id": 62,
+      "start_ms": 315412,
+      "end_ms": 319468,
+      "text": "He looked straight up, and what did he see in the dim moonlight?",
+      "translation": "Dosdoğru yukarı baktı ve loş ay ışığında ne görsün?",
+      "notes": "Sayfa 4 | 'straight up': dimdik yukarı; 'dim moonlight': loş ay ışığı."
+    },
+    {
+      "id": 63,
+      "start_ms": 319868,
+      "end_ms": 324500,
+      "text": "The eyes of the Happy Prince were filled with large and shiny tears.",
+      "translation": "Mutlu Prens'in gözleri iri ve parlak gözyaşlarıyla dolmuştu.",
+      "notes": "Sayfa 4 | 'filled with': ile dolmuş; 'shiny tears': parlak gözyaşları."
+    },
+    {
+      "id": 64,
+      "start_ms": 324900,
+      "end_ms": 329628,
+      "text": "Golden tears were running slowly down his sorrowful gilded cheeks.",
+      "translation": "Altın gözyaşları kederli yaldızlı yanaklarından aşağı yavaşça süzülüyordu.",
+      "notes": "Sayfa 4 | 'running down': aşağı akmak; 'gilded cheeks': yaldızlı yanaklar."
+    },
+    {
+      "id": 65,
+      "start_ms": 330028,
+      "end_ms": 335164,
+      "text": "His pale face looked so beautiful in the moonlight that the bird felt deep pity.",
+      "translation": "Solgun yüzü ay ışığında öyle güzel görünüyordu ki kuş derin bir acıma hissetti.",
+      "notes": "Sayfa 4 | 'felt deep pity': derin merhamet ve acıma duymak."
+    },
+    {
+      "id": 66,
+      "start_ms": 335564,
+      "end_ms": 339668,
+      "text": "\"Who are you?\" asked the little Swallow in a gentle voice.",
+      "translation": "Küçük Kırlangıç nazik bir ses tonuyla \"Sen kimsin?\" diye sordu.",
+      "notes": "Sayfa 4 | 'in a gentle voice': yumuşak ve tatlı bir sesle."
+    },
+    {
+      "id": 67,
+      "start_ms": 340068,
+      "end_ms": 345156,
+      "text": "\"I am the Happy Prince,\" answered the statue in a deep, sad tone.",
+      "translation": "Heykel derin ve hüzünlü bir tonda \"Ben Mutlu Prens'im,\" diye yanıtladı.",
+      "notes": "Sayfa 4 | 'in a sad tone': hüzünlü bir edayla."
+    },
+    {
+      "id": 68,
+      "start_ms": 345556,
+      "end_ms": 350572,
+      "text": "\"Why are you weeping then?\" asked the Swallow, shaking the water from his wing.",
+      "translation": "Kırlangıç kanadındaki suyu silkeleyerek \"Öyleyse neden ağlıyorsun?\" diye sordu.",
+      "notes": "Sayfa 4 | 'weep': gözyaşı dökmek; 'shaking from': silkelemek."
+    },
+    {
+      "id": 69,
+      "start_ms": 350972,
+      "end_ms": 355172,
+      "text": "\"You have soaked me through with your continuous stream of tears.\"",
+      "translation": "\"Dinmek bilmeyen gözyaşı seliyle beni sırılsıklam ettin.\"",
+      "notes": "Sayfa 4 | 'soak through': iliğine kadar ıslatmak; 'continuous stream': kesintisiz akıntı."
+    },
+    {
+      "id": 70,
+      "start_ms": 355572,
+      "end_ms": 361404,
+      "text": "\"When I was alive and had a human heart, I did not know what tears were,\" said the Prince.",
+      "translation": "Prens \"Ben hayattayken ve bir insan kalbim varken gözyaşının ne olduğunu bilmezdim,\" dedi.",
+      "notes": "Sayfa 4 | 'when I was alive': ben hayattayken; 'human heart': insan yüreği."
+    },
+    {
+      "id": 71,
+      "start_ms": 361804,
+      "end_ms": 367804,
+      "text": "\"I lived in the Palace of Sans-Souci, where sorrow and grief were never allowed to enter.\"",
+      "translation": "\"Acı ve kederin girmesine asla izin verilmeyen Sans-Souci Sarayı'nda yaşardım.\"",
+      "notes": "Sayfa 4 | 'Sans-Souci': Fransızca 'tasasız/gamsız'; 'grief': derin üzüntü."
+    },
+    {
+      "id": 72,
+      "start_ms": 368204,
+      "end_ms": 373244,
+      "text": "\"In the daytime, I played joyfully with my companions in the royal garden.\"",
+      "translation": "\"Gündüzleri saray bahçesinde arkadaşlarımla neşeyle oynardım.\"",
+      "notes": "Sayfa 4 | 'in the daytime': gündüz vaktinde; 'royal garden': kraliyet bahçesi."
+    },
+    {
+      "id": 73,
+      "start_ms": 373644,
+      "end_ms": 378300,
+      "text": "\"In the evening, I led the happy dance in the Great Hall of the palace.\"",
+      "translation": "\"Akşamları sarayın Büyük Salonu'ndaki neşeli dansa öncülük ederdim.\"",
+      "notes": "Sayfa 4 | 'lead the dance': dansı yönetmek/başını çekmek; 'Great Hall': ulu saray salonu."
+    },
+    {
+      "id": 74,
+      "start_ms": 378700,
+      "end_ms": 383716,
+      "text": "\"Around the vast palace garden ran a very lofty and impenetrable wall.\"",
+      "translation": "\"Uçsuz bucaksız saray bahçesinin çevresinde çok yüksek ve aşılamaz bir duvar uzanırdı.\"",
+      "notes": "Sayfa 4 | 'lofty': ulu, çok yüksek; 'impenetrable': geçit vermez, aşılamaz."
+    },
+    {
+      "id": 75,
+      "start_ms": 384116,
+      "end_ms": 388364,
+      "text": "\"I never cared to ask what lay beyond that tall boundary wall.\"",
+      "translation": "\"O yüksek çevre duvarının ötesinde ne olduğunu sormayı hiç dert etmezdim.\"",
+      "notes": "Sayfa 4 | 'never cared to ask': sorma zahmetine katlanmamak; 'lay beyond': ötesinde uzanmak."
+    },
+    {
+      "id": 76,
+      "start_ms": 388764,
+      "end_ms": 394308,
+      "text": "\"Everything immediately around me was so pleasant, luxurious, and beautiful.\"",
+      "translation": "\"Hemen etrafımdaki her şey öyle hoş, lüks ve güzeldi ki.\"",
+      "notes": "Sayfa 4 | 'immediately around': burnumun dibinde; 'luxurious': görkemli ve lüks."
+    },
+    {
+      "id": 77,
+      "start_ms": 394708,
+      "end_ms": 399844,
+      "text": "\"My courtiers all called me the Happy Prince, and happy indeed I was.\"",
+      "translation": "\"Nedimlerimin hepsi bana Mutlu Prens derdi ve gerçekten de pek mutluydum.\"",
+      "notes": "Sayfa 4 | 'courtiers': saray mensupları/nedimler; 'indeed': cidden, sahiden."
+    },
+    {
+      "id": 78,
+      "start_ms": 400244,
+      "end_ms": 405164,
+      "text": "\"If pleasure is happiness, then I lived happily and I died peacefully.\"",
+      "translation": "\"Eğer zevk mutluluk demekse, gerçekten mutlu yaşadım ve huzurla öldüm.\"",
+      "notes": "Sayfa 4 | 'pleasure': haz ve sefa; 'peacefully': huzur içinde."
+    },
+    {
+      "id": 79,
+      "start_ms": 405564,
+      "end_ms": 410148,
+      "text": "\"Now that I am dead, they have set me up high upon this tall column.\"",
+      "translation": "\"Şimdi ise öldüğüm için beni bu yüksek sütunun tepesine diktiler.\"",
+      "notes": "Sayfa 4 | 'now that...': mademki, artık ... olduğuna göre; 'set up': dikmek/yerleştirmek."
+    },
+    {
+      "id": 80,
+      "start_ms": 410548,
+      "end_ms": 415492,
+      "text": "\"From here, I can see all the misery and all the ugliness of my city.\"",
+      "translation": "\"Buradan şehrimin bütün sefaletini ve bütün çirkinliğini görebiliyorum.\"",
+      "notes": "Sayfa 4 | 'misery': sefalet ve çaresizlik; 'ugliness': çirkinlik."
+    },
+    {
+      "id": 81,
+      "start_ms": 416492,
+      "end_ms": 421316,
+      "text": "\"Though my heart is made of solid lead, yet I cannot choose but weep.\"",
+      "translation": "\"Kalbim som kurşundan yapılmış olsa bile yine de ağlamaktan kendimi alamıyorum.\"",
+      "notes": "Sayfa 5 | 'solid lead': saf kurşun madeni; 'cannot choose but...': elinde olmadan yapmak."
+    },
+    {
+      "id": 82,
+      "start_ms": 421716,
+      "end_ms": 426924,
+      "text": "\"Is he not solid gold all through?\" thought the Swallow to himself silently.",
+      "translation": "Kırlangıç kendi kendine sessizce \"Tepeden tırnağa som altın değil miymiş?\" diye düşündü.",
+      "notes": "Sayfa 5 | 'all through': baştan aşağı; 'silently': içinden sessizce."
+    },
+    {
+      "id": 83,
+      "start_ms": 427324,
+      "end_ms": 431764,
+      "text": "The little bird was too polite to make any personal remarks aloud.",
+      "translation": "Küçük kuş sesli olarak kişisel yorumlar yapamayacak kadar terbiyeliydi.",
+      "notes": "Sayfa 5 | 'too polite to...': yapamayacak kadar kibar; 'personal remarks': şahsi laf dokundurma."
+    },
+    {
+      "id": 84,
+      "start_ms": 432164,
+      "end_ms": 438788,
+      "text": "\"Far away in a narrow street,\" continued the Prince in a low musical voice, \"there is a poor house.\"",
+      "translation": "Prens pes ve ahenkli bir sesle \"Uzaklarda, dar bir sokakta,\" diye devam etti, \"yoksul bir ev var.\"",
+      "notes": "Sayfa 5 | 'low musical voice': pes ve nağmeli ses; 'narrow street': dar sokak."
+    },
+    {
+      "id": 85,
+      "start_ms": 439188,
+      "end_ms": 444036,
+      "text": "\"One of the small windows is open, and through it I can clearly see a woman.\"",
+      "translation": "\"Küçük pencerelerinden biri açık ve oradan bir kadını açıkça görebiliyorum.\"",
+      "notes": "Sayfa 5 | 'through it': oradan, pencerenin içinden; 'clearly': net şekilde."
+    },
+    {
+      "id": 86,
+      "start_ms": 444436,
+      "end_ms": 448564,
+      "text": "\"She is seated at a rough wooden table in the middle of a dark room.\"",
+      "translation": "\"Karanlık bir odanın ortasında kaba tahta bir masada oturuyor.\"",
+      "notes": "Sayfa 5 | 'seated at': masada oturur vaziyette; 'rough wooden': yontulmamış tahta."
+    },
+    {
+      "id": 87,
+      "start_ms": 448964,
+      "end_ms": 454436,
+      "text": "\"Her face is thin and worn, and she has coarse, red hands pricked by the needle.\"",
+      "translation": "\"Yüzü zayıf ve bitkin; elleri ise iğne batmalarından kızarmış ve pürüzlü.\"",
+      "notes": "Sayfa 5 | 'thin and worn': süzülmüş ve çökmüş; 'coarse': kaba/nasırlı; 'pricked': iğne batmış."
+    },
+    {
+      "id": 88,
+      "start_ms": 454836,
+      "end_ms": 459396,
+      "text": "\"She is a seamstress, sewing delicate garments for the wealthy court.\"",
+      "translation": "\"O bir terzi, zengin saray erkanı için zarif kıyafetler dikiyor.\"",
+      "notes": "Sayfa 5 | 'seamstress': kadın terzi; 'delicate garments': narin/zarif giysiler."
+    },
+    {
+      "id": 89,
+      "start_ms": 459796,
+      "end_ms": 465460,
+      "text": "\"She is embroidering passion-flowers on a splendid satin gown for the Queen's maid of honour.\"",
+      "translation": "\"Kraliçe'nin baş nedimesi için görkemli saten bir elbiseye çarkıfelek çiçekleri nakşediyor.\"",
+      "notes": "Sayfa 5 | 'passion-flower': çarkıfelek çiçeği; 'splendid satin gown': göz alıcı saten tuvalet."
+    },
+    {
+      "id": 90,
+      "start_ms": 465860,
+      "end_ms": 470612,
+      "text": "\"The lady intends to wear this gorgeous dress at the next royal court ball.\"",
+      "translation": "\"Hanımefendi bu muhteşem elbiseyi bir sonraki saray balosunda giymek niyetinde.\"",
+      "notes": "Sayfa 5 | 'intend to': niyetinde olmak; 'court ball': saray balosu."
+    },
+    {
+      "id": 91,
+      "start_ms": 471012,
+      "end_ms": 476148,
+      "text": "\"In a corner of the cold room, her little boy is lying in bed with a fever.\"",
+      "translation": "\"Soğuk odanın bir köşesinde küçük oğlu ateşler içinde yatakta yatıyor.\"",
+      "notes": "Sayfa 5 | 'in a corner': köşede; 'lying with a fever': ateşler içinde yatmak."
+    },
+    {
+      "id": 92,
+      "start_ms": 476548,
+      "end_ms": 481468,
+      "text": "\"He is burning with fever, and he is crying out weakly for fresh oranges.\"",
+      "translation": "\"Ateşten cayır cayır yanıyor ve halsizce taze portakallar istiyor.\"",
+      "notes": "Sayfa 5 | 'crying out for': diye yalvarmak/sayıklamak; 'weakly': mecalsizce."
+    },
+    {
+      "id": 93,
+      "start_ms": 481868,
+      "end_ms": 486452,
+      "text": "\"His poor mother has nothing to give him to drink but plain river water.\"",
+      "translation": "\"Zavallı annesinin ona içirecek sade nehir suyundan başka hiçbir şeyi yok.\"",
+      "notes": "Sayfa 5 | 'nothing... but': -den başka hiçbir şey; 'plain': katıksız, duru."
+    },
+    {
+      "id": 94,
+      "start_ms": 486852,
+      "end_ms": 491748,
+      "text": "\"Therefore, the sick little boy is weeping bitterly in his lonely bed.\"",
+      "translation": "\"Bu yüzden hasta küçük çocuk ıssız yatağında için için ağlıyor.\"",
+      "notes": "Sayfa 5 | 'therefore': bu nedenle; 'weep bitterly': acı acı/hıçkıra hıçkıra ağlamak."
+    },
+    {
+      "id": 95,
+      "start_ms": 492148,
+      "end_ms": 497860,
+      "text": "\"Swallow, Swallow, little Swallow, will you not take her the ruby from my sword-hilt?\"",
+      "translation": "\"Kırlangıç, Kırlangıç, minik Kırlangıç, kılıcımın kabzasındaki yakutu ona götürmez misin?\"",
+      "notes": "Sayfa 5 | 'will you not...?': rica/yalvarış kalıbı; 'take her': ona götürmek."
+    },
+    {
+      "id": 96,
+      "start_ms": 498260,
+      "end_ms": 503612,
+      "text": "\"My own feet are fastened firmly to this heavy stone pedestal and I cannot move.\"",
+      "translation": "\"Benim ayaklarım bu ağır taş kaideye sımsıkı perçinlenmiş ve kımıldayamıyorum.\"",
+      "notes": "Sayfa 5 | 'fastened firmly': sımsıkı tutturulmuş; 'stone pedestal': mermer heykel ayağı."
+    },
+    {
+      "id": 97,
+      "start_ms": 504012,
+      "end_ms": 508764,
+      "text": "\"I am waited for in Egypt,\" replied the Swallow, eager to depart.",
+      "translation": "Yola çıkmaya can atan Kırlangıç \"Mısır'da beni bekliyorlar,\" diye yanıt verdi.",
+      "notes": "Sayfa 5 | 'am waited for': beklenmekteyim (edilgen); 'eager to depart': gitmeye hevesli."
+    },
+    {
+      "id": 98,
+      "start_ms": 509164,
+      "end_ms": 514852,
+      "text": "\"My companions are flying up and down the Nile, talking to the giant lotus flowers.\"",
+      "translation": "\"Yoldaşlarım Nil nehri boyunca bir aşağı bir yukarı uçuyor, dev nilüfer çiçekleriyle konuşuyor.\"",
+      "notes": "Sayfa 5 | 'up and down the Nile': Nil boyunca; 'giant lotus flowers': dev nilüferler."
+    },
+    {
+      "id": 99,
+      "start_ms": 515252,
+      "end_ms": 519716,
+      "text": "\"Soon they will sleep comfortably in the ancient tomb of the great Pharaoh.\"",
+      "translation": "\"Yakında yüce Firavun'un kadim mezarında rahatça uykuya dalacaklar.\"",
+      "notes": "Sayfa 5 | 'ancient tomb': kadim mezar/lahit; 'Pharaoh': Mısır firavunu."
+    },
+    {
+      "id": 100,
+      "start_ms": 520116,
+      "end_ms": 525540,
+      "text": "\"The King himself lies there wrapped in yellow linen and embalmed with fragrant spices.\"",
+      "translation": "\"Kralın kendisi sarı ketenlere sarılmış ve mis kokulu baharatlarla mumyalanmış halde orada yatar.\"",
+      "notes": "Sayfa 5 | 'wrapped in linen': ketene sarılı; 'embalmed with spices': baharatla mumyalanmış."
+    },
+    {
+      "id": 101,
+      "start_ms": 526540,
+      "end_ms": 532924,
+      "text": "\"Swallow, Swallow, little Swallow,\" said the Prince, \"will you not stay with me for one night?\"",
+      "translation": "Prens \"Kırlangıç, Kırlangıç, minik Kırlangıç,\" dedi, \"bu gece benimle kalmaz mısın?\"",
+      "notes": "Sayfa 6 | 'stay for one night': bir geceliğine kalmak."
+    },
+    {
+      "id": 102,
+      "start_ms": 533324,
+      "end_ms": 537572,
+      "text": "\"Will you be my messenger to that suffering and impoverished family?\"",
+      "translation": "\"O acı çeken yoksul aileye benim ulağım olur musun?\"",
+      "notes": "Sayfa 6 | 'messenger': ulak/elçi; 'suffering and impoverished': cefa çeken ve sefil."
+    },
+    {
+      "id": 103,
+      "start_ms": 537972,
+      "end_ms": 543684,
+      "text": "\"The young boy is so terribly thirsty, and his weary mother is so very sad.\"",
+      "translation": "\"Küçük çocuk feci halde susamış ve yorgun düşmüş annesi öyle kederli ki.\"",
+      "notes": "Sayfa 6 | 'terribly thirsty': son derece susuz; 'weary mother': bitap düşmüş anne."
+    },
+    {
+      "id": 104,
+      "start_ms": 544084,
+      "end_ms": 549172,
+      "text": "\"I do not think I like little boys,\" answered the Swallow with a slight shrug.",
+      "translation": "Kırlangıç hafifçe omuz silkerek \"Küçük erkek çocuklarını sevdiğimi pek sanmıyorum,\" diye cevap verdi.",
+      "notes": "Sayfa 6 | 'slight shrug': hafif bir omuz silkme."
+    },
+    {
+      "id": 105,
+      "start_ms": 549572,
+      "end_ms": 554876,
+      "text": "\"Last summer, when I stayed by the river, two rude boys threw stones at me.\"",
+      "translation": "\"Geçen yaz nehir kıyısında kaldığımda iki kaba çocuk bana taş fırlatmıştı.\"",
+      "notes": "Sayfa 6 | 'rude': kaba, terbiyesiz; 'threw stones': taş attı."
+    },
+    {
+      "id": 106,
+      "start_ms": 555276,
+      "end_ms": 560604,
+      "text": "\"They never hit me, of course, for we swallows fly far too swiftly.\"",
+      "translation": "\"Bana asla isabet ettiremediler elbette, zira biz kırlangıçlar fazlasıyla çevik uçarız.\"",
+      "notes": "Sayfa 6 | 'swiftly': hızlıca ve kıvrak şekilde; 'hit': vurmak."
+    },
+    {
+      "id": 107,
+      "start_ms": 561004,
+      "end_ms": 565852,
+      "text": "\"Still, it was a mark of utter disrespect towards a delicate creature.\"",
+      "translation": "\"Yine de narin bir canlıya karşı tam bir saygısızlık göstergesiydi.\"",
+      "notes": "Sayfa 6 | 'mark of disrespect': saygısızlık alameti; 'delicate creature': narin yaratık."
+    },
+    {
+      "id": 108,
+      "start_ms": 566252,
+      "end_ms": 571484,
+      "text": "But the Happy Prince looked so sorrowful that the little Swallow felt sorry for him.",
+      "translation": "Fakat Mutlu Prens öyle kederli görünüyordu ki küçük Kırlangıç ona çok acıdı.",
+      "notes": "Sayfa 6 | 'feel sorry for': birine üzülmek/acımak; 'sorrowful': mahzun."
+    },
+    {
+      "id": 109,
+      "start_ms": 571884,
+      "end_ms": 577476,
+      "text": "\"It is very cold here,\" he said softly, \"but I will stay with you for one night.\"",
+      "translation": "Usulca \"Burası çok soğuk,\" dedi, \"ama bu gece seninle kalacağım.\"",
+      "notes": "Sayfa 6 | 'softly': yumuşak ve tatlı dille."
+    },
+    {
+      "id": 110,
+      "start_ms": 577876,
+      "end_ms": 582220,
+      "text": "\"I will be your willing messenger and carry the jewel to the seamstress.\"",
+      "translation": "\"Gönüllü elçin olacağım ve mücevheri terzi kadına götüreceğim.\"",
+      "notes": "Sayfa 6 | 'willing messenger': gönüllü ulak; 'jewel': kıymetli taş."
+    },
+    {
+      "id": 111,
+      "start_ms": 582620,
+      "end_ms": 587444,
+      "text": "\"Thank you, generous little Swallow,\" said the grateful Happy Prince.",
+      "translation": "Minnettar Mutlu Prens \"Teşekkür ederim cömert küçük Kırlangıç,\" dedi.",
+      "notes": "Sayfa 6 | 'generous': cömert; 'grateful': müteşekkir, minnettar."
+    },
+    {
+      "id": 112,
+      "start_ms": 587844,
+      "end_ms": 592476,
+      "text": "So the Swallow picked out the great red ruby from the Prince's sword-hilt.",
+      "translation": "Bunun üzerine Kırlangıç, Prens'in kılıç kabzasından o koca kırmızı yakutu söküp aldı.",
+      "notes": "Sayfa 6 | 'picked out': söküp çıkarmak; 'great ruby': kocaman yakut."
+    },
+    {
+      "id": 113,
+      "start_ms": 592876,
+      "end_ms": 597220,
+      "text": "He held the heavy shining gem securely in his sharp little beak.",
+      "translation": "Ağır ve parıldayan mücevheri sivri minik gagasında sıkıca tuttu.",
+      "notes": "Sayfa 6 | 'gem': kıymetli mücevher; 'beak': kuş gagası; 'securely': emniyetle."
+    },
+    {
+      "id": 114,
+      "start_ms": 597620,
+      "end_ms": 601940,
+      "text": "He flew away over the dark roofs of the quiet sleeping town.",
+      "translation": "Sessizce uyuyan kasabanın karanlık çatıları üzerinden uçup gitti.",
+      "notes": "Sayfa 6 | 'roofs': çatılar; 'sleeping town': uyuyan şehir mecazı."
+    },
+    {
+      "id": 115,
+      "start_ms": 602340,
+      "end_ms": 607620,
+      "text": "He passed by the grand cathedral tower, where white marble angels were carved.",
+      "translation": "Beyaz mermerden meleklerin oyulduğu görkemli katedral kulesinin yanından geçti.",
+      "notes": "Sayfa 6 | 'carved': yontulmuş/oyulmuş; 'marble': mermer taş."
+    },
+    {
+      "id": 116,
+      "start_ms": 608020,
+      "end_ms": 613204,
+      "text": "He passed by the royal palace and heard the sweet sound of music and dancing.",
+      "translation": "Kraliyet sarayının yanından geçti ve tatlı müzik ile dans seslerini duydu.",
+      "notes": "Sayfa 6 | 'royal palace': krallık sarayı; 'sweet sound': tatlı ahenk."
+    },
+    {
+      "id": 117,
+      "start_ms": 613604,
+      "end_ms": 618284,
+      "text": "A beautiful young girl came out onto the balcony with her handsome lover.",
+      "translation": "Güzel bir genç kız yakışıklı sevgilisiyle balkona çıktı.",
+      "notes": "Sayfa 6 | 'came out onto': -e çıktı; 'handsome lover': yakışıklı sevgili."
+    },
+    {
+      "id": 118,
+      "start_ms": 618684,
+      "end_ms": 623460,
+      "text": "\"How wonderful the bright stars are,\" he murmured passionately to her.",
+      "translation": "Genç adam kıza tutkuyla \"Parlak yıldızlar ne kadar harika,\" diye fısıldadı.",
+      "notes": "Sayfa 6 | 'murmur passionately': tutkuyla mırıldanmak."
+    },
+    {
+      "id": 119,
+      "start_ms": 623860,
+      "end_ms": 628060,
+      "text": "\"And how wonderful is the mysterious power of eternal love!\"",
+      "translation": "\"Ve sonsuz aşkın gizemli gücü ne kadar da muhteşem!\"",
+      "notes": "Sayfa 6 | 'mysterious power': esrarengiz kudret; 'eternal love': ölümsüz aşk."
+    },
+    {
+      "id": 120,
+      "start_ms": 628460,
+      "end_ms": 632996,
+      "text": "\"I hope my gown will be ready in time for the State ball,\" she said.",
+      "translation": "Kız \"Umarım elbisem resmi devlet balosuna vaktinde yetişir,\" dedi.",
+      "notes": "Sayfa 6 | 'in time for': vaktinde yetişmek; 'State ball': devlet balosu."
+    },
+    {
+      "id": 121,
+      "start_ms": 633996,
+      "end_ms": 639636,
+      "text": "\"I have ordered passion-flowers to be embroidered on it, but seamstresses are so lazy.\"",
+      "translation": "\"Üzerine çarkıfelek çiçekleri işlenmesini sipariş ettim ama terziler öyle tembel ki.\"",
+      "notes": "Sayfa 7 | 'ordered... to be embroidered': ettirgen edilgen yapı; 'lazy': tembel."
+    },
+    {
+      "id": 122,
+      "start_ms": 640036,
+      "end_ms": 645316,
+      "text": "The Swallow flew on over the dark river and saw the lanterns on the ship masts.",
+      "translation": "Kırlangıç karanlık nehrin üzerinden uçmaya devam etti ve gemi direklerindeki fenerleri gördü.",
+      "notes": "Sayfa 7 | 'lanterns': fenerler; 'ship masts': gemi serenleri/direkleri."
+    },
+    {
+      "id": 123,
+      "start_ms": 645716,
+      "end_ms": 650492,
+      "text": "He flew over the old Ghetto quarter, where merchants were bargaining over money.",
+      "translation": "Tüccarların para pazarlığı yaptığı eski Getto mahallesinin üzerinden uçtu.",
+      "notes": "Sayfa 7 | 'bargaining': sıkı pazarlık etme; 'merchants': tüccarlar."
+    },
+    {
+      "id": 124,
+      "start_ms": 650892,
+      "end_ms": 655884,
+      "text": "At last, he arrived at the poor little cottage and peered through the window.",
+      "translation": "Nihayet o yoksul küçük kulübeye vardı ve pencereden içeri baktı.",
+      "notes": "Sayfa 7 | 'cottage': kulübe/küçük ev; 'peer through': gözlerini kısıp dikkatle bakmak."
+    },
+    {
+      "id": 125,
+      "start_ms": 656284,
+      "end_ms": 662044,
+      "text": "The sick boy was tossing feverishly upon his bed, restless and unable to sleep.",
+      "translation": "Hasta çocuk yatağında ateşler içinde bir o yana bir bu yana dönüyor, huzursuzca uyuyamıyordu.",
+      "notes": "Sayfa 7 | 'tossing feverishly': ateşle kıvranıp dönmek; 'restless': kıpır kıpır, huzursuz."
+    },
+    {
+      "id": 126,
+      "start_ms": 662444,
+      "end_ms": 667388,
+      "text": "The exhausted mother had fallen asleep with her weary head resting on the table.",
+      "translation": "Yorgunluktan tükenmiş anne, bitkin başı masaya dayalı halde uyuyakalmıştı.",
+      "notes": "Sayfa 7 | 'exhausted': tükenmiş; 'resting on': -e dayanmış halde."
+    },
+    {
+      "id": 127,
+      "start_ms": 667788,
+      "end_ms": 672372,
+      "text": "The Swallow hopped quietly into the room through the open window frame.",
+      "translation": "Kırlangıç açık pencere pervazından odanın içine usulca sekti.",
+      "notes": "Sayfa 7 | 'hop': sekmek/zıplamak; 'window frame': pencere kasası."
+    },
+    {
+      "id": 128,
+      "start_ms": 672772,
+      "end_ms": 678076,
+      "text": "He laid the magnificent glowing ruby upon the table beside the woman's brass thimble.",
+      "translation": "O muhteşem parıltılı yakutu, masaya kadının pirinç dikiş yüksüğünün yanına bıraktı.",
+      "notes": "Sayfa 7 | 'brass thimble': pirinçten dikiş yüksüğü; 'laid': lay fiilinin geçmiş hali."
+    },
+    {
+      "id": 129,
+      "start_ms": 678476,
+      "end_ms": 684140,
+      "text": "Then he flew gently around the small bed, fanning the boy's forehead with his wings.",
+      "translation": "Ardından küçük yatağın etrafında usulca uçarak kanatlarıyla çocuğun alnına serinlik verdi.",
+      "notes": "Sayfa 7 | 'fanning': yelpazelemek; 'forehead': alın."
+    },
+    {
+      "id": 130,
+      "start_ms": 684540,
+      "end_ms": 689076,
+      "text": "\"How cool and pleasant I feel now,\" whispered the boy in relief.",
+      "translation": "Çocuk rahatlayarak \"Şimdi kendimi ne kadar serin ve ferahlamış hissediyorum,\" diye fısıldadı.",
+      "notes": "Sayfa 7 | 'in relief': rahatlamış olarak; 'pleasant': hoş, ferah."
+    },
+    {
+      "id": 131,
+      "start_ms": 689476,
+      "end_ms": 694924,
+      "text": "\"I think I must be getting better,\" he murmured, and sank into a peaceful slumber.",
+      "translation": "\"Sanırım iyileşiyor olmalıyım,\" diye mırıldandı ve huzurlu bir uykuya daldı.",
+      "notes": "Sayfa 7 | 'getting better': iyileşmek; 'slumber': tatlı ve derin uyku."
+    },
+    {
+      "id": 132,
+      "start_ms": 695324,
+      "end_ms": 700268,
+      "text": "The Swallow flew silently out into the night and returned to the Happy Prince.",
+      "translation": "Kırlangıç gecenin karanlığına sessizce süzüldü ve Mutlu Prens'in yanına döndü.",
+      "notes": "Sayfa 7 | 'silently': sessiz sedasız; 'returned to': -e geri döndü."
+    },
+    {
+      "id": 133,
+      "start_ms": 700668,
+      "end_ms": 704916,
+      "text": "He related everything that he had done during his compassionate errand.",
+      "translation": "Bu merhamet dolu vazifesi sırasında yaptığı her şeyi anlattı.",
+      "notes": "Sayfa 7 | 'relate': anlatmak/aktarmak; 'compassionate errand': şefkatli vazife."
+    },
+    {
+      "id": 134,
+      "start_ms": 705316,
+      "end_ms": 710548,
+      "text": "\"It is curious,\" the bird remarked thoughtfully, \"but I feel quite warm now.\"",
+      "translation": "Kuş düşünceli bir şekilde \"Çok garip,\" dedi, \"ama şu an kendimi sıcacık hissediyorum.\"",
+      "notes": "Sayfa 7 | 'thoughtfully': düşünceli biçimde; 'quite warm': oldukça ılık/sıcak."
+    },
+    {
+      "id": 135,
+      "start_ms": 710948,
+      "end_ms": 716060,
+      "text": "\"Even though the winter air is icy cold, my whole body feels comfortable.\"",
+      "translation": "\"Kış havası buz gibi soğuk olmasına rağmen bütün bedenim çok rahat.\"",
+      "notes": "Sayfa 7 | 'even though': -e rağmen (zıtlık); 'icy cold': buz gibi soğuk."
+    },
+    {
+      "id": 136,
+      "start_ms": 716460,
+      "end_ms": 721692,
+      "text": "\"That is because you have performed a truly good deed,\" explained the Prince gently.",
+      "translation": "Prens tatlılıkla \"Bunun sebebi gerçekten güzel bir iyilik yapmış olmandır,\" diye açıkladı.",
+      "notes": "Sayfa 7 | 'good deed': güzel amel, hayırlı iyilik; 'perform': ifa etmek."
+    },
+    {
+      "id": 137,
+      "start_ms": 722092,
+      "end_ms": 727756,
+      "text": "The little Swallow began to think about those words, and thinking always made him sleepy.",
+      "translation": "Küçük Kırlangıç bu sözler üzerine düşünmeye başladı; zaten düşünmek her zaman uykusunu getirirdi.",
+      "notes": "Sayfa 7 | 'made him sleepy': onun uykusunu getirdi (Oscar Wilde'ın esprili üslubu)."
+    },
+    {
+      "id": 138,
+      "start_ms": 728156,
+      "end_ms": 732884,
+      "text": "When the bright morning dawned, he flew down to the river to take a bath.",
+      "translation": "Aydınlık sabah söktüğünde banyo yapmak için nehre doğru uçtu.",
+      "notes": "Sayfa 7 | 'dawned': şafak söktü; 'take a bath': banyo yapmak."
+    },
+    {
+      "id": 139,
+      "start_ms": 733284,
+      "end_ms": 739212,
+      "text": "\"What a remarkable phenomenon!\" cried the Professor of Ornithology passing over the bridge.",
+      "translation": "Köprüden geçen Kuşbilim Profesörü \"Ne olağanüstü bir doğa olayı!\" diye bağırdı.",
+      "notes": "Sayfa 7 | 'Ornithology': kuşbilim; 'remarkable phenomenon': kayda değer doğa olayı."
+    },
+    {
+      "id": 140,
+      "start_ms": 739612,
+      "end_ms": 744244,
+      "text": "\"A swallow staying in northern Europe in the middle of winter is unheard of!\"",
+      "translation": "\"Kış ortasında kuzey Avrupa'da kalan bir kırlangıç görülmüş duyulmuş şey değil!\"",
+      "notes": "Sayfa 7 | 'unheard of': emsalsiz, duyulmamış şey."
+    },
+    {
+      "id": 141,
+      "start_ms": 745244,
+      "end_ms": 750548,
+      "text": "The professor wrote a long and complicated letter about the bird to the local newspaper.",
+      "translation": "Profesör yerel gazeteye bu kuş hakkında uzun ve karmaşık bir mektup yazdı.",
+      "notes": "Sayfa 8 | 'complicated': karmaşık, çetrefilli; 'local newspaper': yerel gazete."
+    },
+    {
+      "id": 142,
+      "start_ms": 750948,
+      "end_ms": 756780,
+      "text": "Everyone in the city quoted the article, though nobody could truly understand its vocabulary.",
+      "translation": "Kelime dağarcığını kimse tam anlamasa da şehirdeki herkes bu makaleden alıntılar yaptı.",
+      "notes": "Sayfa 8 | 'quoted': alıntı yaptı; 'vocabulary': kelimeler/terminoloji."
+    },
+    {
+      "id": 143,
+      "start_ms": 757180,
+      "end_ms": 762820,
+      "text": "\"Tonight I am certainly going to Egypt,\" said the Swallow, feeling enthusiastic.",
+      "translation": "Kırlangıç hevesle \"Bu gece kesinlikle Mısır'a gidiyorum,\" dedi.",
+      "notes": "Sayfa 8 | 'enthusiastic': coşkulu, istekli; 'certainly': kesinlikle."
+    },
+    {
+      "id": 144,
+      "start_ms": 763220,
+      "end_ms": 768644,
+      "text": "He visited all the public monuments and sat atop the church steeple for a long time.",
+      "translation": "Bütün halk anıtlarını gezdi ve uzun bir süre kilise çan kulesinin tepesinde tünedi.",
+      "notes": "Sayfa 8 | 'public monuments': halk anıtları; 'church steeple': kilise kulesi külahı."
+    },
+    {
+      "id": 145,
+      "start_ms": 769044,
+      "end_ms": 773988,
+      "text": "When the moon rose in the evening sky, he flew back to the Happy Prince.",
+      "translation": "Akşam göğünde ay yükseldiğinde tekrar Mutlu Prens'e uçtu.",
+      "notes": "Sayfa 8 | 'moon rose': ay doğdu; 'flew back': geri uçtu."
+    },
+    {
+      "id": 146,
+      "start_ms": 774388,
+      "end_ms": 781084,
+      "text": "\"Have you any commissions for Egypt?\" he called out cheerfully. \"I am just starting on my journey.\"",
+      "translation": "Neşeyle \"Mısır için bir siparişin var mı?\" diye seslendi, \"Yolculuğuma tam şimdi başlıyorum.\"",
+      "notes": "Sayfa 8 | 'commissions': emanet/özel sipariş ricaları; 'cheerfully': neşeyle."
+    },
+    {
+      "id": 147,
+      "start_ms": 781484,
+      "end_ms": 787964,
+      "text": "\"Swallow, Swallow, little Swallow,\" cried the Prince, \"will you not stay with me one more night?\"",
+      "translation": "Prens \"Kırlangıç, Kırlangıç, minik Kırlangıç,\" diye yalvardı, \"benimle bir gece daha kalamaz mısın?\"",
+      "notes": "Sayfa 8 | 'one more night': bir gece daha."
+    },
+    {
+      "id": 148,
+      "start_ms": 788364,
+      "end_ms": 792972,
+      "text": "\"I am urgently waited for in Egypt,\" answered the impatient bird.",
+      "translation": "Sabırsız kuş \"Mısır'da acilen bekleniyorum,\" diye yanıtladı.",
+      "notes": "Sayfa 8 | 'urgently': acilen; 'impatient': sabırsız."
+    },
+    {
+      "id": 149,
+      "start_ms": 793372,
+      "end_ms": 798220,
+      "text": "\"Tomorrow my friends will fly up the river to the great waterfalls of the Nile.\"",
+      "translation": "\"Yarın arkadaşlarım nehir boyunca Nil'in ulu şelalelerine uçacaklar.\"",
+      "notes": "Sayfa 8 | 'waterfalls': şelaleler/çağlayanlar; 'fly up': yukarı doğru uçmak."
+    },
+    {
+      "id": 150,
+      "start_ms": 798620,
+      "end_ms": 803708,
+      "text": "\"There the wild river-horses sleep among the tall reeds and papyrus plants.\"",
+      "translation": "\"Orada yabani su aygırları boylu sazlar ve papirüs bitkileri arasında uyur.\"",
+      "notes": "Sayfa 8 | 'river-horses': su aygırları (eski edebi tabir); 'papyrus': papirüs."
+    },
+    {
+      "id": 151,
+      "start_ms": 804108,
+      "end_ms": 809892,
+      "text": "\"Far across the city,\" said the Prince, \"I see a young student in a high attic room.\"",
+      "translation": "Prens \"Şehrin öte ucunda,\" dedi, \"yüksek bir tavan arası odasında genç bir öğrenci görüyorum.\"",
+      "notes": "Sayfa 8 | 'attic room': çatı katı/tavan arası odası; 'far across': şehrin diğer ucunda."
+    },
+    {
+      "id": 152,
+      "start_ms": 810292,
+      "end_ms": 815476,
+      "text": "\"He is leaning anxiously over a small desk covered with scattered sheets of paper.\"",
+      "translation": "\"Etrafı saçılmış kâğıtlarla kaplı küçük bir masanın üzerine endişeyle eğilmiş.\"",
+      "notes": "Sayfa 8 | 'leaning over': üzerine eğilmek; 'scattered sheets': darmadağın sayfalar."
+    },
+    {
+      "id": 153,
+      "start_ms": 815876,
+      "end_ms": 820868,
+      "text": "\"In a cracked glass tumbler beside him, there is a bunch of withered violets.\"",
+      "translation": "\"Yanındaki çatlak su bardağında bir demet solmuş menekşe duruyor.\"",
+      "notes": "Sayfa 8 | 'tumbler': kulpsuz su bardağı; 'withered violets': kurumuş menekşeler."
+    },
+    {
+      "id": 154,
+      "start_ms": 821268,
+      "end_ms": 826956,
+      "text": "\"His brown hair is crisp and curly, and his pale lips are red as ripe pomegranate.\"",
+      "translation": "\"Kahverengi saçları gür ve kıvırcık; solgun dudakları olgun bir nar gibi kıpkırmızı.\"",
+      "notes": "Sayfa 8 | 'crisp and curly': canlı ve dalgalı; 'ripe pomegranate': olgun nar."
+    },
+    {
+      "id": 155,
+      "start_ms": 827356,
+      "end_ms": 832756,
+      "text": "\"He has large, dreamy eyes, but his cheeks are hollow with extreme hunger.\"",
+      "translation": "\"İri ve hülyalı gözleri var, ama yanakları aşırı açlıktan içeri çökmüş.\"",
+      "notes": "Sayfa 8 | 'dreamy eyes': hayalperest gözler; 'hollow cheeks': çökmüş avurtlar."
+    },
+    {
+      "id": 156,
+      "start_ms": 833156,
+      "end_ms": 837812,
+      "text": "\"He is struggling desperately to complete a play for the director of the theatre.\"",
+      "translation": "\"Tiyatro müdürü için bir piyesi tamamlamak adına çaresizce çabalıyor.\"",
+      "notes": "Sayfa 8 | 'struggle desperately': can havliyle çabalamak; 'complete a play': tiyatro eserini bitirmek."
+    },
+    {
+      "id": 157,
+      "start_ms": 838212,
+      "end_ms": 843396,
+      "text": "\"However, he is too cold to hold his pen and write any further sentences.\"",
+      "translation": "\"Ne var ki kalem tutup daha fazla cümle yazamayacak kadar çok üşümüş.\"",
+      "notes": "Sayfa 8 | 'too cold to hold': tutamayacak kadar soğuk; 'further': daha fazla."
+    },
+    {
+      "id": 158,
+      "start_ms": 843796,
+      "end_ms": 849100,
+      "text": "\"There is no fire burning in the hearth, and starvation has made him weak and faint.\"",
+      "translation": "\"Ocakta yanan hiç ateş yok ve açlık onu bitkin ve mecalsiz düşürmüş.\"",
+      "notes": "Sayfa 8 | 'hearth': şömine ocağı; 'faint': baygın, mecalsiz."
+    },
+    {
+      "id": 159,
+      "start_ms": 849500,
+      "end_ms": 854780,
+      "text": "\"I will wait with you for one more night,\" said the Swallow, who had a kind heart.",
+      "translation": "Yufka yürekli Kırlangıç \"Seninle bir gece daha bekleyeceğim,\" dedi.",
+      "notes": "Sayfa 8 | 'kind heart': iyi kalp/yufka yürek."
+    },
+    {
+      "id": 160,
+      "start_ms": 855180,
+      "end_ms": 859596,
+      "text": "\"Shall I take him another large red ruby from your magnificent sword?\"",
+      "translation": "\"Ona muhteşem kılıcından bir büyük kırmızı yakut daha götüreyim mi?\"",
+      "notes": "Sayfa 8 | 'magnificent sword': görkemli kılıç."
+    },
+    {
+      "id": 161,
+      "start_ms": 860596,
+      "end_ms": 866428,
+      "text": "\"Alas, I have no more rubies left upon my sword,\" answered the sorrowful Prince.",
+      "translation": "Kederli Prens \"Ne yazık ki kılıcımda başka yakut kalmadı,\" diye yanıtladı.",
+      "notes": "Sayfa 9 | 'alas': vah vah, ne yazık ki; 'have no more... left': hiç kalmamak."
+    },
+    {
+      "id": 162,
+      "start_ms": 866828,
+      "end_ms": 870644,
+      "text": "\"My precious eyes are all that I have left in this world.\"",
+      "translation": "\"Bu dünyada elimde kalan tek şey değerli gözlerimdir.\"",
+      "notes": "Sayfa 9 | 'precious': paha biçilmez; 'all that I have left': elimde kalanların hepsi."
+    },
+    {
+      "id": 163,
+      "start_ms": 871044,
+      "end_ms": 876804,
+      "text": "\"They are made of rare and valuable sapphires, brought out of India a thousand years ago.\"",
+      "translation": "\"Onlar bin yıl önce Hindistan'dan getirilmiş nadide ve paha biçilmez safirlerden yapılmıştır.\"",
+      "notes": "Sayfa 9 | 'rare and valuable': nadir ve değerli; 'brought out of': -den getirilmiş."
+    },
+    {
+      "id": 164,
+      "start_ms": 877204,
+      "end_ms": 881380,
+      "text": "\"Pluck out one of them and carry it straight to that poor young writer.\"",
+      "translation": "\"Onlardan birini sök ve dosdoğru o zavallı genç yazara götür.\"",
+      "notes": "Sayfa 9 | 'pluck out': çekip çıkarmak; 'straight to': dosdoğru -e."
+    },
+    {
+      "id": 165,
+      "start_ms": 881780,
+      "end_ms": 886556,
+      "text": "\"He will sell it to a wealthy jeweller in town and buy food and firewood.\"",
+      "translation": "\"Onu kasabadaki zengin bir kuyumcuya satıp yiyecek ve yakacak odun alacaktır.\"",
+      "notes": "Sayfa 9 | 'wealthy jeweller': varlıklı kuyumcu; 'firewood': yakacak odun."
+    },
+    {
+      "id": 166,
+      "start_ms": 886956,
+      "end_ms": 891012,
+      "text": "\"Then he will be able to finish his play in comfort and warmth.\"",
+      "translation": "\"Böylece oyununu rahat ve sıcak bir ortamda tamamlayabilecektir.\"",
+      "notes": "Sayfa 9 | 'be able to': -ebilmek; 'in comfort and warmth': konfor ve sıcaklık içinde."
+    },
+    {
+      "id": 167,
+      "start_ms": 891412,
+      "end_ms": 896452,
+      "text": "\"Dear Prince,\" cried the Swallow in horror, \"I cannot pluck out your eye!\"",
+      "translation": "Kırlangıç dehşet içinde \"Sevgili Prens,\" diye haykırdı, \"senin gözünü sökemem!\"",
+      "notes": "Sayfa 9 | 'in horror': dehşet ve korkuyla."
+    },
+    {
+      "id": 168,
+      "start_ms": 896852,
+      "end_ms": 901412,
+      "text": "The little bird began to weep at the thought of injuring his beloved friend.",
+      "translation": "Küçük kuş sevgili dostunu incitme düşüncesi karşısında ağlamaya başladı.",
+      "notes": "Sayfa 9 | 'at the thought of...': ... düşüncesiyle; 'injuring': sakatlamak/yaralamak."
+    },
+    {
+      "id": 169,
+      "start_ms": 901812,
+      "end_ms": 908172,
+      "text": "\"Swallow, Swallow, little Swallow,\" commanded the Prince, \"do exactly as I ask you.\"",
+      "translation": "Prens emretti: \"Kırlangıç, Kırlangıç, minik Kırlangıç, tam sana söylediğim gibi yap.\"",
+      "notes": "Sayfa 9 | 'commanded': emretti; 'do exactly as...': tıpkı ... gibi yap."
+    },
+    {
+      "id": 170,
+      "start_ms": 908572,
+      "end_ms": 913468,
+      "text": "So the Swallow reluctantly plucked out the Prince's sapphire eye with his beak.",
+      "translation": "Bunun üzerine Kırlangıç, istemeye istemeye gagasıyla Prens'in safir gözünü söküp aldı.",
+      "notes": "Sayfa 9 | 'reluctantly': gönülsüzce, istemeye istemeye."
+    },
+    {
+      "id": 171,
+      "start_ms": 913868,
+      "end_ms": 918764,
+      "text": "He flew away toward the student's garret, holding the precious blue jewel.",
+      "translation": "Değerli mavi mücevheri tutarak öğrencinin tavan arasına doğru uçtu.",
+      "notes": "Sayfa 9 | 'holding': tutarak; 'blue jewel': mavi mücevher."
+    },
+    {
+      "id": 172,
+      "start_ms": 919164,
+      "end_ms": 923940,
+      "text": "It was quite easy to enter the room because there was a hole in the broken roof.",
+      "translation": "Odaya girmek oldukça kolaydı, çünkü kırık çatıda bir delik vardı.",
+      "notes": "Sayfa 9 | 'quite easy': gayet kolay; 'hole in the roof': çatıdaki delik."
+    },
+    {
+      "id": 173,
+      "start_ms": 924340,
+      "end_ms": 929260,
+      "text": "Through this opening, the bird darted quickly inside like a swift arrow.",
+      "translation": "Kuş bu açıklıktan içeri hızlı bir ok gibi aniden süzüldü.",
+      "notes": "Sayfa 9 | 'dart inside': içeri fırlamak/ok gibi dalmak; 'swift arrow': çevik ok."
+    },
+    {
+      "id": 174,
+      "start_ms": 929660,
+      "end_ms": 934916,
+      "text": "The young man had buried his head in his hands, despairing of his miserable fate.",
+      "translation": "Genç adam perişan kaderine yanarak başını ellerinin arasına gömmüştü.",
+      "notes": "Sayfa 9 | 'buried his head': başını gömdü; 'despairing of': -den ümidi kesmek."
+    },
+    {
+      "id": 175,
+      "start_ms": 935316,
+      "end_ms": 940284,
+      "text": "Consequently, he did not hear the gentle flutter of the little bird's wings.",
+      "translation": "Bu yüzden küçük kuşun kanatlarının yumuşak çırpınışını duymadı.",
+      "notes": "Sayfa 9 | 'consequently': sonuç olarak, dolayısıyla; 'flutter': kanat pırpırı."
+    },
+    {
+      "id": 176,
+      "start_ms": 940684,
+      "end_ms": 946492,
+      "text": "When he finally looked up, he discovered the beautiful sapphire resting on the withered violets.",
+      "translation": "Nihayet başını kaldırdığında, kurumuş menekşelerin üzerinde duran o güzelim safiri keşfetti.",
+      "notes": "Sayfa 9 | 'discovered': fark etti/buldu; 'resting on': üzerinde duran."
+    },
+    {
+      "id": 177,
+      "start_ms": 946892,
+      "end_ms": 952004,
+      "text": "\"I am beginning to be appreciated by the public!\" cried the writer in delight.",
+      "translation": "Yazar sevinçle \"Halk tarafından kıymetim bilinmeye başlanıyor!\" diye bağırdı.",
+      "notes": "Sayfa 9 | 'appreciated': takdir edilmek; 'in delight': sevinç ve haz içinde."
+    },
+    {
+      "id": 178,
+      "start_ms": 952404,
+      "end_ms": 957468,
+      "text": "\"This generous gift must come from some wealthy admirer of my literary work.\"",
+      "translation": "\"Bu cömert hediye edebi eserlerimin zengin bir hayranından gelmiş olmalı.\"",
+      "notes": "Sayfa 9 | 'wealthy admirer': zengin hayran; 'literary work': edebi eser."
+    },
+    {
+      "id": 179,
+      "start_ms": 957868,
+      "end_ms": 962884,
+      "text": "\"Now I can finish my masterpiece without any fear of cold or starvation.\"",
+      "translation": "\"Artık şaheserimi soğuk ya da açlık korkusu yaşamadan bitirebilirim.\"",
+      "notes": "Sayfa 9 | 'masterpiece': başyapıt; 'without any fear of': hiç korkusu olmadan."
+    },
+    {
+      "id": 180,
+      "start_ms": 963284,
+      "end_ms": 967988,
+      "text": "He smiled brightly and looked thoroughly happy as he picked up his pen.",
+      "translation": "Işıl ışıl gülümsedi ve kalemini eline alırken bütünüyle mutlu görünüyordu.",
+      "notes": "Sayfa 9 | 'thoroughly happy': son derece mutlu; 'picked up': eline aldı."
+    },
+    {
+      "id": 181,
+      "start_ms": 968988,
+      "end_ms": 974268,
+      "text": "The next day, the Swallow flew down to the busy harbour to observe the ships.",
+      "translation": "Ertesi gün Kırlangıç gemileri gözlemlemek için işlek limana indi.",
+      "notes": "Sayfa 10 | 'busy harbour': işlek liman; 'observe': gözlemlemek."
+    },
+    {
+      "id": 182,
+      "start_ms": 974668,
+      "end_ms": 980572,
+      "text": "He sat perched upon the mast of a large ship and watched the sailors unloading heavy cargo.",
+      "translation": "Büyük bir geminin direğine tünedi ve denizcilerin ağır yükleri indirmesini izledi.",
+      "notes": "Sayfa 10 | 'perched upon': üzerine tünemiş; 'unloading cargo': yük boşaltmak."
+    },
+    {
+      "id": 183,
+      "start_ms": 980972,
+      "end_ms": 986132,
+      "text": "\"I am going to Egypt right now!\" he shouted loudly to everyone on the pier.",
+      "translation": "İskeledeki herkese avazı çıktığı kadar \"Hemen şimdi Mısır'a gidiyorum!\" diye bağırdı.",
+      "notes": "Sayfa 10 | 'pier': iskele/rıhtım; 'shouted loudly': yüksek sesle bağırdı."
+    },
+    {
+      "id": 184,
+      "start_ms": 986532,
+      "end_ms": 990636,
+      "text": "But nobody paid any attention to the little bird's announcement.",
+      "translation": "Fakat kimse küçük kuşun duyurusuna aldırış etmedi.",
+      "notes": "Sayfa 10 | 'pay attention to': dikkatini vermek/aldırış etmek; 'announcement': ilan."
+    },
+    {
+      "id": 185,
+      "start_ms": 991036,
+      "end_ms": 996340,
+      "text": "When the moon rose again, he returned to the statue to bid his final farewell.",
+      "translation": "Ay yeniden doğduğunda son kez veda etmek üzere heykelin yanına döndü.",
+      "notes": "Sayfa 10 | 'bid farewell': veda etmek; 'final': son."
+    },
+    {
+      "id": 186,
+      "start_ms": 996740,
+      "end_ms": 1001732,
+      "text": "\"I have come to say good-bye to you, dear Prince,\" he chirped softly.",
+      "translation": "Usulca cıvıldayarak \"Sana elveda demeye geldim sevgili Prens,\" dedi.",
+      "notes": "Sayfa 10 | 'chirp softly': tatlı tatlı cıvıldamak; 'say good-bye': vedalaşmak."
+    },
+    {
+      "id": 187,
+      "start_ms": 1002132,
+      "end_ms": 1008444,
+      "text": "\"Swallow, Swallow, little Swallow,\" said the Prince, \"will you not stay one more night with me?\"",
+      "translation": "Prens \"Kırlangıç, Kırlangıç, minik Kırlangıç,\" dedi, \"benimle bir gece daha kalamaz mısın?\"",
+      "notes": "Sayfa 10 | 'stay with me': benimle kalmak."
+    },
+    {
+      "id": 188,
+      "start_ms": 1008844,
+      "end_ms": 1013956,
+      "text": "\"It is the depth of winter,\" answered the Swallow, shivering in the freezing wind.",
+      "translation": "Kırlangıç dondurucu rüzgârda titreyerek \"Kışın tam göbeğindeyiz,\" diye yanıtladı.",
+      "notes": "Sayfa 10 | 'depth of winter': kara kışın ortası; 'shivering': titreyerek."
+    },
+    {
+      "id": 189,
+      "start_ms": 1014356,
+      "end_ms": 1019276,
+      "text": "\"The chill snow will soon fall heavily and cover all the streets in white.\"",
+      "translation": "\"Dondurucu kar yakında lapa lapa yağacak ve bütün sokakları beyaza bürüyecek.\"",
+      "notes": "Sayfa 10 | 'fall heavily': yoğun yağmak; 'cover in white': beyaza kaplamak."
+    },
+    {
+      "id": 190,
+      "start_ms": 1019676,
+      "end_ms": 1025388,
+      "text": "\"In sunny Egypt, the warm sun shines down upon the tall green palm trees.\"",
+      "translation": "\"Güneşli Mısır'da ise ılık güneş yemyeşil uzun palmiye ağaçlarının üzerine parıldar.\"",
+      "notes": "Sayfa 10 | 'palm trees': hurma/palmiye ağaçları; 'shines down': ışık saçmak."
+    },
+    {
+      "id": 191,
+      "start_ms": 1025788,
+      "end_ms": 1031164,
+      "text": "\"In the square down below,\" said the Happy Prince, \"there stands a little match-girl.\"",
+      "translation": "Mutlu Prens \"Aşağıdaki meydanda,\" dedi, \"küçük bir kibritçi kız duruyor.\"",
+      "notes": "Sayfa 10 | 'square down below': aşağıdaki meydan; 'match-girl': kibritçi kız."
+    },
+    {
+      "id": 192,
+      "start_ms": 1031564,
+      "end_ms": 1036076,
+      "text": "\"She has accidentally dropped her bundle of matches into the muddy gutter.\"",
+      "translation": "\"Kibrit destesini kazara çamurlu su oluğuna düşürdü.\"",
+      "notes": "Sayfa 10 | 'accidentally': kazara; 'gutter': sokak su bendi/lağım oluğu."
+    },
+    {
+      "id": 193,
+      "start_ms": 1036476,
+      "end_ms": 1041564,
+      "text": "\"They are all spoiled and ruined, and she has not earned a single copper coin.\"",
+      "translation": "\"Hepsi ıslandı ve ziyan oldu; tek bir bakır para bile kazanamadı.\"",
+      "notes": "Sayfa 10 | 'spoiled and ruined': mahvolmuş ve heba olmuş; 'copper coin': bakır sikke."
+    },
+    {
+      "id": 194,
+      "start_ms": 1041964,
+      "end_ms": 1046572,
+      "text": "\"Her father will beat her severely if she returns home without any money.\"",
+      "translation": "\"Eğer eve hiç para getirmeden dönerse babası onu feci şekilde dövecektir.\"",
+      "notes": "Sayfa 10 | 'beat severely': acımasızca dövmek; 'returns home': eve dönmek."
+    },
+    {
+      "id": 195,
+      "start_ms": 1046972,
+      "end_ms": 1052300,
+      "text": "\"She has no shoes or warm stockings, and her little head is bare to the cold.\"",
+      "translation": "\"Ayakkabısı veya sıcak çorapları yok ve o küçücük başı ayazda çırılçıplak.\"",
+      "notes": "Sayfa 10 | 'stockings': yün çoraplar; 'bare to the cold': ayaza karşı korumasız/açık."
+    },
+    {
+      "id": 196,
+      "start_ms": 1052700,
+      "end_ms": 1057548,
+      "text": "\"Pluck out my other eye and give it to her, so that her father will not hurt her.\"",
+      "translation": "\"Diğer gözümü de çıkarıp ona ver ki babası canını yakmasın.\"",
+      "notes": "Sayfa 10 | 'so that...': -sin diye (amaç cümlesi); 'hurt her': ona zarar vermek."
+    },
+    {
+      "id": 197,
+      "start_ms": 1057948,
+      "end_ms": 1063660,
+      "text": "\"I will stay with you for one more night,\" wept the bird, \"but I cannot pluck out your eye.\"",
+      "translation": "Kuş ağlayarak \"Seninle bir gece daha kalırım,\" dedi, \"ama gözünü söküp alamam.\"",
+      "notes": "Sayfa 10 | 'wept': weep fiilinin geçmiş hali (ağladı)."
+    },
+    {
+      "id": 198,
+      "start_ms": 1064060,
+      "end_ms": 1069532,
+      "text": "\"If I take your remaining eye, you will be completely blind and unable to see anything.\"",
+      "translation": "\"Kalan gözünü de alırsam tamamen kör olursun ve hiçbir şeyi göremezsin.\"",
+      "notes": "Sayfa 10 | 'remaining eye': kalan göz; 'completely blind': zifiri kör."
+    },
+    {
+      "id": 199,
+      "start_ms": 1069932,
+      "end_ms": 1075884,
+      "text": "\"Swallow, Swallow, little Swallow,\" repeated the Prince, \"do as I command you.\"",
+      "translation": "Prens yineledi: \"Kırlangıç, Kırlangıç, minik Kırlangıç, sana emrettiğimi yap.\"",
+      "notes": "Sayfa 10 | 'command': emretmek/buyurmak; 'repeat': tekrarlamak."
+    },
+    {
+      "id": 200,
+      "start_ms": 1076284,
+      "end_ms": 1081924,
+      "text": "So the bird plucked out the Prince's other sapphire and swooped down into the busy square.",
+      "translation": "Bunun üzerine kuş Prens'in diğer safirini de söktü ve kalabalık meydana doğru hızla süzüldü.",
+      "notes": "Sayfa 10 | 'swooped down': aşağı doğru hızla dalışa geçti; 'busy square': hareketli meydan."
+    },
+    {
+      "id": 201,
+      "start_ms": 1082924,
+      "end_ms": 1088516,
+      "text": "The Swallow swooped past the match-girl and slipped the shining jewel into her open palm.",
+      "translation": "Kırlangıç kibritçi kızın yanından süzülüp geçti ve parıldayan mücevheri onun açık avucuna kaydırıverdi.",
+      "notes": "Sayfa 11 | 'slipped into': içine usulca bırakıvermek; 'open palm': açık avuç içi."
+    },
+    {
+      "id": 202,
+      "start_ms": 1088916,
+      "end_ms": 1094796,
+      "text": "\"What a lovely bit of coloured glass!\" cried the little girl, laughing with childish joy.",
+      "translation": "Küçük kız çocukça bir sevinçle gülerek \"Ne hoş bir renkli cam parçası!\" diye çığlık attı.",
+      "notes": "Sayfa 11 | 'coloured glass': renkli cam; 'childish joy': çocuksu neşe."
+    },
+    {
+      "id": 203,
+      "start_ms": 1095196,
+      "end_ms": 1100452,
+      "text": "She ran happily home through the snow, clutching the treasure in her cold hand.",
+      "translation": "Soğuk elinde bu hazineyi sıkarak karların içinden sevinçle eve koştu.",
+      "notes": "Sayfa 11 | 'clutching': sımsıkı kavramak; 'treasure': hazine."
+    },
+    {
+      "id": 204,
+      "start_ms": 1100852,
+      "end_ms": 1105508,
+      "text": "Then the Swallow flew back to the column where the Prince stood motionless.",
+      "translation": "Ardından Kırlangıç, Prens'in kıpırtısız durduğu sütuna geri uçtu.",
+      "notes": "Sayfa 11 | 'stood motionless': hareketsiz durmak."
+    },
+    {
+      "id": 205,
+      "start_ms": 1105908,
+      "end_ms": 1111860,
+      "text": "\"You are completely blind now,\" said the bird tenderly, \"so I will stay with you always.\"",
+      "translation": "Kuş şefkatle \"Artık tamamen körsün,\" dedi, \"bu yüzden hep seninle kalacağım.\"",
+      "notes": "Sayfa 11 | 'tenderly': şefkatle, sevgiyle; 'stay always': daima kalmak."
+    },
+    {
+      "id": 206,
+      "start_ms": 1112260,
+      "end_ms": 1118572,
+      "text": "\"No, my dear little Swallow,\" said the blind Prince, \"you must fly away to warm Egypt.\"",
+      "translation": "Kör Prens \"Hayır sevgili küçük Kırlangıç,\" dedi, \"sıcak Mısır'a uçup gitmelisin.\"",
+      "notes": "Sayfa 11 | 'must fly away': uçup gitmelisin (zorunluluk)."
+    },
+    {
+      "id": 207,
+      "start_ms": 1118972,
+      "end_ms": 1124972,
+      "text": "\"I will stay with you forever,\" insisted the loyal Swallow, and he nestled down to sleep.",
+      "translation": "Sadık Kırlangıç \"Sonsuza dek seninle kalacağım,\" diye diretti ve uyumak üzere ayaklarının dibine sokuldu.",
+      "notes": "Sayfa 11 | 'insisted': ısrar etti; 'nestled down': kıvrılıp sokulmak."
+    },
+    {
+      "id": 208,
+      "start_ms": 1125372,
+      "end_ms": 1130844,
+      "text": "All the next day, he perched upon the Prince's golden shoulder and kept him company.",
+      "translation": "Ertesi gün boyunca Prens'in altın omzuna tünedi ve ona arkadaşlık etti.",
+      "notes": "Sayfa 11 | 'kept him company': ona yarenlik/arkadaşlık etti."
+    },
+    {
+      "id": 209,
+      "start_ms": 1131244,
+      "end_ms": 1137100,
+      "text": "He told the Prince fascinating stories of all the strange lands he had seen during his travels.",
+      "translation": "Gezileri sırasında gördüğü bütün o garip diyarların büyüleyici hikâyelerini Prens'e anlattı.",
+      "notes": "Sayfa 11 | 'fascinating stories': büyüleyici öyküler; 'strange lands': tuhaf diyarlar."
+    },
+    {
+      "id": 210,
+      "start_ms": 1137500,
+      "end_ms": 1142780,
+      "text": "He spoke of the red ibises that stand in long lines along the banks of the Nile.",
+      "translation": "Nil kıyısı boyunca uzun saflar halinde dizilen kızıl ibis kuşlarından bahsetti.",
+      "notes": "Sayfa 11 | 'red ibises': leyleksi kızıl ibis kuşları; 'long lines': uzun sıralar."
+    },
+    {
+      "id": 211,
+      "start_ms": 1143180,
+      "end_ms": 1148172,
+      "text": "They catch gleaming goldfish in their curved beaks beneath the golden sunlight.",
+      "translation": "Onlar altın gün ışığı altında kıvrık gagalarıyla parıldayan altın balıkları yakalarlar.",
+      "notes": "Sayfa 11 | 'curved beaks': kıvrık gagalar; 'gleaming': parıldayan."
+    },
+    {
+      "id": 212,
+      "start_ms": 1148572,
+      "end_ms": 1153636,
+      "text": "He spoke of the Great Sphinx, who is as old as the world and lives in the desert.",
+      "translation": "Dünya kadar yaşlı olan ve çölde yaşayan Büyük Sfenks'ten söz etti.",
+      "notes": "Sayfa 11 | 'Great Sphinx': Büyük Sfenks; 'as old as the world': cihan kadar eski."
+    },
+    {
+      "id": 213,
+      "start_ms": 1154036,
+      "end_ms": 1159652,
+      "text": "The Sphinx knows all ancient secrets and stares silently across the shifting sand.",
+      "translation": "Sfenks tüm kadim sırları bilir ve yer değiştiren kumların üzerinden sessizce bakar.",
+      "notes": "Sayfa 11 | 'shifting sand': rüzgârla savrulan kumlar; 'stares silently': sessizce dik dik bakmak."
+    },
+    {
+      "id": 214,
+      "start_ms": 1160052,
+      "end_ms": 1166076,
+      "text": "He told of merchants who walk slowly beside their camels, carrying black amber rosaries.",
+      "translation": "Siyah kehribar tespihler taşıyarak develerinin yanında ağır ağır yürüyen tüccarları anlattı.",
+      "notes": "Sayfa 11 | 'amber rosaries': kehribar tespihler; 'camels': develer."
+    },
+    {
+      "id": 215,
+      "start_ms": 1166476,
+      "end_ms": 1172380,
+      "text": "He recounted tales of pygmy warriors who fight endless battles against great white cranes.",
+      "translation": "Büyük beyaz turnalara karşı bitmek bilmez savaşlar veren pigme cengâverlerin masallarını nakletti.",
+      "notes": "Sayfa 11 | 'recount tales': masalları anlatmak; 'pygmy warriors': pigme savaşçılar; 'cranes': turna kuşları."
+    },
+    {
+      "id": 216,
+      "start_ms": 1172780,
+      "end_ms": 1178660,
+      "text": "\"Dear little Swallow,\" said the Prince softly, \"you tell me of marvellous and distant wonders.\"",
+      "translation": "Prens usulca \"Sevgili minik Kırlangıç,\" dedi, \"bana fevkalade ve uzak harikalar anlatıyorsun.\"",
+      "notes": "Sayfa 11 | 'marvellous': harikulade; 'distant wonders': uzak diyarların mucizeleri."
+    },
+    {
+      "id": 217,
+      "start_ms": 1179060,
+      "end_ms": 1184436,
+      "text": "\"Yet more marvellous than anything in this world is the quiet suffering of human beings.\"",
+      "translation": "\"Fakat dünyadaki her şeyden daha hayret verici olan şey, insanların sessiz acılarıdır.\"",
+      "notes": "Sayfa 11 | 'quiet suffering': sessizce çekilen cefa; 'human beings': insanoğlu."
+    },
+    {
+      "id": 218,
+      "start_ms": 1184836,
+      "end_ms": 1189516,
+      "text": "\"There is no mystery on earth so deep and profound as human misery.\"",
+      "translation": "\"Yeryüzünde insan sefaleti kadar derin ve sarsıcı hiçbir gizem yoktur.\"",
+      "notes": "Sayfa 11 | 'profound': pek derin, köklü; 'misery': keder ve yokluk."
+    },
+    {
+      "id": 219,
+      "start_ms": 1189916,
+      "end_ms": 1195748,
+      "text": "\"Fly over my city, faithful friend, and tell me what you see in the dark streets below.\"",
+      "translation": "\"Şehrimin üzerinde uç sadık dostum ve aşağıdaki karanlık sokaklarda ne gördüğünü bana anlat.\"",
+      "notes": "Sayfa 11 | 'faithful friend': sadık dost; 'fly over': üzerinde uçmak."
+    },
+    {
+      "id": 220,
+      "start_ms": 1196148,
+      "end_ms": 1201356,
+      "text": "So the little bird spread his wings and flew high over the sprawling metropolis.",
+      "translation": "Bunun üzerine küçük kuş kanatlarını açtı ve uçsuz bucaksız metropolün üzerinde yüksekten uçtu.",
+      "notes": "Sayfa 11 | 'spread wings': kanatları germek; 'sprawling metropolis': yayılan dev şehir."
+    },
+    {
+      "id": 221,
+      "start_ms": 1202356,
+      "end_ms": 1207084,
+      "text": "He saw the wealthy people making merry in their grand and heated mansions.",
+      "translation": "Varlıklı insanların sıcacık muazzam konaklarında keyif çattığını gördü.",
+      "notes": "Sayfa 12 | 'making merry': eğlenmek/keyif çatmak; 'heated mansions': ısıtılmış malikâneler."
+    },
+    {
+      "id": 222,
+      "start_ms": 1207484,
+      "end_ms": 1212716,
+      "text": "At the very same gates, wretched beggars sat shivering in the freezing cold.",
+      "translation": "Tam aynı kapıların önünde ise sefil dilenciler dondurucu soğukta titreyerek oturuyordu.",
+      "notes": "Sayfa 12 | 'wretched beggars': sefil dilenciler; 'shivering': titreyerek."
+    },
+    {
+      "id": 223,
+      "start_ms": 1213116,
+      "end_ms": 1218492,
+      "text": "He flew into dark and narrow alleys where the air smelled of poverty and dampness.",
+      "translation": "Havası yoksulluk ve rutubet kokan karanlık ve dar çıkmaz sokaklara uçtu.",
+      "notes": "Sayfa 12 | 'alleys': dar sokaklar/çıkmazlar; 'dampness': rutubet."
+    },
+    {
+      "id": 224,
+      "start_ms": 1218892,
+      "end_ms": 1224796,
+      "text": "He saw the pale, hollow faces of starving children looking out listlessly into the gloom.",
+      "translation": "Açlıktan kırılan çocukların karanlığa dermansızca bakan solgun ve çökük yüzlerini gördü.",
+      "notes": "Sayfa 12 | 'starving': açlıktan ölen; 'listlessly': dermansızca, donukça."
+    },
+    {
+      "id": 225,
+      "start_ms": 1225196,
+      "end_ms": 1230884,
+      "text": "Under the stone archway of a bridge, two little homeless boys were lying close together.",
+      "translation": "Bir köprünün taş kemeri altında evsiz iki küçük çocuk birbirine sokulmuş yatıyordu.",
+      "notes": "Sayfa 12 | 'stone archway': taş kemer; 'homeless': kimsesiz, evsiz."
+    },
+    {
+      "id": 226,
+      "start_ms": 1231284,
+      "end_ms": 1236204,
+      "text": "They held each other tightly in their arms to keep each other warm against the frost.",
+      "translation": "Ayaza karşı birbirlerini sıcak tutabilmek için kollarıyla sımsıkı sarılmışlardı.",
+      "notes": "Sayfa 12 | 'held tightly': sımsıkı sarıldı; 'against the frost': ayaza karşı."
+    },
+    {
+      "id": 227,
+      "start_ms": 1236604,
+      "end_ms": 1241740,
+      "text": "\"How hungry and cold we are!\" murmured the younger boy with chattering teeth.",
+      "translation": "Küçük olanı dişleri birbirine çarparak \"Ne kadar açız ve ne kadar üşüyoruz!\" diye mırıldandı.",
+      "notes": "Sayfa 12 | 'chattering teeth': tıkırdayan/çarpan dişler."
+    },
+    {
+      "id": 228,
+      "start_ms": 1242140,
+      "end_ms": 1247396,
+      "text": "\"You must not lie here sleeping on the public path!\" shouted a harsh watchman.",
+      "translation": "Sert bir bekçi \"Halka açık yolda burada öylece yatıp uyuyamazsınız!\" diye bağırdı.",
+      "notes": "Sayfa 12 | 'harsh watchman': acımasız mahalle bekçisi; 'public path': kamuya açık kaldırım."
+    },
+    {
+      "id": 229,
+      "start_ms": 1247796,
+      "end_ms": 1252524,
+      "text": "The frightened boys stood up and wandered out into the freezing winter drizzle.",
+      "translation": "Korkan çocuklar ayağa kalktı ve dondurucu kış çiselemesinin içine doğru sürüklenip gitti.",
+      "notes": "Sayfa 12 | 'frightened': dehşete düşmüş; 'winter drizzle': kış ahmakıslatanı/çiselemesi."
+    },
+    {
+      "id": 230,
+      "start_ms": 1252924,
+      "end_ms": 1258180,
+      "text": "The Swallow flew back to the statue and described all the sorrow he had witnessed.",
+      "translation": "Kırlangıç heykele geri uçtu ve şahit olduğu tüm kederi aktardı.",
+      "notes": "Sayfa 12 | 'described': tasvir etti; 'had witnessed': şahit olduğu (Past Perfect)."
+    },
+    {
+      "id": 231,
+      "start_ms": 1258580,
+      "end_ms": 1263884,
+      "text": "\"I am covered all over with fine leaves of pure gold,\" said the noble Prince.",
+      "translation": "Asil Prens \"Ben baştan aşağı saf altından ince yapraklarla kaplıyım,\" dedi.",
+      "notes": "Sayfa 12 | 'noble': asil/yüce gönüllü; 'fine leaves': ince altın varaklar."
+    },
+    {
+      "id": 232,
+      "start_ms": 1264284,
+      "end_ms": 1269828,
+      "text": "\"You must peel it off, leaf by leaf, and give it to the poor and suffering people.\"",
+      "translation": "\"Onu yaprak yaprak soymalı ve yoksul, acı çeken insanlara dağıtmalısın.\"",
+      "notes": "Sayfa 12 | 'peel off': soymak/sökmek; 'leaf by leaf': yaprak yaprak."
+    },
+    {
+      "id": 233,
+      "start_ms": 1270228,
+      "end_ms": 1275796,
+      "text": "\"The living always foolishly imagine that gold can bring them true joy and happiness.\"",
+      "translation": "\"Yaşayan insanlar altının kendilerine gerçek neşe ve mutluluk getirebileceğini ahmakça sanır.\"",
+      "notes": "Sayfa 12 | 'foolishly imagine': ahmakça hayal etmek; 'the living': yaşayanlar/faniler."
+    },
+    {
+      "id": 234,
+      "start_ms": 1276196,
+      "end_ms": 1281308,
+      "text": "Leaf after leaf of the delicate gold the Swallow gently picked off with his beak.",
+      "translation": "Kırlangıç zarif altın tabakalarını gagasıyla yaprak yaprak usulca kopardı.",
+      "notes": "Sayfa 12 | 'delicate gold': narin altın yaprak; 'picked off': çekip kopardı."
+    },
+    {
+      "id": 235,
+      "start_ms": 1281708,
+      "end_ms": 1287756,
+      "text": "Soon the magnificent statue looked entirely dull, dark, and grey against the sky.",
+      "translation": "Çok geçmeden o muhteşem heykel gökyüzüne karşı tamamen mat, karanlık ve kül rengi göründü.",
+      "notes": "Sayfa 12 | 'dull and grey': donuk ve kurşun rengi; 'soon': az sonra/çok geçmeden."
+    },
+    {
+      "id": 236,
+      "start_ms": 1288156,
+      "end_ms": 1293676,
+      "text": "Leaf after leaf of fine gold he distributed secretly to the starving street children.",
+      "translation": "Saf altın varakları sokakta aç yatan çocuklara gizlice yaprak yaprak dağıttı.",
+      "notes": "Sayfa 12 | 'distributed secretly': gizlice pay etti; 'street children': sokak çocukları."
+    },
+    {
+      "id": 237,
+      "start_ms": 1294076,
+      "end_ms": 1299716,
+      "text": "The children's pale cheeks began to grow rosier, and they laughed happily in the streets.",
+      "translation": "Çocukların soluk yanakları pembeleşmeye başladı ve sokaklarda neşeyle güldüler.",
+      "notes": "Sayfa 12 | 'grow rosier': gül gibi pembeleşmek; 'laughed happily': neşeyle güldüler."
+    },
+    {
+      "id": 238,
+      "start_ms": 1300116,
+      "end_ms": 1304940,
+      "text": "\"We have warm bread to eat today!\" they shouted with overwhelming joy.",
+      "translation": "Taşan bir sevinçle \"Bugün yiyecek sıcacık ekmeğimiz var!\" diye haykırdılar.",
+      "notes": "Sayfa 12 | 'overwhelming joy': coşkun sevinç; 'warm bread': sıcak somun."
+    },
+    {
+      "id": 239,
+      "start_ms": 1305340,
+      "end_ms": 1311076,
+      "text": "Then the heavy white snow fell upon the city, and after the snow came the sharp frost.",
+      "translation": "Ardından şehrin üzerine ağır beyaz kar yağdı ve kardan sonra keskin ayaz bastırdı.",
+      "notes": "Sayfa 12 | 'sharp frost': jilet gibi keskin ayaz."
+    },
+    {
+      "id": 240,
+      "start_ms": 1311476,
+      "end_ms": 1316420,
+      "text": "The streets shone brightly like pathways made of pure and polished silver.",
+      "translation": "Sokaklar saf ve parlatılmış gümüşten yollar gibi pırıl pırıl parıldıyordu.",
+      "notes": "Sayfa 12 | 'polished silver': parlatılmış gümüş; 'pathways': patikalar/yollar."
+    },
+    {
+      "id": 241,
+      "start_ms": 1317420,
+      "end_ms": 1322988,
+      "text": "Long icicles like pointed crystal daggers hung down from the eaves of every house.",
+      "translation": "Sivri uçlu kristal hançerleri andıran uzun buz sarkıtları her evin saçağından aşağı sarkıyordu.",
+      "notes": "Sayfa 13 | 'icicles': buz sarkıtları; 'crystal daggers': billur hançerler; 'eaves': çatı saçakları."
+    },
+    {
+      "id": 242,
+      "start_ms": 1323388,
+      "end_ms": 1328740,
+      "text": "Everyone went about bundled tightly in thick furs to protect themselves from the bitter wind.",
+      "translation": "Herkes dondurucu rüzgârdan korunmak için kalın kürklere sıkıca sarınmış halde dolaşıyordu.",
+      "notes": "Sayfa 13 | 'bundled tightly': sıkıca sarınmış; 'thick furs': kalın kürkler."
+    },
+    {
+      "id": 243,
+      "start_ms": 1329140,
+      "end_ms": 1334876,
+      "text": "The little schoolboys wore scarlet woollen caps and skated merrily upon the frozen pond.",
+      "translation": "Küçük mektepli çocuklar al yün kasketler giyiyor ve buz tutmuş gölette neşeyle paten kayıyordu.",
+      "notes": "Sayfa 13 | 'woollen caps': yün bereler; 'frozen pond': donmuş gölet."
+    },
+    {
+      "id": 244,
+      "start_ms": 1335276,
+      "end_ms": 1340484,
+      "text": "The poor little Swallow grew colder and colder with every passing freezing hour.",
+      "translation": "Zavallı minik Kırlangıç geçen her dondurucu saatle daha da fazla üşüyordu.",
+      "notes": "Sayfa 13 | 'grew colder and colder': gitgide daha çok üşüdü; 'passing hour': geçen saat."
+    },
+    {
+      "id": 245,
+      "start_ms": 1340884,
+      "end_ms": 1346572,
+      "text": "Yet he refused to leave the beloved Prince, because he loved him with all his tiny heart.",
+      "translation": "Yine de sevgili Prens'i terk etmeyi reddetti, çünkü onu o minicik kalbiyle pek çok seviyordu.",
+      "notes": "Sayfa 13 | 'refused to leave': terk etmeye yanaşmadı; 'beloved': aziz, sevgili."
+    },
+    {
+      "id": 246,
+      "start_ms": 1346972,
+      "end_ms": 1352468,
+      "text": "He picked up tiny breadcrumbs outside the baker's shop whenever the baker looked away.",
+      "translation": "Fırıncı başka tarafa baktığı zamanlarda fırının önündeki küçücük ekmek kırıntılarını topladı.",
+      "notes": "Sayfa 13 | 'breadcrumbs': ekmek kırıntıları; 'looked away': gözünü kaçırmak."
+    },
+    {
+      "id": 247,
+      "start_ms": 1352868,
+      "end_ms": 1358460,
+      "text": "He tried desperately to keep himself warm by beating his stiffening wings against his body.",
+      "translation": "Kaskatı kesilen kanatlarını gövdesine çarparak kendini sıcak tutmaya çaresizce çabaladı.",
+      "notes": "Sayfa 13 | 'stiffening wings': katılaşan kanatlar; 'beating': çırpmak."
+    },
+    {
+      "id": 248,
+      "start_ms": 1358860,
+      "end_ms": 1364452,
+      "text": "At last, he felt his little body growing numb and realized that he was going to die.",
+      "translation": "Nihayet küçük bedeninin uyuştuğunu hissetti ve öleceğini anladı.",
+      "notes": "Sayfa 13 | 'growing numb': hissizleşmek, uyuşmak; 'realized': farkına vardı."
+    },
+    {
+      "id": 249,
+      "start_ms": 1364852,
+      "end_ms": 1369940,
+      "text": "He had just enough strength remaining to fly up to the Prince's shoulder one last time.",
+      "translation": "Son bir defa Prens'in omzuna kadar uçacak kadar gücü kalmıştı.",
+      "notes": "Sayfa 13 | 'just enough strength': ancak yetecek kadar takat; 'one last time': son bir kez."
+    },
+    {
+      "id": 250,
+      "start_ms": 1370340,
+      "end_ms": 1376820,
+      "text": "\"Good-bye, dearest Prince!\" he murmured faintly. \"Will you permit me to kiss your hand?\"",
+      "translation": "Fersizce \"Elveda en sevgili Prens!\" diye mırıldandı, \"Elini öpmeme müsaade eder misin?\"",
+      "notes": "Sayfa 13 | 'faintly': dermansızca; 'permit me': bana izin/müsaade ver."
+    },
+    {
+      "id": 251,
+      "start_ms": 1377220,
+      "end_ms": 1382932,
+      "text": "\"I am glad that you are finally going to Egypt, little Swallow,\" said the blind Prince.",
+      "translation": "Kör Prens \"Nihayet Mısır'a gidiyor olmana sevindim küçük Kırlangıç,\" dedi.",
+      "notes": "Sayfa 13 | 'finally': sonunda/nihayet; 'blind Prince': âmâ prens."
+    },
+    {
+      "id": 252,
+      "start_ms": 1383332,
+      "end_ms": 1389212,
+      "text": "\"You have stayed here far too long, but you must kiss me on the lips, for I love you.\"",
+      "translation": "\"Burada haddinden fazla kaldın, fakat beni dudaklarımdan öpmelisin, çünkü seni seviyorum.\"",
+      "notes": "Sayfa 13 | 'far too long': çok fazla uzun süre; 'on the lips': dudaklarından."
+    },
+    {
+      "id": 253,
+      "start_ms": 1389612,
+      "end_ms": 1394868,
+      "text": "\"It is not to Egypt that I am going today,\" answered the dying Swallow in a whisper.",
+      "translation": "Ölmekte olan Kırlangıç fısıltıyla \"Bugün gittiğim yer Mısır değil,\" diye fısıldadı.",
+      "notes": "Sayfa 13 | Vurgulu cümle yapısı ('It is not to Egypt that I am going...')."
+    },
+    {
+      "id": 254,
+      "start_ms": 1395268,
+      "end_ms": 1400212,
+      "text": "\"I am going to the silent House of Death, where all pain and sorrow cease.\"",
+      "translation": "\"Bütün acı ve kederin dindiği o sessiz Ölüm Ülkesi'ne gidiyorum.\"",
+      "notes": "Sayfa 13 | 'House of Death': Ölüm Evi/Diyarı; 'cease': dinmek/son bulmak."
+    },
+    {
+      "id": 255,
+      "start_ms": 1400612,
+      "end_ms": 1406276,
+      "text": "\"Death is the gentle brother of Sleep, is he not?\" the little bird asked softly.",
+      "translation": "Küçük kuş usulca \"Ölüm uykunun şefkatli kardeşidir, öyle değil mi?\" diye sordu.",
+      "notes": "Sayfa 13 | 'gentle brother': müşfik kardeş; Antik Yunan mitolojisindeki Thanatos & Hypnos bağı."
+    },
+    {
+      "id": 256,
+      "start_ms": 1406676,
+      "end_ms": 1411980,
+      "text": "He kissed the Happy Prince tenderly on his cold lips and closed his weary eyes.",
+      "translation": "Mutlu Prens'i soğuk dudaklarından şefkatle öptü ve yorgun gözlerini yumdu.",
+      "notes": "Sayfa 13 | 'tenderly': incelik ve sevgiyle; 'weary eyes': yorgun gözler."
+    },
+    {
+      "id": 257,
+      "start_ms": 1412380,
+      "end_ms": 1417348,
+      "text": "Then he fell down dead upon the frozen pedestal at the Prince's golden feet.",
+      "translation": "Sonra Prens'in altın ayaklarının dibindeki buz tutmuş kaideye cansız yığıldı.",
+      "notes": "Sayfa 13 | 'fell down dead': cansız yere yığılmak; 'frozen pedestal': donmuş kaide."
+    },
+    {
+      "id": 258,
+      "start_ms": 1417748,
+      "end_ms": 1423724,
+      "text": "At that exact moment, a strange and violent cracking sound echoed inside the statue.",
+      "translation": "Tam o saniyede, heykelin içinde tuhaf ve şiddetli bir çatlama sesi yankılandı.",
+      "notes": "Sayfa 13 | 'exact moment': tam o an; 'cracking sound echoed': çatırtı yankılandı."
+    },
+    {
+      "id": 259,
+      "start_ms": 1424124,
+      "end_ms": 1429380,
+      "text": "It sounded as though something precious had shattered into pieces within the metal chest.",
+      "translation": "Sanki metal göğsün içinde çok kıymetli bir şey parça parça dağılmış gibi bir sesti.",
+      "notes": "Sayfa 13 | 'shattered into pieces': tuzla buz olmak; 'within': içerisinde."
+    },
+    {
+      "id": 260,
+      "start_ms": 1429780,
+      "end_ms": 1435732,
+      "text": "The leaden heart had snapped clean in two under the pressure of profound grief and intense frost.",
+      "translation": "Derin kederin ve şiddetli ayazın ağırlığı altında kurşun kalp ortadan ikiye ayrılıvermişti.",
+      "notes": "Sayfa 13 | 'snapped clean in two': çıt sesiyle dümdüz ikiye ayrılmak; 'intense frost': şiddetli ayaz."
+    },
+    {
+      "id": 261,
+      "start_ms": 1436732,
+      "end_ms": 1442492,
+      "text": "It certainly was a dreadfully hard winter morning, with freezing fog over the cobblestones.",
+      "translation": "Arnavut kaldırımları üzerinde dondurucu sisin çöktüğü korkunç sert bir kış sabahıydı.",
+      "notes": "Sayfa 14 | 'dreadfully hard': dehşetli sert; 'cobblestones': arnavutkaldırımı taşları."
+    },
+    {
+      "id": 262,
+      "start_ms": 1442892,
+      "end_ms": 1447524,
+      "text": "Early the next morning, the proud Mayor walked through the square below.",
+      "translation": "Ertesi sabah erkenden gururlu Belediye Başkanı aşağıdaki meydandan geçiyordu.",
+      "notes": "Sayfa 14 | 'proud Mayor': kibirli belediye reisi; 'walked through': içinden yürümek."
+    },
+    {
+      "id": 263,
+      "start_ms": 1447924,
+      "end_ms": 1452340,
+      "text": "He was walking in the company of several prominent Town Councillors.",
+      "translation": "Birkaç seçkin Şehir Meclisi Üyesi eşliğinde yürümekteydi.",
+      "notes": "Sayfa 14 | 'in the company of': maiyetinde, eşliğinde; 'prominent': önde gelen."
+    },
+    {
+      "id": 264,
+      "start_ms": 1452740,
+      "end_ms": 1457780,
+      "text": "As they passed near the column, the Mayor glanced casually up at the statue.",
+      "translation": "Sütunun yakınından geçerken Belediye Başkanı öylesine başını kaldırıp heykele baktı.",
+      "notes": "Sayfa 14 | 'glanced casually': gelişigüzel bir bakış atmak."
+    },
+    {
+      "id": 265,
+      "start_ms": 1458180,
+      "end_ms": 1465332,
+      "text": "\"Dear me!\" he exclaimed in disgust. \"How incredibly shabby the Happy Prince looks today!\"",
+      "translation": "Tiksinerek \"Aman Tanrım!\" diye haykırdı, \"Bugün Mutlu Prens ne kadar da pejmurde görünüyor!\"",
+      "notes": "Sayfa 14 | 'Dear me!': Vah vah, Aman Tanrım; 'shabby': hırpani, döküntü."
+    },
+    {
+      "id": 266,
+      "start_ms": 1465732,
+      "end_ms": 1472236,
+      "text": "\"How shabby indeed!\" chorused the Town Councillors, who always agreed with whatever the Mayor said.",
+      "translation": "Başkanın her dediğine daima onay veren Meclis Üyeleri bir ağızdan \"Gerçekten ne kadar da pejmurde!\" dediler.",
+      "notes": "Sayfa 14 | 'chorused': koro halinde tekrarlamak; 'agreed with': onaylamak/katılmak."
+    },
+    {
+      "id": 267,
+      "start_ms": 1472636,
+      "end_ms": 1478420,
+      "text": "They all climbed up the steps of the pedestal to examine the dilapidated statue closely.",
+      "translation": "Harap olmuş heykeli yakından incelemek için kaidenin basamaklarına tırmandılar.",
+      "notes": "Sayfa 14 | 'dilapidated': köhneleşmiş, harap; 'examine closely': yakından teftiş etmek."
+    },
+    {
+      "id": 268,
+      "start_ms": 1478820,
+      "end_ms": 1486164,
+      "text": "\"The ruby has vanished from his sword-hilt, his sapphire eyes are gone, and he has lost his gold,\" said the Mayor.",
+      "translation": "Başkan \"Kılıç kabzasındaki yakut kaybolmuş, safir gözleri gitmiş ve altın kaplaması yok olmuş,\" dedi.",
+      "notes": "Sayfa 14 | 'vanished': sırra kadem basmış; 'lost his gold': altınını yitirmiş."
+    },
+    {
+      "id": 269,
+      "start_ms": 1486564,
+      "end_ms": 1490836,
+      "text": "\"In fact, he looks little better than an ordinary street beggar!\"",
+      "translation": "\"Aslına bakarsanız alelade bir sokak dilencisinden farksız görünüyor!\"",
+      "notes": "Sayfa 14 | 'little better than...': neredeyse farksız, ...den pek üstün değil."
+    },
+    {
+      "id": 270,
+      "start_ms": 1491236,
+      "end_ms": 1497020,
+      "text": "\"Little better than a beggar, absolutely!\" repeated the obedient Councillors in agreement.",
+      "translation": "İtaatkâr Meclis Üyeleri onaylayarak \"Kesinlikle bir dilenciden farksız!\" diye tekrarladılar.",
+      "notes": "Sayfa 14 | 'obedient': itaatkâr/söz dinleyen; 'in agreement': hemfikir olarak."
+    },
+    {
+      "id": 271,
+      "start_ms": 1497420,
+      "end_ms": 1504068,
+      "text": "\"And look! There is actually a dead bird lying right at his feet!\" continued the Mayor.",
+      "translation": "Başkan sözlerini sürdürdü: \"Ve bakın! Ayaklarının dibinde sahiden de ölü bir kuş yatıyor!\"",
+      "notes": "Sayfa 14 | 'actually': sahiden, doğrusu; 'lying right at his feet': tam ayaklarının dibinde yatan."
+    },
+    {
+      "id": 272,
+      "start_ms": 1504468,
+      "end_ms": 1510708,
+      "text": "\"We must immediately issue an official proclamation that birds are forbidden to die in public squares.\"",
+      "translation": "\"Kuşların halka açık meydanlarda ölmesinin yasaklandığına dair derhal resmi bir ferman çıkarmalıyız.\"",
+      "notes": "Sayfa 14 | 'issue a proclamation': ferman/bildiri yayımlamak; 'forbidden': yasaklanmış (Wilde taşlaması)."
+    },
+    {
+      "id": 273,
+      "start_ms": 1511108,
+      "end_ms": 1516460,
+      "text": "The Town Clerk promptly took out his notebook and made a careful note of the Mayor's order.",
+      "translation": "Belediye Kâtibi hemen defterini çıkardı ve Başkanın emrini dikkatle not etti.",
+      "notes": "Sayfa 14 | 'Town Clerk': belediye yazı işleri müdürü; 'promptly': derhal, vakit kaybetmeden."
+    },
+    {
+      "id": 274,
+      "start_ms": 1516860,
+      "end_ms": 1523196,
+      "text": "\"Therefore, we must pull down the statue of the Happy Prince without delay,\" declared the Mayor.",
+      "translation": "Başkan ilan etti: \"Dolayısıyla Mutlu Prens heykelini hiç gecikmeden aşağı indirmeliyiz.\"",
+      "notes": "Sayfa 14 | 'pull down': yerinden yıkıp indirmek; 'without delay': gecikmeksizin."
+    },
+    {
+      "id": 275,
+      "start_ms": 1523596,
+      "end_ms": 1530292,
+      "text": "\"As he is no longer beautiful, he is no longer of any use to our proud city,\" added the Art Professor.",
+      "translation": "Sanat Profesörü \"Artık güzel olmadığına göre, gururlu şehrimiz için artık hiçbir faydası da yoktur,\" diye ekledi.",
+      "notes": "Sayfa 14 | 'no longer beautiful': artık güzel değil; 'of any use': bir işe yarar olmak."
+    },
+    {
+      "id": 276,
+      "start_ms": 1530692,
+      "end_ms": 1535852,
+      "text": "The workmen brought ropes and ladders and pulled down the statue from its high column.",
+      "translation": "İşçiler halatlar ve merdivenler getirdiler ve heykeli yüksek sütunundan çekip indirdiler.",
+      "notes": "Sayfa 14 | 'ropes and ladders': halat ve merdivenler; 'workmen': işçiler."
+    },
+    {
+      "id": 277,
+      "start_ms": 1536252,
+      "end_ms": 1541796,
+      "text": "The citizens watched with curiosity as the once-revered monument fell to the ground.",
+      "translation": "Vatandaşlar bir zamanlar hürmet gören abidenin yere devrilişini merakla izlediler.",
+      "notes": "Sayfa 14 | 'once-revered': bir zamanlar el üstünde tutulan; 'monument': abide/anıt."
+    },
+    {
+      "id": 278,
+      "start_ms": 1542196,
+      "end_ms": 1547116,
+      "text": "They dragged the heavy metal body through the snow toward the municipal foundry.",
+      "translation": "Ağır metal gövdeyi karların üzerinden belediye dökümhanesine doğru sürüklediler.",
+      "notes": "Sayfa 14 | 'dragged': sürüklediler; 'municipal foundry': belediye maden eritme tesisi."
+    },
+    {
+      "id": 279,
+      "start_ms": 1547516,
+      "end_ms": 1553108,
+      "text": "\"We shall melt the statue in a burning furnace to recycle the metal,\" ordered the authorities.",
+      "translation": "Yetkililer \"Metali geri kazanmak için heykeli alev alev yanan eritme ocağında eriteceğiz,\" diye emrettiler.",
+      "notes": "Sayfa 14 | 'burning furnace': yanan eritme fırını; 'recycle': geri dönüştürmek."
+    },
+    {
+      "id": 280,
+      "start_ms": 1553508,
+      "end_ms": 1559532,
+      "text": "The Mayor summoned a special meeting of the municipal Corporation to discuss what should be made next.",
+      "translation": "Başkan, bundan sonra ne yapılması gerektiğini görüşmek üzere Belediye Meclisi'ni özel toplantıya çağırdı.",
+      "notes": "Sayfa 14 | 'summoned a meeting': toplantıya çağırdı; 'Corporation': belediye meclis heyeti."
+    },
+    {
+      "id": 281,
+      "start_ms": 1560532,
+      "end_ms": 1566196,
+      "text": "\"We must certainly commission another statue to replace it,\" announced the Mayor pompously.",
+      "translation": "Belediye Başkanı çalımla \"Onun yerine kesinlikle başka bir heykel sipariş etmeliyiz,\" diye duyurdu.",
+      "notes": "Sayfa 15 | 'commission': sipariş etmek; 'pompously': böbürlenerek/çalımla."
+    },
+    {
+      "id": 282,
+      "start_ms": 1566596,
+      "end_ms": 1572092,
+      "text": "\"And of course, it should be a magnificent statue of myself to honour my leadership.\"",
+      "translation": "\"Ve elbette ki bu, liderliğimi onurlandırmak adına bizzat kendimin görkemli bir heykeli olmalıdır.\"",
+      "notes": "Sayfa 15 | 'statue of myself': kendi heykeli; 'honour my leadership': liderliğimi taçlandırmak."
+    },
+    {
+      "id": 283,
+      "start_ms": 1572492,
+      "end_ms": 1578684,
+      "text": "\"No, it should be a statue of myself!\" shouted each of the ambitious Councillors angrily.",
+      "translation": "Hırslı meclis üyelerinin her biri öfkeyle \"Hayır, benim heykelim olmalı!\" diye bağırdı.",
+      "notes": "Sayfa 15 | 'ambitious': muhteris, hırslı; 'angrily': hiddetle."
+    },
+    {
+      "id": 284,
+      "start_ms": 1579084,
+      "end_ms": 1584964,
+      "text": "They began to quarrel and argue loudly among themselves, each demanding his own likeness.",
+      "translation": "Her biri kendi tasvirini talep ederek kendi aralarında yüksek sesle kavga edip tartışmaya başladılar.",
+      "notes": "Sayfa 15 | 'quarrel': münakaşa etmek; 'likeness': suret/benzerlik."
+    },
+    {
+      "id": 285,
+      "start_ms": 1585364,
+      "end_ms": 1591172,
+      "text": "Meanwhile, at the foundry, the overseer of the workmen noticed a peculiar occurrence.",
+      "translation": "Bu sırada dökümhanede işçilerin ustabaşısı çok tuhaf bir durumu fark etti.",
+      "notes": "Sayfa 15 | 'overseer': ustabaşı, gözetmen; 'peculiar occurrence': garip hadise."
+    },
+    {
+      "id": 286,
+      "start_ms": 1591572,
+      "end_ms": 1597764,
+      "text": "\"What an extraordinary thing!\" exclaimed the chief workman, inspecting the molten furnace.",
+      "translation": "Maden fırınını inceleyen baş usta \"Ne olağanüstü bir şey!\" diye haykırdı.",
+      "notes": "Sayfa 15 | 'extraordinary thing': fevkalade şey; 'inspecting': teftiş ederken."
+    },
+    {
+      "id": 287,
+      "start_ms": 1598164,
+      "end_ms": 1603564,
+      "text": "\"This broken lead heart will not melt, despite the intense heat of the blazing fire.\"",
+      "translation": "\"Alev alev yanan ateşin yoğun sıcağına rağmen bu kırık kurşun kalp bir türlü erimiyor.\"",
+      "notes": "Sayfa 15 | 'will not melt': erimeye yanaşmıyor; 'blazing fire': alev alev yanan ateş."
+    },
+    {
+      "id": 288,
+      "start_ms": 1603964,
+      "end_ms": 1608980,
+      "text": "\"It is completely useless to us, so we must throw it out into the rubbish yard.\"",
+      "translation": "\"Bizim için tamamen işe yaramaz bir parça, bu yüzden onu çöp avlusuna atmalıyız.\"",
+      "notes": "Sayfa 15 | 'useless to us': bizim için faydasız; 'rubbish yard': atık sahası."
+    },
+    {
+      "id": 289,
+      "start_ms": 1609380,
+      "end_ms": 1614396,
+      "text": "So they tossed the leaden heart onto a filthy dust-heap behind the foundry wall.",
+      "translation": "Böylece kurşun kalbi dökümhane duvarının arkasındaki pis bir çöp yığınının üzerine fırlatıp attılar.",
+      "notes": "Sayfa 15 | 'tossed': fırlatıp attı; 'filthy dust-heap': pis çöp yığını."
+    },
+    {
+      "id": 290,
+      "start_ms": 1614796,
+      "end_ms": 1620748,
+      "text": "By divine chance, it landed right beside the lifeless body of the faithful little Swallow.",
+      "translation": "İlahi bir tecelliyle, sadık küçük Kırlangıç'ın cansız bedeninin hemen yanı başına düştü.",
+      "notes": "Sayfa 15 | 'divine chance': ilahi takdir/tecelli; 'lifeless body': cansız beden."
+    },
+    {
+      "id": 291,
+      "start_ms": 1621148,
+      "end_ms": 1626092,
+      "text": "Far above the world, God spoke to one of His brightest angels in heaven.",
+      "translation": "Dünyanın çok üzerinde Tanrı, cennetteki en parlak meleklerinden birine seslendi.",
+      "notes": "Sayfa 15 | 'brightest angels': en nurlu melekler; 'in heaven': semada."
+    },
+    {
+      "id": 292,
+      "start_ms": 1626492,
+      "end_ms": 1632060,
+      "text": "\"Bring Me the two most precious things in that entire city below,\" commanded the Lord.",
+      "translation": "Rab buyurdu: \"Aşağıdaki o koskoca şehirdeki en değerli iki şeyi Bana getir.\"",
+      "notes": "Sayfa 15 | 'two most precious things': en kıymetli iki şey; 'commanded': emretti."
+    },
+    {
+      "id": 293,
+      "start_ms": 1632460,
+      "end_ms": 1637836,
+      "text": "The angel descended swiftly to earth and searched through all the palaces and streets.",
+      "translation": "Melek süratle yeryüzüne indi ve tüm sarayları ve sokakları aradı.",
+      "notes": "Sayfa 15 | 'descended swiftly': hızla indi; 'searched through': didik didik aradı."
+    },
+    {
+      "id": 294,
+      "start_ms": 1638236,
+      "end_ms": 1643612,
+      "text": "He passed by the vaults of gold and jewels and flew directly to the quiet dust-heap.",
+      "translation": "Altın ve mücevher mahzenlerinin yanından geçti ve dosdoğru o sessiz çöplüğe uçtu.",
+      "notes": "Sayfa 15 | 'vaults of gold': altın kasaları/mahzenleri; 'directly': dosdoğru."
+    },
+    {
+      "id": 295,
+      "start_ms": 1644012,
+      "end_ms": 1649100,
+      "text": "The angel picked up the broken leaden heart and the frozen body of the little bird.",
+      "translation": "Melek kırık kurşun kalbi ve küçük kuşun donmuş bedenini aldı.",
+      "notes": "Sayfa 15 | 'picked up': alıp kaldırdı; 'frozen body': donmuş beden."
+    },
+    {
+      "id": 296,
+      "start_ms": 1649500,
+      "end_ms": 1654876,
+      "text": "He carried them both up to the celestial gates and presented them before the throne of God.",
+      "translation": "Her ikisini de semavi kapılara taşıdı ve Tanrı'nın arşı huzuruna sundu.",
+      "notes": "Sayfa 15 | 'celestial gates': cennetin göksel kapıları; 'throne of God': Tanrı'nın tahtı."
+    },
+    {
+      "id": 297,
+      "start_ms": 1655276,
+      "end_ms": 1660508,
+      "text": "\"You have rightly and wisely chosen,\" said God with infinite warmth and love.",
+      "translation": "Tanrı sonsuz bir muhabbet ve sıcaklıkla \"Çok doğru ve hikmetli bir seçim yaptın,\" buyurdu.",
+      "notes": "Sayfa 15 | 'rightly and wisely chosen': hakkaniyetle ve bilgelikle seçilmiş; 'infinite warmth': sonsuz şefkat."
+    },
+    {
+      "id": 298,
+      "start_ms": 1660908,
+      "end_ms": 1666404,
+      "text": "\"For in My garden of Paradise, this little bird shall sing happily for evermore.\"",
+      "translation": "\"Zira Benim Cennet Bahçemde bu küçük kuş sonsuza dek mutlulukla şakıyacaktır.\"",
+      "notes": "Sayfa 15 | 'garden of Paradise': Firdevs cenneti; 'for evermore': sonsuza değin."
+    },
+    {
+      "id": 299,
+      "start_ms": 1666804,
+      "end_ms": 1672708,
+      "text": "\"And in My holy city of gold, the Happy Prince shall praise My name through all eternity.\"",
+      "translation": "\"Ve altın mukaddes şehrimde Mutlu Prens sonsuza kadar İsmimi yüceltecektir.\"",
+      "notes": "Sayfa 15 | 'holy city of gold': mukaddes altın şehir; 'through all eternity': ebediyet boyunca."
+    },
+    {
+      "id": 300,
+      "start_ms": 1673108,
+      "end_ms": 1679108,
+      "text": "Thus, their selfless love and sacrifice were rewarded with everlasting life and peace.",
+      "translation": "Böylelikle onların karşılıksız sevgisi ve fedakârlığı ebedi bir hayat ve huzurla taçlandırıldı.",
+      "notes": "Sayfa 15 | 'selfless love': karşılıksız/özverili sevgi; 'sacrifice': fedakârlık; 'everlasting': ebedi."
     }
   ]
 }
