@@ -87,6 +87,13 @@ const PRESET_LESSONS: PresetLesson[] = [
     pdfUrl: '/lessons/book_10_hans_christian_andersen/book_10_hans_christian_andersen.pdf',
   },
   {
+    id: 'book_11_alices_adventures_in_wonderland',
+    name: "11. Alice in Wonderland (15 Sayfa / 300 Cümle)",
+    jsonUrl: '/lessons/book_11_alices_adventures_in_wonderland/lesson.json',
+    audioUrl: '/lessons/book_11_alices_adventures_in_wonderland/audio.mp3',
+    pdfUrl: '/lessons/book_11_alices_adventures_in_wonderland/book_11_alices_adventures_in_wonderland.pdf',
+  },
+  {
     id: 'sample_ch01',
     name: 'Demo: The Departure (6 Cümle)',
     jsonUrl: '/lessons/sample_ch01/lesson.json',
