@@ -178,6 +178,13 @@ const PRESET_LESSONS: PresetLesson[] = [
     pdfUrl: '/lessons/book_23_the_secret_garden/book_23_the_secret_garden.pdf',
   },
   {
+    id: 'book_24_white_fang',
+    name: "24. White Fang (15 Sayfa / 300 Cümle)",
+    jsonUrl: '/lessons/book_24_white_fang/lesson.json',
+    audioUrl: '/lessons/book_24_white_fang/audio.mp3',
+    pdfUrl: '/lessons/book_24_white_fang/book_24_white_fang.pdf',
+  },
+  {
     id: 'sample_ch01',
     name: 'Demo: The Departure (6 Cümle)',
     jsonUrl: '/lessons/sample_ch01/lesson.json',
