@@ -101,6 +101,13 @@ const PRESET_LESSONS: PresetLesson[] = [
     pdfUrl: '/lessons/book_12_the_adventures_of_pinocchio/book_12_the_adventures_of_pinocchio.pdf',
   },
   {
+    id: 'book_13_the_wonderful_wizard_of_oz',
+    name: "13. The Wonderful Wizard of Oz (15 Sayfa / 300 Cümle)",
+    jsonUrl: '/lessons/book_13_the_wonderful_wizard_of_oz/lesson.json',
+    audioUrl: '/lessons/book_13_the_wonderful_wizard_of_oz/audio.mp3',
+    pdfUrl: '/lessons/book_13_the_wonderful_wizard_of_oz/book_13_the_wonderful_wizard_of_oz.pdf',
+  },
+  {
     id: 'sample_ch01',
     name: 'Demo: The Departure (6 Cümle)',
     jsonUrl: '/lessons/sample_ch01/lesson.json',
