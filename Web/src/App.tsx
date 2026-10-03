@@ -122,6 +122,13 @@ const PRESET_LESSONS: PresetLesson[] = [
     pdfUrl: '/lessons/book_15_the_wind_in_the_willows/book_15_the_wind_in_the_willows.pdf',
   },
   {
+    id: 'book_16_peter_pan',
+    name: "16. Peter Pan (15 Sayfa / 300 Cümle)",
+    jsonUrl: '/lessons/book_16_peter_pan/lesson.json',
+    audioUrl: '/lessons/book_16_peter_pan/audio.mp3',
+    pdfUrl: '/lessons/book_16_peter_pan/book_16_peter_pan.pdf',
+  },
+  {
     id: 'sample_ch01',
     name: 'Demo: The Departure (6 Cümle)',
     jsonUrl: '/lessons/sample_ch01/lesson.json',

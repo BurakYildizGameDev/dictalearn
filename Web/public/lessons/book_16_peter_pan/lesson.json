@@ -1,0 +1,2414 @@
+{
+  "schema_version": 1,
+  "lesson_id": "book_16_peter_pan",
+  "title": "Peter Pan: The Boy Who Would Not Grow Up (15 Sayfa / 300 Cümle / Graded Reader)",
+  "source_lang": "en",
+  "target_lang": "tr",
+  "audio_file": "audio.mp3",
+  "attribution": {
+    "source": "J. M. Barrie / Graded Reader Adaptasyonu (15 Sayfa x 20 Cümle)",
+    "license": "Public Domain / Educational Fair Use"
+  },
+  "segments": [
+    {
+      "id": 1,
+      "start_ms": 300,
+      "end_ms": 5196,
+      "text": "All children, except one, grow up sooner or later in this world.",
+      "translation": "Bu dünyada, biri hariç bütün çocuklar er ya da geç büyür.",
+      "notes": "Exceptive preposition 'except one'; adverbial phrase 'sooner or later'."
+    },
+    {
+      "id": 2,
+      "start_ms": 5596,
+      "end_ms": 10204,
+      "text": "They soon know that they will grow up, and the way Wendy knew was this.",
+      "translation": "Büyüyeceklerini çok geçmeden öğrenirler; Wendy'nin öğrenme şekli ise şöyle oldu.",
+      "notes": "Noun clause 'that they will grow up'; cataphoric reference 'was this'."
+    },
+    {
+      "id": 3,
+      "start_ms": 10604,
+      "end_ms": 14804,
+      "text": "One day when she was two years old she was playing in a garden.",
+      "translation": "Bir gün, iki yaşındayken bir bahçede oyun oynuyordu.",
+      "notes": "Past continuous 'was playing'; age clause 'when she was two'."
+    },
+    {
+      "id": 4,
+      "start_ms": 15204,
+      "end_ms": 19524,
+      "text": "She plucked another flower and ran with it happily to her mother.",
+      "translation": "Bir çiçek daha kopardı ve onunla birlikte neşeyle annesine koştu.",
+      "notes": "Coordinate past verbs 'plucked and ran'; adverb 'happily'."
+    },
+    {
+      "id": 5,
+      "start_ms": 19924,
+      "end_ms": 26308,
+      "text": "Mrs. Darling put her hand to her heart and cried, 'Oh, why can't you remain like this forever!'",
+      "translation": "Bayan Darling elini kalbine koydu ve 'Ah, keşke hep böyle kalsan!' diye haykırdı.",
+      "notes": "Idiom 'put hand to heart'; negative modal question expressing wish."
+    },
+    {
+      "id": 6,
+      "start_ms": 26708,
+      "end_ms": 31748,
+      "text": "This was all that passed between them on the subject, but henceforth Wendy knew.",
+      "translation": "Bu konuda aralarında geçen konuşmanın tamamı buydu, fakat bundan böyle Wendy biliyordu.",
+      "notes": "Relative clause 'all that passed'; adverb 'henceforth'."
+    },
+    {
+      "id": 7,
+      "start_ms": 32148,
+      "end_ms": 37260,
+      "text": "You always know after you are two, because two is the beginning of the end.",
+      "translation": "İki yaşından sonra bunu her zaman bilirsiniz, çünkü iki yaş sonun başlangıcıdır.",
+      "notes": "Causal clause with 'because'; philosophical idiom 'beginning of the end'."
+    },
+    {
+      "id": 8,
+      "start_ms": 37660,
+      "end_ms": 42004,
+      "text": "The Darlings lived at number fourteen in a quiet London street.",
+      "translation": "Darling ailesi, sakin bir Londra sokağındaki on dört numarada yaşıyordu.",
+      "notes": "Prepositional phrases indicating address; adjective 'quiet'."
+    },
+    {
+      "id": 9,
+      "start_ms": 42404,
+      "end_ms": 46988,
+      "text": "They had three children named Wendy, John, and little Michael.",
+      "translation": "Wendy, John ve küçük Michael adında üç çocukları vardı.",
+      "notes": "Past participle phrase 'named Wendy, John, and little Michael'."
+    },
+    {
+      "id": 10,
+      "start_ms": 47388,
+      "end_ms": 52452,
+      "text": "They were so poor that they kept a Newfoundland dog named Nana as their nurse.",
+      "translation": "Öyle yoksuldular ki, çocukların dadısı olarak Nana adında bir Newfoundland köpeği tutmuşlardı.",
+      "notes": "Result clause 'so poor that'; appositive phrase 'named Nana'."
+    },
+    {
+      "id": 11,
+      "start_ms": 52852,
+      "end_ms": 57556,
+      "text": "Nana was a treasure of a nurse who gave the children their evening baths.",
+      "translation": "Nana, akşamları çocukları banyo yaptıran hazine değerinde bir dadıydı.",
+      "notes": "Idiom 'a treasure of a nurse'; relative clause with 'who'."
+    },
+    {
+      "id": 12,
+      "start_ms": 57956,
+      "end_ms": 62132,
+      "text": "She carried an umbrella in her mouth when she walked them to school.",
+      "translation": "Çocukları okula götürürken ağzında bir şemsiye taşırdı.",
+      "notes": "Prepositional phrase 'in her mouth'; time clause 'when she walked them'."
+    },
+    {
+      "id": 13,
+      "start_ms": 62532,
+      "end_ms": 67692,
+      "text": "Mrs. Darling loved tidiness and tidied up her children's minds every night.",
+      "translation": "Bayan Darling düzeni çok severdi ve her gece çocuklarının zihinlerini toparlardı.",
+      "notes": "Metaphorical verb 'tidied up minds'; coordinate past actions."
+    },
+    {
+      "id": 14,
+      "start_ms": 68092,
+      "end_ms": 72700,
+      "text": "It is the nightly custom of every good mother after her children are asleep.",
+      "translation": "Bu, çocukları uyuduktan sonra her iyi annenin gece uyguladığı bir adettir.",
+      "notes": "Dummy subject 'It is...'; temporal subordinate clause."
+    },
+    {
+      "id": 15,
+      "start_ms": 73100,
+      "end_ms": 77948,
+      "text": "In the children's minds, she found many strange and colorful things.",
+      "translation": "Çocukların zihninde pek çok garip ve renkli şey buldu.",
+      "notes": "Prepositional phrase 'in the minds'; coordinate adjectives 'strange and colorful'."
+    },
+    {
+      "id": 16,
+      "start_ms": 78348,
+      "end_ms": 84276,
+      "text": "There were islands, savage beasts, coral reefs, and tiny magic houses.",
+      "translation": "Adalar, yırtıcı hayvanlar, mercan resifleri ve minik sihirli evler vardı.",
+      "notes": "List of nouns in existential 'There were'."
+    },
+    {
+      "id": 17,
+      "start_ms": 84676,
+      "end_ms": 89740,
+      "text": "Of all the delectable islands the Neverland is the snuggest and most compact.",
+      "translation": "Tüm o nefis adalar arasında Varolmayan Ülke en sıcak ve en derli toplu olanıdır.",
+      "notes": "Superlatives 'snuggest and most compact'; adjective 'delectable'."
+    },
+    {
+      "id": 18,
+      "start_ms": 90140,
+      "end_ms": 95276,
+      "text": "Mrs. Darling first heard of Peter Pan when tidying up her children's thoughts.",
+      "translation": "Bayan Darling, Peter Pan'ın adını ilk kez çocuklarının düşüncelerini toparlarken duydu.",
+      "notes": "Time clause with participle 'when tidying up'; proper name 'Peter Pan'."
+    },
+    {
+      "id": 19,
+      "start_ms": 95676,
+      "end_ms": 101100,
+      "text": "One night, she saw a strange boy sitting upon the nursery floor in the moonlight.",
+      "translation": "Bir gece, ay ışığında çocuk odasının zemininde oturan tuhaf bir oğlan gördü.",
+      "notes": "Perception verb 'saw' + participle 'sitting upon'; adjective 'strange'."
+    },
+    {
+      "id": 20,
+      "start_ms": 101500,
+      "end_ms": 106708,
+      "text": "Before she could reach him, the boy leaped lightly out of the window into the night.",
+      "translation": "Kadın ona ulaşamadan önce oğlan pencereden dışarı, gecenin içine doğru hafifçe atlayıverdi.",
+      "notes": "Subordinate clause 'before she could reach'; phrasal verb 'leaped out of'."
+    },
+    {
+      "id": 21,
+      "start_ms": 107708,
+      "end_ms": 112628,
+      "text": "When Peter leaped through the window, Nana slammed the sash down quickly.",
+      "translation": "Peter pencereden atladığında Nana pencere kanadını hızla aşağı çarptı.",
+      "notes": "Time clause; phrasal verb 'slammed down'."
+    },
+    {
+      "id": 22,
+      "start_ms": 113028,
+      "end_ms": 117972,
+      "text": "The window snapped Peter's shadow clean off, leaving it trapped in the room.",
+      "translation": "Pencere Peter'ın gölgesini tam dibinden kopardı ve odada kapana kısılmış bıraktı.",
+      "notes": "Participle clause of result 'leaving it trapped'; adverb 'clean off'."
+    },
+    {
+      "id": 23,
+      "start_ms": 118372,
+      "end_ms": 123292,
+      "text": "Mrs. Darling rolled up the shadow carefully and hid it in a nursery drawer.",
+      "translation": "Bayan Darling gölgeyi dikkatle rulo yaptı ve onu çocuk odasındaki bir çekmeceye sakladı.",
+      "notes": "Phrasal verb 'rolled up'; prepositional phrase 'in a drawer'."
+    },
+    {
+      "id": 24,
+      "start_ms": 123692,
+      "end_ms": 128516,
+      "text": "A few nights later, while the parents were at a party, Peter returned.",
+      "translation": "Birkaç gece sonra, anne baba bir partideyken Peter geri döndü.",
+      "notes": "Temporal clause with 'while'; past verb 'returned'."
+    },
+    {
+      "id": 25,
+      "start_ms": 128916,
+      "end_ms": 134268,
+      "text": "A tiny sparkling light, no bigger than a fist, darted into the quiet room.",
+      "translation": "Bir yumruktan daha büyük olmayan minicik, ışıltılı bir ışık sessiz odaya daldı.",
+      "notes": "Comparative phrase 'no bigger than'; past verb 'darted'."
+    },
+    {
+      "id": 26,
+      "start_ms": 134668,
+      "end_ms": 139468,
+      "text": "It was Tinker Bell, an exquisite fairy dressed in a skeleton leaf.",
+      "translation": "Bu, iskelet gibi ince bir yapraktan elbise giymiş enfes bir peri olan Tinker Bell'di.",
+      "notes": "Appositive clause; passive participle 'dressed in'."
+    },
+    {
+      "id": 27,
+      "start_ms": 139868,
+      "end_ms": 145100,
+      "text": "Peter flew in silently after her, searching frantically for his missing shadow.",
+      "translation": "Peter kayıp gölgesini çılgınca arayarak onun ardından sessizce içeri uçtu.",
+      "notes": "Participle phrase 'searching frantically'; prepositional phrase 'after her'."
+    },
+    {
+      "id": 28,
+      "start_ms": 145500,
+      "end_ms": 149844,
+      "text": "He rummaged through the drawers and finally found it rolled up in linen.",
+      "translation": "Çekmeceleri altüst etti ve sonunda gölgesini ketenlerin arasına sarılmış halde buldu.",
+      "notes": "Phrasal verb 'rummaged through'; past participle 'rolled up'."
+    },
+    {
+      "id": 29,
+      "start_ms": 150244,
+      "end_ms": 155068,
+      "text": "He tried to stick the shadow back on his feet with ordinary bathroom soap.",
+      "translation": "Gölgeyi alelade bir banyo sabunuyla ayaklarına tekrar yapıştırmaya çalıştı.",
+      "notes": "Infinitive 'to stick back on'; instrument phrase 'with bathroom soap'."
+    },
+    {
+      "id": 30,
+      "start_ms": 155468,
+      "end_ms": 160916,
+      "text": "When soap completely failed, Peter sat on the nursery floor and sobbed aloud.",
+      "translation": "Sabun tamamen işe yaramayınca, Peter çocuk odasının zeminine oturdu ve sesli sesli ağladı.",
+      "notes": "Time clause 'when soap failed'; past verbs 'sat and sobbed'."
+    },
+    {
+      "id": 31,
+      "start_ms": 161316,
+      "end_ms": 166020,
+      "text": "His sorrowful cries woke Wendy, who sat up in her warm bed.",
+      "translation": "Onun kederli haykırışları, sıcak yatağında doğrulan Wendy'yi uyandırdı.",
+      "notes": "Relative clause 'who sat up'; adjective 'sorrowful'."
+    },
+    {
+      "id": 32,
+      "start_ms": 166420,
+      "end_ms": 171700,
+      "text": "'Boy, why are you crying?' asked Wendy politely across the moonlit room.",
+      "translation": "'Çocuk, neden ağlıyorsun?' diye sordu Wendy ay ışığıyla aydınlanan odada kibarca.",
+      "notes": "Direct question; adverb 'politely'."
+    },
+    {
+      "id": 33,
+      "start_ms": 172100,
+      "end_ms": 176156,
+      "text": "Peter stood up and bowed very gracefully to the little girl.",
+      "translation": "Peter ayağa kalktı ve küçük kıza çok zarif bir şekilde reverans yaptı.",
+      "notes": "Coordinate past verbs 'stood up and bowed'; adverb 'gracefully'."
+    },
+    {
+      "id": 34,
+      "start_ms": 176556,
+      "end_ms": 182172,
+      "text": "'I am not crying about myself, but I cannot get my shadow to stick,' he said.",
+      "translation": "'Kendim için ağlamıyorum, fakat gölgemin yapışmasını sağlayamıyorum,' dedi.",
+      "notes": "Causative structure 'get my shadow to stick'; negative contrast 'not about... but'."
+    },
+    {
+      "id": 35,
+      "start_ms": 182572,
+      "end_ms": 187132,
+      "text": "Wendy examined the dark silhouette and offered to sew it to his toes.",
+      "translation": "Wendy karanlık silueti inceledi ve onu ayak parmaklarına dikmeyi teklif etti.",
+      "notes": "Coordinate past verbs 'examined and offered'; infinitive 'to sew'."
+    },
+    {
+      "id": 36,
+      "start_ms": 187532,
+      "end_ms": 192332,
+      "text": "She fetched her needle and thread and stitched the shadow firmly in place.",
+      "translation": "İğnesini ve ipliğini getirdi, gölgeyi sağlam bir şekilde yerine dikti.",
+      "notes": "Coordinate past verbs 'fetched and stitched'; phrase 'in place'."
+    },
+    {
+      "id": 37,
+      "start_ms": 192732,
+      "end_ms": 198228,
+      "text": "As soon as the shadow was attached, Peter leaped up and crowed with cocky triumph.",
+      "translation": "Gölge tutturulur tutturulmaz, Peter yukarı fırladı ve cüretkar bir zaferle horoz gibi öttü.",
+      "notes": "Conjunction 'as soon as'; phrase 'crowed with triumph'."
+    },
+    {
+      "id": 38,
+      "start_ms": 198628,
+      "end_ms": 204220,
+      "text": "'How clever I am!' shouted Peter, entirely forgetting Wendy's assistance.",
+      "translation": "'Ne kadar da akıllıyım!' diye haykırdı Peter, Wendy'nin yardımını tamamen unutarak.",
+      "notes": "Exclamatory structure; participle clause 'entirely forgetting'."
+    },
+    {
+      "id": 39,
+      "start_ms": 204620,
+      "end_ms": 209876,
+      "text": "Wendy felt slightly hurt, but Peter offered her an acorn button as a kiss.",
+      "translation": "Wendy biraz incindi, fakat Peter ona bir öpücük niyetine meşe palamudundan bir düğme verdi.",
+      "notes": "Copular verb 'felt hurt'; noun phrase 'acorn button'."
+    },
+    {
+      "id": 40,
+      "start_ms": 210276,
+      "end_ms": 215004,
+      "text": "Wendy wore the acorn button on a ribbon around her neck forever after.",
+      "translation": "Wendy o meşe palamudu düğmesini o andan sonra boynunda bir kurdeleyle daima taşıdı.",
+      "notes": "Prepositional phrases indicating location and time."
+    },
+    {
+      "id": 41,
+      "start_ms": 216004,
+      "end_ms": 221020,
+      "text": "Wendy asked Peter where he lived, and he answered with charming carelessness.",
+      "translation": "Wendy Peter'a nerede yaşadığını sordu, o da büyüleyici bir umursamazlıkla cevap verdi.",
+      "notes": "Indirect question; noun phrase 'charming carelessness'."
+    },
+    {
+      "id": 42,
+      "start_ms": 221420,
+      "end_ms": 226220,
+      "text": "'Second to the right, and straight on till morning,' said Peter proudly.",
+      "translation": "'Sağdan ikinci ve sabaha kadar dosdoğru,' dedi Peter gururla.",
+      "notes": "Famous directional quote; adverb 'proudly'."
+    },
+    {
+      "id": 43,
+      "start_ms": 226620,
+      "end_ms": 231372,
+      "text": "He told her that he had run away the day he was born to avoid growing up.",
+      "translation": "Büyümekten kaçınmak için doğduğu gün evden kaçtığını ona anlattı.",
+      "notes": "Past perfect 'had run away'; infinitive of purpose 'to avoid growing up'."
+    },
+    {
+      "id": 44,
+      "start_ms": 231772,
+      "end_ms": 236884,
+      "text": "He lived in the Neverland with the Lost Boys, who had fallen out of their prams.",
+      "translation": "Bebek arabalarından düşmüş olan Kayıp Çocuklar ile birlikte Varolmayan Ülke'de yaşıyordu.",
+      "notes": "Relative clause 'who had fallen out'; compound noun 'Lost Boys'."
+    },
+    {
+      "id": 45,
+      "start_ms": 237284,
+      "end_ms": 243284,
+      "text": "'They have no mothers, Wendy, and nobody tells them bedtime stories,' Peter said.",
+      "translation": "'Onların anneleri yok Wendy ve kimse onlara uyku vakti hikayeleri anlatmıyor,' dedi Peter.",
+      "notes": "Coordinate clauses; compound noun 'bedtime stories'."
+    },
+    {
+      "id": 46,
+      "start_ms": 243684,
+      "end_ms": 248292,
+      "text": "'I could tell them stories and tuck them in at night!' exclaimed Wendy.",
+      "translation": "'Onlara hikayeler anlatabilir ve geceleri üzerlerini örtebilirim!' diye haykırdı Wendy.",
+      "notes": "Modal 'could tell'; phrasal verb 'tuck in'."
+    },
+    {
+      "id": 47,
+      "start_ms": 248692,
+      "end_ms": 253372,
+      "text": "Wendy woke her brothers John and Michael to share the wondrous news.",
+      "translation": "Wendy harika haberi paylaşmak için erkek kardeşleri John ve Michael'ı uyandırdı.",
+      "notes": "Infinitive of purpose 'to share'; adjective 'wondrous'."
+    },
+    {
+      "id": 48,
+      "start_ms": 253772,
+      "end_ms": 258692,
+      "text": "'Can you teach us how to fly?' asked John with wide, eager eyes.",
+      "translation": "'Bize nasıl uçulacağını öğretebilir misin?' diye sordu John kocaman, hevesli gözlerle.",
+      "notes": "Modal question; indirect question clause 'how to fly'."
+    },
+    {
+      "id": 49,
+      "start_ms": 259092,
+      "end_ms": 264684,
+      "text": "'Of course I can,' Peter laughed, 'you just need lovely thoughts and fairy dust.'",
+      "translation": "'Elbette öğretebilirim,' diye güldü Peter, 'sadece güzel düşüncelere ve peri tozuna ihtiyacınız var.'",
+      "notes": "Coordinate requirements; noun phrase 'fairy dust'."
+    },
+    {
+      "id": 50,
+      "start_ms": 265084,
+      "end_ms": 270268,
+      "text": "Tinker Bell was annoyed, but Peter blew fairy dust over each child.",
+      "translation": "Tinker Bell bu duruma sinirlendi fakat Peter her bir çocuğun üzerine peri tozu üfledi.",
+      "notes": "Passive adjective 'was annoyed'; preposition 'over each child'."
+    },
+    {
+      "id": 51,
+      "start_ms": 270668,
+      "end_ms": 275684,
+      "text": "'Now wiggle your shoulders and think of wonderful happy things!' called Peter.",
+      "translation": "'Şimdi omuzlarınızı oynatın ve harika, mutlu şeyler düşünün!' diye seslendi Peter.",
+      "notes": "Imperative coordinates; preposition 'of'."
+    },
+    {
+      "id": 52,
+      "start_ms": 276084,
+      "end_ms": 280572,
+      "text": "Michael tried first and immediately floated up toward the high ceiling.",
+      "translation": "İlk Michael denedi ve hemen yüksek tavana doğru yukarı süzüldü.",
+      "notes": "Phrasal verb 'floated up toward'; ordinal 'first'."
+    },
+    {
+      "id": 53,
+      "start_ms": 280972,
+      "end_ms": 285412,
+      "text": "John kicked his legs and hovered over the chest of drawers with delight.",
+      "translation": "John bacaklarını tekmeledi ve sevinçle çekmeceli dolabın üzerinde havada asılı kaldı.",
+      "notes": "Coordinate past verbs 'kicked and hovered'; phrase 'with delight'."
+    },
+    {
+      "id": 54,
+      "start_ms": 285812,
+      "end_ms": 290900,
+      "text": "Wendy rose like a gentle swan, gliding gracefully around the lampshade.",
+      "translation": "Wendy narin bir kuğu gibi yükseldi, abajurun etrafında zarifçe süzüldü.",
+      "notes": "Simile 'like a gentle swan'; participle phrase 'gliding gracefully'."
+    },
+    {
+      "id": 55,
+      "start_ms": 291300,
+      "end_ms": 295644,
+      "text": "They circled the nursery, laughing and tumbling in the warm air.",
+      "translation": "Sıcak havada gülüşerek ve taklalar atarak çocuk odasının etrafında daireler çizdiler.",
+      "notes": "Participle phrases describing actions; past verb 'circled'."
+    },
+    {
+      "id": 56,
+      "start_ms": 296044,
+      "end_ms": 300580,
+      "text": "From outside, the stars in the night sky seemed to be calling them.",
+      "translation": "Dışarıdan, gece gökyüzündeki yıldızlar sanki onları çağırıyor gibiydi.",
+      "notes": "Infinitive construction 'seemed to be calling'."
+    },
+    {
+      "id": 57,
+      "start_ms": 300980,
+      "end_ms": 307508,
+      "text": "'There are pirates, mermaids, and redskins waiting for us!' Peter promised.",
+      "translation": "'Bizi bekleyen korsanlar, denizkızları ve kızılderililer var!' diye söz verdi Peter.",
+      "notes": "Participial modifier 'waiting for us'; existential 'there are'."
+    },
+    {
+      "id": 58,
+      "start_ms": 307908,
+      "end_ms": 312900,
+      "text": "Peter flew out through the open window, soaring into the dark blue sky.",
+      "translation": "Peter açık pencereden dışarı uçtu, koyu mavi gökyüzüne doğru süzüldü.",
+      "notes": "Phrasal verb 'flew out through'; participle 'soaring into'."
+    },
+    {
+      "id": 59,
+      "start_ms": 313300,
+      "end_ms": 318220,
+      "text": "Without a single glance backward, the three children flew out after him.",
+      "translation": "Geriye tek bir bakış bile atmadan, üç çocuk onun peşinden dışarı uçtular.",
+      "notes": "Preposition 'without' + noun; phrasal verb 'flew out after'."
+    },
+    {
+      "id": 60,
+      "start_ms": 318620,
+      "end_ms": 323588,
+      "text": "Behind them, the open nursery window stood empty in the sleeping city.",
+      "translation": "Arkalarında, açık çocuk odası penceresi uyuyan şehrin ortasında bomboş kaldı.",
+      "notes": "Participial adjective 'sleeping city'; adjective 'empty'."
+    },
+    {
+      "id": 61,
+      "start_ms": 324588,
+      "end_ms": 329700,
+      "text": "They flew for days and nights, forgetting whether it was yesterday or tomorrow.",
+      "translation": "Dün mü yoksa yarın mı olduğunu unutup günlerce ve gecelerce uçtular.",
+      "notes": "Duration phrase 'for days and nights'; indirect question 'whether it was'."
+    },
+    {
+      "id": 62,
+      "start_ms": 330100,
+      "end_ms": 335068,
+      "text": "Sometimes they were hungry, and Peter snatched food from birds' beaks.",
+      "translation": "Bazen acıkıyorlardı ve Peter kuşların gagalarından yiyecek kapıyordu.",
+      "notes": "Past verb 'snatched'; possessive 'birds' beaks'."
+    },
+    {
+      "id": 63,
+      "start_ms": 335468,
+      "end_ms": 340844,
+      "text": "Sometimes they fell asleep while flying, plummeting like stones toward the sea.",
+      "translation": "Bazen uçarken uyuyakalıyor, denize doğru taş gibi dimdik düşüyorlardı.",
+      "notes": "Simile 'like stones'; temporal participle clause 'while flying'."
+    },
+    {
+      "id": 64,
+      "start_ms": 341244,
+      "end_ms": 346452,
+      "text": "Peter would dart down with incredible speed and catch them just above the waves.",
+      "translation": "Peter inanılmaz bir hızla aşağı dalar ve onları tam dalgaların üzerindeyken yakalardı.",
+      "notes": "Modal 'would dart' indicating habitual past; adverbial 'just above'."
+    },
+    {
+      "id": 65,
+      "start_ms": 346852,
+      "end_ms": 351604,
+      "text": "Michael was so tiny that Peter carried him by one leg for miles.",
+      "translation": "Michael o kadar minikti ki, Peter onu millerce tek bir bacağından tutarak taşıdı.",
+      "notes": "Result clause 'so tiny that'; measurement phrase 'for miles'."
+    },
+    {
+      "id": 66,
+      "start_ms": 352004,
+      "end_ms": 357692,
+      "text": "Gradually, the cold gray clouds broke, revealing a brilliant azure sea below.",
+      "translation": "Yavaş yavaş soğuk gri bulutlar dağıldı ve aşağıdaki pırıl pırıl masmavi denizi açığa çıkardı.",
+      "notes": "Participle clause 'revealing azure sea'; adverb 'gradually'."
+    },
+    {
+      "id": 67,
+      "start_ms": 358092,
+      "end_ms": 363492,
+      "text": "The air grew suddenly warm, fragrant with scents of wild blossoms and pine.",
+      "translation": "Hava aniden ısındı, yabani çiçeklerin ve çamın kokularıyla mis gibi koktu.",
+      "notes": "Copular verb 'grew warm'; adjective phrase 'fragrant with'."
+    },
+    {
+      "id": 68,
+      "start_ms": 363892,
+      "end_ms": 369100,
+      "text": "'Look!' shouted Peter pointing his sword toward the distant sparkling horizon.",
+      "translation": "'Bakın!' diye haykırdı Peter, kılıcını uzaktaki parıldayan ufka doğru uzatarak.",
+      "notes": "Participle clause 'pointing his sword'; imperative 'look'."
+    },
+    {
+      "id": 69,
+      "start_ms": 369500,
+      "end_ms": 374516,
+      "text": "There lay the Neverland, basking like a sleeping green dragon in the water.",
+      "translation": "İşte orada Varolmayan Ülke, suyun içinde uyuyan yeşil bir ejderha gibi güneşleniyordu.",
+      "notes": "Simile 'like a sleeping dragon'; participle 'basking'."
+    },
+    {
+      "id": 70,
+      "start_ms": 374916,
+      "end_ms": 380556,
+      "text": "The children could see the winding river, dark forests, and coral reefs clearly.",
+      "translation": "Çocuklar kıvrımlı nehri, karanlık ormanları ve mercan resiflerini açıkça görebiliyorlardı.",
+      "notes": "Modal 'could see'; list of geographical features."
+    },
+    {
+      "id": 71,
+      "start_ms": 380956,
+      "end_ms": 385660,
+      "text": "Smoke curled lazily from the pirate campfire on the sandy beach.",
+      "translation": "Kumsaldaki korsan kamp ateşinden tembelce dumanlar yükseliyordu.",
+      "notes": "Adverb 'lazily'; prepositional phrase 'on the sandy beach'."
+    },
+    {
+      "id": 72,
+      "start_ms": 386060,
+      "end_ms": 390740,
+      "text": "They saw the Jolly Roger, the dark pirate ship anchored in the bay.",
+      "translation": "Koyda demirlemiş karanlık korsan gemisi Jolly Roger'ı gördüler.",
+      "notes": "Appositive clause; past participle 'anchored in the bay'."
+    },
+    {
+      "id": 73,
+      "start_ms": 391140,
+      "end_ms": 396948,
+      "text": "Peter told them about Captain Jas Hook, the most cruel pirate on the seven seas.",
+      "translation": "Peter onlara yedi denizin en zalim korsanı olan Kaptan Jas Hook'tan bahsetti.",
+      "notes": "Superlative 'most cruel pirate'; prepositional phrase 'on the seven seas'."
+    },
+    {
+      "id": 74,
+      "start_ms": 397348,
+      "end_ms": 402700,
+      "text": "'He has an iron hook instead of a right hand, and he hates me,' said Peter.",
+      "translation": "'Sağ elinin yerinde demir bir kanca var ve benden nefret ediyor,' dedi Peter.",
+      "notes": "Prepositional phrase 'instead of a hand'; present tense facts."
+    },
+    {
+      "id": 75,
+      "start_ms": 403100,
+      "end_ms": 408044,
+      "text": "Suddenly, a puff of white smoke erupted from the pirate ship's cannon.",
+      "translation": "Birdenbire, korsan gemisinin topundan beyaz bir duman bulutu fışkırdı.",
+      "notes": "Past verb 'erupted'; possessive noun phrase."
+    },
+    {
+      "id": 76,
+      "start_ms": 408444,
+      "end_ms": 413724,
+      "text": "A heavy iron cannonball whistled through the air, scattering the little fliers.",
+      "translation": "Ağır bir demir gülle havada ıslık çalarak minik uçucuları darmadağın etti.",
+      "notes": "Participial clause 'scattering fliers'; past verb 'whistled'."
+    },
+    {
+      "id": 77,
+      "start_ms": 414124,
+      "end_ms": 418804,
+      "text": "The blast separated Wendy and Tinker Bell from Peter and the boys.",
+      "translation": "Patlama Wendy ile Tinker Bell'i Peter ve diğer oğlanlardan ayırdı.",
+      "notes": "Transitive past 'separated'; compound objects."
+    },
+    {
+      "id": 78,
+      "start_ms": 419204,
+      "end_ms": 424508,
+      "text": "Tinker Bell darted ahead, her bell-like voice tinkling with malicious jealousy.",
+      "translation": "Tinker Bell önden hızla uçtu, çan gibi sesi hain bir kıskançlıkla şıngırdadı.",
+      "notes": "Absolute construction 'her voice tinkling'; preposition 'with'."
+    },
+    {
+      "id": 79,
+      "start_ms": 424908,
+      "end_ms": 429684,
+      "text": "She hated Wendy and decided to use this dark moment to destroy her.",
+      "translation": "Wendy'den nefret ediyordu ve onu yok etmek için bu karanlık andan faydalanmaya karar verdi.",
+      "notes": "Infinitive of purpose 'to destroy her'; past verbs 'hated and decided'."
+    },
+    {
+      "id": 80,
+      "start_ms": 430084,
+      "end_ms": 436276,
+      "text": "Wendy flew blindly on, tired, frightened, and guided only by the treacherous fairy.",
+      "translation": "Wendy yorgun, korkmuş ve yalnızca o hain perinin rehberliğinde körlemesine uçmaya devam etti.",
+      "notes": "Participial adjectives; adverb 'blindly'."
+    },
+    {
+      "id": 81,
+      "start_ms": 437276,
+      "end_ms": 442076,
+      "text": "The Neverland always woke up into motion whenever Peter Pan returned.",
+      "translation": "Peter Pan ne zaman geri dönse, Varolmayan Ülke daima harekete geçerek uyanırdı.",
+      "notes": "Time clause with 'whenever'; idiom 'woke into motion'."
+    },
+    {
+      "id": 82,
+      "start_ms": 442476,
+      "end_ms": 446796,
+      "text": "In the middle of the island, the Lost Boys were looking for Peter.",
+      "translation": "Adanın tam ortasında Kayıp Çocuklar Peter'ı arıyorlardı.",
+      "notes": "Past continuous 'were looking for'; prepositional phrase 'in the middle'."
+    },
+    {
+      "id": 83,
+      "start_ms": 447196,
+      "end_ms": 453028,
+      "text": "Behind the Lost Boys came the bloodthirsty pirates, armed with cutlasses and muskets.",
+      "translation": "Kayıp Çocukların ardından palalar ve tüfeklerle kuşanmış kana susamış korsanlar geliyordu.",
+      "notes": "Inverted sentence; passive participle modifier 'armed with'."
+    },
+    {
+      "id": 84,
+      "start_ms": 453428,
+      "end_ms": 458732,
+      "text": "Behind the pirates crept the redskin warriors, moving as silently as smoke.",
+      "translation": "Korsanların ardından duman kadar sessizce hareket eden kızılderili savaşçılar süzülüyordu.",
+      "notes": "Simile 'as silently as smoke'; past verb 'crept'."
+    },
+    {
+      "id": 85,
+      "start_ms": 459132,
+      "end_ms": 464652,
+      "text": "And behind the redskins glided the enormous, hungry crocodile with jaws open.",
+      "translation": "Ve kızılderililerin ardından çeneleri açık halde devasa, aç timsah süzülüyordu.",
+      "notes": "Inverted sentence; absolute phrase 'with jaws open'."
+    },
+    {
+      "id": 86,
+      "start_ms": 465052,
+      "end_ms": 469588,
+      "text": "They were all walking in a giant circle around the enchanted forest.",
+      "translation": "Hepsi büyülü ormanın etrafında dev bir çember halinde yürüyorlardı.",
+      "notes": "Past continuous 'were walking'; prepositional phrase 'in a circle'."
+    },
+    {
+      "id": 87,
+      "start_ms": 469988,
+      "end_ms": 475196,
+      "text": "Captain Hook led the pirates, his dark curls falling over his pale face.",
+      "translation": "Kaptan Hook korsanlara liderlik ediyor, siyah bukleleri solgun yüzünün üzerine dökülüyordu.",
+      "notes": "Absolute construction 'his curls falling'; adjective 'pale'."
+    },
+    {
+      "id": 88,
+      "start_ms": 475596,
+      "end_ms": 480876,
+      "text": "His right hand was gone, replaced by a gleaming, curved iron hook.",
+      "translation": "Sağ eli yoktu; yerini parıldayan, kıvrık bir demir kanca almıştı.",
+      "notes": "Passive participle 'replaced by'; coordinate adjectives 'gleaming, curved'."
+    },
+    {
+      "id": 89,
+      "start_ms": 481276,
+      "end_ms": 485692,
+      "text": "Peter Pan had cut off Hook's hand in a fierce duel long ago.",
+      "translation": "Peter Pan uzun zaman önce çetin bir düelloda Hook'un elini kesmişti.",
+      "notes": "Past perfect 'had cut off'; time phrase 'long ago'."
+    },
+    {
+      "id": 90,
+      "start_ms": 486092,
+      "end_ms": 490772,
+      "text": "He had flung the hand to the passing crocodile, who loved the taste.",
+      "translation": "Eli oradan geçen ve bu tadı çok seven timsaha fırlatmıştı.",
+      "notes": "Relative clause 'who loved the taste'; past perfect 'had flung'."
+    },
+    {
+      "id": 91,
+      "start_ms": 491172,
+      "end_ms": 496164,
+      "text": "Since then, the beast had followed Hook relentlessly across every sea.",
+      "translation": "O zamandan beri canavar, her deniz boyunca Hook'u amansızca takip etmişti.",
+      "notes": "Present/past perfect with 'since then'; adverb 'relentlessly'."
+    },
+    {
+      "id": 92,
+      "start_ms": 496564,
+      "end_ms": 501700,
+      "text": "Fortunately for Hook, the crocodile had also swallowed a ticking clock.",
+      "translation": "Neyse ki Hook için timsah aynı zamanda tıkırdayan bir saat de yutmuştu.",
+      "notes": "Adverb 'fortunately'; past perfect 'had swallowed'."
+    },
+    {
+      "id": 93,
+      "start_ms": 502100,
+      "end_ms": 507188,
+      "text": "'Tick, tick, tick!' warned the clock from inside the monster's belly.",
+      "translation": "'Tık, tık, tık!' diye canavarın karnının içinden saat uyarı veriyordu.",
+      "notes": "Onomatopoeia; prepositional phrase 'from inside belly'."
+    },
+    {
+      "id": 94,
+      "start_ms": 507588,
+      "end_ms": 512244,
+      "text": "Whenever Hook heard that rhythmic ticking, he shuddered in dreadful terror.",
+      "translation": "Hook o ritmik tıkırtıyı her duyduğunda, korkunç bir dehşetle ürperirdi.",
+      "notes": "Time clause with 'whenever'; past verb 'shuddered'."
+    },
+    {
+      "id": 95,
+      "start_ms": 512644,
+      "end_ms": 517636,
+      "text": "'It will tick until the winding runs down,' muttered Hook with trembling lips.",
+      "translation": "'Kurulu zembereği bitene kadar tıkırdayacak,' diye mırıldandı Hook titreyen dudaklarla.",
+      "notes": "Time clause 'until runs down'; participial adjective 'trembling'."
+    },
+    {
+      "id": 96,
+      "start_ms": 518036,
+      "end_ms": 522836,
+      "text": "'And when it stops, the beast will catch me unawares and devour me!'",
+      "translation": "'Ve durduğunda canavar beni gafil avlayıp yutuverecek!'",
+      "notes": "Coordinated future modal clauses; idiom 'catch unawares'."
+    },
+    {
+      "id": 97,
+      "start_ms": 523236,
+      "end_ms": 528420,
+      "text": "The Lost Boys disappeared into their secret underground home under hollow trees.",
+      "translation": "Kayıp Çocuklar oyuk ağaçların altındaki gizli yeraltı evlerinde gözden kayboldular.",
+      "notes": "Prepositional phrase 'under hollow trees'; past verb 'disappeared'."
+    },
+    {
+      "id": 98,
+      "start_ms": 528820,
+      "end_ms": 533884,
+      "text": "Each boy had his own tree trunk fitted precisely to the size of his body.",
+      "translation": "Her oğlanın kendi bedeninin ölçüsüne tam oturan kendi ağaç gövdesi vardı.",
+      "notes": "Past participle modifier 'fitted precisely'; possessive 'his own'."
+    },
+    {
+      "id": 99,
+      "start_ms": 534284,
+      "end_ms": 539492,
+      "text": "Above in the clouds, Wendy flew closer and closer to the island floor.",
+      "translation": "Yukarıda bulutların arasında Wendy ada zeminine gittikçe daha da yaklaştı.",
+      "notes": "Comparative repetition 'closer and closer'; past verb 'flew'."
+    },
+    {
+      "id": 100,
+      "start_ms": 539892,
+      "end_ms": 544476,
+      "text": "Tinker Bell was preparing her wicked ambush from the highest branch.",
+      "translation": "Tinker Bell en yüksek daldan hain pususunu hazırlıyordu.",
+      "notes": "Past continuous 'was preparing'; superlative 'highest branch'."
+    },
+    {
+      "id": 101,
+      "start_ms": 545476,
+      "end_ms": 550372,
+      "text": "Tinker Bell flew down to the Lost Boys, buzzing like an angry hornet.",
+      "translation": "Tinker Bell öfkeli bir eşek arısı gibi vızıldayarak Kayıp Çocukların yanına indi.",
+      "notes": "Simile 'like an angry hornet'; past verb 'flew down'."
+    },
+    {
+      "id": 102,
+      "start_ms": 550772,
+      "end_ms": 555596,
+      "text": "She shouted that Peter wanted them to shoot a dangerous creature immediately.",
+      "translation": "Peter'ın derhal tehlikeli bir yaratığı vurmalarını istediğini haykırdı.",
+      "notes": "Indirect command; adverb 'immediately'."
+    },
+    {
+      "id": 103,
+      "start_ms": 555996,
+      "end_ms": 560628,
+      "text": "'Peter wants you to shoot the Wendy bird!' cried the deceitful fairy.",
+      "translation": "'Peter Wendy kuşunu vurmanızı istiyor!' diye haykırdı hilekar peri.",
+      "notes": "Direct speech; adjective 'deceitful'."
+    },
+    {
+      "id": 104,
+      "start_ms": 561028,
+      "end_ms": 565636,
+      "text": "The foolish boys looked up and saw a white figure flying in the sky.",
+      "translation": "Aptal oğlanlar yukarı baktılar ve gökyüzünde uçan beyaz bir karaltı gördüler.",
+      "notes": "Coordinate past verbs 'looked up and saw'; participle 'flying'."
+    },
+    {
+      "id": 105,
+      "start_ms": 566036,
+      "end_ms": 571700,
+      "text": "Tootles, the gentlest boy, fitted an arrow to his bow in eager obedience.",
+      "translation": "En nazik oğlan olan Tootles, hevesli bir itaatle yayına bir ok yerleştirdi.",
+      "notes": "Superlative appositive 'gentlest boy'; noun phrase 'eager obedience'."
+    },
+    {
+      "id": 106,
+      "start_ms": 572100,
+      "end_ms": 577500,
+      "text": "'Out of the way, Tink!' cried Tootles, drawing the bowstring to his ear.",
+      "translation": "'Yoldan çekil Tink!' diye haykırdı Tootles, kirişi kulağına kadar çekerek.",
+      "notes": "Imperative phrase; participle clause 'drawing bowstring'."
+    },
+    {
+      "id": 107,
+      "start_ms": 577900,
+      "end_ms": 582148,
+      "text": "He loosed the arrow, and it sped straight into the white breast.",
+      "translation": "Oku fırlattı ve ok dosdoğru beyaz göğsün içine saplandı.",
+      "notes": "Coordinate past clauses; directional adverb 'straight into'."
+    },
+    {
+      "id": 108,
+      "start_ms": 582548,
+      "end_ms": 587084,
+      "text": "Wendy uttered a faint cry and fluttered helplessly down to the earth.",
+      "translation": "Wendy hafif bir çığlık attı ve çaresizce yere doğru çırpınarak düştü.",
+      "notes": "Coordinate past actions 'uttered and fluttered'; adverb 'helplessly'."
+    },
+    {
+      "id": 109,
+      "start_ms": 587484,
+      "end_ms": 592356,
+      "text": "She lay motionless upon the green moss with the black arrow in her chest.",
+      "translation": "Göğsündeki siyah okla, yeşil yosunların üzerinde hareketsizce yatıyordu.",
+      "notes": "Adjective 'motionless'; prepositional phrase 'with arrow in chest'."
+    },
+    {
+      "id": 110,
+      "start_ms": 592756,
+      "end_ms": 597796,
+      "text": "The boys gathered round proudly, believing they had performed a noble deed.",
+      "translation": "Soylu bir eylem gerçekleştirdiklerine inanarak oğlanlar gururla etrafında toplandılar.",
+      "notes": "Participle clause 'believing they had performed'; adverb 'proudly'."
+    },
+    {
+      "id": 111,
+      "start_ms": 598196,
+      "end_ms": 603164,
+      "text": "Just then, a crow sounded from the sky: Peter Pan had arrived.",
+      "translation": "Tam o sırada gökyüzünden bir horoz sesi duyuldu: Peter Pan gelmişti.",
+      "notes": "Time phrase 'just then'; past perfect 'had arrived'."
+    },
+    {
+      "id": 112,
+      "start_ms": 603564,
+      "end_ms": 607740,
+      "text": "Peter landed among them with gleaming eyes and asked for their mother.",
+      "translation": "Peter parıldayan gözlerle aralarına indi ve annelerinin nerede olduğunu sordu.",
+      "notes": "Coordinate past verbs 'landed and asked'; preposition 'among them'."
+    },
+    {
+      "id": 113,
+      "start_ms": 608140,
+      "end_ms": 612772,
+      "text": "'I have brought you a mother to tell stories and care for you,' said Peter.",
+      "translation": "'Size hikayeler anlatacak ve size bakacak bir anne getirdim,' dedi Peter.",
+      "notes": "Present perfect 'have brought'; coordinate infinitives."
+    },
+    {
+      "id": 114,
+      "start_ms": 613172,
+      "end_ms": 617660,
+      "text": "The boys froze in sheer horror as they realized what they had done.",
+      "translation": "Ne yaptıklarını anladıklarında oğlanlar katıksız bir dehşetle donakaldılar.",
+      "notes": "Time clause 'as they realized'; noun clause 'what they had done'."
+    },
+    {
+      "id": 115,
+      "start_ms": 618060,
+      "end_ms": 622860,
+      "text": "Tootles dropped his bow, weeping bitterly: 'I have killed our mother!'",
+      "translation": "Tootles yayını düşürdü, acı acı ağlayarak: 'Annemizi öldürdüm!' dedi.",
+      "notes": "Participle 'weeping bitterly'; present perfect 'have killed'."
+    },
+    {
+      "id": 116,
+      "start_ms": 623260,
+      "end_ms": 627460,
+      "text": "Peter knelt beside Wendy and gently touched the head of the arrow.",
+      "translation": "Peter Wendy'nin yanına diz çöktü ve okun ucuna usulca dokundu.",
+      "notes": "Coordinate past verbs 'knelt and touched'; adverb 'gently'."
+    },
+    {
+      "id": 117,
+      "start_ms": 627860,
+      "end_ms": 632756,
+      "text": "To his amazement, the sharp arrowhead had not pierced her tender flesh.",
+      "translation": "Hayretler içinde gördü ki, keskin ok ucu kızın narin tenini delip geçmemişti.",
+      "notes": "Past perfect negative 'had not pierced'; noun phrase 'To his amazement'."
+    },
+    {
+      "id": 118,
+      "start_ms": 633156,
+      "end_ms": 637332,
+      "text": "It had struck the acorn button that Peter had given her in London.",
+      "translation": "Ok, Peter'ın Londra'da ona verdiği meşe palamudu düğmesine çarpmıştı.",
+      "notes": "Past perfect 'had struck'; relative clause 'that Peter had given'."
+    },
+    {
+      "id": 119,
+      "start_ms": 637732,
+      "end_ms": 642796,
+      "text": "'The kiss saved her life!' cried Peter, his face radiant with joy.",
+      "translation": "'Öpücük onun hayatını kurtardı!' diye haykırdı Peter, yüzü sevinçten parıldayarak.",
+      "notes": "Absolute construction 'his face radiant with joy'; past verb 'saved'."
+    },
+    {
+      "id": 120,
+      "start_ms": 643196,
+      "end_ms": 647828,
+      "text": "They built a tiny little house around Wendy where she could safely recover.",
+      "translation": "Wendy'nin güvenle iyileşebilmesi için etrafına küçücük bir ev inşa ettiler.",
+      "notes": "Relative clause of place 'where she could recover'; modal 'could'."
+    },
+    {
+      "id": 121,
+      "start_ms": 648828,
+      "end_ms": 653412,
+      "text": "Wendy soon recovered completely and was delighted with her new family.",
+      "translation": "Wendy çok geçmeden tamamen iyileşti ve yeni ailesinden çok memnun kaldı.",
+      "notes": "Adverb 'completely'; passive idiom 'was delighted with'."
+    },
+    {
+      "id": 122,
+      "start_ms": 653812,
+      "end_ms": 658660,
+      "text": "The home under the ground consisted of one huge, warm earthen room.",
+      "translation": "Yer altındaki ev, devasa ve sıcak tek bir toprak odadan oluşuyordu.",
+      "notes": "Phrasal verb 'consisted of'; compound adjective 'earthen room'."
+    },
+    {
+      "id": 123,
+      "start_ms": 659060,
+      "end_ms": 664196,
+      "text": "A great fireplace was dug into the earth, where a crackling fire burned.",
+      "translation": "Toprağın içine, çatırdayan bir ateşin yandığı büyük bir şömine kazılmıştı.",
+      "notes": "Passive voice 'was dug'; relative clause 'where a fire burned'."
+    },
+    {
+      "id": 124,
+      "start_ms": 664596,
+      "end_ms": 669708,
+      "text": "There was a large bed on which all the boys slept packed together like sardines.",
+      "translation": "Bütün oğlanların konserve balık gibi yan yana sıkışıp uyuduğu büyük bir yatak vardı.",
+      "notes": "Relative clause 'on which all slept'; simile 'like sardines'."
+    },
+    {
+      "id": 125,
+      "start_ms": 670108,
+      "end_ms": 675028,
+      "text": "Tinker Bell had her own tiny chamber recessed into the wall with curtains.",
+      "translation": "Tinker Bell'in duvara oyulmuş, perdeli minicik kendine ait bir odası vardı.",
+      "notes": "Past participle modifier 'recessed into the wall'; possessive 'her own'."
+    },
+    {
+      "id": 126,
+      "start_ms": 675428,
+      "end_ms": 681068,
+      "text": "Wendy became the mother of the household, cooking, sewing, and darning socks.",
+      "translation": "Wendy evin annesi oldu; yemek pişirdi, dikiş dikti ve çorapları yamadı.",
+      "notes": "Coordinate gerunds describing maternal duties; noun 'household'."
+    },
+    {
+      "id": 127,
+      "start_ms": 681468,
+      "end_ms": 686244,
+      "text": "Peter was the father, who went out on adventures and brought home news.",
+      "translation": "Peter ise maceralara çıkan ve eve haberler getiren babaydı.",
+      "notes": "Relative clause 'who went out and brought'; coordinate predicates."
+    },
+    {
+      "id": 128,
+      "start_ms": 686644,
+      "end_ms": 691348,
+      "text": "Every evening they sat around the blazing hearth eating pretend meals.",
+      "translation": "Her akşam yanan ocağın etrafında oturup mış gibi yapılan yemekleri yerlerdi.",
+      "notes": "Participle phrase 'eating pretend meals'; frequency phrase 'every evening'."
+    },
+    {
+      "id": 129,
+      "start_ms": 691748,
+      "end_ms": 697028,
+      "text": "With Peter, make-believe was so real that you could actually choke on pretend food.",
+      "translation": "Peter'la rol yapmak öyle gerçekti ki, hayali bir yemek yerken gerçekten boğulabilirdiniz.",
+      "notes": "Result clause 'so real that'; modal 'could choke'."
+    },
+    {
+      "id": 130,
+      "start_ms": 697428,
+      "end_ms": 702060,
+      "text": "After supper, Wendy tucked all the boys into the big bed warmly.",
+      "translation": "Akşam yemeğinden sonra Wendy bütün çocukları büyük yatağa sıcacık örttü.",
+      "notes": "Phrasal verb 'tucked into'; adverb 'warmly'."
+    },
+    {
+      "id": 131,
+      "start_ms": 702460,
+      "end_ms": 707380,
+      "text": "She told them endless enchanting stories about London and their real parents.",
+      "translation": "Onlara Londra ve gerçek anne babaları hakkında sonu gelmez büyüleyici hikayeler anlattı.",
+      "notes": "Double object verb 'told them stories'; adjective 'enchanting'."
+    },
+    {
+      "id": 132,
+      "start_ms": 707780,
+      "end_ms": 712700,
+      "text": "John and Michael began to forget their mother's face as the weeks drifted by.",
+      "translation": "Haftalar akıp geçtikçe John ve Michael annelerinin yüzünü unutmaya başladılar.",
+      "notes": "Verb followed by infinitive 'began to forget'; time clause with 'as'."
+    },
+    {
+      "id": 133,
+      "start_ms": 713100,
+      "end_ms": 718188,
+      "text": "Wendy instituted regular school lessons to keep their memories sharp and bright.",
+      "translation": "Wendy hafızalarını keskin ve parlak tutmak için düzenli okul dersleri koydu.",
+      "notes": "Infinitive of purpose 'to keep memories sharp'; adjective pair 'sharp and bright'."
+    },
+    {
+      "id": 134,
+      "start_ms": 718588,
+      "end_ms": 723508,
+      "text": "Peter refused to study, declaring that school was for children who grow up.",
+      "translation": "Peter okula gitmenin büyüyen çocuklara göre olduğunu söyleyerek ders çalışmayı reddetti.",
+      "notes": "Verb + infinitive 'refused to study'; participle 'declaring that'."
+    },
+    {
+      "id": 135,
+      "start_ms": 723908,
+      "end_ms": 728900,
+      "text": "He spent his days roaming the lagoons and mocking the proud wild beasts.",
+      "translation": "Günlerini lagünlerde dolaşarak ve mağrur vahşi hayvanlarla alay ederek geçirdi.",
+      "notes": "Expression 'spent days doing'; coordinate participles."
+    },
+    {
+      "id": 136,
+      "start_ms": 729300,
+      "end_ms": 734580,
+      "text": "The Lost Boys adored Wendy and competed eagerly for her maternal smiles.",
+      "translation": "Kayıp Çocuklar Wendy'ye hayran kaldılar ve onun anne şefkati dolu tebessümleri için hevesle yarıştılar.",
+      "notes": "Coordinate actions 'adored and competed'; adjective 'maternal'."
+    },
+    {
+      "id": 137,
+      "start_ms": 734980,
+      "end_ms": 739420,
+      "text": "Even Tinker Bell had to admit that the underground home was peaceful.",
+      "translation": "Tinker Bell bile yer altındaki bu evin huzurlu olduğunu kabul etmek zorunda kaldı.",
+      "notes": "Modal obligation 'had to admit'; noun clause 'that the home was peaceful'."
+    },
+    {
+      "id": 138,
+      "start_ms": 739820,
+      "end_ms": 744788,
+      "text": "Yet outside in the bright sunlight, dangers were gathering across the island.",
+      "translation": "Yine de dışarıda, parlak güneş ışığı altında tehlikeler adanın her yanında toplanıyordu.",
+      "notes": "Adverb 'yet'; past continuous 'were gathering'."
+    },
+    {
+      "id": 139,
+      "start_ms": 745188,
+      "end_ms": 750108,
+      "text": "Hook was formulating a terrible plan to exterminate Peter and his crew.",
+      "translation": "Hook, Peter'ı ve tayfasını yok etmek için korkunç bir plan tasarlıyordu.",
+      "notes": "Past continuous 'was formulating'; infinitive of purpose 'to exterminate'."
+    },
+    {
+      "id": 140,
+      "start_ms": 750508,
+      "end_ms": 755116,
+      "text": "The sunny waters of the Mermaids' Lagoon would be their next battleground.",
+      "translation": "Denizkızları Lagünü'nün güneşli suları onların bir sonraki savaş alanı olacaktı.",
+      "notes": "Modal 'would be'; proper noun 'Mermaids' Lagoon'."
+    },
+    {
+      "id": 141,
+      "start_ms": 756116,
+      "end_ms": 761180,
+      "text": "The Mermaids' Lagoon was the most magical and dangerous spot in Neverland.",
+      "translation": "Denizkızları Lagünü, Varolmayan Ülke'deki en büyülü ve en tehlikeli yerdi.",
+      "notes": "Superlative phrase 'most magical and dangerous'; proper name."
+    },
+    {
+      "id": 142,
+      "start_ms": 761580,
+      "end_ms": 766860,
+      "text": "The water was coral-pink and azure blue, crystal clear over white sands.",
+      "translation": "Su, beyaz kumların üzerinde billur gibi berrak, mercan pembesi ve gök mavisiydi.",
+      "notes": "Compound color adjectives; phrase 'crystal clear'."
+    },
+    {
+      "id": 143,
+      "start_ms": 767260,
+      "end_ms": 772732,
+      "text": "Mermaids basked upon Marooners' Rock, combing their long golden hair in the sun.",
+      "translation": "Denizkızları güneşte uzun sarı saçlarını tarayarak Terk Edilmişler Kayası'nda güneşlenirlerdi.",
+      "notes": "Participle clause 'combing their hair'; proper noun 'Marooners' Rock'."
+    },
+    {
+      "id": 144,
+      "start_ms": 773132,
+      "end_ms": 778100,
+      "text": "They were unfriendly creatures who splashed water at human children disdainfully.",
+      "translation": "İnsan çocuklarına küçümseyerek su sıçratan, pek de dost canlısı olmayan yaratıklardı.",
+      "notes": "Relative clause 'who splashed water'; adverb 'disdainfully'."
+    },
+    {
+      "id": 145,
+      "start_ms": 778500,
+      "end_ms": 783900,
+      "text": "One sunny afternoon, Wendy and the boys were resting on Marooners' Rock.",
+      "translation": "Güneşli bir öğleden sonra Wendy ve oğlanlar Terk Edilmişler Kayası'nda dinleniyorlardı.",
+      "notes": "Past continuous 'were resting'; time phrase 'one sunny afternoon'."
+    },
+    {
+      "id": 146,
+      "start_ms": 784300,
+      "end_ms": 789076,
+      "text": "The tide was beginning to rise, licking the edges of the smooth stone.",
+      "translation": "Gelgit yükselmeye başlıyor, pürüzsüz taşın kenarlarını yalıyordu.",
+      "notes": "Verb + infinitive 'was beginning to rise'; participle 'licking edges'."
+    },
+    {
+      "id": 147,
+      "start_ms": 789476,
+      "end_ms": 796196,
+      "text": "Suddenly, Peter sniffed the air and cried, 'Pirates! Dive into the water!'",
+      "translation": "Birdenbire Peter havayı kokladı ve 'Korsanlar! Suya dalın!' diye haykırdı.",
+      "notes": "Coordinate past verbs; imperative direct command."
+    },
+    {
+      "id": 148,
+      "start_ms": 796596,
+      "end_ms": 801348,
+      "text": "The boys slipped silently beneath the surface like little brown seals.",
+      "translation": "Oğlanlar minik kahverengi foklar gibi sessizce suyun yüzeyinin altına süzüldüler.",
+      "notes": "Simile 'like little brown seals'; adverb 'silently'."
+    },
+    {
+      "id": 149,
+      "start_ms": 801748,
+      "end_ms": 806860,
+      "text": "A pirate dinghy approached, rowed by the brutal Smee and the fierce Starkey.",
+      "translation": "Gaddar Smee ve yırtıcı Starkey'nin kürek çektiği bir korsan sandalı yaklaştı.",
+      "notes": "Passive participle modifier 'rowed by'; descriptive adjectives."
+    },
+    {
+      "id": 150,
+      "start_ms": 807260,
+      "end_ms": 812060,
+      "text": "Tied up in the bottom of the boat was Tiger Lily, the Indian princess.",
+      "translation": "Sandalın dibinde eli ayağı bağlanmış halde Kızılderili prensesi Kaplan Zambağı yatıyordu.",
+      "notes": "Inverted passive sentence 'Tied up was Tiger Lily'; apposition."
+    },
+    {
+      "id": 151,
+      "start_ms": 812460,
+      "end_ms": 817164,
+      "text": "The pirates intended to leave her on the rock to drown in the rising tide.",
+      "translation": "Korsanlar onu yükselen gelgitte boğulması için kayanın üzerinde bırakmaya niyetliydiler.",
+      "notes": "Verb + infinitive 'intended to leave'; infinitive of purpose 'to drown'."
+    },
+    {
+      "id": 152,
+      "start_ms": 817564,
+      "end_ms": 822628,
+      "text": "Tiger Lily sat proudly, too brave to beg her captors for mercy.",
+      "translation": "Kaplan Zambağı, esir alanlardan merhamet dilenmeyecek kadar cesur, başı dik oturuyordu.",
+      "notes": "Structure 'too + adjective + infinitive'; adverb 'proudly'."
+    },
+    {
+      "id": 153,
+      "start_ms": 823028,
+      "end_ms": 828044,
+      "text": "Peter was furious at this cruel and unfair act of pirate cowardice.",
+      "translation": "Peter bu zalimce ve haksız korsan korkaklığı karşısında öfkeden küplere bindi.",
+      "notes": "Adjective phrase 'furious at'; compound noun 'pirate cowardice'."
+    },
+    {
+      "id": 154,
+      "start_ms": 828444,
+      "end_ms": 833604,
+      "text": "He swam near the boat and imitated Captain Hook's voice with eerie perfection.",
+      "translation": "Sandalın yanına yüzdü ve tekinsiz bir kusursuzlukla Kaptan Hook'un sesini taklit etti.",
+      "notes": "Coordinate past verbs 'swam and imitated'; prepositional phrase 'with perfection'."
+    },
+    {
+      "id": 155,
+      "start_ms": 834004,
+      "end_ms": 839260,
+      "text": "'Ahoy there, Smee!' called Peter in Hook's exact aristocratic drawl.",
+      "translation": "'Hey oradaki, Smee!' diye seslendi Peter, Hook'un tam aristokratik aksanıyla.",
+      "notes": "Possessive phrase 'Hook's exact drawl'; direct quotation."
+    },
+    {
+      "id": 156,
+      "start_ms": 839660,
+      "end_ms": 844916,
+      "text": "The two pirates dropped their oars in terrified, unquestioning obedience.",
+      "translation": "İki korsan dehşet dolu, sorgusuz sualsiz bir itaatle küreklerini bıraktılar.",
+      "notes": "Prepositional phrase 'in obedience'; coordinate adjectives."
+    },
+    {
+      "id": 157,
+      "start_ms": 845316,
+      "end_ms": 850380,
+      "text": "'Cut the redskin's bonds and let her go at once!' ordered the false voice.",
+      "translation": "'Kızılderilinin bağlarını çözün ve derhal gitmesine izin verin!' diye emretti sahte ses.",
+      "notes": "Imperative coordinate commands; adjective 'false'."
+    },
+    {
+      "id": 158,
+      "start_ms": 850780,
+      "end_ms": 855124,
+      "text": "Smee obediently sliced Tiger Lily's ropes with his knife.",
+      "translation": "Smee itaatkar bir tavırla bıçağıyla Kaplan Zambağı'nın iplerini kesti.",
+      "notes": "Adverb 'obediently'; possessive noun phrase."
+    },
+    {
+      "id": 159,
+      "start_ms": 855524,
+      "end_ms": 859916,
+      "text": "The princess slipped into the water and swam away toward safety.",
+      "translation": "Prenses suya süzüldü ve güvenliğe doğru hızla yüzüp uzaklaştı.",
+      "notes": "Coordinate past verbs 'slipped and swam away'; directional preposition 'toward'."
+    },
+    {
+      "id": 160,
+      "start_ms": 860316,
+      "end_ms": 864780,
+      "text": "The real Captain Hook was swimming toward the rock at that very second.",
+      "translation": "Gerçek Kaptan Hook ise tam o saniyede kayaya doğru yüzüyordu.",
+      "notes": "Past continuous 'was swimming'; emphatic phrase 'at that very second'."
+    },
+    {
+      "id": 161,
+      "start_ms": 865780,
+      "end_ms": 871036,
+      "text": "Hook climbed onto Marooners' Rock, gasping for breath and dark with fury.",
+      "translation": "Hook, nefes nefese kalmış ve öfkeden kararmış halde Terk Edilmişler Kayası'na tırmandı.",
+      "notes": "Participial phrases 'gasping for breath' and 'dark with fury'."
+    },
+    {
+      "id": 162,
+      "start_ms": 871436,
+      "end_ms": 876764,
+      "text": "When Smee reported that he had released the prisoner by Hook's own order, Hook roared.",
+      "translation": "Smee mahkumu Hook'un kendi emriyle serbest bıraktığını söyleyince, Hook kükredi.",
+      "notes": "Time clause with 'when'; past perfect 'had released'."
+    },
+    {
+      "id": 163,
+      "start_ms": 877164,
+      "end_ms": 881892,
+      "text": "'I gave no such order!' screamed the enraged pirate captain.",
+      "translation": "'Ben öyle bir emir vermedim!' diye çığlık attı öfkeden deliye dönen korsan kaptan.",
+      "notes": "Past tense negative 'gave no such order'; participial adjective 'enraged'."
+    },
+    {
+      "id": 164,
+      "start_ms": 882292,
+      "end_ms": 887116,
+      "text": "Peter laughed aloud from the water, unable to contain his merry mockery.",
+      "translation": "Peter neşeli alayını tutamayarak suyun içinden kahkahayı bastı.",
+      "notes": "Adverb 'aloud'; participial clause of result 'unable to contain'."
+    },
+    {
+      "id": 165,
+      "start_ms": 887516,
+      "end_ms": 892100,
+      "text": "Hook drew his cutlass and slashed violently toward the mocking sound.",
+      "translation": "Hook palasını çekti ve alaycı sese doğru şiddetle savurdu.",
+      "notes": "Coordinate past verbs 'drew and slashed'; participial adjective 'mocking'."
+    },
+    {
+      "id": 166,
+      "start_ms": 892500,
+      "end_ms": 897900,
+      "text": "Peter sprang onto the slippery rock, dagger in hand, ready for combat.",
+      "translation": "Peter elinde hançeriyle, savaşa hazır halde kaygan kayanın üzerine fırladı.",
+      "notes": "Absolute phrase 'dagger in hand'; adjective 'slippery'."
+    },
+    {
+      "id": 167,
+      "start_ms": 898300,
+      "end_ms": 902860,
+      "text": "They fought fiercely like two wildcats on the tiny narrow ledge.",
+      "translation": "Küçücük dar sette iki yaban kedisi gibi kıyasıya savaştılar.",
+      "notes": "Simile 'like two wildcats'; adverb 'fiercely'."
+    },
+    {
+      "id": 168,
+      "start_ms": 903260,
+      "end_ms": 908300,
+      "text": "Peter was quick and agile, dodging every deadly thrust of the iron hook.",
+      "translation": "Peter çevik ve kıvraktı, demir kancanın her ölümcül hamlesini savuşturuyordu.",
+      "notes": "Coordinate predicate adjectives; participle phrase 'dodging thrust'."
+    },
+    {
+      "id": 169,
+      "start_ms": 908700,
+      "end_ms": 913716,
+      "text": "Then Peter bit Hook's hand, and Hook clawed Peter with his curved iron.",
+      "translation": "Sonra Peter Hook'un elini ısırdı, Hook da kıvrık demiriyle Peter'ı tırmaladı.",
+      "notes": "Coordinate clauses; compound noun 'curved iron'."
+    },
+    {
+      "id": 170,
+      "start_ms": 914116,
+      "end_ms": 919300,
+      "text": "Seeing Peter's blood, the ticking crocodile suddenly surged up from the deep.",
+      "translation": "Peter'ın kanını gören tıkırdayan timsah aniden derinliklerden yukarı fırladı.",
+      "notes": "Participial clause 'seeing blood'; phrasal verb 'surged up'."
+    },
+    {
+      "id": 171,
+      "start_ms": 919700,
+      "end_ms": 924884,
+      "text": "Hook screamed in panic and leaped into the water, swimming frantically for his ship.",
+      "translation": "Hook panik içinde çığlık attı ve suya atlayıp çılgınca gemisine doğru yüzdü.",
+      "notes": "Coordinate past verbs 'screamed and leaped'; participle phrase 'swimming frantically'."
+    },
+    {
+      "id": 172,
+      "start_ms": 925284,
+      "end_ms": 929868,
+      "text": "The crocodile pursued him with snapping jaws and relentless rhythm.",
+      "translation": "Timsah şakırdayan çeneleri ve amansız ritmiyle onun peşine düştü.",
+      "notes": "Prepositional phrase 'with snapping jaws'; participial adjective 'snapping'."
+    },
+    {
+      "id": 173,
+      "start_ms": 930268,
+      "end_ms": 935596,
+      "text": "Meanwhile, the rising tide had nearly submerged Marooners' Rock completely.",
+      "translation": "Bu arada yükselen gelgit, Terk Edilmişler Kayası'nı neredeyse tamamen sular altında bırakmıştı.",
+      "notes": "Adverb 'meanwhile'; past perfect 'had submerged'."
+    },
+    {
+      "id": 174,
+      "start_ms": 935996,
+      "end_ms": 941348,
+      "text": "Only Wendy and Peter remained on the tiny stone, shivering in the cold spray.",
+      "translation": "Küçücük taşın üzerinde sadece Wendy ve Peter kalmıştı, soğuk serpintide titriyorlardı.",
+      "notes": "Adverb 'only'; participle clause 'shivering in cold spray'."
+    },
+    {
+      "id": 175,
+      "start_ms": 941748,
+      "end_ms": 946404,
+      "text": "Wendy was too exhausted from the struggle to swim all the way to shore.",
+      "translation": "Wendy boğuşmaktan o kadar bitkindi ki kıyıya kadar yüzmesi imkansızdı.",
+      "notes": "Structure 'too exhausted... to swim'; prepositional phrase 'to shore'."
+    },
+    {
+      "id": 176,
+      "start_ms": 946804,
+      "end_ms": 951508,
+      "text": "'We are going to drown, Peter,' whispered Wendy holding his hand tight.",
+      "translation": "'Boğulacağız Peter,' diye fısıldadı Wendy onun elini sımsıkı tutarak.",
+      "notes": "Immediate future 'are going to drown'; participle clause 'holding hand'."
+    },
+    {
+      "id": 177,
+      "start_ms": 951908,
+      "end_ms": 957476,
+      "text": "Peter stood tall, smiled bravely, and looked out into the gathering twilight.",
+      "translation": "Peter dimdik durdu, cesurca gülümsedi ve yaklaşan alacakaranlığa doğru baktı.",
+      "notes": "Series of coordinated past actions; participial adjective 'gathering'."
+    },
+    {
+      "id": 178,
+      "start_ms": 957876,
+      "end_ms": 962868,
+      "text": "'To die will be an awfully big adventure,' said Peter with shining eyes.",
+      "translation": "'Ölmek fevkalade büyük bir macera olacak,' dedi Peter parıldayan gözlerle.",
+      "notes": "Famous quotation; infinitive subject 'To die'; adverb 'awfully'."
+    },
+    {
+      "id": 179,
+      "start_ms": 963268,
+      "end_ms": 968284,
+      "text": "Just then, Michael's lost kite drifted low across the darkening lagoon.",
+      "translation": "Tam o sırada Michael'ın kayıp uçurtması kararan lagün boyunca alçaktan süzüldü.",
+      "notes": "Time phrase 'just then'; participial adjective 'darkening lagoon'."
+    },
+    {
+      "id": 180,
+      "start_ms": 968684,
+      "end_ms": 973700,
+      "text": "Peter grabbed the string and tied it to Wendy, letting the wind carry her home.",
+      "translation": "Peter ipi yakaladı ve Wendy'ye bağlayarak rüzgarın onu eve taşımasını sağladı.",
+      "notes": "Coordinate past verbs; participle phrase 'letting the wind carry'."
+    },
+    {
+      "id": 181,
+      "start_ms": 974700,
+      "end_ms": 979668,
+      "text": "Wendy was lifted gently into the air by the kite and carried toward the shore.",
+      "translation": "Wendy uçurtma sayesinde havaya usulca kalktı ve kıyıya doğru taşındı.",
+      "notes": "Passive voice 'was lifted and carried'; instrument phrase 'by the kite'."
+    },
+    {
+      "id": 182,
+      "start_ms": 980068,
+      "end_ms": 985444,
+      "text": "Peter was left entirely alone upon the tiny vanishing rock in the rising tide.",
+      "translation": "Yükselen gelgitte yok olmakta olan küçücük kayanın üzerinde Peter yapayalnız kaldı.",
+      "notes": "Passive voice 'was left alone'; participial adjective 'vanishing rock'."
+    },
+    {
+      "id": 183,
+      "start_ms": 985844,
+      "end_ms": 990380,
+      "text": "The black waters lapped higher and higher around his bare ankles.",
+      "translation": "Kara sular çıplak ayak bileklerinin etrafında gittikçe daha da yükseğe çırpındı.",
+      "notes": "Comparative repetition 'higher and higher'; past verb 'lapped'."
+    },
+    {
+      "id": 184,
+      "start_ms": 990780,
+      "end_ms": 995484,
+      "text": "He could not fly because his shoulder was bruised from Hook's savage blow.",
+      "translation": "Uçamıyordu çünkü omuzu Hook'un vahşi darbesi yüzünden berelenmişti.",
+      "notes": "Causal clause 'because shoulder was bruised'; passive voice."
+    },
+    {
+      "id": 185,
+      "start_ms": 995884,
+      "end_ms": 1000900,
+      "text": "Presently, he saw a strange object floating toward him upon the waves.",
+      "translation": "Çok geçmeden dalgaların üzerinde kendisine doğru yüzen tuhaf bir nesne gördü.",
+      "notes": "Adverb 'presently'; perception verb 'saw' + participle 'floating'."
+    },
+    {
+      "id": 186,
+      "start_ms": 1001300,
+      "end_ms": 1006196,
+      "text": "It was the Never Bird, sitting stubbornly upon her large floating nest.",
+      "translation": "Bu, yüzen büyük yuvasının üzerinde inatla oturan Asla Kuşu idi.",
+      "notes": "Participle phrase 'sitting stubbornly'; proper noun 'Never Bird'."
+    },
+    {
+      "id": 187,
+      "start_ms": 1006596,
+      "end_ms": 1011420,
+      "text": "She was trying desperately to keep her eggs warm despite the churning sea.",
+      "translation": "Köpüren denize rağmen yumurtalarını sıcak tutmak için çaresizce çabalıyordu.",
+      "notes": "Past continuous 'was trying'; preposition 'despite'."
+    },
+    {
+      "id": 188,
+      "start_ms": 1011820,
+      "end_ms": 1017436,
+      "text": "Seeing Peter's desperate plight, the brave bird made a noble maternal sacrifice.",
+      "translation": "Peter'ın çaresiz durumunu gören cesur kuş, soylu bir annelik fedakarlığı yaptı.",
+      "notes": "Participial clause of perception; noun phrase 'maternal sacrifice'."
+    },
+    {
+      "id": 189,
+      "start_ms": 1017836,
+      "end_ms": 1023020,
+      "text": "She fluttered off the nest, calling to Peter with harsh, urgent cries.",
+      "translation": "Sert ve acil haykırışlarla Peter'a seslenerek yuvanın üzerinden havalandı.",
+      "notes": "Coordinate participles 'fluttered off and calling'; adjective pair 'harsh, urgent'."
+    },
+    {
+      "id": 190,
+      "start_ms": 1023420,
+      "end_ms": 1028388,
+      "text": "Peter understood her generous gift and scrambled into the buoyant wicker nest.",
+      "translation": "Peter kuşun bu cömert hediyesini anladı ve batmayan hasır yuvanın içine tırmandı.",
+      "notes": "Coordinate past verbs; adjective 'buoyant wicker'."
+    },
+    {
+      "id": 191,
+      "start_ms": 1028788,
+      "end_ms": 1033636,
+      "text": "He placed the delicate white eggs safely inside his hat upon the rock.",
+      "translation": "Narin beyaz yumurtaları kayanın üzerine koyduğu şapkasının içine güvenle yerleştirdi.",
+      "notes": "Prepositional phrases indicating location; adverb 'safely'."
+    },
+    {
+      "id": 192,
+      "start_ms": 1034036,
+      "end_ms": 1038812,
+      "text": "He raised his little shirt upon a twig to serve as an improvised sail.",
+      "translation": "Derme çatma bir yelken görevi görmesi için minik gömleğini bir dalın üzerine kaldırdı.",
+      "notes": "Infinitive of purpose 'to serve as'; compound noun 'improvised sail'."
+    },
+    {
+      "id": 193,
+      "start_ms": 1039212,
+      "end_ms": 1044060,
+      "text": "The pleasant sea breeze caught the cloth and pushed the nest across the lagoon.",
+      "translation": "Tatlı deniz esintisi kumaşı yakaladı ve yuvayı lagün boyunca ileri itti.",
+      "notes": "Coordinate past verbs 'caught and pushed'; adjective 'pleasant'."
+    },
+    {
+      "id": 194,
+      "start_ms": 1044460,
+      "end_ms": 1049596,
+      "text": "Peter sailed proudly through the darkening waters, crowing like a little cockerel.",
+      "translation": "Peter minik bir horoz gibi ötüp durarak kararan sularda gururla yelken açtı.",
+      "notes": "Simile 'like a cockerel'; participle 'crowing'."
+    },
+    {
+      "id": 195,
+      "start_ms": 1049996,
+      "end_ms": 1055540,
+      "text": "The Never Bird flew overhead, watching her eggs safely nested inside his cap.",
+      "translation": "Asla Kuşu tepeden uçtu, yumurtalarının onun kasketi içine güvenle yerleştiğini izledi.",
+      "notes": "Participle clause 'watching her eggs safely nested'."
+    },
+    {
+      "id": 196,
+      "start_ms": 1055940,
+      "end_ms": 1060620,
+      "text": "Peter reached the sandy shore just as the night fell completely black.",
+      "translation": "Gece zifiri karanlığa bürünürken Peter tam vaktinde kumsala ulaştı.",
+      "notes": "Time clause 'just as night fell'; compound noun 'sandy shore'."
+    },
+    {
+      "id": 197,
+      "start_ms": 1061020,
+      "end_ms": 1065892,
+      "text": "The Lost Boys and Wendy rushed down to embrace him with cries of joy.",
+      "translation": "Kayıp Çocuklar ve Wendy sevinç çığlıklarıyla ona sarılmak için aşağı koştular.",
+      "notes": "Infinitive of purpose 'to embrace'; noun phrase 'cries of joy'."
+    },
+    {
+      "id": 198,
+      "start_ms": 1066292,
+      "end_ms": 1070924,
+      "text": "Tiger Lily and her proud warriors surrounded their home to stand guard.",
+      "translation": "Kaplan Zambağı ve onun gururlu savaşçıları nöbet tutmak için evlerini çembere aldılar.",
+      "notes": "Infinitive of purpose 'to stand guard'; past verb 'surrounded'."
+    },
+    {
+      "id": 199,
+      "start_ms": 1071324,
+      "end_ms": 1076700,
+      "text": "Out of gratitude for her rescue, the braves promised to protect Peter forever.",
+      "translation": "Kurtarılmasına duydukları minnetten ötürü savaşçılar Peter'ı sonsuza dek korumaya söz verdiler.",
+      "notes": "Prepositional phrase 'out of gratitude'; infinitive 'to protect'."
+    },
+    {
+      "id": 200,
+      "start_ms": 1077100,
+      "end_ms": 1082020,
+      "text": "Peace reigned over the island, but the black shadow of the pirates drew near.",
+      "translation": "Adaya barış hakim oldu fakat korsanların karanlık gölgesi sinsice yaklaşıyordu.",
+      "notes": "Coordinate clauses with 'but'; phrasal verb 'drew near'."
+    },
+    {
+      "id": 201,
+      "start_ms": 1083020,
+      "end_ms": 1088684,
+      "text": "That evening, the subterranean home was warm, merry, and filled with laughter.",
+      "translation": "O akşam, yer altındaki ev sıcacık, neşeli ve kahkahalarla doluydu.",
+      "notes": "Coordinate adjectives 'warm, merry'; passive participle 'filled with'."
+    },
+    {
+      "id": 202,
+      "start_ms": 1089084,
+      "end_ms": 1094724,
+      "text": "Outside in the chill night, Tiger Lily's braves sat silently smoking their pipes.",
+      "translation": "Dışarıdaki ayaz gecede Kaplan Zambağı'nın savaşçıları sessizce oturup pipolarını tüttürüyordu.",
+      "notes": "Participle phrase 'smoking pipes'; adverb 'silently'."
+    },
+    {
+      "id": 203,
+      "start_ms": 1095124,
+      "end_ms": 1099876,
+      "text": "Wendy sat in her wicker rocking chair with all the boys huddled around her.",
+      "translation": "Wendy bütün oğlanlar etrafına toplanmış halde hasır sallanan sandalyesinde oturuyordu.",
+      "notes": "Absolute construction 'boys huddled around'; compound noun 'rocking chair'."
+    },
+    {
+      "id": 204,
+      "start_ms": 1100276,
+      "end_ms": 1106012,
+      "text": "'Tell us our favorite story, Wendy!' pleaded Michael, resting his head on her lap.",
+      "translation": "'Bize en sevdiğimiz hikayeyi anlat Wendy!' diye yalvardı Michael, başını onun kucağına koyarak.",
+      "notes": "Participle phrase 'resting his head'; imperative command."
+    },
+    {
+      "id": 205,
+      "start_ms": 1106412,
+      "end_ms": 1111956,
+      "text": "Wendy smiled tenderly and began the tale of Mr. and Mrs. Darling back in London.",
+      "translation": "Wendy şefkatle gülümsedi ve Londra'daki Bay ve Bayan Darling'in hikayesine başladı.",
+      "notes": "Coordinate past verbs 'smiled and began'; adverb 'tenderly'."
+    },
+    {
+      "id": 206,
+      "start_ms": 1112356,
+      "end_ms": 1117540,
+      "text": "'There was once a lovely mother who had three children,' Wendy began softly.",
+      "translation": "'Bir zamanlar üç çocuğu olan çok güzel bir anne varmış,' diye başladı Wendy usulca.",
+      "notes": "Existential clause 'There was'; relative clause 'who had three children'."
+    },
+    {
+      "id": 207,
+      "start_ms": 1117940,
+      "end_ms": 1122572,
+      "text": "'And she always kept the bedroom window wide open so they could fly home.'",
+      "translation": "'Ve çocuklar eve uçabilsinler diye yatak odasının penceresini daima ardına kadar açık tutarmış.'",
+      "notes": "Purpose clause 'so they could fly home'; adverb 'wide open'."
+    },
+    {
+      "id": 208,
+      "start_ms": 1122972,
+      "end_ms": 1128180,
+      "text": "Peter groaned in bitter disagreement: 'You are wrong about mothers, Wendy.'",
+      "translation": "Peter acı bir itirazla inledi: 'Anneler konusunda yanılıyorsun Wendy.'",
+      "notes": "Prepositional phrase 'in bitter disagreement'; adjective 'wrong'."
+    },
+    {
+      "id": 209,
+      "start_ms": 1128580,
+      "end_ms": 1133116,
+      "text": "'Long ago I flew back to my mother, but the window was barred shut.'",
+      "translation": "'Uzun zaman önce anneme geri uçtum fakat pencere parmaklıklarla sımsıkı kapatılmıştı.'",
+      "notes": "Coordinate clauses; passive resultative 'barred shut'."
+    },
+    {
+      "id": 210,
+      "start_ms": 1133516,
+      "end_ms": 1137620,
+      "text": "'And another little boy was sleeping happily in my little bed!'",
+      "translation": "'Ve benim küçük yatağımda başka bir küçük oğlan neşeyle uyuyordu!'",
+      "notes": "Past continuous 'was sleeping'; possessive 'my bed'."
+    },
+    {
+      "id": 211,
+      "start_ms": 1138020,
+      "end_ms": 1142940,
+      "text": "A terrible chill of anxiety struck through John and Michael's little hearts.",
+      "translation": "John ve Michael'ın minik yüreklerine korkunç bir endişe ürpertisi saplandı.",
+      "notes": "Past verb 'struck through'; noun phrase 'chill of anxiety'."
+    },
+    {
+      "id": 212,
+      "start_ms": 1143340,
+      "end_ms": 1148620,
+      "text": "'Wendy, let us go home tonight before our window is barred!' cried John.",
+      "translation": "'Wendy, penceremiz kapatılmadan önce bu gece eve gidelim!' diye haykırdı John.",
+      "notes": "Imperative 'let us go'; temporal passive clause 'before window is barred'."
+    },
+    {
+      "id": 213,
+      "start_ms": 1149020,
+      "end_ms": 1153436,
+      "text": "All the Lost Boys pleaded with Wendy to take them along to London.",
+      "translation": "Bütün Kayıp Çocuklar onları da Londra'ya götürmesi için Wendy'ye yalvardılar.",
+      "notes": "Verb + object + infinitive 'pleaded with Wendy to take'."
+    },
+    {
+      "id": 214,
+      "start_ms": 1153836,
+      "end_ms": 1159188,
+      "text": "'My mother and father will adopt all of you,' promised Wendy with shining eyes.",
+      "translation": "'Annem ve babam hepinizi evlat edinecektir,' diye söz verdi Wendy parıldayan gözlerle.",
+      "notes": "Future modal 'will adopt'; prepositional phrase 'with shining eyes'."
+    },
+    {
+      "id": 215,
+      "start_ms": 1159588,
+      "end_ms": 1164748,
+      "text": "The boys danced for joy, packing their small belongings and hugging Wendy.",
+      "translation": "Oğlanlar küçük eşyalarını toplayıp Wendy'ye sarılarak sevinçten dans ettiler.",
+      "notes": "Coordinate participles 'packing and hugging'; prepositional phrase 'for joy'."
+    },
+    {
+      "id": 216,
+      "start_ms": 1165148,
+      "end_ms": 1170860,
+      "text": "Only Peter stood alone by the fire, looking proud, cold, and detached.",
+      "translation": "Yalnızca Peter ocağın yanında tek başına dikiliyor, gururlu, soğuk ve mesafeli görünüyordu.",
+      "notes": "Coordinate adjectives 'proud, cold, detached'; past verb 'stood'."
+    },
+    {
+      "id": 217,
+      "start_ms": 1171260,
+      "end_ms": 1175628,
+      "text": "'I am not coming with you,' said Peter, 'I will not grow up.'",
+      "translation": "'Sizinle gelmiyorum,' dedi Peter, 'ben büyümeyeceğim.'",
+      "notes": "Present continuous for future; modal refusal 'will not grow up'."
+    },
+    {
+      "id": 218,
+      "start_ms": 1176028,
+      "end_ms": 1180756,
+      "text": "Wendy embraced him with deep sorrow, but Peter turned his face away.",
+      "translation": "Wendy derin bir kederle ona sarıldı fakat Peter yüzünü öbür yana çevirdi.",
+      "notes": "Phrasal verb 'turned away'; prepositional phrase 'with deep sorrow'."
+    },
+    {
+      "id": 219,
+      "start_ms": 1181156,
+      "end_ms": 1186676,
+      "text": "'Goodbye, Wendy,' said Peter calmly, 'have a pleasant journey to the mainland.'",
+      "translation": "'Hoşça kal Wendy,' dedi Peter sakince, 'anakitaya yolculuğun güzel geçsin.'",
+      "notes": "Direct speech; adjective 'pleasant'."
+    },
+    {
+      "id": 220,
+      "start_ms": 1187076,
+      "end_ms": 1192188,
+      "text": "Suddenly, a terrible sound of war and shrieking broke out above ground.",
+      "translation": "Birdenbire yerin üstünden korkunç bir savaş ve çığlık sesi koptu.",
+      "notes": "Phrasal verb 'broke out'; coordinate nouns 'war and shrieking'."
+    },
+    {
+      "id": 221,
+      "start_ms": 1193188,
+      "end_ms": 1198540,
+      "text": "Hook had broken the ancient jungle truce and attacked the Indian camp by surprise.",
+      "translation": "Hook kadim orman barışını bozmuş ve Kızılderili kampına baskınla saldırmıştı.",
+      "notes": "Coordinate past perfect verbs; prepositional phrase 'by surprise'."
+    },
+    {
+      "id": 222,
+      "start_ms": 1198940,
+      "end_ms": 1204148,
+      "text": "The pirates charged with ruthless savagery, scattering the brave warriors.",
+      "translation": "Korsanlar acımasız bir vahşetle hücum ederek cesur savaşçıları darmadağın ettiler.",
+      "notes": "Participial clause 'scattering warriors'; noun phrase 'ruthless savagery'."
+    },
+    {
+      "id": 223,
+      "start_ms": 1204548,
+      "end_ms": 1209924,
+      "text": "Tiger Lily and a few surviving braves fled into the safety of the dark forest.",
+      "translation": "Kaplan Zambağı ve hayatta kalan birkaç savaşçı karanlık ormanın güvenliğine kaçtılar.",
+      "notes": "Participial adjective 'surviving braves'; directional phrase 'into safety'."
+    },
+    {
+      "id": 224,
+      "start_ms": 1210324,
+      "end_ms": 1214884,
+      "text": "Hook knew that the children underground would listen for the victory tam-tam.",
+      "translation": "Hook, yer altındaki çocukların zafer davulunun sesini dinleyeceğini biliyordu.",
+      "notes": "Noun clause 'that children would listen for'; compound noun 'victory tam-tam'."
+    },
+    {
+      "id": 225,
+      "start_ms": 1215284,
+      "end_ms": 1220036,
+      "text": "He ordered a pirate to beat the Indian drum in the rhythm of tribal victory.",
+      "translation": "Bir korsana, Kızılderili davulunu kabile zaferi ritmiyle çalmasını emretti.",
+      "notes": "Verb + object + infinitive 'ordered to beat'; prepositional phrase 'in rhythm'."
+    },
+    {
+      "id": 226,
+      "start_ms": 1220436,
+      "end_ms": 1225380,
+      "text": "Below, Peter and the children heard the beating drum and cheered joyfully.",
+      "translation": "Aşağıda Peter ve çocuklar vuran davul sesini duydular ve neşeyle tezahürat yaptılar.",
+      "notes": "Coordinate past verbs 'heard and cheered'; adverb 'joyfully'."
+    },
+    {
+      "id": 227,
+      "start_ms": 1225780,
+      "end_ms": 1230772,
+      "text": "'The redskins have won!' cried Peter, 'it is safe for you to go now!'",
+      "translation": "'Kızılderililer kazandı!' diye bağırdı Peter, 'artık gitmeniz güvenli!'",
+      "notes": "Present perfect 'have won'; dummy subject 'it is safe for you'."
+    },
+    {
+      "id": 228,
+      "start_ms": 1231172,
+      "end_ms": 1235948,
+      "text": "One by one, the boys scrambled up through their hollow tree trunks.",
+      "translation": "Oğlanlar birer birer oyuk ağaç gövdelerinden yukarı tırmandılar.",
+      "notes": "Frequency idiom 'one by one'; phrasal verb 'scrambled up through'."
+    },
+    {
+      "id": 229,
+      "start_ms": 1236348,
+      "end_ms": 1241388,
+      "text": "As each boy emerged into the open air, rough pirate hands seized him.",
+      "translation": "Her bir çocuk açık havaya çıktığında, kaba korsan elleri onu yakaladı.",
+      "notes": "Time clause with 'as'; past verb 'seized'."
+    },
+    {
+      "id": 230,
+      "start_ms": 1241788,
+      "end_ms": 1247524,
+      "text": "They were gagged, bound with heavy cords, and tossed aside like sacks of flour.",
+      "translation": "Ağızları tıkandı, kalın iplerle bağlandılar ve un çuvalları gibi bir kenara fırlatıldılar.",
+      "notes": "Series of passive past verbs; simile 'like sacks of flour'."
+    },
+    {
+      "id": 231,
+      "start_ms": 1247924,
+      "end_ms": 1253372,
+      "text": "Wendy was captured last, treated with mock politeness by Captain Hook himself.",
+      "translation": "En son Wendy yakalandı; bizzat Kaptan Hook tarafından sahte bir nezaketle muamele gördü.",
+      "notes": "Passive participle phrase 'treated with mock politeness'; emphatic reflexive."
+    },
+    {
+      "id": 232,
+      "start_ms": 1253772,
+      "end_ms": 1258380,
+      "text": "The pirates marched the helpless children away toward the Jolly Roger.",
+      "translation": "Korsanlar çaresiz çocukları Jolly Roger gemisine doğru yürütüp götürdüler.",
+      "notes": "Directional prepositional phrase 'toward the Jolly Roger'."
+    },
+    {
+      "id": 233,
+      "start_ms": 1258780,
+      "end_ms": 1263916,
+      "text": "Hook remained behind alone, gazing down into Peter's hollow entrance tree.",
+      "translation": "Hook geride yapayalnız kaldı, Peter'ın oyuk giriş ağacından aşağıya doğru baktı.",
+      "notes": "Coordinate participles 'gazing down'; adjective 'alone'."
+    },
+    {
+      "id": 234,
+      "start_ms": 1264316,
+      "end_ms": 1269044,
+      "text": "He squeezed his lean body through the narrow hole and dropped into the room.",
+      "translation": "Zayıf bedenini dar delikten içeri soktu ve odanın içine indi.",
+      "notes": "Coordinate past verbs 'squeezed and dropped'."
+    },
+    {
+      "id": 235,
+      "start_ms": 1269444,
+      "end_ms": 1274868,
+      "text": "Peter was fast asleep on the large bed, breathing softly with his dagger near.",
+      "translation": "Peter koca yatağın üzerinde derin uykudaydı, hançeri yanında usulca nefes alıyordu.",
+      "notes": "Absolute phrase 'with dagger near'; idiom 'fast asleep'."
+    },
+    {
+      "id": 236,
+      "start_ms": 1275268,
+      "end_ms": 1280260,
+      "text": "Hook noticed a glass containing Peter's nightly medicinal draught on the table.",
+      "translation": "Hook masanın üzerinde Peter'ın her gece içtiği şifalı ilacını içeren bardağı fark etti.",
+      "notes": "Participial adjective 'containing draught'; past verb 'noticed'."
+    },
+    {
+      "id": 237,
+      "start_ms": 1280660,
+      "end_ms": 1286300,
+      "text": "He pulled a tiny yellow vial of deadly poison from his pocket with a sinister smile.",
+      "translation": "Uğursuz bir tebessümle cebinden öldürücü zehirle dolu minik sarı bir şişe çıkardı.",
+      "notes": "Prepositional phrase 'with a sinister smile'; compound noun 'deadly poison'."
+    },
+    {
+      "id": 238,
+      "start_ms": 1286700,
+      "end_ms": 1291284,
+      "text": "He poured five drops of the lethal liquid into Peter's medicine cup.",
+      "translation": "Peter'ın ilaç fincanına bu ölümcül sıvıdan beş damla damlattı.",
+      "notes": "Past verb 'poured'; compound noun 'lethal liquid'."
+    },
+    {
+      "id": 239,
+      "start_ms": 1291684,
+      "end_ms": 1297228,
+      "text": "'Now, Peter Pan,' whispered Hook maliciously, 'sleep thy eternal sleep!'",
+      "translation": "'Şimdi Peter Pan,' diye fısıldadı Hook sinsice, 'sonsuz uykunu uyu!'",
+      "notes": "Archaic possessive 'thy eternal sleep'; adverb 'maliciously'."
+    },
+    {
+      "id": 240,
+      "start_ms": 1297628,
+      "end_ms": 1302956,
+      "text": "Hook climbed back out into the night, leaving the doomed hero sleeping peacefully.",
+      "translation": "Hook karanlık gecenin içine geri tırmandı; kaderine mahkum kahramanı huzurla uyur bıraktı.",
+      "notes": "Participle clause 'leaving hero sleeping'; participial adjective 'doomed'."
+    },
+    {
+      "id": 241,
+      "start_ms": 1303956,
+      "end_ms": 1308444,
+      "text": "Peter woke up suddenly, hearing a soft tapping at his door.",
+      "translation": "Peter kapısında hafif bir tıkırtı duyarak aniden uyandı.",
+      "notes": "Participle phrase 'hearing a tapping'; adverb 'suddenly'."
+    },
+    {
+      "id": 242,
+      "start_ms": 1308844,
+      "end_ms": 1313740,
+      "text": "He let in Tinker Bell, who was flying wildly in frantic distress.",
+      "translation": "Çılgınca panik içinde uçuşan Tinker Bell'i içeri aldı.",
+      "notes": "Relative clause with past continuous 'who was flying wildly'."
+    },
+    {
+      "id": 243,
+      "start_ms": 1314140,
+      "end_ms": 1319204,
+      "text": "'Wendy and the boys have been captured by the pirates!' she rang out frantically.",
+      "translation": "'Wendy ve çocuklar korsanlar tarafından esir alındı!' diye çan gibi çaldı çılgınca.",
+      "notes": "Present perfect passive 'have been captured'; adverb 'frantically'."
+    },
+    {
+      "id": 244,
+      "start_ms": 1319604,
+      "end_ms": 1324452,
+      "text": "Peter sprang to his feet, buckling on his sword with blazing determination.",
+      "translation": "Peter alev alev yanan bir kararlılıkla kılıcını kuşanarak ayağa fırladı.",
+      "notes": "Participle phrase 'buckling on his sword'; idiom 'sprang to his feet'."
+    },
+    {
+      "id": 245,
+      "start_ms": 1324852,
+      "end_ms": 1330036,
+      "text": "'I will rescue them!' cried Peter, 'I will save Wendy or die trying!'",
+      "translation": "'Onları kurtaracağım!' diye haykırdı Peter, 'Wendy'yi kurtaracağım ya da denerken öleceğim!'",
+      "notes": "Future coordinate declarations; idiom 'die trying'."
+    },
+    {
+      "id": 246,
+      "start_ms": 1330436,
+      "end_ms": 1334444,
+      "text": "He reached for his cup of medicine to drink before departing.",
+      "translation": "Yola çıkmadan önce içmek için ilaç fincanına uzandı.",
+      "notes": "Phrasal verb 'reached for'; preposition 'before departing'."
+    },
+    {
+      "id": 247,
+      "start_ms": 1334844,
+      "end_ms": 1339548,
+      "text": "'No, Peter!' shrieked Tinker Bell, 'Hook has poisoned it!'",
+      "translation": "'Hayır Peter!' diye çığlık attı Tinker Bell, 'Hook onu zehirledi!'",
+      "notes": "Present perfect 'has poisoned'; direct speech."
+    },
+    {
+      "id": 248,
+      "start_ms": 1339948,
+      "end_ms": 1344916,
+      "text": "Peter laughed in disbelief: 'Hook could never get down here into our home.'",
+      "translation": "Peter inanmazlıkla güldü: 'Hook bizim evimize buraya asla inemezdi.'",
+      "notes": "Modal 'could never get down'; noun phrase 'in disbelief'."
+    },
+    {
+      "id": 249,
+      "start_ms": 1345316,
+      "end_ms": 1349900,
+      "text": "He raised the cup to his lips, but Tinker Bell darted between them.",
+      "translation": "Fincanı dudaklarına götürdü fakat Tinker Bell fincanla dudaklarının arasına daldı.",
+      "notes": "Coordinate past verbs 'raised and darted'; preposition 'between them'."
+    },
+    {
+      "id": 250,
+      "start_ms": 1350300,
+      "end_ms": 1355340,
+      "text": "She drank the entire poisonous draught in one single, heroic gulp.",
+      "translation": "Bütün zehirli ilacı tek bir kahramanca yudumda dikip içti.",
+      "notes": "Adjective pair 'entire poisonous'; noun phrase 'heroic gulp'."
+    },
+    {
+      "id": 251,
+      "start_ms": 1355740,
+      "end_ms": 1360132,
+      "text": "'Tink, why did you do that?' cried Peter in sudden terror.",
+      "translation": "'Tink, bunu neden yaptın?' diye haykırdı Peter ani bir dehşet içinde.",
+      "notes": "Past question; prepositional phrase 'in sudden terror'."
+    },
+    {
+      "id": 252,
+      "start_ms": 1360532,
+      "end_ms": 1365596,
+      "text": "The fairy fluttered down to the tabletop, her golden light fading fast.",
+      "translation": "Perinin altın ışığı hızla sönerek masanın üzerine doğru kanat çırparak düştü.",
+      "notes": "Absolute construction 'her light fading fast'; phrasal verb 'fluttered down'."
+    },
+    {
+      "id": 253,
+      "start_ms": 1365996,
+      "end_ms": 1371204,
+      "text": "'It was poisoned, Peter,' she whispered in a tiny, dying voice.",
+      "translation": "'Zehirliydi Peter,' diye fısıldadı minicik, tükenen bir sesle.",
+      "notes": "Prepositional phrase 'in a dying voice'; passive fact."
+    },
+    {
+      "id": 254,
+      "start_ms": 1371604,
+      "end_ms": 1375612,
+      "text": "'And I think I get well again if children believe in fairies.'",
+      "translation": "'Ve sanırım çocuklar perilere inanırsa ben yeniden iyileşirim.'",
+      "notes": "Conditional clause 'if children believe'; present simple."
+    },
+    {
+      "id": 255,
+      "start_ms": 1376012,
+      "end_ms": 1380956,
+      "text": "Peter turned to the dark sleeping world outside and cried with all his soul.",
+      "translation": "Peter dışarıdaki karanlık uyuyan dünyaya döndü ve bütün ruhuyla haykırdı.",
+      "notes": "Coordinate past verbs 'turned and cried'; phrase 'with all his soul'."
+    },
+    {
+      "id": 256,
+      "start_ms": 1381356,
+      "end_ms": 1386804,
+      "text": "'Do you believe in fairies?' shouted Peter to every child dreaming across the earth.",
+      "translation": "'Perilere inanıyor musunuz?' diye yeryüzünde rüya gören her bir çocuğa haykırdı Peter.",
+      "notes": "Direct address question; participial phrase 'dreaming across the earth'."
+    },
+    {
+      "id": 257,
+      "start_ms": 1387204,
+      "end_ms": 1392556,
+      "text": "'If you believe, clap your hands! Do not let Tink die!'",
+      "translation": "'Eğer inanıyorsanız ellerinizi çırpın! Tink'in ölmesine izin vermeyin!'",
+      "notes": "Imperative commands; negative imperative 'do not let die'."
+    },
+    {
+      "id": 258,
+      "start_ms": 1392956,
+      "end_ms": 1398332,
+      "text": "From millions of nurseries across the sleeping world came a roar of clapping hands.",
+      "translation": "Uyuyan dünyanın dört bir yanındaki milyonlarca çocuk odasından alkış seslerinin gürültüsü yükseldi.",
+      "notes": "Inverted locative sentence; noun phrase 'roar of clapping hands'."
+    },
+    {
+      "id": 259,
+      "start_ms": 1398732,
+      "end_ms": 1404564,
+      "text": "Tinker Bell's light flashed brilliant, green and bright once more with bursting life.",
+      "translation": "Tinker Bell'in ışığı coşan bir hayatla bir kez daha zümrüt gibi parlak ve ışıl ışıl yandı.",
+      "notes": "Coordinate adjectives 'brilliant, green, bright'; phrase 'with bursting life'."
+    },
+    {
+      "id": 260,
+      "start_ms": 1404964,
+      "end_ms": 1410244,
+      "text": "'Now for Captain Hook!' swore Peter, drawing his sword with deadly fury.",
+      "translation": "'Şimdi sıra Kaptan Hook'ta!' diye ant içti Peter, ölümcül bir öfkeyle kılıcını çekerek.",
+      "notes": "Idiom 'Now for...'; participle phrase 'drawing his sword'."
+    },
+    {
+      "id": 261,
+      "start_ms": 1411244,
+      "end_ms": 1415972,
+      "text": "The Jolly Roger lay anchored under the misty moon in complete silence.",
+      "translation": "Jolly Roger puslu ayın altında tam bir sessizlik içinde demirli yatıyordu.",
+      "notes": "Copular past 'lay anchored'; prepositional phrase 'in silence'."
+    },
+    {
+      "id": 262,
+      "start_ms": 1416372,
+      "end_ms": 1421724,
+      "text": "The plank was prepared, extending out over the dark, shark-infested sea.",
+      "translation": "Karanlık, köpekbalıklarıyla kaynayan denizin üzerine doğru uzanan tahta hazırlanmıştı.",
+      "notes": "Passive voice 'was prepared'; participle modifier 'extending out'."
+    },
+    {
+      "id": 263,
+      "start_ms": 1422124,
+      "end_ms": 1426300,
+      "text": "Hook gloated over the bound children lined up upon the wooden deck.",
+      "translation": "Hook ahşap güvertede sıraya dizilmiş bağlı çocuklara bakıp kıs kıs güldü.",
+      "notes": "Phrasal verb 'gloated over'; participle modifier 'lined up upon deck'."
+    },
+    {
+      "id": 264,
+      "start_ms": 1426700,
+      "end_ms": 1431692,
+      "text": "'Six of you will walk the plank tonight!' sneered the cruel pirate captain.",
+      "translation": "'Altınız bu gece tahtadan denize yürüyecek!' diye alayla sırıttı zalim korsan kaptan.",
+      "notes": "Future modal 'will walk'; adjective 'cruel'."
+    },
+    {
+      "id": 265,
+      "start_ms": 1432092,
+      "end_ms": 1437036,
+      "text": "Wendy stood proudly, refusing to show a single tear of weakness.",
+      "translation": "Wendy tek bir zayıflık gözyaşı bile göstermeyi reddederek başı dik durdu.",
+      "notes": "Adverb 'proudly'; participle clause 'refusing to show'."
+    },
+    {
+      "id": 266,
+      "start_ms": 1437436,
+      "end_ms": 1443028,
+      "text": "Suddenly, from the water beneath the ship came a terrifying sound: 'Tick-tick-tick!'",
+      "translation": "Birdenbire geminin altındaki sudan dehşet verici bir ses geldi: 'Tık-tık-tık!'",
+      "notes": "Inverted sentence; onomatopoeic quotation."
+    },
+    {
+      "id": 267,
+      "start_ms": 1443428,
+      "end_ms": 1448684,
+      "text": "Hook cowered against the mainmast, shuddering in absolute paralyzed horror.",
+      "translation": "Hook ana direğin dibine sindi, tam bir felç edici dehşet içinde titredi.",
+      "notes": "Phrasal verb 'cowered against'; participle phrase 'shuddering in horror'."
+    },
+    {
+      "id": 268,
+      "start_ms": 1449084,
+      "end_ms": 1454124,
+      "text": "The pirates covered their faces, waiting for the dreaded crocodile to board.",
+      "translation": "Korsanlar korkunç timsahın gemiye çıkmasını bekleyerek yüzlerini kapattılar.",
+      "notes": "Participle phrase 'waiting for crocodile to board'."
+    },
+    {
+      "id": 269,
+      "start_ms": 1454524,
+      "end_ms": 1460716,
+      "text": "It was not the beast, but Peter Pan himself, imitating the clock as he climbed the chains.",
+      "translation": "Gelen canavar değil, zincirlere tırmanırken saati taklit eden Peter Pan'ın ta kendisiydi.",
+      "notes": "Negative contrast 'not... but'; participle clause 'imitating clock'."
+    },
+    {
+      "id": 270,
+      "start_ms": 1461116,
+      "end_ms": 1465916,
+      "text": "Peter slipped into the dark cabin and armed himself with pirate swords.",
+      "translation": "Peter karanlık kamaraya süzüldü ve kendini korsan kılıçlarıyla silahlandırdı.",
+      "notes": "Coordinate past verbs 'slipped and armed'."
+    },
+    {
+      "id": 271,
+      "start_ms": 1466316,
+      "end_ms": 1471764,
+      "text": "One by one, pirates sent into the cabin were struck down in total darkness.",
+      "translation": "Kamaraya gönderilen korsanlar zifiri karanlıkta birer birer yere serildiler.",
+      "notes": "Passive voice 'were struck down'; prepositional phrase 'in total darkness'."
+    },
+    {
+      "id": 272,
+      "start_ms": 1472164,
+      "end_ms": 1477444,
+      "text": "Peter sprang out upon the open deck, freeing the boys with swift slashes.",
+      "translation": "Peter açık güverteye fırladı, seri darbelerle oğlanların bağlarını kesti.",
+      "notes": "Phrasal verb 'sprang out upon'; participle phrase 'freeing boys'."
+    },
+    {
+      "id": 273,
+      "start_ms": 1477844,
+      "end_ms": 1484084,
+      "text": "'I am youth, I am joy, I am a little bird that has broken out of the egg!' cried Peter.",
+      "translation": "'Ben gençliğim, ben neşeyim, ben yumurtasını kırmış minik bir kuşum!' diye haykırdı Peter.",
+      "notes": "Series of poetic metaphors celebrating freedom."
+    },
+    {
+      "id": 274,
+      "start_ms": 1484484,
+      "end_ms": 1490220,
+      "text": "The battle raged across the deck, boys and pirates clashing in wild combat.",
+      "translation": "Savaş güverte boyunca alevlendi; çocuklar ve korsanlar vahşi bir çarpışmayla kılıç tokuşturdular.",
+      "notes": "Absolute construction 'boys and pirates clashing'."
+    },
+    {
+      "id": 275,
+      "start_ms": 1490620,
+      "end_ms": 1496044,
+      "text": "The Lost Boys fought bravely, driving the superstitious pirates into the sea.",
+      "translation": "Kayıp Çocuklar cesurca savaştılar, batıl inançlı korsanları denize döktüler.",
+      "notes": "Participle phrase 'driving pirates into sea'."
+    },
+    {
+      "id": 276,
+      "start_ms": 1496444,
+      "end_ms": 1500932,
+      "text": "Peter crossed blades with Captain Hook in the final decisive duel.",
+      "translation": "Peter son ve belirleyici düelloda Kaptan Hook ile kılıç kılıca geldi.",
+      "notes": "Idiom 'crossed blades with'; adjective pair 'final decisive'."
+    },
+    {
+      "id": 277,
+      "start_ms": 1501332,
+      "end_ms": 1506468,
+      "text": "Hook fought with wicked fury, but Peter's agility was too much for the tyrant.",
+      "translation": "Hook hain bir öfkeyle savaştı fakat Peter'ın çevikliği tiran için fazlaydı.",
+      "notes": "Coordinate clauses with 'but'; noun 'agility'."
+    },
+    {
+      "id": 278,
+      "start_ms": 1506868,
+      "end_ms": 1511068,
+      "text": "Peter disarmed Hook and pushed him backward to the edge of the ship.",
+      "translation": "Peter Hook'un silahını düşürdü ve onu geminin kenarına doğru geri itti.",
+      "notes": "Coordinate past verbs 'disarmed and pushed'."
+    },
+    {
+      "id": 279,
+      "start_ms": 1511468,
+      "end_ms": 1516532,
+      "text": "Hook saw the real crocodile waiting in the black water with jaws wide open.",
+      "translation": "Hook gerçek timsahın kara suda çeneleri ardına kadar açık halde beklediğini gördü.",
+      "notes": "Perception verb 'saw' + participle 'waiting with jaws open'."
+    },
+    {
+      "id": 280,
+      "start_ms": 1516932,
+      "end_ms": 1522092,
+      "text": "With a final shriek of terror, Hook plunged into the waiting monster's mouth.",
+      "translation": "Son bir dehşet çığlığıyla Hook, bekleyen canavarın ağzının içine yuvarlandı.",
+      "notes": "Prepositional phrase 'with a shriek'; past verb 'plunged into'."
+    },
+    {
+      "id": 281,
+      "start_ms": 1523092,
+      "end_ms": 1528300,
+      "text": "The Jolly Roger was theirs now, and Peter took the helm dressed as a captain.",
+      "translation": "Jolly Roger artık onlarındı ve Peter bir kaptan gibi giyinmiş halde dümene geçti.",
+      "notes": "Coordinate clauses; passive participle 'dressed as a captain'."
+    },
+    {
+      "id": 282,
+      "start_ms": 1528700,
+      "end_ms": 1534796,
+      "text": "With Wendy, John, Michael, and the Lost Boys aboard, they sailed through the sky.",
+      "translation": "Wendy, John, Michael ve Kayıp Çocuklar güvertedeyken gökyüzünde yelken açtılar.",
+      "notes": "Absolute phrase 'with everyone aboard'; phrasal verb 'sailed through'."
+    },
+    {
+      "id": 283,
+      "start_ms": 1535196,
+      "end_ms": 1540020,
+      "text": "The pirate ship flew gracefully on fairy dust all the way back to London.",
+      "translation": "Korsan gemisi peri tozu sayesinde Londra'ya kadar gökyüzünde zarifçe uçtu.",
+      "notes": "Prepositional phrases indicating means and destination."
+    },
+    {
+      "id": 284,
+      "start_ms": 1540420,
+      "end_ms": 1545556,
+      "text": "Meanwhile in the nursery, Mrs. Darling sat sadly by the open window.",
+      "translation": "Bu esnada çocuk odasında Bayan Darling hüzünle açık pencerenin yanında oturuyordu.",
+      "notes": "Adverbs 'meanwhile' and 'sadly'; prepositional phrase 'by the window'."
+    },
+    {
+      "id": 285,
+      "start_ms": 1545956,
+      "end_ms": 1550972,
+      "text": "She had never closed the window, hoping and praying for her children's return.",
+      "translation": "Çocuklarının dönüşünü umarak ve dua ederek pencereyi hiçbir zaman kapatmamıştı.",
+      "notes": "Past perfect with 'never'; coordinate participles 'hoping and praying'."
+    },
+    {
+      "id": 286,
+      "start_ms": 1551372,
+      "end_ms": 1556532,
+      "text": "Peter flew ahead into the room first, intending to lock the window against them.",
+      "translation": "Peter ilk önce odaya uçtu, pencereyi onların yüzüne kilitlemeye niyetliydi.",
+      "notes": "Infinitive of purpose 'to lock against them'; participle 'intending'."
+    },
+    {
+      "id": 287,
+      "start_ms": 1556932,
+      "end_ms": 1562164,
+      "text": "He saw Mrs. Darling's sleeping face, marked with two sorrowful tears.",
+      "translation": "Bayan Darling'in kederli iki damla gözyaşıyla iz bırakmış uyuyan yüzünü gördü.",
+      "notes": "Perception verb 'saw' + past participle 'marked with tears'."
+    },
+    {
+      "id": 288,
+      "start_ms": 1562564,
+      "end_ms": 1567796,
+      "text": "'She loves them so much,' murmured Peter, 'she needs Wendy more than I do.'",
+      "translation": "'Onları öyle çok seviyor ki,' diye mırıldandı Peter, 'Wendy'ye benden daha çok ihtiyacı var.'",
+      "notes": "Result clause 'loves so much'; comparative 'more than I do'."
+    },
+    {
+      "id": 289,
+      "start_ms": 1568196,
+      "end_ms": 1573404,
+      "text": "With a noble pang of selflessness, Peter threw the window wide open again.",
+      "translation": "Soylu bir fedakarlık sızısıyla Peter pencereyi bir kez daha ardına kadar açtı.",
+      "notes": "Prepositional phrase 'with a pang of selflessness'; adverb 'wide open'."
+    },
+    {
+      "id": 290,
+      "start_ms": 1573804,
+      "end_ms": 1578340,
+      "text": "The three Darling children slipped through the window into their little beds.",
+      "translation": "Üç Darling çocuğu pencereden süzülerek küçük yataklarının içine girdiler.",
+      "notes": "Phrasal verb 'slipped through into'; possessive 'their beds'."
+    },
+    {
+      "id": 291,
+      "start_ms": 1578740,
+      "end_ms": 1583540,
+      "text": "When Mrs. Darling opened her eyes, she thought she was still dreaming.",
+      "translation": "Bayan Darling gözlerini açtığında hala rüya gördüğünü sandı.",
+      "notes": "Time clause 'when she opened'; noun clause 'she was dreaming'."
+    },
+    {
+      "id": 292,
+      "start_ms": 1583940,
+      "end_ms": 1589532,
+      "text": "Her children jumped into her arms, weeping, kissing, and laughing with joy.",
+      "translation": "Çocukları kucağına atıldılar; ağlayarak, öperek ve sevinçle gülerek.",
+      "notes": "Series of participles describing emotional reunion."
+    },
+    {
+      "id": 293,
+      "start_ms": 1589932,
+      "end_ms": 1595524,
+      "text": "Mr. Darling and Nana rushed in, and the nursery erupted in tears of gratitude.",
+      "translation": "Bay Darling ve Nana içeri koştular ve çocuk odası şükran gözyaşlarıyla dolup taştı.",
+      "notes": "Coordinate past verbs 'rushed in and erupted'."
+    },
+    {
+      "id": 294,
+      "start_ms": 1595924,
+      "end_ms": 1600820,
+      "text": "The Lost Boys were all adopted into the family and promised to go to school.",
+      "translation": "Kayıp Çocukların hepsi aileye evlat edinildiler ve okula gitmeye söz verdiler.",
+      "notes": "Passive voice 'were adopted'; verb + infinitive 'promised to go'."
+    },
+    {
+      "id": 295,
+      "start_ms": 1601220,
+      "end_ms": 1606452,
+      "text": "Peter stood outside on the balcony, watching the happy family through the glass.",
+      "translation": "Peter dışarıda balkonda durmuş, camın ardından bu mutlu aileyi izliyordu.",
+      "notes": "Participle clause 'watching through glass'; adjective 'happy'."
+    },
+    {
+      "id": 296,
+      "start_ms": 1606852,
+      "end_ms": 1611796,
+      "text": "He knew that they would all grow up soon, but he would remain young forever.",
+      "translation": "Hepsinin çok geçmeden büyüyeceğini biliyordu, fakat kendisi sonsuza dek genç kalacaktı.",
+      "notes": "Noun clauses contrasting temporal destinies; modal 'would remain'."
+    },
+    {
+      "id": 297,
+      "start_ms": 1612196,
+      "end_ms": 1617044,
+      "text": "Wendy promised to fly with him to Neverland every spring for spring-cleaning.",
+      "translation": "Wendy bahar temizliği için her ilkbaharda onunla birlikte Varolmayan Ülke'ye uçmaya söz verdi.",
+      "notes": "Verb + infinitive 'promised to fly'; prepositional phrase 'for spring-cleaning'."
+    },
+    {
+      "id": 298,
+      "start_ms": 1617444,
+      "end_ms": 1621884,
+      "text": "Peter took out the acorn button and touched it gently to his lips.",
+      "translation": "Peter meşe palamudu düğmesini çıkardı ve onu usulca dudaklarına değdirdi.",
+      "notes": "Coordinate past verbs 'took out and touched'; adverb 'gently'."
+    },
+    {
+      "id": 299,
+      "start_ms": 1622284,
+      "end_ms": 1626964,
+      "text": "He crowed one last triumphant crow and flew off into the starry night.",
+      "translation": "Son bir muzaffer horoz sesi koyuverdi ve yıldızlı gecenin içine doğru uçup gitti.",
+      "notes": "Coordinate past verbs 'crowed and flew off'; compound adjective 'starry night'."
+    },
+    {
+      "id": 300,
+      "start_ms": 1627364,
+      "end_ms": 1632884,
+      "text": "And so long as children are gay and innocent and heartless, Peter Pan will fly.",
+      "translation": "Ve çocuklar neşeli, masum ve kalpsiz oldukları müddetçe Peter Pan uçmaya devam edecektir.",
+      "notes": "Famous concluding line of the book; conditional 'so long as'."
+    }
+  ]
+}
