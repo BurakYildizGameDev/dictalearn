@@ -164,6 +164,13 @@ const PRESET_LESSONS: PresetLesson[] = [
     pdfUrl: '/lessons/book_21_around_the_world_in_eighty_days/book_21_around_the_world_in_eighty_days.pdf',
   },
   {
+    id: 'book_22_a_christmas_carol',
+    name: "22. A Christmas Carol (15 Sayfa / 300 Cümle)",
+    jsonUrl: '/lessons/book_22_a_christmas_carol/lesson.json',
+    audioUrl: '/lessons/book_22_a_christmas_carol/audio.mp3',
+    pdfUrl: '/lessons/book_22_a_christmas_carol/book_22_a_christmas_carol.pdf',
+  },
+  {
     id: 'sample_ch01',
     name: 'Demo: The Departure (6 Cümle)',
     jsonUrl: '/lessons/sample_ch01/lesson.json',
