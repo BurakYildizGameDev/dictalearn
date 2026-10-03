@@ -38,6 +38,13 @@ const PRESET_LESSONS: PresetLesson[] = [
     pdfUrl: '/lessons/book_03_the_nightingale_and_the_rose/book_03_the_nightingale_and_the_rose.pdf',
   },
   {
+    id: 'book_04_the_devoted_friend',
+    name: '4. The Devoted Friend (15 Sayfa / 300 Cümle)',
+    jsonUrl: '/lessons/book_04_the_devoted_friend/lesson.json',
+    audioUrl: '/lessons/book_04_the_devoted_friend/audio.mp3',
+    pdfUrl: '/lessons/book_04_the_devoted_friend/book_04_the_devoted_friend.pdf',
+  },
+  {
     id: 'sample_ch01',
     name: 'Demo: The Departure (6 Cümle)',
     jsonUrl: '/lessons/sample_ch01/lesson.json',
