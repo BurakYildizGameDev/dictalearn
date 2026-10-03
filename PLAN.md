@@ -201,10 +201,10 @@ export interface AudioEngine {
 
 **Amaç:** Android telefonda örnek dersin dokunmatik ve klavye desteğiyle yerel olarak çalışılabilmesi.
 
-- [ ] **F2.1 Android Veri Modelleri:** Kotlin veri sınıfları ve `lesson.json` ayrıştırıcısı.
-- [ ] **F2.2 Android Diff Motoru:** Kotlin veya C++ NDK tabanlı Levenshtein diff motoru ve birim testleri.
-- [ ] **F2.3 Android Ses Motoru:** Media3 / ExoPlayer (veya Oboe C++) ile milisaniye hassasiyetli aralık çalma.
-- [ ] **F2.4 Android Jetpack Compose Ekranı:** Dikte giriş kutusu, diff görselleştirmesi ve kontrol butonları.
+- [x] **F2.1 Android Veri Modelleri:** Kotlin veri sınıfları ve `lesson.json` ayrıştırıcısı.
+- [x] **F2.2 Android Diff Motoru:** Kotlin veya C++ NDK tabanlı Levenshtein diff motoru ve birim testleri.
+- [x] **F2.3 Android Ses Motoru:** Media3 / ExoPlayer (veya Oboe C++) ile milisaniye hassasiyetli aralık çalma.
+- [x] **F2.4 Android Jetpack Compose Ekranı:** Dikte giriş kutusu, diff görselleştirmesi ve kontrol butonları.
 - [ ] **F2.5 👤 Android Cihaz/Emülatör Testi:** APK'nın telefonda çalıştırılıp ses ve yazma akışının doğrulanması.
 
 ---
