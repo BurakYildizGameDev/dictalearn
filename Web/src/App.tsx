@@ -185,6 +185,13 @@ const PRESET_LESSONS: PresetLesson[] = [
     pdfUrl: '/lessons/book_24_white_fang/book_24_white_fang.pdf',
   },
   {
+    id: 'book_25_the_time_machine',
+    name: "25. The Time Machine (15 Sayfa / 300 Cümle)",
+    jsonUrl: '/lessons/book_25_the_time_machine/lesson.json',
+    audioUrl: '/lessons/book_25_the_time_machine/audio.mp3',
+    pdfUrl: '/lessons/book_25_the_time_machine/book_25_the_time_machine.pdf',
+  },
+  {
     id: 'sample_ch01',
     name: 'Demo: The Departure (6 Cümle)',
     jsonUrl: '/lessons/sample_ch01/lesson.json',
