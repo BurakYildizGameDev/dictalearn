@@ -80,6 +80,13 @@ const PRESET_LESSONS: PresetLesson[] = [
     pdfUrl: '/lessons/book_09_grimms_fairy_tales/book_09_grimms_fairy_tales.pdf',
   },
   {
+    id: 'book_10_hans_christian_andersen',
+    name: "10. Hans Christian Andersen (15 Sayfa / 300 Cümle)",
+    jsonUrl: '/lessons/book_10_hans_christian_andersen/lesson.json',
+    audioUrl: '/lessons/book_10_hans_christian_andersen/audio.mp3',
+    pdfUrl: '/lessons/book_10_hans_christian_andersen/book_10_hans_christian_andersen.pdf',
+  },
+  {
     id: 'sample_ch01',
     name: 'Demo: The Departure (6 Cümle)',
     jsonUrl: '/lessons/sample_ch01/lesson.json',
