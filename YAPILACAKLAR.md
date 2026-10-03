@@ -13,7 +13,7 @@ Bu belge, **DictaLearn** projesinde bir sonraki oturumda uygulanacak olan **Faz 
 [TAMAMLANDI] Faz 3: Kullanıcı Deneyimi, Shadowing & Hata Defteri
 [TAMAMLANDI] Faz 4: Ders Oluşturucu & Dışa Aktarma (SRT/VTT + Zip)
 ═════════════════════════════════════════════════════════════════
-[SIRADA]     Faz 5: 100 Kitaplık Multimedya Kütüphanesi (PDF + WAV + MP4 + JSON)
+[SIRADA]     Faz 5: 100 Kitaplık Multimedya Kütüphanesi (PDF + WAV + MP3 + JSON)
 [SIRADA]     Faz 6: İkili Çalışma Modu (Kelime Kelime vs Cümle Cümle)
 [SIRADA]     Faz 7: Akıllı Türkçe Çeviri Sistemi (Android ML Kit & Web Sözlük)
 [SIRADA]     Faz 8: Yayın ve Paketleme (GitHub Pages & Release APK)
@@ -21,41 +21,41 @@ Bu belge, **DictaLearn** projesinde bir sonraki oturumda uygulanacak olan **Faz 
 
 ---
 
-## 📚 Faz 5 — 100 Kitaplık Multimedya Kütüphanesi (PDF + WAV + MP4 + JSON)
+## 📚 Faz 5 — 100 Kitaplık Multimedya Kütüphanesi (PDF + WAV + MP3 + JSON)
 
-**Amaç:** 100 kitabın her biri için stüdyo kalitesinde insansı seslendirme (WAV), profesyonel dizgili PDF kitap ve altyazılı senkronize MP4 video eşliğinde kademelendirilmiş eksiksiz bir öğrenme kütüphanesi oluşturmak.
+**Amaç:** 100 kitabın her biri için stüdyo kalitesinde insansı seslendirme (WAV & MP3), profesyonel dizgili PDF kitap ve şema uyumlu ders verisi eşliğinde kademelendirilmiş eksiksiz bir öğrenme kütüphanesi oluşturmak.
 
 ### Kütüphane Kademeleri:
 1. **25 Kitap x 15 Sayfa (Seviye 1 — Başlangıç / A1-A2)**:
    - Kısa fabllar, basitleştirilmiş dünya masalları ve temel diyaloglar.
-   - Her kitap için: **15 Sayfa PDF Kitap + Stüdyo WAV Sesi + Senkronize MP4 Video + JSON**.
+   - Her kitap için: **15 Sayfa PDF Kitap + Stüdyo WAV & MP3 Sesi + JSON**.
    - Örnekler: *The Happy Prince*, *The Selfish Giant*, *Aesop's Classic Fables*, *The Tortoise and the Hare*, *The Little Red Hen*.
 2. **25 Kitap x 25 Sayfa (Seviye 2 — Orta-Alt / B1)**:
    - Popüler kısa klasikler ve macera öyküleri.
-   - Her kitap için: **25 Sayfa PDF Kitap + Stüdyo WAV Sesi + Senkronize MP4 Video + JSON**.
+   - Her kitap için: **25 Sayfa PDF Kitap + Stüdyo WAV & MP3 Sesi + JSON**.
    - Örnekler: *A Scandal in Bohemia (Sherlock Holmes)*, *The Gift of the Magi*, *White Fang (Adapted)*, *The Secret Garden (Ch. 1-3)*.
 3. **25 Kitap x 35 Sayfa (Seviye 3 — Orta / B2)**:
    - Orta seviye edebi öyküler, gizem ve denemeler.
-   - Her kitap için: **35 Sayfa PDF Kitap + Stüdyo WAV Sesi + Senkronize MP4 Video + JSON**.
+   - Her kitap için: **35 Sayfa PDF Kitap + Stüdyo WAV & MP3 Sesi + JSON**.
    - Örnekler: *The Red-Headed League*, *The Picture of Dorian Gray (Selection)*, *The Time Machine (H.G. Wells)*.
 4. **25 Kitap x 50 Sayfa (Seviye 4 — İleri / C1)**:
    - İleri seviye orijinal roman bölümleri, felsefi ve edebi başyapıtlar.
-   - Her kitap için: **50 Sayfa PDF Kitap + Stüdyo WAV Sesi + Senkronize MP4 Video + JSON**.
+   - Her kitap için: **50 Sayfa PDF Kitap + Stüdyo WAV & MP3 Sesi + JSON**.
    - Örnekler: *Frankenstein*, *Great Expectations*, *Dracula (Excerpts)*, *Pride and Prejudice*.
 
 ### Görev Listesi:
 - [ ] **F5.1 Multimedya Kütüphane Şeması ve İndeksleme**:
-  - `library/index.json`: Kitap ID, başlık, yazar, seviye (1-4), sayfa sayısı (15/25/35/50), tahmini süre, PDF yolu, WAV yolu, MP4 yolu ve kapak resmi.
-- [ ] **F5.2 Doğal ve İnsansı Seslendirme Hattı (WAV / Studio TTS)**:
-  - Eski mekanik sesler yerine, 2026'nın en iyi açık kaynak ve doğal ses motorları (Kokoro v1.0 veya Microsoft Edge Neural sesleri: Christopher/Guy/Jenny/Ryan) ile stüdyo netliğinde, tonlamalı ve nefes alan ses üretimi.
+  - `library/index.json`: Kitap ID, başlık, yazar, seviye (1-4), sayfa sayısı (15/25/35/50), tahmini süre, PDF yolu, WAV yolu, MP3 yolu ve kapak resmi.
+- [ ] **F5.2 Doğal ve İnsansı Seslendirme Hattı (WAV / MP3 Studio TTS)**:
+  - Eski mekanik sesler yerine, Microsoft Edge Neural sesleri (Christopher/Guy/Jenny/Ryan) ile stüdyo netliğinde, tonlamalı ve nefes alan ses üretimi.
 - [ ] **F5.3 Profesyonel PDF Kitap Üretimi**:
   - 100 kitabın her biri için sayfa sayfa (15, 25, 35, 50 sayfa), kapak, şık tipografi, sayfa numaraları ve alt/yan kelime notları içeren indirilebilir ve okunabilir PDF kitaplar.
-- [ ] **F5.4 Senkronize MP4 Video Üretimi**:
-  - Ses ile görsel metnin/sayfanın senkron aktığı, cümle/kelime vurgulu video formatı.
+- [ ] **F5.4 Yüksek Kalite MP3 ve WAV Formatları**:
+  - Taşınabilirlik için optimize MP3 ve kayıpsız ses için WAV desteği.
 - [ ] **F5.5 - F5.8 Kademeli 100 Kitap Üretimi (25x15, 25x25, 25x35, 25x50)**:
-  - Her biri için PDF, WAV, MP4 ve JSON paketlerinin eksiksiz oluşturulması.
-- [ ] **F5.9 Kütüphane Gezgini ve PDF/Video Oynatıcı (Web & Android)**:
-  - Sayfa sayısına (15, 25, 35, 50 sayfa), zorluk seviyesine ve tamamlanma durumuna göre filtreleme/arama ekranı; uygulama içi PDF okuyucu ve MP4 video oynatıcı entegrasyonu.
+  - Her biri için PDF, WAV, MP3 ve JSON paketlerinin eksiksiz oluşturulması.
+- [ ] **F5.9 Kütüphane Gezgini ve PDF/Ses Oynatıcı (Web & Android)**:
+  - Sayfa sayısına (15, 25, 35, 50 sayfa), zorluk seviyesine ve tamamlanma durumuna göre filtreleme/arama ekranı; uygulama içi PDF okuyucu ve ses oynatıcı entegrasyonu.
 
 ---
 
@@ -105,11 +105,23 @@ Bu belge, **DictaLearn** projesinde bir sonraki oturumda uygulanacak olan **Faz 
 
 ---
 
-## 🚀 Faz 8 — Yayın ve Paketleme
+## 🚀 Faz 8 — Yayın, Dağıtım ve CV/Portföy Paketi
 
-**Amaç:** Canlı GitHub Pages web sitesi ve son kullanıcıya hazır imzalı Android APK sunmak.
+**Amaç:** Projeyi canlı web yayınına (GitHub Pages), bağımsız mobil mağaza dağıtımına (Itch.io APK) ve işe alımcıları/mühendislik yöneticilerini etkileyecek profesyonel bir CV/Portföy vitrinine dönüştürmek.
 
 ### Görev Listesi:
-- [ ] **F8.1 GitHub Pages Otomasyonu**: GitHub Actions ile `Web/dist` çıktısının otomatik `gh-pages` dalına dağıtılması.
-- [ ] **F8.2 Android Release İmzalı APK**: Release build pipeline'ı ve APK indirme bağlantısı.
-- [ ] **F8.3 Proje Dokümantasyonu**: Detaylı `README.md` (özellikler, ekran görüntüleri, canlı link, kısayol tablosu, APK indirme linki).
+- [ ] **F8.1 GitHub Pages Canlı Web Yayını (`gh-pages`)**:
+  - Vite `base` konfigürasyonunun GitHub Pages repository adresine göre ayarlanması (`/dictalearn/` veya özel domain).
+  - `npm run build` ile tek tıkla veya GitHub Actions CI ile her `main` push'unda otomatik canlıya alma.
+  - Canlı demo linki: İşe alımcıların ve kullanıcıların kurulumsuz hemen tarayıcıda deneyimlemesi.
+- [ ] **F8.2 Itch.io Bağımsız Mağaza ve Android Release APK**:
+  - `gradlew assembleRelease` ile optimize edilmiş, küçültülmüş (ProGuard/R8) evrensel APK üretimi.
+  - Itch.io oyun/uygulama sayfası için vitrin görselleri, afiş, özellik listesi ve doğrudan `.apk` indirme butonu.
+- [ ] **F8.3 Kapsamlı GitHub README & Mühendislik Vitrini**:
+  - Dinamik rozetler: `Tests: 63 Passing`, `Android: Kotlin + C++ NDK`, `Web: React + TS + Web Audio`, `License: MIT`.
+  - Sistem Mimari Şeması (Mermaid diyagramı: C++ NDK, WebAudioEngine, Studio TTS Pipeline).
+  - Canlı Web Demosu ve APK İndirme linkleri.
+  - GIF / Ekran görüntüleri ile dikte ve shadowing döngüsü tanıtımı.
+- [ ] **F8.4 CV ve LinkedIn Portföy Şablonu**:
+  - Mülakatlarda ve CV'de kullanılacak teknik kazanım metinleri: "Çoklu Platform (React + Kotlin + C++ NDK)", "Levenshtein String Diff", "Milisaniye Hassasiyetli Web Audio & ExoPlayer", "Otomatik Multimedya Üretim Hattı (Neural TTS + ReportLab PDF)".
+

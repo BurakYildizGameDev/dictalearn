@@ -27,14 +27,14 @@ export const DiffView: React.FC<DiffViewProps> = ({ diff }) => {
         </div>
       </div>
 
-      {/* Word-by-word diff output (shape + color distinction) */}
-      <div className="flex flex-wrap items-baseline gap-x-2 gap-y-3 text-lg leading-relaxed font-sans">
+      {/* Word-by-word diff output (shape + color distinction, horizontal inline flow) */}
+      <div className="flex flex-wrap items-center gap-x-2 gap-y-2 text-base md:text-lg leading-relaxed font-sans">
         {diff.words.map((word: DiffWord, idx: number) => {
           if (word.kind === 'equal') {
             return (
               <span
                 key={idx}
-                className="text-emerald-400 font-medium"
+                className="text-emerald-400 font-medium px-1"
                 title="Doğru"
               >
                 {word.expected || word.typed}
@@ -46,13 +46,13 @@ export const DiffView: React.FC<DiffViewProps> = ({ diff }) => {
             return (
               <span
                 key={idx}
-                className="inline-flex flex-col items-center px-1 py-0.5 rounded bg-rose-950/40 border border-rose-800/50"
-                title={`Yanlış: "${word.typed}" yerine "${word.expected}"`}
+                className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-lg bg-rose-950/40 border border-rose-700/60 text-sm md:text-base"
+                title={`Hata: "${word.typed}" yazdın, doğrusu "${word.expected}"`}
               >
-                <span className="text-xs line-through text-rose-400/80 decoration-2">
+                <span className="line-through text-rose-400/80 font-normal">
                   {word.typed}
                 </span>
-                <span className="text-emerald-400 font-semibold underline decoration-emerald-500 decoration-2 underline-offset-2">
+                <span className="text-emerald-400 font-semibold">
                   {word.expected}
                 </span>
               </span>
@@ -63,7 +63,7 @@ export const DiffView: React.FC<DiffViewProps> = ({ diff }) => {
             return (
               <span
                 key={idx}
-                className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-amber-950/40 border border-dashed border-amber-600/70 text-amber-300 italic underline decoration-amber-500 underline-offset-2"
+                className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg bg-amber-950/40 border border-dashed border-amber-600/70 text-amber-300 italic text-sm md:text-base"
                 title={`Eksik kelime: "${word.expected}"`}
               >
                 <span>+{word.expected}</span>
@@ -75,10 +75,10 @@ export const DiffView: React.FC<DiffViewProps> = ({ diff }) => {
             return (
               <span
                 key={idx}
-                className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-rose-950/40 border border-rose-800/60 text-rose-400 line-through decoration-rose-500 decoration-2"
+                className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg bg-rose-950/40 border border-rose-800/60 text-rose-400 line-through text-sm md:text-base"
                 title={`Fazladan yazılan: "${word.typed}"`}
               >
-                <XCircle className="w-3 h-3 text-rose-500 inline" />
+                <XCircle className="w-3.5 h-3.5 text-rose-500 inline shrink-0" />
                 <span>{word.typed}</span>
               </span>
             )

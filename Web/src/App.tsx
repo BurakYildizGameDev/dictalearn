@@ -5,9 +5,34 @@ import { WebAudioEngine } from './audio/web-audio-engine'
 import { LocalMistakeRepository } from './domain/mistakes/local-mistake-repository'
 import { StudySessionView } from './components/StudySessionView'
 import { LessonEditorView } from './components/LessonEditorView'
-import { Headphones, AlertTriangle, Edit3, ArrowLeft } from 'lucide-react'
+import { Headphones, AlertTriangle, Edit3, ArrowLeft, FileText, BookOpen } from 'lucide-react'
+
+interface PresetLesson {
+  id: string
+  name: string
+  jsonUrl: string
+  audioUrl: string
+  pdfUrl?: string
+}
+
+const PRESET_LESSONS: PresetLesson[] = [
+  {
+    id: 'book_01_the_happy_prince',
+    name: 'The Happy Prince (15 Sayfa Kitap / 60 Cümle)',
+    jsonUrl: '/lessons/book_01_the_happy_prince/lesson.json',
+    audioUrl: '/lessons/book_01_the_happy_prince/audio.mp3',
+    pdfUrl: '/lessons/book_01_the_happy_prince/book_01_the_happy_prince.pdf',
+  },
+  {
+    id: 'sample_ch01',
+    name: 'Bölüm 1: The Departure (Demo / 6 Cümle)',
+    jsonUrl: '/lessons/sample_ch01/lesson.json',
+    audioUrl: '/lessons/sample_ch01/audio.mp3',
+  },
+]
 
 export function App() {
+  const [selectedPresetId, setSelectedPresetId] = useState<string>('book_01_the_happy_prince')
   const [lesson, setLesson] = useState<Lesson | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
@@ -16,6 +41,23 @@ export function App() {
   const audioEngine = useMemo(() => new WebAudioEngine(), [])
   const mistakeRepository = useMemo(() => new LocalMistakeRepository(), [])
 
+  const loadPreset = async (preset: PresetLesson) => {
+    try {
+      setLoading(true)
+      setError(null)
+      const loadedLesson = await loadLessonFromUrl(preset.jsonUrl)
+      await audioEngine.load(preset.audioUrl)
+      setLesson(loadedLesson)
+      setSelectedPresetId(preset.id)
+      setViewMode('study')
+    } catch (err: unknown) {
+      const msg = err instanceof Error ? err.message : 'Ders yüklenirken beklenmeyen bir hata oluştu.'
+      setError(msg)
+    } finally {
+      setLoading(false)
+    }
+  }
+
   useEffect(() => {
     let mounted = true
 
@@ -23,10 +65,9 @@ export function App() {
       try {
         setLoading(true)
         setError(null)
-        // Load the validated sample lesson
-        const loadedLesson = await loadLessonFromUrl('/lessons/sample_ch01/lesson.json')
-        // Load the sample audio
-        await audioEngine.load('/lessons/sample_ch01/audio.wav')
+        const preset = PRESET_LESSONS[0]
+        const loadedLesson = await loadLessonFromUrl(preset.jsonUrl)
+        await audioEngine.load(preset.audioUrl)
 
         if (mounted) {
           setLesson(loadedLesson)
@@ -57,6 +98,7 @@ export function App() {
       setLoading(true)
       await audioEngine.load(customAudioUrl)
       setLesson(customLesson)
+      setSelectedPresetId('custom')
       setViewMode('study')
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : 'Özel ders sesi yüklenemedi.'
@@ -66,24 +108,65 @@ export function App() {
     }
   }
 
+  const currentPreset = PRESET_LESSONS.find((p) => p.id === selectedPresetId)
+
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans selection:bg-indigo-500/30 selection:text-indigo-200">
       {/* Global Navigation Header */}
       <nav className="border-b border-slate-800 bg-slate-900/50 backdrop-blur sticky top-0 z-40">
-        <div className="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-2.5">
+        <div className="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between gap-4">
+          <div className="flex items-center gap-2.5 shrink-0">
             <div className="w-9 h-9 rounded-xl bg-indigo-600/20 text-indigo-400 border border-indigo-500/30 flex items-center justify-center font-bold">
               <Headphones className="w-5 h-5" />
             </div>
             <div>
               <span className="font-bold text-lg text-slate-100 tracking-tight">DictaLearn</span>
-              <span className="ml-2 text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded bg-indigo-950 text-indigo-300 border border-indigo-800">
-                Faz 4
+              <span className="ml-2 text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded bg-emerald-950 text-emerald-300 border border-emerald-800">
+                Faz 5 • Studio Audio
               </span>
             </div>
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2.5">
+            {/* Preset Selector */}
+            <div className="flex items-center gap-1.5">
+              <label className="text-xs text-slate-400 hidden md:flex items-center gap-1">
+                <BookOpen className="w-3.5 h-3.5 text-indigo-400" /> Kitap:
+              </label>
+              <select
+                aria-label="Kitap Seçimi"
+                value={selectedPresetId}
+                onChange={(e) => {
+                  const target = PRESET_LESSONS.find((p) => p.id === e.target.value)
+                  if (target) loadPreset(target)
+                }}
+                className="bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg px-2.5 py-1.5 focus:outline-none focus:border-indigo-500 cursor-pointer max-w-[200px] sm:max-w-none truncate"
+              >
+                {PRESET_LESSONS.map((p) => (
+                  <option key={p.id} value={p.id}>
+                    {p.name}
+                  </option>
+                ))}
+                {selectedPresetId === 'custom' && (
+                  <option value="custom">Özel Yüklenen Ders</option>
+                )}
+              </select>
+            </div>
+
+            {currentPreset?.pdfUrl && (
+              <a
+                href={currentPreset.pdfUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 border border-emerald-500/30 text-xs font-medium transition cursor-pointer"
+                title="15 Sayfalık PDF Kitabı Aç"
+              >
+                <FileText className="w-3.5 h-3.5" />
+                <span className="hidden sm:inline">15 Sayfa PDF</span>
+                <span className="sm:hidden">PDF</span>
+              </a>
+            )}
+
             {/* View Mode Switcher Button */}
             <button
               onClick={() => setViewMode(viewMode === 'study' ? 'editor' : 'study')}
@@ -92,7 +175,7 @@ export function App() {
               {viewMode === 'study' ? (
                 <>
                   <Edit3 className="w-3.5 h-3.5" />
-                  <span className="hidden sm:inline">Ders Düzenleyici / Yeni Ders</span>
+                  <span className="hidden sm:inline">Ders Düzenleyici</span>
                   <span className="sm:hidden">Düzenleyici</span>
                 </>
               ) : (
@@ -140,6 +223,7 @@ export function App() {
 
         {!loading && !error && viewMode === 'study' && lesson && (
           <StudySessionView
+            key={lesson.lesson_id}
             lesson={lesson}
             audioEngine={audioEngine}
             mistakeRepository={mistakeRepository}
