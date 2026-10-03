@@ -4,12 +4,14 @@ import { loadLessonFromUrl } from './domain/lessons/lesson-loader'
 import { WebAudioEngine } from './audio/web-audio-engine'
 import { LocalMistakeRepository } from './domain/mistakes/local-mistake-repository'
 import { StudySessionView } from './components/StudySessionView'
-import { BookOpen, Headphones, AlertTriangle } from 'lucide-react'
+import { LessonEditorView } from './components/LessonEditorView'
+import { Headphones, AlertTriangle, Edit3, ArrowLeft } from 'lucide-react'
 
 export function App() {
   const [lesson, setLesson] = useState<Lesson | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
+  const [viewMode, setViewMode] = useState<'study' | 'editor'>('study')
 
   const audioEngine = useMemo(() => new WebAudioEngine(), [])
   const mistakeRepository = useMemo(() => new LocalMistakeRepository(), [])
@@ -31,7 +33,8 @@ export function App() {
         }
       } catch (err: unknown) {
         if (mounted) {
-          const msg = err instanceof Error ? err.message : 'Ders yüklenirken beklenmeyen bir hata oluştu.'
+          const msg =
+            err instanceof Error ? err.message : 'Ders yüklenirken beklenmeyen bir hata oluştu.'
           setError(msg)
         }
       } finally {
@@ -49,6 +52,20 @@ export function App() {
     }
   }, [audioEngine])
 
+  const handleStartCustomLesson = async (customLesson: Lesson, customAudioUrl: string) => {
+    try {
+      setLoading(true)
+      await audioEngine.load(customAudioUrl)
+      setLesson(customLesson)
+      setViewMode('study')
+    } catch (err: unknown) {
+      const msg = err instanceof Error ? err.message : 'Özel ders sesi yüklenemedi.'
+      setError(msg)
+    } finally {
+      setLoading(false)
+    }
+  }
+
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans selection:bg-indigo-500/30 selection:text-indigo-200">
       {/* Global Navigation Header */}
@@ -61,16 +78,30 @@ export function App() {
             <div>
               <span className="font-bold text-lg text-slate-100 tracking-tight">DictaLearn</span>
               <span className="ml-2 text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded bg-indigo-950 text-indigo-300 border border-indigo-800">
-                Web MVP
+                Faz 4
               </span>
             </div>
           </div>
 
-          <div className="flex items-center gap-4 text-xs text-slate-400">
-            <span className="hidden sm:inline-flex items-center gap-1.5">
-              <BookOpen className="w-3.5 h-3.5" />
-              <span>İngilizce → Türkçe</span>
-            </span>
+          <div className="flex items-center gap-3">
+            {/* View Mode Switcher Button */}
+            <button
+              onClick={() => setViewMode(viewMode === 'study' ? 'editor' : 'study')}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-indigo-600/20 hover:bg-indigo-600/30 text-indigo-300 border border-indigo-500/30 text-xs font-medium transition cursor-pointer"
+            >
+              {viewMode === 'study' ? (
+                <>
+                  <Edit3 className="w-3.5 h-3.5" />
+                  <span className="hidden sm:inline">Ders Düzenleyici / Yeni Ders</span>
+                  <span className="sm:hidden">Düzenleyici</span>
+                </>
+              ) : (
+                <>
+                  <ArrowLeft className="w-3.5 h-3.5" />
+                  <span>Ders Ekranına Dön</span>
+                </>
+              )}
+            </button>
           </div>
         </div>
       </nav>
@@ -91,18 +122,28 @@ export function App() {
             <p className="text-xs text-rose-300/80">{error}</p>
             <button
               onClick={() => window.location.reload()}
-              className="mt-3 px-4 py-2 bg-rose-600 hover:bg-rose-500 text-white rounded-lg text-xs font-medium transition"
+              className="mt-3 px-4 py-2 bg-rose-600 hover:bg-rose-500 text-white rounded-lg text-xs font-medium transition cursor-pointer"
             >
               Yeniden Dene
             </button>
           </div>
         )}
 
-        {!loading && !error && lesson && (
+        {!loading && !error && viewMode === 'editor' && (
+          <LessonEditorView
+            audioEngine={audioEngine}
+            initialLesson={lesson}
+            onStartLesson={handleStartCustomLesson}
+            onCancel={() => setViewMode('study')}
+          />
+        )}
+
+        {!loading && !error && viewMode === 'study' && lesson && (
           <StudySessionView
             lesson={lesson}
             audioEngine={audioEngine}
             mistakeRepository={mistakeRepository}
+            onBackToLessons={() => setViewMode('editor')}
           />
         )}
       </main>
