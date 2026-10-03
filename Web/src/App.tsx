@@ -129,6 +129,13 @@ const PRESET_LESSONS: PresetLesson[] = [
     pdfUrl: '/lessons/book_16_peter_pan/book_16_peter_pan.pdf',
   },
   {
+    id: 'book_17_the_merry_adventures_of_robin_hood',
+    name: "17. Robin Hood (15 Sayfa / 300 Cümle)",
+    jsonUrl: '/lessons/book_17_the_merry_adventures_of_robin_hood/lesson.json',
+    audioUrl: '/lessons/book_17_the_merry_adventures_of_robin_hood/audio.mp3',
+    pdfUrl: '/lessons/book_17_the_merry_adventures_of_robin_hood/book_17_the_merry_adventures_of_robin_hood.pdf',
+  },
+  {
     id: 'sample_ch01',
     name: 'Demo: The Departure (6 Cümle)',
     jsonUrl: '/lessons/sample_ch01/lesson.json',

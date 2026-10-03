@@ -1,0 +1,2414 @@
+{
+  "schema_version": 1,
+  "lesson_id": "book_17_the_merry_adventures_of_robin_hood",
+  "title": "The Merry Adventures of Robin Hood (15 Sayfa / 300 Cümle / Graded Reader)",
+  "source_lang": "en",
+  "target_lang": "tr",
+  "audio_file": "audio.mp3",
+  "attribution": {
+    "source": "Howard Pyle / Graded Reader Adaptasyonu (15 Sayfa x 20 Cümle)",
+    "license": "Public Domain / Educational Fair Use"
+  },
+  "segments": [
+    {
+      "id": 1,
+      "start_ms": 300,
+      "end_ms": 6324,
+      "text": "In merry England in the time of old, when good King Henry the Second ruled, lived Robin Hood.",
+      "translation": "Eski günlerin neşeli İngiltere'sinde, iyi kalpli İkinci Kral Henry hüküm sürerken, Robin Hood yaşardı.",
+      "notes": "Past time phrase; relative time clause 'when King Henry ruled'."
+    },
+    {
+      "id": 2,
+      "start_ms": 6724,
+      "end_ms": 12868,
+      "text": "Robin was a youth of eighteen, tall and straight, with limbs as strong as oak trees.",
+      "translation": "Robin on sekiz yaşında, meşe ağaçları kadar güçlü kolları bacakları olan uzun boylu ve dimdik bir gençti.",
+      "notes": "Simile 'as strong as oak trees'; appositive description."
+    },
+    {
+      "id": 3,
+      "start_ms": 13268,
+      "end_ms": 19052,
+      "text": "No archer in all Nottinghamshire could draw a cloth-yard shaft with such deadly precision.",
+      "translation": "Bütün Nottinghamshire'da hiçbir okçu bir arşınlık oku böylesine ölümcül bir isabetle çekemezdi.",
+      "notes": "Negative subject 'no archer'; measurement 'cloth-yard shaft'."
+    },
+    {
+      "id": 4,
+      "start_ms": 19452,
+      "end_ms": 25260,
+      "text": "One bright morning in May, Robin set out toward Nottingham town with his trusty yew bow.",
+      "translation": "Mayıs ayının pırıl pırıl bir sabahında Robin, emektar porsuk ağacı yayıyla Nottingham kasabasına doğru yola çıktı.",
+      "notes": "Phrasal verb 'set out toward'; compound adjective 'trusty yew bow'."
+    },
+    {
+      "id": 5,
+      "start_ms": 25660,
+      "end_ms": 30940,
+      "text": "The Sheriff of Nottingham had proclaimed a great archery shooting match for a prize.",
+      "translation": "Nottingham Şerifi, bir ödül karşılığında büyük bir okçuluk yarışması ilan etmişti.",
+      "notes": "Past perfect 'had proclaimed'; noun phrase 'archery shooting match'."
+    },
+    {
+      "id": 6,
+      "start_ms": 31340,
+      "end_ms": 38156,
+      "text": "As Robin strode whistling through Sherwood Forest, he met fifteen royal foresters feasting on beer.",
+      "translation": "Robin ıslık çalarak Sherwood Ormanı'nda adımlarken, bira içip ziyafet çeken on beş kraliyet korucusuyla karşılaştı.",
+      "notes": "Time clause with 'as'; participle clauses 'whistling' and 'feasting on beer'."
+    },
+    {
+      "id": 7,
+      "start_ms": 38556,
+      "end_ms": 43956,
+      "text": "The foresters mocked the young lad, laughing at his youthful face and rustic bow.",
+      "translation": "Ormancılar genç delikanlıyla alay ettiler, onun genç yüzüne ve köylü yayına kahkahalarla güldüler.",
+      "notes": "Coordinate participles describing mockery; past verb 'mocked'."
+    },
+    {
+      "id": 8,
+      "start_ms": 44356,
+      "end_ms": 49468,
+      "text": "'What can a stripling like you do with a man's bow?' shouted their insolent leader.",
+      "translation": "'Senin gibi bir bıyığı terlememiş çocuk, bir adamın yayıyla ne yapabilir ki?' diye bağırdı küstah liderleri.",
+      "notes": "Vocative noun 'stripling'; modal question."
+    },
+    {
+      "id": 9,
+      "start_ms": 49868,
+      "end_ms": 55916,
+      "text": "'I wager twenty marks I can hit that royal stag three score paces away,' answered Robin.",
+      "translation": "'Yirmi marka bahse girerim ki altmış adım ötedeki o kraliyet geyiğini vurabilirim,' diye yanıt verdi Robin.",
+      "notes": "Verb 'wager'; archaic measurement 'three score paces' (60 paces)."
+    },
+    {
+      "id": 10,
+      "start_ms": 56316,
+      "end_ms": 61884,
+      "text": "The foresters took the wager with scornful laughter, confident he would fail miserably.",
+      "translation": "Ormancılar, onun feci şekilde başarısız olacağından emin olarak iddiayı alaycı kahkahalarla kabul ettiler.",
+      "notes": "Coordinate predicate; adverb 'miserably'."
+    },
+    {
+      "id": 11,
+      "start_ms": 62284,
+      "end_ms": 68404,
+      "text": "Robin notched a broad arrow, drew the bowstring smoothly to his ear, and loosed the shaft.",
+      "translation": "Robin geniş uçlu bir oku taktı, kirişi pürüzsüzce kulağına kadar çekti ve oku salıverdi.",
+      "notes": "Series of coordinated past verbs 'notched, drew, loosed'."
+    },
+    {
+      "id": 12,
+      "start_ms": 68804,
+      "end_ms": 74252,
+      "text": "The arrow sped true through the branches and pierced the great stag straight through the heart.",
+      "translation": "Ok dalların arasından dosdoğru uçtu ve koca geyiği tam kalbinden vurdu.",
+      "notes": "Adverbial modifier 'true'; coordinate past verbs 'sped and pierced'."
+    },
+    {
+      "id": 13,
+      "start_ms": 74652,
+      "end_ms": 79980,
+      "text": "Instead of paying the wager, the furious foresters leaped up with drawn bows.",
+      "translation": "Bahsi ödemek yerine, öfkeden deliye dönen ormancılar gerili yaylarıyla ayağa fırladılar.",
+      "notes": "Preposition 'instead of' + gerund; participial adjective 'drawn bows'."
+    },
+    {
+      "id": 14,
+      "start_ms": 80380,
+      "end_ms": 86236,
+      "text": "'Thou hast killed the King's deer, which means death on the gallows!' their leader cried.",
+      "translation": "'Kralın geyiğini öldürdün, bu da dar ağacında ölüm demektir!' diye haykırdı liderleri.",
+      "notes": "Archaic pronouns 'thou hast'; noun clause with 'which means'."
+    },
+    {
+      "id": 15,
+      "start_ms": 86636,
+      "end_ms": 91700,
+      "text": "The forester loosed a treacherous shaft that whistled within an inch of Robin's ear.",
+      "translation": "Ormancı, Robin'in kulağının bir parmak yakınından ıslık çalarak geçen haince bir ok fırlattı.",
+      "notes": "Relative clause 'that whistled within an inch'; adjective 'treacherous'."
+    },
+    {
+      "id": 16,
+      "start_ms": 92100,
+      "end_ms": 97428,
+      "text": "Robin turned in self-defense and shot an arrow that struck the wicked forester dead.",
+      "translation": "Robin meşru müdafaayla geriye döndü ve o hain ormancıyı oracıkta öldüren bir ok attı.",
+      "notes": "Prepositional phrase 'in self-defense'; resultative adjective 'struck dead'."
+    },
+    {
+      "id": 17,
+      "start_ms": 97828,
+      "end_ms": 103684,
+      "text": "Knowing the Sheriff would show no mercy, Robin fled into the deep labyrinths of the forest.",
+      "translation": "Şerif'in hiç merhamet göstermeyeceğini bilen Robin, ormanın derin labirentlerine doğru kaçtı.",
+      "notes": "Participle clause of cause 'Knowing...'; noun phrase 'deep labyrinths'."
+    },
+    {
+      "id": 18,
+      "start_ms": 104084,
+      "end_ms": 109076,
+      "text": "A price of two hundred pounds was set upon his head by the King's proclamation.",
+      "translation": "Kralın fermanıyla Robin'in başına iki yüz sterlinlik bir ödül kondu.",
+      "notes": "Passive voice 'was set upon his head'; agent phrase 'by proclamation'."
+    },
+    {
+      "id": 19,
+      "start_ms": 109476,
+      "end_ms": 114444,
+      "text": "Robin took an oath that he would rob only the rich and corrupt to feed the poor.",
+      "translation": "Robin yoksulları doyurmak için sadece zenginleri ve yozlaşmışları soyacağına yemin etti.",
+      "notes": "Noun clause 'that he would rob only...'; infinitive of purpose 'to feed the poor'."
+    },
+    {
+      "id": 20,
+      "start_ms": 114844,
+      "end_ms": 119764,
+      "text": "Thus began the glorious outlaw life of Robin Hood under the greenwood tree.",
+      "translation": "Böylece yeşil ağaçların altında Robin Hood'un şanlı kanun kaçağı hayatı başlamış oldu.",
+      "notes": "Inverted narrative sentence; transitional adverb 'Thus'."
+    },
+    {
+      "id": 21,
+      "start_ms": 120764,
+      "end_ms": 125804,
+      "text": "Robin gathered around him seven score stalwart yeomen dressed in Lincoln green.",
+      "translation": "Robin etrafına Lincoln yeşiline bürünmüş yüz kırk babayiğit okçu topladı.",
+      "notes": "Archaic number 'seven score' (140); past participle modifier 'dressed in'."
+    },
+    {
+      "id": 22,
+      "start_ms": 126204,
+      "end_ms": 131820,
+      "text": "One sunny afternoon, Robin wandered alone through the forest in search of adventure.",
+      "translation": "Güneşli bir öğleden sonra Robin, macera arayışıyla ormanda tek başına dolaşıyordu.",
+      "notes": "Prepositional phrase 'in search of adventure'; adverb 'alone'."
+    },
+    {
+      "id": 23,
+      "start_ms": 132220,
+      "end_ms": 136924,
+      "text": "He came to a narrow wooden footbridge crossing a deep and rushing brook.",
+      "translation": "Derin ve gürül gürül akan bir derenin üzerinden geçen dar, ahşap bir yaya köprüsüne geldi.",
+      "notes": "Participial clause 'crossing a brook'; coordinate adjectives 'deep and rushing'."
+    },
+    {
+      "id": 24,
+      "start_ms": 137324,
+      "end_ms": 142820,
+      "text": "At the opposite end stood a stranger, a giant of a man over seven feet tall.",
+      "translation": "Karşı uçta bir yabancı, iki metreden uzun dev gibi bir adam duruyordu.",
+      "notes": "Inverted locative sentence; appositive idiom 'a giant of a man'."
+    },
+    {
+      "id": 25,
+      "start_ms": 143220,
+      "end_ms": 148548,
+      "text": "Neither traveler would yield the right-of-way, and they met in the middle of the narrow plank.",
+      "translation": "İki yolcu da geçiş hakkını vermek istemedi ve dar tahtanın tam ortasında karşılaştılar.",
+      "notes": "Correlative subject 'neither traveler'; noun 'right-of-way'."
+    },
+    {
+      "id": 26,
+      "start_ms": 148948,
+      "end_ms": 154804,
+      "text": "'Give way, fellow!' cried Robin, 'or I will show thee how Nottingham archers fight!'",
+      "translation": "'Yol ver adamım!' diye bağırdı Robin, 'yoksa sana Nottingham okçularının nasıl savaştığını gösteririm!'",
+      "notes": "Archaic object 'thee'; indirect question 'how archers fight'."
+    },
+    {
+      "id": 27,
+      "start_ms": 155204,
+      "end_ms": 160868,
+      "text": "'Thou talkest like a coward with thy bow against my staff,' scoffed the great stranger.",
+      "translation": "'Benim sopama karşı yayınla tam bir korkak gibi konuşuyorsun,' diye alay etti koca yabancı.",
+      "notes": "Archaic verbs 'talkest'; preposition 'against'."
+    },
+    {
+      "id": 28,
+      "start_ms": 161268,
+      "end_ms": 166884,
+      "text": "Robin tossed aside his bow and cut a stout six-foot staff of tough seasoned oak.",
+      "translation": "Robin yayını bir kenara fırlattı ve sert kurutulmuş meşeden altı ayaklık kalın bir sopa kesti.",
+      "notes": "Coordinate past verbs 'tossed and cut'; compound adjective 'six-foot'."
+    },
+    {
+      "id": 29,
+      "start_ms": 167284,
+      "end_ms": 172564,
+      "text": "They engaged in the center of the bridge, their wooden staves clattering like thunder.",
+      "translation": "Köprünün ortasında dövüşe tutuştular; tahta sopaları gök gürültüsü gibi takırdıyordu.",
+      "notes": "Absolute construction 'staves clattering like thunder'; past verb 'engaged'."
+    },
+    {
+      "id": 30,
+      "start_ms": 172964,
+      "end_ms": 177980,
+      "text": "Robin was quick and struck the giant twice upon the ribs with stinging speed.",
+      "translation": "Robin çevikti ve yakıcı bir hızla devin kaburgalarına iki kez vurdu.",
+      "notes": "Adjective 'quick'; coordinate predicate with manner phrase 'with stinging speed'."
+    },
+    {
+      "id": 31,
+      "start_ms": 178380,
+      "end_ms": 184212,
+      "text": "The stranger smiled broadly, stood firm like a rock, and swung his heavy cudgel.",
+      "translation": "Yabancı genişçe gülümsedi, kaya gibi sağlam durdu ve ağır sopasını savurdu.",
+      "notes": "Simile 'like a rock'; series of coordinated past actions."
+    },
+    {
+      "id": 32,
+      "start_ms": 184612,
+      "end_ms": 189868,
+      "text": "With a tremendous crack, the stranger's blow caught Robin full upon the crown.",
+      "translation": "Büyük bir çatırtıyla yabancının darbesi Robin'i tam kafasının tepesinden yakaladı.",
+      "notes": "Prepositional phrase 'with a crack'; archaic noun 'crown' meaning head."
+    },
+    {
+      "id": 33,
+      "start_ms": 190268,
+      "end_ms": 195308,
+      "text": "Robin lost his footing and tumbled head over heels into the cold foaming water.",
+      "translation": "Robin dengesini kaybetti ve soğuk köpüklü suyun içine tepeüstü yuvarlandı.",
+      "notes": "Idiom 'lost his footing'; adverbial idiom 'head over heels'."
+    },
+    {
+      "id": 34,
+      "start_ms": 195708,
+      "end_ms": 202380,
+      "text": "Splash! The waters closed over his feathered cap, while the stranger laughed heartily.",
+      "translation": "Şapırt! Sular tüylü kasketinin üzerinde kapanırken yabancı içtenlikle kahkahalar attı.",
+      "notes": "Onomatopoeia; time clause with 'while'; adverb 'heartily'."
+    },
+    {
+      "id": 35,
+      "start_ms": 202780,
+      "end_ms": 208516,
+      "text": "Robin scrambled onto the grassy bank, dripping wet but laughing with equal good humor.",
+      "translation": "Robin sırılsıklam damlayarak fakat aynı neşeyle gülerek çimenli kıyıya tırmandı.",
+      "notes": "Participle phrase 'dripping wet but laughing'; coordinate adjectives."
+    },
+    {
+      "id": 36,
+      "start_ms": 208916,
+      "end_ms": 214028,
+      "text": "'Thou art a brave fellow,' cried Robin, 'and hast won the bridge fairly!'",
+      "translation": "'Sen cesur bir adamsın,' diye haykırdı Robin, 've köprüyü hakkaniyetle kazandın!'",
+      "notes": "Archaic grammar 'Thou art... and hast won'; adverb 'fairly'."
+    },
+    {
+      "id": 37,
+      "start_ms": 214428,
+      "end_ms": 220356,
+      "text": "Robin blew three blasts upon his silver bugle, and forty green-clad yeomen appeared.",
+      "translation": "Robin gümüş av borusundan üç ses üfledi ve yeşiller giymiş kırk okçu belirdi.",
+      "notes": "Coordinate past clauses; compound adjective 'green-clad'."
+    },
+    {
+      "id": 38,
+      "start_ms": 220756,
+      "end_ms": 225964,
+      "text": "When the outlaws learned the stranger's name was John Little, they roared with laughter.",
+      "translation": "Kanun kaçakları yabancının adının John Little (Küçük John) olduğunu öğrenince kahkahalarla kükrediler.",
+      "notes": "Time clause with 'when'; phrasal verb 'roared with laughter'."
+    },
+    {
+      "id": 39,
+      "start_ms": 226364,
+      "end_ms": 232220,
+      "text": "'We shall christen thee Little John,' declared Robin, 'for thy mighty, towering stature!'",
+      "translation": "'Kocaman, heybetli boyundan ötürü seni Küçük John diye vaftiz edeceğiz!' dedi Robin.",
+      "notes": "Archaic direct speech; coordinate adjectives 'mighty, towering'."
+    },
+    {
+      "id": 40,
+      "start_ms": 232620,
+      "end_ms": 238188,
+      "text": "Little John joined the merry band and became Robin's most faithful companion forever.",
+      "translation": "Küçük John neşeli çeteye katıldı ve sonsuza dek Robin'in en sadık yoldaşı oldu.",
+      "notes": "Coordinate past verbs 'joined and became'; superlative 'most faithful'."
+    },
+    {
+      "id": 41,
+      "start_ms": 239188,
+      "end_ms": 244180,
+      "text": "The Sheriff of Nottingham burned with wrath because Robin Hood lived untamed.",
+      "translation": "Robin Hood ele geçirilemeden yaşadığı için Nottingham Şerifi öfkeden küplere biniyordu.",
+      "notes": "Metaphor 'burned with wrath'; causal clause with 'because'."
+    },
+    {
+      "id": 42,
+      "start_ms": 244580,
+      "end_ms": 249140,
+      "text": "He devised a cunning scheme to entrap the master archer of Sherwood.",
+      "translation": "Sherwood'un usta okçusunu tuzağa düşürmek için sinsi bir plan kurdu.",
+      "notes": "Infinitive of purpose 'to entrap'; compound adjective 'master archer'."
+    },
+    {
+      "id": 43,
+      "start_ms": 249540,
+      "end_ms": 255012,
+      "text": "He announced a grand archery contest on Nottingham green with a magnificent prize.",
+      "translation": "Nottingham meydanında görkemli bir ödülle büyük bir okçuluk yarışması düzenleneceğini duyurdu.",
+      "notes": "Transitive past 'announced'; prepositional phrase 'with a magnificent prize'."
+    },
+    {
+      "id": 44,
+      "start_ms": 255412,
+      "end_ms": 260548,
+      "text": "The prize was an arrow made of pure yellow gold with feathers of beaten silver.",
+      "translation": "Ödül, dövme gümüşten tüyleri olan saf sarı altından yapılmış bir oktu.",
+      "notes": "Passive participle 'made of pure gold'; compound prepositional phrase."
+    },
+    {
+      "id": 45,
+      "start_ms": 260948,
+      "end_ms": 266588,
+      "text": "'Robin is too proud to stay away from such a contest,' said the Sheriff to his men.",
+      "translation": "'Robin böylesi bir yarışmadan uzak duramayacak kadar gururludur,' dedi Şerif adamlarına.",
+      "notes": "Structure 'too + adjective + infinitive'; preposition 'to his men'."
+    },
+    {
+      "id": 46,
+      "start_ms": 266988,
+      "end_ms": 271596,
+      "text": "Robin heard the news and laughed heartily at the Sheriff's clumsy trap.",
+      "translation": "Robin haberi duydu ve Şerif'in sakar tuzağına içtenlikle güldü.",
+      "notes": "Coordinate past verbs; possessive noun phrase 'Sheriff's clumsy trap'."
+    },
+    {
+      "id": 47,
+      "start_ms": 271996,
+      "end_ms": 277300,
+      "text": "'We shall go to Nottingham,' Robin announced, 'but not in our Lincoln green coats.'",
+      "translation": "'Nottingham'a gideceğiz,' diye duyurdu Robin, 'fakat Lincoln yeşili ceketlerimizle değil.'",
+      "notes": "Modal 'shall go'; negative contrast 'not in coats'."
+    },
+    {
+      "id": 48,
+      "start_ms": 277700,
+      "end_ms": 283724,
+      "text": "One hundred and forty yeomen disguised themselves as friars, beggars, and rustics.",
+      "translation": "Yüz kırk okçu kendilerini keşişler, dilenciler ve köylüler kılığına soktular.",
+      "notes": "Reflexive 'disguised themselves'; preposition 'as' for roles."
+    },
+    {
+      "id": 49,
+      "start_ms": 284124,
+      "end_ms": 289716,
+      "text": "Robin himself wore a tattered beggar's cloak of ragged brown with a patch over one eye.",
+      "translation": "Robin'in kendisi, bir gözünün üzerinde yama olan döküntü kahverengi paçavradan bir dilenci pelerini giydi.",
+      "notes": "Emphatic reflexive 'Robin himself'; descriptive prepositional phrases."
+    },
+    {
+      "id": 50,
+      "start_ms": 290116,
+      "end_ms": 295108,
+      "text": "A huge crowd gathered around the royal butts on the bright morning of the tournament.",
+      "translation": "Turnuvanın pırıl pırıl sabahında kraliyet hedef tahtalarının etrafında dev bir kalabalık toplandı.",
+      "notes": "Past verb 'gathered'; compound noun 'royal butts' (archery targets)."
+    },
+    {
+      "id": 51,
+      "start_ms": 295508,
+      "end_ms": 300884,
+      "text": "Target after target was shot down until only three top bowmen remained in the ring.",
+      "translation": "Halkada yalnızca en iyi üç okçu kalana kadar hedef üstüne hedef vuruldu.",
+      "notes": "Repetitive subject 'Target after target'; passive voice 'was shot down'."
+    },
+    {
+      "id": 52,
+      "start_ms": 301284,
+      "end_ms": 307428,
+      "text": "One was Gilbert of the Red Cap, one was Adam Bell, and the third was the tattered beggar.",
+      "translation": "Biri Kırmızı Başlıklı Gilbert, biri Adam Bell, üçüncüsü ise o hırpani dilenciydi.",
+      "notes": "Parallel listing of finalists; ordinal 'the third'."
+    },
+    {
+      "id": 53,
+      "start_ms": 307828,
+      "end_ms": 313348,
+      "text": "The target was set at eight score paces, marked with a slender peeled willow wand.",
+      "translation": "Hedef sekiz yirmi (160) adıma dikilmişti ve soyulmuş incecik bir söğüt dalıyla işaretlenmişti.",
+      "notes": "Passive voice 'was set'; past participle modifier 'marked with'."
+    },
+    {
+      "id": 54,
+      "start_ms": 313748,
+      "end_ms": 318932,
+      "text": "Gilbert stepped forward and shot so close that his arrow touched the willow wand.",
+      "translation": "Gilbert öne adım attı ve öyle yakından vurdu ki oku söğüt dalına değdi.",
+      "notes": "Result clause 'so close that'; past verb 'touched'."
+    },
+    {
+      "id": 55,
+      "start_ms": 319332,
+      "end_ms": 324828,
+      "text": "The crowd cheered, believing that no man alive could better such miraculous skill.",
+      "translation": "Böylesine mucizevi bir ustalığı hayatta olan hiçbir insanın geçemeyeceğine inanarak kalabalık tezahürat yaptı.",
+      "notes": "Participle clause 'believing that'; modal 'could better'."
+    },
+    {
+      "id": 56,
+      "start_ms": 325228,
+      "end_ms": 330604,
+      "text": "Then the ragged beggar stepped to the mark, smiling calmly under his battered hood.",
+      "translation": "Sonra hırpani dilenci, yıpranmış başlığının altından sakince gülümseyerek atış çizgisine geçti.",
+      "notes": "Participle phrase 'smiling calmly'; prepositional phrase 'to the mark'."
+    },
+    {
+      "id": 57,
+      "start_ms": 331004,
+      "end_ms": 336404,
+      "text": "He drew his bowstring to his ear and loosed his gray goose feather without hesitation.",
+      "translation": "Kirişini kulağına kadar çekti ve tereddüt etmeden gri kaz tüyü okunu salıverdi.",
+      "notes": "Coordinate past verbs 'drew and loosed'; phrase 'without hesitation'."
+    },
+    {
+      "id": 58,
+      "start_ms": 336804,
+      "end_ms": 342108,
+      "text": "His arrow split the willow wand clean in two with a sharp, echoing crack.",
+      "translation": "Oku, keskin ve yankılanan bir çatırtıyla söğüt dalını tam ortasından ikiye yardı.",
+      "notes": "Idiom 'split clean in two'; prepositional phrase 'with a crack'."
+    },
+    {
+      "id": 59,
+      "start_ms": 342508,
+      "end_ms": 348100,
+      "text": "The crowd went wild with roaring applause, and the Sheriff handed him the Golden Arrow.",
+      "translation": "Kalabalık gürleyen alkışlarla kendinden geçti ve Şerif ona Altın Ok'u bizzat takdim etti.",
+      "notes": "Idiom 'went wild'; coordinate clause 'handed him the arrow'."
+    },
+    {
+      "id": 60,
+      "start_ms": 348500,
+      "end_ms": 354236,
+      "text": "That evening in Sherwood, Robin laughed merrily as the golden trophy was passed around.",
+      "translation": "O akşam Sherwood'da, altın kupa elden ele dolaşırken Robin neşeyle kahkahalar attı.",
+      "notes": "Time clause with 'as'; passive voice 'was passed around'."
+    },
+    {
+      "id": 61,
+      "start_ms": 355236,
+      "end_ms": 360588,
+      "text": "Will Scarlet told Robin of a fat, merry friar who lived near Fountain Abbey.",
+      "translation": "Will Scarlet, Robin'e Fountain Manastırı yakınlarında yaşayan şişman ve neşeli bir keşişten bahsetti.",
+      "notes": "Transitive 'told of'; relative clause 'who lived near'."
+    },
+    {
+      "id": 62,
+      "start_ms": 360988,
+      "end_ms": 366604,
+      "text": "'He can draw a bow and handle a broadsword better than any yeoman in England,' said Will.",
+      "translation": "'İngiltere'deki herhangi bir okçudan daha iyi yay çeker ve kılıç sallar,' dedi Will.",
+      "notes": "Comparative equality 'better than any yeoman'; modal 'can draw'."
+    },
+    {
+      "id": 63,
+      "start_ms": 367004,
+      "end_ms": 371924,
+      "text": "Robin was eager to meet this fighting man of God and went alone to find him.",
+      "translation": "Robin Tanrı'nın bu savaşçı adamıyla tanışmaya çok hevesliydi ve onu bulmak için tek başına gitti.",
+      "notes": "Adjective + infinitive 'eager to meet'; past verbs 'was and went'."
+    },
+    {
+      "id": 64,
+      "start_ms": 372324,
+      "end_ms": 378012,
+      "text": "He found the Friar sitting beside a sparkling stream, eating a huge venison pasty.",
+      "translation": "Keşişi parıldayan bir akarsuyun yanında oturmuş, devasa bir geyik etli börek yerken buldu.",
+      "notes": "Perception verb 'found' + participle phrase 'sitting and eating'."
+    },
+    {
+      "id": 65,
+      "start_ms": 378412,
+      "end_ms": 383596,
+      "text": "The friar wore a steel cap under his hood and a stout broadsword at his belt.",
+      "translation": "Keşiş başlığının altına çelik bir miğfer takmış ve kemerine sağlam bir kılıç kuşanmıştı.",
+      "notes": "Coordinate direct objects; prepositional phrases."
+    },
+    {
+      "id": 66,
+      "start_ms": 383996,
+      "end_ms": 388916,
+      "text": "Robin drew his sword and pointed across the wide water toward the far bank.",
+      "translation": "Robin kılıcını çekti ve geniş suyun üzerinden karşı kıyıya doğru işaret etti.",
+      "notes": "Coordinate past verbs 'drew and pointed'; directional phrase 'across water'."
+    },
+    {
+      "id": 67,
+      "start_ms": 389316,
+      "end_ms": 395604,
+      "text": "'Carry me across this stream, thou holy man,' commanded Robin, 'or thy life is forfeit!'",
+      "translation": "'Beni bu akarsudan karşıya taşı ey kutsal adam,' diye emretti Robin, 'yoksa canından olursun!'",
+      "notes": "Imperative command; archaic condition 'or thy life is forfeit'."
+    },
+    {
+      "id": 68,
+      "start_ms": 396004,
+      "end_ms": 401764,
+      "text": "The friar looked at Robin calmly, stood up, and took the young outlaw upon his back.",
+      "translation": "Keşiş sakince Robin'e baktı, ayağa kalktı ve genç kanun kaçağını sırtına aldı.",
+      "notes": "Series of coordinated past actions; adverb 'calmly'."
+    },
+    {
+      "id": 69,
+      "start_ms": 402164,
+      "end_ms": 407276,
+      "text": "He waded through the deep cold current and set Robin down on the opposite shore.",
+      "translation": "Derin soğuk akıntının içinden bata çıka yürüdü ve Robin'i karşı kıyıya bıraktı.",
+      "notes": "Coordinate past verbs 'waded and set down'; adjective 'opposite'."
+    },
+    {
+      "id": 70,
+      "start_ms": 407676,
+      "end_ms": 412548,
+      "text": "Then the friar drew his own gleaming sword with a merry twinkle in his eye.",
+      "translation": "Ardından keşiş, gözünde neşeli bir pırıltıyla kendi parıldayan kılıcını çekti.",
+      "notes": "Prepositional phrase 'with a twinkle'; adjective 'gleaming'."
+    },
+    {
+      "id": 71,
+      "start_ms": 412948,
+      "end_ms": 418852,
+      "text": "'Now, my fine young gallant,' chuckled the friar, 'carry me back across the stream!'",
+      "translation": "'Şimdi benim güzel yiğidim,' diye kıkırdadı keşiş, 'beni nehrin karşısına geri taşı!'",
+      "notes": "Direct speech; imperative command 'carry me back'."
+    },
+    {
+      "id": 72,
+      "start_ms": 419252,
+      "end_ms": 424412,
+      "text": "Robin had to obey, so he took the heavy monk upon his shoulders with a groan.",
+      "translation": "Robin itaat etmek zorundaydı, bu yüzden inleyerek ağır keşişi omuzlarına aldı.",
+      "notes": "Modal of obligation 'had to obey'; manner phrase 'with a groan'."
+    },
+    {
+      "id": 73,
+      "start_ms": 424812,
+      "end_ms": 429564,
+      "text": "Robin struggled through the deep water, breathless under the enormous weight.",
+      "translation": "Robin bu devasa ağırlık altında nefes nefese kalarak derin suyun içinde güçlükle ilerledi.",
+      "notes": "Adjective 'breathless'; past verb 'struggled through'."
+    },
+    {
+      "id": 74,
+      "start_ms": 429964,
+      "end_ms": 435388,
+      "text": "When they reached the bank, Robin sprang down and ordered the friar to carry him again.",
+      "translation": "Kıyıya vardıklarında Robin aşağı atladı ve keşişe kendisini tekrar taşımasını emretti.",
+      "notes": "Time clause with 'when'; verb + object + infinitive 'ordered to carry'."
+    },
+    {
+      "id": 75,
+      "start_ms": 435788,
+      "end_ms": 441284,
+      "text": "The friar agreed smilingly and hoisted Robin upon his sturdy shoulders once more.",
+      "translation": "Keşiş gülümseyerek kabul etti ve Robin'i sağlam omuzlarına bir kez daha kaldırdı.",
+      "notes": "Adverb 'smilingly'; phrasal verb 'hoisted upon'."
+    },
+    {
+      "id": 76,
+      "start_ms": 441684,
+      "end_ms": 447228,
+      "text": "But in the very middle of the stream, where the water was deepest, the friar stopped.",
+      "translation": "Fakat akarsuyun tam ortasında, suyun en derin olduğu yerde keşiş duruverdi.",
+      "notes": "Emphatic adjective 'very middle'; superlative 'deepest'."
+    },
+    {
+      "id": 77,
+      "start_ms": 447628,
+      "end_ms": 453556,
+      "text": "He shrugged his shoulders, dumping Robin headlong into the icy current with a huge plash.",
+      "translation": "Omuzlarını silkti ve büyük bir şapırtıyla Robin'i buz gibi akıntının içine tepeüstü boca etti.",
+      "notes": "Participle phrase 'dumping Robin headlong'; noun 'plash'."
+    },
+    {
+      "id": 78,
+      "start_ms": 453956,
+      "end_ms": 459644,
+      "text": "They both reached the shore and fought with swords and staves for three furious hours.",
+      "translation": "İkisi de kıyıya çıktılar ve kılıçlar ile sopalarla üç öfkeli saat boyunca savaştılar.",
+      "notes": "Duration phrase 'for three hours'; coordinate past verbs."
+    },
+    {
+      "id": 79,
+      "start_ms": 460044,
+      "end_ms": 466020,
+      "text": "Exhausted and laughing, Robin blew his bugle, and Friar Tuck whistled for his hounds.",
+      "translation": "Bitkin düşen ve kahkahalar atan Robin borusunu çaldı, Rahip Tuck ise tazılarına ıslık çaldı.",
+      "notes": "Coordinate clauses; participial adjectives 'exhausted and laughing'."
+    },
+    {
+      "id": 80,
+      "start_ms": 466420,
+      "end_ms": 472228,
+      "text": "Recognizing each other's valor, they shook hands and Friar Tuck joined the merry band.",
+      "translation": "Birbirlerinin cesaretini takdir ederek el sıkıştılar ve Rahip Tuck neşeli çeteye katıldı.",
+      "notes": "Participle clause 'Recognizing valor'; coordinate past verbs."
+    },
+    {
+      "id": 81,
+      "start_ms": 473228,
+      "end_ms": 478652,
+      "text": "One afternoon, Little John brought a stranger to the great trysting tree in Sherwood.",
+      "translation": "Bir öğleden sonra Küçük John, Sherwood'daki ulu buluşma ağacına bir yabancı getirdi.",
+      "notes": "Transitive past 'brought'; compound noun 'trysting tree'."
+    },
+    {
+      "id": 82,
+      "start_ms": 479052,
+      "end_ms": 484692,
+      "text": "The stranger was a knight clad in shabby armor, riding a thin, tired horse.",
+      "translation": "Yabancı, zayıf ve yorgun bir ata binmiş, eski püskü zırhlar içinde bir şövalyeydi.",
+      "notes": "Passive participle 'clad in shabby armor'; participle phrase 'riding a horse'."
+    },
+    {
+      "id": 83,
+      "start_ms": 485092,
+      "end_ms": 490540,
+      "text": "His head hung low upon his breast, and tears of deep sorrow wet his cheeks.",
+      "translation": "Başı göğsünün üzerine düşmüştü ve derin bir kederin gözyaşları yanaklarını ıslatıyordu.",
+      "notes": "Coordinate clauses; compound noun 'tears of deep sorrow'."
+    },
+    {
+      "id": 84,
+      "start_ms": 490940,
+      "end_ms": 496340,
+      "text": "Robin welcomed him courteously and set a feast of roast venison and wine before him.",
+      "translation": "Robin onu nezaketle karşıladı ve önüne fırında geyik eti ile şaraptan bir ziyafet koydu.",
+      "notes": "Adverb 'courteously'; coordinate past verbs 'welcomed and set'."
+    },
+    {
+      "id": 85,
+      "start_ms": 496740,
+      "end_ms": 502116,
+      "text": "After the meal, Robin asked the knight why his spirit was so burdened with grief.",
+      "translation": "Yemekten sonra Robin şövalyeye ruhunun neden kederle bu kadar ağırlaştığını sordu.",
+      "notes": "Indirect question clause 'why his spirit was burdened'; passive participle."
+    },
+    {
+      "id": 86,
+      "start_ms": 502516,
+      "end_ms": 507532,
+      "text": "'My name is Sir Richard of the Lea,' spoke the knight in a trembling voice.",
+      "translation": "'Benim adım Lea'lı Sör Richard,' diye konuştu şövalye titreyen bir sesle.",
+      "notes": "Proper name; prepositional phrase 'in a trembling voice'."
+    },
+    {
+      "id": 87,
+      "start_ms": 507932,
+      "end_ms": 512564,
+      "text": "'I am ruined because my son killed a knight in a tournament by accident.'",
+      "translation": "'Mahvoldum, çünkü oğlum bir turnuvada kazara bir şövalyeyi öldürdü.'",
+      "notes": "Causal clause with 'because'; prepositional phrase 'by accident'."
+    },
+    {
+      "id": 88,
+      "start_ms": 512964,
+      "end_ms": 518940,
+      "text": "'To save my son from prison, I had to borrow four hundred pounds from the Abbot of Saint Mary's.'",
+      "translation": "'Oğlumu hapisten kurtarmak için Saint Mary Başkeşişi'nden dört yüz sterlin borç almak zorunda kaldım.'",
+      "notes": "Infinitive of purpose 'to save my son'; modal obligation 'had to borrow'."
+    },
+    {
+      "id": 89,
+      "start_ms": 519340,
+      "end_ms": 525436,
+      "text": "'Tomorrow is the day of payment, and if I fail, my ancestral castle is lost forever.'",
+      "translation": "'Yarın ödeme günüdür ve eğer ödeyemezsem atalarımdan kalma şatom sonsuza dek elden gidecek.'",
+      "notes": "Conditional clause 'if I fail'; passive predicate 'is lost forever'."
+    },
+    {
+      "id": 90,
+      "start_ms": 525836,
+      "end_ms": 531068,
+      "text": "Robin was deeply moved by the noble knight's honest grief and terrible misfortune.",
+      "translation": "Robin soylu şövalyenin dürüst kederinden ve korkunç talihsizliğinden derinden etkilendi.",
+      "notes": "Passive voice 'was deeply moved by'; coordinate nouns."
+    },
+    {
+      "id": 91,
+      "start_ms": 531468,
+      "end_ms": 536124,
+      "text": "He turned to Little John and asked how much gold they had in their treasury.",
+      "translation": "Küçük John'a döndü ve hazinelerinde ne kadar altınları olduğunu sordu.",
+      "notes": "Indirect question 'how much gold they had'; past verb 'turned'."
+    },
+    {
+      "id": 92,
+      "start_ms": 536524,
+      "end_ms": 541468,
+      "text": "Little John counted four hundred bright gold pounds from their store of riches.",
+      "translation": "Küçük John zenginlik ambarlarından dört yüz parlak altın sterlin saydı.",
+      "notes": "Transitive past 'counted'; prepositional phrase 'from their store'."
+    },
+    {
+      "id": 93,
+      "start_ms": 541868,
+      "end_ms": 547580,
+      "text": "'Take this gold, good Sir Richard,' said Robin, handing over the heavy purse.",
+      "translation": "'Bu altını al iyi Sör Richard,' dedi Robin ağır keseyi uzatarak.",
+      "notes": "Imperative 'take this gold'; participle phrase 'handing over purse'."
+    },
+    {
+      "id": 94,
+      "start_ms": 547980,
+      "end_ms": 552732,
+      "text": "'Pay the greedy Abbot, and keep thy ancestral lands for thy family.'",
+      "translation": "'Açgözlü Başkeşiş'e ödemeni yap ve atalarının topraklarını ailen için koru.'",
+      "notes": "Coordinate imperatives 'pay and keep'; archaic possessive 'thy'."
+    },
+    {
+      "id": 95,
+      "start_ms": 553132,
+      "end_ms": 558796,
+      "text": "Sir Richard wept tears of overwhelming gratitude and swore an everlasting brotherhood.",
+      "translation": "Sör Richard ezici bir minnet gözyaşlarına boğuldu ve ebedi bir kardeşliğe ant içti.",
+      "notes": "Coordinate past verbs 'wept and swore'; compound adjective 'everlasting'."
+    },
+    {
+      "id": 96,
+      "start_ms": 559196,
+      "end_ms": 564596,
+      "text": "'I shall repay thee every single penny within one year's time,' promised the knight.",
+      "translation": "'Bir yıl içinde sana her bir kuruşunu geri ödeyeceğim,' diye söz verdi şövalye.",
+      "notes": "Modal 'shall repay'; time phrase 'within one year's time'."
+    },
+    {
+      "id": 97,
+      "start_ms": 564996,
+      "end_ms": 571188,
+      "text": "Robin also gave him a fine horse, new clothes, and two stout yeomen as escorts.",
+      "translation": "Robin ona ayrıca güzel bir at, yeni giysiler ve muhafız olarak iki babayiğit okçu verdi.",
+      "notes": "Multiple direct objects; preposition 'as escorts'."
+    },
+    {
+      "id": 98,
+      "start_ms": 571588,
+      "end_ms": 576796,
+      "text": "Sir Richard rode away into the golden sunset, his head held high with honor.",
+      "translation": "Sör Richard başı onurla dikilmiş halde altın gün batımına doğru at sürdü.",
+      "notes": "Absolute construction 'his head held high'; directional phrase 'into sunset'."
+    },
+    {
+      "id": 99,
+      "start_ms": 577196,
+      "end_ms": 582380,
+      "text": "The greedy Abbot received his money with bitter disappointment, robbed of his prey.",
+      "translation": "Açgözlü Başkeşiş avından mahrum kalarak parasını acı bir hayal kırıklığıyla teslim aldı.",
+      "notes": "Past participle modifier 'robbed of prey'; prepositional phrase 'with disappointment'."
+    },
+    {
+      "id": 100,
+      "start_ms": 582780,
+      "end_ms": 587628,
+      "text": "True justice had triumphed in Sherwood through the generosity of Robin Hood.",
+      "translation": "Sherwood'da gerçek adalet, Robin Hood'un cömertliği sayesinde zafer kazanmıştı.",
+      "notes": "Past perfect 'had triumphed'; prepositional phrase 'through generosity'."
+    },
+    {
+      "id": 101,
+      "start_ms": 588628,
+      "end_ms": 593428,
+      "text": "The Sheriff of Nottingham swore by all the saints that Robin Hood must hang.",
+      "translation": "Nottingham Şerifi bütün azizlerin üzerine yemin etti ki Robin Hood mutlaka asılmalıydı.",
+      "notes": "Noun clause 'that Robin must hang'; past verb 'swore by'."
+    },
+    {
+      "id": 102,
+      "start_ms": 593828,
+      "end_ms": 598868,
+      "text": "He gathered a troop of armed men and rode boldly into the borders of Sherwood.",
+      "translation": "Silahlı adamlardan bir birlik topladı ve cüretkarca Sherwood sınırlarına doğru at sürdü.",
+      "notes": "Coordinate past verbs 'gathered and rode'; adverb 'boldly'."
+    },
+    {
+      "id": 103,
+      "start_ms": 599268,
+      "end_ms": 604500,
+      "text": "While his soldiers rested, the Sheriff rode ahead into a secluded glade alone.",
+      "translation": "Askerleri dinlenirken Şerif tek başına kuytu bir orman açıklığına doğru ilerledi.",
+      "notes": "Temporal clause with 'while'; past verb 'rode ahead'."
+    },
+    {
+      "id": 104,
+      "start_ms": 604900,
+      "end_ms": 610588,
+      "text": "Suddenly, green-clad archers sprang from behind every bush and surrounded his horse.",
+      "translation": "Birdenbire her çalının arkasından yeşiller giymiş okçular fırladı ve atının etrafını sardı.",
+      "notes": "Coordinate past verbs 'sprang and surrounded'; compound adjective 'green-clad'."
+    },
+    {
+      "id": 105,
+      "start_ms": 610988,
+      "end_ms": 616004,
+      "text": "Little John grasped the Sheriff's bridle with a cheerful and mocking smile.",
+      "translation": "Küçük John neşeli ve alaycı bir tebessümle Şerif'in atının dizginini yakaladı.",
+      "notes": "Prepositional phrase 'with a cheerful smile'; transitive 'grasped'."
+    },
+    {
+      "id": 106,
+      "start_ms": 616404,
+      "end_ms": 622212,
+      "text": "'Welcome to Sherwood, Lord Sheriff!' cried Little John, 'Robin Hood awaits thee!'",
+      "translation": "'Sherwood'a hoş geldiniz Şerif Efendi!' diye haykırdı Küçük John, 'Robin Hood seni bekliyor!'",
+      "notes": "Archaic object 'thee'; exclamatory direct speech."
+    },
+    {
+      "id": 107,
+      "start_ms": 622612,
+      "end_ms": 627916,
+      "text": "The Sheriff turned white with terror, realizing he was completely at their mercy.",
+      "translation": "Tamamen onların insafına kaldığını anlayan Şerif korkudan bembeyaz kesildi.",
+      "notes": "Participle clause 'realizing he was at mercy'; idiom 'turned white'."
+    },
+    {
+      "id": 108,
+      "start_ms": 628316,
+      "end_ms": 632516,
+      "text": "They led him deep into the forest to the great trysting oak tree.",
+      "translation": "Onu ormanın derinliklerine, ulu buluşma meşesi ağacına doğru götürdüler.",
+      "notes": "Transitive past 'led'; compound noun 'trysting oak tree'."
+    },
+    {
+      "id": 109,
+      "start_ms": 632916,
+      "end_ms": 638196,
+      "text": "Robin Hood bowed low with exaggerated courtly courtesy before his mortal enemy.",
+      "translation": "Robin Hood can düşmanının önünde abartılı bir saray nezaketiyle yerlere kadar eğildi.",
+      "notes": "Phrasal verb 'bowed low'; prepositional phrase 'with exaggerated courtesy'."
+    },
+    {
+      "id": 110,
+      "start_ms": 638596,
+      "end_ms": 643876,
+      "text": "'Thou art just in time to dine with us on the King's royal venison,' said Robin.",
+      "translation": "'Kralın kraliyet geyik etinden bizimle akşam yemeği yemek için tam vaktinde geldin,' dedi Robin.",
+      "notes": "Idiom 'just in time'; archaic 'thou art'."
+    },
+    {
+      "id": 111,
+      "start_ms": 644276,
+      "end_ms": 649148,
+      "text": "A magnificent banquet was laid out on the mossy ground beneath the trees.",
+      "translation": "Ağaçların altındaki yosunlu zemine görkemli bir ziyafet sofrası kuruldu.",
+      "notes": "Passive voice 'was laid out'; adjective 'mossy'."
+    },
+    {
+      "id": 112,
+      "start_ms": 649548,
+      "end_ms": 654540,
+      "text": "The trembling Sheriff was forced to sit on a log and eat his own King's deer.",
+      "translation": "Titreyen Şerif bir kütüğe oturup kendi Kralı'nın geyiğini yemeye mecbur bırakıldı.",
+      "notes": "Passive structure 'was forced to sit'; participial adjective 'trembling'."
+    },
+    {
+      "id": 113,
+      "start_ms": 654940,
+      "end_ms": 659812,
+      "text": "Robin toasted the Sheriff with wine poured from fine silver goblets.",
+      "translation": "Robin güzel gümüş kadehlerden doldurulan şarapla Şerif'in şerefine kadeh kaldırdı.",
+      "notes": "Past participle modifier 'poured from goblets'; past verb 'toasted'."
+    },
+    {
+      "id": 114,
+      "start_ms": 660212,
+      "end_ms": 665012,
+      "text": "When the meal concluded, Robin politely requested payment for the dinner.",
+      "translation": "Yemek sona erdiğinde Robin kibarca akşam yemeğinin ücretini talep etti.",
+      "notes": "Time clause with 'concluded'; adverb 'politely'."
+    },
+    {
+      "id": 115,
+      "start_ms": 665412,
+      "end_ms": 670764,
+      "text": "Little John searched the Sheriff's saddlebags and found three hundred gold pieces.",
+      "translation": "Küçük John Şerif'in eyer çantalarını aradı ve üç yüz altın sikke buldu.",
+      "notes": "Coordinate past verbs 'searched and found'."
+    },
+    {
+      "id": 116,
+      "start_ms": 671164,
+      "end_ms": 676204,
+      "text": "'This will pay for thy supper and leave a tidy tip for my men,' laughed Robin.",
+      "translation": "'Bu akşam yemeğini öder ve adamlarıma da güzel bir bahşiş bırakır,' diye güldü Robin.",
+      "notes": "Coordinate modal clauses; adjective 'tidy tip'."
+    },
+    {
+      "id": 117,
+      "start_ms": 676604,
+      "end_ms": 682508,
+      "text": "The Sheriff wept with fury and humiliation as his treasure was divided among the outlaws.",
+      "translation": "Hazinesi kanun kaçakları arasında paylaştırılırken Şerif öfke ve aşağılanmayla ağladı.",
+      "notes": "Time clause with 'as'; passive voice 'was divided'."
+    },
+    {
+      "id": 118,
+      "start_ms": 682908,
+      "end_ms": 688164,
+      "text": "Before releasing him, Robin made the Sheriff swear a solemn oath on his sword.",
+      "translation": "Onu serbest bırakmadan önce Robin, Şerif'e kılıcı üzerine kutsal bir yemin ettirdi.",
+      "notes": "Causative structure 'made Sheriff swear'; preposition 'before releasing'."
+    },
+    {
+      "id": 119,
+      "start_ms": 688564,
+      "end_ms": 694036,
+      "text": "The Sheriff had to swear never to harm any greenwood outlaw or enter Sherwood again.",
+      "translation": "Şerif bir daha yeşil orman kanun kaçaklarına zarar vermemeye ve Sherwood'a girmemeye yemin etmek zorunda kaldı.",
+      "notes": "Infinitive series; modal 'had to swear'."
+    },
+    {
+      "id": 120,
+      "start_ms": 694436,
+      "end_ms": 700220,
+      "text": "He rode back to Nottingham humiliated, poorer, and burning with unspoken revenge.",
+      "translation": "Aşağılanmış, daha yoksul ve dile getirilmemiş intikam ateşiyle yanarak Nottingham'a geri döndü.",
+      "notes": "Series of predicate adjectives and participles; comparative 'poorer'."
+    },
+    {
+      "id": 121,
+      "start_ms": 701220,
+      "end_ms": 705852,
+      "text": "There was a great fair held in Nottingham town on Saint Giles's Day.",
+      "translation": "Aziz Giles Günü'nde Nottingham kasabasında büyük bir panayır düzenlendi.",
+      "notes": "Passive participle 'held in Nottingham'; proper holiday name."
+    },
+    {
+      "id": 122,
+      "start_ms": 706252,
+      "end_ms": 711052,
+      "text": "Little John begged Robin for permission to visit the fair in disguise.",
+      "translation": "Küçük John kılık değiştirerek panayırı ziyaret etmek için Robin'den izin istedi.",
+      "notes": "Verb + object 'begged Robin for permission'; infinitive 'to visit'."
+    },
+    {
+      "id": 123,
+      "start_ms": 711452,
+      "end_ms": 716684,
+      "text": "'Go, but keep thy temper and stay out of the Sheriff's sight,' warned Robin.",
+      "translation": "'Git, fakat öfkene hakim ol ve Şerif'in gözünden uzak dur,' diye uyardı Robin.",
+      "notes": "Imperative coordinates; idiom 'keep thy temper'."
+    },
+    {
+      "id": 124,
+      "start_ms": 717084,
+      "end_ms": 721500,
+      "text": "Little John dressed as a simple countryman and attended the games.",
+      "translation": "Küçük John sade bir köylü kılığına büründü ve müsabakalara katıldı.",
+      "notes": "Phrasal verb 'dressed as'; coordinate past 'attended'."
+    },
+    {
+      "id": 125,
+      "start_ms": 721900,
+      "end_ms": 726868,
+      "text": "First he entered the wrestling ring and defeated the county champion with ease.",
+      "translation": "Önce güreş halkasına girdi ve bölge şampiyonunu kolaylıkla alt etti.",
+      "notes": "Coordinate past verbs 'entered and defeated'; phrase 'with ease'."
+    },
+    {
+      "id": 126,
+      "start_ms": 727268,
+      "end_ms": 732044,
+      "text": "Next he took up the bow and split every target wand at eighty paces.",
+      "translation": "Sonra yayı eline aldı ve seksen adımdaki her hedef dalını ortadan ikiye yardı.",
+      "notes": "Coordinate past verbs 'took up and split'; measurement phrase."
+    },
+    {
+      "id": 127,
+      "start_ms": 732444,
+      "end_ms": 737604,
+      "text": "The Sheriff watched his marvelous feats and was thoroughly enchanted by his strength.",
+      "translation": "Şerif onun harikulade gösterilerini izledi ve gücünden fazlasıyla büyülendi.",
+      "notes": "Passive voice 'was enchanted by'; coordinate past 'watched'."
+    },
+    {
+      "id": 128,
+      "start_ms": 738004,
+      "end_ms": 743860,
+      "text": "'What is thy name, stout yeoman?' asked the Sheriff, not recognizing the outlaw.",
+      "translation": "'Adın nedir yiğit okçu?' diye sordu Şerif, kanun kaçağını tanımayarak.",
+      "notes": "Archaic question; participle phrase 'not recognizing'."
+    },
+    {
+      "id": 129,
+      "start_ms": 744260,
+      "end_ms": 749852,
+      "text": "'Men call me Reynold Greenleaf, sir,' replied Little John with a sly bow.",
+      "translation": "'Bana Reynold Greenleaf derler efendim,' diye yanıtladı Küçük John kurnazca bir selamla.",
+      "notes": "Proper alias; prepositional phrase 'with a sly bow'."
+    },
+    {
+      "id": 130,
+      "start_ms": 750252,
+      "end_ms": 755316,
+      "text": "The Sheriff immediately hired him as his chief bodyguard for twenty marks a year.",
+      "translation": "Şerif onu yılda yirmi marka derhal baş koruması olarak işe aldı.",
+      "notes": "Transitive past 'hired'; preposition 'as chief bodyguard'."
+    },
+    {
+      "id": 131,
+      "start_ms": 755716,
+      "end_ms": 761596,
+      "text": "For six months, Little John lived in the Sheriff's castle, eating and drinking the best.",
+      "translation": "Altı ay boyunca Küçük John Şerif'in kalesinde yaşadı; en iyisini yiyip en iyisini içti.",
+      "notes": "Duration phrase 'For six months'; coordinate participles."
+    },
+    {
+      "id": 132,
+      "start_ms": 761996,
+      "end_ms": 767372,
+      "text": "One day when the Sheriff was away hunting, Little John demanded his midday meal.",
+      "translation": "Bir gün Şerif uzakta avdayken Küçük John öğle yemeğini talep etti.",
+      "notes": "Time clause 'when Sheriff was away'; transitive past 'demanded'."
+    },
+    {
+      "id": 133,
+      "start_ms": 767772,
+      "end_ms": 772740,
+      "text": "The steward refused rudely, locking the pantry door against the giant.",
+      "translation": "Kahya kabaca reddetti, kiler kapısını devin yüzüne kilitledi.",
+      "notes": "Adverb 'rudely'; participle clause 'locking pantry door'."
+    },
+    {
+      "id": 134,
+      "start_ms": 773140,
+      "end_ms": 778492,
+      "text": "Little John cracked the steward's head, broke open the heavy lock, and entered.",
+      "translation": "Küçük John kahyanın kafasını patlattı, ağır kilidi kırıp açtı ve içeri girdi.",
+      "notes": "Series of coordinated past actions."
+    },
+    {
+      "id": 135,
+      "start_ms": 778892,
+      "end_ms": 783668,
+      "text": "He sat in the cellar eating cold venison and drinking rich Malmsey wine.",
+      "translation": "Mahzende oturup soğuk geyik eti yedi ve nefis Malmsey şarabı içti.",
+      "notes": "Coordinate participles describing hearty indulgence."
+    },
+    {
+      "id": 136,
+      "start_ms": 784068,
+      "end_ms": 789108,
+      "text": "The castle cook, a stout swordsman, attacked him with a gleaming blade.",
+      "translation": "Sağlam bir kılıç ustası olan kale aşçısı parıldayan bir kılıçla ona saldırdı.",
+      "notes": "Apposition identifying cook; past verb 'attacked'."
+    },
+    {
+      "id": 137,
+      "start_ms": 789508,
+      "end_ms": 794500,
+      "text": "They fought fiercely until both grew winded and developed mutual respect.",
+      "translation": "Her ikisinin de nefesi kesilip karşılıklı saygı duyana kadar kıyasıya savaştılar.",
+      "notes": "Time clause with 'until'; coordinate past verbs."
+    },
+    {
+      "id": 138,
+      "start_ms": 794900,
+      "end_ms": 800228,
+      "text": "'Thou art the finest swordsman I have ever crossed blades with!' laughed Little John.",
+      "translation": "'Sen hayatımda kılıç tokuşturduğum en iyi kılıç ustasısın!' diye güldü Küçük John.",
+      "notes": "Superlative clause with present perfect 'have ever crossed'."
+    },
+    {
+      "id": 139,
+      "start_ms": 800628,
+      "end_ms": 805860,
+      "text": "He persuaded the cook to pack all the Sheriff's silver plate and join Robin Hood.",
+      "translation": "Şerif'in bütün gümüş tabaklarını paketleyip Robin Hood'a katılması için aşçıyı ikna etti.",
+      "notes": "Verb + object + infinitive 'persuaded cook to pack'."
+    },
+    {
+      "id": 140,
+      "start_ms": 806260,
+      "end_ms": 811300,
+      "text": "Together they marched out of the castle carrying the Sheriff's silver back to Sherwood.",
+      "translation": "Şerif'in gümüşlerini Sherwood'a geri taşıyarak birlikte kaleden çıkıp gittiler.",
+      "notes": "Participle phrase 'carrying silver'; phrasal verb 'marched out of'."
+    },
+    {
+      "id": 141,
+      "start_ms": 812300,
+      "end_ms": 816980,
+      "text": "Robin Hood loved nothing better than a merry prank at the Sheriff's expense.",
+      "translation": "Robin Hood Şerif'in aleyhine neşeli bir muziplik yapmaktan daha çok hiçbir şeyi sevmezdi.",
+      "notes": "Idiom 'at someone's expense'; comparative 'nothing better than'."
+    },
+    {
+      "id": 142,
+      "start_ms": 817380,
+      "end_ms": 822804,
+      "text": "One morning on the highway, he met a young butcher driving a cart to Nottingham market.",
+      "translation": "Bir sabah anayolda, Nottingham pazarına at arabası süren genç bir kasapla karşılaştı.",
+      "notes": "Participle phrase 'driving a cart'; past verb 'met'."
+    },
+    {
+      "id": 143,
+      "start_ms": 823204,
+      "end_ms": 828940,
+      "text": "Robin bought the cart, horse, and all the meat for five gold pieces on the spot.",
+      "translation": "Robin arabayı, atı ve bütün eti oracıkta beş altın sikke karşılığında satın aldı.",
+      "notes": "Series of direct objects; idiom 'on the spot'."
+    },
+    {
+      "id": 144,
+      "start_ms": 829340,
+      "end_ms": 834476,
+      "text": "He donned the butcher's blood-stained apron and drove merrily into the market square.",
+      "translation": "Kasabın kan lekeli önlüğünü giydi ve neşeyle pazar meydanına doğru arabasını sürdü.",
+      "notes": "Coordinate past verbs 'donned and drove'; compound adjective 'blood-stained'."
+    },
+    {
+      "id": 145,
+      "start_ms": 834876,
+      "end_ms": 840180,
+      "text": "He set up a stall among the butchers and began shouting his extraordinary prices.",
+      "translation": "Kasapların arasında bir tezgah kurdu ve sıra dışı fiyatlarını bağırmaya başladı.",
+      "notes": "Coordinate past verbs; participial adjective 'extraordinary'."
+    },
+    {
+      "id": 146,
+      "start_ms": 840580,
+      "end_ms": 846028,
+      "text": "'Fresh meat for all!' cried Robin, 'three pennies' worth for one single penny!'",
+      "translation": "'Herkese taze et!' diye haykırdı Robin, 'üç kuruşluk et sadece bir kuruşa!'",
+      "notes": "Exclamatory quotation; idiom 'worth for one penny'."
+    },
+    {
+      "id": 147,
+      "start_ms": 846428,
+      "end_ms": 852644,
+      "text": "Poor women, beggars, and children flocked around his stall, buying meat by the armload.",
+      "translation": "Yoksul kadınlar, dilenciler ve çocuklar tezgahının etrafına akın ettiler, kucak dolusu et aldılar.",
+      "notes": "Coordinate subjects; participle phrase 'buying meat by the armload'."
+    },
+    {
+      "id": 148,
+      "start_ms": 853044,
+      "end_ms": 858012,
+      "text": "The other butchers grew furious because Robin was underselling them completely.",
+      "translation": "Diğer kasaplar öfkeden deliye döndüler çünkü Robin tamamen onların fiyatının altında satıyordu.",
+      "notes": "Causal clause with 'because'; transitive past 'underselling'."
+    },
+    {
+      "id": 149,
+      "start_ms": 858412,
+      "end_ms": 864100,
+      "text": "'He must be a prodigal fool who has squandered his father's estate,' whispered the butchers.",
+      "translation": "'Babasının mülkünü çarçur etmiş savurgan bir aptal olmalı,' diye fısıldaştı kasaplar.",
+      "notes": "Modal deduction 'must be'; relative clause with present perfect."
+    },
+    {
+      "id": 150,
+      "start_ms": 864500,
+      "end_ms": 869564,
+      "text": "The Sheriff heard of this rich, foolish young butcher and invited him to dinner.",
+      "translation": "Şerif bu zengin ve aptal genç kasabı duydu ve onu akşam yemeğine davet etti.",
+      "notes": "Coordinate past verbs 'heard of and invited'; series of adjectives."
+    },
+    {
+      "id": 151,
+      "start_ms": 869964,
+      "end_ms": 875100,
+      "text": "Over wine, the Sheriff asked if the young butcher had horned beasts to sell.",
+      "translation": "Şarap eşliğinde Şerif, genç kasabın satılık boynuzlu hayvanı olup olmadığını sordu.",
+      "notes": "Indirect question with 'if'; compound noun 'horned beasts'."
+    },
+    {
+      "id": 152,
+      "start_ms": 875500,
+      "end_ms": 881860,
+      "text": "'Aye, Lord Sheriff,' said Robin, 'five hundred fat horned beasts graze on my pastures.'",
+      "translation": "'Evet Şerif Efendi,' dedi Robin, 'otlaklarımda beş yüz semiz boynuzlu hayvan otlar.'",
+      "notes": "Direct speech; numeral 'five hundred'."
+    },
+    {
+      "id": 153,
+      "start_ms": 882260,
+      "end_ms": 886628,
+      "text": "'I will sell them to thee for three hundred pieces of gold in cash.'",
+      "translation": "'Onları sana nakit üç yüz altın karşılığında satarım.'",
+      "notes": "Future modal 'will sell'; prepositional phrase 'for three hundred pieces'."
+    },
+    {
+      "id": 154,
+      "start_ms": 887028,
+      "end_ms": 893004,
+      "text": "The greedy Sheriff greedily agreed, intending to buy the cattle far below market value.",
+      "translation": "Açgözlü Şerif, sığırları piyasa değerinin çok altında satın alma niyetiyle hevesle kabul etti.",
+      "notes": "Participle phrase 'intending to buy'; adverb 'greedily'."
+    },
+    {
+      "id": 155,
+      "start_ms": 893404,
+      "end_ms": 898828,
+      "text": "The next morning, the Sheriff and the butcher rode together toward Sherwood Forest.",
+      "translation": "Ertesi sabah Şerif ve kasap birlikte Sherwood Ormanı'na doğru at sürdüler.",
+      "notes": "Directional phrase 'toward Sherwood Forest'."
+    },
+    {
+      "id": 156,
+      "start_ms": 899228,
+      "end_ms": 904844,
+      "text": "As they entered the gloomy woods, the Sheriff grew uneasy and looked about nervously.",
+      "translation": "Kasvetli koruya girdiklerinde Şerif huzursuzlandı ve gergin bir şekilde etrafına bakındı.",
+      "notes": "Time clause with 'as'; coordinate past verbs 'grew and looked'."
+    },
+    {
+      "id": 157,
+      "start_ms": 905244,
+      "end_ms": 910764,
+      "text": "'I do not like this wild forest,' muttered the Sheriff, 'for Robin Hood haunts it.'",
+      "translation": "'Bu vahşi ormanı hiç sevmiyorum,' diye mırıldandı Şerif, 'çünkü Robin Hood buraya dadandı.'",
+      "notes": "Causal coordinating conjunction 'for'; transitive verb 'haunts'."
+    },
+    {
+      "id": 158,
+      "start_ms": 911164,
+      "end_ms": 916612,
+      "text": "Suddenly Robin pointed to a herd of a hundred wild royal deer grazing in a glade.",
+      "translation": "Birdenbire Robin bir orman açıklığında otlayan yüz vahşi kraliyet geyiği sürüsünü gösterdi.",
+      "notes": "Participle phrase 'grazing in a glade'; phrasal verb 'pointed to'."
+    },
+    {
+      "id": 159,
+      "start_ms": 917012,
+      "end_ms": 922964,
+      "text": "'There are my horned beasts, Lord Sheriff!' laughed Robin, blowing his silver horn.",
+      "translation": "'İşte benim boynuzlu hayvanlarım Şerif Efendi!' diye güldü Robin, gümüş borusunu üfleyerek.",
+      "notes": "Direct quotation; participle phrase 'blowing his horn'."
+    },
+    {
+      "id": 160,
+      "start_ms": 923364,
+      "end_ms": 929268,
+      "text": "The outlaws appeared from the brush, relieved the Sheriff of his gold, and escorted him home.",
+      "translation": "Kanun kaçakları çalılıklardan belirdiler, Şerif'i altınlarından hafiflettiler ve onu eve kadar uğurladılar.",
+      "notes": "Series of coordinated past actions; idiom 'relieved of gold'."
+    },
+    {
+      "id": 161,
+      "start_ms": 930268,
+      "end_ms": 935428,
+      "text": "The Sheriff issued a royal warrant on stiff parchment for the capture of Robin Hood.",
+      "translation": "Şerif Robin Hood'un yakalanması için sert parşömen üzerine kraliyet tutuklama emri çıkardı.",
+      "notes": "Prepositional phrases indicating medium and purpose; past verb 'issued'."
+    },
+    {
+      "id": 162,
+      "start_ms": 935828,
+      "end_ms": 941396,
+      "text": "A wandering tinker named Wat o' the Crabstaff boasted that he would serve the warrant.",
+      "translation": "Wat o' the Crabstaff adında gezgin bir lehimci fermanı bizzat tebliğ edeceğini böbürlendi.",
+      "notes": "Appositive participle 'named Wat'; noun clause 'that he would serve'."
+    },
+    {
+      "id": 163,
+      "start_ms": 941796,
+      "end_ms": 947700,
+      "text": "Wat marched along the dusty road toward Sherwood, swinging his heavy crabstaff proudly.",
+      "translation": "Wat ağır yabani elma sopasını gururla sallayarak Sherwood'a doğru tozlu yolda yürüdü.",
+      "notes": "Participle phrase 'swinging his crabstaff'; directional preposition 'toward'."
+    },
+    {
+      "id": 164,
+      "start_ms": 948100,
+      "end_ms": 953524,
+      "text": "Robin met him near the sign of the Blue Boar Inn, disguised as a prosperous yeoman.",
+      "translation": "Robin zengin bir köylü kılığına bürünmüş halde Blue Boar Hanı tabelasının yakınında onunla karşılaştı.",
+      "notes": "Passive participle modifier 'disguised as'; proper location."
+    },
+    {
+      "id": 165,
+      "start_ms": 953924,
+      "end_ms": 959492,
+      "text": "'Good day, fellow,' greeted Robin, 'what brings thee along this dusty highway?'",
+      "translation": "'İyi günler adamım,' diye selamladı Robin, 'seni bu tozlu anayolda hangi rüzgar attı?'",
+      "notes": "Archaic greeting; question with 'what brings thee'."
+    },
+    {
+      "id": 166,
+      "start_ms": 959892,
+      "end_ms": 966132,
+      "text": "'I carry a warrant for Robin Hood's arrest, worth one hundred golden pounds!' boasted Wat.",
+      "translation": "'Robin Hood'un tutuklanması için yüz altın sterlin değerinde bir ferman taşıyorum!' diye böbürlendi Wat.",
+      "notes": "Adjective phrase 'worth one hundred pounds'; past verb 'boasted'."
+    },
+    {
+      "id": 167,
+      "start_ms": 966532,
+      "end_ms": 972244,
+      "text": "'Come into the Blue Boar,' said Robin with a smile, 'and let us drink to thy success.'",
+      "translation": "'Blue Boar'a gel,' dedi Robin bir tebessümle, 've senin başarın şerefine içelim.'",
+      "notes": "Imperative coordinates; idiom 'drink to thy success'."
+    },
+    {
+      "id": 168,
+      "start_ms": 972644,
+      "end_ms": 977924,
+      "text": "They sat in the taproom, where Robin ordered tankard after tankard of strong ale.",
+      "translation": "Robin'in kupa üstüne kupa sert bira sipariş ettiği meyhane salonunda oturdular.",
+      "notes": "Relative clause of place; repetitive noun phrase 'tankard after tankard'."
+    },
+    {
+      "id": 169,
+      "start_ms": 978324,
+      "end_ms": 983772,
+      "text": "The tinker drank thirstily and bragged of how he would thrash Robin Hood with his staff.",
+      "translation": "Lehimci susamışçasına içti ve sopasıyla Robin Hood'u nasıl pataklayacağını böbürlendi.",
+      "notes": "Indirect question 'how he would thrash'; coordinate past verbs."
+    },
+    {
+      "id": 170,
+      "start_ms": 984172,
+      "end_ms": 989812,
+      "text": "Soon the heavy drink overcame Wat, and he fell into a deep, snoring slumber.",
+      "translation": "Çok geçmeden ağır içki Wat'ı alt etti ve adam derin, horultulu bir uykuya daldı.",
+      "notes": "Coordinate past clauses; compound noun 'snoring slumber'."
+    },
+    {
+      "id": 171,
+      "start_ms": 990212,
+      "end_ms": 995756,
+      "text": "Robin quietly reached into the tinker's pouch and extracted the royal parchment warrant.",
+      "translation": "Robin sessizce lehimcinin kesesine uzandı ve kraliyet parşömen fermanını çekip aldı.",
+      "notes": "Coordinate past verbs 'reached and extracted'; adverb 'quietly'."
+    },
+    {
+      "id": 172,
+      "start_ms": 996156,
+      "end_ms": 1000956,
+      "text": "He paid the innkeeper for his own drink and slipped away into the greenwood.",
+      "translation": "Meyhaneciye kendi içkisinin parasını ödedi ve yeşil ormanın içine doğru sıvıştı.",
+      "notes": "Coordinate past verbs 'paid and slipped away'."
+    },
+    {
+      "id": 173,
+      "start_ms": 1001356,
+      "end_ms": 1006660,
+      "text": "When the tinker woke hours later, he had a pounding headache and an empty purse.",
+      "translation": "Lehimci saatler sonra uyandığında, zonklayan bir baş ağrısı ve tamtakır bir kesesi vardı.",
+      "notes": "Time clause with 'when'; participial adjective 'pounding headache'."
+    },
+    {
+      "id": 174,
+      "start_ms": 1007060,
+      "end_ms": 1012556,
+      "text": "The landlord demanded ten shillings for all the ale Wat had consumed with his companion.",
+      "translation": "Hancı, Wat'ın arkadaşıyla tükettiği bütün bira için on şilin talep etti.",
+      "notes": "Relative clause 'Wat had consumed'; transitive past 'demanded'."
+    },
+    {
+      "id": 175,
+      "start_ms": 1012956,
+      "end_ms": 1017828,
+      "text": "Wat reached for his pouch and found both his money and the King's warrant gone.",
+      "translation": "Wat kesesine uzandı ve hem parasının hem de Kralın fermanının yok olduğunu gördü.",
+      "notes": "Correlative conjunctions 'both... and'; adjective 'gone'."
+    },
+    {
+      "id": 176,
+      "start_ms": 1018228,
+      "end_ms": 1023580,
+      "text": "He realized in furious rage that the friendly stranger had been Robin Hood himself.",
+      "translation": "O dost canlısı yabancının bizzat Robin Hood olduğunu öfkeli bir hiddetle anladı.",
+      "notes": "Noun clause with past perfect; emphatic reflexive 'Robin himself'."
+    },
+    {
+      "id": 177,
+      "start_ms": 1023980,
+      "end_ms": 1029188,
+      "text": "He grabbed his crabstaff and rushed into Sherwood Forest to exact revenge.",
+      "translation": "Yabani elma sopasını kaptı ve intikam almak için Sherwood Ormanı'na daldı.",
+      "notes": "Coordinate past verbs; infinitive of purpose 'to exact revenge'."
+    },
+    {
+      "id": 178,
+      "start_ms": 1029588,
+      "end_ms": 1034124,
+      "text": "He encountered Robin under an oak and challenged him to single combat.",
+      "translation": "Meşe ağacının altında Robin'le karşılaştı ve onu teke tek dövüşe davet etti.",
+      "notes": "Coordinate past verbs 'encountered and challenged'; phrase 'to single combat'."
+    },
+    {
+      "id": 179,
+      "start_ms": 1034524,
+      "end_ms": 1040260,
+      "text": "They traded blows until Robin admired the tinker's skill and offered him a place in his band.",
+      "translation": "Robin lehimcinin maharetini takdir edip ona çetesinde bir yer teklif edene kadar darbe tokuşturdular.",
+      "notes": "Time clause with 'until'; coordinate past verbs 'admired and offered'."
+    },
+    {
+      "id": 180,
+      "start_ms": 1040660,
+      "end_ms": 1045916,
+      "text": "Wat happily accepted, and Robin gained another stout fighter for the greenwood.",
+      "translation": "Wat neşeyle kabul etti ve Robin yeşil orman için bir başka babayiğit savaşçı kazanmış oldu.",
+      "notes": "Coordinate independent clauses; adverb 'happily'."
+    },
+    {
+      "id": 181,
+      "start_ms": 1046916,
+      "end_ms": 1052004,
+      "text": "Robin Hood and Little John walked along the sunny forest highway one morning.",
+      "translation": "Robin Hood ve Küçük John bir sabah güneşli orman anayolu boyunca yürüyorlardı.",
+      "notes": "Subject coordinate; past verb 'walked along'."
+    },
+    {
+      "id": 182,
+      "start_ms": 1052404,
+      "end_ms": 1057300,
+      "text": "Coming down the path was a finely dressed young gentleman in scarlet silk.",
+      "translation": "Patikadan aşağı doğru al ipekler içinde çok şık giyimli genç bir beyefendi geliyordu.",
+      "notes": "Inverted locative sentence; passive participle modifier 'finely dressed'."
+    },
+    {
+      "id": 183,
+      "start_ms": 1057700,
+      "end_ms": 1063484,
+      "text": "His curly yellow hair fell over his shoulders, and he sniffed a scented rose delicately.",
+      "translation": "Kıvırcık sarı saçları omuzlarına dökülüyordu ve narin bir şekilde kokulu bir gülü kokluyordu.",
+      "notes": "Coordinate clauses; adverb 'delicately'."
+    },
+    {
+      "id": 184,
+      "start_ms": 1063884,
+      "end_ms": 1069428,
+      "text": "'Behold a sweet popinjay!' whispered Little John, 'he will yield a rich purse.'",
+      "translation": "'Şu tatlı züppeye bir bak!' diye fısıldadı Küçük John, 'güzel bir kese bırakacaktır.'",
+      "notes": "Imperative 'Behold'; future modal 'will yield'."
+    },
+    {
+      "id": 185,
+      "start_ms": 1069828,
+      "end_ms": 1074556,
+      "text": "Robin stepped out onto the path and barred the young gentleman's progress.",
+      "translation": "Robin patikaya adım attı ve genç beyefendinin ilerlemesini engelledi.",
+      "notes": "Coordinate past verbs 'stepped out and barred'."
+    },
+    {
+      "id": 186,
+      "start_ms": 1074956,
+      "end_ms": 1080980,
+      "text": "'Hold, fair youth,' commanded Robin, 'and share thy purse with the poor of the forest.'",
+      "translation": "'Dur güzel genç,' diye emretti Robin, 've keseni ormanın yoksullarıyla paylaş.'",
+      "notes": "Coordinate imperatives 'hold and share'; archaic possessive 'thy'."
+    },
+    {
+      "id": 187,
+      "start_ms": 1081380,
+      "end_ms": 1086780,
+      "text": "The young man stopped, looked at Robin with disdain, and drew a long rapier.",
+      "translation": "Genç adam durdu, küçümseyerek Robin'e baktı ve uzun bir meç kılıç çekti.",
+      "notes": "Series of coordinated past actions; noun 'disdain'."
+    },
+    {
+      "id": 188,
+      "start_ms": 1087180,
+      "end_ms": 1093156,
+      "text": "'Out of my way, rustic knave,' replied the youth, 'or I will carve thee like a roast!'",
+      "translation": "'Yolumdan çekil seni köylü uşak,' diye yanıtladı genç, 'yoksa seni bir rosto gibi dilimlerim!'",
+      "notes": "Vocative insult; simile 'like a roast'."
+    },
+    {
+      "id": 189,
+      "start_ms": 1093556,
+      "end_ms": 1098812,
+      "text": "Robin drew his broadsword, expecting an easy triumph over the pampered dandy.",
+      "translation": "Robin şımartılmış bu züppe karşısında kolay bir zafer bekleyerek kılıcını çekti.",
+      "notes": "Participle phrase 'expecting easy triumph'; participial adjective 'pampered'."
+    },
+    {
+      "id": 190,
+      "start_ms": 1099212,
+      "end_ms": 1104276,
+      "text": "To his astonishment, the youth parried every thrust with lightning elegance.",
+      "translation": "Hayretler içinde gördü ki, genç adam her hamleyi şimşek gibi bir zarafetle savuşturuyordu.",
+      "notes": "Transitive past 'parried'; noun phrase 'To his astonishment'."
+    },
+    {
+      "id": 191,
+      "start_ms": 1104676,
+      "end_ms": 1110940,
+      "text": "The stranger danced circles around Robin, disarmed him, and tapped his cheek with the flat blade.",
+      "translation": "Yabancı Robin'in etrafında daireler çizdi, silahını düşürdü ve kılıcın yassısıyla yanağına hafifçe dokundu.",
+      "notes": "Series of coordinated past verbs showing superior fencing skill."
+    },
+    {
+      "id": 192,
+      "start_ms": 1111340,
+      "end_ms": 1116956,
+      "text": "Little John leaped forward with his quarterstaff, but Robin raised his hand to stop him.",
+      "translation": "Küçük John sopasıyla ileri fırladı fakat Robin onu durdurmak için elini kaldırdı.",
+      "notes": "Coordinate clauses with 'but'; infinitive of purpose 'to stop him'."
+    },
+    {
+      "id": 193,
+      "start_ms": 1117356,
+      "end_ms": 1122852,
+      "text": "'Thou art a master of the blade!' cried Robin generously, 'what is thy true name?'",
+      "translation": "'Sen kılıcın tam bir ustasısın!' diye haykırdı Robin cömertçe, 'gerçek adın nedir?'",
+      "notes": "Archaic grammar 'Thou art'; adverb 'generously'."
+    },
+    {
+      "id": 194,
+      "start_ms": 1123252,
+      "end_ms": 1128916,
+      "text": "The young man smiled sadly and replied, 'My name is Will Gamwell of Maxfield.'",
+      "translation": "Genç adam hüzünle gülümsedi ve yanıtladı: 'Benim adım Maxfield'lı Will Gamwell.'",
+      "notes": "Adverb 'sadly'; predicate nominative."
+    },
+    {
+      "id": 195,
+      "start_ms": 1129316,
+      "end_ms": 1134836,
+      "text": "Robin gasped in delight: 'Then thou art my own sister's son, my nephew!'",
+      "translation": "Robin sevinçle nefesini tuttu: 'O halde sen benim öz kız kardeşimin oğlu, yeğenimsin!'",
+      "notes": "Archaic deduction 'thou art'; family relationship."
+    },
+    {
+      "id": 196,
+      "start_ms": 1135236,
+      "end_ms": 1140156,
+      "text": "They embraced warmly, tears of family reunion filling their eyes.",
+      "translation": "Gözlerini aile kavuşmasının gözyaşları doldurarak birbirlerine sıcacık sarıldılar.",
+      "notes": "Absolute construction 'tears filling their eyes'; adverb 'warmly'."
+    },
+    {
+      "id": 197,
+      "start_ms": 1140556,
+      "end_ms": 1145308,
+      "text": "Will explained that he had slain his father's corrupt steward in a fair duel.",
+      "translation": "Will, babasının yozlaşmış kahyasını adil bir düelloda öldürdüğünü açıkladı.",
+      "notes": "Past perfect 'had slain'; noun phrase 'fair duel'."
+    },
+    {
+      "id": 198,
+      "start_ms": 1145708,
+      "end_ms": 1150436,
+      "text": "He had fled into Sherwood Forest to seek his famous uncle Robin Hood.",
+      "translation": "Meşhur amcası Robin Hood'u aramak için Sherwood Ormanı'na kaçmıştı.",
+      "notes": "Infinitive of purpose 'to seek his uncle'; past perfect 'had fled'."
+    },
+    {
+      "id": 199,
+      "start_ms": 1150836,
+      "end_ms": 1156164,
+      "text": "Robin welcomed him into the greenwood and renamed him Will Scarlet for his brilliant attire.",
+      "translation": "Robin onu yeşil ormana kabul etti ve göz alıcı giyimi yüzünden adını Will Scarlet koydu.",
+      "notes": "Coordinate past verbs 'welcomed and renamed'; reason phrase 'for his attire'."
+    },
+    {
+      "id": 200,
+      "start_ms": 1156564,
+      "end_ms": 1161844,
+      "text": "With Will Scarlet beside him, Robin's company grew stronger and bolder than ever.",
+      "translation": "Yanında Will Scarlet ile birlikte Robin'in birliği her zamankinden daha güçlü ve cesur oldu.",
+      "notes": "Comparative phrase 'stronger and bolder than ever'; absolute modifier."
+    },
+    {
+      "id": 201,
+      "start_ms": 1162844,
+      "end_ms": 1168820,
+      "text": "One sunny morning, the outlaws saw a young minstrel walking by, singing cheerfully.",
+      "translation": "Güneşli bir sabah kanun kaçakları neşeyle şarkı söyleyerek yürüyüp geçen genç bir ozan gördüler.",
+      "notes": "Perception verb 'saw' + participle 'walking by and singing'."
+    },
+    {
+      "id": 202,
+      "start_ms": 1169220,
+      "end_ms": 1175004,
+      "text": "The next day, they saw the same youth returning, weeping bitterly with his harp broken.",
+      "translation": "Ertesi gün aynı gencin arpı kırılmış halde acı acı ağlayarak geri döndüğünü gördüler.",
+      "notes": "Absolute construction 'his harp broken'; participle 'returning'."
+    },
+    {
+      "id": 203,
+      "start_ms": 1175404,
+      "end_ms": 1180372,
+      "text": "Robin stopped the lad and asked the reason for his sudden heartbreaking sorrow.",
+      "translation": "Robin delikanlıyı durdurdu ve onun bu ani, yürek parçalayıcı kederinin sebebini sordu.",
+      "notes": "Compound adjective 'heartbreaking'; transitive past 'stopped'."
+    },
+    {
+      "id": 204,
+      "start_ms": 1180772,
+      "end_ms": 1186028,
+      "text": "'My name is Allan a Dale,' wept the youth, 'and my heart is broken in two.'",
+      "translation": "'Benim adım Allan a Dale,' diyerek ağladı genç, 've kalbim ikiye bölündü.'",
+      "notes": "Passive idiom 'broken in two'; direct speech."
+    },
+    {
+      "id": 205,
+      "start_ms": 1186428,
+      "end_ms": 1191636,
+      "text": "'The lady I love, fair Ellen, is to be wed today against her will.'",
+      "translation": "'Sevdiğim hanımefendi, güzel Ellen, bugün kendi rızası hilafına evlendirilecek.'",
+      "notes": "Idiomatic future 'is to be wed'; prepositional phrase 'against her will'."
+    },
+    {
+      "id": 206,
+      "start_ms": 1192036,
+      "end_ms": 1196884,
+      "text": "'Her greedy father is forcing her to marry a rich, decrepit old knight.'",
+      "translation": "'Onun açgözlü babası, zengin ve çökmüş yaşlı bir şövalyeyle evlenmesi için ona baskı yapıyor.'",
+      "notes": "Present continuous 'is forcing'; series of adjectives."
+    },
+    {
+      "id": 207,
+      "start_ms": 1197284,
+      "end_ms": 1202324,
+      "text": "Robin's chivalrous heart burned with indignation at such cruel injustice.",
+      "translation": "Robin'in şövalye ruhlu kalbi böylesine zalimce bir adaletsizlik karşısında öfkeyle yandı.",
+      "notes": "Metaphor 'burned with indignation'; compound noun 'cruel injustice'."
+    },
+    {
+      "id": 208,
+      "start_ms": 1202724,
+      "end_ms": 1208388,
+      "text": "'Take heart, Allan,' said Robin, 'thy true love shall marry thee and no other!'",
+      "translation": "'Yüreğini ferah tut Allan,' dedi Robin, 'senin gerçek aşkın seninle evlenecek, başkasıyla değil!'",
+      "notes": "Imperative 'take heart'; modal 'shall marry'."
+    },
+    {
+      "id": 209,
+      "start_ms": 1208788,
+      "end_ms": 1213684,
+      "text": "Robin dressed himself in a harper's cloak and hurried to the parish church.",
+      "translation": "Robin bir arpçı pelerinine büründü ve cemaat kilisesine doğru aceleyle gitti.",
+      "notes": "Reflexive 'dressed himself'; past verb 'hurried'."
+    },
+    {
+      "id": 210,
+      "start_ms": 1214084,
+      "end_ms": 1219124,
+      "text": "The Bishop of Hereford was presiding over the wedding ceremony with pompous pride.",
+      "translation": "Hereford Piskoposu kibirli bir gururla düğün merasimine başkanlık ediyordu.",
+      "notes": "Past continuous 'was presiding over'; noun phrase 'pompous pride'."
+    },
+    {
+      "id": 211,
+      "start_ms": 1219524,
+      "end_ms": 1224852,
+      "text": "The bride arrived in white satin, weeping and trembling beside the ancient groom.",
+      "translation": "Gelin beyaz satenler içinde, yaşlı damadın yanında ağlayarak ve titreyerek çıkageldi.",
+      "notes": "Participle phrases 'weeping and trembling'; past verb 'arrived'."
+    },
+    {
+      "id": 212,
+      "start_ms": 1225252,
+      "end_ms": 1230436,
+      "text": "Robin stepped before the altar and cried: 'This wedding shall not proceed!'",
+      "translation": "Robin sunağın önüne adım attı ve haykırdı: 'Bu nikah kıyılamaz!'",
+      "notes": "Coordinate past verbs; modal prohibition 'shall not proceed'."
+    },
+    {
+      "id": 213,
+      "start_ms": 1230836,
+      "end_ms": 1236404,
+      "text": "He blew three blasts on his horn, and forty greenwood archers entered the church.",
+      "translation": "Borusundan üç ses üfledi ve kırk yeşil orman okçusu kiliseye girdi.",
+      "notes": "Coordinate past clauses; compound noun 'greenwood archers'."
+    },
+    {
+      "id": 214,
+      "start_ms": 1236804,
+      "end_ms": 1241820,
+      "text": "Allan a Dale stepped forward, his eyes shining with passionate devotion.",
+      "translation": "Allan a Dale tutkulu bir bağlılıkla gözleri parıldayarak öne doğru adım attı.",
+      "notes": "Absolute construction 'his eyes shining'; phrasal verb 'stepped forward'."
+    },
+    {
+      "id": 215,
+      "start_ms": 1242220,
+      "end_ms": 1247404,
+      "text": "Fair Ellen shrieked with joyful surprise and ran into her true lover's arms.",
+      "translation": "Güzel Ellen sevinç dolu bir şaşkınlıkla çığlık attı ve gerçek aşığının kollarına koştu.",
+      "notes": "Prepositional phrase 'with joyful surprise'; past verbs 'shrieked and ran'."
+    },
+    {
+      "id": 216,
+      "start_ms": 1247804,
+      "end_ms": 1252844,
+      "text": "The Bishop and the old knight sputtered with fury, but feared the notched arrows.",
+      "translation": "Piskopos ve yaşlı şövalye öfkeden köpürdüler fakat gerilmiş oklardan korktular.",
+      "notes": "Coordinate past verbs 'sputtered and feared'; participial adjective 'notched arrows'."
+    },
+    {
+      "id": 217,
+      "start_ms": 1253244,
+      "end_ms": 1257924,
+      "text": "Friar Tuck stepped forward wearing his holy vestments with a broad grin.",
+      "translation": "Rahip Tuck geniş bir sırıtışla kutsal cüppelerini giymiş halde öne çıktı.",
+      "notes": "Participle phrase 'wearing vestments'; phrasal verb 'stepped forward'."
+    },
+    {
+      "id": 218,
+      "start_ms": 1258324,
+      "end_ms": 1263388,
+      "text": "He performed the wedding ceremony right there, marrying Allan to fair Ellen.",
+      "translation": "Tam orada nikah merasimini kıydı; Allan ile güzel Ellen'ı evlendirdi.",
+      "notes": "Participle clause 'marrying Allan to Ellen'; adverbial 'right there'."
+    },
+    {
+      "id": 219,
+      "start_ms": 1263788,
+      "end_ms": 1269140,
+      "text": "Robin gifted the bride a golden necklace and hosted a magnificent woodland feast.",
+      "translation": "Robin geline altın bir gerdanlık hediye etti ve görkemli bir orman ziyafetine ev sahipliği yaptı.",
+      "notes": "Coordinate past verbs 'gifted and hosted'; compound noun 'woodland feast'."
+    },
+    {
+      "id": 220,
+      "start_ms": 1269540,
+      "end_ms": 1274748,
+      "text": "Allan a Dale sang beautiful songs of love and honor by the greenwood tree.",
+      "translation": "Allan a Dale yeşil ağacın yanında aşk ve onur üzerine güzel şarkılar söyledi.",
+      "notes": "Prepositional phrase 'by the tree'; adjective 'beautiful'."
+    },
+    {
+      "id": 221,
+      "start_ms": 1275748,
+      "end_ms": 1281532,
+      "text": "Enraged by Allan a Dale's rescue, the Sheriff gathered two hundred royal soldiers.",
+      "translation": "Allan a Dale'in kurtarılmasına öfkelenen Şerif iki yüz kraliyet askeri topladı.",
+      "notes": "Past participle modifier 'Enraged by'; numeral 'two hundred'."
+    },
+    {
+      "id": 222,
+      "start_ms": 1281932,
+      "end_ms": 1287380,
+      "text": "He sent spies into Sherwood to discover the outlaws' secret haunts and pathways.",
+      "translation": "Kanun kaçaklarının gizli mekanlarını ve patikalarını keşfetmek için Sherwood'a casuslar gönderdi.",
+      "notes": "Infinitive of purpose 'to discover'; possessive noun phrase."
+    },
+    {
+      "id": 223,
+      "start_ms": 1287780,
+      "end_ms": 1292412,
+      "text": "Robin Hood was walking near the edge of the forest with only Little John.",
+      "translation": "Robin Hood sadece Küçük John ile birlikte ormanın sınırına yakın bir yerde yürüyordu.",
+      "notes": "Past continuous 'was walking'; prepositional phrase 'near the edge'."
+    },
+    {
+      "id": 224,
+      "start_ms": 1292812,
+      "end_ms": 1298140,
+      "text": "Suddenly, the forest erupted with the clatter of armored men and drawn swords.",
+      "translation": "Birdenbire orman, zırhlı adamların şakırtısı ve çekilmiş kılıçlarla çınladı.",
+      "notes": "Prepositional phrase 'with clatter of swords'; past verb 'erupted'."
+    },
+    {
+      "id": 225,
+      "start_ms": 1298540,
+      "end_ms": 1304588,
+      "text": "A captain shouted, 'Surrender, outlaws, for you are surrounded by the Sheriff's guard!'",
+      "translation": "Bir yüzbaşı bağırdı: 'Teslim olun kanun kaçakları, çünkü Şerif'in muhafızları tarafından kuşatıldınız!'",
+      "notes": "Imperative 'surrender'; passive voice 'are surrounded by'."
+    },
+    {
+      "id": 226,
+      "start_ms": 1304988,
+      "end_ms": 1310172,
+      "text": "Robin and Little John backed against a giant oak, their bows bent and ready.",
+      "translation": "Robin ve Küçük John dev bir meşeye sırtlarını dayadılar; yayları gerilmiş ve hazırdı.",
+      "notes": "Absolute phrase 'bows bent and ready'; phrasal verb 'backed against'."
+    },
+    {
+      "id": 227,
+      "start_ms": 1310572,
+      "end_ms": 1316164,
+      "text": "'We never surrender to tyrants,' cried Robin, loosing an arrow with deadly aim.",
+      "translation": "'Biz tiranlara asla teslim olmayız,' diye haykırdı Robin, ölümcül bir nişanla ok salarak.",
+      "notes": "Present simple negative 'never surrender'; participle phrase 'loosing arrow'."
+    },
+    {
+      "id": 228,
+      "start_ms": 1316564,
+      "end_ms": 1321844,
+      "text": "Little John's shaft struck the captain's shield, piercing the heavy iron plate.",
+      "translation": "Küçük John'un oku yüzbaşının kalkanına çarparak ağır demir levhayı delip geçti.",
+      "notes": "Participial clause 'piercing heavy plate'; possessive noun phrase."
+    },
+    {
+      "id": 229,
+      "start_ms": 1322244,
+      "end_ms": 1327068,
+      "text": "The soldiers surged forward, outnumbering the two yeomen twenty to one.",
+      "translation": "Askerler iki okçuya karşı yirmiye bir üstünlükle ileri doğru dalga dalga hücum ettiler.",
+      "notes": "Participial clause 'outnumbering yeomen'; phrasal verb 'surged forward'."
+    },
+    {
+      "id": 230,
+      "start_ms": 1327468,
+      "end_ms": 1332220,
+      "text": "Robin drew his silver bugle horn from his belt and set it to his lips.",
+      "translation": "Robin kemerinden gümüş av borusunu çıkardı ve onu dudaklarına dayadı.",
+      "notes": "Coordinate past verbs 'drew and set'."
+    },
+    {
+      "id": 231,
+      "start_ms": 1332620,
+      "end_ms": 1338188,
+      "text": "He blew three clear, piercing blasts that echoed across every valley of Sherwood.",
+      "translation": "Sherwood'un her vadisinde yankılanan üç berrak ve tiz ses üfledi.",
+      "notes": "Relative clause 'that echoed across'; adjective pair 'clear, piercing'."
+    },
+    {
+      "id": 232,
+      "start_ms": 1338588,
+      "end_ms": 1343556,
+      "text": "The thrilling notes carried miles through the ancient forest like a battle cry.",
+      "translation": "Bu heyecan verici nağmeler kadim ormanda bir savaş narası gibi millerce öteye taşındı.",
+      "notes": "Simile 'like a battle cry'; measurement phrase 'miles through'."
+    },
+    {
+      "id": 233,
+      "start_ms": 1343956,
+      "end_ms": 1348732,
+      "text": "From all directions came the rapid patter of running feet in Lincoln green.",
+      "translation": "Her yönden Lincoln yeşili içindeki koşan ayakların hızlı tıpırtıları geldi.",
+      "notes": "Inverted locative sentence; participial adjective 'running feet'."
+    },
+    {
+      "id": 234,
+      "start_ms": 1349132,
+      "end_ms": 1355396,
+      "text": "Will Scarlet, Friar Tuck, and one hundred archers burst through the brush with loud cheers.",
+      "translation": "Will Scarlet, Rahip Tuck ve yüz okçu gür tezahüratlarla çalılıkları yarıp çıktılar.",
+      "notes": "Phrasal verb 'burst through'; compound subject."
+    },
+    {
+      "id": 235,
+      "start_ms": 1355796,
+      "end_ms": 1360860,
+      "text": "A deadly shower of gray-goose arrows rained down upon the armored soldiers.",
+      "translation": "Zırhlı askerlerin üzerine gri kaz tüyü oklardan ölümcül bir sağanak yağdı.",
+      "notes": "Metaphor 'shower of arrows rained down'; compound adjective 'gray-goose'."
+    },
+    {
+      "id": 236,
+      "start_ms": 1361260,
+      "end_ms": 1366732,
+      "text": "The Sheriff's men panicked, broke ranks, and fled in terror toward Nottingham.",
+      "translation": "Şerif'in adamları paniklediler, safları bozdular ve dehşet içinde Nottingham'a doğru kaçtılar.",
+      "notes": "Series of coordinated past action verbs; directional phrase 'toward Nottingham'."
+    },
+    {
+      "id": 237,
+      "start_ms": 1367132,
+      "end_ms": 1372556,
+      "text": "Robin forbade his men to pursue the fleeing troops: 'Let them carry the news!'",
+      "translation": "Robin adamlarına kaçan birlikleri takip etmeyi yasakladı: 'Bırakın haberi götürsünler!'",
+      "notes": "Verb + object + infinitive 'forbade men to pursue'; imperative 'let them carry'."
+    },
+    {
+      "id": 238,
+      "start_ms": 1372956,
+      "end_ms": 1377588,
+      "text": "The yeomen gathered around their leader, cheering wildly under the sun.",
+      "translation": "Okçular liderlerinin etrafında toplandılar, güneşin altında çılgınca tezahürat yaptılar.",
+      "notes": "Coordinate actions; adverb 'wildly'."
+    },
+    {
+      "id": 239,
+      "start_ms": 1377988,
+      "end_ms": 1382980,
+      "text": "Robin held up the silver bugle that had summoned his faithful brothers in peril.",
+      "translation": "Robin, tehlike anında sadık kardeşlerini yardıma çağıran o gümüş boruyu havaya kaldırdı.",
+      "notes": "Past perfect relative clause 'that had summoned'; prepositional phrase 'in peril'."
+    },
+    {
+      "id": 240,
+      "start_ms": 1383380,
+      "end_ms": 1388708,
+      "text": "Sherwood remained free, unconquered, and safe in the hands of the Merry Men.",
+      "translation": "Sherwood Neşeli Adamlar'ın ellerinde özgür, fethedilmemiş ve güvende kaldı.",
+      "notes": "Coordinate predicate adjectives; proper group name 'Merry Men'."
+    },
+    {
+      "id": 241,
+      "start_ms": 1389708,
+      "end_ms": 1394556,
+      "text": "King Richard the Lionheart returned to England from the Holy Land Crusades.",
+      "translation": "Aslan Yürekli Kral Richard Kutsal Topraklar Haçlı Seferleri'nden İngiltere'ye döndü.",
+      "notes": "Proper royal title; prepositional phrase 'from the Crusades'."
+    },
+    {
+      "id": 242,
+      "start_ms": 1394956,
+      "end_ms": 1400812,
+      "text": "Hearing endless tales of Robin Hood's defiance, the King decided to see him personally.",
+      "translation": "Robin Hood'un meydan okumalarına dair bitmek bilmez hikayeleri duyan Kral, onu bizzat görmeye karar verdi.",
+      "notes": "Participle clause of cause 'Hearing tales'; infinitive 'to see him personally'."
+    },
+    {
+      "id": 243,
+      "start_ms": 1401212,
+      "end_ms": 1406684,
+      "text": "The King and seven knights disguised themselves as holy monks in heavy brown cowls.",
+      "translation": "Kral ve yedi şövalye kendilerini ağır kahverengi kukuletalı kutsal keşişler kılığına soktular.",
+      "notes": "Reflexive 'disguised themselves'; prepositional phrase 'in heavy cowls'."
+    },
+    {
+      "id": 244,
+      "start_ms": 1407084,
+      "end_ms": 1412460,
+      "text": "They rode into Sherwood Forest, their saddlebags jingling with royal coin.",
+      "translation": "Eyer çantaları kraliyet sikkeleriyle şıngırdayarak Sherwood Ormanı'na doğru at sürdüler.",
+      "notes": "Absolute construction 'saddlebags jingling'; directional phrase 'into forest'."
+    },
+    {
+      "id": 245,
+      "start_ms": 1412860,
+      "end_ms": 1417756,
+      "text": "Robin Hood stepped out from the trees and seized the King's horse by the bridle.",
+      "translation": "Robin Hood ağaçların arasından çıktı ve Kral'ın atını dizgininden yakaladı.",
+      "notes": "Coordinate past verbs 'stepped out and seized'."
+    },
+    {
+      "id": 246,
+      "start_ms": 1418156,
+      "end_ms": 1424444,
+      "text": "'Halt, holy fathers,' said Robin, 'we must levy a toll on rich churchmen for the poor.'",
+      "translation": "'Durun kutsal pederler,' dedi Robin, 'yoksullar için zengin din adamlarından vergi almalıyız.'",
+      "notes": "Modal obligation 'must levy'; purpose phrase 'for the poor'."
+    },
+    {
+      "id": 247,
+      "start_ms": 1424844,
+      "end_ms": 1429932,
+      "text": "The tall monk laughed heartily and produced a heavy purse of forty gold pounds.",
+      "translation": "Uzun boylu keşiş içtenlikle güldü ve kırk altın sterlinlik ağır bir kese çıkardı.",
+      "notes": "Coordinate past verbs 'laughed and produced'; numeral 'forty'."
+    },
+    {
+      "id": 248,
+      "start_ms": 1430332,
+      "end_ms": 1435588,
+      "text": "'I give thee half for charity, and keep half for the King's journey,' said the monk.",
+      "translation": "'Yarısını hayır için sana veriyorum, yarısını da Kral'ın yolculuğu için saklıyorum,' dedi keşiş.",
+      "notes": "Coordinate present verbs 'give and keep'; possessive 'King's journey'."
+    },
+    {
+      "id": 249,
+      "start_ms": 1435988,
+      "end_ms": 1441388,
+      "text": "Robin took only twenty pounds and returned the rest with great respect for King Richard.",
+      "translation": "Robin sadece yirmi sterlini aldı ve Kral Richard'a duyduğu büyük saygıyla kalanını iade etti.",
+      "notes": "Coordinate past verbs 'took and returned'; noun phrase 'great respect'."
+    },
+    {
+      "id": 250,
+      "start_ms": 1441788,
+      "end_ms": 1447956,
+      "text": "'We love King Richard with all our hearts,' Robin declared, 'and curse his treacherous brother!'",
+      "translation": "'Kral Richard'ı bütün kalbimizle seviyoruz,' dedi Robin, 've hain kardeşine lanet okuyoruz!'",
+      "notes": "Coordinate declarations of loyalty; adverbial phrase 'with all our hearts'."
+    },
+    {
+      "id": 251,
+      "start_ms": 1448356,
+      "end_ms": 1453564,
+      "text": "Robin invited the monks to a royal forest banquet under the great trysting tree.",
+      "translation": "Robin keşişleri ulu buluşma ağacının altında bir kraliyet orman ziyafetine davet etti.",
+      "notes": "Transitive past 'invited'; compound noun 'forest banquet'."
+    },
+    {
+      "id": 252,
+      "start_ms": 1453964,
+      "end_ms": 1459916,
+      "text": "The outlaws held an archery shooting game, where missing the bullseye cost a buffet on the ear.",
+      "translation": "Kanun kaçakları, hedefi ıskalamanın kulağa bir yumruk darbesine mal olduğu bir okçuluk oyunu düzenlediler.",
+      "notes": "Relative clause 'where missing cost a buffet'; gerund subject 'missing'."
+    },
+    {
+      "id": 253,
+      "start_ms": 1460316,
+      "end_ms": 1465932,
+      "text": "When Robin missed by a hair's breadth, he offered his head to the giant monk for punishment.",
+      "translation": "Robin kıl payı ıskaladığında, ceza için başını dev keşişe uzattı.",
+      "notes": "Time clause with 'missed'; noun phrase 'hair's breadth'."
+    },
+    {
+      "id": 254,
+      "start_ms": 1466332,
+      "end_ms": 1471300,
+      "text": "The King rolled up his sleeve, revealing an arm like an iron anvil.",
+      "translation": "Kral kolunu sıvadı, demir bir örs gibi bir kolu açığa çıkardı.",
+      "notes": "Participle clause 'revealing an arm'; simile 'like an iron anvil'."
+    },
+    {
+      "id": 255,
+      "start_ms": 1471700,
+      "end_ms": 1476884,
+      "text": "He delivered a buffet that sent Robin sprawling across the grass head over heels.",
+      "translation": "Robin'i çimlerin üzerinden tepeüstü yuvarlayan müthiş bir yumruk darbesi indirdi.",
+      "notes": "Relative clause 'that sent Robin sprawling'; adverbial idiom 'head over heels'."
+    },
+    {
+      "id": 256,
+      "start_ms": 1477284,
+      "end_ms": 1483236,
+      "text": "Robin scrambled up laughing and rubbing his jaw: 'Thou hast an arm of steel, monk!'",
+      "translation": "Robin gülerek ve çenesini ovarak ayağa kalktı: 'Çelik gibi bir kolun var keşiş!'",
+      "notes": "Coordinate participles 'laughing and rubbing'; archaic 'thou hast'."
+    },
+    {
+      "id": 257,
+      "start_ms": 1483636,
+      "end_ms": 1490020,
+      "text": "Just then, Sir Richard of the Lea arrived, recognized his monarch, and knelt in the grass.",
+      "translation": "Tam o sırada Lea'lı Sör Richard geldi, hükümdarını tanıdı ve çimlerin üzerine diz çöktü.",
+      "notes": "Series of coordinated past actions; transitive 'recognized'."
+    },
+    {
+      "id": 258,
+      "start_ms": 1490420,
+      "end_ms": 1496108,
+      "text": "The King threw back his cowl, revealing the majestic countenance of Richard the Lionheart.",
+      "translation": "Kral kukuletasını geriye attı, Aslan Yürekli Richard'ın haşmetli simasını açığa çıkardı.",
+      "notes": "Coordinate participles; adjective 'majestic countenance'."
+    },
+    {
+      "id": 259,
+      "start_ms": 1496508,
+      "end_ms": 1501956,
+      "text": "All the outlaws fell upon their knees, offering their lives and swords to the King.",
+      "translation": "Bütün kanun kaçakları dizlerinin üzerine çöktüler; hayatlarını ve kılıçlarını Kral'a sundular.",
+      "notes": "Participle phrase 'offering lives and swords'; phrasal verb 'fell upon'."
+    },
+    {
+      "id": 260,
+      "start_ms": 1502356,
+      "end_ms": 1508092,
+      "text": "King Richard smiled warmly and granted full royal pardons to Robin and all his men.",
+      "translation": "Kral Richard sıcak bir tebessüm etti ve Robin ile tüm adamlarına eksiksiz kraliyet affı bahşetti.",
+      "notes": "Coordinate past verbs 'smiled and granted'; compound noun 'royal pardons'."
+    },
+    {
+      "id": 261,
+      "start_ms": 1509092,
+      "end_ms": 1514444,
+      "text": "Robin Hood and his merry men followed King Richard to London in royal procession.",
+      "translation": "Robin Hood ve neşeli adamları kraliyet alayı eşliğinde Kral Richard'ı Londra'ya kadar takip ettiler.",
+      "notes": "Prepositional phrase 'in royal procession'; past verb 'followed'."
+    },
+    {
+      "id": 262,
+      "start_ms": 1514844,
+      "end_ms": 1519740,
+      "text": "They exchanged their Lincoln green for fine liveries of scarlet and gold.",
+      "translation": "Lincoln yeşili giysilerini al ve altın işlemeli şık üniformalarla değiştirdiler.",
+      "notes": "Transitive past 'exchanged for'; coordinate color adjectives."
+    },
+    {
+      "id": 263,
+      "start_ms": 1520140,
+      "end_ms": 1525252,
+      "text": "Robin was appointed an Earl and Captain of the King's Royal Guard of Archers.",
+      "translation": "Robin bir Kont ve Kraliyet Okçu Muhafızları Kaptanı olarak atandı.",
+      "notes": "Passive voice 'was appointed'; compound royal titles."
+    },
+    {
+      "id": 264,
+      "start_ms": 1525652,
+      "end_ms": 1530908,
+      "text": "Little John and Will Scarlet served as officers under his command at Windsor Castle.",
+      "translation": "Küçük John ve Will Scarlet Windsor Şatosu'nda onun komutası altında subay olarak görev yaptılar.",
+      "notes": "Prepositional phrases indicating role and location; past verb 'served'."
+    },
+    {
+      "id": 265,
+      "start_ms": 1531308,
+      "end_ms": 1537164,
+      "text": "At royal tournaments, the Sherwood archers amazed the nobility with their unmatched skill.",
+      "translation": "Kraliyet turnuvalarında Sherwood okçuları eşsiz maharetleriyle soyluları hayrete düşürdüler.",
+      "notes": "Adjective 'unmatched skill'; past verb 'amazed'."
+    },
+    {
+      "id": 266,
+      "start_ms": 1537564,
+      "end_ms": 1542964,
+      "text": "No French or Scottish knight could withstand the whistling volleys of their heavy shafts.",
+      "translation": "Hiçbir Fransız veya İskoç şövalye onların ağır oklarının ıslık çalan yaylım ateşine dayanamazdı.",
+      "notes": "Modal negative 'could withstand'; compound noun 'whistling volleys'."
+    },
+    {
+      "id": 267,
+      "start_ms": 1543364,
+      "end_ms": 1548788,
+      "text": "The people of London cheered whenever the famous outlaws marched through the cobbled streets.",
+      "translation": "Meşhur kanun kaçakları taş döşeli sokaklardan ne zaman geçseler Londra halkı tezahürat yapardı.",
+      "notes": "Time clause with 'whenever'; past verb 'cheered'."
+    },
+    {
+      "id": 268,
+      "start_ms": 1549188,
+      "end_ms": 1554972,
+      "text": "Yet as months passed in palace halls, Robin began to feel restless and suffocated.",
+      "translation": "Yine de saray salonlarında aylar geçtikçe Robin huzursuz ve boğulmuş hissetmeye başladı.",
+      "notes": "Time clause with 'as'; coordinate adjectives 'restless and suffocated'."
+    },
+    {
+      "id": 269,
+      "start_ms": 1555372,
+      "end_ms": 1561372,
+      "text": "He missed the fresh forest breeze, the whispering leaves, and the singing birds of Sherwood.",
+      "translation": "Sherwood'un taze orman esintisini, fısıldayan yapraklarını ve şarkı söyleyen kuşlarını özlüyordu.",
+      "notes": "Series of direct objects with descriptive participles; past verb 'missed'."
+    },
+    {
+      "id": 270,
+      "start_ms": 1561772,
+      "end_ms": 1566980,
+      "text": "Court intrigues and formal banquet robes weighed heavily upon his free spirit.",
+      "translation": "Saray entrikaları ve resmi ziyafet kaftanları onun özgür ruhuna ağır bir yük gibi bindi.",
+      "notes": "Coordinate subjects; adverb 'heavily'."
+    },
+    {
+      "id": 271,
+      "start_ms": 1567380,
+      "end_ms": 1572708,
+      "text": "He gazed out of palace windows toward the north, yearning for his ancient green home.",
+      "translation": "Saray pencerelerinden kuzeye doğru baktı, kadim yeşil yuvasının hasretiyle yanıp tutuştu.",
+      "notes": "Participle phrase 'yearning for green home'; phrasal verb 'gazed out of'."
+    },
+    {
+      "id": 272,
+      "start_ms": 1573108,
+      "end_ms": 1578316,
+      "text": "Little John felt the same longing, dreaming nightly of the wide rushing brooks.",
+      "translation": "Küçük John da aynı hasreti hissetti, her gece gürül gürül akan geniş derelerin rüyasını gördü.",
+      "notes": "Participle phrase 'dreaming nightly'; adjective 'same'."
+    },
+    {
+      "id": 273,
+      "start_ms": 1578716,
+      "end_ms": 1583924,
+      "text": "Robin knelt before King Richard and begged for leave to visit Sherwood once more.",
+      "translation": "Robin Kral Richard'ın önünde diz çöktü ve Sherwood'u bir kez daha ziyaret etmek için izin istedi.",
+      "notes": "Coordinate past verbs 'knelt and begged'; infinitive 'to visit'."
+    },
+    {
+      "id": 274,
+      "start_ms": 1584324,
+      "end_ms": 1590156,
+      "text": "'My heart sickens for the greenwood, Sire,' pleaded Robin with tears in his eyes.",
+      "translation": "'Yüreğim yeşil orman için yanıp tutuşuyor Efendimiz,' diye yalvardı Robin gözlerinde yaşlarla.",
+      "notes": "Direct speech; prepositional phrase 'with tears in eyes'."
+    },
+    {
+      "id": 275,
+      "start_ms": 1590556,
+      "end_ms": 1596268,
+      "text": "'Go for seven days, Earl Robin,' granted the King, 'and return to thy duty.'",
+      "translation": "'Yedi günlüğüne git Kont Robin,' diye izin verdi Kral, 've sonra görevine dön.'",
+      "notes": "Imperative coordinates 'go and return'; royal title 'Earl Robin'."
+    },
+    {
+      "id": 276,
+      "start_ms": 1596668,
+      "end_ms": 1602644,
+      "text": "Robin kissed the King's hand, stripped off his golden court robes, and ran north.",
+      "translation": "Robin Kral'ın elini öptü, altın saray kaftanlarını üzerinden çıkardı ve kuzeye koştu.",
+      "notes": "Series of coordinated past actions showing eagerness."
+    },
+    {
+      "id": 277,
+      "start_ms": 1603044,
+      "end_ms": 1608540,
+      "text": "He traveled swiftly until the towering emerald oaks of Sherwood rose on the horizon.",
+      "translation": "Ufukta Sherwood'un heybetli zümrüt meşeleri yükselene kadar hızla yol aldı.",
+      "notes": "Time clause with 'until'; compound adjective 'towering emerald oaks'."
+    },
+    {
+      "id": 278,
+      "start_ms": 1608940,
+      "end_ms": 1614628,
+      "text": "He fell to his knees upon the sweet damp moss and wept for pure overwhelming happiness.",
+      "translation": "Tatlı nemli yosunların üzerine diz çöktü ve katıksız, ezici bir mutlulukla ağladı.",
+      "notes": "Coordinate past verbs 'fell and wept'; adjective string 'pure overwhelming'."
+    },
+    {
+      "id": 279,
+      "start_ms": 1615028,
+      "end_ms": 1620428,
+      "text": "He raised his silver bugle horn and blew the ancient rallying call of the outlaws.",
+      "translation": "Gümüş av borusunu kaldırdı ve kanun kaçaklarının kadim toplanma çağrısını üfledi.",
+      "notes": "Coordinate past verbs 'raised and blew'; compound noun 'rallying call'."
+    },
+    {
+      "id": 280,
+      "start_ms": 1620828,
+      "end_ms": 1626252,
+      "text": "From every thicket and glade, old friends in Lincoln green came running to his side.",
+      "translation": "Her çalıdan ve orman açıklığından Lincoln yeşili içindeki eski dostlar koşarak yanına geldiler.",
+      "notes": "Participle phrase 'running to his side'; inverted locative structure."
+    },
+    {
+      "id": 281,
+      "start_ms": 1627252,
+      "end_ms": 1633108,
+      "text": "Robin never returned to the King's court, choosing freedom under the forest canopy instead.",
+      "translation": "Robin Kralın sarayına bir daha asla dönmedi, bunun yerine orman örtüsü altındaki özgürlüğü seçti.",
+      "notes": "Participle clause of choice 'choosing freedom'; negative past with 'never'."
+    },
+    {
+      "id": 282,
+      "start_ms": 1633508,
+      "end_ms": 1639052,
+      "text": "For twenty more happy years, he lived as protector of the poor in Sherwood Forest.",
+      "translation": "Yirmi mutlu yıl daha Sherwood Ormanı'nda yoksulların koruyucusu olarak yaşadı.",
+      "notes": "Prepositional phrase 'as protector of the poor'; duration phrase."
+    },
+    {
+      "id": 283,
+      "start_ms": 1639452,
+      "end_ms": 1645284,
+      "text": "Neither corrupt sheriffs nor greedy barons ever succeeded in breaking his merry brotherhood.",
+      "translation": "Ne yozlaşmış şerifler ne de açgözlü baronlar onun neşeli kardeşliğini bozmayı asla başarabildiler.",
+      "notes": "Correlative subjects 'neither... nor'; infinitive 'in breaking'."
+    },
+    {
+      "id": 284,
+      "start_ms": 1645684,
+      "end_ms": 1651276,
+      "text": "As old age approached, Robin was stricken with a burning fever that sapped his strength.",
+      "translation": "Yaşlılık yaklaştığında Robin gücünü tüketen yakıcı bir ateşe yakalandı.",
+      "notes": "Passive voice 'was stricken with'; relative clause 'that sapped his strength'."
+    },
+    {
+      "id": 285,
+      "start_ms": 1651676,
+      "end_ms": 1656812,
+      "text": "Little John carried his beloved master to Kirklees Priory for healing care.",
+      "translation": "Küçük John şifa bulması için sevgili efendisini Kirklees Manastırı'na taşıdı.",
+      "notes": "Infinitive of purpose 'for healing care'; past verb 'carried'."
+    },
+    {
+      "id": 286,
+      "start_ms": 1657212,
+      "end_ms": 1663068,
+      "text": "The treacherous Prioress, allied with Robin's enemies, opened his veins to bleed him.",
+      "translation": "Robin'in düşmanlarıyla birlik olmuş hain Başrahibe, kanını akıtmak için damarlarını kesti.",
+      "notes": "Past participle modifier 'allied with enemies'; infinitive 'to bleed him'."
+    },
+    {
+      "id": 287,
+      "start_ms": 1663468,
+      "end_ms": 1668988,
+      "text": "She locked him in an upper tower room, leaving the hero to perish from loss of blood.",
+      "translation": "Onu üstteki bir kule odasına kilitledi, kahramanı kan kaybından ölüme terk etti.",
+      "notes": "Participle clause 'leaving hero to perish'; noun phrase 'loss of blood'."
+    },
+    {
+      "id": 288,
+      "start_ms": 1669388,
+      "end_ms": 1674908,
+      "text": "Sensing the treachery, Robin weakly gathered his remaining strength one final time.",
+      "translation": "İhaneti sezen Robin, kalan gücünü son bir kez zayıfça topladı.",
+      "notes": "Participle clause of perception; adverb 'weakly'."
+    },
+    {
+      "id": 289,
+      "start_ms": 1675308,
+      "end_ms": 1681140,
+      "text": "He raised his silver bugle to his pale lips and blew three faint, dying blasts.",
+      "translation": "Gümüş borusunu solgun dudaklarına kaldırdı ve üç zayıf, tükenen ses üfledi.",
+      "notes": "Coordinate past verbs 'raised and blew'; adjective pair 'faint, dying'."
+    },
+    {
+      "id": 290,
+      "start_ms": 1681540,
+      "end_ms": 1687348,
+      "text": "Miles away, Little John heard the feeble notes and knew his master was in mortal peril.",
+      "translation": "Millerce ötede Küçük John bu cılız nağmeleri duydu ve efendisinin ölümcül tehlikede olduğunu anladı.",
+      "notes": "Coordinate past verbs 'heard and knew'; noun phrase 'mortal peril'."
+    },
+    {
+      "id": 291,
+      "start_ms": 1687748,
+      "end_ms": 1692716,
+      "text": "He broke down the heavy priory doors and rushed up the stairs into the chamber.",
+      "translation": "Ağır manastır kapılarını kırdı ve merdivenleri hızla çıkarak odaya daldı.",
+      "notes": "Coordinate past actions; directional phrase 'up the stairs'."
+    },
+    {
+      "id": 292,
+      "start_ms": 1693116,
+      "end_ms": 1699500,
+      "text": "He knelt beside Robin, weeping tears of agony: 'Master, let me burn this wicked place!'",
+      "translation": "Robin'in yanına diz çöktü, ızdırap gözyaşlarıyla ağlayarak: 'Efendim, bu uğursuz yeri yakayım!' dedi.",
+      "notes": "Participle phrase 'weeping tears'; imperative 'let me burn'."
+    },
+    {
+      "id": 293,
+      "start_ms": 1699900,
+      "end_ms": 1706188,
+      "text": "'No, dear John,' whispered Robin gently, 'I have never harmed a woman in all my days.'",
+      "translation": "'Hayır sevgili John,' diye fısıldadı Robin usulca, 'bütün ömrüm boyunca tek bir kadına bile zarar vermedim.'",
+      "notes": "Present perfect with 'never'; adverb 'gently'."
+    },
+    {
+      "id": 294,
+      "start_ms": 1706588,
+      "end_ms": 1711892,
+      "text": "'Hand me my trusty yew bow, and let me loose one last shaft through the casement.'",
+      "translation": "'Bana emektar porsuk yayımı ver ve pencereden son bir ok fırlatmama izin ver.'",
+      "notes": "Coordinate imperatives 'hand and let'; noun 'casement'."
+    },
+    {
+      "id": 295,
+      "start_ms": 1712292,
+      "end_ms": 1717836,
+      "text": "With Little John supporting his shoulders, Robin drew the string with his dying hands.",
+      "translation": "Küçük John omuzlarını desteklerken Robin can çekişen elleriyle kirişi çekti.",
+      "notes": "Absolute construction 'Little John supporting'; past verb 'drew'."
+    },
+    {
+      "id": 296,
+      "start_ms": 1718236,
+      "end_ms": 1723804,
+      "text": "The arrow sped out through the open window, arcing gracefully into the green forest.",
+      "translation": "Ok açık pencereden dışarı uçtu, yeşil ormanın içine doğru zarifçe kavis çizdi.",
+      "notes": "Coordinate participles 'arcing gracefully'; past verb 'sped out'."
+    },
+    {
+      "id": 297,
+      "start_ms": 1724204,
+      "end_ms": 1729724,
+      "text": "'Bury me where that arrow falls,' whispered Robin, 'with my bow across my breast.'",
+      "translation": "'Beni o okun düştüğü yere gömün,' diye fısıldadı Robin, 'yayım da göğsümün üzerinde olsun.'",
+      "notes": "Relative clause of place 'where that arrow falls'; imperative 'bury me'."
+    },
+    {
+      "id": 298,
+      "start_ms": 1730124,
+      "end_ms": 1736004,
+      "text": "He closed his eyes peacefully, his noble soul departing for a higher realm of justice.",
+      "translation": "Soylu ruhu adaletin daha yüce bir diyarına göçerek gözlerini huzur içinde kapattı.",
+      "notes": "Absolute construction 'soul departing'; adverb 'peacefully'."
+    },
+    {
+      "id": 299,
+      "start_ms": 1736404,
+      "end_ms": 1741756,
+      "text": "Little John buried him beneath the great oak where the arrow was found buried in moss.",
+      "translation": "Küçük John onu okun yosunların içine saplanmış bulunduğu ulu meşenin altına gömdü.",
+      "notes": "Passive relative clause 'where arrow was found buried'; past verb 'buried'."
+    },
+    {
+      "id": 300,
+      "start_ms": 1742156,
+      "end_ms": 1747796,
+      "text": "And so lives on the immortal legend of Robin Hood, eternal champion of the oppressed.",
+      "translation": "Ve böylece ezilenlerin ebedi savunucusu Robin Hood'un ölümsüz efsanesi sonsuza dek yaşamaya devam eder.",
+      "notes": "Concluding inverted sentence; title epithet 'eternal champion of the oppressed'."
+    }
+  ]
+}
