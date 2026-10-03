@@ -52,6 +52,13 @@ const PRESET_LESSONS: PresetLesson[] = [
     pdfUrl: '/lessons/book_05_the_remarkable_rocket/book_05_the_remarkable_rocket.pdf',
   },
   {
+    id: 'book_06_aesops_fables_part1',
+    name: "6. Aesop's Fables (Part 1) (15 Sayfa / 300 Cümle)",
+    jsonUrl: '/lessons/book_06_aesops_fables_part1/lesson.json',
+    audioUrl: '/lessons/book_06_aesops_fables_part1/audio.mp3',
+    pdfUrl: '/lessons/book_06_aesops_fables_part1/book_06_aesops_fables_part1.pdf',
+  },
+  {
     id: 'sample_ch01',
     name: 'Demo: The Departure (6 Cümle)',
     jsonUrl: '/lessons/sample_ch01/lesson.json',
