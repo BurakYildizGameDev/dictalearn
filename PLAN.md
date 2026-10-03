@@ -225,9 +225,9 @@ export interface AudioEngine {
 
 **Amaç:** Kullanıcının kendi ses ve altyazı dosyalarından ders üretebilmesi.
 
-- [ ] **F4.1 Altyazı Ayrıştırıcıları:** SRT ve VTT dosyalarını segment listesine dönüştüren saf ayrıştırıcı.
-- [ ] **F4.2 Zip Paketi Alışverişi:** Dersleri `.zip` olarak dışa ve içe aktarma desteği.
-- [ ] **F4.3 Segment Düzenleyici Arayüzü:** Başlangıç/bitiş zamanlarını ayarlama, metin ve çeviri düzenleme.
+- [x] **F4.1 Altyazı Ayrıştırıcıları:** SRT ve VTT dosyalarını segment listesine dönüştüren saf ayrıştırıcı.
+- [x] **F4.2 Zip Paketi Alışverişi:** Dersleri `.zip` olarak dışa ve içe aktarma desteği.
+- [x] **F4.3 Segment Düzenleyici Arayüzü:** Başlangıç/bitiş zamanlarını ayarlama, metin ve çeviri düzenleme.
 
 ---
 
