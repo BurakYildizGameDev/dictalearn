@@ -171,6 +171,13 @@ const PRESET_LESSONS: PresetLesson[] = [
     pdfUrl: '/lessons/book_22_a_christmas_carol/book_22_a_christmas_carol.pdf',
   },
   {
+    id: 'book_23_the_secret_garden',
+    name: "23. The Secret Garden (15 Sayfa / 300 Cümle)",
+    jsonUrl: '/lessons/book_23_the_secret_garden/lesson.json',
+    audioUrl: '/lessons/book_23_the_secret_garden/audio.mp3',
+    pdfUrl: '/lessons/book_23_the_secret_garden/book_23_the_secret_garden.pdf',
+  },
+  {
     id: 'sample_ch01',
     name: 'Demo: The Departure (6 Cümle)',
     jsonUrl: '/lessons/sample_ch01/lesson.json',
