@@ -18,14 +18,21 @@ interface PresetLesson {
 const PRESET_LESSONS: PresetLesson[] = [
   {
     id: 'book_01_the_happy_prince',
-    name: 'The Happy Prince (15 Sayfa Kitap / 300 Cümle)',
+    name: '1. The Happy Prince (15 Sayfa / 300 Cümle)',
     jsonUrl: '/lessons/book_01_the_happy_prince/lesson.json',
     audioUrl: '/lessons/book_01_the_happy_prince/audio.mp3',
     pdfUrl: '/lessons/book_01_the_happy_prince/book_01_the_happy_prince.pdf',
   },
   {
+    id: 'book_02_the_selfish_giant',
+    name: '2. The Selfish Giant (15 Sayfa / 300 Cümle)',
+    jsonUrl: '/lessons/book_02_the_selfish_giant/lesson.json',
+    audioUrl: '/lessons/book_02_the_selfish_giant/audio.mp3',
+    pdfUrl: '/lessons/book_02_the_selfish_giant/book_02_the_selfish_giant.pdf',
+  },
+  {
     id: 'sample_ch01',
-    name: 'Bölüm 1: The Departure (Demo / 6 Cümle)',
+    name: 'Demo: The Departure (6 Cümle)',
     jsonUrl: '/lessons/sample_ch01/lesson.json',
     audioUrl: '/lessons/sample_ch01/audio.mp3',
   },

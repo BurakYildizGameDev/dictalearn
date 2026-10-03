@@ -1,0 +1,2126 @@
+# -*- coding: utf-8 -*-
+"""
+Full 15-page / 300-sentence structured data for Book 2: 'The Selfish Giant' by Oscar Wilde.
+Each page contains exactly 20 sentences (total 300 sentences).
+"""
+
+BOOK_TITLE = "The Selfish Giant (15 Sayfa / 300 Cümle / Graded Reader)"
+AUTHOR = "Oscar Wilde"
+LEVEL = "CEFR B1 (Intermediate / Orta Seviye)"
+
+PAGES_DATA = [
+    # ----------------------------------------------------
+    # SAYFA 1 (Sentences 1 - 20)
+    # ----------------------------------------------------
+    {
+        "page_no": 1,
+        "title": "The Children and the Giant's Garden",
+        "tr_title": "Çocuklar ve Dev'in Güzel Bahçesi",
+        "vocab_focus": [
+            ("Every afternoon", "Her öğleden sonra"),
+            ("Soft green grass", "Yumuşacık yemyeşil çimenler"),
+            ("Peach-trees", "Şeftali ağaçları"),
+            ("Broke out into blossoms", "Çiçeklerle donandı / bezedi"),
+            ("Delicate blossoms", "Narin ve zarif çiçekler"),
+            ("Pearl and pink", "İnci ve pembe rengi"),
+            ("Bore rich fruit", "Bereketli meyve verdi"),
+            ("Stop their games", "Oyunlarını yarıda bırakmak"),
+        ],
+        "sentences": [
+            {
+                "id": 1,
+                "text": "Every afternoon, as they were coming from school, the children used to go and play in the Giant's garden.",
+                "translation": "Her öğleden sonra okuldan dönerken çocuklar Dev'in bahçesine gidip orada oyun oynarlardı.",
+                "notes": "Sayfa 1 | 'used to go': eskiden alışkanlık olarak giderlerdi (geçmiş alışkanlık kalıbı)."
+            },
+            {
+                "id": 2,
+                "text": "It was a large and lovely garden, with soft green grass stretching across the grounds.",
+                "translation": "Uçsuz bucaksız uzanan yumuşacık yeşil çimenleriyle kocaman ve sevimli bir bahçeydi.",
+                "notes": "Sayfa 1 | 'stretching across': boylu boyunca uzanan; 'lovely': sevimli, hoş."
+            },
+            {
+                "id": 3,
+                "text": "Here and there over the green grass stood beautiful flowers shining like stars in the sky.",
+                "translation": "Yeşil çimlerin üzerinde orada burada gökteki yıldızlar gibi parıldayan güzel çiçekler yükseliyordu.",
+                "notes": "Sayfa 1 | 'here and there': şurada burada; 'like stars': yıldızlar gibi (benzetme)."
+            },
+            {
+                "id": 4,
+                "text": "There were twelve splendid peach-trees planted in a wide circle around the lawn.",
+                "translation": "Çimenliğin etrafında geniş bir çember halinde dikilmiş on iki muhteşem şeftali ağacı vardı.",
+                "notes": "Sayfa 1 | 'peach-trees': şeftali ağaçları; 'planted': dikilmiş; 'lawn': çimenlik alan."
+            },
+            {
+                "id": 5,
+                "text": "In the spring-time, these trees broke out into delicate blossoms of gentle pink and pearl.",
+                "translation": "Bahar geldiğinde bu ağaçlar tatlı pembe ve inci renginde narin çiçeklerle donanırdı.",
+                "notes": "Sayfa 1 | 'broke out into': çiçek açıp donanmak; 'delicate blossoms': zarif çiçekler."
+            },
+            {
+                "id": 6,
+                "text": "In the golden autumn, they bore rich, juicy fruit that weighed down the branches.",
+                "translation": "Altın sonbaharda ise dalları aşağı sarkıtan bol ve sulu meyveler verirlerdi.",
+                "notes": "Sayfa 1 | 'bore': bear (meyve vermek) fiilinin 2. hali; 'weighed down': ağır basıp sarkıtmak."
+            },
+            {
+                "id": 7,
+                "text": "The wild birds perched on the high branches and sang so sweetly throughout the day.",
+                "translation": "Yabani kuşlar yüksek dallara tüner ve gün boyunca öyle tatlı şakırlardı ki.",
+                "notes": "Sayfa 1 | 'perched on': dallara tünemiş; 'throughout the day': gün boyunca."
+            },
+            {
+                "id": 8,
+                "text": "The children used to pause in their energetic games in order to listen to their melodies.",
+                "translation": "Çocuklar onların ezgilerini dinlemek için hareketli oyunlarına ara verirlerdi.",
+                "notes": "Sayfa 1 | 'in order to...': -mek amacıyla (amaç bağlacı); 'energetic games': hareketli oyunlar."
+            },
+            {
+                "id": 9,
+                "text": "\"How happy we are here in this paradise!\" they shouted joyfully to one another.",
+                "translation": "Birbirlerine neşeyle \"Bu cennette ne kadar da mutluyuz!\" diye haykırırlardı.",
+                "notes": "Sayfa 1 | 'How happy we are!': ünlem yapısı (Ne kadar mutluyuz!); 'to one another': birbirlerine."
+            },
+            {
+                "id": 10,
+                "text": "The garden belonged to a fierce Giant who had lived in that ancient stone castle.",
+                "translation": "Bahçe, o eski taş şatoda yaşamış olan hırçın bir Dev'e aitti.",
+                "notes": "Sayfa 1 | 'belonged to': -e aitti; 'fierce': azametli ve hırçın; 'ancient': kadim."
+            },
+            {
+                "id": 11,
+                "text": "However, the Giant had been absent from his home for seven continuous years.",
+                "translation": "Ne var ki Dev yedi yıl boyunca aralıksız olarak evinden uzaktaydı.",
+                "notes": "Sayfa 1 | 'absent from': bir yerden uzakta/bulunmayan; 'continuous': aralıksız."
+            },
+            {
+                "id": 12,
+                "text": "He had travelled far away to visit his close friend, the famous Cornish ogre.",
+                "translation": "Yakın dostu meşhur Cornwall gulyabanisini ziyaret etmek için uzaklara gitmişti.",
+                "notes": "Sayfa 1 | 'Cornish ogre': Kelt/Cornwall masallarındaki dev yamyam/gulyabani."
+            },
+            {
+                "id": 13,
+                "text": "The two giants had spent all those long years conversing and feasting together.",
+                "translation": "İki dev bütün o uzun yılları birlikte sohbet ederek ve ziyafet çekerek geçirmişti.",
+                "notes": "Sayfa 1 | 'conversing': sohbet ederek; 'feasting': ziyafet çekerek."
+            },
+            {
+                "id": 14,
+                "text": "After seven years had passed, the Giant discovered that he had said all that he had to say.",
+                "translation": "Yedi yıl geçtikten sonra Dev, söyleyecek her lafını tüketmiş olduğunu fark etti.",
+                "notes": "Sayfa 1 | 'all that he had to say': söylemesi gereken her şeyi (Wilde'ın ince mizahı)."
+            },
+            {
+                "id": 15,
+                "text": "His conversation was very limited, so he grew bored of his friend's company.",
+                "translation": "Sohbet dağarcığı pek kısıtlıydı, bu yüzden dostunun yarenliğinden sıkıldı.",
+                "notes": "Sayfa 1 | 'limited': sınırlı/kıt; 'grew bored of': -den sıkılmaya başlamak."
+            },
+            {
+                "id": 16,
+                "text": "He packed his belongings and determined to return home to his own grand castle.",
+                "translation": "Eşyalarını topladı ve kendi görkemli şatosuna geri dönmeye kesin karar verdi.",
+                "notes": "Sayfa 1 | 'belongings': şahsi eşyalar; 'determined to': -e azmetti/kesin karar verdi."
+            },
+            {
+                "id": 17,
+                "text": "He walked over hills and valleys until the familiar towers of his castle appeared.",
+                "translation": "Şatosunun tanıdık kuleleri görünene kadar tepeleri ve vadileri aşıp yürüdü.",
+                "notes": "Sayfa 1 | 'familiar towers': aşina kuleler; 'appeared': gözüktü/belirdi."
+            },
+            {
+                "id": 18,
+                "text": "When he finally arrived at his iron gates, he heard the cheerful laughter of young voices.",
+                "translation": "Nihayet demir kapılarına ulaştığında çocuk seslerinin neşeli kahkahalarını işitti.",
+                "notes": "Sayfa 1 | 'iron gates': demir parmaklıklı kapılar; 'cheerful laughter': neşeli kahkaha."
+            },
+            {
+                "id": 19,
+                "text": "He looked across the lawn and saw dozens of little children running across his grass.",
+                "translation": "Çimenliğe doğru baktı ve onlarca küçük çocuğun kendi çimlerinde koşturduğunu gördü.",
+                "notes": "Sayfa 1 | 'dozens of': onlarca; 'across the lawn': çimenlik boyunca."
+            },
+            {
+                "id": 20,
+                "text": "A dark scowl immediately formed upon his massive face as anger filled his heart.",
+                "translation": "Yüreğini öfke kaplarken koca yüzünde derhal asık bir surat ifadesi belirdi.",
+                "notes": "Sayfa 1 | 'dark scowl': çatık ve asık yüz ifadesi; 'massive': devasa/iri."
+            }
+        ]
+    },
+
+    # ----------------------------------------------------
+    # SAYFA 2 (Sentences 21 - 40)
+    # ----------------------------------------------------
+    {
+        "page_no": 2,
+        "title": "The Cornish Ogre and the Giant's Return",
+        "tr_title": "Cornwall Gulyabanisi ve Dev'in Dönüşü",
+        "vocab_focus": [
+            ("Gruff voice", "Kaba, hırıltılı ve sert ses"),
+            ("Scattered in terror", "Dehşetle sağa sola dağılmak"),
+            ("Trembling in fear", "Korkudan tir tir titremek"),
+            ("Possessive", "Mülkiyetçi, aşırı sahiplenici"),
+            ("Allow nobody", "Hiç kimseye müsaade etmemek"),
+            ("Thunderous roar", "Gök gürültüsünü andıran kükreme"),
+            ("Trespassers", "İzinsiz girenler / mülke tecavüz edenler"),
+            ("Prosecuted", "Mahkemeye verilmek, cezalandırılmak"),
+        ],
+        "sentences": [
+            {
+                "id": 21,
+                "text": "\"What are you doing here in my private garden?\" cried the Giant in a gruff voice.",
+                "translation": "Dev kaba ve gür bir sesle \"Benim özel bahçemde ne işiniz var?\" diye haykırdı.",
+                "notes": "Sayfa 2 | 'in a gruff voice': kalın, çatallı ve sert bir ses tonuyla."
+            },
+            {
+                "id": 22,
+                "text": "His thunderous voice echoed loudly off the high stone walls of the castle.",
+                "translation": "Gök gürültüsü gibi gürleyen sesi şatonun yüksek taş surlarında şiddetle yankılandı.",
+                "notes": "Sayfa 2 | 'thunderous': gök gürültülü; 'echoed loudly off': çarparak yankılanmak."
+            },
+            {
+                "id": 23,
+                "text": "The terrified children stopped their game and dropped their toys upon the ground.",
+                "translation": "Dehşete düşen çocuklar oyunlarını kesti ve oyuncaklarını yere düşürdüler.",
+                "notes": "Sayfa 2 | 'terrified': ödü patlamış; 'dropped upon the ground': yere düşürdü."
+            },
+            {
+                "id": 24,
+                "text": "They looked up at his enormous towering figure, trembling with sudden fright.",
+                "translation": "Ani bir korkuyla tir tir titreyerek onun koca gövdesine yukarı doğru baktılar.",
+                "notes": "Sayfa 2 | 'towering figure': heybetle yükselen silüet; 'trembling with fright': korkudan titreyerek."
+            },
+            {
+                "id": 25,
+                "text": "Without saying a single word, they turned around and ran away as fast as they could.",
+                "translation": "Tek bir kelime bile edemeden arkalarını döndüler ve olanca hızlarıyla kaçıştılar.",
+                "notes": "Sayfa 2 | 'without saying a single word': tek kelime etmeden; 'as fast as they could': kaçabildikleri kadar hızlı."
+            },
+            {
+                "id": 26,
+                "text": "\"My own garden is my own private property,\" said the Giant obstinately.",
+                "translation": "Dev inatçı bir tavırla \"Benim bahçem benim kendi şahsi mülkümdür,\" dedi.",
+                "notes": "Sayfa 2 | 'private property': özel mülk; 'obstinately': inatla, dik kafalılıkla."
+            },
+            {
+                "id": 27,
+                "text": "\"Anyone with common sense can understand that simple fact of life.\"",
+                "translation": "\"Sağduyusu olan herkes hayatın bu yalın gerçeğini anlayabilir.\"",
+                "notes": "Sayfa 2 | 'common sense': sağduyu; 'simple fact': yalın hakikat."
+            },
+            {
+                "id": 28,
+                "text": "\"I will allow nobody to play in it under any circumstances but myself.\"",
+                "translation": "\"Kendim hariç hiçbir koşulda hiç kimsenin burada oynamasına izin vermeyeceğim.\"",
+                "notes": "Sayfa 2 | 'under any circumstances': hiçbir şart ve ahval altında; 'allow nobody': kimseye izin vermemek."
+            },
+            {
+                "id": 29,
+                "text": "He paced around the spacious grounds, checking every flower bed and apple tree.",
+                "translation": "Geniş arazinin etrafında adımlayarak her çiçek tarhını ve elma ağacını denetledi.",
+                "notes": "Sayfa 2 | 'paced around': volta atıp gezinmek; 'flower bed': çiçek tarhı."
+            },
+            {
+                "id": 30,
+                "text": "He decided that he must protect his boundary from any future intruders.",
+                "translation": "Sınırlarını gelecekteki davetsiz misafirlerden koruması gerektiğine karar verdi.",
+                "notes": "Sayfa 2 | 'boundary': sınır/hudut; 'intruders': davetsiz misafirler/izinsiz girenler."
+            },
+            {
+                "id": 31,
+                "text": "Early the following morning, he collected heavy granite stones and wet mortar.",
+                "translation": "Ertesi sabah erkenden ağır granit taşları ve ıslak harcı topladı.",
+                "notes": "Sayfa 2 | 'granite stones': granit taşlar; 'wet mortar': ıslak inşaat harcı."
+            },
+            {
+                "id": 32,
+                "text": "He began building a very high and impenetrable wall all around the garden perimeter.",
+                "translation": "Bahçe çevresinin dört bir yanına çok yüksek ve geçit vermez bir duvar örmeye başladı.",
+                "notes": "Sayfa 2 | 'impenetrable': aşılamaz/geçit vermez; 'perimeter': çevre hududu."
+            },
+            {
+                "id": 33,
+                "text": "He worked tirelessly from sunrise to sunset, laying stone upon heavy stone.",
+                "translation": "Ağır taş üstüne taş koyarak gün doğumundan gün batımına dek yorulmadan çalıştı.",
+                "notes": "Sayfa 2 | 'tirelessly': usanmadan; 'from sunrise to sunset': şafaktan gün batımına dek."
+            },
+            {
+                "id": 34,
+                "text": "When the wall was completed, no one could see what was happening inside.",
+                "translation": "Duvar tamamlandığında artık hiç kimse içeride ne olup bittiğini göremez olmuştu.",
+                "notes": "Sayfa 2 | 'completed': tamamlanmış; 'inside': içeride."
+            },
+            {
+                "id": 35,
+                "text": "Then he took a thick wooden plank and painted big white letters upon it.",
+                "translation": "Ardından kalın ahşap bir kalas aldı ve üzerine büyük beyaz harfler boyadı.",
+                "notes": "Sayfa 2 | 'wooden plank': tahta kalas; 'painted big letters': koca harflerle boyadı."
+            },
+            {
+                "id": 36,
+                "text": "He nailed the intimidating notice-board high up on the entrance gate.",
+                "translation": "Göz korkutan uyarı levhasını giriş kapısının tepesine çaktı.",
+                "notes": "Sayfa 2 | 'nailed': çiviledi; 'intimidating': korkutucu, gözdağı veren; 'notice-board': ilan tahtası."
+            },
+            {
+                "id": 37,
+                "text": "The bold sign read clearly: TRESPASSERS WILL BE PROSECUTED.",
+                "translation": "Kalın harfli levhada açıkça şöyle yazıyordu: İZİNSİZ GİRENLER CEZALANDIRILACAKTIR.",
+                "notes": "Sayfa 2 | 'trespasser': mülke izinsiz giren; 'prosecuted': dava edilip cezalandırılacak."
+            },
+            {
+                "id": 38,
+                "text": "It was a severe legal threat intended to scare away every neighbourhood child.",
+                "translation": "Bütün mahalle çocuklarını korkutup kaçırmak amacıyla konmuş sert bir yasal tehditti.",
+                "notes": "Sayfa 2 | 'legal threat': hukuki tehdit; 'scare away': korkutup kaçırmak."
+            },
+            {
+                "id": 39,
+                "text": "He stepped back and admired his barrier with great satisfaction and pride.",
+                "translation": "Geriye doğru bir adım attı ve büyük bir tatmin ve gururla setine baktı.",
+                "notes": "Sayfa 2 | 'stepped back': geri adım attı; 'satisfaction': hoşnutluk."
+            },
+            {
+                "id": 40,
+                "text": "He was indeed a very selfish, harsh, and uncaring Giant.",
+                "translation": "Gerçekten de çok bencil, acımasız ve duyarsız bir Dev'di.",
+                "notes": "Sayfa 2 | 'selfish': bencil; 'harsh': katı ve sert; 'uncaring': umursamaz, merhametsiz."
+            }
+        ]
+    },
+
+    # ----------------------------------------------------
+    # SAYFA 3 (Sentences 41 - 60)
+    # ----------------------------------------------------
+    {
+        "page_no": 3,
+        "title": "The High Wall and the Notice-Board",
+        "tr_title": "Yüksek Duvar ve Uyarı Levhası",
+        "vocab_focus": [
+            ("Nowhere to play", "Oynayacak hiçbir yer"),
+            ("Dusty road", "Tozlu yol"),
+            ("Hard stones", "Sert ve sivri taşlar"),
+            ("Scraped knees", "Sıyrılmış dizler"),
+            ("Wander around", "Etrafta amaçsızca gezinmek"),
+            ("Locked gate", "Kilitli demir kapı"),
+            ("Nostalgia", "Geçmişe duyulan özlem"),
+            ("Springtime arrival", "Bahar mevsiminin gelişi"),
+        ],
+        "sentences": [
+            {
+                "id": 41,
+                "text": "The poor little children had now nowhere safe or pleasant to play.",
+                "translation": "Zavallı küçük çocukların artık oynayacak güvenli ya da hoş hiçbir yerleri kalmamıştı.",
+                "notes": "Sayfa 3 | 'nowhere safe': güvenli hiçbir yer; 'pleasant': keyifli, hoş."
+            },
+            {
+                "id": 42,
+                "text": "They gathered on the public road after their lessons were finished each afternoon.",
+                "translation": "Her öğleden sonra dersleri bittiğinde kamuya açık ana yolda toplanırlardı.",
+                "notes": "Sayfa 3 | 'public road': ana yol, kamu yolu; 'gathered': toplandılar."
+            },
+            {
+                "id": 43,
+                "text": "They tried to play their favourite games of tag and hide-and-seek there.",
+                "translation": "Orada en sevdikleri ebelemece ve saklambaç oyunlarını oynamayı denediler.",
+                "notes": "Sayfa 3 | 'tag': yakalamaç/ebelemece; 'hide-and-seek': saklambaç oyunu."
+            },
+            {
+                "id": 44,
+                "text": "However, the public road was extremely dusty, noisy, and uncomfortable.",
+                "translation": "Fakat ana yol son derece tozlu, gürültülü ve rahatsız ediciydi.",
+                "notes": "Sayfa 3 | 'extremely dusty': aşırı tozlu; 'uncomfortable': konforsuz."
+            },
+            {
+                "id": 45,
+                "text": "It was filled with sharp gravel and hard stones that hurt their bare feet.",
+                "translation": "Çıplak ayaklarını acıtan keskin çakıllar ve sert taşlarla doluydu.",
+                "notes": "Sayfa 3 | 'sharp gravel': keskin çakıl; 'bare feet': yalınayak."
+            },
+            {
+                "id": 46,
+                "text": "Passing horse carriages kicked up clouds of grey dirt that choked their throats.",
+                "translation": "Yoldan geçen at arabaları boğazlarını tıkayan gri toz bulutları kaldırıyordu.",
+                "notes": "Sayfa 3 | 'horse carriages': at arabaları; 'choked': tıkadı/boğdu."
+            },
+            {
+                "id": 47,
+                "text": "The children did not like the rough street at all and felt utterly miserable.",
+                "translation": "Çocuklar bu pürüzlü caddeyi hiç mi hiç sevmediler ve kendilerini son derece sefil hissettiler.",
+                "notes": "Sayfa 3 | 'not at all': hiç mi hiç; 'utterly miserable': büsbütün mutsuz."
+            },
+            {
+                "id": 48,
+                "text": "They used to wander slowly round the high wall when school was over.",
+                "translation": "Okul bittiğinde o yüksek duvarın etrafında ağır adımlarla gezinirlerdi.",
+                "notes": "Sayfa 3 | 'wander slowly': ağır ağır dolaşmak; 'when school was over': okul bittiğinde."
+            },
+            {
+                "id": 49,
+                "text": "They looked up at the grey stone barrier that separated them from joy.",
+                "translation": "Kendilerini neşeden ayıran o gri taş engele boyunlarını büküp baktılar.",
+                "notes": "Sayfa 3 | 'separated from': -den ayıran; 'barrier': engel/barikat."
+            },
+            {
+                "id": 50,
+                "text": "They whispered softly to each other about the magical paradise hidden inside.",
+                "translation": "İçeride saklı duran o büyülü cennet hakkında birbirlerine fısıldaştılar.",
+                "notes": "Sayfa 3 | 'whispered softly': alçak sesle fısıldadılar; 'hidden inside': içeride gizlenmiş."
+            },
+            {
+                "id": 51,
+                "text": "\"Do you remember the sweet smell of the pink peach blossoms?\" asked one girl.",
+                "translation": "Küçük bir kız \"Pembe şeftali çiçeklerinin o tatlı kokusunu hatırlıyor musunuz?\" diye sordu.",
+                "notes": "Sayfa 3 | 'sweet smell': tatlı koku; 'peach blossoms': şeftali çiçekleri."
+            },
+            {
+                "id": 52,
+                "text": "\"I remember the soft moss where we used to rest after running,\" sighed a boy.",
+                "translation": "Bir oğlan iç çekerek \"Koştuktan sonra üzerinde dinlendiğimiz o yumuşacık yosunları hatırlıyorum,\" dedi.",
+                "notes": "Sayfa 3 | 'sighed': iç çekti; 'soft moss': yumuşak yosun."
+            },
+            {
+                "id": 53,
+                "text": "\"How happy we were in that lovely garden,\" they repeated with longing sighs.",
+                "translation": "Hasret dolu iç çekişlerle \"O güzel bahçede ne kadar da mutluyduk,\" diye tekrarladılar.",
+                "notes": "Sayfa 3 | 'with longing sighs': hasret dolu iç çekişlerle; 'repeated': tekrarladılar."
+            },
+            {
+                "id": 54,
+                "text": "Days turned into weeks, and soon the frosty winter began to retreat across the land.",
+                "translation": "Günler haftalara döndü ve çok geçmeden ayazlı kış memleket genelinde geri çekilmeye başladı.",
+                "notes": "Sayfa 3 | 'frosty winter': ayazlı kış; 'retreat': geri çekilmek."
+            },
+            {
+                "id": 55,
+                "text": "The gentle breath of Spring arrived across the entire green countryside.",
+                "translation": "Baharın ılık nefesi bütün o yeşil kırlara ulaştı.",
+                "notes": "Sayfa 3 | 'gentle breath': tatlı nefes; 'countryside': kırlar, taşra."
+            },
+            {
+                "id": 56,
+                "text": "Every meadow broke out into colourful wild blossoms and fresh green buds.",
+                "translation": "Her çayır rengârenk yabani çiçekler ve taze yeşil tomurcuklarla donandı.",
+                "notes": "Sayfa 3 | 'meadow': çayır/otlak; 'fresh green buds': taze yeşil tomurcuklar."
+            },
+            {
+                "id": 57,
+                "text": "Little robins and larks returned from the south, singing merrily in the woods.",
+                "translation": "Kızılgerdanlar ve tarlakuşları güneyden döndüler, korularda neşeyle öttüler.",
+                "notes": "Sayfa 3 | 'robins and larks': kızılgerdan ve tarlakuşları; 'in the woods': korulukta."
+            },
+            {
+                "id": 58,
+                "text": "Everywhere there were signs of rebirth, sunshine, warmth, and blossoming life.",
+                "translation": "Her tarafta yeniden doğuşun, gün ışığının, sıcaklığın ve filizlenen hayatın izleri vardı.",
+                "notes": "Sayfa 3 | 'signs of rebirth': yeniden doğuş işaretleri; 'blossoming life': çiçek açan hayat."
+            },
+            {
+                "id": 59,
+                "text": "Only in the walled garden of the Selfish Giant, it remained bitterly freezing winter.",
+                "translation": "Yalnızca Bencil Dev'in duvarlarla çevrili bahçesinde dondurucu ve amansız bir kış hüküm sürmekteydi.",
+                "notes": "Sayfa 3 | 'walled garden': surlarla çevrili bahçe; 'remained bitterly freezing': amansız ayaz olarak kalmak."
+            },
+            {
+                "id": 60,
+                "text": "The joyous season of life refused to enter past his cruel stone walls.",
+                "translation": "Hayatın o neşeli mevsimi, onun zalim taş duvarlarından içeri adım atmayı reddetti.",
+                "notes": "Sayfa 3 | 'refused to enter': girmeyi reddetti; 'cruel stone walls': zalim taş surlar."
+            }
+        ]
+    },
+
+    # ----------------------------------------------------
+    # SAYFA 4 (Sentences 61 - 80)
+    # ----------------------------------------------------
+    {
+        "page_no": 4,
+        "title": "The Banned Children on the Dusty Road",
+        "tr_title": "Tozlu Yollara Mahkûm Olan Çocuklar",
+        "vocab_focus": [
+            ("Did not care to sing", "Şarkı söylemeye heves etmemek"),
+            ("Forgot to blossom", "Çiçek açmayı unutmak"),
+            ("Peeped out", "Başını uzatıp gizlice bakmak"),
+            ("Notice-board", "Uyarı / ilan tahtası"),
+            ("Slipped back", "Geri kayıp çekilmek"),
+            ("Pleased with", "Bir durumdan hoşnut / memnun olmak"),
+            ("Great white cloak", "Kocaman beyaz pelerin"),
+            ("Silver paint", "Gümüş renkli boya"),
+        ],
+        "sentences": [
+            {
+                "id": 61,
+                "text": "The wild birds did not care to sing in the garden because there were no children.",
+                "translation": "Yabani kuşlar bahçede hiç çocuk olmadığı için orada ötüp şakımaya yanaşmadılar.",
+                "notes": "Sayfa 4 | 'did not care to...': -e heves etmemek/yanaşmamak; 'because': çünkü."
+            },
+            {
+                "id": 62,
+                "text": "The peach-trees forgot to blossom and stood like silent grey skeletons.",
+                "translation": "Şeftali ağaçları çiçek açmayı unuttular ve sessiz gri iskeletler gibi dikilip kaldılar.",
+                "notes": "Sayfa 4 | 'forgot to blossom': çiçek açmayı unuttu; 'grey skeletons': gri iskeletler."
+            },
+            {
+                "id": 63,
+                "text": "Once a beautiful daisy put its bright little head out from the grass.",
+                "translation": "Bir keresinde güzel bir papatya, parlak küçük başını çimlerin arasından dışarı uzattı.",
+                "notes": "Sayfa 4 | 'daisy': papatya çiçeği; 'put out head': başını dışarı uzatmak."
+            },
+            {
+                "id": 64,
+                "text": "It wished to greet the warm morning sun and spread its delicate petals.",
+                "translation": "Sabahın ılık güneşini selamlamak ve narin taçyapraklarını yaymak istedi.",
+                "notes": "Sayfa 4 | 'greet': selamlamak; 'delicate petals': zarif taçyapraklar."
+            },
+            {
+                "id": 65,
+                "text": "But when it saw the harsh notice-board on the wall, it felt so sorry for the children.",
+                "translation": "Fakat duvardaki o acımasız uyarı levhasını görünce çocuklar için öyle çok üzüldü ki.",
+                "notes": "Sayfa 4 | 'felt so sorry for': -e fazlasıyla üzülmek; 'harsh notice-board': sert levha."
+            },
+            {
+                "id": 66,
+                "text": "The gentle flower immediately slipped back into the dark ground again.",
+                "translation": "Zarif çiçek derhal yeniden karanlık toprağın içine kayıp çekildi.",
+                "notes": "Sayfa 4 | 'slipped back': geri süzülmek; 'dark ground': karanlık toprak."
+            },
+            {
+                "id": 67,
+                "text": "It curled its petals tightly and went straight back to sleep beneath the dirt.",
+                "translation": "Taçyapraklarını sıkıca büktü ve toprağın altında dosdoğru yeniden uykuya daldı.",
+                "notes": "Sayfa 4 | 'curled tightly': sımsıkı kıvırdı; 'went back to sleep': tekrar uykuya daldı."
+            },
+            {
+                "id": 68,
+                "text": "The only people who were pleased with this gloomy situation were the Snow and the Frost.",
+                "translation": "Bu kasvetli durumdan hoşnut olan yegâne kimseler Kar ile Kırağı idi.",
+                "notes": "Sayfa 4 | 'pleased with': -den memnun; 'gloomy situation': kasvetli vaziyet."
+            },
+            {
+                "id": 69,
+                "text": "\"Spring has forgotten this garden!\" they cried out in wild jubilation.",
+                "translation": "\"Bahar bu bahçeyi unuttu!\" diye coşku dolu bir sevinçle haykırdılar.",
+                "notes": "Sayfa 4 | 'in wild jubilation': çılgınca bir coşkuyla; 'forgotten': unutmuş."
+            },
+            {
+                "id": 70,
+                "text": "\"Now we can live here happily all the year round without any interruptions!\"",
+                "translation": "\"Artık hiçbir bölünme olmadan bütün bir yıl boyunca burada keyfimizce yaşayabiliriz!\"",
+                "notes": "Sayfa 4 | 'all the year round': yıl boyu; 'without any interruptions': kesintisiz."
+            },
+            {
+                "id": 71,
+                "text": "The Snow covered up the green grass with her great thick white cloak.",
+                "translation": "Kar o koca kalın beyaz peleriniyle yemyeşil çimleri bütünüyle örttü.",
+                "notes": "Sayfa 4 | 'covered up': örttü/kapladı; 'great white cloak': ulu beyaz pelerin."
+            },
+            {
+                "id": 72,
+                "text": "The Frost painted all the bare trees with sparkling silver lacquer.",
+                "translation": "Kırağı bütün çıplak ağaçları ışıldayan gümüş rengi bir cila ile boyadı.",
+                "notes": "Sayfa 4 | 'sparkling silver': parıldayan gümüş rengi; 'lacquer': cila/vernik."
+            },
+            {
+                "id": 73,
+                "text": "Every twig and leaf became coated with shiny, razor-sharp crystals of ice.",
+                "translation": "Her dal ve yaprak parlak, jilet gibi keskin buz kristalleriyle kaplandı.",
+                "notes": "Sayfa 4 | 'coated with': ile kaplanmış; 'razor-sharp': ustura gibi keskin."
+            },
+            {
+                "id": 74,
+                "text": "Then they decided to invite the roaring North Wind to stay with them.",
+                "translation": "Ardından kükreyen Kuzey Rüzgârı'nı yanlarında kalması için davet etmeye karar verdiler.",
+                "notes": "Sayfa 4 | 'roaring': kükreyen; 'invite': davet etmek."
+            },
+            {
+                "id": 75,
+                "text": "The North Wind accepted their cordial invitation with great eagerness.",
+                "translation": "Kuzey Rüzgârı bu içten daveti büyük bir hevesle kabul etti.",
+                "notes": "Sayfa 4 | 'cordial invitation': samimi davet; 'eagerness': şevk, heves."
+            },
+            {
+                "id": 76,
+                "text": "He wrapped himself tightly in thick shaggy furs that trailed on the snow.",
+                "translation": "Karlar üzerinde sürüklenen kalın kabarık kürklere sımsıkı sarındı.",
+                "notes": "Sayfa 4 | 'shaggy furs': kaba tüylü kürkler; 'trailed on': üzerinde sürünen."
+            },
+            {
+                "id": 77,
+                "text": "He roared fiercely all day long through the branches of the shivering trees.",
+                "translation": "Titreyen ağaçların dalları arasında bütün gün boyunca hiddetle kükredi.",
+                "notes": "Sayfa 4 | 'roared fiercely': azgınca kükredi; 'shivering trees': tir tir titreyen ağaçlar."
+            },
+            {
+                "id": 78,
+                "text": "He blew down the heavy terracotta chimney-pots from the roof of the castle.",
+                "translation": "Şatonun çatısındaki ağır pişmiş toprak baca başlıklarını üfleyip yere devirdi.",
+                "notes": "Sayfa 4 | 'terracotta': pişmiş kilden toprak; 'blew down': devirip uçurmak."
+            },
+            {
+                "id": 79,
+                "text": "\"This is a delightful spot!\" shouted the North Wind as he danced over the lawn.",
+                "translation": "Çimenlikte dans ederken Kuzey Rüzgârı \"Burası harika bir yer!\" diye bağırdı.",
+                "notes": "Sayfa 4 | 'delightful spot': fevkalade güzel bir köşe; 'shouted': bağırdı."
+            },
+            {
+                "id": 80,
+                "text": "\"We must ask the Hail on a visit next to complete our winter gathering!\"",
+                "translation": "\"Kış meclisimizi tamamlamak için hemen ardından Dolu'yu da ziyarete çağırmalıyız!\"",
+                "notes": "Sayfa 4 | 'Hail': dolu yağışı; 'winter gathering': kış buluşması/meclisi."
+            }
+        ]
+    },
+
+    # ----------------------------------------------------
+    # SAYFA 5 (Sentences 81 - 100)
+    # ----------------------------------------------------
+    {
+        "page_no": 5,
+        "title": "The Eternal Winter, Snow and Frost",
+        "tr_title": "Ebedi Kış, Kar ve Kırağı Hükümranlığı",
+        "vocab_focus": [
+            ("Dressed in grey", "Kül rengine bürünmüş"),
+            ("Breath was like ice", "Soluğu buz gibiydi"),
+            ("Rattled on the roof", "Çatıda tıkır tıkır ses çıkarmak"),
+            ("Slates of the castle", "Şatonun arduvaz çatı kiremitleri"),
+            ("Round and round", "Döne döne / fırıl fırıl"),
+            ("White garden", "Bembeyaz donmuş bahçe"),
+            ("Change in the weather", "Havada bir değişiklik"),
+            ("Golden fruit", "Altın renkli olgun meyveler"),
+        ],
+        "sentences": [
+            {
+                "id": 81,
+                "text": "So the Hail came galloping through the cold sky upon white frozen clouds.",
+                "translation": "Böylece Dolu, beyaz buz tutmuş bulutların üzerinde soğuk gökyüzünde dörtnala çıka geldi.",
+                "notes": "Sayfa 5 | 'galloping': dörtnala koşan; 'frozen clouds': donmuş bulutlar."
+            },
+            {
+                "id": 82,
+                "text": "Every day for three long hours, he rattled on the slate roof of the castle.",
+                "translation": "Her gün üç koca saat boyunca şatonun arduvaz çatısında tıkır tıkır sesler çıkardı.",
+                "notes": "Sayfa 5 | 'rattled': takırdadı; 'slate roof': arduvaz taşlı çatı kaplaması."
+            },
+            {
+                "id": 83,
+                "text": "He smashed most of the stone slates until the roof leaked cold water.",
+                "translation": "Taş kiremitlerin çoğunu tuzla buz etti, ta ki çatıdan içeri soğuk sular sızana dek.",
+                "notes": "Sayfa 5 | 'smashed': parçaladı; 'leaked': su sızdırdı."
+            },
+            {
+                "id": 84,
+                "text": "Then he ran round and round the garden paths as fast as he could go.",
+                "translation": "Sonra bahçe patikalarında gidebildiği kadar hızlı bir şekilde döne döne koştu.",
+                "notes": "Sayfa 5 | 'round and round': döne döne; 'garden paths': bahçe yolları."
+            },
+            {
+                "id": 85,
+                "text": "He was dressed in somber grey, and his freezing breath was like solid ice.",
+                "translation": "Kasvetli kurşuni bir renge bürünmüştü ve dondurucu soluğu katı buz gibiydi.",
+                "notes": "Sayfa 5 | 'somber grey': kasvetli kurşun rengi; 'solid ice': som buz."
+            },
+            {
+                "id": 86,
+                "text": "\"I cannot understand why the Spring is so late in coming,\" muttered the Selfish Giant.",
+                "translation": "Bencil Dev kendi kendine \"Baharın gelmekte neden bu kadar geciktiğini bir türlü anlayamıyorum,\" diye mırıldandı.",
+                "notes": "Sayfa 5 | 'late in coming': gelmekte geciken; 'muttered': homurdandı."
+            },
+            {
+                "id": 87,
+                "text": "He sat at his large arched window and looked out at his cold, white, barren garden.",
+                "translation": "Geniş kemerli penceresinde oturdu ve dışarıdaki soğuk, bembeyaz, kıraç bahçesine baktı.",
+                "notes": "Sayfa 5 | 'arched window': kemerli pencere; 'barren': verimsiz, çorak."
+            },
+            {
+                "id": 88,
+                "text": "\"I hope there will be a sudden change in the weather very soon,\" he grumbled.",
+                "translation": "Homurdanarak \"Umarım çok yakında havada ani bir değişiklik olur,\" dedi.",
+                "notes": "Sayfa 5 | 'grumbled': söylendi/yakındı; 'sudden change': ani değişim."
+            },
+            {
+                "id": 89,
+                "text": "But the gentle Spring never came to his grounds, nor did the golden Summer.",
+                "translation": "Fakat o tatlı Bahar onun arazisine asla uğramadı; altın rengi Yaz da gelmedi.",
+                "notes": "Sayfa 5 | Devrik yapı ('nor did the golden Summer': ne de altın Yaz geldi)."
+            },
+            {
+                "id": 90,
+                "text": "The Autumn gave rich, sweet golden fruit to every neighbouring garden in the valley.",
+                "translation": "Sonbahar vadideki diğer her komşu bahçeye bol ve tatlı altın rengi meyveler sundu.",
+                "notes": "Sayfa 5 | 'neighbouring garden': komşu bahçe; 'in the valley': vadideki."
+            },
+            {
+                "id": 91,
+                "text": "To the Giant's walled garden, however, Autumn gave absolutely none.",
+                "translation": "Gelgelelim Dev'in surlarla çevrili bahçesine Sonbahar tek bir meyve bile vermedi.",
+                "notes": "Sayfa 5 | 'however': ne var ki; 'absolutely none': kesinlikle hiç vermedi."
+            },
+            {
+                "id": 92,
+                "text": "\"He is far too selfish, greedy, and hard-hearted,\" said the generous Autumn.",
+                "translation": "Cömert Sonbahar \"O haddinden fazla bencil, açgözlü ve katı yürekli,\" dedi.",
+                "notes": "Sayfa 5 | 'greedy': açgözlü; 'hard-hearted': taş kalpli/katı yürekli."
+            },
+            {
+                "id": 93,
+                "text": "So it was perpetually Winter there behind the massive stone fortifications.",
+                "translation": "Böylece o heybetli taş surların ardında mevsim daima kış olarak kaldı.",
+                "notes": "Sayfa 5 | 'perpetually': daimi surette, durmaksızın; 'fortifications': surlar/tahkimat."
+            },
+            {
+                "id": 94,
+                "text": "The North Wind, the Hail, the Frost, and the Snow danced about through the bare trees.",
+                "translation": "Kuzey Rüzgârı, Dolu, Kırağı ve Kar çırılçıplak ağaçların arasında fırıl fırıl dans ettiler.",
+                "notes": "Sayfa 5 | 'danced about': oradan oraya dans ettiler; 'bare trees': çıplak ağaçlar."
+            },
+            {
+                "id": 95,
+                "text": "They turned the once-vibrant paradise into a bleak and desolate Arctic kingdom.",
+                "translation": "Bir zamanlar cıvıl cıvıl olan o cenneti ıssız ve çorak bir Kutup krallığına çevirdiler.",
+                "notes": "Sayfa 5 | 'once-vibrant': bir zamanlar hayat dolu; 'bleak and desolate': kasvetli ve metruk."
+            },
+            {
+                "id": 96,
+                "text": "The Giant wrapped himself in heavy woollen blankets and sat miserably by his hearth.",
+                "translation": "Dev kalın yün battaniyelere sarındı ve şöminenin başında keder içinde oturdu.",
+                "notes": "Sayfa 5 | 'woollen blankets': yün battaniyeler; 'by his hearth': ocağının başında."
+            },
+            {
+                "id": 97,
+                "text": "His hearth fire sputtered weakly and gave little warmth against the persistent chill.",
+                "translation": "Ocağındaki ateş cılız cılız cızırdıyor ve inatçı ayaza karşı pek az sıcaklık veriyordu.",
+                "notes": "Sayfa 5 | 'sputtered weakly': cılız cızırdamak; 'persistent chill': inatçı soğuk."
+            },
+            {
+                "id": 98,
+                "text": "He began to feel terribly lonely in his vast, echoing, empty castle rooms.",
+                "translation": "Uçsuz bucaksız, yankılanan, bomboş şato odalarında kendini feci derecede yalnız hissetmeye başladı.",
+                "notes": "Sayfa 5 | 'echoing': yankılanan; 'terribly lonely': feci şekilde yalnız."
+            },
+            {
+                "id": 99,
+                "text": "He missed the sound of joyous laughter that used to echo across his green lawn.",
+                "translation": "Eskiden yeşil çimenliğinde yankılanan o neşeli kahkahaların sesini özlemeye başladı.",
+                "notes": "Sayfa 5 | 'missed the sound': sesini özledi; 'joyous laughter': sevinç dolu kahkaha."
+            },
+            {
+                "id": 100,
+                "text": "Yet his stubborn pride prevented him from acknowledging his terrible mistake.",
+                "translation": "Yine de o inatçı kibri, korkunç hatasını kabul etmesine engel oluyordu.",
+                "notes": "Sayfa 5 | 'stubborn pride': inatçı kibir/gurur; 'prevent from acknowledging': kabullenmekten alıkoymak."
+            }
+        ]
+    },
+
+    # ----------------------------------------------------
+    # SAYFA 6 (Sentences 101 - 120)
+    # ----------------------------------------------------
+    {
+        "page_no": 6,
+        "title": "The North Wind and the Crashing Hail",
+        "tr_title": "Kuzey Rüzgârı ve Şiddetli Dolu Fırtınası",
+        "vocab_focus": [
+            ("Lying awake", "Uyanık halde yatmak"),
+            ("Lovely music", "Tatlı ve hoş bir melodi"),
+            ("King's musicians", "Kralın saz heyeti / müzisyenleri"),
+            ("Passing by", "Önünden geçip gitmek"),
+            ("Little linnet", "Küçük ketenkuşu (ötücü kuş)"),
+            ("Casement", "Kanatlı ahşap pencere"),
+            ("Delicious perfume", "Nefis ve mest edici koku"),
+            ("Jumped out of bed", "Yataktan fırlayıp kalkmak"),
+        ],
+        "sentences": [
+            {
+                "id": 101,
+                "text": "One morning, the Giant was lying awake in his vast bed when he heard lovely music.",
+                "translation": "Bir sabah Dev geniş yatağında uyanık halde yatarken kulağına tatlı bir müzik sesi geldi.",
+                "notes": "Sayfa 6 | 'lying awake': uyanık yatmak; 'lovely music': hoş ezgi."
+            },
+            {
+                "id": 102,
+                "text": "It sounded so sweet and melodious to his ears that he stopped breathing to listen.",
+                "translation": "Kulağına öyle tatlı ve ahenkli geldi ki dinlemek için nefesini tuttu.",
+                "notes": "Sayfa 6 | 'stopped breathing': nefesini kesti; 'melodious': nağmeli, ahenkli."
+            },
+            {
+                "id": 103,
+                "text": "He thought at first that it must be the King's royal musicians passing by along the road.",
+                "translation": "İlk önce yoldan geçmekte olan Kral'ın saray müzisyenleri olduğunu sandı.",
+                "notes": "Sayfa 6 | 'at first': başlangıçta; 'must be': olmalı (güçlü tahmin)."
+            },
+            {
+                "id": 104,
+                "text": "It was really only a tiny brown linnet singing outside his bedroom casement.",
+                "translation": "Oysa aslında yalnızca yatak odasının penceresi dışında şakıyan minik kahverengi bir ketenkuşuydu.",
+                "notes": "Sayfa 6 | 'linnet': ketenkuşu; 'casement': kanatlı pencere çerçevesi."
+            },
+            {
+                "id": 105,
+                "text": "It was so long since he had heard a bird sing in his garden that it seemed magical.",
+                "translation": "Bahçesinde bir kuşun ötüşünü duymayalı o kadar uzun zaman olmuştu ki bu ses ona büyü gibi geldi.",
+                "notes": "Sayfa 6 | 'so long since...': -den bu yana öyle uzun zaman oldu ki; 'seemed magical': büyüleyici geldi."
+            },
+            {
+                "id": 106,
+                "text": "To his starved ears, it seemed to be the most wonderful symphony in the whole world.",
+                "translation": "Güzel sese hasret kalmış kulaklarına bütün dünyadaki en harika senfoni gibi geldi.",
+                "notes": "Sayfa 6 | 'starved ears': hasret kalmış/aç kulaklar; 'symphony': senfoni."
+            },
+            {
+                "id": 107,
+                "text": "Suddenly, the noisy Hail stopped dancing violently over his stone roof.",
+                "translation": "Birdenbire o gürültücü Dolu, taş çatısının üzerinde hırçınca dans etmeyi bıraktı.",
+                "notes": "Sayfa 6 | 'violently': şiddetle; 'stopped dancing': dans etmeyi kesti."
+            },
+            {
+                "id": 108,
+                "text": "The fierce North Wind ceased its roaring and howling through the castle chimneys.",
+                "translation": "Hırçın Kuzey Rüzgârı şato bacalarında kükremeyi ve ulumayı kesti.",
+                "notes": "Sayfa 6 | 'ceased': durdu/son buldu; 'howling': uğultuyla uluma."
+            },
+            {
+                "id": 109,
+                "text": "A warm, delicious perfume of wild jasmine came floating through the open window casement.",
+                "translation": "Açık pencere kanadından içeri yabani yaseminin ılık, nefis bir rayihası süzülüp geldi.",
+                "notes": "Sayfa 6 | 'delicious perfume': mest edici koku; 'came floating': süzülerek geldi."
+            },
+            {
+                "id": 110,
+                "text": "\"I believe the Spring has finally arrived at last!\" exclaimed the Giant with wide eyes.",
+                "translation": "Dev gözleri faltaşı gibi açılarak \"İnanıyorum ki nihayet Bahar en sonunda geldi!\" diye bağırdı.",
+                "notes": "Sayfa 6 | 'at last': nihayet/en sonunda; 'wide eyes': hayretle açılmış gözler."
+            },
+            {
+                "id": 111,
+                "text": "He threw off his heavy covers, jumped out of bed, and ran straight to the window.",
+                "translation": "Ağır örtülerini üzerinden fırlattı, yataktan atladı ve dosdoğru pencereye koştu.",
+                "notes": "Sayfa 6 | 'threw off': savurup attı; 'jumped out of bed': yataktan fırladı."
+            },
+            {
+                "id": 112,
+                "text": "He pushed open the heavy wooden shutters and gazed outside into the morning light.",
+                "translation": "Ağır ahşap panjurları iterek açtı ve sabah aydınlığına doğru dışarıyı süzdü.",
+                "notes": "Sayfa 6 | 'wooden shutters': ahşap panjurlar; 'gazed outside': dışarıya göz dikti."
+            },
+            {
+                "id": 113,
+                "text": "And what did he see in the blossoming garden below?",
+                "translation": "Ve aşağıdaki çiçek açan bahçede ne görsün?",
+                "notes": "Sayfa 6 | Retorik soru yapısı ('And what did he see?')."
+            },
+            {
+                "id": 114,
+                "text": "He saw the most extraordinary, miraculous, and heartwarming sight imaginable.",
+                "translation": "Hayal edilebilecek en olağanüstü, en mucizevi ve iç ısıtıcı manzarayı gördü.",
+                "notes": "Sayfa 6 | 'miraculous': mucize kabilinden; 'heartwarming sight': yürek ısıtan manzara."
+            },
+            {
+                "id": 115,
+                "text": "Through a little broken hole in the high wall, the children had quietly crept in.",
+                "translation": "Yüksek duvardaki küçük kırık bir delikten çocuklar sessizce içeri süzülmüştü.",
+                "notes": "Sayfa 6 | 'crept in': gizlice/sessizce içeri süzülmek; 'broken hole': kırık gedik/delik."
+            },
+            {
+                "id": 116,
+                "text": "They were sitting happily among the leafy branches of every single tree.",
+                "translation": "İstisnasız her ağacın yapraklı dalları arasında mutlulukla oturuyorlardı.",
+                "notes": "Sayfa 6 | 'every single tree': her bir ağaç; 'leafy branches': yapraklı dallar."
+            },
+            {
+                "id": 117,
+                "text": "In every tree that his eyes could reach, there was a laughing little boy or girl.",
+                "translation": "Gözlerinin erişebildiği her bir ağaçta gülen küçük bir kız veya oğlan çocuğu vardı.",
+                "notes": "Sayfa 6 | 'eyes could reach': gözün alabildiği; 'laughing': kahkaha atan."
+            },
+            {
+                "id": 118,
+                "text": "The trees were so overjoyed to have the children back that they burst into pink blossoms.",
+                "translation": "Ağaçlar çocuklara yeniden kavuştukları için öyle sevinçliydi ki pembe çiçeklere büründüler.",
+                "notes": "Sayfa 6 | 'overjoyed': sevinçten havalara uçmuş; 'burst into blossoms': çiçeklere boğulmak."
+            },
+            {
+                "id": 119,
+                "text": "They were waving their leafy arms gently and affectionately above the children's heads.",
+                "translation": "Yapraklı kollarını çocukların başları üzerinde şefkatle ve tatlı tatlı dalgalandırıyorlardı.",
+                "notes": "Sayfa 6 | 'affectionately': sevgiyle, şefkatle; 'waving': sallamak/dalgalandırmak."
+            },
+            {
+                "id": 120,
+                "text": "Colourful birds were fluttering about and twittering with uncontrollable delight.",
+                "translation": "Rengârenk kuşlar oradan oraya kanat çırpıyor, zapt edilemez bir neşeyle cıvıldaşıyordu.",
+                "notes": "Sayfa 6 | 'fluttering about': pırpır uçuşmak; 'uncontrollable delight': dizginlenemez sevinç."
+            }
+        ]
+    },
+
+    # ----------------------------------------------------
+    # SAYFA 7 (Sentences 121 - 140)
+    # ----------------------------------------------------
+    {
+        "page_no": 7,
+        "title": "The Selfishness and the Barren Autumn",
+        "tr_title": "Bencilliğin Sonu ve Bahçedeki Tek Ayaz Köşe",
+        "vocab_focus": [
+            ("Green lawn", "Yemyeşil çimenlik"),
+            ("Laughing flowers", "Kahkaha atan çiçekler (kişileştirme)"),
+            ("Farthest corner", "En uzaktaki köşe"),
+            ("Still winter", "Hâlâ kış mevsimi"),
+            ("Tiny boy", "Minicik bir erkek çocuğu"),
+            ("Reach up", "Yukarıya boyu erişmek"),
+            ("Wandering around", "Çaresizce etrafında dönüp durmak"),
+            ("Crying bitterly", "Acı acı / hıçkırarak ağlamak"),
+        ],
+        "sentences": [
+            {
+                "id": 121,
+                "text": "Bright flowers were peeping up through the vibrant green grass, laughing with joy.",
+                "translation": "Parlak çiçekler canlı yeşil çimlerin arasından başlarını uzatıyor, sevinçle gülümsüyorlardı.",
+                "notes": "Sayfa 7 | 'peeping up': başını yukarı uzatmak; 'vibrant': hayat dolu, canlı."
+            },
+            {
+                "id": 122,
+                "text": "It was indeed a picturesque and breathtaking scene of nature's redemption.",
+                "translation": "Gerçekten de doğanın arınışını gösteren tablo gibi nefes kesici bir manzaraydı.",
+                "notes": "Sayfa 7 | 'picturesque': resmedilmeye değer; 'redemption': kurtuluş, arınma."
+            },
+            {
+                "id": 123,
+                "text": "Only in one isolated corner of the huge garden was it still freezing winter.",
+                "translation": "Yalnızca o koca bahçenin kuytuda kalmış tek bir köşesinde hâlâ dondurucu kış vardı.",
+                "notes": "Sayfa 7 | 'isolated corner': kuytu/yalıtılmış köşe; 'freezing winter': dondurucu kış."
+            },
+            {
+                "id": 124,
+                "text": "It was the farthest, most secluded corner, hidden behind thick overgrown bushes.",
+                "translation": "Sık ve yabani çalıların ardında gizlenmiş, en uzak ve en ıssız köşeydi.",
+                "notes": "Sayfa 7 | 'secluded': gözden uzak, ıssız; 'overgrown bushes': sarıp bürümüş çalılar."
+            },
+            {
+                "id": 125,
+                "text": "In that cold shadow stood a tiny little boy, all alone in the world.",
+                "translation": "O soğuk gölgede, dünyada yapayalnız kalmış minicik bir erkek çocuğu duruyordu.",
+                "notes": "Sayfa 7 | 'all alone': yapayalnız; 'tiny little boy': küçücük oğlan çocuğu."
+            },
+            {
+                "id": 126,
+                "text": "He was so small and frail that he could not reach up to the tree's lowest branches.",
+                "translation": "Öyle küçük ve çelimsizdi ki ağacın en alttaki dallarına bile boyu yetmiyordu.",
+                "notes": "Sayfa 7 | 'frail': narin ve çelimsiz; 'reach up to': -e boyu uzanmak/erişmek."
+            },
+            {
+                "id": 127,
+                "text": "He was wandering desperately round the trunk, crying bitterly with broken sobs.",
+                "translation": "Gövdenin etrafında çaresizce dönüp duruyor, hıçkırıklarla acı acı ağlıyordu.",
+                "notes": "Sayfa 7 | 'wandering desperately': çaresizce dönüp durmak; 'crying bitterly': acı acı ağlamak."
+            },
+            {
+                "id": 128,
+                "text": "His bare little feet were buried in thick white snow that still covered the soil.",
+                "translation": "Çıplak minik ayakları toprağı hâlâ örten kalın beyaz kara gömülüydü.",
+                "notes": "Sayfa 7 | 'buried in': -e gömülmüş; 'covered the soil': toprağı örten."
+            },
+            {
+                "id": 129,
+                "text": "The poor lonely tree was still covered completely with white frost and icy snow.",
+                "translation": "O zavallı yalnız ağaç hâlâ bütünüyle beyaz kırağı ve buzlu karla kaplıydı.",
+                "notes": "Sayfa 7 | 'lonely tree': kimsesiz ağaç; 'covered completely': büsbütün kaplı."
+            },
+            {
+                "id": 130,
+                "text": "The cruel North Wind was still blowing and roaring fiercely through its upper limbs.",
+                "translation": "Zalim Kuzey Rüzgârı onun üst dallarında hâlâ şiddetle esip kükrüyordu.",
+                "notes": "Sayfa 7 | 'upper limbs': ağacın üst kolları/dalları; 'roaring fiercely': öfkeyle kükremek."
+            },
+            {
+                "id": 131,
+                "text": "\"Climb up, little boy!\" encouraged the tree, bending its branches down as low as it could.",
+                "translation": "Ağaç dallarını eğebildiği kadar aşağı eğerek \"Yukarı tırman küçük çocuk!\" diye yüreklendirdi.",
+                "notes": "Sayfa 7 | 'encouraged': cesaretlendirdi; 'bending down': aşağı doğru bükülmek."
+            },
+            {
+                "id": 132,
+                "text": "It tried with all its might to offer a helping limb to the weeping child.",
+                "translation": "Ağlayan çocuğa yardım eli uzatabilmek için var gücüyle çabaladı.",
+                "notes": "Sayfa 7 | 'with all its might': olanca gücüyle; 'offer a helping limb': dalını uzatıp yardım etmek."
+            },
+            {
+                "id": 133,
+                "text": "But the boy was far too tiny, and his little hands could not grasp the bark.",
+                "translation": "Fakat çocuk çok fazla küçüktü ve minik elleri ağaç kabuğunu kavrayamıyordu.",
+                "notes": "Sayfa 7 | 'grasp the bark': ağaç kabuğunu kavramak; 'far too tiny': haddinden fazla minik."
+            },
+            {
+                "id": 134,
+                "text": "As the Giant watched this heartbreaking scene, his hard heart suddenly melted inside him.",
+                "translation": "Dev bu yürek parçalayıcı sahneyi izlerken içindeki o taş kalp ansızın eriyiverdi.",
+                "notes": "Sayfa 7 | 'heartbreaking scene': yürek burkan manzara; 'heart melted': kalbi yumuşayıp eridi."
+            },
+            {
+                "id": 135,
+                "text": "\"How selfish I have been all these years!\" he cried out with genuine remorse.",
+                "translation": "Gerçek bir pişmanlıkla \"Bütün bu yıllar boyunca ne kadar bencilmişim meğer!\" diye haykırdı.",
+                "notes": "Sayfa 7 | 'genuine remorse': samimi pişmanlık; 'How selfish I have been!': ne bencilmişim meğer."
+            },
+            {
+                "id": 136,
+                "text": "\"Now I finally understand why the beautiful Spring refused to enter my garden.\"",
+                "translation": "\"Artık o güzel Bahar'ın bahçeme neden girmeyi reddettiğini nihayet anlıyorum.\"",
+                "notes": "Sayfa 7 | 'refused to enter': girmeyi reddetti; 'finally understand': nihayet anlamak."
+            },
+            {
+                "id": 137,
+                "text": "\"It was my own cold selfishness that locked out the warmth and the flowers.\"",
+                "translation": "\"Sıcaklığı ve çiçekleri dışarıda kilitleyen şey bizzat benim kendi soğuk bencilliğimdi.\"",
+                "notes": "Sayfa 7 | 'locked out': dışarıda kilitleyip mahrum bırakmak; 'cold selfishness': soğuk hodbinlik."
+            },
+            {
+                "id": 138,
+                "text": "\"I will go down and put that poor little weeping boy into the top of the tree.\"",
+                "translation": "\"Aşağı ineceğim ve o zavallı ağlayan minik çocuğu ağacın tepesine yerleştireceğim.\"",
+                "notes": "Sayfa 7 | 'put into the top': tepesine yerleştirmek; 'weeping boy': ağlayan çocuk."
+            },
+            {
+                "id": 139,
+                "text": "\"Then I will take my heavy iron axe and knock down that cruel boundary wall forever.\"",
+                "translation": "\"Sonra da ağır demir baltamı alıp o zalim çevre duvarını sonsuza dek yerle bir edeceğim.\"",
+                "notes": "Sayfa 7 | 'iron axe': demir balta; 'knock down': yıkıp devirmek."
+            },
+            {
+                "id": 140,
+                "text": "\"My garden shall be the children's playground for ever and ever!\"",
+                "translation": "\"Benim bahçem ebediyen çocukların oyun alanı olacaktır!\"",
+                "notes": "Sayfa 7 | 'for ever and ever': ebediyen, kıyamete dek; 'playground': oyun alanı."
+            }
+        ]
+    },
+
+    # ----------------------------------------------------
+    # SAYFA 8 (Sentences 141 - 160)
+    # ----------------------------------------------------
+    {
+        "page_no": 8,
+        "title": "The Song of the Little Linnet",
+        "tr_title": "Pişmanlık ve Usulca Bahçeye İniş",
+        "vocab_focus": [
+            ("Crept downstairs", "Merdivenlerden parmak ucunda inmek"),
+            ("Front door", "Şatonun ana giriş kapısı"),
+            ("Softly and quietly", "Yumuşacık ve sessizce"),
+            ("Fled in panic", "Panik içinde kaçışmak"),
+            ("Eyes were filled with tears", "Gözleri yaşlarla dolmuştu"),
+            ("Approaching", "Yaklaşmakta olan"),
+            ("Stole up behind", "Arkasından sessizce sokulmak"),
+            ("Took gently in hand", "Nazikçe avucuna / eline almak"),
+        ],
+        "sentences": [
+            {
+                "id": 141,
+                "text": "He was truly very sorry for what he had done in his foolish anger.",
+                "translation": "Ahmakça öfkesi yüzünden yapmış olduğu her şeyden sahiden çok pişmandı.",
+                "notes": "Sayfa 8 | 'truly sorry': candan pişman; 'foolish anger': ahmakça hiddet."
+            },
+            {
+                "id": 142,
+                "text": "So he crept downstairs as softly as he could, not wanting to frighten anyone.",
+                "translation": "Böylece kimseyi ürkütmek istemeyerek elinden geldiğince sessizce merdivenlerden indi.",
+                "notes": "Sayfa 8 | 'crept downstairs': merdivenlerden usulca indi; 'frighten': korkutmak."
+            },
+            {
+                "id": 143,
+                "text": "He unbolted the massive front door and opened it very gently on its hinges.",
+                "translation": "O devasa ana giriş kapısının sürgüsünü çekti ve menteşeleri üzerinde pek nazikçe açtı.",
+                "notes": "Sayfa 8 | 'unbolted': sürgüyü açtı; 'hinges': kapı menteşeleri."
+            },
+            {
+                "id": 144,
+                "text": "He stepped out quietly into the sunlit garden with careful, deliberate footsteps.",
+                "translation": "Güneşin aydınlattığı bahçeye temkinli ve yavaş adımlarla sessizce çıktı.",
+                "notes": "Sayfa 8 | 'deliberate footsteps': ölçülü ve yavaş adımlar; 'sunlit': güneş alan."
+            },
+            {
+                "id": 145,
+                "text": "But when the other playing children suddenly saw him, they were terrified.",
+                "translation": "Fakat oynayan diğer çocuklar onu birdenbire görünce dehşete kapıldılar.",
+                "notes": "Sayfa 8 | 'terrified': dehşete düşmüş; 'playing children': oynayan çocuklar."
+            },
+            {
+                "id": 146,
+                "text": "They thought that he had come to punish them and take away their happiness.",
+                "translation": "Onları cezalandırmak ve mutluluklarını ellerinden almak için geldiğini sandılar.",
+                "notes": "Sayfa 8 | 'punish': cezalandırmak; 'take away': çekip almak."
+            },
+            {
+                "id": 147,
+                "text": "They all screamed in panic and ran away toward the hole in the wall.",
+                "translation": "Hepsi panik içinde çığlık attı ve duvardaki deliğe doğru kaçıştılar.",
+                "notes": "Sayfa 8 | 'screamed in panic': panikle çığlık attı; 'ran away': kaçıştı."
+            },
+            {
+                "id": 148,
+                "text": "The moment the children fled, the winter returned instantly to the blooming trees.",
+                "translation": "Çocuklar kaçtığı anda kış mevsimi çiçek açan ağaçlara anında geri döndü.",
+                "notes": "Sayfa 8 | 'the moment...': -dığı anda; 'fled': flee (kaçmak) fiilinin 2. hali."
+            },
+            {
+                "id": 149,
+                "text": "The pink blossoms withered and fell, and the cold frost reclaimed the grass.",
+                "translation": "Pembe çiçekler solup döküldü ve soğuk kırağı çimenleri yeniden ele geçirdi.",
+                "notes": "Sayfa 8 | 'withered and fell': solup döküldü; 'reclaimed': geri aldı/sahiplendi."
+            },
+            {
+                "id": 150,
+                "text": "Only the tiny little boy in the corner did not run away with the others.",
+                "translation": "Yalnızca köşedeki o minicik çocuk diğerleriyle birlikte kaçmadı.",
+                "notes": "Sayfa 8 | 'did not run away': kaçıp gitmedi; 'in the corner': köşedeki."
+            },
+            {
+                "id": 151,
+                "text": "His eyes were so full of tears that he had not seen the Giant approaching.",
+                "translation": "Gözleri yaşlarla öyle doluydu ki Dev'in yaklaşmakta olduğunu görmemişti.",
+                "notes": "Sayfa 8 | 'full of tears': yaşlarla dolu; 'approaching': yaklaşan."
+            },
+            {
+                "id": 152,
+                "text": "He was still crying out in distress, trying vainly to reach the high branches.",
+                "translation": "Hâlâ ıstırapla feryat ediyor, nafile yere yüksek dallara erişmeye çabalıyordu.",
+                "notes": "Sayfa 8 | 'in distress': ıstırap içinde; 'trying vainly': boş yere çabalayarak."
+            },
+            {
+                "id": 153,
+                "text": "The Giant stole up softly behind him on tiptoe so as not to startle him.",
+                "translation": "Dev onu ürkütmemek için parmak uçlarına basarak arkasından usulca sokuldu.",
+                "notes": "Sayfa 8 | 'stole up behind': arkasından sessizce sokulmak; 'on tiptoe': ayak parmak ucunda."
+            },
+            {
+                "id": 154,
+                "text": "He knelt down on the snowy ground and looked at the weeping little angel.",
+                "translation": "Karlı toprağın üzerine diz çöktü ve ağlayan o küçük meleğe baktı.",
+                "notes": "Sayfa 8 | 'knelt down': diz çöktü (kneel fiilinin 2. hali); 'snowy ground': karlı zemin."
+            },
+            {
+                "id": 155,
+                "text": "He took the trembling child gently in his massive, rough, calloused hands.",
+                "translation": "Titreyen çocuğu o devasa, pürüzlü ve nasırlı elleriyle şefkatle kavradı.",
+                "notes": "Sayfa 8 | 'calloused hands': nasırlı eller; 'trembling child': titreyen çocuk."
+            },
+            {
+                "id": 156,
+                "text": "He handled him with extraordinary delicacy, as if he were a precious flower.",
+                "translation": "Ona sanki paha biçilmez bir çiçekmiş gibi olağanüstü bir incelikle muamele etti.",
+                "notes": "Sayfa 8 | 'as if he were...': sanki ... imiş gibi (varsayım kipi); 'extraordinary delicacy': fevkalade incelik."
+            },
+            {
+                "id": 157,
+                "text": "He lifted the little boy up high into the air with a warm and loving smile.",
+                "translation": "Sıcak ve sevgi dolu bir gülümsemeyle küçük çocuğu havaya doğru yukarı kaldırdı.",
+                "notes": "Sayfa 8 | 'lifted up high': yükseğe kaldırdı; 'loving smile': sevgi dolu tebessüm."
+            },
+            {
+                "id": 158,
+                "text": "He placed him tenderly right into the highest fork of the frosty tree.",
+                "translation": "Onu don tutmuş ağacın en yüksek çatalına şefkatle yerleştirdi.",
+                "notes": "Sayfa 8 | 'highest fork': en yüksek dal çatallanması; 'tenderly': şefkatle."
+            },
+            {
+                "id": 159,
+                "text": "And at that miraculous touch, the tree burst at once into glorious white blossoms.",
+                "translation": "Ve o mucizevi dokunuşla birlikte ağaç bir anda görkemli beyaz çiçeklere büründü.",
+                "notes": "Sayfa 8 | 'miraculous touch': mucizevi dokunuş; 'glorious blossoms': göz alıcı çiçekler."
+            },
+            {
+                "id": 160,
+                "text": "The icy snow fell away from the wood, and the bitter frost vanished in an instant.",
+                "translation": "Buzlu kar gövdeden dökülüp gitti ve keskin ayaz bir anda sırra kadem bastı.",
+                "notes": "Sayfa 8 | 'fell away': dökülüp ayrıldı; 'vanished in an instant': bir göz açıp kapayıncaya dek yok oldu."
+            }
+        ]
+    },
+
+    # ----------------------------------------------------
+    # SAYFA 9 (Sentences 161 - 180)
+    # ----------------------------------------------------
+    {
+        "page_no": 9,
+        "title": "The Children's Secret Return Through the Wall",
+        "tr_title": "Çocuğun Öpücüğü ve Baharın Dönüşü",
+        "vocab_focus": [
+            ("Sang merrily", "Neşeyle şakımak"),
+            ("Stretched out two arms", "İki kolunu açıp uzatmak"),
+            ("Kissed the giant", "Devi öpmek"),
+            ("Flung round his neck", "Boynuna sarılmak"),
+            ("No longer wicked", "Artık kötü niyetli / hain olmamak"),
+            ("Came running back", "Koşarak geri gelmek"),
+            ("Along with them", "Onlarla birlikte"),
+            ("Great axe", "Büyük balta"),
+        ],
+        "sentences": [
+            {
+                "id": 161,
+                "text": "The wild birds came flying from all directions and sang sweetly upon the branches.",
+                "translation": "Yabani kuşlar her yönden uçuşup geldiler ve dalların üzerinde tatlı tatlı şakıdılar.",
+                "notes": "Sayfa 9 | 'from all directions': her yönden; 'sang sweetly': tatlı tatlı öttü."
+            },
+            {
+                "id": 162,
+                "text": "The little boy wiped away his tears and looked directly into the Giant's eyes.",
+                "translation": "Küçük çocuk gözyaşlarını sildi ve dosdoğru Dev'in gözlerinin içine baktı.",
+                "notes": "Sayfa 9 | 'wiped away': silip temizledi; 'directly into': dosdoğru içine."
+            },
+            {
+                "id": 163,
+                "text": "He stretched out his two tiny arms and flung them around the Giant's neck.",
+                "translation": "İki minik kolunu uzattı ve kollarını Dev'in boynuna sımsıkı doladı.",
+                "notes": "Sayfa 9 | 'stretched out': uzattı; 'flung around his neck': boynuna sarıldı."
+            },
+            {
+                "id": 164,
+                "text": "He planted a warm, pure, and loving kiss right upon the Giant's rough cheek.",
+                "translation": "Dev'in pürüzlü yanağına sıcacık, tertemiz ve sevgi dolu bir öpücük kondurdu.",
+                "notes": "Sayfa 9 | 'planted a kiss': öpücük kondurmak; 'rough cheek': kaba yanak."
+            },
+            {
+                "id": 165,
+                "text": "A thrill of pure happiness shot straight through the Giant's transformed heart.",
+                "translation": "Dev'in değişen kalbinden dosdoğru saf bir mutluluk ürpertisi geçti.",
+                "notes": "Sayfa 9 | 'thrill of happiness': sevinç ürpertisi; 'transformed heart': dönüşmüş kalp."
+            },
+            {
+                "id": 166,
+                "text": "The other children, seeing from afar that the Giant did not harm the boy, stopped running.",
+                "translation": "Dev'in çocuğa zarar vermediğini uzaktan gören diğer çocuklar koşmayı bıraktılar.",
+                "notes": "Sayfa 9 | 'seeing from afar': uzaktan görerek; 'did not harm': zarar vermedi."
+            },
+            {
+                "id": 167,
+                "text": "They realized that the fierce monster had become gentle, kind, and loving.",
+                "translation": "O hırçın canavarın nazik, şefkatli ve sevgi dolu birine dönüştüğünü anladılar.",
+                "notes": "Sayfa 9 | 'fierce monster': hırçın canavar; 'realized': farkına vardı."
+            },
+            {
+                "id": 168,
+                "text": "\"The Giant is not wicked anymore!\" they shouted joyfully across the fields.",
+                "translation": "Kırlara doğru sevinçle \"Dev artık kötü kalpli değil!\" diye haykırdılar.",
+                "notes": "Sayfa 9 | 'wicked': fena kalpli, kötücül; 'shouted joyfully': sevinçle bağırdılar."
+            },
+            {
+                "id": 169,
+                "text": "They came running back as fast as their legs could carry them through the hole.",
+                "translation": "Bacaklarının taşıyabildiği olanca süratle delikten içeri geri koştular.",
+                "notes": "Sayfa 9 | 'as fast as legs could carry': var gücüyle koşmak."
+            },
+            {
+                "id": 170,
+                "text": "And along with the returning children, the golden Spring came flooding back into the garden.",
+                "translation": "Ve geri dönen çocuklarla birlikte, o altın Bahar da sel gibi bahçeye geri doldu.",
+                "notes": "Sayfa 9 | 'flooding back': sel gibi geri dolmak; 'along with': ile birlikte."
+            },
+            {
+                "id": 171,
+                "text": "The grass turned instantly lush green, and hundreds of flowers burst open in colour.",
+                "translation": "Çimler anında yemyeşil oldu ve yüzlerce çiçek rengârenk açılıverdi.",
+                "notes": "Sayfa 9 | 'lush green': gür ve zümrüt yeşili; 'burst open': patlayıp açılmak."
+            },
+            {
+                "id": 172,
+                "text": "\"It is your garden now, little children,\" said the Giant with a humble smile.",
+                "translation": "Dev alçakgönüllü bir tebessümle \"Artık burası sizin bahçenizdir küçük çocuklar,\" dedi.",
+                "notes": "Sayfa 9 | 'humble smile': mütevazı tebessüm; 'your garden': sizin bahçeniz."
+            },
+            {
+                "id": 173,
+                "text": "He marched over to the castle shed and brought out a massive iron axe.",
+                "translation": "Şatonun sundurmasına doğru yürüdü ve devasa bir demir balta getirdi.",
+                "notes": "Sayfa 9 | 'marched over': kararlı adımlarla yürümek; 'shed': sundurma/ardiye."
+            },
+            {
+                "id": 174,
+                "text": "He swung the heavy tool with all his immense strength against the stone wall.",
+                "translation": "O ağır aleti muazzam gücüyle taş duvara doğru savurdu.",
+                "notes": "Sayfa 9 | 'swung': salladı/savurdu (swing fiili); 'immense strength': muazzam kuvvet."
+            },
+            {
+                "id": 175,
+                "text": "With mighty crashes, the high grey wall crumbled down into piles of rubble.",
+                "translation": "Büyük gürültülerle o yüksek gri sur yıkıldı ve moloz yığınlarına dönüştü.",
+                "notes": "Sayfa 9 | 'mighty crashes': şiddetli gürültüler; 'piles of rubble': moloz yığınları."
+            },
+            {
+                "id": 176,
+                "text": "He smashed the boundary all the way around the entire perimeter of the grounds.",
+                "translation": "Arazinin bütün çevresi boyunca o engel duvarını baştan başa yerle bir etti.",
+                "notes": "Sayfa 9 | 'smashed the boundary': sınırı yerle bir etti; 'all the way around': çepeçevre."
+            },
+            {
+                "id": 177,
+                "text": "He pulled down the hateful wooden notice-board and threw it into the fireplace.",
+                "translation": "O nefret dolu ahşap uyarı levhasını söküp indirdi ve şömineye fırlattı.",
+                "notes": "Sayfa 9 | 'hateful': nefret uyandıran; 'pulled down': yerinden söküp indirmek."
+            },
+            {
+                "id": 178,
+                "text": "At twelve o'clock, the local people were walking along the road toward the marketplace.",
+                "translation": "Saat on ikide yöre halkı yol boyunca pazar yerine doğru yürümekteydi.",
+                "notes": "Sayfa 9 | 'marketplace': çarşı/pazar yeri; 'local people': kasaba halkı."
+            },
+            {
+                "id": 179,
+                "text": "They stopped dead in their tracks, rubbing their eyes in utter astonishment.",
+                "translation": "Tam bir şaşkınlık içinde gözlerini ovuşturarak oldukları yerde çakılıp kaldılar.",
+                "notes": "Sayfa 9 | 'stopped dead in tracks': olduğu yerde donakalmak; 'utter astonishment': tam bir şaşkınlık."
+            },
+            {
+                "id": 180,
+                "text": "They saw the great Giant playing gently with the children in the loveliest garden imaginable.",
+                "translation": "Koca Dev'in, hayal edilebilecek en güzel bahçede çocuklarla usul usul oyun oynadığını gördüler.",
+                "notes": "Sayfa 9 | 'playing gently': şefkatle oynamak; 'loveliest garden': en sevimli bahçe."
+            }
+        ]
+    },
+
+    # ----------------------------------------------------
+    # SAYFA 10 (Sentences 181 - 200)
+    # ----------------------------------------------------
+    {
+        "page_no": 10,
+        "title": "The Weeping Little Boy in the Cold Corner",
+        "tr_title": "Oyun Dolu Akşamlar ve Kayıp Minik Dost",
+        "vocab_focus": [
+            ("All day long", "Bütün gün boyunca"),
+            ("Bid good-bye", "Vedalaşmak"),
+            ("Little companion", "Minik yol arkadaşı"),
+            ("Kissed him", "Onu öpen (çocuk)"),
+            ("Loved best", "En çok sevdiği"),
+            ("Disappeared", "Ortadan kayboldu"),
+            ("Nowhere to be found", "Hiçbir yerde bulunamayan"),
+            ("Grew very sad", "Pek kederlendi"),
+        ],
+        "sentences": [
+            {
+                "id": 181,
+                "text": "All day long the children ran and laughed, exploring every corner of the vast paradise.",
+                "translation": "Bütün gün boyunca çocuklar koşup güldüler, o uçsuz bucaksız cennetin her köşesini keşfettiler.",
+                "notes": "Sayfa 10 | 'all day long': gün boyunca; 'exploring': keşfederek."
+            },
+            {
+                "id": 182,
+                "text": "The Giant helped them build treehouses and swing from the sturdy oak branches.",
+                "translation": "Dev ağaç evler kurmalarına ve sağlam meşe dallarında sallanmalarına yardım etti.",
+                "notes": "Sayfa 10 | 'treehouses': ağaç evler; 'sturdy branches': sağlam dallar."
+            },
+            {
+                "id": 183,
+                "text": "When twilight arrived, they came to the Giant to bid him a fond good-bye.",
+                "translation": "Alacakaranlık çöktüğünde ona sevgiyle veda etmek üzere Dev'in yanına geldiler.",
+                "notes": "Sayfa 10 | 'twilight': alacakaranlık; 'bid a fond good-bye': sevgiyle vedalaşmak."
+            },
+            {
+                "id": 184,
+                "text": "\"Where is your little companion?\" asked the Giant, looking around anxiously.",
+                "translation": "Dev endişeyle etrafına bakınarak \"O minik yol arkadaşınız nerede?\" diye sordu.",
+                "notes": "Sayfa 10 | 'little companion': küçük yoldaş; 'looking around anxiously': endişeyle bakınmak."
+            },
+            {
+                "id": 185,
+                "text": "\"I mean the dear boy whom I placed into the top of the blossoming tree.\"",
+                "translation": "\"Çiçek açan ağacın tepesine koyduğum o sevgili oğlanı kastediyorum.\"",
+                "notes": "Sayfa 10 | 'whom I placed': yerleştirdiğim (ilgi zamiri); 'dear boy': sevgili çocuk."
+            },
+            {
+                "id": 186,
+                "text": "The Giant loved him the best of all because the boy had kissed him on the cheek.",
+                "translation": "Dev onu hepsinden çok sevmişti, çünkü o çocuk kendisini yanağından öpmüştü.",
+                "notes": "Sayfa 10 | 'loved the best of all': hepsinden çok sevmek; 'on the cheek': yanağından."
+            },
+            {
+                "id": 187,
+                "text": "\"We do not know where he lives,\" answered the children with puzzled expressions.",
+                "translation": "Çocuklar şaşkın yüz ifadeleriyle \"Nerede yaşadığını bilmiyoruz,\" diye yanıtladılar.",
+                "notes": "Sayfa 10 | 'puzzled expressions': afallamış/şaşkın yüz ifadeleri."
+            },
+            {
+                "id": 188,
+                "text": "\"We have never seen him before today in our lives, and he has gone away.\"",
+                "translation": "\"Bugünden önce hayatımızda onu hiç görmemiştik ve o çekip gitti.\"",
+                "notes": "Sayfa 10 | 'never seen before': daha önce hiç görmemiş; 'gone away': uzaklaşmış."
+            },
+            {
+                "id": 189,
+                "text": "The Giant felt very sad, and a shadow of deep disappointment crossed his face.",
+                "translation": "Dev pek kederlendi ve yüzünden derin bir hayal kırıklığı gölgesi geçti.",
+                "notes": "Sayfa 10 | 'shadow crossed face': yüzünden bir gölge geçti; 'disappointment': hüsran."
+            },
+            {
+                "id": 190,
+                "text": "\"You must tell him to be sure and come here tomorrow afternoon without fail,\"",
+                "translation": "\"Ona yarın öğleden sonra mutlaka ama mutlaka buraya gelmesini söylemelisiniz,\"",
+                "notes": "Sayfa 10 | 'without fail': şaşmaksızın/kesinlikle; 'be sure and come': muhakkak gel."
+            },
+            {
+                "id": 191,
+                "text": "The Giant pleaded with them, hoping to see his special little friend once more.",
+                "translation": "Dev, o özel minik dostunu bir kez daha görme ümidiyle çocuklara yalvardı.",
+                "notes": "Sayfa 10 | 'pleaded with': -e yalvardı; 'once more': bir kez daha."
+            },
+            {
+                "id": 192,
+                "text": "But the children replied that they did not know where he stayed and had no way to find him.",
+                "translation": "Fakat çocuklar nerede kaldığını bilmediklerini ve onu bulmalarının imkânı olmadığını belirttiler.",
+                "notes": "Sayfa 10 | 'no way to find': bulmanın hiçbir yolu yok; 'replied': cevap verdiler."
+            },
+            {
+                "id": 193,
+                "text": "The Giant sighed heavily and watched the children run home through the dusk.",
+                "translation": "Dev derin bir iç çekti ve çocukların alacakaranlıkta eve koşuşlarını izledi.",
+                "notes": "Sayfa 10 | 'sighed heavily': derinden iç çekti; 'through the dusk': akşam kızıllığında."
+            },
+            {
+                "id": 194,
+                "text": "Every single afternoon, when school was over, the children came to the garden.",
+                "translation": "Okul bittiğinde istisnasız her öğleden sonra çocuklar bahçeye geldiler.",
+                "notes": "Sayfa 10 | 'every single afternoon': her bir ikindi vakti; 'when school was over': okul dağıldığında."
+            },
+            {
+                "id": 195,
+                "text": "They played with the kind Giant, who taught them games and shared his fruit.",
+                "translation": "Kendilerine oyunlar öğreten ve meyvelerini paylaşan bu nazik Dev ile neşeyle oynadılar.",
+                "notes": "Sayfa 10 | 'shared his fruit': meyvelerini paylaştı; 'taught games': oyunlar öğretti."
+            },
+            {
+                "id": 196,
+                "text": "But the little boy whom the Giant loved was never seen again in the garden.",
+                "translation": "Ne var ki Dev'in çok sevdiği o küçük çocuk bahçede bir daha hiç görünmedi.",
+                "notes": "Sayfa 10 | 'never seen again': bir daha hiç görülmedi (edilgen yapı)."
+            },
+            {
+                "id": 197,
+                "text": "The Giant was always kind to all the children who visited his estate.",
+                "translation": "Dev, arazisini ziyaret eden bütün çocuklara karşı daima pek şefkatliydi.",
+                "notes": "Sayfa 10 | 'estate': mülk/arazi; 'always kind': her daim nazik."
+            },
+            {
+                "id": 198,
+                "text": "Yet he longed desperately for his first little friend and missed him deeply.",
+                "translation": "Yine de o ilk küçük dostunu delicesine arzuluyor ve onu derinden özlüyordu.",
+                "notes": "Sayfa 10 | 'longed desperately': canı gönülden hasret çekmek; 'missed deeply': derinden özledi."
+            },
+            {
+                "id": 199,
+                "text": "\"How I would love to see him again!\" he often said to himself wistfully.",
+                "translation": "Kendi kendine sık sık hüzünle \"Onu yeniden görmeyi ne kadar da çok isterdim!\" derdi.",
+                "notes": "Sayfa 10 | 'wistfully': hüzünlü ve hasret dolu bir edayla; 'How I would love...': ne çok isterdim."
+            },
+            {
+                "id": 200,
+                "text": "He wondered whether the child had forgotten his warmth, his garden, and his embrace.",
+                "translation": "Çocuğun onun sıcaklığını, bahçesini ve kucaklayışını unutup unutmadığını merak ederdi.",
+                "notes": "Sayfa 10 | 'wondered whether...': -ıp -madığını merak etti; 'embrace': kucaklama."
+            }
+        ]
+    },
+
+    # ----------------------------------------------------
+    # SAYFA 11 (Sentences 201 - 220)
+    # ----------------------------------------------------
+    {
+        "page_no": 11,
+        "title": "The Giant's Repentance and the Soft Heart",
+        "tr_title": "Geçen Yıllar, Yaşlılık ve En Güzel Çiçekler",
+        "vocab_focus": [
+            ("Years rolled on", "Yıllar akıp geçti"),
+            ("Old and feeble", "Yaşlı ve güçten düşmüş"),
+            ("Huge armchair", "Kocaman koltuk"),
+            ("Watch the children", "Çocukları seyretmek"),
+            ("Admire his flowers", "Çiçeklerine hayran kalmak"),
+            ("Loveliest flowers of all", "Hepsinden daha güzel çiçekler"),
+            ("Winter morning", "Kış sabahı"),
+            ("As he was dressing", "Giyindiği sırada"),
+        ],
+        "sentences": [
+            {
+                "id": 201,
+                "text": "Years rolled on, and the seasons followed their natural circular rhythm in peace.",
+                "translation": "Yıllar akıp geçti ve mevsimler kendi doğal döngüsel ahengini huzurla izledi.",
+                "notes": "Sayfa 11 | 'years rolled on': yıllar akıp geçti deyimi; 'in peace': huzur içinde."
+            },
+            {
+                "id": 202,
+                "text": "The Giant grew very old, frail, and feeble as grey hair covered his head.",
+                "translation": "Gri saçlar başını kaplarken Dev çok yaşlandı, zayıfladı ve takatten düştü.",
+                "notes": "Sayfa 11 | 'frail and feeble': dermansız ve mecalsiz; 'covered his head': başını örttü."
+            },
+            {
+                "id": 203,
+                "text": "He could no longer run around the lawns or play active games with the youths.",
+                "translation": "Artık çimenliklerde koşturamıyor ya da gençlerle hareketli oyunlar oynayamıyordu.",
+                "notes": "Sayfa 11 | 'could no longer': artık yapamazdı; 'active games': hareketli oyunlar."
+            },
+            {
+                "id": 204,
+                "text": "So he sat in a huge, comfortable leather armchair by the sunny terrace.",
+                "translation": "Böylece güneşli terasın yanında kocaman, rahat deri bir koltukta oturdu.",
+                "notes": "Sayfa 11 | 'leather armchair': deri koltuk; 'sunny terrace': güneşli teras."
+            },
+            {
+                "id": 205,
+                "text": "He watched the children at their joyful games and smiled peacefully upon them.",
+                "translation": "Çocukları neşeli oyunlarında izledi ve onların üzerine huzurla gülümsedi.",
+                "notes": "Sayfa 11 | 'at their joyful games': neşeli oyunları başında; 'smiled peacefully': huzurla gülümsedi."
+            },
+            {
+                "id": 206,
+                "text": "He admired his colourful flowers that swayed gently in the summer breeze.",
+                "translation": "Yaz esintisinde tatlı tatlı salınan rengârenk çiçeklerine hayranlıkla baktı.",
+                "notes": "Sayfa 11 | 'swayed gently': usulca salındı; 'admired': hayranlıkla seyretti."
+            },
+            {
+                "id": 207,
+                "text": "\"I have many beautiful flowers blooming across my land,\" he would often say.",
+                "translation": "Sık sık \"Topraklarımda açan pek çok güzel çiçeğim var,\" derdi.",
+                "notes": "Sayfa 11 | 'blooming across land': topraklarda açan; 'would say': söylerdi (geçmiş alışkanlık)."
+            },
+            {
+                "id": 208,
+                "text": "\"But the children are the most beautiful, precious flowers of all in existence.\"",
+                "translation": "\"Fakat çocuklar var olan her şeyin içindeki en güzel, en kıymetli çiçeklerdir.\"",
+                "notes": "Sayfa 11 | 'most precious of all': hepsinin en kıymetlisi; 'in existence': mevcudat içinde."
+            },
+            {
+                "id": 209,
+                "text": "He no longer hated the Winter season as he had done in his selfish youth.",
+                "translation": "Bencil gençlik yıllarında yaptığı gibi Kış mevsiminden artık nefret etmiyordu.",
+                "notes": "Sayfa 11 | 'no longer hated': artık nefret etmiyordu; 'selfish youth': bencil gençlik dönemi."
+            },
+            {
+                "id": 210,
+                "text": "He knew that Winter was merely the Spring asleep, resting beneath the earth.",
+                "translation": "Kışın yalnızca Bahar'ın toprağın altında uyuyup dinlenmesi olduğunu bilirdi.",
+                "notes": "Sayfa 11 | 'merely': yalnızca, sadece; 'asleep': uykuda."
+            },
+            {
+                "id": 211,
+                "text": "He knew that the tired flowers were simply taking their seasonal rest before rebirth.",
+                "translation": "Yorgun çiçeklerin yeniden doğmadan önce sadece mevsimlik uykularını aldıklarını bilirdi.",
+                "notes": "Sayfa 11 | 'seasonal rest': mevsimlik istirahat; 'before rebirth': yeniden doğuş öncesinde."
+            },
+            {
+                "id": 212,
+                "text": "One winter morning, as he was dressing by his window, he glanced out into the garden.",
+                "translation": "Bir kış sabahı, penceresinin yanında giyinirken dışarıya bahçeye doğru bir göz attı.",
+                "notes": "Sayfa 11 | 'as he was dressing': giyindiği sırada; 'glanced out': dışarıya göz attı."
+            },
+            {
+                "id": 213,
+                "text": "He did not look out with anger or sorrow, for his heart was tranquil.",
+                "translation": "Dışarıya öfke veya kederle bakmadı, zira kalbi dingindi.",
+                "notes": "Sayfa 11 | 'tranquil': dingin, asude; 'did not look with anger': öfkeyle bakmadı."
+            },
+            {
+                "id": 214,
+                "text": "Suddenly, he rubbed his eyes in utter wonder and looked again and again.",
+                "translation": "Birdenbire büyük bir hayretle gözlerini ovuşturdu ve tekrar tekrar baktı.",
+                "notes": "Sayfa 11 | 'in utter wonder': sonsuz bir hayretle; 'again and again': defalarca."
+            },
+            {
+                "id": 215,
+                "text": "It certainly was a most marvellous and breathtaking sight that met his gaze.",
+                "translation": "Bakışlarıyla karşılaşan manzara kesinlikle fevkalade ve nefes kesici bir harikaydı.",
+                "notes": "Sayfa 11 | 'marvellous': harikulade; 'met his gaze': bakışlarıyla buluşan."
+            },
+            {
+                "id": 216,
+                "text": "In the farthest corner of the garden, one tree was quite covered with lovely white blossoms.",
+                "translation": "Bahçenin en uzak köşesinde, bir ağaç sevimli beyaz çiçeklerle baştan başa kaplanmıştı.",
+                "notes": "Sayfa 11 | 'quite covered with': ile dopdolu kaplı; 'farthest corner': en uzak köşe."
+            },
+            {
+                "id": 217,
+                "text": "Its branches were all made of pure, gleaming gold, shimmering in the dawn light.",
+                "translation": "Dalları saf ve ışıldayan altındandı; şafak vaktinin ışığında pırıl pırıl parıldıyordu.",
+                "notes": "Sayfa 11 | 'gleaming gold': parıldayan altın; 'dawn light': şafak aydınlığı."
+            },
+            {
+                "id": 218,
+                "text": "Silver fruit hung down richly from the golden boughs like celestial jewels.",
+                "translation": "Gümüş meyveler semavi mücevherler gibi o altın dallardan bereketle aşağı sarkıyordu.",
+                "notes": "Sayfa 11 | 'silver fruit': gümüş meyve; 'celestial jewels': semavi mücevherler."
+            },
+            {
+                "id": 219,
+                "text": "And underneath that magical tree stood the little boy he had loved so dearly.",
+                "translation": "Ve o büyülü ağacın altında, bir zamanlar öyle çok sevmiş olduğu o minik çocuk duruyordu.",
+                "notes": "Sayfa 11 | Devrik yapı ('And underneath stood the little boy...')."
+            },
+            {
+                "id": 220,
+                "text": "The child was smiling with infinite tenderness and looking up at the castle window.",
+                "translation": "Çocuk sonsuz bir şefkatle gülümsüyor ve şatonun penceresine doğru yukarı bakıyordu.",
+                "notes": "Sayfa 11 | 'infinite tenderness': sonsuz bir müşfiklik; 'looking up': yukarı bakmak."
+            }
+        ]
+    },
+
+    # ----------------------------------------------------
+    # SAYFA 12 (Sentences 221 - 240)
+    # ----------------------------------------------------
+    {
+        "page_no": 12,
+        "title": "Lifting the Boy into the Blossoming Tree",
+        "tr_title": "Aşağı Koşuş ve Ağacın Altındaki Karşılaşma",
+        "vocab_focus": [
+            ("Downstairs he ran", "Merdivenlerden aşağı koştu"),
+            ("Great joy", "Büyük bir sevinç"),
+            ("Hastened across", "Aceleyle karşıya geçti"),
+            ("Came quite close", "İyice yakınına geldi"),
+            ("Flushed with anger", "Öfkeden kıpkırmızı kesilmek"),
+            ("Prints of two nails", "İki çivinin izleri (stigmata)"),
+            ("Little palms", "Küçücük avuçlar"),
+            ("Little feet", "Küçücük ayaklar"),
+        ],
+        "sentences": [
+            {
+                "id": 221,
+                "text": "Downstairs the Giant ran in great joy, his heart beating with youthful excitement.",
+                "translation": "Gençlik heyecanıyla kalbi çarparak Dev büyük bir sevinçle merdivenlerden aşağı koştu.",
+                "notes": "Sayfa 12 | 'youthful excitement': gençlik heyecanı; 'great joy': büyük neşe."
+            },
+            {
+                "id": 222,
+                "text": "He forgot his old age, his aching bones, and his heavy, stiff joints.",
+                "translation": "Yaşlılığını, sızlayan kemiklerini ve kaskatı kesilmiş eklemlerini unuttu.",
+                "notes": "Sayfa 12 | 'aching bones': sızlayan kemikler; 'stiff joints': tutulmuş eklemler."
+            },
+            {
+                "id": 223,
+                "text": "He burst out through the terrace door and hastened swiftly across the snowy lawn.",
+                "translation": "Teras kapısından dışarı fırladı ve karlı çimenlik boyunca süratle seğirtti.",
+                "notes": "Sayfa 12 | 'hastened swiftly': hızla seğirtti; 'snowy lawn': karlı çimenlik."
+            },
+            {
+                "id": 224,
+                "text": "He ran straight toward the corner where the miraculous golden tree stood.",
+                "translation": "O mucizevi altın ağacın durduğu köşeye doğru dosdoğru koştu.",
+                "notes": "Sayfa 12 | 'miraculous tree': mucizevi ağaç; 'ran straight': dosdoğru koştu."
+            },
+            {
+                "id": 225,
+                "text": "And when he came quite close to the child, his face suddenly flushed with fierce anger.",
+                "translation": "Ve çocuğun iyice yakınına geldiğinde yüzü aniden şiddetli bir öfkeyle kızardı.",
+                "notes": "Sayfa 12 | 'flushed with anger': öfkeden al al olmak; 'quite close': epeyce yakın."
+            },
+            {
+                "id": 226,
+                "text": "His brow darkened with fury, and he clenched his giant fists tightly.",
+                "translation": "Kaşları öfkeyle çatıldı ve devasa yumruklarını sımsıkı sıktı.",
+                "notes": "Sayfa 12 | 'darkened with fury': hiddetle karardı; 'clenched fists': yumrukları sıkmak."
+            },
+            {
+                "id": 227,
+                "text": "\"Who hath dared to wound thee?\" cried the Giant in a terrible, booming voice.",
+                "translation": "Dev korkunç ve gümbürdeyen bir sesle \"Seni yaralamaya kim cüret etti?\" diye haykırdı.",
+                "notes": "Sayfa 12 | 'Who hath dared...': Arkaik İngilizce ('Who has dared to wound you?')."
+            },
+            {
+                "id": 228,
+                "text": "For on the palms of the child's two little hands were the distinct prints of two nails.",
+                "translation": "Zira çocuğun iki küçük elinin ayasında iki çivinin apaçık izleri vardı.",
+                "notes": "Sayfa 12 | 'prints of two nails': iki çivinin izleri (Hristiyan alegorisi/stigmata)."
+            },
+            {
+                "id": 229,
+                "text": "And on his two little bare feet were the bloody prints of two more nails.",
+                "translation": "Ve iki küçük çıplak ayağında ise iki çivinin daha kanlı izleri vardı.",
+                "notes": "Sayfa 12 | 'bloody prints': kanlı izler; 'bare feet': çıplak ayaklar."
+            },
+            {
+                "id": 230,
+                "text": "\"Who hath dared to wound thee?\" repeated the Giant, breathing heavily with rage.",
+                "translation": "Öfkeden kesik kesik soluyan Dev \"Sana zarar vermeye kim cüret etti?\" diye tekrarladı.",
+                "notes": "Sayfa 12 | 'breathing heavily': ağır ağır/hırıltıyla solumak; 'rage': hiddet."
+            },
+            {
+                "id": 231,
+                "text": "\"Tell me this instant, that I may take my biggest sword and slay him on the spot!\"",
+                "translation": "\"Hemen bu anda söyle bana ki en büyük kılıcımı alıp onu oracıkta geberteyim!\"",
+                "notes": "Sayfa 12 | 'slay on the spot': oracıkta katletmek/canını almak; 'that I may...': alabileyim diye."
+            },
+            {
+                "id": 232,
+                "text": "\"Nay!\" answered the child in a voice of heavenly peace and sweet tranquility.",
+                "translation": "Çocuk semavi bir huzur ve tatlı bir sükûnet dolu bir sesle \"Hayır!\" diye yanıtladı.",
+                "notes": "Sayfa 12 | 'Nay': arkaik hayır ('No'); 'heavenly peace': semavi huzur."
+            },
+            {
+                "id": 233,
+                "text": "\"Do not be angry, for these are the sacred wounds of Love.\"",
+                "translation": "\"Öfkelenme, çünkü bunlar Sevgi'nin kutsal yaralarıdır.\"",
+                "notes": "Sayfa 12 | 'sacred wounds of Love': Aşkın ve Sevginin kutsal yaraları (masalın ana teması)."
+            },
+            {
+                "id": 234,
+                "text": "The Giant stared at the radiant child, and a strange, holy awe fell upon him.",
+                "translation": "Dev o nur yüzlü çocuğa hayretle baktı ve üzerine tuhaf, mukaddes bir huşu çöktü.",
+                "notes": "Sayfa 12 | 'radiant': nurlu, ışıl ışıl; 'holy awe': kutsal huşu ve ürperti."
+            },
+            {
+                "id": 235,
+                "text": "His fierce anger vanished like mist before the sun, replaced by reverent devotion.",
+                "translation": "Hırçın öfkesi güneşin önündeki sis gibi kayboldu, yerini hürmetkâr bir teslimiyete bıraktı.",
+                "notes": "Sayfa 12 | 'reverent devotion': hürmet dolu bağlılık; 'vanished like mist': sis gibi dağıldı."
+            },
+            {
+                "id": 236,
+                "text": "\"Who art thou, my holy Lord?\" whispered the Giant, trembling in deep wonder.",
+                "translation": "Dev derin bir hayretle titreyerek \"Sen kimsin ey mukaddes Efendim?\" diye fısıldadı.",
+                "notes": "Sayfa 12 | 'Who art thou?': Arkaik 'Sen kimsin?' ('Who are you?')."
+            },
+            {
+                "id": 237,
+                "text": "He sank to his knees upon the snow before the shining little child.",
+                "translation": "Işık saçan o küçük çocuğun önünde karların üzerine dizlerinin üstüne çöktü.",
+                "notes": "Sayfa 12 | 'sank to his knees': dizlerinin üstüne çöktü; 'shining child': nur saçan çocuk."
+            },
+            {
+                "id": 238,
+                "text": "The child smiled upon the kneeling Giant with boundless grace and divine mercy.",
+                "translation": "Çocuk, önünde diz çöken Dev'e sonsuz bir lütuf ve ilahi bir merhametle gülümsedi.",
+                "notes": "Sayfa 12 | 'kneeling': diz çökmüş; 'boundless grace': sonsuz inayet/lütuf; 'divine mercy': ilahi rahmet."
+            },
+            {
+                "id": 239,
+                "text": "\"You let me play once in your beautiful earthly garden,\" said the child softly.",
+                "translation": "Çocuk usulca \"Bir keresinde senin bu güzel dünyevi bahçende oynamama izin vermiştin,\" dedi.",
+                "notes": "Sayfa 12 | 'earthly garden': dünyevi/fani bahçe; 'let me play': oynamama izin verdin."
+            },
+            {
+                "id": 240,
+                "text": "\"Today you shall come with me to my everlasting garden, which is Paradise.\"",
+                "translation": "\"Bugün ise sen benimle birlikte ebedi bahçeme, yani Cennet'e geleceksin.\"",
+                "notes": "Sayfa 12 | 'everlasting garden': ebedi bahçe; 'Paradise': Cennet/Firdevs."
+            }
+        ]
+    },
+
+    # ----------------------------------------------------
+    # SAYFA 13 (Sentences 241 - 260)
+    # ----------------------------------------------------
+    {
+        "page_no": 13,
+        "title": "Demolishing the Wall and the Joyful Playground",
+        "tr_title": "Çocukların Dönüşü ve Beyaz Çiçeklerle Örtülen Dev",
+        "vocab_focus": [
+            ("Ran in from school", "Okuldan içeri koşturmak"),
+            ("Lying dead", "Cansız yatarken"),
+            ("Covered with white blossoms", "Beyaz çiçeklerle örtülmüş"),
+            ("Fell upon the giant", "Devin üzerine döküldü"),
+            ("Peaceful face", "Huzurlu yüz"),
+            ("Beautiful death", "Güzel ve asude ölüm"),
+            ("Grief and tears", "Keder ve gözyaşları"),
+            ("Gentle soul", "Yumuşak ve temiz ruh"),
+        ],
+        "sentences": [
+            {
+                "id": 241,
+                "text": "And when the afternoon came, the school bell rang across the snowy village.",
+                "translation": "Ve öğleden sonra olduğunda okul zili karlı köyün dört bir yanında çaldı.",
+                "notes": "Sayfa 13 | 'school bell rang': okul zili çaldı; 'snowy village': karlı köy."
+            },
+            {
+                "id": 242,
+                "text": "The children put on their coats and ran happily as usual to the Giant's garden.",
+                "translation": "Çocuklar paltolarını giydiler ve her zamanki gibi neşeyle Dev'in bahçesine koştular.",
+                "notes": "Sayfa 13 | 'as usual': her zamanki gibi; 'put on coats': paltoları giymek."
+            },
+            {
+                "id": 243,
+                "text": "They expected to see their big friend waiting for them by the terrace steps.",
+                "translation": "Koca dostlarını teras basamaklarında kendilerini beklerken görmeyi umuyorlardı.",
+                "notes": "Sayfa 13 | 'expected to see': görmeyi umdular; 'terrace steps': teras merdivenleri."
+            },
+            {
+                "id": 244,
+                "text": "They ran through the open clearing, calling out his name with cheerful voices.",
+                "translation": "Neşeli seslerle onun adını haykırarak açık düzlükten içeri koştular.",
+                "notes": "Sayfa 13 | 'open clearing': açık düzlük/meydan; 'calling out': seslenerek."
+            },
+            {
+                "id": 245,
+                "text": "When they reached the corner of the garden, they found the Giant lying dead under the tree.",
+                "translation": "Bahçenin köşesine vardıklarında, Dev'i ağacın altında cansız yatarken buldular.",
+                "notes": "Sayfa 13 | 'lying dead': cansız yatarken; 'reached the corner': köşeye vardı."
+            },
+            {
+                "id": 246,
+                "text": "He lay quietly upon the grass, completely covered all over with white blossoms.",
+                "translation": "Tepeden tırnağa beyaz çiçeklerle büsbütün örtülü halde çimenlerin üzerinde huzurla yatıyordu.",
+                "notes": "Sayfa 13 | 'covered all over': baştan aşağı örtülü; 'quietly': sükûnetle."
+            },
+            {
+                "id": 247,
+                "text": "A serene and heavenly smile remained imprinted upon his peaceful face.",
+                "translation": "Huzur dolu yüzüne dingin ve semavi bir gülümseme kazınmış gibiydi.",
+                "notes": "Sayfa 13 | 'serene': dingin, asude; 'imprinted upon': üzerine mühürlenmiş/kazınmış."
+            },
+            {
+                "id": 248,
+                "text": "The golden tree above him shimmered with gentle light, dropping fragrant petals.",
+                "translation": "Üzerindeki o altın ağaç, mis kokulu taçyapraklar dökerek tatlı bir ışıkla parıldıyordu.",
+                "notes": "Sayfa 13 | 'fragrant petals': hoş kokulu taçyapraklar; 'shimmered': parıldadı."
+            },
+            {
+                "id": 249,
+                "text": "The children gathered around the fallen protector, their eyes wide with quiet awe.",
+                "translation": "Çocuklar yere serilmiş bu koruyucunun etrafında toplandılar, gözleri sessiz bir hürmetle açılmıştı.",
+                "notes": "Sayfa 13 | 'fallen protector': devrilen koruyucu; 'quiet awe': sessiz hürmet/huşu."
+            },
+            {
+                "id": 250,
+                "text": "They knelt softly in the grass and touched his large, cold, peaceful hands.",
+                "translation": "Çimenlerin üzerine usulca diz çöktüler ve onun koca, soğuk, huzurlu ellerine dokundular.",
+                "notes": "Sayfa 13 | 'knelt softly': usulca diz çöktü; 'cold peaceful hands': soğuk asude eller."
+            },
+            {
+                "id": 251,
+                "text": "\"Our dear Giant has gone to sleep with the angels,\" whispered an older girl.",
+                "translation": "Büyükçe bir kız çocuğu fısıldadı: \"Sevgili Devimiz meleklerle birlikte uykuya daldı.\"",
+                "notes": "Sayfa 13 | 'gone to sleep': uykuya daldı (vefat mecazı); 'with the angels': meleklerle beraber."
+            },
+            {
+                "id": 252,
+                "text": "They laid wreaths of wild winter flowers across his broad, gentle chest.",
+                "translation": "Geniş ve şefkatli göğsünün üzerine yabani kış çiçeklerinden çelenkler bıraktılar.",
+                "notes": "Sayfa 13 | 'wreaths': çelenkler; 'broad gentle chest': geniş müşfik göğüs."
+            },
+            {
+                "id": 253,
+                "text": "They knew in their young hearts that he was no longer suffering or lonely.",
+                "translation": "O küçücük yüreklerinde onun artık acı çekmediğini ya da yalnız olmadığını biliyorlardı.",
+                "notes": "Sayfa 13 | 'no longer suffering': artık ıstırap çekmiyor; 'in their young hearts': körpe yüreklerinde."
+            },
+            {
+                "id": 254,
+                "text": "The news of the Giant's passing spread quickly throughout the entire neighbouring village.",
+                "translation": "Dev'in ölüm haberi tüm komşu köye hızla yayıldı.",
+                "notes": "Sayfa 13 | 'passing': vefat/göçüp gitme; 'spread quickly': hızla yayıldı."
+            },
+            {
+                "id": 255,
+                "text": "The villagers walked up to the garden with reverent steps and uncovered heads.",
+                "translation": "Köylüler hürmetkâr adımlarla ve şapkalarını çıkararak bahçeye yürüdüler.",
+                "notes": "Sayfa 13 | 'reverent steps': saygılı adımlar; 'uncovered heads': başı açık/şapkası çıkarılmış."
+            },
+            {
+                "id": 256,
+                "text": "They marvelled at the miraculous golden tree that bloomed in the dead of winter.",
+                "translation": "Zemheri kışının ortasında çiçek açan o mucizevi altın ağaca hayretle baktılar.",
+                "notes": "Sayfa 13 | 'marvelled at': -e hayran kaldı/şaştı; 'in the dead of winter': kara kışın göbeğinde."
+            },
+            {
+                "id": 257,
+                "text": "They remembered how the Giant had welcomed every child into his vast estate.",
+                "translation": "Dev'in her bir çocuğu o koca arazisine nasıl kucak açarak kabul ettiğini hatırladılar.",
+                "notes": "Sayfa 13 | 'welcomed into': -e kucak açtı; 'vast estate': koca mülk."
+            },
+            {
+                "id": 258,
+                "text": "\"He was indeed a giant of great stature and an even greater heart,\" they proclaimed.",
+                "translation": "\"O sahiden de hem cüssesi ulu, hem de yüreği ondan daha ulu bir devdi,\" dediler.",
+                "notes": "Sayfa 13 | 'great stature': ulu cüsse/endam; 'proclaimed': ilan ettiler."
+            },
+            {
+                "id": 259,
+                "text": "They decided to preserve the garden untouched as a perpetual sanctuary for children.",
+                "translation": "Bahçeyi çocuklar için ebedi bir sığınak olarak dokunulmadan korumaya karar verdiler.",
+                "notes": "Sayfa 13 | 'perpetual sanctuary': daimi sığınak; 'preserve untouched': el değmeden muhafaza etmek."
+            },
+            {
+                "id": 260,
+                "text": "No wall would ever be built again around that holy sanctuary of innocent joy.",
+                "translation": "O masum neşenin kutsal mabedinin etrafına bir daha asla duvar örülmeyecekti.",
+                "notes": "Sayfa 13 | 'holy sanctuary': kutsal mabet/sığınak; 'innocent joy': masum sevinç."
+            }
+        ]
+    },
+
+    # ----------------------------------------------------
+    # SAYFA 14 (Sentences 261 - 280)
+    # ----------------------------------------------------
+    {
+        "page_no": 14,
+        "title": "The Passing Years, Old Age and the Missing Friend",
+        "tr_title": "Sevginin Ebedi Mirası ve Köydeki Hatıra",
+        "vocab_focus": [
+            ("Sacred memory", "Kutsal hatıra"),
+            ("Carved in stone", "Taşa kazınmış"),
+            ("Playground for all", "Herkes için oyun alanı"),
+            ("Generations of children", "Çocuk nesilleri"),
+            ("Told the story", "Hikâyeyi anlatmak"),
+            ("Selfish heart melted", "Bencil kalbin erimesi"),
+            ("Wounds of love", "Aşkın yaraları"),
+            ("Golden branches", "Altın dallar"),
+        ],
+        "sentences": [
+            {
+                "id": 261,
+                "text": "They buried the Giant gently beneath the roots of the golden, blossoming tree.",
+                "translation": "Dev'i o altın ve çiçek açan ağacın kökleri altına şefkatle defnettiler.",
+                "notes": "Sayfa 14 | 'buried gently': incelikle gömdüler; 'beneath the roots': köklerinin altına."
+            },
+            {
+                "id": 262,
+                "text": "A simple granite stone was placed at his head with no elaborate inscription.",
+                "translation": "Başucuna abartılı bir kitabe olmaksızın sade bir granit taş yerleştirildi.",
+                "notes": "Sayfa 14 | 'elaborate inscription': gösterişli kitabe/yazıt; 'at his head': başucuna."
+            },
+            {
+                "id": 263,
+                "text": "It simply read: \"Here Rests the Giant Who Learned to Love the Children.\"",
+                "translation": "Üzerinde yalnızca şöyle yazıyordu: \"Burada Çocukları Sevmeyi Öğrenen Dev Yatıyor.\"",
+                "notes": "Sayfa 14 | 'Here rests...': Burada yatar (mezar taşı kalıbı)."
+            },
+            {
+                "id": 264,
+                "text": "Spring returned every single year without fail, blessing the garden with blossoms.",
+                "translation": "Bahar hiç şaşmaksızın her yıl geri döndü, bahçeyi çiçeklerle bereketlendirdi.",
+                "notes": "Sayfa 14 | 'without fail': şaşmaksızın; 'blessing with': ile bereketlendirmek."
+            },
+            {
+                "id": 265,
+                "text": "The peach-trees bore the sweetest fruit in all the province year after year.",
+                "translation": "Şeftali ağaçları yıldan yıla tüm vilayetin en tatlı meyvelerini verdi.",
+                "notes": "Sayfa 14 | 'province': vilayet/il; 'year after year': yıldan yıla."
+            },
+            {
+                "id": 266,
+                "text": "Generations of happy children grew up playing upon the lush, welcoming lawns.",
+                "translation": "Neşeli çocuk nesilleri o gür ve kucak açan çimenlerde oynayarak büyüdü.",
+                "notes": "Sayfa 2 | 'generations': nesiller; 'welcoming lawns': kucak açan çayırlar."
+            },
+            {
+                "id": 267,
+                "text": "Grandmothers and grandfathers would bring their grandchildren to sit in the shade.",
+                "translation": "Nineler ve dedeler gölgede oturmak için torunlarını oraya getirirlerdi.",
+                "notes": "Sayfa 14 | 'sit in the shade': gölgede oturmak; 'grandchildren': torunlar."
+            },
+            {
+                "id": 268,
+                "text": "They would recount the timeless tale of the Selfish Giant who softened his heart.",
+                "translation": "Taş kalbini yumuşatmayı başaran Bencil Dev'in o ölümsüz masalını naklederlerdi.",
+                "notes": "Sayfa 14 | 'timeless tale': zamansız/ölümsüz masal; 'softened his heart': kalbini yumuşattı."
+            },
+            {
+                "id": 269,
+                "text": "They told how a single loving kiss from a child had broken the curse of winter.",
+                "translation": "Bir çocuğun sevgi dolu tek bir öpücüğünün kışın lanetini nasıl bozduğunu anlatırlardı.",
+                "notes": "Sayfa 14 | 'curse of winter': kışın laneti; 'loving kiss': şefkatli öpücük."
+            },
+            {
+                "id": 270,
+                "text": "The tree in the corner remained eternally green and beautiful in every season.",
+                "translation": "Köşedeki ağaç her mevsimde ebediyen yemyeşil ve güzel kaldı.",
+                "notes": "Sayfa 14 | 'eternally green': ebediyen yemyeşil."
+            },
+            {
+                "id": 271,
+                "text": "Its white flowers never faded, and its golden branches never dropped their leaves.",
+                "translation": "Beyaz çiçekleri asla solmadı ve altın dalları yapraklarını hiç dökmedi.",
+                "notes": "Sayfa 14 | 'never faded': hiç solmadı; 'dropped leaves': yaprak dökmek."
+            },
+            {
+                "id": 272,
+                "text": "Travellers from far-off kingdoms came to marvel at the miraculous sight.",
+                "translation": "Uzak krallıklardan gelen gezginler bu mucizevi manzaraya hayran kalmaya geldiler.",
+                "notes": "Sayfa 14 | 'far-off kingdoms': ırak krallıklar; 'travellers': seyyahlar."
+            },
+            {
+                "id": 273,
+                "text": "They felt a strange peace enter their weary souls as they walked the paths.",
+                "translation": "Patikalarda yürürken yorgun ruhlarına garip bir huzurun dolduğunu hissettiler.",
+                "notes": "Sayfa 14 | 'weary souls': yorgun ruhlar; 'strange peace': tuhaf bir huzur."
+            },
+            {
+                "id": 274,
+                "text": "No angry voices were ever heard again within the boundary of the garden.",
+                "translation": "Bahçenin sınırları içinde bir daha hiçbir öfkeli ses işitilmedi.",
+                "notes": "Sayfa 14 | 'angry voices': öfkeli sesler; 'within the boundary': sınırlar dahilinde."
+            },
+            {
+                "id": 275,
+                "text": "It became a famous haven where everyone was welcome, rich and poor alike.",
+                "translation": "Zengin ve yoksul ayrımı olmaksızın herkesin hoş karşılandığı meşhur bir sığınak oldu.",
+                "notes": "Sayfa 14 | 'haven': güvenli liman/sığınak; 'rich and poor alike': zengin fakir farksız."
+            },
+            {
+                "id": 276,
+                "text": "The birds continued to nest securely and sing their sweet songs from dawn to dusk.",
+                "translation": "Kuşlar emniyetle yuva yapmaya ve şafaktan gün batımına dek tatlı şarkılarını söylemeye devam ettiler.",
+                "notes": "Sayfa 14 | 'nest securely': güvenle yuva yapmak; 'from dawn to dusk': seherden akşama."
+            },
+            {
+                "id": 277,
+                "text": "The flowers smiled up through the grass, greeting every footstep with fragrance.",
+                "translation": "Çiçekler çimlerin arasından yukarı gülümsediler, her ayak sesini mis kokularla karşıladılar.",
+                "notes": "Sayfa 14 | 'with fragrance': rayihayla/güzel kokuyla; 'greeting': selamlayarak."
+            },
+            {
+                "id": 278,
+                "text": "Selfishness had been banished forever, conquered completely by selfless kindness.",
+                "translation": "Bencillik sonsuza dek kovulmuş, karşılıksız iyilik tarafından tamamen fethedilmişti.",
+                "notes": "Sayfa 14 | 'banished forever': ebediyen sürgün edilmiş; 'conquered': fethedilmiş."
+            },
+            {
+                "id": 279,
+                "text": "The old stone castle stood open, its doors never locked against any wandering soul.",
+                "translation": "Eski taş şato ardına kadar açık durdu; kapıları hiçbir gezgin ruha asla kilitlenmedi.",
+                "notes": "Sayfa 14 | 'wandering soul': garip/yolcu ruh; 'never locked': asla kilitli değil."
+            },
+            {
+                "id": 280,
+                "text": "It was a living testament to the transforming power of love and redemption.",
+                "translation": "Sevginin ve arınmanın dönüştürücü gücünün yaşayan bir kanıtıydı.",
+                "notes": "Sayfa 14 | 'living testament': canlı şahit/ispat; 'transforming power': dönüştürücü kudret."
+            }
+        ]
+    },
+
+    # ----------------------------------------------------
+    # SAYFA 15 (Sentences 281 - 300)
+    # ----------------------------------------------------
+    {
+        "page_no": 15,
+        "title": "The Wounds of Love and the Gates of Paradise",
+        "tr_title": "Sevginin Yaraları ve Cennet Kapıları",
+        "vocab_focus": [
+            ("Garden of Paradise", "Cennet Bahçesi / Firdevs"),
+            ("Everlasting spring", "Ebedi ilkbahar"),
+            ("Living waters", "Hayat pınarları"),
+            ("Walked hand in hand", "El ele yürümek"),
+            ("Celestial realm", "Semavi / göksel âlem"),
+            ("Pure innocence", "Saf masumiyet"),
+            ("Immortal joy", "Ölümsüz neşe"),
+            ("Wounds of love", "Aşkın ve sevginin yaraları"),
+        ],
+        "sentences": [
+            {
+                "id": 281,
+                "text": "And where had the Giant gone when his earthly body fell into eternal sleep?",
+                "translation": "Peki fani bedeni ebedi uykuya daldığında Dev nereye gitmişti?",
+                "notes": "Sayfa 15 | 'earthly body': dünyevi beden; 'eternal sleep': sonsuz uyku."
+            },
+            {
+                "id": 282,
+                "text": "He had taken the hand of the radiant child and ascended straight into the heavens.",
+                "translation": "O nur yüzlü çocuğun elinden tutmuş ve dosdoğru göklere yükselmişti.",
+                "notes": "Sayfa 15 | 'ascended straight': dosdoğru yükseldi; 'radiant child': nur saçan çocuk."
+            },
+            {
+                "id": 283,
+                "text": "Together they passed beyond the cold clouds and entered the golden gates of Paradise.",
+                "translation": "Birlikte soğuk bulutların ötesine geçtiler ve Cennet'in altın kapılarından içeri girdiler.",
+                "notes": "Sayfa 15 | 'beyond the clouds': bulutların ötesinde; 'golden gates': altın kapılar."
+            },
+            {
+                "id": 284,
+                "text": "There stretched an infinite garden of unfading beauty, bathed in perpetual warm light.",
+                "translation": "Orada, daimi ılık bir ışıkla yıkanan, solmayan güzellikte sonsuz bir bahçe uzanıyordu.",
+                "notes": "Sayfa 15 | 'infinite garden': sonsuz bahçe; 'unfading beauty': solmayan güzellik."
+            },
+            {
+                "id": 285,
+                "text": "Crystal rivers of living water flowed gently between emerald banks of fragrant flowers.",
+                "translation": "Kokusuna doyulmaz çiçeklerin zümrüt kıyıları arasından berrak hayat ırmakları usulca akıyordu.",
+                "notes": "Sayfa 15 | 'living water': hayat suyu (ab-ı hayat); 'emerald banks': zümrüt kıyılar."
+            },
+            {
+                "id": 286,
+                "text": "No frost, no bitter snow, and no roaring north wind could ever enter that holy realm.",
+                "translation": "O kutsal âleme ne ayaz, ne dondurucu kar, ne de kükreyen kuzey rüzgârı adım atabilirdi.",
+                "notes": "Sayfa 15 | 'holy realm': kutsal diyar/âlem; 'bitter snow': amansız kar."
+            },
+            {
+                "id": 287,
+                "text": "Thousands of happy children were playing games together in joyful harmony.",
+                "translation": "Binlerce mutlu çocuk sevinçli bir ahenk içinde birlikte oyunlar oynuyordu.",
+                "notes": "Sayfa 15 | 'joyful harmony': sevinçli uyum/ahenk; 'thousands of': binlerce."
+            },
+            {
+                "id": 288,
+                "text": "They ran up to welcome the Giant, greeting him with cheerful laughter and warm hugs.",
+                "translation": "Dev'i karşılamak için koştular, onu neşeli kahkahalar ve sıcak sarılmalarla selamladılar.",
+                "notes": "Sayfa 15 | 'welcome': hoş karşılamak; 'warm hugs': sıcak kucaklaşmalar."
+            },
+            {
+                "id": 289,
+                "text": "The Giant was no longer old, stiff, or feeble, but strong, young, and whole again.",
+                "translation": "Dev artık ne yaşlı, ne tutulmuş, ne de mecalsizdi; yeniden güçlü, genç ve dipdiriydi.",
+                "notes": "Sayfa 15 | 'whole again': bütünüyle sıhhatli/tam; 'no longer feeble': artık dermansız değil."
+            },
+            {
+                "id": 290,
+                "text": "The little child took him by the hand and led him toward a splendid crystal fountain.",
+                "translation": "Küçük çocuk onun elinden tuttu ve onu muhteşem billur bir çeşmeye doğru götürdü.",
+                "notes": "Sayfa 15 | 'crystal fountain': billur fıskiye/çeşme; 'led toward': -e doğru götürdü."
+            },
+            {
+                "id": 291,
+                "text": "\"Here in My garden, you shall live with Me in everlasting peace,\" said the Lord.",
+                "translation": "Rab \"Benim bu bahçemde ebedi huzur içinde Benimle yaşayacaksın,\" buyurdu.",
+                "notes": "Sayfa 15 | 'everlasting peace': ebedi huzur; 'the Lord': Rab, Tanrı."
+            },
+            {
+                "id": 292,
+                "text": "\"For you shared your joy with the little ones, and so you shared it with Me.\"",
+                "translation": "\"Çünkü sen sevincini küçüklerle paylaştın, dolayısıyla onu Benimle paylaştın.\"",
+                "notes": "Sayfa 15 | 'shared joy': sevinci paylaşmak; 'the little ones': küçükler/yavrular."
+            },
+            {
+                "id": 293,
+                "text": "The Giant looked at the marks of the nails upon the hands and feet of the child.",
+                "translation": "Dev, çocuğun ellerindeki ve ayaklarındaki çivi izlerine baktı.",
+                "notes": "Sayfa 15 | 'marks of the nails': çivilerin izleri."
+            },
+            {
+                "id": 294,
+                "text": "They were no longer bloody wounds of pain, but shining rays of radiant divine light.",
+                "translation": "Artık acı veren kanlı yaralar değil, pırıl pırıl parıldayan ilahi nur hüzmeleriydiler.",
+                "notes": "Sayfa 15 | 'rays of radiant light': nur saçan ışık huzmeleri; 'wounds of pain': ıstırap yaraları."
+            },
+            {
+                "id": 295,
+                "text": "They shone brighter than all the stars in the firmament, illuminating the entire garden.",
+                "translation": "Gökkubbedeki bütün yıldızlardan daha parlak ışıyor, bütün bahçeyi aydınlatıyorlardı.",
+                "notes": "Sayfa 15 | 'firmament': gökkubbe; 'illuminating': aydınlatan."
+            },
+            {
+                "id": 296,
+                "text": "The Giant wept tears of profound gratitude and bowed his head in reverent prayer.",
+                "translation": "Dev derin bir şükranla gözyaşları döktü ve başını hürmet dolu bir duayla öne eğdi.",
+                "notes": "Sayfa 15 | 'profound gratitude': derin şükran; 'reverent prayer': hürmet dolu dua."
+            },
+            {
+                "id": 297,
+                "text": "He realized that true greatness lies not in power or walls, but in selfless mercy.",
+                "translation": "Gerçek büyüklüğün kudrette veya duvarlarda değil, karşılıksız merhamette yattığını anladı.",
+                "notes": "Sayfa 15 | 'true greatness': hakiki büyüklük; 'selfless mercy': karşılıksız merhamet."
+            },
+            {
+                "id": 298,
+                "text": "And the children sang together an eternal anthem of joy that echoed through the stars.",
+                "translation": "Ve çocuklar yıldızlar boyunca yankılanan ebedi bir sevinç marşını hep bir ağızdan söylediler.",
+                "notes": "Sayfa 15 | 'eternal anthem': ebedi marş/ilahi; 'echoed through the stars': yıldızlarda yankılandı."
+            },
+            {
+                "id": 299,
+                "text": "The Giant took his place among the blessed, surrounded by eternal laughter and love.",
+                "translation": "Dev, ebedi kahkahalar ve sevgiyle çevrili olarak azizlerin arasındaki yerini aldı.",
+                "notes": "Sayfa 15 | 'among the blessed': kutlu kimselerin arasında; 'surrounded by': ile çevrili."
+            },
+            {
+                "id": 300,
+                "text": "And so the Selfish Giant found the greatest treasure of all: an eternity of love.",
+                "translation": "Ve böylece Bencil Dev hazinelerin en büyüğünü buldu: sonsuz bir sevgi ve huzur.",
+                "notes": "Sayfa 15 | 'greatest treasure': en büyük hazine; 'eternity of love': ebedi bir sevgi."
+            }
+        ]
+    }
+]
