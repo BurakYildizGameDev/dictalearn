@@ -31,6 +31,13 @@ const PRESET_LESSONS: PresetLesson[] = [
     pdfUrl: '/lessons/book_02_the_selfish_giant/book_02_the_selfish_giant.pdf',
   },
   {
+    id: 'book_03_the_nightingale_and_the_rose',
+    name: '3. The Nightingale and the Rose (15 Sayfa / 300 Cümle)',
+    jsonUrl: '/lessons/book_03_the_nightingale_and_the_rose/lesson.json',
+    audioUrl: '/lessons/book_03_the_nightingale_and_the_rose/audio.mp3',
+    pdfUrl: '/lessons/book_03_the_nightingale_and_the_rose/book_03_the_nightingale_and_the_rose.pdf',
+  },
+  {
     id: 'sample_ch01',
     name: 'Demo: The Departure (6 Cümle)',
     jsonUrl: '/lessons/sample_ch01/lesson.json',

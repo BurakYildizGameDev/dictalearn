@@ -1,0 +1,2414 @@
+{
+  "schema_version": 1,
+  "lesson_id": "book_03_the_nightingale_and_the_rose",
+  "title": "The Nightingale and the Rose (15 Sayfa / 300 Cümle / Graded Reader)",
+  "source_lang": "en",
+  "target_lang": "tr",
+  "audio_file": "audio.mp3",
+  "attribution": {
+    "source": "Oscar Wilde / Public Domain / Graded Reader Adaptasyonu (15 Sayfa x 20 Cümle)",
+    "license": "Public Domain"
+  },
+  "segments": [
+    {
+      "id": 1,
+      "start_ms": 300,
+      "end_ms": 5820,
+      "text": "\"She said that she would dance with me if I brought her red roses,\" cried the young Student.",
+      "translation": "Genç Öğrenci \"Ona kırmızı güller götürürsem benimle dans edeceğini söyledi,\" diye yakındı.",
+      "notes": "Sayfa 1 | 'would dance': dans ederdi (koşul kipi); 'if I brought': eğer götürseydim (Type 2 Conditional)."
+    },
+    {
+      "id": 2,
+      "start_ms": 6220,
+      "end_ms": 11044,
+      "text": "\"Yet in all my garden there is not a single red rose to be found anywhere.\"",
+      "translation": "\"Fakat bütün bahçemde hiçbir yerde tek bir kırmızı gül dahi bulunmuyor.\"",
+      "notes": "Sayfa 1 | 'not a single': tek bir bile yok; 'to be found': bulunacak/bulunabilen."
+    },
+    {
+      "id": 3,
+      "start_ms": 11444,
+      "end_ms": 17348,
+      "text": "From her high nest in the holm-oak tree, the gentle Nightingale heard his sorrowful words.",
+      "translation": "Pırnal meşesi ağacındaki yüksek yuvasından zarif Bülbül onun bu kederli sözlerini işitti.",
+      "notes": "Sayfa 1 | 'holm-oak': pırnal meşesi; 'sorrowful words': kederli sözler."
+    },
+    {
+      "id": 4,
+      "start_ms": 17748,
+      "end_ms": 22860,
+      "text": "She looked out through the dense green leaves and wondered what caused his deep anguish.",
+      "translation": "Sık yeşil yaprakların arasından dışarı baktı ve onun bu derin ıstırabına neyin sebep olduğunu merak etti.",
+      "notes": "Sayfa 1 | 'dense green leaves': gür yeşil yapraklar; 'deep anguish': derin ıstırap/azap."
+    },
+    {
+      "id": 5,
+      "start_ms": 23260,
+      "end_ms": 29980,
+      "text": "\"No red rose in all my wide garden!\" he cried again, and his beautiful eyes filled with tears.",
+      "translation": "\"Koca bahçemde tek bir kırmızı gül bile yok!\" diye yeniden feryat etti ve güzel gözleri yaşlarla doldu.",
+      "notes": "Sayfa 1 | 'filled with tears': gözyaşlarıyla doldu; 'cried': haykırdı/ağladı."
+    },
+    {
+      "id": 6,
+      "start_ms": 30380,
+      "end_ms": 36524,
+      "text": "\"Ah, on what exceedingly little things does human happiness depend!\" he lamented bitterly.",
+      "translation": "Acı acı \"Ah, insan mutluluğu ne kadar da ehemmiyetsiz küçük şeylere bağlıymış meğer!\" diye hayıflandı.",
+      "notes": "Sayfa 1 | 'depend on': -e bağlı olmak; 'exceedingly little': son derece ufak tefek; 'lamented': hayıflandı."
+    },
+    {
+      "id": 7,
+      "start_ms": 36924,
+      "end_ms": 41460,
+      "text": "\"I have read all that the ancient wise men have ever written on parchment.\"",
+      "translation": "\"Eski bilgelerin parşömenlere yazdığı her şeyi satır satır okudum.\"",
+      "notes": "Sayfa 1 | 'wise men': bilgeler/âlimler; 'parchment': parşömen kâğıdı."
+    },
+    {
+      "id": 8,
+      "start_ms": 41860,
+      "end_ms": 47308,
+      "text": "\"All the deepest secrets of human philosophy and logic belong completely to me.\"",
+      "translation": "\"İnsan felsefesinin ve mantığının en derin sırları bütünüyle bana aittir.\"",
+      "notes": "Sayfa 1 | 'secrets of philosophy': felsefenin sırları; 'belong to': -e ait olmak."
+    },
+    {
+      "id": 9,
+      "start_ms": 47708,
+      "end_ms": 53372,
+      "text": "\"Yet for the mere want of a single red rose is my entire life made wretched and ruined.\"",
+      "translation": "\"Fakat sırf tek bir kırmızı gülün yokluğu yüzünden bütün hayatım sefil ve harap oldu.\"",
+      "notes": "Sayfa 1 | 'for want of': -in yokluğundan ötürü; 'wretched': perişan/sefil."
+    },
+    {
+      "id": 10,
+      "start_ms": 53772,
+      "end_ms": 59316,
+      "text": "\"Here at last is a true and devoted lover,\" murmured the listening Nightingale softly.",
+      "translation": "Dinleyen Bülbül usulca \"Nihayet karşımda hakiki ve sadık bir âşık duruyor,\" diye mırıldandı.",
+      "notes": "Sayfa 1 | 'devoted lover': kendini adamış âşık; 'here at last': nihayet işte burada."
+    },
+    {
+      "id": 11,
+      "start_ms": 59716,
+      "end_ms": 64948,
+      "text": "\"Night after night have I sung of true love, though I never knew a lover in person.\"",
+      "translation": "\"Kendim bizzat bir âşığı tanımamış olsam da geceler boyunca hakiki aşka dair şarkılar söyledim.\"",
+      "notes": "Sayfa 1 | Devrik yapı ('Night after night have I sung...'); 'though': -e rağmen."
+    },
+    {
+      "id": 12,
+      "start_ms": 65348,
+      "end_ms": 70628,
+      "text": "\"Night after night have I told his romantic story to the silent silver stars above.\"",
+      "translation": "\"Geceler boyunca onun romantik hikâyesini yukarıdaki sessiz gümüş yıldızlara anlattım.\"",
+      "notes": "Sayfa 1 | 'silver stars': gümüşi yıldızlar; 'romantic story': romantik masal."
+    },
+    {
+      "id": 13,
+      "start_ms": 71028,
+      "end_ms": 76164,
+      "text": "\"And now at last I see him with my own eyes, weeping upon the green lawn.\"",
+      "translation": "\"Ve şimdi nihayet onu kendi gözlerimle yeşil çimenlikte ağlarken görüyorum.\"",
+      "notes": "Sayfa 1 | 'with my own eyes': kendi gözlerimle; 'weeping': ağlayarak."
+    },
+    {
+      "id": 14,
+      "start_ms": 76564,
+      "end_ms": 81388,
+      "text": "\"His dark hair is rich as the dark hyacinth-blossom that blooms in spring.\"",
+      "translation": "\"Koyu saçları, ilkbaharda açan o koyu sümbül çiçeği gibi gür ve parlak.\"",
+      "notes": "Sayfa 1 | 'hyacinth': sümbül çiçeği; 'as dark as...': kadar koyu."
+    },
+    {
+      "id": 15,
+      "start_ms": 81788,
+      "end_ms": 86444,
+      "text": "\"His lips are red as the very rose of his burning romantic desire.\"",
+      "translation": "\"Dudakları, alev alev yanan romantik arzusunun gülü kadar kıpkırmızı.\"",
+      "notes": "Sayfa 1 | 'burning desire': yakıcı arzu; 'as red as...': kadar kırmızı."
+    },
+    {
+      "id": 16,
+      "start_ms": 86844,
+      "end_ms": 91908,
+      "text": "\"But painful passion has made his youthful face pale like cool carved ivory.\"",
+      "translation": "\"Fakat yakıcı tutku, onun o genç yüzünü yontulmuş serin fildişi gibi soldurmuş.\"",
+      "notes": "Sayfa 1 | 'carved ivory': yontulmuş fildişi; 'pale': solgun."
+    },
+    {
+      "id": 17,
+      "start_ms": 92308,
+      "end_ms": 96676,
+      "text": "\"And bitter sorrow has set her heavy seal upon his furrowed brow.\"",
+      "translation": "\"Ve acı keder, onun kırışmış alnına ağır mührünü basmış.\"",
+      "notes": "Sayfa 1 | 'set seal upon': üzerine mührünü vurmak; 'furrowed brow': çatılmış/kırışmış alın."
+    },
+    {
+      "id": 18,
+      "start_ms": 97076,
+      "end_ms": 102044,
+      "text": "The young scholar buried his face in his trembling hands and sighed from the heart.",
+      "translation": "Genç ilim talebesi yüzünü titreyen ellerine gömdü ve yürekten bir iç çekti.",
+      "notes": "Sayfa 1 | 'scholar': bilgin/öğrenci; 'buried face': yüzünü gömdü."
+    },
+    {
+      "id": 19,
+      "start_ms": 102444,
+      "end_ms": 107604,
+      "text": "The fragrant grass beneath him was dampened by the drops of his sorrowful tears.",
+      "translation": "Altındaki mis kokulu çimenler onun kederli gözyaşlarının damlalarıyla ıslandı.",
+      "notes": "Sayfa 1 | 'fragrant grass': mis kokulu çim; 'dampened': nemlendi/ıslandı."
+    },
+    {
+      "id": 20,
+      "start_ms": 108004,
+      "end_ms": 114076,
+      "text": "He felt completely hopeless, as if the entire universe were conspiring against his love.",
+      "translation": "Sanki bütün kâinat onun aşkına karşı komplo kuruyormuş gibi kendini büsbütün çaresiz hissetti.",
+      "notes": "Sayfa 1 | 'conspiring against': -e karşı kumpas/komplo kurmak; 'as if': sanki."
+    },
+    {
+      "id": 21,
+      "start_ms": 115076,
+      "end_ms": 120284,
+      "text": "\"The Prince gives a splendid royal ball tomorrow night,\" murmured the young Student.",
+      "translation": "Genç Öğrenci \"Prens yarın gece muazzam bir saray balosu veriyor,\" diye mırıldandı.",
+      "notes": "Sayfa 2 | 'gives a ball': balo vermek; 'splendid royal': şaşaalı saray."
+    },
+    {
+      "id": 22,
+      "start_ms": 120684,
+      "end_ms": 125268,
+      "text": "\"And the young lady whom I love will certainly be among the noble company.\"",
+      "translation": "\"Ve sevdiğim genç hanımefendi kesinlikle o soylu topluluğun arasında olacaktır.\"",
+      "notes": "Sayfa 2 | 'noble company': soylu meclis/topluluk; 'whom I love': sevdiğim (ilgi zamiri)."
+    },
+    {
+      "id": 23,
+      "start_ms": 125668,
+      "end_ms": 131140,
+      "text": "\"If I bring her a single red rose, she has promised to dance with me till the dawn.\"",
+      "translation": "\"Eğer ona tek bir kırmızı gül götürürsem, şafak sökene dek benimle dans edeceğine söz verdi.\"",
+      "notes": "Sayfa 2 | 'promised to dance': dans etmeye söz verdi; 'till the dawn': gün ağarana dek."
+    },
+    {
+      "id": 24,
+      "start_ms": 131540,
+      "end_ms": 136988,
+      "text": "\"If I bring her that crimson flower, I shall hold her slender waist in my embrace.\"",
+      "translation": "\"Ona o al gülü götürürsem, incecik belini kollarımın arasında sarıp tutacağım.\"",
+      "notes": "Sayfa 2 | 'crimson': kor kırmızısı, al; 'embrace': kucaklama/sarılma."
+    },
+    {
+      "id": 25,
+      "start_ms": 137388,
+      "end_ms": 142716,
+      "text": "\"She will lean her gentle head upon my shoulder as the musicians play sweet tunes.\"",
+      "translation": "\"Müzisyenler tatlı nağmeler çalarken o tatlı başını omzuma yaslayacak.\"",
+      "notes": "Sayfa 2 | 'lean head upon': başını -e yaslamak; 'sweet tunes': tatlı ezgiler."
+    },
+    {
+      "id": 26,
+      "start_ms": 143116,
+      "end_ms": 148324,
+      "text": "\"And her soft little hand will be clasped tightly within mine throughout the dance.\"",
+      "translation": "\"Ve yumuşacık minik eli dans boyunca benim elimin içinde sımsıkı kenetlenecek.\"",
+      "notes": "Sayfa 2 | 'clasped within': içinde kenetlenmiş; 'throughout the dance': dans boyunca."
+    },
+    {
+      "id": 27,
+      "start_ms": 148724,
+      "end_ms": 153764,
+      "text": "\"But there is no red rose blooming in my garden, so I must sit all lonely.\"",
+      "translation": "\"Fakat bahçemde açan hiç kırmızı gül yok, bu yüzden yapayalnız oturmak zorundayım.\"",
+      "notes": "Sayfa 2 | 'blooming': çiçek açan; 'sit all lonely': bir başına yapayalnız oturmak."
+    },
+    {
+      "id": 28,
+      "start_ms": 154164,
+      "end_ms": 159276,
+      "text": "\"She will glide past me in the ballroom, and she will pass me by without a word.\"",
+      "translation": "\"Balo salonunda yanımdan süzülüp gidecek ve tek laf etmeden önümden geçip gidecek.\"",
+      "notes": "Sayfa 2 | 'glide past': süzülüp geçmek; 'pass by': yanından geçip gitmek."
+    },
+    {
+      "id": 29,
+      "start_ms": 159676,
+      "end_ms": 164812,
+      "text": "\"She will take no heed of me whatsoever, and my poor heart will surely break.\"",
+      "translation": "\"Bana zerre kadar aldırış etmeyecek ve zavallı kalbim muhakkak paramparça olacak.\"",
+      "notes": "Sayfa 2 | 'take no heed of': zerre umursamamak; 'whatsoever': hiçbir surette."
+    },
+    {
+      "id": 30,
+      "start_ms": 165212,
+      "end_ms": 170780,
+      "text": "\"Here indeed is the true lover of whom the ancient poets sang!\" said the Nightingale.",
+      "translation": "Bülbül \"Kadim şairlerin şarkılarında bahsettiği o hakiki âşık sahiden de bu!\" dedi.",
+      "notes": "Sayfa 2 | 'ancient poets': kadim ozanlar; 'of whom sang': hakkında şarkı söylediği."
+    },
+    {
+      "id": 31,
+      "start_ms": 171180,
+      "end_ms": 176580,
+      "text": "\"What I sing of as pure poetry, he actually suffers as profound reality.\"",
+      "translation": "\"Benim saf bir şiir gibi şakıdığım şeyi o bilfiil derin bir hakikat olarak yaşıyor.\"",
+      "notes": "Sayfa 2 | 'pure poetry': katıksız şiir; 'profound reality': derin gerçeklik."
+    },
+    {
+      "id": 32,
+      "start_ms": 176980,
+      "end_ms": 181852,
+      "text": "\"What is joy to my musical heart is pain and torment to his tender soul.\"",
+      "translation": "\"Benim nağmeli kalbime neşe olan şey, onun o hassas ruhuna ızdırap ve işkence oluyor.\"",
+      "notes": "Sayfa 2 | 'torment': azap/eziyet; 'tender soul': hassas ruh."
+    },
+    {
+      "id": 33,
+      "start_ms": 182252,
+      "end_ms": 188300,
+      "text": "\"Surely Love is a wonderful, sacred, and mysterious thing above all understanding.\"",
+      "translation": "\"Muhakkak ki Aşk, her türlü kavrayışın fevkinde olan harika, kutsal ve gizemli bir şeydir.\"",
+      "notes": "Sayfa 2 | 'above all understanding': her idrakin üzerinde; 'sacred': mukaddes."
+    },
+    {
+      "id": 34,
+      "start_ms": 188700,
+      "end_ms": 193740,
+      "text": "\"It is more precious than emeralds, and far more dear than fine opals.\"",
+      "translation": "\"Zümrütlerden daha kıymetlidir ve saf opallerden katbekat daha değerlidir.\"",
+      "notes": "Sayfa 2 | 'more precious than': -den daha değerli; 'emeralds': zümrütler; 'opals': opal taşları."
+    },
+    {
+      "id": 35,
+      "start_ms": 194140,
+      "end_ms": 199468,
+      "text": "\"Pearls and pomegranates cannot buy it, nor is it set forth in the marketplace.\"",
+      "translation": "\"İnciler ve narlar onu satın alamaz; ne de çarşı pazarda tezgâha konur.\"",
+      "notes": "Sayfa 2 | 'set forth': sergilenmek; 'marketplace': pazar yeri."
+    },
+    {
+      "id": 36,
+      "start_ms": 199868,
+      "end_ms": 205340,
+      "text": "\"It may not be purchased of the merchants, nor can it be weighed out in the balance for gold.\"",
+      "translation": "\"Ne bezirgânlardan satın alınabilir, ne de altın karşılığı terazide tartılabilir.\"",
+      "notes": "Sayfa 2 | 'weighed out in balance': terazide tartılmak; 'merchants': tüccarlar/bezirgânlar."
+    },
+    {
+      "id": 37,
+      "start_ms": 205740,
+      "end_ms": 211116,
+      "text": "The Student continued to weep upon the soft clover, wringing his hands in despair.",
+      "translation": "Öğrenci ellerini çaresizlikle ovuşturarak yumuşak yoncada ağlamayı sürdürdü.",
+      "notes": "Sayfa 2 | 'wringing hands': ellerini ovuşturup dövünmek; 'clover': yonca."
+    },
+    {
+      "id": 38,
+      "start_ms": 211516,
+      "end_ms": 216820,
+      "text": "\"The musicians will sit in their high gallery,\" he continued in a trembling voice.",
+      "translation": "Titreyen bir sesle \"Müzisyenler yüksek localarında oturacaklar,\" diye devam etti.",
+      "notes": "Sayfa 2 | 'high gallery': yüksek balkon/loca; 'trembling voice': titrek ses."
+    },
+    {
+      "id": 39,
+      "start_ms": 217220,
+      "end_ms": 221876,
+      "text": "\"They will play upon their stringed instruments with sweet and masterly skill.\"",
+      "translation": "\"Telli çalgılarını tatlı ve usta bir maharetle çalacaklar.\"",
+      "notes": "Sayfa 2 | 'stringed instruments': telli enstrümanlar; 'masterly skill': ustalıklı maharet."
+    },
+    {
+      "id": 40,
+      "start_ms": 222276,
+      "end_ms": 226812,
+      "text": "\"And my love will dance to the sound of the harp and the silver violin.\"",
+      "translation": "\"Ve sevdiğim kız, arpin ve gümüş kemanın ahengiyle dans edecek.\"",
+      "notes": "Sayfa 2 | 'harp': arp çalgısı; 'violin': keman."
+    },
+    {
+      "id": 41,
+      "start_ms": 227812,
+      "end_ms": 233116,
+      "text": "\"She will dance so lightly that her delicate feet will scarcely touch the marble floor.\"",
+      "translation": "\"Öyle hafifçe dans edecek ki narin ayakları mermer zemine neredeyse hiç değmeyecek.\"",
+      "notes": "Sayfa 3 | 'so lightly that...': öyle hafifçe ki; 'scarcely touch': neredeyse hiç dokunmamak."
+    },
+    {
+      "id": 42,
+      "start_ms": 233516,
+      "end_ms": 238844,
+      "text": "\"The courtly nobles in their embroidered velvet cloaks will crowd admiringly around her.\"",
+      "translation": "\"İşlemeli kadife pelerinleri içindeki saray soyluları hayranlıkla onun etrafına üşüşecek.\"",
+      "notes": "Sayfa 3 | 'embroidered velvet': işlemeli kadife; 'crowd admiringly': hayranlıkla toplanmak."
+    },
+    {
+      "id": 43,
+      "start_ms": 239244,
+      "end_ms": 244764,
+      "text": "\"Every dashing gentleman will beg for a single dance beneath the glittering chandeliers.\"",
+      "translation": "\"Her fiyakalı beyefendi, ışıldayan avizelerin altında tek bir dans için yalvaracak.\"",
+      "notes": "Sayfa 3 | 'dashing gentleman': şık ve alımlı beyefendi; 'glittering chandeliers': parıldayan avizeler."
+    },
+    {
+      "id": 44,
+      "start_ms": 245164,
+      "end_ms": 250588,
+      "text": "\"But with me she will not dance, for I have no red rose to offer to her hands.\"",
+      "translation": "\"Fakat benimle dans etmeyecek, çünkü ellerine sunacak tek bir kırmızı gülüm bile yok.\"",
+      "notes": "Sayfa 3 | 'offer to her hands': ellerine sunmak/hediye etmek."
+    },
+    {
+      "id": 45,
+      "start_ms": 250988,
+      "end_ms": 256244,
+      "text": "And he flung himself down on the tall grass and hid his weeping face in his arms.",
+      "translation": "Ve kendini boylu boyunca uzun çimenlerin üzerine attı, ağlayan yüzünü kollarına gizledi.",
+      "notes": "Sayfa 3 | 'flung himself down': kendini yere attı; 'hid face': yüzünü sakladı."
+    },
+    {
+      "id": 46,
+      "start_ms": 256644,
+      "end_ms": 262836,
+      "text": "\"Why is he crying so bitterly?\" asked a little Green Lizard as he ran by with his tail in the air.",
+      "translation": "Kuyruğu havada koşup geçen küçük Yeşil Kertenkele \"Neden bu kadar acı acı ağlıyor?\" diye sordu.",
+      "notes": "Sayfa 3 | 'Green Lizard': yeşil kertenkele; 'tail in the air': kuyruğu havada."
+    },
+    {
+      "id": 47,
+      "start_ms": 263236,
+      "end_ms": 268996,
+      "text": "\"Why indeed?\" said a graceful Butterfly who was fluttering merrily after a sunbeam.",
+      "translation": "Bir güneş ışığının peşinden neşeyle kanat çırpan zarif bir Kelebek \"Sahi neden?\" dedi.",
+      "notes": "Sayfa 3 | 'fluttering': pırpır uçuşan; 'sunbeam': güneş ışığı huzmesi."
+    },
+    {
+      "id": 48,
+      "start_ms": 269396,
+      "end_ms": 275324,
+      "text": "\"Why indeed?\" whispered a humble white Daisy to her neighbour in a soft, low voice.",
+      "translation": "Alçakgönüllü beyaz bir Papatya da komşusuna usul ve pes bir sesle \"Sahi neden acaba?\" diye fısıldadı.",
+      "notes": "Sayfa 3 | 'humble Daisy': mütevazı papatya; 'in a low voice': alçak bir ses tonuyla."
+    },
+    {
+      "id": 49,
+      "start_ms": 275724,
+      "end_ms": 281364,
+      "text": "\"He is weeping for a red rose,\" declared the compassionate Nightingale from her branch.",
+      "translation": "Merhametli Bülbül dalından \"Kırmızı bir gül için gözyaşı döküyor,\" diye bildirdi.",
+      "notes": "Sayfa 3 | 'compassionate': merhametli, müşfik; 'declared': beyan etti/duyurdu."
+    },
+    {
+      "id": 50,
+      "start_ms": 281764,
+      "end_ms": 287548,
+      "text": "\"For a red rose!\" cried the Green Lizard, laughing loudly in utter ridicule.",
+      "translation": "Yeşil Kertenkele \"Kırmızı bir gül için mi!\" diye kahkahalarla alay ederek bağırdı.",
+      "notes": "Sayfa 3 | 'in utter ridicule': tam bir alay ve istihzayla."
+    },
+    {
+      "id": 51,
+      "start_ms": 287948,
+      "end_ms": 293684,
+      "text": "\"How completely ridiculous!\" laughed the Butterfly, shaking her colourful wings.",
+      "translation": "Kelebek renkli kanatlarını sallayarak \"Ne kadar da gülünç bir şey!\" diye güldü.",
+      "notes": "Sayfa 3 | 'completely ridiculous': zırva, büsbütün gülünç."
+    },
+    {
+      "id": 52,
+      "start_ms": 294084,
+      "end_ms": 299796,
+      "text": "\"How extraordinarily silly!\" agreed the little Daisy, shaking her yellow head.",
+      "translation": "Küçük Papatya da sarı başını sallayarak \"Ne kadar da olağanüstü saçma!\" diyerek katıldı.",
+      "notes": "Sayfa 3 | 'extraordinarily silly': fevkalade aptalca; 'agreed': katıldı."
+    },
+    {
+      "id": 53,
+      "start_ms": 300196,
+      "end_ms": 305620,
+      "text": "The little Lizard, who was something of a cynic, laughed outright with cruel amusement.",
+      "translation": "Tepeden tırnağa alaycı bir tip olan küçük Kertenkele, acımasız bir eğlenceyle kahkahayı bastı.",
+      "notes": "Sayfa 3 | 'cynic': alaycı/kinik; 'laughed outright': katıla katıla gülmek."
+    },
+    {
+      "id": 54,
+      "start_ms": 306020,
+      "end_ms": 310748,
+      "text": "None of them could comprehend the sacred depth of human love and devotion.",
+      "translation": "Hiçbiri insan aşkının ve bağlılığının kutsal derinliğini idrak edemiyordu.",
+      "notes": "Sayfa 3 | 'comprehend': idrak etmek/kavramak; 'sacred depth': mukaddes derinlik."
+    },
+    {
+      "id": 55,
+      "start_ms": 311148,
+      "end_ms": 316260,
+      "text": "They lived only for food, warmth, and the fleeting pleasures of the moment.",
+      "translation": "Onlar yalnızca yiyecek, sıcaklık ve anın gelip geçici zevkleri için yaşıyorlardı.",
+      "notes": "Sayfa 3 | 'fleeting pleasures': geçici zevkler; 'of the moment': anlık."
+    },
+    {
+      "id": 56,
+      "start_ms": 316660,
+      "end_ms": 321748,
+      "text": "Only the noble Nightingale understood the secret sorrow that weighed upon his heart.",
+      "translation": "Yalnızca asil Bülbül onun yüreğine çöken o gizli kederi anlıyordu.",
+      "notes": "Sayfa 3 | 'noble': asil; 'weighed upon heart': kalbe ağırlık çökmek."
+    },
+    {
+      "id": 57,
+      "start_ms": 322148,
+      "end_ms": 327644,
+      "text": "She sat silent in the holm-oak tree, and thought deeply about the mystery of Love.",
+      "translation": "Pırnal meşesi ağacında sessizce oturdu ve Aşk'ın o muazzam gizemi üzerine derin derin düşündü.",
+      "notes": "Sayfa 3 | 'sat silent': sessizce oturdu; 'thought deeply': derin düşündü."
+    },
+    {
+      "id": 58,
+      "start_ms": 328044,
+      "end_ms": 333420,
+      "text": "She realized that without a red rose, two hearts would be kept apart forever.",
+      "translation": "Kırmızı bir gül olmaksızın iki kalbin sonsuza dek ayrı düşeceğini anladı.",
+      "notes": "Sayfa 3 | 'kept apart': birbirinden ayrı tutulmak; 'realized': fark etti."
+    },
+    {
+      "id": 59,
+      "start_ms": 333820,
+      "end_ms": 339268,
+      "text": "She decided that she must do something heroic to aid this genuine and suffering lover.",
+      "translation": "Bu hakiki ve cefa çeken âşığa yardım etmek için kahramanca bir şey yapması gerektiğine karar verdi.",
+      "notes": "Sayfa 3 | 'heroic': kahramanca; 'aid': yardım etmek; 'genuine lover': samimi âşık."
+    },
+    {
+      "id": 60,
+      "start_ms": 339668,
+      "end_ms": 345020,
+      "text": "Suddenly, she spread her brown wings for flight and soared high up into the air.",
+      "translation": "Aniden uçmak için kahverengi kanatlarını açtı ve gökyüzüne doğru yükseklere süzüldü.",
+      "notes": "Sayfa 3 | 'spread wings': kanatları açmak; 'soared high': yükseklere süzüldü."
+    },
+    {
+      "id": 61,
+      "start_ms": 346020,
+      "end_ms": 351036,
+      "text": "She passed through the quiet grove like a soft shadow across the green lawn.",
+      "translation": "Yeşil çimenliğin üzerinden usul bir gölge gibi o sessiz koruluğun içinden geçip gitti.",
+      "notes": "Sayfa 4 | 'quiet grove': dingin koruluk; 'like a shadow': bir gölge gibi."
+    },
+    {
+      "id": 62,
+      "start_ms": 351436,
+      "end_ms": 357364,
+      "text": "She sailed swiftly over the garden paths, searching for the bush that bore red roses.",
+      "translation": "Kırmızı güller açan fidanı arayarak bahçe yolları üzerinden süratle süzüldü.",
+      "notes": "Sayfa 4 | 'sailed swiftly': hızla süzüldü; 'bore red roses': kırmızı güller veren."
+    },
+    {
+      "id": 63,
+      "start_ms": 357764,
+      "end_ms": 363092,
+      "text": "In the centre of a sunny grass-plot stood a handsome Rose-tree with slender branches.",
+      "translation": "Güneşli bir çimenliğin tam ortasında ince dallı gösterişli bir Gül Ağacı duruyordu.",
+      "notes": "Sayfa 4 | 'grass-plot': çimenlik parça; 'handsome': gösterişli, yakışıklı."
+    },
+    {
+      "id": 64,
+      "start_ms": 363492,
+      "end_ms": 369156,
+      "text": "When she saw it, she flew over directly and alighted lightly upon a delicate spray.",
+      "translation": "Onu görünce dosdoğru üzerine uçtu ve narin bir sürgünün üzerine hafifçe kondu.",
+      "notes": "Sayfa 4 | 'alighted lightly': hafifçe kondu; 'spray': narin dalcık/sürgün."
+    },
+    {
+      "id": 65,
+      "start_ms": 369556,
+      "end_ms": 375244,
+      "text": "\"Give me a single red rose,\" she cried out, \"and I will sing you my sweetest song!\"",
+      "translation": "\"Bana tek bir kırmızı gül ver,\" diye haykırdı, \"ve ben de sana en tatlı şarkımı söyleyeyim!\"",
+      "notes": "Sayfa 4 | 'Give me... and I will...': yap ki yapayım kalıbı; 'sweetest song': en tatlı ezgi."
+    },
+    {
+      "id": 66,
+      "start_ms": 375644,
+      "end_ms": 380660,
+      "text": "She looked eagerly among the green foliage for any sign of a crimson bud.",
+      "translation": "Kırmızı bir tomurcuğun herhangi bir izini görmek için yeşil yaprakların arasına hevesle baktı.",
+      "notes": "Sayfa 4 | 'foliage': yaprak örtüsü; 'crimson bud': kor kırmızısı tomurcuk."
+    },
+    {
+      "id": 67,
+      "start_ms": 381060,
+      "end_ms": 384972,
+      "text": "But the Rose-tree shook its leafy head with gentle regret.",
+      "translation": "Fakat Gül Ağacı tatlı bir mahcubiyetle yapraklı başını olumsuz anlamda salladı.",
+      "notes": "Sayfa 4 | 'shook head': başını salladı; 'gentle regret': nezaket dolu üzüntü."
+    },
+    {
+      "id": 68,
+      "start_ms": 385372,
+      "end_ms": 389404,
+      "text": "\"My roses are white,\" it answered in a soft whisper.",
+      "translation": "Usul bir fısıltıyla \"Benim güllerim beyazdır,\" diye yanıt verdi.",
+      "notes": "Sayfa 4 | 'soft whisper': alçak fısıltı; 'white roses': beyaz güller."
+    },
+    {
+      "id": 69,
+      "start_ms": 389804,
+      "end_ms": 394844,
+      "text": "\"They are as white as the foamy sea-spray that crashes against the coastal cliffs.\"",
+      "translation": "\"Kıyı kayalıklarına çarpan o köpüklü deniz dalgası kadar bembeyazdırlar.\"",
+      "notes": "Sayfa 4 | 'sea-spray': deniz köpüğü serpintisi; 'coastal cliffs': kıyı falezleri."
+    },
+    {
+      "id": 70,
+      "start_ms": 395244,
+      "end_ms": 400188,
+      "text": "\"They are whiter than the untouched snow that rests upon the highest mountain peak.\"",
+      "translation": "\"En yüksek dağ zirvesinde yatan el değmemiş kardan daha beyazdırlar.\"",
+      "notes": "Sayfa 4 | 'untouched snow': el değmemiş kar; 'mountain peak': dağ zirvesi."
+    },
+    {
+      "id": 71,
+      "start_ms": 400588,
+      "end_ms": 405484,
+      "text": "\"Go to my brother who grows round the old stone sundial on the western lawn.\"",
+      "translation": "\"Batı çimenliğindeki eski taş güneş saatinin etrafında büyüyen kardeşime git.\"",
+      "notes": "Sayfa 4 | 'sundial': güneş saati; 'western lawn': batı çimenliği."
+    },
+    {
+      "id": 72,
+      "start_ms": 405884,
+      "end_ms": 410228,
+      "text": "\"Perhaps he can give you what you desire so earnestly for your friend.\"",
+      "translation": "\"Belki dostun için böylesine içtenlikle arzuladığın şeyi o sana verebilir.\"",
+      "notes": "Sayfa 4 | 'desire so earnestly': canı gönülden arzulamak."
+    },
+    {
+      "id": 73,
+      "start_ms": 410628,
+      "end_ms": 415812,
+      "text": "So the Nightingale took flight again and flew across to the old stone sundial.",
+      "translation": "Böylece Bülbül yeniden havalandı ve eski taş güneş saatine doğru karşıya uçtu.",
+      "notes": "Sayfa 4 | 'took flight': havalandı; 'flew across': karşıya uçtu."
+    },
+    {
+      "id": 74,
+      "start_ms": 416212,
+      "end_ms": 421132,
+      "text": "She saw another Rose-tree winding its thorny stems around the weathered pillar.",
+      "translation": "Dikenli gövdelerini zamanın aşındırdığı sütuna dolayan başka bir Gül Ağacı gördü.",
+      "notes": "Sayfa 4 | 'thorny stems': dikenli saplar/gövdeler; 'weathered pillar': yıpranmış sütun."
+    },
+    {
+      "id": 75,
+      "start_ms": 421532,
+      "end_ms": 427124,
+      "text": "\"Give me a single red rose,\" she pleaded, \"and I will sing you my sweetest song!\"",
+      "translation": "\"Bana tek bir kırmızı gül ver,\" diye yalvardı, \"ve ben de sana en tatlı şarkımı söyleyeyim!\"",
+      "notes": "Sayfa 4 | 'pleaded': yalvardı; 'sweetest song': en güzel nağme."
+    },
+    {
+      "id": 76,
+      "start_ms": 427524,
+      "end_ms": 431748,
+      "text": "The second Rose-tree swayed slowly and shook its thorny head.",
+      "translation": "İkinci Gül Ağacı yavaşça salındı ve dikenli başını olumsuz anlamda salladı.",
+      "notes": "Sayfa 4 | 'swayed slowly': yavaşça salındı; 'thorny head': dikenli baş."
+    },
+    {
+      "id": 77,
+      "start_ms": 432148,
+      "end_ms": 436204,
+      "text": "\"My roses are yellow,\" it answered with quiet pride.",
+      "translation": "Sessiz bir gururla \"Benim güllerim sarıdır,\" diye cevapladı.",
+      "notes": "Sayfa 4 | 'quiet pride': sessiz onur/gurur; 'yellow roses': sarı güller."
+    },
+    {
+      "id": 78,
+      "start_ms": 436604,
+      "end_ms": 441788,
+      "text": "\"They are as yellow as the golden hair of the mermaid who sits upon an amber throne.\"",
+      "translation": "\"Kehribar bir tahtta oturan denizkızının altın rengi saçları kadar sarıdırlar.\"",
+      "notes": "Sayfa 4 | 'mermaid': denizkızı; 'amber throne': kehribar taht."
+    },
+    {
+      "id": 79,
+      "start_ms": 442188,
+      "end_ms": 447060,
+      "text": "\"They are yellower than the meadow daffodil that blooms before the mower arrives.\"",
+      "translation": "\"Çayır biçici gelmeden önce açan nergis çiçeğinden bile daha sarıdırlar.\"",
+      "notes": "Sayfa 4 | 'daffodil': nergis/fulya çiçeği; 'mower': ot biçen kimse."
+    },
+    {
+      "id": 80,
+      "start_ms": 447460,
+      "end_ms": 451588,
+      "text": "\"Go to my brother who grows beneath the Student's bedroom window.\"",
+      "translation": "\"Öğrenci'nin yatak odası penceresinin altında büyüyen diğer kardeşime git.\"",
+      "notes": "Sayfa 4 | 'beneath the window': pencerenin altında; 'Student': Talebe."
+    },
+    {
+      "id": 81,
+      "start_ms": 452588,
+      "end_ms": 457316,
+      "text": "\"Perhaps he can give you a red rose to save the young lover from heartbreak.\"",
+      "translation": "\"Belki o, genç âşığı kalp kırıklığından kurtarmak için sana kırmızı bir gül verebilir.\"",
+      "notes": "Sayfa 5 | 'save from heartbreak': kalp kırıklığından kurtarmak."
+    },
+    {
+      "id": 82,
+      "start_ms": 457716,
+      "end_ms": 463068,
+      "text": "So the Nightingale flew over to the Rose-tree that was growing beneath the Student's window.",
+      "translation": "Bunun üzerine Bülbül, Öğrenci'nin penceresi altında büyüyen Gül Ağacı'na doğru uçtu.",
+      "notes": "Sayfa 5 | 'was growing': büyümekte olan; 'beneath': altında."
+    },
+    {
+      "id": 83,
+      "start_ms": 463468,
+      "end_ms": 468340,
+      "text": "Its roots were planted deep in the dark soil right against the castle wall.",
+      "translation": "Kökleri tam şato duvarının dibinde karanlık toprağın derinliklerine dikilmişti.",
+      "notes": "Sayfa 5 | 'deep in soil': toprağın derininde; 'against the wall': duvara bitişik."
+    },
+    {
+      "id": 84,
+      "start_ms": 468740,
+      "end_ms": 475148,
+      "text": "\"Give me a single red rose,\" she cried with all her soul, \"and I will sing you my sweetest song!\"",
+      "translation": "Bütün ruhuyla \"Bana tek bir kırmızı gül ver,\" diye haykırdı, \"ve ben de sana en tatlı şarkımı söyleyeyim!\"",
+      "notes": "Sayfa 5 | 'with all her soul': canı gönülden/bütün ruhuyla."
+    },
+    {
+      "id": 85,
+      "start_ms": 475548,
+      "end_ms": 480324,
+      "text": "The third Rose-tree rustled its brittle leaves mournfully in the chilly wind.",
+      "translation": "Üçüncü Gül Ağacı ayazlı rüzgârda gevrek yapraklarını kederle hışırdattı.",
+      "notes": "Sayfa 5 | 'rustled': hışırdattı; 'brittle leaves': gevrek/kırılgan yapraklar; 'mournfully': matemle."
+    },
+    {
+      "id": 86,
+      "start_ms": 480724,
+      "end_ms": 486076,
+      "text": "\"My roses are red indeed,\" it answered in a raspy, sorrowful tone.",
+      "translation": "Hırıltılı ve kederli bir ses tonuyla \"Benim güllerim sahiden de kırmızıdır,\" diye yanıtladı.",
+      "notes": "Sayfa 5 | 'red indeed': sahiden kırmızı; 'raspy': hırıltılı/çatallı."
+    },
+    {
+      "id": 87,
+      "start_ms": 486476,
+      "end_ms": 490964,
+      "text": "\"They are as red as the feet of the white dove that flies across the sky.\"",
+      "translation": "\"Gökyüzünde uçup giden beyaz kumrunun ayakları kadar kıpkırmızıdırlar.\"",
+      "notes": "Sayfa 5 | 'dove': kumru/güvercin; 'across the sky': gökyüzü boyunca."
+    },
+    {
+      "id": 88,
+      "start_ms": 491364,
+      "end_ms": 495972,
+      "text": "\"They are redder than the great fans of coral that wave in the ocean cavern.\"",
+      "translation": "\"Okyanus mağarasında dalgalanan o koca mercan yelpazelerinden bile daha kırmızıdırlar.\"",
+      "notes": "Sayfa 5 | 'fans of coral': mercan yelpazeleri; 'ocean cavern': okyanus mağarası."
+    },
+    {
+      "id": 89,
+      "start_ms": 496372,
+      "end_ms": 501388,
+      "text": "\"But the severe winter has nipped my freezing veins and chilled my lifeblood.\"",
+      "translation": "\"Fakat o çetin kış, donan damarlarımı dondurdu ve hayat suyumu buz kesti.\"",
+      "notes": "Sayfa 5 | 'nipped veins': damarları dondurmak; 'lifeblood': can damarı/özsu."
+    },
+    {
+      "id": 90,
+      "start_ms": 501788,
+      "end_ms": 506300,
+      "text": "\"The sharp frost has bitten my tender buds before they could ever bloom.\"",
+      "translation": "\"Keskin kırağı, daha hiç açamadan o narin tomurcuklarımı ısırdı ve kuruttu.\"",
+      "notes": "Sayfa 5 | 'tender buds': narin tomurcuklar; 'bitten': ısırmış/yakmış."
+    },
+    {
+      "id": 91,
+      "start_ms": 506700,
+      "end_ms": 511596,
+      "text": "\"The violent storm has snapped my finest branches and broken my spirit.\"",
+      "translation": "\"Şiddetli fırtına en güzel dallarımı çatırdattı ve şevkimi kırdı.\"",
+      "notes": "Sayfa 5 | 'snapped branches': dalları çıt diye kırmak; 'violent storm': azgın fırtına."
+    },
+    {
+      "id": 92,
+      "start_ms": 511996,
+      "end_ms": 516868,
+      "text": "\"I shall have no roses at all this entire barren year,\" wept the tree.",
+      "translation": "Ağaç ağlayarak \"Bütün bu kıraç yıl boyunca hiç mi hiç gülüm olmayacak,\" dedi.",
+      "notes": "Sayfa 5 | 'no roses at all': zerre kadar gül yok; 'barren year': verimsiz yıl."
+    },
+    {
+      "id": 93,
+      "start_ms": 517268,
+      "end_ms": 522764,
+      "text": "\"One red rose is all that I require!\" cried the Nightingale with desperate tears.",
+      "translation": "Bülbül çaresiz gözyaşlarıyla \"Benim tek ihtiyacım olan şey sadece tek bir kırmızı gül!\" diye haykırdı.",
+      "notes": "Sayfa 5 | 'all that I require': tek muhtaç olduğum şey; 'desperate tears': çaresiz gözyaşları."
+    },
+    {
+      "id": 94,
+      "start_ms": 523164,
+      "end_ms": 527388,
+      "text": "\"Only one single red rose in the entire wide world!\"",
+      "translation": "\"Bütün o koca dünyada yalnızca tek bir kırmızı gül!\"",
+      "notes": "Sayfa 5 | Vurgulu feryat yapısı ('Only one single red rose!')."
+    },
+    {
+      "id": 95,
+      "start_ms": 527788,
+      "end_ms": 532252,
+      "text": "\"Is there no way whatsoever by which I can obtain it for the weeping boy?\"",
+      "translation": "\"Ağlayan o çocuk için onu elde edebileceğim hiçbir yol yok mu sahiden?\"",
+      "notes": "Sayfa 5 | 'no way whatsoever': hiçbir surette bir yol; 'obtain': temin etmek/elde etmek."
+    },
+    {
+      "id": 96,
+      "start_ms": 532652,
+      "end_ms": 537044,
+      "text": "\"There is a way,\" answered the Rose-tree slowly and hesitantly.",
+      "translation": "Gül Ağacı ağır ve tereddütlü bir şekilde \"Bir yol var,\" diye yanıtladı.",
+      "notes": "Sayfa 5 | 'hesitantly': tereddütle, çekinerek; 'slowly': yavaşça."
+    },
+    {
+      "id": 97,
+      "start_ms": 537444,
+      "end_ms": 542340,
+      "text": "\"But the price is so terrible that I dare not tell it to a creature of song.\"",
+      "translation": "\"Fakat bedeli öyle korkunç ki bir şarkı kuşuna bunu söylemeye dilim varmıyor.\"",
+      "notes": "Sayfa 5 | 'dare not': cesaret edememek; 'creature of song': şakıyan narin varlık."
+    },
+    {
+      "id": 98,
+      "start_ms": 542740,
+      "end_ms": 548692,
+      "text": "\"Tell it to me!\" commanded the little bird courageously. \"I am not afraid!\"",
+      "translation": "Küçük kuş cesaretle \"Söyle bana!\" diye emretti, \"Ben korkmuyorum!\"",
+      "notes": "Sayfa 5 | 'commanded': buyurdu/emretti; 'courageously': yüreklilikle."
+    },
+    {
+      "id": 99,
+      "start_ms": 549092,
+      "end_ms": 553748,
+      "text": "The tree rustled in the wind and leaned close to whisper the awful secret.",
+      "translation": "Ağaç rüzgârda hışırdadı ve o dehşetli sırrı fısıldamak için yakına doğru eğildi.",
+      "notes": "Sayfa 5 | 'awful secret': korkunç sır; 'leaned close': yakınına eğildi."
+    },
+    {
+      "id": 100,
+      "start_ms": 554148,
+      "end_ms": 559260,
+      "text": "The leaves trembled as if horrified by the grim truth that was about to be spoken.",
+      "translation": "Söylenmek üzere olan o karanlık hakikatten dehşete kapılmışçasına yapraklar titredi.",
+      "notes": "Sayfa 5 | 'horrified by': -den dehşete düşmüş; 'grim truth': meşum ve karanlık gerçek."
+    },
+    {
+      "id": 101,
+      "start_ms": 560260,
+      "end_ms": 566140,
+      "text": "\"If you must have a red rose,\" said the Tree, \"you must build it out of music by moonlight.\"",
+      "translation": "Ağaç \"Eğer mutlaka kırmızı bir gül istiyorsan,\" dedi, \"onu ay ışığında müzikle yoğurmalısın.\"",
+      "notes": "Sayfa 6 | 'build out of music': ezgiyle yoğurmak/inşa etmek; 'by moonlight': mehtapta."
+    },
+    {
+      "id": 102,
+      "start_ms": 566540,
+      "end_ms": 571076,
+      "text": "\"And you must stain it with your own heart's blood until the petals glow.\"",
+      "translation": "\"Ve taçyapraklar parıldayana dek onu kendi yüreğinin can kanıyla boyamalısın.\"",
+      "notes": "Sayfa 6 | 'stain with blood': kanla boyamak; 'heart's blood': yürek kanı."
+    },
+    {
+      "id": 103,
+      "start_ms": 571476,
+      "end_ms": 576084,
+      "text": "\"You must sing to me with your breast pressed tightly against a sharp thorn.\"",
+      "translation": "\"Göğsünü sivri bir dikene sımsıkı bastırarak bana şarkı söylemelisin.\"",
+      "notes": "Sayfa 6 | 'pressed against': -e bastırılmış; 'sharp thorn': sivri diken."
+    },
+    {
+      "id": 104,
+      "start_ms": 576484,
+      "end_ms": 581332,
+      "text": "\"All night long you must sing your sweetest melodies into the cold darkness.\"",
+      "translation": "\"Bütün gece boyunca en tatlı ezgilerini o soğuk karanlığa doğru şakımalısın.\"",
+      "notes": "Sayfa 6 | 'all night long': gece boyunca; 'sweetest melodies': en tatlı ezgiler."
+    },
+    {
+      "id": 105,
+      "start_ms": 581732,
+      "end_ms": 586340,
+      "text": "\"And the thorn must pierce your tender flesh and enter straight into your heart.\"",
+      "translation": "\"Ve o diken narin etini delip dosdoğru senin kalbinin içine saplanmalı.\"",
+      "notes": "Sayfa 6 | 'pierce tender flesh': narin eti delip geçmek; 'enter straight': dosdoğru girmek."
+    },
+    {
+      "id": 106,
+      "start_ms": 586740,
+      "end_ms": 591996,
+      "text": "\"Your lifeblood must flow freely into my dry veins and become mine forever.\"",
+      "translation": "\"Senin hayat suyun benim kurumuş damarlarıma oluk oluk akmalı ve ebediyen benim olmalı.\"",
+      "notes": "Sayfa 6 | 'flow freely': serbestçe/oluk oluk akmak; 'dry veins': kuru damarlar."
+    },
+    {
+      "id": 107,
+      "start_ms": 592396,
+      "end_ms": 597460,
+      "text": "The Nightingale listened in solemn silence as the dreadful condition was revealed.",
+      "translation": "Bu korkunç şart açıklandığında Bülbül vakar dolu bir sessizlikle dinledi.",
+      "notes": "Sayfa 6 | 'solemn silence': ağırbaşlı/vakar dolu sükûnet; 'dreadful condition': dehşetli koşul."
+    },
+    {
+      "id": 108,
+      "start_ms": 597860,
+      "end_ms": 603524,
+      "text": "\"Death is a very great price to give for a single red rose,\" cried the Nightingale.",
+      "translation": "Bülbül \"Tek bir kırmızı gül için ölüm hakikaten çok büyük bir bedeldir,\" dedi.",
+      "notes": "Sayfa 6 | 'great price': ağır bedel; 'give for': karşılığında vermek."
+    },
+    {
+      "id": 109,
+      "start_ms": 603924,
+      "end_ms": 608892,
+      "text": "\"And life is exceedingly dear and sweet to every living creature on earth.\"",
+      "translation": "\"Ve hayat yeryüzündeki yaşayan her canlı için son derece kıymetli ve tatlıdır.\"",
+      "notes": "Sayfa 6 | 'exceedingly dear': haddinden fazla tatlı/kıymetli; 'living creature': mahlûkat."
+    },
+    {
+      "id": 110,
+      "start_ms": 609292,
+      "end_ms": 614740,
+      "text": "\"It is pleasant to sit in the green wood, and to watch the Sun in his chariot of gold.\"",
+      "translation": "\"Yeşil korulukta oturmak ve altın arabasındaki Güneş'i izlemek öyle hoştur ki.\"",
+      "notes": "Sayfa 6 | 'chariot of gold': altın savaş arabası (Güneş tanrısı mecazı); 'pleasant': zevkli."
+    },
+    {
+      "id": 111,
+      "start_ms": 615140,
+      "end_ms": 620564,
+      "text": "\"It is pleasant to watch the Moon in her chariot of pearl as she sails across the stars.\"",
+      "translation": "\"Yıldızların arasından süzülürken inci arabasındaki Ay'ı seyretmek öyle tatlıdır ki.\"",
+      "notes": "Sayfa 6 | 'chariot of pearl': inci araba; 'sails across': süzülerek geçmek."
+    },
+    {
+      "id": 112,
+      "start_ms": 620964,
+      "end_ms": 626004,
+      "text": "\"Sweet is the scent of the hawthorn that drifts gently across the winding valley.\"",
+      "translation": "\"Kıvrılan vadi boyunca usulca esip gelen akdikenin kokusu öyle tatlıdır ki.\"",
+      "notes": "Sayfa 6 | 'hawthorn': akdiken/yemişen; 'sweet scent': tatlı koku; 'winding valley': kıvrımlı vadi."
+    },
+    {
+      "id": 113,
+      "start_ms": 626404,
+      "end_ms": 631516,
+      "text": "\"And sweet are the bluebells that hide in the shady valley and the heather upon the hill.\"",
+      "translation": "\"Ve gölgeli vadide saklanan çançiçekleri ile tepedeki süpürgeotları öyle güzeldir ki.\"",
+      "notes": "Sayfa 6 | 'bluebells': yabani çançiçekleri; 'heather': süpürgeotu/funda."
+    },
+    {
+      "id": 114,
+      "start_ms": 631916,
+      "end_ms": 637532,
+      "text": "\"Yet Love is better than Life itself, and what is the heart of a bird compared to a man's?\"",
+      "translation": "\"Fakat Aşk Hayat'ın kendisinden daha üstündür; bir insanın kalbinin yanında bir kuşun kalbinin lafı mı olur?\"",
+      "notes": "Sayfa 6 | 'better than Life': hayattan üstün; 'compared to': ile kıyaslandığında."
+    },
+    {
+      "id": 115,
+      "start_ms": 637932,
+      "end_ms": 643428,
+      "text": "She looked down at the weeping Student, who was still lying prostrate upon the grass.",
+      "translation": "Hâlâ çimenlerin üzerinde yüzükoyun boylu boyunca yatan o ağlayan Öğrenci'ye aşağı baktı.",
+      "notes": "Sayfa 6 | 'prostrate': yüzükoyun yere serilmiş; 'looked down': aşağı baktı."
+    },
+    {
+      "id": 116,
+      "start_ms": 643828,
+      "end_ms": 649372,
+      "text": "His grief was pure, unselfish, and born of noble, tender sentiment.",
+      "translation": "Onun kederi tertemizdi, bencillikten uzaktı ve asil, narin bir duygudan doğmuştu.",
+      "notes": "Sayfa 6 | 'noble sentiment': asil duygu; 'born of': -den doğan."
+    },
+    {
+      "id": 117,
+      "start_ms": 649772,
+      "end_ms": 654788,
+      "text": "She resolved in her feathered breast that his true love must not be disappointed.",
+      "translation": "Tüylü göğsünde, onun bu hakiki aşkının hayal kırıklığına uğramaması gerektiğine katiyetle karar verdi.",
+      "notes": "Sayfa 6 | 'resolved': azmetti/karar kıldı; 'feathered breast': tüylü bağır."
+    },
+    {
+      "id": 118,
+      "start_ms": 655188,
+      "end_ms": 661884,
+      "text": "\"Be happy, young lover!\" she called out softly. \"You shall have your red rose!\"",
+      "translation": "Usulca seslendi: \"Mutlu ol genç âşık! Kırmızı gülüne muhakkak kavuşacaksın!\"",
+      "notes": "Sayfa 6 | 'shall have': kesinlikle sahip olacaksın (vurgulu söz verme)."
+    },
+    {
+      "id": 119,
+      "start_ms": 662284,
+      "end_ms": 667420,
+      "text": "\"I will build it out of music by moonlight, and stain it with my own heart's blood.\"",
+      "translation": "\"Onu ay ışığında müzikle yoğuracağım ve kendi yüreğimin can kanıyla kızıla boyayacağım.\"",
+      "notes": "Sayfa 6 | 'stain with blood': kanla boyamak; 'heart's blood': can kanı."
+    },
+    {
+      "id": 120,
+      "start_ms": 667820,
+      "end_ms": 673244,
+      "text": "\"All that I ask of you in return is that you will be a true, faithful lover forever.\"",
+      "translation": "\"Karşılığında senden istediğim tek şey, sonsuza dek hakiki ve sadık bir âşık olmandır.\"",
+      "notes": "Sayfa 6 | 'in return': karşılığında; 'faithful lover': sadık ve vefalı âşık."
+    },
+    {
+      "id": 121,
+      "start_ms": 674244,
+      "end_ms": 679788,
+      "text": "\"For Love is wiser than Philosophy, of that I am completely certain in my soul.\"",
+      "translation": "\"Zira Aşk Felsefe'den daha bilgedir, ruhumda bundan bütünüyle eminim.\"",
+      "notes": "Sayfa 7 | 'wiser than Philosophy': felsefeden daha hikmetli/bilge; 'certain': emin."
+    },
+    {
+      "id": 122,
+      "start_ms": 680188,
+      "end_ms": 686236,
+      "text": "\"Though Philosophy is undeniably wise, yet Love perceives what logic cannot see.\"",
+      "translation": "\"Felsefe inkâr edilemez biçimde bilge olsa da Aşk, mantığın göremediğini sezer.\"",
+      "notes": "Sayfa 7 | 'undeniably': yadsınamaz şekilde; 'perceives': sezer/idrak eder."
+    },
+    {
+      "id": 123,
+      "start_ms": 686636,
+      "end_ms": 691868,
+      "text": "\"And Love is mightier than Power, though worldly Power thinks itself supreme.\"",
+      "translation": "\"Ve Aşk İktidar'dan daha kudretlidir, her ne kadar dünyevi Güç kendini üstün sansa da.\"",
+      "notes": "Sayfa 7 | 'mightier than Power': güçten/iktidardan daha kudretli; 'supreme': en yüce."
+    },
+    {
+      "id": 124,
+      "start_ms": 692268,
+      "end_ms": 697572,
+      "text": "\"Flame-coloured are his wings, and coloured like pure burning flame is his body.\"",
+      "translation": "\"Onun kanatları alev rengindedir ve bedeni alev alev yanan katıksız bir ateş gibi renk almıştır.\"",
+      "notes": "Sayfa 7 | Devrik edebi yapı ('Flame-coloured are his wings...')."
+    },
+    {
+      "id": 125,
+      "start_ms": 697972,
+      "end_ms": 702676,
+      "text": "\"His lips are sweet as wild honey dripping from the honeycomb in the rock.\"",
+      "translation": "\"Dudakları, kayadaki petekten süzülen yabani bal kadar tatlıdır.\"",
+      "notes": "Sayfa 7 | 'wild honey': yabani bal; 'honeycomb': bal peteği."
+    },
+    {
+      "id": 126,
+      "start_ms": 703076,
+      "end_ms": 708068,
+      "text": "\"And his breath is like fragrant frankincense rising before the altar of heaven.\"",
+      "translation": "\"Ve nefesi, cennetin mihrabı önünde tüten mis kokulu ak günnük tütsüsü gibidir.\"",
+      "notes": "Sayfa 7 | 'frankincense': günnük tütsüsü; 'altar': sunak/mihrap."
+    },
+    {
+      "id": 127,
+      "start_ms": 708468,
+      "end_ms": 713052,
+      "text": "The Student looked up from the grass and listened intently to the bird's song.",
+      "translation": "Öğrenci çimenlerin arasından başını kaldırdı ve kuşun şarkısını pürdikkat dinledi.",
+      "notes": "Sayfa 7 | 'listened intently': dikkat kesilerek dinledi; 'looked up': yukarı baktı."
+    },
+    {
+      "id": 128,
+      "start_ms": 713452,
+      "end_ms": 718708,
+      "text": "He could hear the melody, but he could not understand what the Nightingale was saying to him.",
+      "translation": "Melodiyi duyabiliyordu, fakat Bülbül'ün kendisine ne söylediğini bir türlü anlayamıyordu.",
+      "notes": "Sayfa 7 | 'could hear': duyabiliyordu; 'could not understand': anlayamıyordu."
+    },
+    {
+      "id": 129,
+      "start_ms": 719108,
+      "end_ms": 724748,
+      "text": "For he only knew the dry, factual things that are written down in dusty textbooks.",
+      "translation": "Zira o yalnızca tozlu ders kitaplarında yazılı olan o kuru, kitabi şeyleri bilirdi.",
+      "notes": "Sayfa 7 | 'factual things': olgusal/kitabi şeyler; 'textbooks': ders kitapları."
+    },
+    {
+      "id": 130,
+      "start_ms": 725148,
+      "end_ms": 731364,
+      "text": "The language of nature and the whispers of selfless sacrifice were completely foreign to his ears.",
+      "translation": "Doğanın dili ve karşılıksız fedakârlığın fısıltıları onun kulaklarına bütünüyle yabancıydı.",
+      "notes": "Sayfa 7 | 'selfless sacrifice': karşılıksız fedakârlık; 'foreign to ears': kulağa yabancı."
+    },
+    {
+      "id": 131,
+      "start_ms": 731764,
+      "end_ms": 736468,
+      "text": "But the ancient holm-oak tree understood the terrible gravity of the moment.",
+      "translation": "Fakat o kadim pırnal meşesi ağacı anın o korkunç ciddiyetini anlamıştı.",
+      "notes": "Sayfa 7 | 'ancient': kadim/yaşlı; 'gravity of the moment': anın vahameti/ciddiyeti."
+    },
+    {
+      "id": 132,
+      "start_ms": 736868,
+      "end_ms": 742724,
+      "text": "The tree felt heavy sorrow, for it loved the little bird who had built her nest in its boughs.",
+      "translation": "Ağaç derin bir keder hissetti, çünkü dallarına yuvasını kurmuş olan o minik kuşu çok severdi.",
+      "notes": "Sayfa 7 | 'heavy sorrow': ağır keder; 'in its boughs': dallarında."
+    },
+    {
+      "id": 133,
+      "start_ms": 743124,
+      "end_ms": 749028,
+      "text": "\"Sing me one last song,\" whispered the tree softly, rustling its evergreen leaves.",
+      "translation": "Ağaç her daim yeşil yapraklarını hışırdatarak \"Bana son bir şarkı söyle,\" diye usulca fısıldadı.",
+      "notes": "Sayfa 7 | 'one last song': son bir şarkı; 'evergreen': her mevsim yeşil kalan."
+    },
+    {
+      "id": 134,
+      "start_ms": 749428,
+      "end_ms": 754540,
+      "text": "\"I shall feel very lonely and empty when you are gone from my welcoming branches.\"",
+      "translation": "\"Kucak açan dallarımdan göçüp gittiğinde kendimi çok yalnız ve bomboş hissedeceğim.\"",
+      "notes": "Sayfa 7 | 'welcoming branches': kucak açan dallar; 'when you are gone': sen gittiğinde."
+    },
+    {
+      "id": 135,
+      "start_ms": 754940,
+      "end_ms": 760796,
+      "text": "So the generous Nightingale sang to the oak tree her most exquisite, bittersweet melody.",
+      "translation": "Bunun üzerine cömert Bülbül, meşe ağacına en enfes, en tatlı-hüzünlü ezgisini şakıdı.",
+      "notes": "Sayfa 7 | 'exquisite': fevkalade zarif; 'bittersweet': acı-tatlı, buruk."
+    },
+    {
+      "id": 136,
+      "start_ms": 761196,
+      "end_ms": 766404,
+      "text": "Her clear voice sounded like pure bubbling water running from a cool silver jar.",
+      "translation": "Berrak sesi, serin gümüş bir testiden çağıldayan dupduru su gibi şırıldıyordu.",
+      "notes": "Sayfa 7 | 'clear voice': berrak ses; 'bubbling water': fokurdayan/çağıldayan su; 'silver jar': gümüş testi."
+    },
+    {
+      "id": 137,
+      "start_ms": 766804,
+      "end_ms": 772372,
+      "text": "The notes danced across the quiet garden, echoing with profound, tragic longing.",
+      "translation": "Notalar sessiz bahçe boyunca dans etti, derin ve trajik bir hasretle yankılandı.",
+      "notes": "Sayfa 7 | 'danced across': boyunca dans etti; 'tragic longing': trajik özlem."
+    },
+    {
+      "id": 138,
+      "start_ms": 772772,
+      "end_ms": 777188,
+      "text": "When she had finished her song, the Student stood up from the clover.",
+      "translation": "Bülbül şarkısını bitirdiğinde Öğrenci yoncadan ayağa kalktı.",
+      "notes": "Sayfa 7 | 'finished song': şarkıyı bitirdi; 'stood up': ayağa dikildi."
+    },
+    {
+      "id": 139,
+      "start_ms": 777588,
+      "end_ms": 782292,
+      "text": "He pulled a leather notebook and a lead pencil from his deep jacket pocket.",
+      "translation": "Ceketinin derin cebinden deri bir not defteri ile kurşun kalem çıkardı.",
+      "notes": "Sayfa 7 | 'leather notebook': deri defter; 'lead pencil': kurşun kalem."
+    },
+    {
+      "id": 140,
+      "start_ms": 782692,
+      "end_ms": 788788,
+      "text": "He began walking slowly toward the house, analyzing what he had just heard with critical logic.",
+      "translation": "Az önce duyduklarını eleştirel mantıkla tahlil ederek eve doğru yavaşça yürümeye başladı.",
+      "notes": "Sayfa 7 | 'critical logic': eleştirel mantık; 'analyzing': tahlil ederek."
+    },
+    {
+      "id": 141,
+      "start_ms": 789788,
+      "end_ms": 794948,
+      "text": "\"She has form,\" muttered the Student to himself as he walked through the quiet grove.",
+      "translation": "Öğrenci o sessiz koruluktan geçerken kendi kendine \"Kuşun bir formu var,\" diye mırıldandı.",
+      "notes": "Sayfa 8 | 'has form': estetik biçimi var; 'muttered': homurdandı."
+    },
+    {
+      "id": 142,
+      "start_ms": 795348,
+      "end_ms": 800316,
+      "text": "\"That much cannot be denied by any impartial critic of art and literature.\"",
+      "translation": "\"Bu kadarı, sanat ve edebiyatın tarafsız herhangi bir eleştirmeni tarafından inkâr edilemez.\"",
+      "notes": "Sayfa 8 | 'impartial critic': tarafsız eleştirmen; 'cannot be denied': inkâr edilemez."
+    },
+    {
+      "id": 143,
+      "start_ms": 800716,
+      "end_ms": 806428,
+      "text": "\"But has she got any genuine feeling? I am very much afraid she has not.\"",
+      "translation": "\"Fakat onda hakiki bir duygu var mı? Çok korkarım ki zerre kadar yok.\"",
+      "notes": "Sayfa 8 | 'genuine feeling': samimi his/duygu; 'afraid she has not': korkarım ki yok."
+    },
+    {
+      "id": 144,
+      "start_ms": 806828,
+      "end_ms": 813524,
+      "text": "\"In fact, she is just like most artists: she is all style, without any true sincerity.\"",
+      "translation": "\"Aslına bakılırsa o tıpkı çoğu sanatçı gibi: baştan aşağı üsluptan ibaret, ama zerre samimiyeti yok.\"",
+      "notes": "Sayfa 8 | 'all style': sırf tarz ve biçim; 'sincerity': samimiyet/içtenlik."
+    },
+    {
+      "id": 145,
+      "start_ms": 813924,
+      "end_ms": 819636,
+      "text": "\"She would never sacrifice herself for others or endure real pain for another's benefit.\"",
+      "translation": "\"Başkaları uğruna kendini asla feda etmez ya da bir başkasının menfaati için gerçek bir acıya katlanmaz.\"",
+      "notes": "Sayfa 8 | 'sacrifice herself': kendini feda etmek; 'endure pain': acıya katlanmak."
+    },
+    {
+      "id": 146,
+      "start_ms": 820036,
+      "end_ms": 824908,
+      "text": "\"She thinks of nothing in the world but her own singing and vocal performance.\"",
+      "translation": "\"Dünyada kendi şakımasından ve ses performansından başka hiçbir şeyi düşünmez.\"",
+      "notes": "Sayfa 8 | 'thinks of nothing but...': -den başka hiçbir şey düşünmez."
+    },
+    {
+      "id": 147,
+      "start_ms": 825308,
+      "end_ms": 830204,
+      "text": "\"And everybody knows that the arts are essentially selfish and self-absorbed.\"",
+      "translation": "\"Ve herkes bilir ki güzel sanatlar özünde bencil ve kendi içine kapalıdır.\"",
+      "notes": "Sayfa 8 | 'essentially selfish': özünde hodbin/bencil; 'self-absorbed': kendine odaklı."
+    },
+    {
+      "id": 148,
+      "start_ms": 830604,
+      "end_ms": 836316,
+      "text": "\"Still, it must be admitted that she has some beautiful, resonant notes in her voice.\"",
+      "translation": "\"Yine de sesinde bazı güzel ve çınlayan notaların olduğu kabul edilmelidir.\"",
+      "notes": "Sayfa 8 | 'must be admitted': teslim edilmeli/kabul edilmeli; 'resonant': çınlayan."
+    },
+    {
+      "id": 149,
+      "start_ms": 836716,
+      "end_ms": 842020,
+      "text": "\"What a pity that they do not mean anything practical, or do any good to society!\"",
+      "translation": "\"Ne yazık ki pratik hiçbir anlam taşımıyorlar ve topluma hiçbir fayda sağlamıyorlar!\"",
+      "notes": "Sayfa 8 | 'What a pity!': Ne yazık!; 'practical': pratik/yararlı."
+    },
+    {
+      "id": 150,
+      "start_ms": 842420,
+      "end_ms": 848324,
+      "text": "He entered his dusty room, closed the heavy door, and sat down at his cluttered desk.",
+      "translation": "Tozlu odasına girdi, ağır kapıyı kapattı ve karmakarışık masasının başına oturdu.",
+      "notes": "Sayfa 8 | 'cluttered desk': darmadağın masa; 'closed the door': kapıyı kapattı."
+    },
+    {
+      "id": 151,
+      "start_ms": 848724,
+      "end_ms": 854340,
+      "text": "He lay down upon his narrow pallet-bed, still obsessed with the thought of his beloved.",
+      "translation": "Hâlâ sevgilisinin düşüncesiyle aklı başından gitmiş halde dar kerevetine uzandı.",
+      "notes": "Sayfa 8 | 'pallet-bed': tahta kerevet yatak; 'obsessed with': kafayı takmış."
+    },
+    {
+      "id": 152,
+      "start_ms": 854740,
+      "end_ms": 860572,
+      "text": "After a little while, exhausted by his weeping and despair, he fell fast asleep.",
+      "translation": "Kısa bir süre sonra ağlamaktan ve umutsuzluktan tükenmiş olarak derin bir uykuya daldı.",
+      "notes": "Sayfa 8 | 'exhausted by weeping': ağlamaktan bitap; 'fell fast asleep': derin uykuya dalmak."
+    },
+    {
+      "id": 153,
+      "start_ms": 860972,
+      "end_ms": 866588,
+      "text": "And when the silvery Moon shone high in the midnight heavens, the Nightingale flew over.",
+      "translation": "Ve o gümüşi Ay gece yarısı semasında yükselip parıldadığında Bülbül oraya uçtu.",
+      "notes": "Sayfa 8 | 'silvery Moon': gümüş renkli Ay; 'midnight heavens': gece yarısı gökleri."
+    },
+    {
+      "id": 154,
+      "start_ms": 866988,
+      "end_ms": 872292,
+      "text": "She flew straight to the Rose-tree that stood right beneath the sleeping Student's window.",
+      "translation": "Uyuyan Öğrenci'nin penceresinin hemen altında dikilen Gül Ağacı'na dosdoğru uçtu.",
+      "notes": "Sayfa 8 | 'sleeping Student': uyuyan Öğrenci; 'flew straight': dosdoğru uçtu."
+    },
+    {
+      "id": 155,
+      "start_ms": 872692,
+      "end_ms": 877588,
+      "text": "She set her delicate breast against the sharpest thorn on the topmost branch.",
+      "translation": "En tepedeki dalda bulunan en sivri dikene narin göğsünü sımsıkı dayadı.",
+      "notes": "Sayfa 8 | 'set breast against': göğsünü -e dayamak; 'sharpest thorn': en sivri diken."
+    },
+    {
+      "id": 156,
+      "start_ms": 877988,
+      "end_ms": 883388,
+      "text": "A sharp stab of cold pain pierced through her feathers and cut into her flesh.",
+      "translation": "Keskin ve soğuk bir sancı tüylerini delip geçti ve etini kesti.",
+      "notes": "Sayfa 8 | 'stab of pain': sancı saplanması; 'pierced through': delip geçti."
+    },
+    {
+      "id": 157,
+      "start_ms": 883788,
+      "end_ms": 888732,
+      "text": "Yet she did not flinch, nor did she pull away from the painful wooden needle.",
+      "translation": "Yine de ne irkildi, ne de o acı veren ahşap iğneden kendini geri çekti.",
+      "notes": "Sayfa 8 | 'flinch': irkilmek/geri adım atmak; 'pull away': geri çekilmek."
+    },
+    {
+      "id": 158,
+      "start_ms": 889132,
+      "end_ms": 894940,
+      "text": "All night long she began to sing, pressing closer and closer against the sharp thorn.",
+      "translation": "Bütün gece boyunca sivri dikene daha da yakından bastırarak şakımaya başladı.",
+      "notes": "Sayfa 8 | 'pressing closer': daha yakından bastırarak; 'began to sing': şakımaya başladı."
+    },
+    {
+      "id": 159,
+      "start_ms": 895340,
+      "end_ms": 900716,
+      "text": "The cold crystal Moon leaned down from her orbit to listen to the extraordinary song.",
+      "translation": "Soğuk billur Ay, bu fevkalade ezgiyi dinlemek için yörüngesinden aşağı doğru eğildi.",
+      "notes": "Sayfa 8 | 'leaned down': aşağı eğildi; 'orbit': göksel yörünge."
+    },
+    {
+      "id": 160,
+      "start_ms": 901116,
+      "end_ms": 907188,
+      "text": "The entire garden was bathed in pale, mystical light as the tragic sacrifice commenced.",
+      "translation": "O trajik fedakârlık başladığında bütün bahçe solgun, mistik bir ışıkla yıkandı.",
+      "notes": "Sayfa 8 | 'bathed in light': ışıkla yıkanmış; 'tragic sacrifice commenced': trajik kurban başladı."
+    },
+    {
+      "id": 161,
+      "start_ms": 908188,
+      "end_ms": 913300,
+      "text": "All night long she sang of the birth of love in the heart of a young boy and girl.",
+      "translation": "Bütün gece boyunca bir delikanlı ve genç kızın kalbinde aşkın doğuşuna dair şakıdı.",
+      "notes": "Sayfa 9 | 'birth of love': aşkın doğuşu; 'sang of': hakkında şarkı söyledi."
+    },
+    {
+      "id": 162,
+      "start_ms": 913700,
+      "end_ms": 918692,
+      "text": "Her voice was pure, innocent, and filled with sweet youthful wonder.",
+      "translation": "Sesi tertemiz, masum ve tatlı gençlik hayretleriyle doluydu.",
+      "notes": "Sayfa 9 | 'youthful wonder': gençlik hayreti; 'innocent': masum."
+    },
+    {
+      "id": 163,
+      "start_ms": 919092,
+      "end_ms": 924660,
+      "text": "And upon the topmost spray of the Rose-tree, a marvellous flower began to form.",
+      "translation": "Ve Gül Ağacı'nın en tepedeki sürgününde harikulade bir çiçek oluşmaya başladı.",
+      "notes": "Sayfa 9 | 'topmost spray': en tepedeki sürgün; 'marvellous flower': harika çiçek."
+    },
+    {
+      "id": 164,
+      "start_ms": 925060,
+      "end_ms": 930028,
+      "text": "Petal followed petal slowly as song followed song into the silent night.",
+      "translation": "Şarkı şarkıyı izledikçe sessiz gecede taçyaprak da taçyaprağı ağır ağır izledi.",
+      "notes": "Sayfa 9 | 'petal followed petal': yaprak yaprağı takip etti."
+    },
+    {
+      "id": 165,
+      "start_ms": 930428,
+      "end_ms": 936020,
+      "text": "It was pale at first, like the silver mist that hangs over the quiet river at dawn.",
+      "translation": "Başlangıçta, şafakta durgun nehrin üzerinde asılı duran gümüşi sis gibi solgundu.",
+      "notes": "Sayfa 9 | 'silver mist': gümüş sis; 'hangs over': üzerinde asılı duran."
+    },
+    {
+      "id": 166,
+      "start_ms": 936420,
+      "end_ms": 942132,
+      "text": "It was pale as the feet of the morning, and silver as the delicate wings of the sunrise.",
+      "translation": "Sabahın ayakları kadar soluk ve gün doğumunun narin kanatları gibi gümüştendi.",
+      "notes": "Sayfa 9 | Şiirsel teşbih yapısı ('pale as the feet of the morning')."
+    },
+    {
+      "id": 167,
+      "start_ms": 942532,
+      "end_ms": 948076,
+      "text": "As the shadow of a rose in a mirror of silver, such was the flower that blossomed.",
+      "translation": "Gümüş bir aynadaki bir gülün gölgesi gibiydi açan o ilk çiçek.",
+      "notes": "Sayfa 9 | 'mirror of silver': gümüş ayna; 'such was...': işte öyleydi."
+    },
+    {
+      "id": 168,
+      "start_ms": 948476,
+      "end_ms": 953588,
+      "text": "But the Tree cried loudly to the Nightingale to press closer against the thorn.",
+      "translation": "Fakat Ağaç, dikene daha da yakından bastırması için Bülbül'e avazı çıktığı kadar haykırdı.",
+      "notes": "Sayfa 9 | 'press closer': daha yakından bastırmak; 'cried loudly': yüksek sesle bağırdı."
+    },
+    {
+      "id": 169,
+      "start_ms": 953988,
+      "end_ms": 960564,
+      "text": "\"Press closer, little Nightingale!\" cried the Tree, \"or the Day will come before the rose is finished!\"",
+      "translation": "Ağaç \"Daha sıkı bastır minik Bülbül!\" diye bağırdı, \"Yoksa gül tamamlanmadan Gün doğacak!\"",
+      "notes": "Sayfa 9 | 'or the Day will come': yoksa Gün doğuverir; 'finished': tamamlanmış."
+    },
+    {
+      "id": 170,
+      "start_ms": 960964,
+      "end_ms": 966892,
+      "text": "So the Nightingale pressed closer against the sharp thorn, sinking it deeper into her chest.",
+      "translation": "Bunun üzerine Bülbül sivri dikene daha da sıkı bastırdı, onu göğsünün daha da derinlerine batırdı.",
+      "notes": "Sayfa 9 | 'sinking deeper': daha derine batırarak; 'chest': göğüs."
+    },
+    {
+      "id": 171,
+      "start_ms": 967292,
+      "end_ms": 972548,
+      "text": "Her song grew louder and more passionate, echoing across the slumbering town.",
+      "translation": "Şarkısı daha gür ve daha tutkulu bir hal aldı, uyuyan kasaba boyunca yankılandı.",
+      "notes": "Sayfa 9 | 'grew louder': daha da yükseldi; 'slumbering town': uykuya dalmış şehir."
+    },
+    {
+      "id": 172,
+      "start_ms": 972948,
+      "end_ms": 977868,
+      "text": "For she sang of the birth of mature passion in the soul of a man and a maid.",
+      "translation": "Zira bir erkek ve bir genç kızın ruhunda olgun tutkunun doğuşuna dair söylüyordu.",
+      "notes": "Sayfa 9 | 'mature passion': olgun tutku; 'maid': genç kız."
+    },
+    {
+      "id": 173,
+      "start_ms": 978268,
+      "end_ms": 983452,
+      "text": "And a delicate flush of pale pink came into the leaves of the opening rose.",
+      "translation": "Ve açılmakta olan gülün yapraklarına narin, soluk pembe bir allık geldi.",
+      "notes": "Sayfa 9 | 'delicate flush': zarif allık/kızarıklık; 'opening rose': açılan gül."
+    },
+    {
+      "id": 174,
+      "start_ms": 983852,
+      "end_ms": 989204,
+      "text": "Like the flush in the face of the bridegroom when he kisses the hand of his beloved bride.",
+      "translation": "Tıpkı sevgili gelininin elini öptüğünde damadın yüzüne hücum eden o tatlı kızarıklık gibi.",
+      "notes": "Sayfa 9 | 'bridegroom': güvey/damat; 'bride': gelin."
+    },
+    {
+      "id": 175,
+      "start_ms": 989604,
+      "end_ms": 994956,
+      "text": "Yet the sharp thorn had not reached her little beating heart, so the rose remained pale.",
+      "translation": "Fakat o sivri diken henüz çarpan minik kalbine ulaşmamıştı, bu yüzden gül soluk kaldı.",
+      "notes": "Sayfa 9 | 'beating heart': çarpan yürek; 'remained pale': solgun kaldı."
+    },
+    {
+      "id": 176,
+      "start_ms": 995356,
+      "end_ms": 1000468,
+      "text": "For only a Nightingale's heart's blood can turn the heart of a rose crimson red.",
+      "translation": "Zira sadece bir Bülbül'ün yürek kanı bir gülün kalbini al kırmızıya boyayabilirdi.",
+      "notes": "Sayfa 9 | 'crimson red': kor kırmızısı; 'heart's blood': can kanı."
+    },
+    {
+      "id": 177,
+      "start_ms": 1000868,
+      "end_ms": 1006220,
+      "text": "\"Press closer, little Nightingale!\" cried the Tree again in intense urgency.",
+      "translation": "Ağaç büyük bir aciliyet içinde yine \"Daha sıkı bastır minik Bülbül!\" diye bağırdı.",
+      "notes": "Sayfa 9 | 'intense urgency': büyük bir acele/telaş."
+    },
+    {
+      "id": 178,
+      "start_ms": 1006620,
+      "end_ms": 1011756,
+      "text": "\"Or the golden morning will break across the horizon before the miracle is complete!\"",
+      "translation": "\"Yoksa bu mucize tamamlanamadan önce ufukta altın sabah söküverecek!\"",
+      "notes": "Sayfa 9 | 'morning will break': sabah sökecek; 'miracle': mucize."
+    },
+    {
+      "id": 179,
+      "start_ms": 1012156,
+      "end_ms": 1017652,
+      "text": "The little bird shivered with the agony of the wound, but her resolution did not waver.",
+      "translation": "Küçük kuş yaranın ıstırabıyla titredi, ama azmi zerre kadar sarsılmadı.",
+      "notes": "Sayfa 9 | 'agony of the wound': yaranın azabı/ıstırabı; 'resolution did not waver': kararlılığı sarsılmadı."
+    },
+    {
+      "id": 180,
+      "start_ms": 1018052,
+      "end_ms": 1023836,
+      "text": "She drew a deep breath and prepared herself for the final, ultimate sacrifice of love.",
+      "translation": "Derin bir nefes aldı ve aşkın o nihai, en yüce fedakârlığına kendini hazırladı.",
+      "notes": "Sayfa 9 | 'ultimate sacrifice': nihai fedakârlık; 'drew breath': nefes aldı."
+    },
+    {
+      "id": 181,
+      "start_ms": 1024836,
+      "end_ms": 1030452,
+      "text": "So the Nightingale pressed closer against the thorn, and the sharp tip touched her heart.",
+      "translation": "Böylece Bülbül dikene daha da yakından bastırdı ve sivri uç kalbine dokundu.",
+      "notes": "Sayfa 10 | 'sharp tip': sivri uç; 'touched her heart': kalbine temas etti."
+    },
+    {
+      "id": 182,
+      "start_ms": 1030852,
+      "end_ms": 1036156,
+      "text": "A fierce and sudden pang of shooting pain shot directly through her tiny body.",
+      "translation": "Küçücük gövdesinden dosdoğru şiddetli ve ani bir sancı dalgası geçti.",
+      "notes": "Sayfa 10 | 'pang of pain': keskin acı sancısı; 'tiny body': minik beden."
+    },
+    {
+      "id": 183,
+      "start_ms": 1036556,
+      "end_ms": 1043036,
+      "text": "Bitter, bitter was the pain, and wilder, wilder grew her ecstatic, soaring song.",
+      "translation": "Acı dayanılmaz derecede keskindi ve onun o kendinden geçmiş, semaya yükselen şarkısı daha da coştu.",
+      "notes": "Sayfa 10 | 'bitter was the pain': devrik acı vurgusu; 'ecstatic': kendinden geçmiş/vecd içinde."
+    },
+    {
+      "id": 184,
+      "start_ms": 1043436,
+      "end_ms": 1049148,
+      "text": "For she sang of the Love that is perfected by Death, the Love that dies not in the tomb.",
+      "translation": "Zira Ölüm ile kemale eren ve mezarda bile ölmeyen o Aşk'a dair şakıyordu.",
+      "notes": "Sayfa 10 | 'perfected by Death': ölümle mükemmelleşen; 'dies not': arkaik ölmeyen."
+    },
+    {
+      "id": 185,
+      "start_ms": 1049548,
+      "end_ms": 1055548,
+      "text": "And the marvellous rose became completely crimson, like the vibrant rose of the eastern sky.",
+      "translation": "Ve o harika gül, doğu göğünün hayat dolu al gülü gibi bütünüyle kızıla büründü.",
+      "notes": "Sayfa 10 | 'became crimson': kor kırmızısı oldu; 'eastern sky': doğu seması."
+    },
+    {
+      "id": 186,
+      "start_ms": 1055948,
+      "end_ms": 1061588,
+      "text": "Crimson was the girdle of petals, and crimson as a precious ruby was the very heart.",
+      "translation": "Taçyaprakların çemberi kızıla bürünmüştü ve kalbinin ta içi değerli bir yakut gibi kıpkırmızıydı.",
+      "notes": "Sayfa 10 | 'girdle of petals': taçyaprak çemberi; 'precious ruby': paha biçilmez yakut."
+    },
+    {
+      "id": 187,
+      "start_ms": 1061988,
+      "end_ms": 1067316,
+      "text": "Her precious lifeblood was poured out completely into the starving veins of the plant.",
+      "translation": "Onun o paha biçilmez can kanı, bitkinin aç damarlarına bütünüyle boşaldı.",
+      "notes": "Sayfa 10 | 'poured out': döküldü/boşaldı; 'starving veins': aç susuz damarlar."
+    },
+    {
+      "id": 188,
+      "start_ms": 1067716,
+      "end_ms": 1073092,
+      "text": "The perfume of the glorious red flower drifted sweetly across the entire town.",
+      "translation": "O görkemli kırmızı çiçeğin mis kokusu bütün kasabanın üzerinden tatlı tatlı esti.",
+      "notes": "Sayfa 10 | 'glorious red flower': muazzam al çiçek; 'drifted sweetly': tatlı tatlı süzüldü."
+    },
+    {
+      "id": 189,
+      "start_ms": 1073492,
+      "end_ms": 1079132,
+      "text": "Sleeping people smiled peacefully in their dreams, touched by the scent of divine love.",
+      "translation": "Uykudaki insanlar ilahi aşkın kokusuyla mest olarak rüyalarında huzurla gülümsediler.",
+      "notes": "Sayfa 10 | 'divine love': ilahi sevgi; 'touched by scent': kokuyla mest olmuş."
+    },
+    {
+      "id": 190,
+      "start_ms": 1079532,
+      "end_ms": 1084788,
+      "text": "But the Nightingale's voice began to grow faint and weak as her strength ebbed away.",
+      "translation": "Fakat gücü tükendikçe Bülbül'ün sesi hafiflemeye ve mecalsizleşmeye başladı.",
+      "notes": "Sayfa 10 | 'grow faint': cılızlaşmak; 'strength ebbed away': takati çekilip bitti."
+    },
+    {
+      "id": 191,
+      "start_ms": 1085188,
+      "end_ms": 1090804,
+      "text": "Her little wings began to beat slowly, and a heavy film came over her bright eyes.",
+      "translation": "Minik kanatları yavaşça çırpınmaya başladı ve parlak gözlerinin üzerine ağır bir perde indi.",
+      "notes": "Sayfa 10 | 'film came over eyes': gözlerine perde inmek; 'beat slowly': yavaş çırpmak."
+    },
+    {
+      "id": 192,
+      "start_ms": 1091204,
+      "end_ms": 1096196,
+      "text": "Fainter and fainter grew her song, and she felt something choking her throat.",
+      "translation": "Şarkısı gitgide daha cılızlaştı ve boğazını tıkayan bir şeylerin olduğunu hissetti.",
+      "notes": "Sayfa 10 | 'fainter and fainter': gitgide daha kısık; 'choking throat': boğazı tıkamak."
+    },
+    {
+      "id": 193,
+      "start_ms": 1096596,
+      "end_ms": 1102284,
+      "text": "Then she gave one last, glorious burst of musical passion that pierced the heavens.",
+      "translation": "Ardından gökleri delen müzikal bir tutkunun son, muazzam çığlığını kopardı.",
+      "notes": "Sayfa 10 | 'burst of passion': coşku patlaması; 'pierced heavens': gökleri delen."
+    },
+    {
+      "id": 194,
+      "start_ms": 1102684,
+      "end_ms": 1107724,
+      "text": "The white Moon heard it, and she forgot the dawn and lingered long in the sky.",
+      "translation": "Beyaz Ay bunu duydu; şafağı unutup gökyüzünde uzun süre oyalanıp kaldı.",
+      "notes": "Sayfa 10 | 'lingered long': uzun süre oyalanıp kaldı; 'forgot the dawn': şafağı unuttu."
+    },
+    {
+      "id": 195,
+      "start_ms": 1108124,
+      "end_ms": 1113356,
+      "text": "The red rose heard it, and trembled all over with ecstasy in the morning breeze.",
+      "translation": "Kırmızı gül bunu duydu ve sabah esintisinde baştan aşağı vecd ile titredi.",
+      "notes": "Sayfa 10 | 'trembled with ecstasy': vecd ile titremek; 'morning breeze': sabah esintisi."
+    },
+    {
+      "id": 196,
+      "start_ms": 1113756,
+      "end_ms": 1118124,
+      "text": "She opened her fragrant petals completely to the cold morning air.",
+      "translation": "Mis kokulu taçyapraklarını o soğuk sabah havasına ardına kadar açtı.",
+      "notes": "Sayfa 10 | 'fragrant petals': mis kokulu taçyapraklar; 'morning air': sabah havası."
+    },
+    {
+      "id": 197,
+      "start_ms": 1118524,
+      "end_ms": 1124452,
+      "text": "Echo bore the melody to her purple cavern in the hills, awakening the shepherds from dreams.",
+      "translation": "Yankı perisi bu ezgiyi tepelerdeki mor mağarasına taşıdı, çobanları rüyalarından uyandırdı.",
+      "notes": "Sayfa 10 | 'purple cavern': erguvani mağara; 'awakening shepherds': çobanları uyandırarak."
+    },
+    {
+      "id": 198,
+      "start_ms": 1124852,
+      "end_ms": 1130132,
+      "text": "It floated through the river reeds, and they carried its message straight out to the ocean.",
+      "translation": "Nehir sazlıklarının arasından süzüldü ve onlar bu mesajı dosdoğru okyanusa taşıdılar.",
+      "notes": "Sayfa 10 | 'river reeds': nehir sazlıkları; 'floated through': arasından süzüldü."
+    },
+    {
+      "id": 199,
+      "start_ms": 1130532,
+      "end_ms": 1135644,
+      "text": "\"Look, look!\" cried the Tree in triumph, \"the rose is finished now!\"",
+      "translation": "Ağaç zafer sarhoşluğuyla \"Bak, bak!\" diye haykırdı, \"Gül artık tamamlandı!\"",
+      "notes": "Sayfa 10 | 'in triumph': zafer coşkusuyla; 'rose is finished': gül tamamlandı."
+    },
+    {
+      "id": 200,
+      "start_ms": 1136044,
+      "end_ms": 1141828,
+      "text": "But the faithful Nightingale gave no answer, for she was lying dead in the long grass.",
+      "translation": "Fakat o vefalı Bülbül hiçbir cevap vermedi, çünkü uzun çimenlerin içinde cansız yatıyordu.",
+      "notes": "Sayfa 10 | 'faithful': vefalı/sadık; 'lying dead': cansız yatan; 'with the thorn in her heart'."
+    },
+    {
+      "id": 201,
+      "start_ms": 1142828,
+      "end_ms": 1148684,
+      "text": "The little bird lay completely motionless, with the cruel thorn driven deep into her heart.",
+      "translation": "Küçük kuş, o zalim diken kalbinin derinliklerine saplanmış halde bütünüyle hareketsiz yatıyordu.",
+      "notes": "Sayfa 11 | 'motionless': kıpırtısız; 'driven deep': derine saplanmış."
+    },
+    {
+      "id": 202,
+      "start_ms": 1149084,
+      "end_ms": 1154484,
+      "text": "Her lifeless brown feathers were stained with drops of dark, drying crimson blood.",
+      "translation": "Cansız kahverengi tüyleri, kuruyan koyu kırmızı kan damlalarıyla boyanmıştı.",
+      "notes": "Sayfa 11 | 'lifeless feathers': cansız tüyler; 'stained with blood': kanla lekelenmiş."
+    },
+    {
+      "id": 203,
+      "start_ms": 1154884,
+      "end_ms": 1161772,
+      "text": "She had given everything—her voice, her songs, her life—for the sake of true love.",
+      "translation": "Hakiki aşk uğruna her şeyini—sesini, şarkılarını, hayatını—feda etmişti.",
+      "notes": "Sayfa 11 | 'for the sake of': -in uğruna; 'given everything': her şeyi vermişti."
+    },
+    {
+      "id": 204,
+      "start_ms": 1162172,
+      "end_ms": 1168268,
+      "text": "And above her, on the highest branch of the bush, blazed the most magnificent red rose.",
+      "translation": "Ve onun üzerinde, çalının en yüksek dalında, en muhteşem kırmızı gül alev gibi parıldıyordu.",
+      "notes": "Sayfa 11 | 'blazed': alev gibi parıldadı; 'magnificent': görkemli."
+    },
+    {
+      "id": 205,
+      "start_ms": 1168668,
+      "end_ms": 1173948,
+      "text": "It was so splendid that the morning sun seemed to pause in reverence before its beauty.",
+      "translation": "Öyle muhteşemdi ki sabah güneşi bile onun güzelliği karşısında hürmetle duraklamış gibiydi.",
+      "notes": "Sayfa 11 | 'in reverence': hürmetle; 'splendid': göz alıcı."
+    },
+    {
+      "id": 206,
+      "start_ms": 1174348,
+      "end_ms": 1180516,
+      "text": "At noon, the young Student rubbed his eyes, stretched his arms, and opened his window.",
+      "translation": "Öğle vakti genç Öğrenci gözlerini ovuşturdu, kollarını gerindi ve penceresini açtı.",
+      "notes": "Sayfa 11 | 'at noon': öğle vaktinde; 'rubbed eyes': gözleri ovuşturdu."
+    },
+    {
+      "id": 207,
+      "start_ms": 1180916,
+      "end_ms": 1186124,
+      "text": "He looked out casually into the sunny garden and suddenly gasped in astonishment.",
+      "translation": "Öylesine güneşli bahçeye doğru bir baktı ve aniden şaşkınlıktan nefesi kesildi.",
+      "notes": "Sayfa 11 | 'gasped in astonishment': şaşkınlıktan soluğu kesilmek; 'looked out casually': gelişigüzel bakmak."
+    },
+    {
+      "id": 208,
+      "start_ms": 1186524,
+      "end_ms": 1192068,
+      "text": "\"Why, what a wonderful piece of astonishing good luck!\" he cried out loudly.",
+      "translation": "Yüksek sesle \"Yahu, bu ne olağanüstü, ne şaşırtıcı bir şans böyle!\" diye haykırdı.",
+      "notes": "Sayfa 11 | 'piece of good luck': talih kuşu/şans eseri; 'cried out loudly': yüksek sesle bağırdı."
+    },
+    {
+      "id": 209,
+      "start_ms": 1192468,
+      "end_ms": 1197508,
+      "text": "\"Here is a red rose right beneath my casement, the very flower I needed!\"",
+      "translation": "\"Tam pencere kanadımın altında kırmızı bir gül duruyor; tam da ihtiyacım olan çiçeğin ta kendisi!\"",
+      "notes": "Sayfa 11 | 'the very flower': çiçeğin ta kendisi; 'beneath my casement': penceremin altında."
+    },
+    {
+      "id": 210,
+      "start_ms": 1197908,
+      "end_ms": 1203500,
+      "text": "\"I have never seen any rose like it in all my botanical studies in my entire life.\"",
+      "translation": "\"Bütün hayatım boyunca yaptığım botanik çalışmalarında buna benzer hiçbir gül görmemiştim.\"",
+      "notes": "Sayfa 11 | 'botanical studies': bitkibilim incelemeleri; 'in all my life': tüm ömrümde."
+    },
+    {
+      "id": 211,
+      "start_ms": 1203900,
+      "end_ms": 1208964,
+      "text": "\"It is so exceptionally beautiful that I am sure it must have a long Latin name.\"",
+      "translation": "\"Öylesine fevkalade güzel ki eminim uzun bir Latince adı olmalıdır.\"",
+      "notes": "Sayfa 11 | 'long Latin name': uzun Latince isim (Oscar Wilde'ın alaycı mizahı)."
+    },
+    {
+      "id": 212,
+      "start_ms": 1209364,
+      "end_ms": 1214212,
+      "text": "He leaned far down through the open window frame and reached toward the branch.",
+      "translation": "Açık pencere kasasından aşağı doğru iyice sarktı ve dala doğru uzandı.",
+      "notes": "Sayfa 11 | 'leaned far down': iyice aşağı sarktı; 'reached toward': -e doğru uzandı."
+    },
+    {
+      "id": 213,
+      "start_ms": 1214612,
+      "end_ms": 1219964,
+      "text": "He snatched the delicate, blood-bought stem and plucked it carelessly from the bush.",
+      "translation": "Kanla yoğrulmuş o narin sapı kaptı ve fidanından umursamazca koparıp aldı.",
+      "notes": "Sayfa 11 | 'snatched': kapıverdi; 'blood-bought': kan pahasına alınmış; 'carelessly': dikkatsizce."
+    },
+    {
+      "id": 214,
+      "start_ms": 1220364,
+      "end_ms": 1225236,
+      "text": "He did not notice the lifeless body of the little bird lying in the weeds below.",
+      "translation": "Aşağıda yabani otların içinde cansız yatan o minik kuşun bedenini fark bile etmedi.",
+      "notes": "Sayfa 11 | 'did not notice': fark etmedi; 'in the weeds': yabani otların içinde."
+    },
+    {
+      "id": 215,
+      "start_ms": 1225636,
+      "end_ms": 1230700,
+      "text": "He put on his formal student's hat and held the glorious red rose in his hand.",
+      "translation": "Resmi talebe şapkasını giydi ve elinde o muazzam kırmızı gülü tuttu.",
+      "notes": "Sayfa 11 | 'put on hat': şapkayı taktı; 'held the rose': gülü tuttu."
+    },
+    {
+      "id": 216,
+      "start_ms": 1231100,
+      "end_ms": 1237172,
+      "text": "He ran downstairs with joyful, bounding steps, eager to present his precious prize.",
+      "translation": "Değerli armağanını takdim etmeye can atarak sevinçli, zıpır adımlarla merdivenlerden aşağı koştu.",
+      "notes": "Sayfa 11 | 'bounding steps': sıçrayan adımlar; 'precious prize': kıymetli mükâfat."
+    },
+    {
+      "id": 217,
+      "start_ms": 1237572,
+      "end_ms": 1242540,
+      "text": "He hurried along the paved street toward the imposing residence of the Professor.",
+      "translation": "Profesör'ün heybetli konağına doğru taş döşeli sokak boyunca koşa koşa ilerledi.",
+      "notes": "Sayfa 11 | 'paved street': parke taşlı cadde; 'imposing residence': heybetli konak."
+    },
+    {
+      "id": 218,
+      "start_ms": 1242940,
+      "end_ms": 1247524,
+      "text": "The daughter of the Professor was sitting upon the porch by the open doorway.",
+      "translation": "Profesör'ün kızı açık kapı eşiğindeki verandada oturuyordu.",
+      "notes": "Sayfa 11 | 'porch': veranda; 'doorway': kapı eşiği."
+    },
+    {
+      "id": 219,
+      "start_ms": 1247924,
+      "end_ms": 1252964,
+      "text": "She was winding dark blue silk upon a little reel and humming to herself.",
+      "translation": "Kendi kendine mırıldanarak minik bir makaraya koyu mavi ipek sarmaktaydı.",
+      "notes": "Sayfa 11 | 'winding silk': ipek sarmak; 'little reel': küçük makara."
+    },
+    {
+      "id": 220,
+      "start_ms": 1253364,
+      "end_ms": 1257876,
+      "text": "Her pampered little pet dog was lying comfortably at her dainty feet.",
+      "translation": "El üstünde tutulan şımarık küçük köpeği onun zarif ayaklarının dibinde rahatça yatıyordu.",
+      "notes": "Sayfa 11 | 'pampered pet': şımartılmış evcil hayvan; 'dainty feet': zarif ayaklar."
+    },
+    {
+      "id": 221,
+      "start_ms": 1258876,
+      "end_ms": 1265020,
+      "text": "\"You said that you would dance with me if I brought you a red rose,\" cried the Student enthusiastically.",
+      "translation": "Öğrenci coşkuyla \"Sana kırmızı bir gül getirirsem benimle dans edeceğini söylemiştin,\" diye bağırdı.",
+      "notes": "Sayfa 12 | 'enthusiastically': coşkuyla; 'would dance': dans ederdin."
+    },
+    {
+      "id": 222,
+      "start_ms": 1265420,
+      "end_ms": 1270940,
+      "text": "\"Here is the reddest, rarest, and most beautiful rose in all the wide world!\"",
+      "translation": "\"İşte bütün koca dünyadaki en kırmızı, en nadide ve en güzel gül burada!\"",
+      "notes": "Sayfa 12 | 'rarest': en nadide; 'in all the wide world': koca cihanda."
+    },
+    {
+      "id": 223,
+      "start_ms": 1271340,
+      "end_ms": 1275588,
+      "text": "\"You will wear it tonight close to your beating heart as we dance together.\"",
+      "translation": "\"Birlikte dans ettiğimizde bu gece onu çarpan kalbinin hemen üzerinde taşıyacaksın.\"",
+      "notes": "Sayfa 12 | 'close to your heart': kalbine yakın; 'wear it': onu takacaksın."
+    },
+    {
+      "id": 224,
+      "start_ms": 1275988,
+      "end_ms": 1281388,
+      "text": "\"And as we dance through the grand ballroom, it will tell you how deeply I adore you!\"",
+      "translation": "\"Ve o koca balo salonunda dans ederken sana seni ne kadar derinden sevdiğimi fısıldayacak!\"",
+      "notes": "Sayfa 12 | 'adore': taparcasına sevmek; 'grand ballroom': büyük balo salonu."
+    },
+    {
+      "id": 225,
+      "start_ms": 1281788,
+      "end_ms": 1286612,
+      "text": "He held out the miraculous flower with glowing cheeks and shining eyes.",
+      "translation": "Al al yanaklar ve parıldayan gözlerle o mucizevi çiçeği kıza doğru uzattı.",
+      "notes": "Sayfa 12 | 'held out': uzattı; 'glowing cheeks': parlayan yanaklar."
+    },
+    {
+      "id": 226,
+      "start_ms": 1287012,
+      "end_ms": 1292196,
+      "text": "The scent of pure, unselfish sacrifice filled the air around the terrace.",
+      "translation": "Katıksız, karşılıksız bir fedakârlığın mis kokusu terasın etrafındaki havayı doldurdu.",
+      "notes": "Sayfa 12 | 'unselfish sacrifice': karşılıksız fedakârlık; 'scent': rayiha/koku."
+    },
+    {
+      "id": 227,
+      "start_ms": 1292596,
+      "end_ms": 1296748,
+      "text": "But the girl glanced at the blood-bought rose with a haughty sneer.",
+      "translation": "Fakat kız kan pahasına alınan o güle kibirli bir dudak bükmeyle baktı.",
+      "notes": "Sayfa 12 | 'haughty sneer': mağrur ve alaycı bir küçümseme/dudak bükme."
+    },
+    {
+      "id": 228,
+      "start_ms": 1297148,
+      "end_ms": 1301732,
+      "text": "She frowned coldly and pulled her silk fabric away from his reach.",
+      "translation": "Soğuk bir şekilde kaşlarını çattı ve ipek kumaşını onun uzandığı yerden geri çekti.",
+      "notes": "Sayfa 12 | 'frowned coldly': soğukça kaşlarını çattı; 'pulled away': geri çekti."
+    },
+    {
+      "id": 229,
+      "start_ms": 1302132,
+      "end_ms": 1307772,
+      "text": "\"I am afraid that it will not go at all with my new evening dress,\" she answered proudly.",
+      "translation": "Kibirle \"Korkarım ki yeni gece elbiseme zerre kadar uyum sağlamayacak,\" diye yanıt verdi.",
+      "notes": "Sayfa 12 | 'not go at all with': -e hiç mi hiç uymamak; 'proudly': gururla/kibirle."
+    },
+    {
+      "id": 230,
+      "start_ms": 1308172,
+      "end_ms": 1314052,
+      "text": "\"My dress is delicate sky-blue silk, and a harsh red rose would look completely vulgar.\"",
+      "translation": "\"Elbisem narin gök mavisi ipekten; sert kırmızı bir gül ise son derece rüküş ve avam durur.\"",
+      "notes": "Sayfa 12 | 'vulgar': kaba, zevksiz, avam; 'sky-blue silk': gök mavisi ipek."
+    },
+    {
+      "id": 231,
+      "start_ms": 1314452,
+      "end_ms": 1319924,
+      "text": "\"And, besides that, the Chamberlain's wealthy nephew has sent me real jewels!\"",
+      "translation": "\"Ve dahası, Mabeyinci'nin zengin yeğeni bana hakiki mücevherler gönderdi!\"",
+      "notes": "Sayfa 12 | 'Chamberlain': saray mabeyincisi/nazırı; 'real jewels': gerçek mücevherler."
+    },
+    {
+      "id": 232,
+      "start_ms": 1320324,
+      "end_ms": 1325340,
+      "text": "\"He presented me with a string of pearls and a necklace of sparkling diamonds!\"",
+      "translation": "\"Bana bir dizi inci ve ışıldayan elmaslardan bir gerdanlık hediye etti!\"",
+      "notes": "Sayfa 12 | 'string of pearls': inci dizisi; 'necklace': gerdanlık/kolye."
+    },
+    {
+      "id": 233,
+      "start_ms": 1325740,
+      "end_ms": 1331500,
+      "text": "\"And everybody knows that precious jewels cost far more money than mere common flowers.\"",
+      "translation": "\"Ve herkes bilir ki değerli mücevherler alelade çiçeklerden katbekat daha fazla para eder.\"",
+      "notes": "Sayfa 12 | 'cost far more': katbekat daha pahalı; 'mere common flowers': basit sıradan çiçekler."
+    },
+    {
+      "id": 234,
+      "start_ms": 1331900,
+      "end_ms": 1337036,
+      "text": "The young Student looked at her in stunned disbelief, his heart sinking rapidly.",
+      "translation": "Genç Öğrenci kalbi hızla sıkışarak dona kalmış bir inanamayışla kıza baktı.",
+      "notes": "Sayfa 12 | 'stunned disbelief': dona kalmış inançsızlık; 'heart sinking': yüreği ağzına gelmek/burkulmak."
+    },
+    {
+      "id": 235,
+      "start_ms": 1337436,
+      "end_ms": 1342572,
+      "text": "He could not believe that such beauty could harbor such shallow, greedy vanity.",
+      "translation": "Böylesi bir güzelliğin böylesine sığ ve açgözlü bir kibri barındırabileceğine inanamadı.",
+      "notes": "Sayfa 12 | 'shallow vanity': sığ kibir/kendini beğenmişlik; 'harbor': barındırmak."
+    },
+    {
+      "id": 236,
+      "start_ms": 1342972,
+      "end_ms": 1348948,
+      "text": "\"Well, upon my word, you are exceedingly ungrateful!\" said the Student angrily.",
+      "translation": "Öğrenci öfkeyle \"Yemin ederim ki son derece nankörsünüz!\" dedi.",
+      "notes": "Sayfa 12 | 'upon my word': vallahi, yemin billah; 'ungrateful': nankör, kadir bilmez."
+    },
+    {
+      "id": 237,
+      "start_ms": 1349348,
+      "end_ms": 1354796,
+      "text": "His romantic illusions shattered like fragile glass upon the cold stone pavement.",
+      "translation": "Romantik hayalleri soğuk taş kaldırımın üzerinde kırılgan bir cam gibi tuzla buz oldu.",
+      "notes": "Sayfa 12 | 'illusions shattered': hayaller yıkıldı; 'fragile glass': kırılgan cam."
+    },
+    {
+      "id": 238,
+      "start_ms": 1355196,
+      "end_ms": 1359852,
+      "text": "He looked down at the vibrant red flower that had cost a precious life.",
+      "translation": "Paha biçilmez bir cana mal olmuş o hayat dolu al çiçeğe aşağı doğru baktı.",
+      "notes": "Sayfa 12 | 'cost a precious life': kıymetli bir cana mal oldu."
+    },
+    {
+      "id": 239,
+      "start_ms": 1360252,
+      "end_ms": 1365532,
+      "text": "He felt a sudden, bitter revulsion toward the symbol of his unrequited devotion.",
+      "translation": "Karşılıksız bağlılığının sembolü olan bu çiçeğe karşı ani ve acı bir tiksinti hissetti.",
+      "notes": "Sayfa 12 | 'revulsion': iğrenme/tiksinti; 'unrequited devotion': karşılıksız bağlılık."
+    },
+    {
+      "id": 240,
+      "start_ms": 1365932,
+      "end_ms": 1371644,
+      "text": "In a sudden surge of blind fury, he flung the rose straight out into the dirty street.",
+      "translation": "Kör bir öfke nöbetiyle gülü dosdoğru pis sokağın ortasına fırlatıp attı.",
+      "notes": "Sayfa 12 | 'surge of blind fury': kör bir hiddet patlaması; 'flung straight out': dosdoğru fırlattı."
+    },
+    {
+      "id": 241,
+      "start_ms": 1372644,
+      "end_ms": 1377972,
+      "text": "The magnificent red rose fell right into the muddy, filthy gutter beside the curb.",
+      "translation": "O muhteşem kırmızı gül, kaldırımın kenarındaki çamurlu ve pis su oluğunun tam içine düştü.",
+      "notes": "Sayfa 13 | 'filthy gutter': pis su arkı/lağım oluğu; 'curb': kaldırım kenarı."
+    },
+    {
+      "id": 242,
+      "start_ms": 1378372,
+      "end_ms": 1384708,
+      "text": "Its velvety petals, born of a pure heart's blood, were instantly smeared with brown sludge.",
+      "translation": "Tertemiz bir yürek kanından doğan kadife taçyaprakları anında kahverengi çamura bulandı.",
+      "notes": "Sayfa 13 | 'velvety petals': kadifemsi yapraklar; 'smeared with sludge': balçığa bulanmış."
+    },
+    {
+      "id": 243,
+      "start_ms": 1385108,
+      "end_ms": 1390604,
+      "text": "A moment later, a heavy wooden cart-wheel passed directly over it with a loud crunch.",
+      "translation": "Bir saniye sonra, ağır ahşap bir araba tekerleği gürültülü bir çatırtıyla onun tam üzerinden geçti.",
+      "notes": "Sayfa 13 | 'cart-wheel': at arabası tekeri; 'passed directly over': doğrudan üzerinden geçti."
+    },
+    {
+      "id": 244,
+      "start_ms": 1391004,
+      "end_ms": 1396356,
+      "text": "The divine flower of supreme sacrifice was crushed into the common mud of the street.",
+      "translation": "O yüce fedakârlığın ilahi çiçeği sokağın alelade çamurunda ezilip yok oldu.",
+      "notes": "Sayfa 13 | 'supreme sacrifice': en yüce fedakârlık; 'crushed into mud': çamurda ezildi."
+    },
+    {
+      "id": 245,
+      "start_ms": 1396756,
+      "end_ms": 1401892,
+      "text": "\"Ungrateful!\" cried the haughty girl, standing up angrily from her chair.",
+      "translation": "Kibirli kız öfkeyle sandalyesinden ayağa fırlayarak \"Nankör ha!\" diye bağırdı.",
+      "notes": "Sayfa 13 | 'haughty girl': kibirli kız; 'standing up angrily': hiddetle ayağa kalkarak."
+    },
+    {
+      "id": 246,
+      "start_ms": 1402292,
+      "end_ms": 1408388,
+      "text": "\"I tell you what, young man, you are exceedingly rude, insolent, and ill-mannered!\"",
+      "translation": "\"Sana bir şey söyleyeyim mi delikanlı, sen son derece kaba, hadsiz ve edepsiz birisin!\"",
+      "notes": "Sayfa 13 | 'insolent': küstah/hadsiz; 'ill-mannered': terbiyesiz."
+    },
+    {
+      "id": 247,
+      "start_ms": 1408788,
+      "end_ms": 1414068,
+      "text": "\"And, after all, who are you to speak to the daughter of a Professor in such a tone?\"",
+      "translation": "\"Ve hem nihayetinde bir Profesör'ün kızıyla böyle bir tonda konuşacak sen kimsin ki?\"",
+      "notes": "Sayfa 13 | 'who are you to speak': konuşacak sen kimsin ki? (küçümseme)."
+    },
+    {
+      "id": 248,
+      "start_ms": 1414468,
+      "end_ms": 1420324,
+      "text": "\"You are only an impoverished student, with no money, no title, and no future!\"",
+      "translation": "\"Sen sadece parası, unvanı ve geleceği olmayan yoksul bir öğrencisin!\"",
+      "notes": "Sayfa 13 | 'impoverished': yoksul/muhtaç; 'no title': unvansız."
+    },
+    {
+      "id": 249,
+      "start_ms": 1420724,
+      "end_ms": 1425932,
+      "text": "\"Why, I don't believe you have even got silver buckles to your worn-out shoes!\"",
+      "translation": "\"Yahu, senin o eskimiş pabuçlarında gümüş tokaların bile olduğuna inanmıyorum!\"",
+      "notes": "Sayfa 13 | 'worn-out shoes': eskimiş ayakkabılar; 'silver buckles': gümüş tokalar."
+    },
+    {
+      "id": 250,
+      "start_ms": 1426332,
+      "end_ms": 1432428,
+      "text": "\"Whereas the Chamberlain's nephew has silver buckles, gold buttons, and servants galore!\"",
+      "translation": "\"Oysa Mabeyinci'nin yeğeninin gümüş tokaları, altın düğmeleri ve sürüyle hizmetkârı var!\"",
+      "notes": "Sayfa 13 | 'servants galore': gani gani uşak; 'whereas': oysa, buna karşılık."
+    },
+    {
+      "id": 251,
+      "start_ms": 1432828,
+      "end_ms": 1437340,
+      "text": "She turned her back upon him with utter scorn and tossed her curled head.",
+      "translation": "Tam bir küçümsemeyle arkasını ona döndü ve bukleli başını kibirle savurdu.",
+      "notes": "Sayfa 13 | 'utter scorn': tam bir aşağılama; 'turned back': arkasını döndü."
+    },
+    {
+      "id": 252,
+      "start_ms": 1437740,
+      "end_ms": 1443068,
+      "text": "She walked proudly into her luxurious mansion and slammed the heavy oak door shut.",
+      "translation": "Lüks konağının içine çalımla girdi ve o ağır meşe kapıyı güm diye kapattı.",
+      "notes": "Sayfa 13 | 'luxurious mansion': lüks konak; 'slammed shut': çarparak kapattı."
+    },
+    {
+      "id": 253,
+      "start_ms": 1443468,
+      "end_ms": 1448148,
+      "text": "The bolt clicked firmly into place, locking the Student out forever.",
+      "translation": "Sürgü tık diye yerine oturdu ve Öğrenci'yi sonsuza dek dışarıda bıraktı.",
+      "notes": "Sayfa 13 | 'clicked firmly': tık diye kilitlendi; 'locking out': dışarıda kilitlemek."
+    },
+    {
+      "id": 254,
+      "start_ms": 1448548,
+      "end_ms": 1454524,
+      "text": "The Student stood alone on the pavement, feeling humiliated, foolish, and angry.",
+      "translation": "Öğrenci kaldırımda yapayalnız dikildi; kendini aşağılanmış, ahmak ve öfkeli hissetti.",
+      "notes": "Sayfa 13 | 'humiliated': gururu incinmiş/aşağılanmış; 'foolish': aptal gibi."
+    },
+    {
+      "id": 255,
+      "start_ms": 1454924,
+      "end_ms": 1461092,
+      "text": "\"What a completely silly and useless thing Love is!\" he exclaimed bitterly as he walked away.",
+      "translation": "Uzaklaşırken acı acı \"Aşk ne kadar da büsbütün saçma ve işe yaramaz bir şeymiş meğer!\" diye haykırdı.",
+      "notes": "Sayfa 13 | 'What a silly thing!': Ne aptalca bir şey!; 'walked away': uzaklaştı."
+    },
+    {
+      "id": 256,
+      "start_ms": 1461492,
+      "end_ms": 1466892,
+      "text": "\"It is not half as useful as Logic, for it does not prove anything whatsoever.\"",
+      "translation": "\"Mantık'ın yarısı kadar bile faydalı değil, zira hiçbir şeyi kanıtladığı falan yok.\"",
+      "notes": "Sayfa 13 | 'not half as useful': yarısı kadar bile yararlı değil; 'proves nothing': hiçbir şey ispatlamaz."
+    },
+    {
+      "id": 257,
+      "start_ms": 1467292,
+      "end_ms": 1471948,
+      "text": "\"It is always telling one of things that are never going to happen in real life.\"",
+      "translation": "\"İnsana daima gerçek hayatta asla gerçekleşmeyecek şeylerden bahsedip duruyor.\"",
+      "notes": "Sayfa 13 | 'never going to happen': asla gerçekleşmeyecek; 'telling of': -den bahsetmek."
+    },
+    {
+      "id": 258,
+      "start_ms": 1472348,
+      "end_ms": 1477316,
+      "text": "\"And it makes people foolishly believe in illusions that are demonstrably untrue.\"",
+      "translation": "\"Ve insanları apaçık biçimde yalan olan hülyalara ahmakça inandırıyor.\"",
+      "notes": "Sayfa 13 | 'demonstrably untrue': ispatlanabilir derecede asılsız; 'illusions': yanılsamalar."
+    },
+    {
+      "id": 259,
+      "start_ms": 1477716,
+      "end_ms": 1484052,
+      "text": "\"In fact, it is entirely unpractical, irrational, and completely devoid of utility.\"",
+      "translation": "\"Aslına bakılırsa büsbütün gayripratik, mantıksız ve faydadan tamamen yoksundur.\"",
+      "notes": "Sayfa 13 | 'irrational': akıldışı; 'devoid of utility': faydadan yoksun."
+    },
+    {
+      "id": 260,
+      "start_ms": 1484452,
+      "end_ms": 1490068,
+      "text": "\"And, as in this modern age to be practical is everything, I shall have no more of it.\"",
+      "translation": "\"Ve mademki bu modern çağda pratik olmak her şeydir, artık aşktan falan elimi eteğimi çekiyorum.\"",
+      "notes": "Sayfa 13 | 'modern age': modern çağ; 'have no more of it': artık hiçbir işim olmasın."
+    },
+    {
+      "id": 261,
+      "start_ms": 1491068,
+      "end_ms": 1496468,
+      "text": "\"I shall go straight back to Philosophy and study the profound laws of Metaphysics!\"",
+      "translation": "\"Dosdoğru Felsefe'ye geri döneceğim ve Metafizik'in derin kanunlarını çalışacağım!\"",
+      "notes": "Sayfa 14 | 'Metaphysics': metafizik; 'profound laws': derin kanunlar."
+    },
+    {
+      "id": 262,
+      "start_ms": 1496868,
+      "end_ms": 1501812,
+      "text": "He marched back through the bustling streets, shutting out the world of emotion.",
+      "translation": "Duygular dünyasına kapılarını kapatarak kalabalık sokaklardan hızla geri yürüdü.",
+      "notes": "Sayfa 14 | 'bustling streets': hareketli caddeler; 'shutting out': dışarıda bırakarak."
+    },
+    {
+      "id": 263,
+      "start_ms": 1502212,
+      "end_ms": 1507276,
+      "text": "He entered his dark, solitary room and bolted the heavy door behind him.",
+      "translation": "Karanlık, ıssız odasına girdi ve arkasından ağır kapıyı sürgüledi.",
+      "notes": "Sayfa 14 | 'solitary room': tek başına/ıssız oda; 'bolted door': kapıyı sürgüledi."
+    },
+    {
+      "id": 264,
+      "start_ms": 1507676,
+      "end_ms": 1513220,
+      "text": "He pulled out a massive, dusty leather volume of ancient philosophical treatises.",
+      "translation": "Kadim felsefi risalelerden oluşan devasa, tozlu deri bir cildi çekip çıkardı.",
+      "notes": "Sayfa 14 | 'massive volume': devasa cilt; 'philosophical treatises': felsefe risaleleri."
+    },
+    {
+      "id": 265,
+      "start_ms": 1513620,
+      "end_ms": 1518564,
+      "text": "He blew the thick dust off the yellowed pages and opened it upon his desk.",
+      "translation": "Sararmış sayfaların üzerindeki kalın tozu üfledi ve masasının üzerinde açtı.",
+      "notes": "Sayfa 14 | 'blew the dust': tozu üfledi; 'yellowed pages': sararmış sayfalar."
+    },
+    {
+      "id": 266,
+      "start_ms": 1518964,
+      "end_ms": 1524244,
+      "text": "He lit his oil lamp, dipped his quill into black ink, and began to read.",
+      "translation": "Gaz lambasını yaktı, tüy kalemini siyah mürekkebe batırdı ve okumaya başladı.",
+      "notes": "Sayfa 14 | 'oil lamp': gaz lambası; 'quill': tüy hokka kalemi."
+    },
+    {
+      "id": 267,
+      "start_ms": 1524644,
+      "end_ms": 1530140,
+      "text": "He buried his intellect in abstract syllogisms and theoretical formulations.",
+      "translation": "Aklını soyut kıyaslamaların ve teorik formülasyonların içine gömdü.",
+      "notes": "Sayfa 14 | 'abstract syllogisms': soyut tasımlar/kıyaslar; 'intellect': zekâ/akıl."
+    },
+    {
+      "id": 268,
+      "start_ms": 1530540,
+      "end_ms": 1536564,
+      "text": "Within an hour, he had completely forgotten the red rose, the girl, and his tears.",
+      "translation": "Bir saat içinde kırmızı gülü, kızı ve gözyaşlarını bütünüyle unuttu.",
+      "notes": "Sayfa 14 | 'within an hour': bir saat içinde; 'had forgotten': unutmuştu."
+    },
+    {
+      "id": 269,
+      "start_ms": 1536964,
+      "end_ms": 1542316,
+      "text": "He never knew that outside his window lay a tiny creature who had died for his sake.",
+      "translation": "Penceresinin dışında onun uğruna can vermiş minik bir varlığın yattığından haberi bile olmadı.",
+      "notes": "Sayfa 14 | 'never knew': hiç bilmedi; 'died for his sake': onun uğruna öldü."
+    },
+    {
+      "id": 270,
+      "start_ms": 1542716,
+      "end_ms": 1548068,
+      "text": "He never knew the agonizing pain of the sharp thorn pressed against a loving breast.",
+      "translation": "Seven bir bağra saplanan o sivri dikenin ıstırap dolu sancısından hiç haberdar olmadı.",
+      "notes": "Sayfa 14 | 'agonizing pain': ıstıraplı acı; 'loving breast': seven göğüs."
+    },
+    {
+      "id": 271,
+      "start_ms": 1548468,
+      "end_ms": 1554876,
+      "text": "He never understood that true love cannot be measured by logic, vanity, or silver buckles.",
+      "translation": "Hakiki sevginin mantıkla, kibirle ya da gümüş tokalarla tartılamayacağını asla anlayamadı.",
+      "notes": "Sayfa 14 | 'measured by logic': mantıkla ölçülmek; 'vanity': kibir."
+    },
+    {
+      "id": 272,
+      "start_ms": 1555276,
+      "end_ms": 1560340,
+      "text": "Meanwhile, the shadows of evening lengthened over the quiet garden outside.",
+      "translation": "Bu sırada dışarıdaki sessiz bahçenin üzerinde akşamın gölgeleri uzadı.",
+      "notes": "Sayfa 14 | 'shadows lengthened': gölgeler uzadı; 'quiet garden': sessiz bahçe."
+    },
+    {
+      "id": 273,
+      "start_ms": 1560740,
+      "end_ms": 1565732,
+      "text": "The holm-oak tree wept gently, mourning its little lost songbird in the dusk.",
+      "translation": "Pırnal meşesi ağacı alacakaranlıkta kayıp minik ötücü kuşu için yas tutarak usul usul ağladı.",
+      "notes": "Sayfa 14 | 'mourning': yas tutarak; 'lost songbird': kayıp ötücü kuş."
+    },
+    {
+      "id": 274,
+      "start_ms": 1566132,
+      "end_ms": 1570860,
+      "text": "The wind whispered through its branches a solemn elegy for the departed soul.",
+      "translation": "Rüzgâr, göçüp giden o ruh için dallarının arasından hüzünlü bir ağıt fısıldadı.",
+      "notes": "Sayfa 14 | 'solemn elegy': hüzünlü ağıt; 'departed soul': göçmüş ruh."
+    },
+    {
+      "id": 275,
+      "start_ms": 1571260,
+      "end_ms": 1576252,
+      "text": "The White Rose-tree bowed its head in silence, honouring its fallen sister.",
+      "translation": "Beyaz Gül Ağacı yere serilen kardeşini onurlandırarak başını sessizce öne eğdi.",
+      "notes": "Sayfa 14 | 'bowed head in silence': sessizce baş eğmek; 'fallen sister': yere serilen kızkardeş."
+    },
+    {
+      "id": 276,
+      "start_ms": 1576652,
+      "end_ms": 1581380,
+      "text": "The Yellow Rose-tree shed its golden petals upon the cooling evening earth.",
+      "translation": "Sarı Gül Ağacı altın taçyapraklarını soğuyan akşam toprağının üzerine döktü.",
+      "notes": "Sayfa 14 | 'shed petals': yapraklarını dökmek; 'cooling earth': soğuyan toprak."
+    },
+    {
+      "id": 277,
+      "start_ms": 1581780,
+      "end_ms": 1586628,
+      "text": "And the crushed red rose lay decaying in the filthy mud of the public street.",
+      "translation": "Ve ezilmiş o kırmızı gül ise umumi caddenin pis çamurunda çürüyüp yatıyordu.",
+      "notes": "Sayfa 14 | 'decaying': çürüyen; 'filthy mud': pis çamur."
+    },
+    {
+      "id": 278,
+      "start_ms": 1587028,
+      "end_ms": 1592356,
+      "text": "Its brilliant crimson petals were lost forever beneath the grime of passing carts.",
+      "translation": "Onun o parlak al taçyaprakları, gelip geçen arabaların pisliği altında sonsuza dek yitip gitti.",
+      "notes": "Sayfa 14 | 'brilliant crimson': göz alıcı al; 'grime': kir/pislik."
+    },
+    {
+      "id": 279,
+      "start_ms": 1592756,
+      "end_ms": 1598588,
+      "text": "The world continued its careless, hurried, and unfeeling pursuit of trivial things.",
+      "translation": "Dünya, ehemmiyetsiz şeylerin peşinde o vurdumduymaz, telaşlı ve hissiz koşturmacasını sürdürdü.",
+      "notes": "Sayfa 14 | 'unfeeling pursuit': hissiz arayış/kovalama; 'trivial things': önemsiz şeyler."
+    },
+    {
+      "id": 280,
+      "start_ms": 1598988,
+      "end_ms": 1604316,
+      "text": "Nobody in the bustling city paused to contemplate the tragedy of selfless love.",
+      "translation": "O hareketli şehirde hiç kimse karşılıksız sevginin bu trajedisini tefekkür etmek için durup düşünmedi.",
+      "notes": "Sayfa 14 | 'contemplate': derin tefekkür etmek; 'tragedy': trajedi/facia."
+    },
+    {
+      "id": 281,
+      "start_ms": 1605316,
+      "end_ms": 1610068,
+      "text": "Yet was the heroic sacrifice of the little Nightingale truly in vain?",
+      "translation": "Peki küçük Bülbül'ün o kahramanca fedakârlığı sahiden de nafile miydi?",
+      "notes": "Sayfa 15 | 'in vain': nafile/boşuna; 'heroic sacrifice': kahramanca fedakârlık."
+    },
+    {
+      "id": 282,
+      "start_ms": 1610468,
+      "end_ms": 1615604,
+      "text": "Though the foolish Student threw the rose away, the heavens had witnessed her deed.",
+      "translation": "Ahmak Öğrenci gülü fırlatıp atmış olsa da gökler onun bu amelini seyretmişti.",
+      "notes": "Sayfa 15 | 'witnessed deed': amele şahitlik etti; 'the heavens': sema/gökler."
+    },
+    {
+      "id": 283,
+      "start_ms": 1616004,
+      "end_ms": 1621476,
+      "text": "Far above the mortal earth, where cold logic and petty vanity hold no sway,",
+      "translation": "Fani yeryüzünün çok yukarısında, soğuk mantığın ve adi kibrin hiçbir hükmünün geçmediği yerde,",
+      "notes": "Sayfa 15 | 'hold no sway': hükmü geçmemek; 'mortal earth': fani yeryüzü."
+    },
+    {
+      "id": 284,
+      "start_ms": 1621876,
+      "end_ms": 1627228,
+      "text": "Every pure note of love is recorded forever in the immortal harmony of the spheres.",
+      "translation": "Aşkın her saf nağmesi gök kürelerinin o ölümsüz ahengine ebediyen kaydedilir.",
+      "notes": "Sayfa 15 | 'harmony of the spheres': gök kürelerinin ahengi; 'recorded forever': ebediyen kayıtlı."
+    },
+    {
+      "id": 285,
+      "start_ms": 1627628,
+      "end_ms": 1632716,
+      "text": "The angels of compassion leaned down and lifted the spirit of the fallen bird.",
+      "translation": "Merhamet melekleri aşağı doğru eğildiler ve yere serilmiş kuşun ruhunu yukarı kaldırdılar.",
+      "notes": "Sayfa 15 | 'angels of compassion': şefkat melekleri; 'lifted spirit': ruhu yükseltti."
+    },
+    {
+      "id": 286,
+      "start_ms": 1633116,
+      "end_ms": 1638516,
+      "text": "They carried her soul through the starry firmament to the celestial gardens of Paradise.",
+      "translation": "Onun ruhunu yıldızlı gökkubbenin içinden Cennet'in semavi bahçelerine taşıdılar.",
+      "notes": "Sayfa 15 | 'starry firmament': yıldızlı gökkubbe; 'celestial gardens': semavi bahçeler."
+    },
+    {
+      "id": 287,
+      "start_ms": 1638916,
+      "end_ms": 1645012,
+      "text": "There, red roses bloom eternally without any need of thorns, sorrow, or death.",
+      "translation": "Orada kırmızı güller dikene, kedere ya da ölüme hiç hacet kalmaksızın ebediyen açar.",
+      "notes": "Sayfa 15 | 'bloom eternally': ebediyen açar; 'without any need of': hiç gereksinim duymaksızın."
+    },
+    {
+      "id": 288,
+      "start_ms": 1645412,
+      "end_ms": 1650500,
+      "text": "There, the Nightingale sings forever among the branches of the Tree of Life.",
+      "translation": "Orada Bülbül, Hayat Ağacı'nın dalları arasında ebediyen şakır durur.",
+      "notes": "Sayfa 15 | 'Tree of Life': Hayat Ağacı; 'sings forever': sonsuza dek öter."
+    },
+    {
+      "id": 289,
+      "start_ms": 1650900,
+      "end_ms": 1656396,
+      "text": "Her voice joins the great chorus of eternity, proclaiming that Love is sovereign.",
+      "translation": "Sesi ebediyetin o ulu korosuna katılarak Aşk'ın her şeye hâkim olduğunu haykırır.",
+      "notes": "Sayfa 15 | 'great chorus': ulu koro; 'sovereign': mutlak hâkim."
+    },
+    {
+      "id": 290,
+      "start_ms": 1656796,
+      "end_ms": 1662220,
+      "text": "Back in his lonely room, the Student stared into his dry and dusty manuscript.",
+      "translation": "Kendi ıssız odasında ise Öğrenci kuru ve tozlu el yazmasına dik dik bakıyordu.",
+      "notes": "Sayfa 15 | 'dusty manuscript': tozlu el yazması; 'stared into': içine göz dikti."
+    },
+    {
+      "id": 291,
+      "start_ms": 1662620,
+      "end_ms": 1668452,
+      "text": "His cold eyes read words about truth, yet he possessed no understanding of the heart.",
+      "translation": "Soğuk gözleri hakikate dair kelimeleri okuyordu, fakat kalbin sırrına dair hiçbir idraki yoktu.",
+      "notes": "Sayfa 15 | 'possessed no understanding': zerre kavrayışı yoktu."
+    },
+    {
+      "id": 292,
+      "start_ms": 1668852,
+      "end_ms": 1674084,
+      "text": "He thought he was infinitely clever, while remaining utterly impoverished of soul.",
+      "translation": "Ruhu büsbütün yoksul kalırken kendisinin sonsuz derecede zeki olduğunu sanıyordu.",
+      "notes": "Sayfa 15 | 'infinitely clever': sonsuz zeki; 'impoverished of soul': ruhen sefil."
+    },
+    {
+      "id": 293,
+      "start_ms": 1674484,
+      "end_ms": 1680052,
+      "text": "He closed his book at midnight, satisfied with his shallow intellectual triumphs.",
+      "translation": "Sığ entelektüel zaferlerinden tatmin olmuş halde gece yarısı kitabını kapattı.",
+      "notes": "Sayfa 15 | 'intellectual triumphs': zihni zaferler; 'satisfied with': ile hoşnut."
+    },
+    {
+      "id": 294,
+      "start_ms": 1680452,
+      "end_ms": 1685732,
+      "text": "He blew out the dim candle and lay down in the dark, cold and unloved.",
+      "translation": "Cılız mumu üfledi ve karanlıkta soğuk ve sevgisiz bir şekilde uzandı.",
+      "notes": "Sayfa 15 | 'dim candle': cılız mum; 'cold and unloved': soğuk ve sevgisiz."
+    },
+    {
+      "id": 295,
+      "start_ms": 1686132,
+      "end_ms": 1691748,
+      "text": "He would spend his long years accumulating theories, facts, and sterile knowledge.",
+      "translation": "Uzun yıllarını teoriler, malumatlar ve kısır bilgiler biriktirerek tüketecekti.",
+      "notes": "Sayfa 15 | 'accumulating': biriktirerek; 'sterile knowledge': kısır/kuru bilgi."
+    },
+    {
+      "id": 296,
+      "start_ms": 1692148,
+      "end_ms": 1696636,
+      "text": "Yet he would never experience the breathtaking heights of true devotion.",
+      "translation": "Fakat hakiki bağlılığın o nefes kesici doruklarını asla tecrübe edemeyecekti.",
+      "notes": "Sayfa 15 | 'breathtaking heights': nefes kesen doruklar; 'devotion': sadakat/bağlılık."
+    },
+    {
+      "id": 297,
+      "start_ms": 1697036,
+      "end_ms": 1702124,
+      "text": "For Love is not an equation to be solved, nor an argument to be debated.",
+      "translation": "Çünkü Aşk ne çözülecek bir denklem, ne de münazara edilecek bir iddiadır.",
+      "notes": "Sayfa 15 | 'equation': denklem; 'argument to be debated': tartışılacak sav."
+    },
+    {
+      "id": 298,
+      "start_ms": 1702524,
+      "end_ms": 1708140,
+      "text": "Love is an offering of the entire soul, asking for nothing but the beloved's joy.",
+      "translation": "Aşk, sevilenin neşesinden başka hiçbir şey istemeksizin bütün ruhun feda edilişidir.",
+      "notes": "Sayfa 15 | 'offering of soul': ruhun adanışı/sunuluşu; 'asking for nothing': hiçbir şey istemeyen."
+    },
+    {
+      "id": 299,
+      "start_ms": 1708540,
+      "end_ms": 1714372,
+      "text": "The little bird had understood this divine truth, and her memory remains forever blessed.",
+      "translation": "Küçük kuş bu ilahi hakikati kavramıştı ve onun hatırası sonsuza dek kutlu kalacaktır.",
+      "notes": "Sayfa 15 | 'divine truth': ilahi hakikat; 'forever blessed': ebediyen kutlu."
+    },
+    {
+      "id": 300,
+      "start_ms": 1714772,
+      "end_ms": 1720556,
+      "text": "And in the quiet garden under the stars, the perfume of the crimson rose lingers still.",
+      "translation": "Ve yıldızların altındaki o sessiz bahçede al gülün o mis kokusu hâlâ buram buram tütmektedir.",
+      "notes": "Sayfa 15 | 'lingers still': hâlâ yaşamaktadır/durmaktadır; 'crimson rose': al gül."
+    }
+  ]
+}
