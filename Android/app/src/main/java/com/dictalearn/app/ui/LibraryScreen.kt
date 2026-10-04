@@ -13,6 +13,7 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Bookmarks
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.PlayArrow
@@ -41,7 +42,8 @@ fun LibraryScreen(
     progress: Map<String, LessonProgress>,
     lastBookId: String?,
     onOpenBook: (CatalogBook) -> Unit,
-    onOpenEditor: () -> Unit
+    onOpenEditor: () -> Unit,
+    onOpenNotebook: () -> Unit = {}
 ) {
     var query by rememberSaveable { mutableStateOf("") }
     var level by rememberSaveable { mutableStateOf<Int?>(null) }
@@ -60,6 +62,9 @@ fun LibraryScreen(
             TopAppBar(
                 title = { Text("DictaLearn", fontWeight = FontWeight.SemiBold, fontSize = 18.sp) },
                 actions = {
+                    IconButton(onClick = onOpenNotebook) {
+                        Icon(Icons.Default.Bookmarks, contentDescription = "Defterim", tint = Dicta.TextSecondary)
+                    }
                     IconButton(onClick = onOpenEditor) {
                         Icon(Icons.Default.Edit, contentDescription = "Ders oluştur", tint = Dicta.TextSecondary)
                     }

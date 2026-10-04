@@ -19,6 +19,7 @@ import androidx.compose.material.icons.filled.ChevronLeft
 import androidx.compose.material.icons.filled.ChevronRight
 import androidx.compose.material.icons.filled.EmojiEvents
 import androidx.compose.material.icons.filled.Lightbulb
+import androidx.compose.material.icons.filled.MenuBook
 import androidx.compose.material.icons.filled.Mic
 import androidx.compose.material.icons.filled.Pause
 import androidx.compose.material.icons.filled.Refresh
@@ -62,6 +63,7 @@ fun StudySessionScreen(
     audioStatus: AudioStatus = AudioStatus.IDLE,
     onPause: () -> Unit = {},
     onBack: (() -> Unit)? = null,
+    onOpenPdf: (() -> Unit)? = null,
     modifier: Modifier = Modifier
 ) {
     val state by viewModel.state.collectAsState()
@@ -108,6 +110,11 @@ fun StudySessionScreen(
                         }
                     },
                     actions = {
+                        if (onOpenPdf != null) {
+                            IconButton(onClick = onOpenPdf) {
+                                Icon(Icons.Default.MenuBook, contentDescription = "Kitabın PDF'i")
+                            }
+                        }
                         IconButton(onClick = { viewModel.previousSegment() }, enabled = currentIndex > 0) {
                             Icon(Icons.Default.ChevronLeft, contentDescription = "Önceki cümle")
                         }
@@ -466,7 +473,7 @@ private fun Reviewing(viewModel: StudySessionViewModel, status: AudioStatus, lis
             Spacer(Modifier.weight(1f))
             ListenButton(status, onClick = listen)
         }
-        Text(segment.text, fontFamily = FontFamily.Serif, fontSize = 21.sp, lineHeight = 30.sp, color = Dicta.TextPrimary)
+        WordLookupSentence(segment.text, viewModel.lesson.lessonId, segment.id, fontSize = 21.sp, lineHeight = 30.sp)
         segment.translation?.let { Text(it, color = Dicta.TextSecondary, fontSize = 14.sp, lineHeight = 20.sp) }
         segment.notes?.let { SegmentNote(it) }
     }
@@ -532,7 +539,8 @@ private fun Shadowing(viewModel: StudySessionViewModel, status: AudioStatus, lis
                 Text(if (showTranslation) "Çeviriyi gizle" else "Çeviriyi göster", fontSize = 12.sp)
             }
         }
-        Text(segment.text, fontFamily = FontFamily.Serif, fontSize = 24.sp, lineHeight = 34.sp, color = Dicta.TextPrimary)
+        WordLookupSentence(segment.text, viewModel.lesson.lessonId, segment.id, fontSize = 24.sp, lineHeight = 34.sp)
+        Text("Anlamını görmek için bir kelimeye dokun.", color = Dicta.TextMuted, fontSize = 11.sp)
         if (showTranslation && segment.translation != null) {
             Text(segment.translation, color = Color(0xFFC7D2FE), fontSize = 15.sp, lineHeight = 22.sp)
         }

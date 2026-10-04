@@ -32,9 +32,24 @@ android {
         }
     }
 
+    // Release signing comes from the environment (CI secrets); without it the APK is unsigned.
+    val releaseKeystore = System.getenv("DICTALEARN_KEYSTORE")?.let { file(it) }?.takeIf { it.exists() }
+    signingConfigs {
+        if (releaseKeystore != null) {
+            create("release") {
+                storeFile = releaseKeystore
+                storePassword = System.getenv("DICTALEARN_KEYSTORE_PASSWORD")
+                keyAlias = System.getenv("DICTALEARN_KEY_ALIAS")
+                keyPassword = System.getenv("DICTALEARN_KEY_PASSWORD")
+            }
+        }
+    }
+
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
+            isShrinkResources = true
+            signingConfig = signingConfigs.findByName("release")
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -97,6 +112,10 @@ dependencies {
     implementation(libs.androidx.material.icons.extended)
 
     implementation(libs.oboe)
+
+    // On-device EN->TR translation (Faz 7.1); the ~30 MB language model downloads on first use.
+    implementation("com.google.mlkit:translate:17.0.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.3")
 
     testImplementation(libs.junit)
     testImplementation("org.json:json:20240303")

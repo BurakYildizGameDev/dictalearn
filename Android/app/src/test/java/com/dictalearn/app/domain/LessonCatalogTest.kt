@@ -20,6 +20,8 @@ class LessonCatalogTest {
         val book = LessonCatalog.find("book_32_dracula")!!
         assertEquals("lessons/book_32_dracula/audio.mp3", book.audioAssetPath)
         assertEquals("lessons/book_32_dracula/lesson.json", book.lessonAssetPath)
+        assertEquals("lessons/book_32_dracula/book_32_dracula.pdf", book.pdfAssetPath)
+        assertNull(LessonCatalog.find("sample_ch01")!!.pdfAssetPath)
     }
 
     @Test

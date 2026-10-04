@@ -22,11 +22,19 @@ import com.dictalearn.app.data.mistakes.PersistentMistakeRepository
 import com.dictalearn.app.data.storage.SharedPrefsKeyValueStore
 import com.dictalearn.app.domain.library.CatalogBook
 import com.dictalearn.app.domain.library.LessonCatalog
+import com.dictalearn.app.data.translation.MlKitTranslator
+import com.dictalearn.app.domain.dictionary.Dictionary
+import com.dictalearn.app.domain.mistakes.MistakeKind
+import com.dictalearn.app.domain.mistakes.MistakeRecord
 import com.dictalearn.app.domain.model.Lesson
 import com.dictalearn.app.domain.parser.LessonParser
 import com.dictalearn.app.domain.progress.ProgressStore
 import com.dictalearn.app.ui.LessonEditorScreen
 import com.dictalearn.app.ui.LibraryScreen
+import com.dictalearn.app.ui.LocalWordTools
+import com.dictalearn.app.ui.NotebookScreen
+import com.dictalearn.app.ui.PdfReaderScreen
+import com.dictalearn.app.ui.WordTools
 import com.dictalearn.app.ui.StudyMode
 import com.dictalearn.app.ui.StudySessionScreen
 import com.dictalearn.app.ui.StudySessionViewModel
@@ -40,6 +48,7 @@ private sealed interface Screen {
     data class Study(val book: CatalogBook) : Screen
     data object Editor : Screen
     data object CustomStudy : Screen
+    data object Notebook : Screen
 }
 
 private const val KEY_LAST_BOOK = "last_book"
@@ -59,6 +68,7 @@ class MainActivity : ComponentActivity() {
 
     private lateinit var audioEngine: MediaPlayerAudioEngine
     private lateinit var speechEngine: AndroidSpeechEngine
+    private val translator by lazy { MlKitTranslator() }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -85,6 +95,27 @@ class MainActivity : ComponentActivity() {
                 var error by remember { mutableStateOf<String?>(null) }
                 var retryKey by remember { mutableIntStateOf(0) }
                 val audioStatus by audioEngine.status.collectAsState()
+                var showPdf by remember { mutableStateOf(false) }
+                var dictionary by remember { mutableStateOf<Dictionary?>(null) }
+
+                LaunchedEffect(Unit) {
+                    dictionary = withContext(Dispatchers.IO) {
+                        runCatching {
+                            Dictionary.fromJson(assets.open("lessons/dictionary.json").bufferedReader().use { it.readText() })
+                        }.getOrNull()
+                    }
+                }
+
+                val wordTools = remember(dictionary) {
+                    WordTools(
+                        dictionary = dictionary,
+                        translator = translator,
+                        speak = { speechEngine.speak(it) },
+                        addUnknown = { word, lessonId, segmentId ->
+                            mistakeRepo.addMistakes(listOf(MistakeRecord(word, MistakeKind.UNKNOWN, null, lessonId, segmentId)))
+                        }
+                    )
+                }
 
                 fun newViewModel(lesson: Lesson, lessonKey: String?, startIndex: Int): StudySessionViewModel =
                     StudySessionViewModel(
@@ -113,10 +144,13 @@ class MainActivity : ComponentActivity() {
                 fun goToLibrary() {
                     audioEngine.pause()
                     speechEngine.stop()
+                    showPdf = false
                     screen = Screen.Library
                 }
 
-                BackHandler(enabled = screen != Screen.Library) { goToLibrary() }
+                BackHandler(enabled = screen != Screen.Library) {
+                    if (showPdf) showPdf = false else goToLibrary()
+                }
 
                 // Load lesson JSON off the main thread; audio prepares asynchronously.
                 val studyBook = (screen as? Screen.Study)?.book
@@ -158,6 +192,7 @@ class MainActivity : ComponentActivity() {
                     }
                 }
 
+                CompositionLocalProvider(LocalWordTools provides wordTools) {
                 Box(
                     modifier = Modifier
                         .fillMaxSize()
@@ -169,7 +204,15 @@ class MainActivity : ComponentActivity() {
                             progress = progress,
                             lastBookId = lastBookId,
                             onOpenBook = { screen = Screen.Study(it) },
-                            onOpenEditor = { screen = Screen.Editor }
+                            onOpenEditor = { screen = Screen.Editor },
+                            onOpenNotebook = { screen = Screen.Notebook }
+                        )
+
+                        Screen.Notebook -> NotebookScreen(
+                            repository = mistakeRepo,
+                            dictionary = dictionary,
+                            onSpeak = { speechEngine.speak(it) },
+                            onBack = { goToLibrary() }
                         )
 
                         Screen.Editor -> Box(Modifier.systemBarsPadding()) { LessonEditorScreen(
@@ -193,17 +236,29 @@ class MainActivity : ComponentActivity() {
                                 vm == null -> Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                                     CircularProgressIndicator(color = Dicta.Accent)
                                 }
+                                showPdf && (s as? Screen.Study)?.book?.pdfAssetPath != null -> PdfReaderScreen(
+                                    assetPath = s.book.pdfAssetPath!!,
+                                    title = s.book.title,
+                                    onBack = { showPdf = false }
+                                )
                                 else -> StudySessionScreen(
                                     viewModel = vm,
                                     title = (s as? Screen.Study)?.book?.title ?: vm.lesson.title,
                                     audioStatus = audioStatus,
                                     onPause = { audioEngine.pause() },
-                                    onBack = { goToLibrary() }
+                                    onBack = { goToLibrary() },
+                                    onOpenPdf = (s as? Screen.Study)?.book?.pdfAssetPath?.let {
+                                        {
+                                            audioEngine.pause()
+                                            showPdf = true
+                                        }
+                                    }
                                 )
                             }
                         }
                     }
                 }
+            }
             }
         }
     }
@@ -219,6 +274,7 @@ class MainActivity : ComponentActivity() {
         super.onDestroy()
         audioEngine.dispose()
         speechEngine.dispose()
+        translator.close()
     }
 }
 

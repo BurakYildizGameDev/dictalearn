@@ -17,6 +17,9 @@ data class CatalogBook(
 
     // MP3 only: the WAV masters are excluded from the APK (see app/build.gradle.kts).
     val audioAssetPath: String get() = "lessons/$id/audio.mp3"
+
+    /** Graded books ship a PDF named after the lesson id; the demo has none. */
+    val pdfAssetPath: String? get() = if (level > 0) "lessons/$id/$id.pdf" else null
 }
 
 object LessonCatalog {
