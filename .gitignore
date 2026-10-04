@@ -53,3 +53,6 @@ tools/rocket_raw_sentences.txt
 lessons/custom_*/
 Web/public/lessons/custom_*/
 Android/app/src/main/assets/lessons/custom_*/
+
+# Word audio synthesis cache (tools/build_word_audio.py)
+tools/.word_audio_cache/

@@ -2,10 +2,15 @@ import { useState, useEffect, useMemo, useCallback, useSyncExternalStore } from 
 import type { Lesson } from './domain/lessons/types'
 import { loadLessonFromUrl } from './domain/lessons/lesson-loader'
 import { WebAudioEngine } from './audio/web-audio-engine'
+import { SpeechSegmentEngine } from './audio/speech-segment-engine'
+import { wordAudio } from './audio/word-audio'
+import { WordSpeechEngine } from './audio/speech-tts'
+import { extractPdfText } from './audio/pdf-text'
+import { extractSentences, buildPdfLesson } from './domain/pdf-lesson/pdf-lesson'
 import { LocalMistakeRepository } from './domain/mistakes/local-mistake-repository'
 import { CATALOG, findBook, lessonAssetUrls } from './domain/library/catalog'
 import { ProgressStore, type KeyValueStorage } from './domain/progress/progress-store'
-import { listAllCustomPdfs, saveCustomPdf, removeCustomPdf, asPdfBlob } from './domain/storage/pdf-storage'
+import { listAllCustomPdfs, saveCustomPdf, removeCustomPdf, asPdfBlob, getCustomPdf } from './domain/storage/pdf-storage'
 import { useHashRoute } from './state/route'
 import { StudySessionView } from './components/StudySessionView'
 import { LessonEditorView } from './components/LessonEditorView'
@@ -47,11 +52,18 @@ interface LoadedLesson {
   id: string
   lesson: Lesson
   startIndex: number
+  /** 'speech' lessons (from uploaded PDFs) have no audio file and are spoken instead. */
+  engine: 'audio' | 'speech'
+  title?: string
+  pdfUrl?: string
 }
+
+const pdfLessonId = (pdfId: string) => `pdf_${pdfId}`
 
 export function App() {
   const [route, navigate] = useHashRoute()
   const audioEngine = useMemo(() => new WebAudioEngine(), [])
+  const speechEngine = useMemo(() => new SpeechSegmentEngine(wordAudio), [])
   const mistakeRepository = useMemo(() => new LocalMistakeRepository(), [])
   const progressStore = useMemo(() => new ProgressStore(safeStorage()), [])
 
@@ -66,6 +78,11 @@ export function App() {
   const [uploadedPdfs, setUploadedPdfs] = useState<UploadedPdf[]>([])
   const [viewerPdf, setViewerPdf] = useState<UploadedPdf | null>(null)
   const isWide = useMediaQuery('(min-width: 1024px)')
+  const [hasEnglishVoice, setHasEnglishVoice] = useState(true)
+
+  useEffect(() => {
+    void WordSpeechEngine.hasEnglishVoice().then(setHasEnglishVoice)
+  }, [])
 
   useEffect(() => () => audioEngine.dispose(), [audioEngine])
 
@@ -116,7 +133,7 @@ export function App() {
         if (cancelled) return
         const saved = progressStore.get(book.id)
         const startIndex = saved && !saved.completed ? saved.segmentIndex : 0
-        setLoaded({ id: book.id, lesson, startIndex })
+        setLoaded({ id: book.id, lesson, startIndex, engine: 'audio' })
         setLastBookId(book.id)
         safeStorage()?.setItem(LAST_BOOK_KEY, book.id)
       })
@@ -131,20 +148,61 @@ export function App() {
     }
   }, [studyBookId, retryKey, audioEngine, progressStore, navigate])
 
+  // Build a dictation lesson from an uploaded PDF: text layer -> English sentences -> spoken segments.
+  const pdfId = route.name === 'pdfLesson' ? route.pdfId : null
+  useEffect(() => {
+    if (!pdfId) return
+    let cancelled = false
+    const id = pdfLessonId(pdfId)
+    audioEngine.pause()
+    ;(async () => {
+      try {
+        const stored = await getCustomPdf(pdfId)
+        if (!stored) throw new Error('PDF bulunamadı. Kütüphaneden yeniden ekleyebilirsin.')
+        const sentences = extractSentences(await extractPdfText(stored.blob))
+        if (sentences.length === 0) {
+          throw new Error('Bu PDF’te dikte için İngilizce cümle bulunamadı (taranmış görüntü ya da Türkçe metin olabilir).')
+        }
+        if (cancelled) return
+        const lesson = buildPdfLesson(id, stored.name, sentences)
+        speechEngine.setSegments(lesson.segments)
+        const saved = progressStore.get(id)
+        setLoaded({
+          id,
+          lesson,
+          startIndex: saved && !saved.completed ? Math.min(saved.segmentIndex, sentences.length - 1) : 0,
+          engine: 'speech',
+          title: lesson.title,
+          pdfUrl: URL.createObjectURL(asPdfBlob(stored.blob)),
+        })
+      } catch (err: unknown) {
+        if (cancelled) return
+        setLoadError({ id, message: err instanceof Error ? err.message : 'PDF işlenemedi.' })
+      }
+    })()
+    return () => {
+      cancelled = true
+    }
+  }, [pdfId, retryKey, audioEngine, speechEngine, progressStore])
+
   // Leaving the study screens stops the audio.
   useEffect(() => {
-    if (route.name === 'library' || route.name === 'editor' || route.name === 'notebook') audioEngine.pause()
-  }, [route.name, audioEngine])
+    if (route.name === 'library' || route.name === 'editor' || route.name === 'notebook') {
+      audioEngine.pause()
+      speechEngine.pause()
+    }
+  }, [route.name, audioEngine, speechEngine])
 
   // A custom lesson only lives in memory; after a reload there is nothing to show.
   useEffect(() => {
     if (route.name === 'custom' && loaded?.id !== CUSTOM_LESSON_ID) navigate({ name: 'library' })
   }, [route.name, loaded, navigate])
 
-  const error = route.name === 'study' && loadError?.id === studyBookId ? loadError.message : null
+  const targetId = studyBookId ?? (pdfId ? pdfLessonId(pdfId) : null)
+  const error = targetId && loadError?.id === targetId ? loadError.message : null
   const loadingId =
-    route.name === 'study' && studyBookId && loaded?.id !== studyBookId && !error
-      ? studyBookId
+    targetId && loaded?.id !== targetId && !error
+      ? targetId
       : customLoading
         ? CUSTOM_LESSON_ID
         : null
@@ -155,12 +213,13 @@ export function App() {
   }
 
   const activeBook = loaded && loaded.id !== CUSTOM_LESSON_ID ? findBook(loaded.id) : undefined
-  const activePdfUrl = activeBook ? lessonAssetUrls(activeBook, BASE_URL).pdfUrl : undefined
+  const activePdfUrl = activeBook ? lessonAssetUrls(activeBook, BASE_URL).pdfUrl : loaded?.pdfUrl
+  const activeTitle = activeBook?.title ?? loaded?.title
 
   useEffect(() => {
-    const onStudy = route.name === 'study' || route.name === 'custom'
-    document.title = onStudy && loaded ? `${activeBook?.title ?? loaded.lesson.title} · DictaLearn` : 'DictaLearn'
-  }, [route.name, loaded, activeBook])
+    const onStudy = route.name === 'study' || route.name === 'custom' || route.name === 'pdfLesson'
+    document.title = onStudy && loaded ? `${activeTitle ?? loaded.lesson.title} · DictaLearn` : 'DictaLearn'
+  }, [route.name, loaded, activeTitle])
 
   const handleProgress = useCallback(
     (lessonId: string, index: number, total: number) => {
@@ -208,7 +267,7 @@ export function App() {
     try {
       setCustomLoading(true)
       await audioEngine.load(customAudioUrl)
-      setLoaded({ id: CUSTOM_LESSON_ID, lesson: customLesson, startIndex: 0 })
+      setLoaded({ id: CUSTOM_LESSON_ID, lesson: customLesson, startIndex: 0, engine: 'audio' })
       navigate({ name: 'custom' })
     } catch (err: unknown) {
       window.alert(err instanceof Error ? err.message : 'Özel ders sesi yüklenemedi.')
@@ -217,13 +276,13 @@ export function App() {
     }
   }
 
-  const onStudyScreen = route.name === 'study' || route.name === 'custom'
+  const onStudyScreen = route.name === 'study' || route.name === 'custom' || route.name === 'pdfLesson'
   const showStudy =
     onStudyScreen &&
     !loadingId &&
     !error &&
     loaded &&
-    (route.name === 'custom' ? loaded.id === CUSTOM_LESSON_ID : loaded.id === studyBookId)
+    (route.name === 'custom' ? loaded.id === CUSTOM_LESSON_ID : loaded.id === targetId)
   const pdfDocked = showStudy && isPdfOpen && isWide && !!activePdfUrl
 
   return (
@@ -270,6 +329,7 @@ export function App() {
               onOpenBook={(id) => navigate({ name: 'study', bookId: id })}
               onOpenUploadedPdf={setViewerPdf}
               onRemoveUploadedPdf={removeUploadedPdf}
+              onStudyUploadedPdf={(pdf) => navigate({ name: 'pdfLesson', pdfId: pdf.id })}
               onUploadPdf={async (file) => setViewerPdf(await addUploadedPdf(file.name, file))}
               onOpenEditor={() => navigate({ name: 'editor' })}
             />
@@ -289,7 +349,9 @@ export function App() {
           {onStudyScreen && loadingId && (
             <div className="mx-auto space-y-4 py-24 text-center" role="status">
               <div className="mx-auto h-8 w-8 animate-spin rounded-full border-2 border-indigo-400 border-t-transparent" />
-              <p className="text-sm text-zinc-400">Ders ve ses dosyası yükleniyor…</p>
+              <p className="text-sm text-zinc-400">
+                {route.name === 'pdfLesson' ? 'PDF okunuyor ve cümlelere ayrılıyor…' : 'Ders ve ses dosyası yükleniyor…'}
+              </p>
             </div>
           )}
 
@@ -303,7 +365,7 @@ export function App() {
                   <ArrowLeft className="h-4 w-4" />
                   Kütüphane
                 </Button>
-                {route.name === 'study' && (
+                {(route.name === 'study' || route.name === 'pdfLesson') && (
                   <Button
                     size="sm"
                     variant="primary"
@@ -319,12 +381,22 @@ export function App() {
             </div>
           )}
 
+          {showStudy && loaded?.engine === 'speech' && !hasEnglishVoice && (
+            <div className="mx-auto mt-4 w-full max-w-3xl px-4">
+              <p className="rounded-xl border border-amber-400/20 bg-amber-400/[0.06] px-4 py-3 text-xs leading-relaxed text-amber-100/90">
+                Bu derste ses dosyası yok; cümleler stüdyo kelime paketinden kelime kelime okunuyor. Daha akıcı bir
+                okuma için Windows&apos;ta <strong>Ayarlar → Saat ve dil → Konuşma → Ses ekle → English (United States)</strong>{' '}
+                paketini kur ve tarayıcıyı yeniden başlat.
+              </p>
+            </div>
+          )}
+
           {showStudy && loaded && (
             <StudySessionView
               key={loaded.id}
               lesson={loaded.lesson}
-              title={activeBook?.title}
-              audioEngine={audioEngine}
+              title={activeTitle}
+              audioEngine={loaded.engine === 'speech' ? speechEngine : audioEngine}
               mistakeRepository={mistakeRepository}
               initialSegmentIndex={loaded.startIndex}
               onProgress={(index) => handleProgress(loaded.id, index, loaded.lesson.segments.length)}
@@ -343,7 +415,7 @@ export function App() {
               isOpen
               onClose={() => setIsPdfOpen(false)}
               defaultPdfUrl={activePdfUrl}
-              bookTitle={activeBook?.title}
+              bookTitle={activeTitle}
             />
           </div>
         )}
@@ -354,7 +426,7 @@ export function App() {
         isOpen={!!showStudy && isPdfOpen && !isWide}
         onClose={() => setIsPdfOpen(false)}
         defaultPdfUrl={activePdfUrl}
-        bookTitle={activeBook?.title}
+        bookTitle={activeTitle}
       />
 
       <PdfViewerModal
@@ -363,6 +435,14 @@ export function App() {
         defaultPdfUrl={viewerPdf?.pdfUrl}
         bookTitle={viewerPdf?.name}
         onPdfUploaded={async (name, file) => setViewerPdf(await addUploadedPdf(name, file))}
+        onCreateLesson={
+          viewerPdf
+            ? () => {
+                navigate({ name: 'pdfLesson', pdfId: viewerPdf.id })
+                setViewerPdf(null)
+              }
+            : undefined
+        }
       />
 
       {route.name === 'library' && (

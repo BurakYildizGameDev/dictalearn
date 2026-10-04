@@ -4,7 +4,7 @@ import type { MistakeRepository } from '../domain/mistakes/types'
 import { groupNotebook } from '../domain/mistakes/notebook'
 import { findBook } from '../domain/library/catalog'
 import { useDictionary } from '../hooks/use-dictionary'
-import { WordSpeechEngine } from '../audio/speech-tts'
+import { pronounce } from '../audio/word-audio'
 import { Button, Segmented } from './ui'
 
 type Filter = 'all' | 'mistakes' | 'unknown'
@@ -68,7 +68,7 @@ export const NotebookView: React.FC<{ mistakeRepository: MistakeRepository }> = 
               <li key={row.word} className="flex items-center gap-3 px-4 py-3">
                 <button
                   type="button"
-                  onClick={() => WordSpeechEngine.speak(row.word)}
+                  onClick={() => void pronounce(row.word)}
                   aria-label={`${row.word} kelimesini dinle`}
                   className="rounded-lg p-1.5 text-zinc-500 hover:bg-white/5 hover:text-zinc-200 cursor-pointer"
                 >

@@ -1,5 +1,5 @@
 import React, { useMemo, useRef, useState } from 'react'
-import { Search, Upload, FileText, Trash2, PenLine, Play, CheckCircle2, BookOpen } from 'lucide-react'
+import { Search, Upload, FileText, Trash2, PenLine, Play, CheckCircle2, BookOpen, Headphones } from 'lucide-react'
 import {
   filterCatalog,
   LEVEL_LABELS,
@@ -25,6 +25,7 @@ export interface LibraryViewProps {
   onOpenBook: (bookId: string) => void
   onOpenUploadedPdf: (pdf: UploadedPdf) => void
   onRemoveUploadedPdf: (pdf: UploadedPdf) => void
+  onStudyUploadedPdf: (pdf: UploadedPdf) => void
   onUploadPdf: (file: File) => void
   onOpenEditor: () => void
 }
@@ -81,6 +82,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
   onOpenBook,
   onOpenUploadedPdf,
   onRemoveUploadedPdf,
+  onStudyUploadedPdf,
   onUploadPdf,
   onOpenEditor,
 }) => {
@@ -259,7 +261,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
         <section className="mb-12" aria-labelledby="uploaded-pdfs">
           <h2 id="uploaded-pdfs" className="mb-4 flex items-baseline gap-3">
             <span className="font-serif text-xl text-zinc-100">Yüklediğin PDF'ler</span>
-            <span className="text-xs text-zinc-500">bu tarayıcıda saklanır</span>
+            <span className="text-xs text-zinc-500">bu tarayıcıda saklanır · “Dikte” ile PDF'ten ders oluştur</span>
           </h2>
           <ul className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
             {uploadedPdfs.map((pdf) => (
@@ -275,6 +277,15 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
                   title="Oku"
                 >
                   {pdf.name}
+                </button>
+                <button
+                  type="button"
+                  onClick={() => onStudyUploadedPdf(pdf)}
+                  className="inline-flex h-8 items-center gap-1.5 rounded-lg bg-indigo-500/15 px-2.5 text-xs font-medium text-indigo-200 hover:bg-indigo-500/25 cursor-pointer"
+                  title="PDF'teki İngilizce cümlelerden dikte dersi oluştur"
+                >
+                  <Headphones className="h-3.5 w-3.5" />
+                  Dikte
                 </button>
                 <button
                   type="button"

@@ -5,7 +5,7 @@ import type { DiffOptions, DiffResult } from '../domain/diff/types'
 import type { MistakeRepository, MistakeRecord } from '../domain/mistakes/types'
 import { computeWordDiff } from '../domain/diff/diff-engine'
 import { tokenizeSentenceToWords, checkWordMatch, type WordToken } from '../domain/words/word-mode'
-import { WordSpeechEngine } from '../audio/speech-tts'
+import { pronounce } from '../audio/word-audio'
 
 export type SessionState = 'dictating' | 'reviewing' | 'shadowing' | 'completed'
 export type StudyMode = 'sentence' | 'word'
@@ -123,12 +123,12 @@ export function useStudySession({
   const speakCurrentWord = useCallback(() => {
     const target = targetWords[currentWordIndex]
     if (target?.clean) {
-      WordSpeechEngine.speak(target.clean)
+      void pronounce(target.clean)
     }
   }, [targetWords, currentWordIndex])
 
   const speakWord = useCallback((word: string) => {
-    WordSpeechEngine.speak(word)
+    void pronounce(word)
   }, [])
 
   const giveLetterHint = useCallback(() => {

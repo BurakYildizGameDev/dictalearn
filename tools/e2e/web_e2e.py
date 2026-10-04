@@ -262,6 +262,60 @@ def run() -> int:
 
         check("PDF upload (empty MIME), persistence, delete", pdf_upload)
 
+        # Record media playback and OS speech calls to verify which voice is used.
+        page.add_init_script("""
+            window.__plays = []; window.__tts = []
+            const origPlay = HTMLMediaElement.prototype.play
+            HTMLMediaElement.prototype.play = function () {
+              window.__plays.push({ src: this.src, t: this.currentTime }); return origPlay.call(this)
+            }
+            if (window.speechSynthesis) {
+              const origSpeak = speechSynthesis.speak.bind(speechSynthesis)
+              speechSynthesis.speak = (u) => { window.__tts.push({ text: u.text, lang: u.lang, voice: u.voice && u.voice.name }); origSpeak(u) }
+            }
+        """)
+
+        def word_pronunciation():
+            page.goto(BASE + "#/study/sample_ch01")
+            page.reload()  # init scripts only run on a new document, not on hash navigation
+            page.wait_for_selector("#dictation-input")
+            page.get_by_role("button", name="Bilmiyorum / Göster").click()
+            page.get_by_label("Orijinal cümle").get_by_role("button", name="suitcase", exact=True).click()
+            page.get_by_role("button", name="Telaffuz").click()
+            page.wait_for_function("window.__plays.length > 0", timeout=10000)
+            plays = page.evaluate("window.__plays")
+            index = page.request.get(page.evaluate("(p) => new URL(p, location.href).href", "lessons/word_audio/index.json")).json()
+            start = index["words"]["suitcase"][0] / 1000
+            assert any(abs(p["t"] - start) < 0.05 for p in plays), f"suitcase sprite not played: {plays}"
+            tts = page.evaluate("window.__tts")
+            assert not any((t.get("lang") or "").startswith("tr") for t in tts), f"Turkish voice used: {tts}"
+
+        check("word pronunciation uses the studio word pack (never a Turkish voice)", word_pronunciation)
+
+        def pdf_lesson():
+            page.goto(BASE + "#/")
+            page.wait_for_selector("text=Seviye 1")
+            pdf = open(os.path.join(ROOT, "Web/public/lessons/book_03_the_nightingale_and_the_rose/book_03_the_nightingale_and_the_rose.pdf"), "rb").read()
+            page.locator("input[type=file]").first.set_input_files({"name": "Nightingale.pdf", "mimeType": "application/pdf", "buffer": pdf})
+            page.get_by_role("dialog", name="PDF Görüntüleyici").get_by_role("button", name="Dikte dersi").click()
+            page.wait_for_selector("#dictation-input", timeout=60000)
+            total = int(page.get_by_label("Cümleye git").get_attribute("max"))
+            assert 290 <= total <= 320, f"unexpected sentence count {total}"
+            body = page.evaluate("document.body.innerHTML")
+            assert "dance with me" not in body, "PDF lesson leaked the sentence before answering"
+            page.evaluate("window.__plays = []")
+            page.get_by_role("button", name="Dinle", exact=True).click()
+            page.wait_for_function("window.__plays.length >= 2 || window.__tts.length >= 1", timeout=15000)
+            page.get_by_role("button", name="Bilmiyorum / Göster").click()
+            expect(page.get_by_label("Orijinal cümle")).to_contain_text("dance with me")
+            expect(page.get_by_role("button", name="PDF")).to_be_visible()
+            page.get_by_role("button", name="Duraklat").first.click() if page.get_by_role("button", name="Duraklat").count() else None
+            page.goto(BASE + "#/")
+            page.wait_for_selector("text=Seviye 1")
+            page.get_by_role("button", name="Nightingale.pdf dosyasını sil").click()
+
+        check("uploaded PDF -> dictation lesson (sentences, spoken audio, split view)", pdf_lesson)
+
         # ── Mobile layout ────────────────────────────────────────────────
         mobile = browser.new_context(viewport={"width": 390, "height": 844}, is_mobile=True, has_touch=True)
         m = mobile.new_page()

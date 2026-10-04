@@ -4,7 +4,7 @@ import { BookmarkPlus, Check, ExternalLink, Volume2, X } from 'lucide-react'
 import type { DictionaryEntry } from '../domain/dictionary/dictionary'
 import { normalizeLookupWord } from '../domain/dictionary/dictionary'
 import type { MistakeRepository } from '../domain/mistakes/types'
-import { WordSpeechEngine } from '../audio/speech-tts'
+import { pronounce } from '../audio/word-audio'
 import { cx } from './cx'
 
 
@@ -122,7 +122,7 @@ export const WordLookupSentence: React.FC<WordLookupSentenceProps> = ({
           <div className="mt-3 flex flex-wrap gap-2">
             <button
               type="button"
-              onClick={() => WordSpeechEngine.speak(headword)}
+              onClick={() => void pronounce(headword)}
               className="inline-flex h-8 items-center gap-1.5 rounded-lg bg-white/5 px-3 text-xs text-zinc-200 hover:bg-white/10 cursor-pointer"
             >
               <Volume2 className="h-3.5 w-3.5" /> Telaffuz

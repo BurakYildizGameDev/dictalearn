@@ -7,6 +7,7 @@ export type Route =
   | { name: 'editor' }
   | { name: 'custom' } // lesson built in the editor; lives only in memory
   | { name: 'notebook' }
+  | { name: 'pdfLesson'; pdfId: string } // dictation lesson built from an uploaded PDF
 
 export function parseHash(hash: string): Route {
   const parts = hash.replace(/^#\/?/, '').split('/')
@@ -25,6 +26,14 @@ export function parseHash(hash: string): Route {
       return { name: 'custom' }
     case 'notebook':
       return { name: 'notebook' }
+    case 'pdf-lesson': {
+      if (!parts[1]) return { name: 'library' }
+      try {
+        return { name: 'pdfLesson', pdfId: decodeURIComponent(parts[1]) }
+      } catch {
+        return { name: 'library' }
+      }
+    }
     default:
       return { name: 'library' }
   }
@@ -40,6 +49,8 @@ export function routeToHash(route: Route): string {
       return '#/custom'
     case 'notebook':
       return '#/notebook'
+    case 'pdfLesson':
+      return `#/pdf-lesson/${encodeURIComponent(route.pdfId)}`
     default:
       return '#/'
   }

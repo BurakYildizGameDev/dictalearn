@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react'
-import { BookOpen, ExternalLink, Download, Upload, X, FileText } from 'lucide-react'
+import { BookOpen, ExternalLink, Download, Upload, X, FileText, Headphones } from 'lucide-react'
 import { cx } from './cx'
 import { isPdfFile } from '../domain/storage/pdf-storage'
 
@@ -21,6 +21,8 @@ export interface PdfViewerModalProps {
   bookTitle?: string
   /** Called with a PDF the user picked; the caller decides how to persist it. */
   onPdfUploaded?: (fileName: string, file: Blob) => void
+  /** Shown for uploaded PDFs: builds a dictation lesson from the PDF text. */
+  onCreateLesson?: () => void
   /** `docked` renders as a side panel next to the study screen (split view). */
   variant?: 'modal' | 'docked'
 }
@@ -31,6 +33,7 @@ export const PdfViewerModal: React.FC<PdfViewerModalProps> = ({
   defaultPdfUrl,
   bookTitle = 'Kitap PDF',
   onPdfUploaded,
+  onCreateLesson,
   variant = 'modal',
 }) => {
   const fileInputRef = useRef<HTMLInputElement>(null)
@@ -76,6 +79,17 @@ export const PdfViewerModal: React.FC<PdfViewerModalProps> = ({
           <h2 className="truncate text-sm font-medium text-zinc-100">{bookTitle}</h2>
         </div>
         <div className="flex shrink-0 items-center gap-0.5">
+          {onCreateLesson && (
+            <button
+              type="button"
+              onClick={onCreateLesson}
+              className="flex h-8 items-center gap-1.5 rounded-lg bg-indigo-500 px-3 text-xs font-medium text-white hover:bg-indigo-400 cursor-pointer"
+              title="Bu PDF'teki İngilizce cümlelerden dikte dersi oluştur"
+            >
+              <Headphones className="h-3.5 w-3.5" />
+              Dikte dersi
+            </button>
+          )}
           {onPdfUploaded && (
             <>
               <input type="file" ref={fileInputRef} accept=".pdf,application/pdf" onChange={handleFileChange} className="hidden" />

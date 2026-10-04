@@ -18,6 +18,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.dictalearn.app.data.audio.AndroidSpeechEngine
 import com.dictalearn.app.data.audio.MediaPlayerAudioEngine
+import com.dictalearn.app.data.audio.WordAudioSpeechEngine
 import com.dictalearn.app.data.mistakes.PersistentMistakeRepository
 import com.dictalearn.app.data.storage.SharedPrefsKeyValueStore
 import com.dictalearn.app.domain.library.CatalogBook
@@ -67,7 +68,7 @@ class MainActivity : ComponentActivity() {
     external fun stringFromJNI(): String
 
     private lateinit var audioEngine: MediaPlayerAudioEngine
-    private lateinit var speechEngine: AndroidSpeechEngine
+    private lateinit var speechEngine: WordAudioSpeechEngine
     private val translator by lazy { MlKitTranslator() }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -78,7 +79,7 @@ class MainActivity : ComponentActivity() {
             navigationBarStyle = SystemBarStyle.dark(android.graphics.Color.TRANSPARENT)
         )
         audioEngine = MediaPlayerAudioEngine(this)
-        speechEngine = AndroidSpeechEngine(this)
+        speechEngine = WordAudioSpeechEngine(this, fallback = AndroidSpeechEngine(this))
 
         val prefs = SharedPrefsKeyValueStore(this)
         val progressStore = ProgressStore(prefs)
