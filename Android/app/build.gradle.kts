@@ -3,6 +3,10 @@ plugins {
     alias(libs.plugins.kotlin.android)
 }
 
+// `-Pdictalearn.abiSplits=true` (release workflow): one APK per CPU architecture instead of one
+// universal APK, so the ML Kit / C++ native libraries are not shipped four times.
+val abiSplits = project.findProperty("dictalearn.abiSplits") == "true"
+
 android {
     namespace = "com.dictalearn.app"
     compileSdk = 36
@@ -27,8 +31,10 @@ android {
             }
         }
 
-        ndk {
-            abiFilters.addAll(setOf("armeabi-v7a", "arm64-v8a", "x86", "x86_64"))
+        if (!abiSplits) {
+            ndk {
+                abiFilters.addAll(setOf("armeabi-v7a", "arm64-v8a", "x86", "x86_64"))
+            }
         }
     }
 
@@ -82,6 +88,17 @@ android {
 
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.11"
+    }
+
+    if (abiSplits) {
+        splits {
+            abi {
+                isEnable = true
+                reset()
+                include("arm64-v8a", "armeabi-v7a", "x86_64")
+                isUniversalApk = false
+            }
+        }
     }
 
     androidResources {

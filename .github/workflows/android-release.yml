@@ -50,7 +50,8 @@ jobs:
           DICTALEARN_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
           DICTALEARN_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
           DICTALEARN_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
-        run: ./gradlew testDebugUnitTest assembleRelease --stacktrace
+        # one APK per CPU architecture (arm64 phones need app-arm64-v8a-release.apk)
+        run: ./gradlew testDebugUnitTest assembleRelease -Pdictalearn.abiSplits=true --stacktrace
 
       - uses: actions/upload-artifact@v4
         with:
