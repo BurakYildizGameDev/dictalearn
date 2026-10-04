@@ -300,3 +300,5 @@ export interface AudioEngine {
 | 2026-10-04 | Uzun derslerde PCM decode yok; Android APK'ya WAV girmez | 1 saatlik sesin AudioBuffer'a çözülmesi ~700 MB bellek; WAV'lar APK'yı 4 GB sınırının üstüne çıkarıyordu. |
 | 2026-10-04 | Kitap üretimi 36 kitapta durduruldu | Kullanıcı kararı; F5.6-F5.8 açık kalır. |
 | 2026-10-04 | Sözlük proje içeriğinden üretilir (14k madde) | Açık lisanslı 50k EN-TR sözlük kaynağı yok; çevrimdışı ilke korunur. Android'de ML Kit cihaz içi çeviri tamamlar. |
+| 2026-10-04 | Aralıklı tekrar, zor cümleler, günlük hedef, dışa aktarma, PWA | Öğrenme döngüsünü kalıcılaştırmak; tüm durum cihazda, hesap/sunucu yok. |
+| 2026-10-04 | Mimari başına release APK, asset delivery ertelendi | APK boyutunun %85'i ses dosyası; ihtiyaç anında indirme yapısal değişiklik gerektirir. |

@@ -1,5 +1,8 @@
 # DictaLearn — Yapılacaklar Yol Haritası (Kalan Fazlar)
 
+> **Durum (2026-10-04):** Faz 0–9 ve sonradan eklenen iyileştirmeler tamamlandı (bkz. YAPILANLAR.md).
+> Açık kalan tek iş kalemi içerik üretimidir (Seviye 2'nin kalanı, Seviye 3 ve 4); kullanıcı kararıyla durduruldu.
+
 Bu belge, **DictaLearn** projesinde bir sonraki oturumda uygulanacak olan **Faz 5, Faz 6, Faz 7 ve Faz 8** adımlarının teknik mimarisini, dosya yerleşimini ve uygulama planını detaylandırmaktadır.
 
 ---
@@ -144,7 +147,7 @@ Bu belge, **DictaLearn** projesinde bir sonraki oturumda uygulanacak olan **Faz 
   - Sistem Mimari Şeması (Mermaid diyagramı: C++ NDK, WebAudioEngine, Studio TTS Pipeline).
   - Canlı Web Demosu ve APK İndirme linkleri.
   - GIF / Ekran görüntüleri ile dikte ve shadowing döngüsü tanıtımı.
-- [ ] **F8.4 CV ve LinkedIn Portföy Şablonu**:
+- [x] **F8.4 CV ve LinkedIn Portföy Şablonu** _(docs/PORTFOLIO.md)_:
   - Mülakatlarda ve CV'de kullanılacak teknik kazanım metinleri: "Çoklu Platform (React + Kotlin + C++ NDK)", "Levenshtein String Diff", "Milisaniye Hassasiyetli Web Audio & ExoPlayer", "Otomatik Multimedya Üretim Hattı (Neural TTS + ReportLab PDF)".
 
 ---

@@ -74,6 +74,16 @@ def back() -> None:
     time.sleep(1.0)
 
 
+def scroll_to(label: str, max_swipes: int = 6) -> None:
+    """Lazy lists only contain on-screen items: swipe up until the label appears."""
+    for _ in range(max_swipes):
+        if visible(label):
+            return
+        adb("shell", "input", "swipe", "540", "1800", "540", "900", "300")
+        time.sleep(0.8)
+    raise AssertionError(f'"{label}" not found after scrolling')
+
+
 def back_to_library() -> None:
     """The first BACK may only close the soft keyboard (standard Android behaviour)."""
     for _ in range(3):
@@ -107,6 +117,7 @@ def main() -> int:
     check("daily goal card on the library", lambda: find("BUGÜNKÜ HEDEF", 5))
 
     def open_book():
+        scroll_to("Mutlu Prens")
         tap("Mutlu Prens")
         find("Cümle 1 / 300", 20)
         find("Bilmiyorum / Göster")

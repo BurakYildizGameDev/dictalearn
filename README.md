@@ -9,7 +9,7 @@ Web'de ve Android'de, tamamen çevrimdışı.
 
 ![Web](https://img.shields.io/badge/Web-React%2019%20%C2%B7%20TypeScript%20%C2%B7%20Vite%208-61dafb?style=flat-square)
 ![Android](https://img.shields.io/badge/Android-Kotlin%20%C2%B7%20Jetpack%20Compose%20%C2%B7%20C%2B%2B%20NDK-3ddc84?style=flat-square)
-![Tests](https://img.shields.io/badge/tests-257%20unit%20%2B%2035%20e2e-brightgreen?style=flat-square)
+![Tests](https://img.shields.io/badge/tests-267%20unit%20%2B%2040%20e2e-brightgreen?style=flat-square)
 ![Library](https://img.shields.io/badge/k%C3%BCt%C3%BCphane-36%20kitap%20%C2%B7%2013.000%20c%C3%BCmle-6366f1?style=flat-square)
 ![Offline](https://img.shields.io/badge/hesap%20%C2%B7%20sunucu%20%C2%B7%20telemetri-yok-lightgrey?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/lisans-MIT-yellow?style=flat-square)](LICENSE)
@@ -90,6 +90,7 @@ stateDiagram-v2
 - **Hız:** 0.75x / 1x / 1.25x. Perde korunur, ses kalınlaşıp incelmez.
 - **Zor cümleler:** İlk denemede doğruluğu %70'in altında kalan cümleler ders bazında hatırlanır. "Zor cümleler (N)"
   düğmesi ya da ders sonu ekranı bu cümlelerden kısa bir tur açar. İyi yapılan cümle listeden çıkar; ana dersteki ilerleme etkilenmez.
+- **Günlük hedef ve seri:** Günde 10 / 20 / 40 cümle hedefi, hedefin tutturulduğu ardışık günler ve son 7 günün grafiği.
 - **Kaldığın yerden devam:** Her kitabın ilerlemesi cihazda saklanır. İstediğin cümleye atlayabilir ya da `PageUp`/`PageDown` ile gezinebilirsin.
 
 ### Çeviri ve kelime
@@ -101,7 +102,8 @@ stateDiagram-v2
   Sistemde İngilizce ses olmasa bile anlaşılır.
 - **Kelime bazlı çeviri:** Kelime modunda çözülen her kelimenin altında Türkçe anlamı belirir.
 - **Android:** Google ML Kit ile **cihaz içinde** cümle çevirisi. Dil modeli bir kez indirilir, sonra internetsiz çalışır.
-- **Defterim:** kaçırılan ve bilinmeyen kelimeler, sıklık ve anlamlarıyla birlikte.
+- **Defterim:** kaçırılan ve bilinmeyen kelimeler, sıklık ve anlamlarıyla birlikte. **CSV** (Excel) ve **Anki** destesi
+  olarak dışa aktarılır; Android'de paylaşım menüsüyle gönderilir.
 - **Aralıklı tekrar (Leitner):** Defterdeki kelimeler doğru bildikçe 1, 3, 7, 14, 30 gün arayla sorulur.
   Yanlışta kelime başa döner; dikte sırasında tekrar kaçırılırsa da başa döner. Tekrar turunda kelime stüdyo
   sesiyle okunur, Türkçesi gösterilir, İngilizcesini yazarsın.
@@ -114,6 +116,10 @@ stateDiagram-v2
   ML Kit, ikisi de çevrimdışı. İlk 25 sayfa bitince ders açılır, kalan sayfalar arka planda okunup derse eklenir.
   Sayfalar önbelleğe alınır; aynı PDF ikinci kez taranmaz.
 - **Android:** Uygulama içi PDF okuyucu.
+
+### Kurulabilir web uygulaması (PWA)
+- Telefonda tarayıcı menüsünden **"Ana ekrana ekle"** ile uygulama gibi kurulur.
+- Açtığın kitaplar (ses, PDF, ders dosyası) ilk açılışta önbelleğe alınır; sonra internet olmadan da çalışır.
 
 ### Kendi dersin
 - **Ders oluşturucu:** Ses dosyası ve SRT/VTT altyazıdan ders üretilir. Segment zamanları, metin ve çeviri düzenlenebilir.
@@ -180,6 +186,7 @@ cd Android
 ./gradlew assembleDebug                               # tüm kitaplar (~600 MB)
 ./gradlew assembleDebug -Pdictalearn.slimAssets=true  # 2 kitap + demo, küçük emülatörler için
 ./gradlew assembleRelease                             # R8 ile küçültülmüş
+./gradlew assembleRelease -Pdictalearn.abiSplits=true # mimari başına APK (arm64 telefonlar: app-arm64-v8a-…)
 ```
 
 Gereksinim: JDK 17, Android SDK 36, NDK 28.2, minSdk 24.
@@ -271,16 +278,18 @@ Bir ders, `lesson.json` ve `audio.mp3` dosyalarından oluşan taşınabilir bir 
 
 | Katman | Araç | Sayı |
 |---|---|---|
-| Web birim ve bileşen | Vitest + Testing Library | **171** |
-| Android birim | JUnit 4 | **86** |
-| Web uçtan uca | Playwright (gerçek Chromium) | **20 kontrol** (dev ve `/repo/` alt yollu prod derlemesi) |
-| Android uçtan uca | adb + uiautomator (emülatör) | **15 kontrol** (debug ve R8 release APK) |
+| Web birim ve bileşen | Vitest + Testing Library | **178** |
+| Android birim | JUnit 4 | **89** |
+| Web uçtan uca | Playwright (gerçek Chromium) | **22 kontrol** (dev ve `/repo/` alt yollu prod derlemesi) |
+| Web çevrimdışı (PWA) | Playwright, prod derlemesi | **2 kontrol** (kurulabilirlik, çevrimdışı ders) |
+| Android uçtan uca | adb + uiautomator (emülatör) | **16 kontrol** (debug ve R8 release APK) |
 
 ```bash
 # Uçtan uca testler
 pip install playwright && python -m playwright install chromium
 python tools/e2e/web_e2e.py http://localhost:5173/     # dev ya da preview sunucusu
 python tools/e2e/android_e2e.py                         # adb'ye bağlı cihaz/emülatör
+python tools/e2e/pwa_offline.py http://localhost:5200/dictalearn/   # prod derlemesi (vite preview)
 ```
 
 Uçtan uca testlerin kontrol ettikleri:
@@ -371,10 +380,12 @@ python tools/build_word_audio.py   # stüdyo sesli kelime paketi (lessons/word_a
 - [x] Faz 9: modern arayüz (kütüphane, split view, dock, mobil düzen)
 - [x] Kendi PDF'inden dikte dersi, taranmış PDF'ler için OCR, kelime bazlı çeviri, stüdyo kelime telaffuzu
 - [x] Defterim için aralıklı tekrar, zor cümleleri tekrar etme
-- [ ] Seviye 2'nin tamamlanması, Seviye 3 (B2, 35 sayfa) ve Seviye 4 (C1, 50 sayfa)
-- [ ] Play Store için asset pack'lere bölünmüş Android paketi
+- [x] Günlük hedef ve seri, defteri CSV/Anki dışa aktarma, PWA, mimari başına APK
+- [ ] Seviye 2'nin tamamlanması, Seviye 3 (B2, 35 sayfa) ve Seviye 4 (C1, 50 sayfa) — içerik üretimi
+- [ ] Ses dosyalarının ihtiyaç anında indirilmesi (Play Asset Delivery) — APK'yı ~100 MB'ın altına indirir
+- [ ] Shadowing'de kendi sesini kaydedip orijinalle karşılaştırma (v1 kapsamı dışında bırakılmıştı)
 
-Ayrıntılar için [PLAN.md](PLAN.md) ve [YAPILANLAR.md](YAPILANLAR.md).
+Ayrıntılar için [PLAN.md](PLAN.md), [YAPILANLAR.md](YAPILANLAR.md) ve CV/portföy metinleri için [docs/PORTFOLIO.md](docs/PORTFOLIO.md).
 
 ## Lisans ve içerik
 

@@ -350,6 +350,23 @@ Her kitap: **25 sayfa × 20 cümle = 500 cümle**, 26 sayfalık PDF, 200 hedef k
   - Ana dersin ilerlemesi değişmez. Tur başlarken liste bir kez sabitlenir.
   - PDF derslerinde de çalışır.
 
+### ✅ Son Fazlar (2026-10-04)
+- **Günlük hedef ve seri** (`DailyStats`, web + Android):
+  - Pratik edilen cümleler günlük sayılır; hedef 10/20/40.
+  - Seri, hedefin tutturulduğu ardışık günlerdir; bitmemiş bugün seriyi bozmaz.
+  - Kütüphanede ilerleme, seri ve son 7 gün grafiği gösterilir.
+- **Defteri dışa aktarma** (web + Android):
+  - CSV: Excel için BOM, RFC 4180 tırnaklama.
+  - Anki: sekme ayrımlı içe aktarma (ön yüz İngilizce, arka yüz Türkçe).
+  - Android'de paylaşım menüsüyle gönderilir.
+- **PWA (web):**
+  - Manifest ve ikonlar; yalnızca production derlemesinde service worker.
+  - Uygulama kabuğu ağ öncelikli, çevrimdışıyken önbellekten açılır.
+  - Ders dosyaları ilk açılışta önbelleğe alınır.
+  - `tools/e2e/pwa_offline.py` ile çevrimdışı ders doğrulandı. `index.html` başlığı ve dili düzeltildi.
+- **Android mimari başına APK:** `-Pdictalearn.abiSplits=true` ile ~600 MB'lık APK'lar (universal: 689 MB; yerel kütüphaneler 109 MB, ses/PDF 583 MB). Release iş akışı bunu kullanır.
+- **Portföy:** `docs/PORTFOLIO.md` (YAPILACAKLAR F8.4).
+
 ### ✅ Repo Bakımı — Git Geçmişi Temizliği ve Git LFS
 - Geçmiş değiştirilmeden önce tam yedek alındı: `../DictaLearn-git-backup-2026-10-04.git`.
 - `git filter-repo` ile 2.3 GB WAV tüm geçmişten silindi. WAV'lar diskte duruyor, `.gitignore`'da.
@@ -363,11 +380,12 @@ Her kitap: **25 sayfa × 20 cümle = 500 cümle**, 26 sayfalık PDF, 200 hedef k
 
 | Platform | Katman | Araç | Sonuç |
 |---|---|---|---|
-| **Web** | Birim + bileşen | Vitest 5 + Testing Library | **171 / 171** |
-| **Web** | Uçtan uca | Playwright, gerçek Chromium (`tools/e2e/web_e2e.py`) | **20 / 20** (telaffuz, PDF dersi, aralıklı tekrar, zor cümleler dahil) |
+| **Web** | Birim + bileşen | Vitest 5 + Testing Library | **178 / 178** |
+| **Web** | Uçtan uca | Playwright, gerçek Chromium (`tools/e2e/web_e2e.py`) | **22 / 22** (dev ve prod derlemesi) |
+| **Web** | Çevrimdışı (PWA) | `tools/e2e/pwa_offline.py`, prod derlemesi | **2 / 2** |
 | **Web** | Statik analiz | Oxlint + `tsc -b` | 0 uyarı, 0 hata |
-| **Android** | Birim | JUnit 4 | **86 / 86** |
-| **Android** | Uçtan uca | adb + uiautomator, Pixel 7 API 34 emülatörü (`tools/e2e/android_e2e.py`) | **15 / 15** |
+| **Android** | Birim | JUnit 4 | **89 / 89** |
+| **Android** | Uçtan uca | adb + uiautomator, Pixel 7 API 34 emülatörü (`tools/e2e/android_e2e.py`) | **16 / 16** |
 | **Android** | Derleme | Gradle | debug 607 MB · release 591 MB (tüm kitaplar) |
 
 **Uçtan uca testlerin kapsamı:**
