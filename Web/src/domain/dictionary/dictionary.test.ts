@@ -63,3 +63,25 @@ describe('Dictionary.lookup', () => {
     expect(dict.size).toBe(11)
   })
 })
+
+describe('shortGloss', () => {
+  it('keeps the first sense and trims long meanings for under-word display', async () => {
+    const { shortGloss } = await import('./dictionary')
+    expect(shortGloss('toplamak, paketlemek')).toBe('toplamak')
+    expect(shortGloss('-de, -da; içinde')).toBe('-de, -da')
+    expect(shortGloss('belirli tanımlık (o, şu)')).toBe('belirli tanımlık')
+    expect(shortGloss('Kırlangıç kuşu')).toBe('kırlangıç kuşu')
+    expect(shortGloss('çok uzun bir açıklama metni burada devam ediyor')).toBe('çok uzun bir açıklama…')
+  })
+})
+
+describe('Dictionary.glossForSolvedWord', () => {
+  it('only uses words that are already solved (no hint about the next word)', () => {
+    const words = ['They', 'began', 'to', 'drift', 'apart.']
+    // only "drift" is solved: the phrase "drift apart" must not be revealed yet
+    expect(dict.glossForSolvedWord(words, 3, 4)).toBeNull()
+    // both solved: the phrase meaning appears on both words
+    expect(dict.glossForSolvedWord(words, 3, 5)?.headword).toBe('drift apart')
+    expect(dict.glossForSolvedWord(['He', 'packed', 'it'], 1, 2)?.headword).toBe('pack')
+  })
+})

@@ -21,6 +21,15 @@ class Dictionary(private val entries: Map<String, String>) {
         return null
     }
 
+    /**
+     * Meaning under a solved word in word-by-word mode. Only the first [solvedCount] words are used,
+     * so a phrase appears only once all of its words are solved (no hint about the next word).
+     */
+    fun glossForSolvedWord(words: List<String>, index: Int, solvedCount: Int): DictionaryEntry? {
+        if (index >= solvedCount) return null
+        return lookupInSentence(words.take(solvedCount), index)
+    }
+
     /** Phrases of up to 4 words that include the clicked word win over the single word. */
     fun lookupInSentence(words: List<String>, index: Int): DictionaryEntry? {
         val norm = words.map(::normalize)
@@ -104,6 +113,20 @@ class Dictionary(private val entries: Map<String, String>) {
             if (w.endsWith("er") && w.length > 4) add(w.dropLast(2))
             if (w.endsWith("est") && w.length > 5) add(w.dropLast(3))
             return out
+        }
+
+        private const val GLOSS_MAX = 22
+        private val turkish = java.util.Locale("tr")
+
+        /** First sense of a meaning, short enough to sit under a word. */
+        fun shortGloss(meaning: String): String {
+            var sense = meaning.split(';').first().replace(Regex("\\([^)]*\\)"), "").trim()
+            if (!sense.startsWith("-")) sense = sense.split(',').first().trim()
+            if (sense.isNotEmpty()) sense = sense.substring(0, 1).lowercase(turkish) + sense.substring(1)
+            if (sense.length <= GLOSS_MAX) return sense
+            val cut = sense.take(GLOSS_MAX + 1)
+            val space = cut.lastIndexOf(' ')
+            return cut.take(if (space > 0) space else GLOSS_MAX).trim() + "…"
         }
 
         fun fromJson(json: String): Dictionary {

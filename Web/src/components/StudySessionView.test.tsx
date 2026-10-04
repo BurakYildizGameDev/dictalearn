@@ -226,6 +226,33 @@ describe('StudySessionView Component (Faz 1 & Faz 3)', () => {
     expect(mockAudioEngine.playRange).toHaveBeenCalledWith(0, 4000)
   })
 
+  it('word mode builds the sentence with Turkish meanings under solved words only', async () => {
+    const { resetDictionaryCache } = await import('../domain/dictionary/dictionary-loader')
+    resetDictionaryCache()
+    vi.spyOn(globalThis, 'fetch').mockResolvedValue({
+      ok: true,
+      json: async () => ({ version: 1, entries: { he: 'o (erkek)', pack: 'toplamak, paketlemek', his: 'onun' } }),
+    } as Response)
+    render(<StudySessionView lesson={dummyLesson} audioEngine={mockAudioEngine} />)
+    fireEvent.click(screen.getByRole('button', { name: /Kelime/i }))
+    const input = screen.getByPlaceholderText(/Kelimeyi buraya yazın/i)
+
+    fireEvent.change(input, { target: { value: 'he' } })
+    fireEvent.click(screen.getByRole('button', { name: /Kontrol Et/i }))
+    expect(await screen.findByText('o')).toBeInTheDocument() // "o (erkek)" -> "o"
+    // the next word ("packed" -> toplamak) must not be hinted
+    expect(screen.queryByText('toplamak')).toBeNull()
+
+    fireEvent.change(input, { target: { value: 'packed' } })
+    fireEvent.click(screen.getByRole('button', { name: /Kontrol Et/i }))
+    expect(screen.getByText('toplamak')).toBeInTheDocument()
+    expect(screen.getAllByTestId('word-gloss')).toHaveLength(2)
+
+    fireEvent.click(screen.getByRole('button', { name: /Anlamlar: Açık/i }))
+    expect(screen.queryAllByTestId('word-gloss')).toHaveLength(0)
+    expect(localStorage.getItem('dictalearn_word_gloss')).toBe('false')
+  })
+
   describe('word info card (Faz 7)', () => {
     beforeEach(async () => {
       const { resetDictionaryCache } = await import('../domain/dictionary/dictionary-loader')

@@ -9,7 +9,7 @@ Web'de ve Android'de, tamamen çevrimdışı.
 
 ![Web](https://img.shields.io/badge/Web-React%2019%20%C2%B7%20TypeScript%20%C2%B7%20Vite%208-61dafb?style=flat-square)
 ![Android](https://img.shields.io/badge/Android-Kotlin%20%C2%B7%20Jetpack%20Compose%20%C2%B7%20C%2B%2B%20NDK-3ddc84?style=flat-square)
-![Tests](https://img.shields.io/badge/tests-194%20unit%20%2B%2029%20e2e-brightgreen?style=flat-square)
+![Tests](https://img.shields.io/badge/tests-235%20unit%20%2B%2031%20e2e-brightgreen?style=flat-square)
 ![Library](https://img.shields.io/badge/k%C3%BCt%C3%BCphane-36%20kitap%20%C2%B7%2013.000%20c%C3%BCmle-6366f1?style=flat-square)
 ![Offline](https://img.shields.io/badge/hesap%20%C2%B7%20sunucu%20%C2%B7%20telemetri-yok-lightgrey?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/lisans-MIT-yellow?style=flat-square)](LICENSE)
@@ -83,6 +83,9 @@ stateDiagram-v2
 - **İki mod:**
   - *Cümle cümle:* tam dikte.
   - *Kelime kelime:* sıradaki kelimeler gizlidir. Kelimeler Boşluk tuşuyla anında kontrol edilir; harf ipucu ve kelime telaffuzu var.
+    Doğru yazılan her kelimenin **altında Türkçe anlamı belirir**, böylece cümle anlamıyla birlikte adım adım tamamlanır.
+    Sıradaki kelimenin anlamı ipucu olmasın diye gösterilmez; deyimler ("high above") tüm kelimeleri çözülünce görünür.
+    "Anlamlar" düğmesiyle kapatılabilir.
 - **Shadowing:** Cümleyi istediğin kadar tekrar dinleyebilirsin; çeviri `Ctrl+T` ile açılıp kapanır, cümle notları gösterilir.
 - **Hız:** 0.75x / 1x / 1.25x. Perde korunur, ses kalınlaşıp incelmez.
 - **Kaldığın yerden devam:** Her kitabın ilerlemesi cihazda saklanır. İstediğin cümleye atlayabilir ya da `PageUp`/`PageDown` ile gezinebilirsin.
@@ -91,7 +94,10 @@ stateDiagram-v2
 - **Çevrimdışı sözlük (14.067 madde):** Açılan cümlede bir kelimeye dokunduğunda Türkçe anlamı gelir.
   - Çekimli halleri tanır: *packed → pack*, *stories → story*, *stood → stand*.
   - Deyimleri tanır: *drift apart*, *high above*.
-- **Kelime kartı:** anlam, telaffuz (TTS) ve **"Bilmiyorum, deftere ekle"**.
+- **Kelime kartı:** anlam, stüdyo sesiyle telaffuz ve **"Bilmiyorum, deftere ekle"**.
+- **Stüdyo kelime telaffuzu:** 15.155 kelimelik çevrimdışı ses paketi; kitapları seslendiren nöral sesle okunur.
+  Sistemde İngilizce ses olmasa bile anlaşılır.
+- **Kelime bazlı çeviri:** Kelime modunda çözülen her kelimenin altında Türkçe anlamı belirir.
 - **Android:** Google ML Kit ile **cihaz içinde** cümle çevirisi. Dil modeli bir kez indirilir, sonra internetsiz çalışır.
 - **Defterim:** kaçırılan ve bilinmeyen kelimeler, sıklık ve anlamlarıyla birlikte.
 
@@ -260,9 +266,9 @@ Bir ders, `lesson.json` ve `audio.mp3` dosyalarından oluşan taşınabilir bir 
 
 | Katman | Araç | Sayı |
 |---|---|---|
-| Web birim ve bileşen | Vitest + Testing Library | **128** |
-| Android birim | JUnit 4 | **66** |
-| Web uçtan uca | Playwright (gerçek Chromium) | **16 kontrol** (dev ve `/repo/` alt yollu prod derlemesi) |
+| Web birim ve bileşen | Vitest + Testing Library | **156** |
+| Android birim | JUnit 4 | **79** |
+| Web uçtan uca | Playwright (gerçek Chromium) | **18 kontrol** (dev ve `/repo/` alt yollu prod derlemesi) |
 | Android uçtan uca | adb + uiautomator (emülatör) | **13 kontrol** (debug ve R8 release APK) |
 
 ```bash
@@ -306,6 +312,7 @@ Uçtan uca testlerin kontrol ettikleri:
 ```bash
 python tools/build_dictionary.py   # lessons/dictionary.json → Web ve Android kopyaları
 python tools/fix_mp3_encoding.py   # WAV verisi taşıyan audio.mp3 dosyalarını 48 kbps CBR MP3'e çevirir
+python tools/build_word_audio.py   # stüdyo sesli kelime paketi (lessons/word_audio, edge-tts gerekir)
 ```
 
 - **Seslendirme:** Microsoft Edge Neural TTS (`en-US-ChristopherNeural`). Cümleler arasında 400 ms, sayfa sonunda 1000 ms duraklama var.
@@ -357,6 +364,7 @@ python tools/fix_mp3_encoding.py   # WAV verisi taşıyan audio.mp3 dosyaların�
 - [x] Faz 7: çevrimdışı sözlük, kelime kartı, ML Kit çevirisi
 - [x] Faz 8: Pages ve release otomasyonu, README
 - [x] Faz 9: modern arayüz (kütüphane, split view, dock, mobil düzen)
+- [x] Kendi PDF'inden dikte dersi, taranmış PDF'ler için OCR, kelime bazlı çeviri, stüdyo kelime telaffuzu
 - [ ] Seviye 2'nin tamamlanması, Seviye 3 (B2, 35 sayfa) ve Seviye 4 (C1, 50 sayfa)
 - [ ] Play Store için asset pack'lere bölünmüş Android paketi
 

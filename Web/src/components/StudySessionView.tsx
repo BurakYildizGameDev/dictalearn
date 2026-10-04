@@ -7,6 +7,8 @@ import { useShortcuts } from '../hooks/use-shortcuts'
 import { useAudioStatus } from '../hooks/use-audio-status'
 import { DiffView } from './DiffView'
 import { WordLookupSentence } from './WordLookupSentence'
+import { useDictionary } from '../hooks/use-dictionary'
+import { shortGloss } from '../domain/dictionary/dictionary'
 import { Button, Kbd, ProgressBar, Segmented } from './ui'
 import { cx } from './cx'
 import {
@@ -159,6 +161,11 @@ export const StudySessionView: React.FC<StudySessionViewProps> = ({
     )
   )
   const [showShortcutsModal, setShowShortcutsModal] = useState(false)
+  // Word mode: Turkish meaning under every solved word, so the sentence builds up with its meaning.
+  const [showGlosses, setShowGlosses] = useState<boolean>(() =>
+    readStored('dictalearn_word_gloss', (raw) => raw !== 'false', true)
+  )
+  const dictionary = useDictionary()
   const [resumeNoticeVisible, setResumeNoticeVisible] = useState(initialSegmentIndex > 0)
 
   const session = useStudySession({
@@ -497,6 +504,17 @@ export const StudySessionView: React.FC<StudySessionViewProps> = ({
                   label="Cümleyi Dinle"
                   variant="secondary"
                 />
+                <Button
+                  size="sm"
+                  variant="ghost"
+                  onClick={() => {
+                    setShowGlosses((v) => !v)
+                    writeStored('dictalearn_word_gloss', String(!showGlosses))
+                  }}
+                  title="Doğru yazılan kelimelerin altında Türkçe anlamını göster"
+                >
+                  Anlamlar: {showGlosses ? 'Açık' : 'Kapalı'}
+                </Button>
                 <Button size="sm" variant="ghost" onClick={session.toggleAutoSpeakWord} title="Yeni kelimeye geçince otomatik seslendir">
                   {session.autoSpeakWord ? <Volume2 className="h-3.5 w-3.5" /> : <VolumeX className="h-3.5 w-3.5" />}
                   Oto-Oku: {session.autoSpeakWord ? 'Açık' : 'Kapalı'}
@@ -508,15 +526,32 @@ export const StudySessionView: React.FC<StudySessionViewProps> = ({
             <div className="mb-5 flex min-h-[48px] flex-wrap items-center gap-2 font-serif text-lg">
               {session.targetWords.map((token, idx) => {
                 if (idx < session.currentWordIndex) {
+                  const entry = showGlosses
+                    ? dictionary?.glossForSolvedWord(
+                        session.targetWords.map((t) => t.raw),
+                        idx,
+                        session.currentWordIndex
+                      )
+                    : null
+                  // A phrase meaning ("high above") is shown once, under its first word.
+                  const gloss =
+                    entry && entry.headword.includes(' ') && !entry.headword.startsWith(`${token.clean} `)
+                      ? null
+                      : entry
                   return (
                     <button
                       type="button"
                       key={idx}
                       onClick={() => session.speakWord(token.clean)}
-                      className="rounded-lg bg-emerald-500/10 px-2.5 py-1 text-emerald-200 hover:bg-emerald-500/20 cursor-pointer"
-                      title="Dinlemek için tıkla"
+                      className="flex flex-col items-center rounded-lg bg-emerald-500/10 px-2.5 py-1 text-emerald-200 hover:bg-emerald-500/20 cursor-pointer"
+                      title={gloss ? `${gloss.headword}: ${gloss.meaning}` : 'Dinlemek için tıkla'}
                     >
-                      {token.raw}
+                      <span>{token.raw}</span>
+                      {gloss && (
+                        <span className="font-sans text-[11px] leading-tight text-emerald-100/60" data-testid="word-gloss">
+                          {shortGloss(gloss.meaning)}
+                        </span>
+                      )}
                     </button>
                   )
                 }

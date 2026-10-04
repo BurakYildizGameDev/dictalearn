@@ -321,6 +321,14 @@ Her kitap: **25 sayfa × 20 cümle = 500 cümle**, 26 sayfalık PDF, 200 hedef k
   Beklenen değerler: ~460 ve ~800 cümle.
 - **Android PDF ekleme:** Sistem dosya seçicisiyle PDF eklenir. Kütüphanede "Yüklediğin PDF'ler" bölümünde Dikte / Oku / Sil var; cümleler TTS ile okunur.
 
+### ✅ Kelime Bazlı Çeviri (2026-10-04)
+- Kelime modunda doğru yazılan her kelimenin altında kısa Türkçe anlamı görünür; cümle anlamıyla birlikte adım adım tamamlanır.
+  Web (`StudySessionView`) ve Android (`WordDictation`) aynı davranır.
+- `Dictionary.glossForSolvedWord`: yalnızca çözülmüş kelimeler kullanılır. Böylece sıradaki kelimenin anlamı ipucu olmaz;
+  deyimler ("high above", "drift apart") tüm kelimeleri çözülünce ilk kelimenin altında görünür.
+- `shortGloss`: ilk anlam, en fazla 22 karakter ("toplamak, paketlemek" → "toplamak").
+- "Anlamlar: Açık/Kapalı" düğmesi (web'de kalıcı).
+
 ### ✅ Repo Bakımı — Git Geçmişi Temizliği ve Git LFS
 - Geçmiş değiştirilmeden önce tam yedek alındı: `../DictaLearn-git-backup-2026-10-04.git`.
 - `git filter-repo` ile 2.3 GB WAV tüm geçmişten silindi. WAV'lar diskte duruyor, `.gitignore`'da.
@@ -334,10 +342,10 @@ Her kitap: **25 sayfa × 20 cümle = 500 cümle**, 26 sayfalık PDF, 200 hedef k
 
 | Platform | Katman | Araç | Sonuç |
 |---|---|---|---|
-| **Web** | Birim + bileşen | Vitest 5 + Testing Library | **128 / 128** · 19 dosya |
-| **Web** | Uçtan uca | Playwright, gerçek Chromium (`tools/e2e/web_e2e.py`) | **16 / 16**, hem dev hem `/dictalearn/` alt yollu production derlemesinde |
+| **Web** | Birim + bileşen | Vitest 5 + Testing Library | **156 / 156** |
+| **Web** | Uçtan uca | Playwright, gerçek Chromium (`tools/e2e/web_e2e.py`) | **18 / 18** (kelime telaffuzu ve PDF dersi dahil) |
 | **Web** | Statik analiz | Oxlint + `tsc -b` | 0 uyarı, 0 hata |
-| **Android** | Birim | JUnit 4 | **66 / 66** |
+| **Android** | Birim | JUnit 4 | **79 / 79** |
 | **Android** | Uçtan uca | adb + uiautomator, Pixel 7 API 34 emülatörü (`tools/e2e/android_e2e.py`) | **13 / 13**, hem debug hem R8 release APK |
 | **Android** | Derleme | Gradle | debug 607 MB · release 591 MB (tüm kitaplar) |
 

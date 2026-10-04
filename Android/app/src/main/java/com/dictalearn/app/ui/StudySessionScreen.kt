@@ -44,6 +44,8 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.dictalearn.app.domain.audio.AudioStatus
+import com.dictalearn.app.domain.dictionary.Dictionary
+import androidx.compose.runtime.saveable.rememberSaveable
 import com.dictalearn.app.domain.words.WordFeedback
 import com.dictalearn.app.ui.theme.Dicta
 import kotlin.math.roundToInt
@@ -330,6 +332,10 @@ private fun WordDictation(viewModel: StudySessionViewModel, status: AudioStatus,
     val incorrect = wordFeedback == WordFeedback.INCORRECT
     val focus = remember { FocusRequester() }
     LaunchedEffect(currentWordIndex) { runCatching { focus.requestFocus() } }
+    // Turkish meaning under every solved word, so the sentence builds up with its meaning.
+    var showGlosses by rememberSaveable { mutableStateOf(true) }
+    val dictionary = LocalWordTools.current?.dictionary
+    val rawWords = remember(targetWords) { targetWords.map { it.raw } }
 
     StageCard {
         Row(verticalAlignment = Alignment.CenterVertically) {
@@ -339,6 +345,12 @@ private fun WordDictation(viewModel: StudySessionViewModel, status: AudioStatus,
                 fontSize = 12.sp
             )
             Spacer(Modifier.weight(1f))
+            FilterChip(
+                selected = showGlosses,
+                onClick = { showGlosses = !showGlosses },
+                label = { Text("Anlamlar", fontSize = 11.sp) },
+                modifier = Modifier.padding(end = 6.dp)
+            )
             FilterChip(
                 selected = autoSpeakWord,
                 onClick = viewModel::toggleAutoSpeakWord,
@@ -351,17 +363,24 @@ private fun WordDictation(viewModel: StudySessionViewModel, status: AudioStatus,
         FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
             targetWords.forEachIndexed { idx, token ->
                 when {
-                    idx < currentWordIndex -> Text(
-                        token.raw,
-                        color = Dicta.Success,
-                        fontFamily = FontFamily.Serif,
-                        fontSize = 17.sp,
-                        modifier = Modifier
-                            .clip(RoundedCornerShape(8.dp))
-                            .background(Dicta.Success.copy(alpha = 0.1f))
-                            .clickable { viewModel.speakWord(token.clean) }
-                            .padding(horizontal = 10.dp, vertical = 5.dp)
-                    )
+                    idx < currentWordIndex -> {
+                        val entry = if (showGlosses) dictionary?.glossForSolvedWord(rawWords, idx, currentWordIndex) else null
+                        // A phrase meaning is shown once, under its first word.
+                        val gloss = entry?.takeUnless { it.headword.contains(' ') && !it.headword.startsWith("${token.clean} ") }
+                        Column(
+                            horizontalAlignment = Alignment.CenterHorizontally,
+                            modifier = Modifier
+                                .clip(RoundedCornerShape(8.dp))
+                                .background(Dicta.Success.copy(alpha = 0.1f))
+                                .clickable { viewModel.speakWord(token.clean) }
+                                .padding(horizontal = 10.dp, vertical = 4.dp)
+                        ) {
+                            Text(token.raw, color = Dicta.Success, fontFamily = FontFamily.Serif, fontSize = 17.sp)
+                            if (gloss != null) {
+                                Text(Dictionary.shortGloss(gloss.meaning), color = Dicta.Success.copy(alpha = 0.6f), fontSize = 10.sp, lineHeight = 12.sp)
+                            }
+                        }
+                    }
                     idx == currentWordIndex -> Text(
                         "[${idx + 1}. Kelime]${token.punctuation ?: ""}",
                         color = if (incorrect) Dicta.Error else Dicta.Accent,

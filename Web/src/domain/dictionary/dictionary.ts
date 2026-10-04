@@ -107,6 +107,15 @@ export class Dictionary {
   }
 
   /**
+   * Meaning shown under a solved word in word-by-word mode. Only the first `solvedCount` words are
+   * used, so a phrase is revealed only once all of its words are solved (no hint about the next word).
+   */
+  glossForSolvedWord(words: string[], index: number, solvedCount: number): DictionaryEntry | null {
+    if (index >= solvedCount) return null
+    return this.lookupInSentence(words.slice(0, solvedCount), index)
+  }
+
+  /**
    * Looks the clicked word up in its sentence context: phrases of up to 4 words that
    * include the clicked word win over the single word ("drift apart" vs "apart").
    */
@@ -121,4 +130,16 @@ export class Dictionary {
     }
     return this.lookup(words[index] ?? '')
   }
+}
+
+const GLOSS_MAX = 22
+
+/** First sense of a meaning, short enough to sit under a word ("toplamak, paketlemek" -> "toplamak"). */
+export function shortGloss(meaning: string): string {
+  let sense = meaning.split(';')[0].replace(/\([^)]*\)/g, '').trim()
+  if (!sense.startsWith('-')) sense = sense.split(',')[0].trim()
+  sense = sense.charAt(0).toLocaleLowerCase('tr') + sense.slice(1)
+  if (sense.length <= GLOSS_MAX) return sense
+  const cut = sense.slice(0, GLOSS_MAX + 1)
+  return `${cut.slice(0, cut.lastIndexOf(' ') > 0 ? cut.lastIndexOf(' ') : GLOSS_MAX).trim()}…`
 }

@@ -58,6 +58,23 @@ class DictionaryTest {
     }
 
     @Test
+    fun glossForSolvedWord_neverHintsTheNextWord() {
+        val words = listOf("They", "began", "to", "drift", "apart.")
+        assertNull(dict.glossForSolvedWord(words, 3, 4))
+        assertEquals("drift apart", dict.glossForSolvedWord(words, 3, 5)?.headword)
+        assertEquals("pack", dict.glossForSolvedWord(listOf("He", "packed", "it"), 1, 2)?.headword)
+    }
+
+    @Test
+    fun shortGloss_keepsFirstSense() {
+        assertEquals("toplamak", Dictionary.shortGloss("toplamak, paketlemek"))
+        assertEquals("-de, -da", Dictionary.shortGloss("-de, -da; içinde"))
+        assertEquals("belirli tanımlık", Dictionary.shortGloss("belirli tanımlık (o, şu)"))
+        assertEquals("kırlangıç kuşu", Dictionary.shortGloss("Kırlangıç kuşu"))
+        assertEquals("çok uzun bir açıklama…", Dictionary.shortGloss("çok uzun bir açıklama metni burada devam ediyor"))
+    }
+
+    @Test
     fun fromJson_readsSharedDictionaryFile() {
         val parsed = Dictionary.fromJson("""{"version":1,"entries":{"cold":"soğuk","hit":"vurmak"}}""")
         assertEquals(2, parsed.size)
