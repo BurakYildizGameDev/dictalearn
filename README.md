@@ -198,7 +198,9 @@ docs/       screenshots and portfolio notes
 ### License and content
 
 The code is released under the [MIT License](LICENSE). The books are simplified adaptations of public-domain
-works; the dictionary is generated from the project's own content. Personal lessons built from non-open material
+works; the dictionary is generated from the project's own content. *The Little Prince* (Saint-Exupéry, 1943) is in
+the public domain in most of the EU but still under copyright in France and the United States; users in those
+countries should skip that book. Personal lessons built from non-open material
 (`custom_*`) stay local and are never committed.
 
 ---
@@ -595,6 +597,8 @@ Ayrıntılar için [PLAN.md](PLAN.md), [YAPILANLAR.md](YAPILANLAR.md) ve CV/port
 ## Lisans ve içerik
 
 - **Metinler:** Kamu malı eserlerin (Wilde, Doyle, Verne, Dickens, Shelley, Stoker, London, Carroll…) sadeleştirilmiş uyarlamalarıdır.
+  *The Little Prince* (Saint-Exupéry, 1943) AB'nin çoğunda kamu malıdır ancak Fransa ve ABD'de hâlâ telifli;
+  bu ülkelerdeki kullanıcılar o kitabı atlamalıdır.
 - **Sözlük:** Projenin kendi içeriğinden ve elle yazılmış çekirdek listeden üretilmiştir.
 - **Kişisel dersler:** Açık lisanslı olmayan dersler (`custom_*`) yalnızca yerelde kalır, repoya eklenmez.
 - **Kod:** [MIT Lisansı](LICENSE) © 2026 Burak.
