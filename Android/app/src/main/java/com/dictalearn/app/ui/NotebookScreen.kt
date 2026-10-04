@@ -8,6 +8,11 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.DeleteSweep
+import androidx.compose.material.icons.filled.Share
+import androidx.compose.material.icons.filled.Style
+import androidx.compose.ui.platform.LocalContext
+import android.content.Intent
+import com.dictalearn.app.domain.mistakes.NotebookExport
 import androidx.compose.material.icons.filled.VolumeUp
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -66,6 +71,23 @@ fun NotebookScreen(
                 title = { Text("Defterim", fontFamily = FontFamily.Serif) },
                 actions = {
                     if (rows.isNotEmpty()) {
+                        val context = LocalContext.current
+                        fun share(text: String, title: String) {
+                            val send = Intent(Intent.ACTION_SEND).apply {
+                                type = "text/plain"
+                                putExtra(Intent.EXTRA_SUBJECT, title)
+                                putExtra(Intent.EXTRA_TEXT, text)
+                            }
+                            context.startActivity(Intent.createChooser(send, title))
+                        }
+                        val exportRows = rows.map { NotebookExport.Row(it.word, it.count, it.unknown) }
+                        val meaningOf: (String) -> String? = { dictionary?.lookup(it)?.meaning }
+                        IconButton(onClick = { share(NotebookExport.csv(exportRows, meaningOf), "DictaLearn defter (CSV)") }) {
+                            Icon(Icons.Default.Share, contentDescription = "CSV olarak paylaş")
+                        }
+                        IconButton(onClick = { share(NotebookExport.ankiTsv(exportRows, meaningOf), "DictaLearn defter (Anki)") }) {
+                            Icon(Icons.Default.Style, contentDescription = "Anki için paylaş")
+                        }
                         IconButton(onClick = { confirmClear = true }) {
                             Icon(Icons.Default.DeleteSweep, contentDescription = "Defteri temizle")
                         }

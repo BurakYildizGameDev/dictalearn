@@ -1,8 +1,9 @@
 import React, { useMemo, useState } from 'react'
-import { BookMarked, Repeat, Trash2, Volume2 } from 'lucide-react'
+import { BookMarked, Download, Repeat, Trash2, Volume2 } from 'lucide-react'
 import type { MistakeRepository } from '../domain/mistakes/types'
 import type { SrsStore } from '../domain/review/srs'
 import { groupNotebook } from '../domain/mistakes/notebook'
+import { notebookCsv, notebookAnkiTsv } from '../domain/mistakes/export'
 import { findBook } from '../domain/library/catalog'
 import { useDictionary } from '../hooks/use-dictionary'
 import { pronounce } from '../audio/word-audio'
@@ -30,6 +31,16 @@ export const NotebookView: React.FC<{
     return srs.stats()
   }, [srs, mistakeRepository, version])
   const visible = rows.filter((r) => filter === 'all' || (filter === 'unknown' ? r.unknown : !r.unknown))
+
+  const download = (content: string, name: string, type: string) => {
+    const url = URL.createObjectURL(new Blob([content], { type }))
+    const a = document.createElement('a')
+    a.href = url
+    a.download = name
+    a.click()
+    setTimeout(() => URL.revokeObjectURL(url), 1000)
+  }
+  const meaningOf = (word: string) => dictionary?.lookup(word)?.meaning
 
   const clearAll = () => {
     if (!window.confirm('Defterdeki tüm kelimeler silinsin mi?')) return
@@ -74,10 +85,30 @@ export const NotebookView: React.FC<{
           ]}
         />
         {rows.length > 0 && (
-          <Button size="sm" variant="ghost" onClick={clearAll}>
-            <Trash2 className="h-4 w-4" />
-            Defteri temizle
-          </Button>
+          <div className="flex flex-wrap items-center gap-1">
+            <Button
+              size="sm"
+              variant="ghost"
+              onClick={() => download(notebookCsv(visible, meaningOf), 'dictalearn-defter.csv', 'text/csv;charset=utf-8')}
+              title="Excel / Google E-Tablolar için"
+            >
+              <Download className="h-4 w-4" />
+              CSV
+            </Button>
+            <Button
+              size="sm"
+              variant="ghost"
+              onClick={() => download(notebookAnkiTsv(visible, meaningOf), 'dictalearn-anki.txt', 'text/plain;charset=utf-8')}
+              title="Anki: Dosya → İçe aktar"
+            >
+              <Download className="h-4 w-4" />
+              Anki
+            </Button>
+            <Button size="sm" variant="ghost" onClick={clearAll}>
+              <Trash2 className="h-4 w-4" />
+              Defteri temizle
+            </Button>
+          </div>
         )}
       </div>
 

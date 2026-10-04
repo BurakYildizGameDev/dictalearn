@@ -223,6 +223,19 @@ def run() -> int:
 
         check("notebook lists missed + unknown words", notebook)
 
+        def notebook_export():
+            with page.expect_download() as info:
+                page.get_by_role("button", name="CSV").click()
+            path = info.value.path()
+            content = open(path, encoding="utf-8-sig").read()
+            assert info.value.suggested_filename == "dictalearn-defter.csv"
+            assert content.splitlines()[0] == "word,meaning,count,type" and "journey" in content, content[:120]
+            with page.expect_download() as info:
+                page.get_by_role("button", name="Anki").click()
+            assert open(info.value.path(), encoding="utf-8").read().startswith("#separator:tab")
+
+        check("notebook export: CSV and Anki files", notebook_export)
+
         def spaced_review():
             expect(page.get_by_text("tekrar zamanı gelen", exact=False)).to_be_visible()
             page.get_by_role("button", name="Tekrara başla").click()
