@@ -165,4 +165,156 @@ class StudySessionViewModelTest {
         assertEquals(0.75f, viewModel.speed.value, 1e-6f)
         assertEquals(0.75f, fakeAudioEngine.getSpeed(), 1e-6f)
     }
+
+    @Test
+    fun wordMode_submitsWordsSequentially_andAdvancesToShadowing() {
+        val fakeSpeech = com.dictalearn.app.domain.audio.FakeSpeechEngine()
+        val wordVm = StudySessionViewModel(
+            lesson = lesson,
+            audioEngine = fakeAudioEngine,
+            mistakeRepository = mistakeRepo,
+            speechEngine = fakeSpeech,
+            initialMode = StudyMode.WORD,
+            autoPlay = false
+        )
+
+        assertEquals(StudyMode.WORD, wordVm.studyMode.value)
+        assertEquals(4, wordVm.targetWords.value.size) // "He packed his suitcase."
+        assertEquals(0, wordVm.currentWordIndex.value)
+        assertEquals("he", wordVm.currentWord?.clean)
+
+        // Initial speech triggered
+        assertTrue(fakeSpeech.spokenWords.contains("he"))
+
+        // Type incorrect word
+        wordVm.setTypedWord("she")
+        wordVm.submitWord()
+        assertEquals(com.dictalearn.app.domain.words.WordFeedback.INCORRECT, wordVm.wordFeedback.value)
+        assertEquals(0, wordVm.currentWordIndex.value)
+
+        // Type correct word: "he"
+        wordVm.setTypedWord("he")
+        wordVm.submitWord()
+        assertEquals(com.dictalearn.app.domain.words.WordFeedback.IDLE, wordVm.wordFeedback.value)
+        assertEquals(1, wordVm.currentWordIndex.value) // moved to "packed"
+
+        // Use letter hint on "packed"
+        wordVm.giveLetterHint()
+        assertEquals("p", wordVm.typedWord.value)
+        wordVm.giveLetterHint()
+        assertEquals("pa", wordVm.typedWord.value)
+
+        // Complete remaining words
+        wordVm.setTypedWord("packed")
+        wordVm.submitWord()
+        assertEquals(2, wordVm.currentWordIndex.value)
+
+        // Skip word 2: "his"
+        wordVm.skipWord()
+        assertEquals(3, wordVm.currentWordIndex.value) // moved to "suitcase"
+
+        // Submit final word
+        wordVm.setTypedWord("suitcase")
+        wordVm.submitWord()
+
+        // Advances to SHADOWING upon completing all words
+        assertEquals(SessionState.SHADOWING, wordVm.state.value)
+    }
+
+    // --- Bug fixes & navigation ---
+
+    @Test
+    fun giveUp_isIgnoredOutsideDictating() {
+        viewModel.giveUp()
+        viewModel.giveUp()
+        assertEquals(SessionState.REVIEWING, viewModel.state.value)
+        assertEquals(1, viewModel.records.size)
+    }
+
+    @Test
+    fun wordMode_repeatedWrongAttemptsCountOnce_andAccuracyReflectsMisses() {
+        viewModel.setStudyMode(StudyMode.WORD)
+        repeat(3) {
+            viewModel.setTypedWord("wrong")
+            viewModel.submitWord()
+        }
+        assertEquals(1, mistakeRepo.getMistakes().size)
+
+        listOf("he", "packed", "his", "suitcase").forEach {
+            viewModel.setTypedWord(it)
+            viewModel.submitWord()
+        }
+        assertEquals(SessionState.SHADOWING, viewModel.state.value)
+        val record = viewModel.records.single()
+        assertFalse(record.isPerfect)
+        assertEquals(0.75, record.accuracy, 0.001)
+    }
+
+    @Test
+    fun wordMode_skipAccuracy_isNotHardcoded() {
+        viewModel.setStudyMode(StudyMode.WORD)
+        repeat(4) { viewModel.skipWord() }
+        assertEquals(SessionState.SHADOWING, viewModel.state.value)
+        assertEquals(0.0, viewModel.records.single().accuracy, 0.001)
+    }
+
+    @Test
+    fun initialSegmentIndex_resumesAndIsClamped() {
+        val resumed = StudySessionViewModel(lesson, fakeAudioEngine, autoPlay = false, initialSegmentIndex = 1)
+        assertEquals(1, resumed.currentSegmentIndex.value)
+        assertEquals("The morning cold hit him.", resumed.currentSegment.text)
+
+        val clamped = StudySessionViewModel(lesson, fakeAudioEngine, autoPlay = false, initialSegmentIndex = 42)
+        assertEquals(1, clamped.currentSegmentIndex.value)
+    }
+
+    @Test
+    fun goToSegment_resetsAttempt_fromAnyState() {
+        viewModel.setTypedText("he")
+        viewModel.submitAnswer()
+        assertEquals(SessionState.REVIEWING, viewModel.state.value)
+
+        viewModel.goToSegment(1)
+        assertEquals(SessionState.DICTATING, viewModel.state.value)
+        assertEquals(1, viewModel.currentSegmentIndex.value)
+        assertEquals("", viewModel.typedText.value)
+        assertNull(viewModel.diffResult.value)
+        assertEquals(3500, fakeAudioEngine.lastStartMs)
+    }
+
+    @Test
+    fun previousAndSkip_navigateWithinBounds() {
+        viewModel.skipSegment()
+        assertEquals(1, viewModel.currentSegmentIndex.value)
+        viewModel.skipSegment()
+        assertEquals(1, viewModel.currentSegmentIndex.value)
+        assertEquals(SessionState.DICTATING, viewModel.state.value)
+        viewModel.previousSegment()
+        assertEquals(0, viewModel.currentSegmentIndex.value)
+    }
+
+    @Test
+    fun progressAndCompletionCallbacks_fire() {
+        val progress = mutableListOf<Int>()
+        var completed = 0
+        val vm = StudySessionViewModel(
+            lesson, fakeAudioEngine, autoPlay = false,
+            onProgress = { progress.add(it) },
+            onComplete = { completed++ }
+        )
+        vm.giveUp(); vm.skipCorrection(); vm.nextSegment()
+        vm.giveUp(); vm.skipCorrection(); vm.nextSegment()
+        assertEquals(listOf(0, 1), progress)
+        assertEquals(SessionState.COMPLETED, vm.state.value)
+        assertEquals(1, completed)
+    }
+
+    @Test
+    fun restart_returnsToFirstSegmentWithCleanRecords() {
+        viewModel.giveUp(); viewModel.skipCorrection(); viewModel.nextSegment()
+        viewModel.restart()
+        assertEquals(0, viewModel.currentSegmentIndex.value)
+        assertEquals(SessionState.DICTATING, viewModel.state.value)
+        assertTrue(viewModel.records.isEmpty())
+    }
 }

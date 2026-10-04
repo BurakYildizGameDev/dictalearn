@@ -67,6 +67,16 @@ android {
         kotlinCompilerExtensionVersion = "1.5.11"
     }
 
+    androidResources {
+        // WAV masters (~3.5 GB) and preview markdown stay out of the APK; the app streams audio.mp3.
+        // The first part is AAPT's default ignore pattern.
+        val basePattern = "!.svn:!.git:!.ds_store:!*.scc:.*:<dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~:!*.wav:!*.md"
+        // `-Pdictalearn.slimAssets=true` keeps only book 01, book 32 and the demo, for emulators with little storage.
+        val slim = project.findProperty("dictalearn.slimAssets") == "true"
+        val slimPattern = (2..36).filter { it != 32 }.joinToString("") { ":<dir>book_%02d_*".format(it) }
+        ignoreAssetsPattern = basePattern + if (slim) slimPattern else ""
+    }
+
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"

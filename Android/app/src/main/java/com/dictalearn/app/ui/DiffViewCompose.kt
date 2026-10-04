@@ -28,8 +28,8 @@ fun DiffViewCompose(
     Column(
         modifier = modifier
             .fillMaxWidth()
-            .background(Color(0xFF0F172A), RoundedCornerShape(12.dp))
-            .border(1.dp, Color(0xFF334155), RoundedCornerShape(12.dp))
+            .background(Color(0xFF18181B), RoundedCornerShape(12.dp))
+            .border(1.dp, Color(0xFF27272A), RoundedCornerShape(12.dp))
             .padding(16.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
