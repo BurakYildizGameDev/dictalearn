@@ -14,6 +14,7 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Bookmarks
+import androidx.compose.material.icons.filled.CloudDownload
 import androidx.compose.material.icons.filled.LocalFireDepartment
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Description
@@ -57,7 +58,9 @@ fun LibraryScreen(
     onReadPdf: (UserPdf) -> Unit = {},
     onDeletePdf: (UserPdf) -> Unit = {},
     daily: DailySnapshot? = null,
-    onGoalChange: (Int) -> Unit = {}
+    onGoalChange: (Int) -> Unit = {},
+    /** Books whose audio is on the device; the others are downloaded when opened (null = all). */
+    onDevice: Set<String>? = null
 ) {
     var query by rememberSaveable { mutableStateOf("") }
     var level by rememberSaveable { mutableStateOf<Int?>(null) }
@@ -173,7 +176,7 @@ fun LibraryScreen(
                     }
                 }
                 items(list, key = { it.id }) { book ->
-                    BookCard(book, progress[book.id]) { onOpenBook(book) }
+                    BookCard(book, progress[book.id], onDevice?.contains(book.id) ?: true) { onOpenBook(book) }
                 }
             }
         }
@@ -181,7 +184,7 @@ fun LibraryScreen(
 }
 
 @Composable
-private fun BookCover(book: CatalogBook, modifier: Modifier = Modifier, showText: Boolean = true) {
+private fun BookCover(book: CatalogBook, modifier: Modifier = Modifier, showText: Boolean = true, onDevice: Boolean = true) {
     Box(
         modifier = modifier
             .aspectRatio(3f / 4f)
@@ -199,6 +202,18 @@ private fun BookCover(book: CatalogBook, modifier: Modifier = Modifier, showText
                 .background(Color.Black.copy(alpha = 0.25f), RoundedCornerShape(6.dp))
                 .padding(horizontal = 6.dp, vertical = 2.dp)
         )
+        if (!onDevice) {
+            Icon(
+                Icons.Default.CloudDownload,
+                contentDescription = "İlk açılışta indirilir",
+                tint = Color.White.copy(alpha = 0.9f),
+                modifier = Modifier
+                    .align(Alignment.TopStart)
+                    .background(Color.Black.copy(alpha = 0.25f), RoundedCornerShape(6.dp))
+                    .padding(horizontal = 4.dp, vertical = 1.dp)
+                    .size(14.dp)
+            )
+        }
         if (showText) {
             Column(modifier = Modifier.align(Alignment.BottomStart)) {
                 Text(
@@ -224,13 +239,13 @@ private fun BookCover(book: CatalogBook, modifier: Modifier = Modifier, showText
 }
 
 @Composable
-private fun BookCard(book: CatalogBook, progress: LessonProgress?, onClick: () -> Unit) {
+private fun BookCard(book: CatalogBook, progress: LessonProgress?, onDevice: Boolean, onClick: () -> Unit) {
     Column(
         modifier = Modifier
             .clip(RoundedCornerShape(12.dp))
             .clickable(onClick = onClick)
     ) {
-        BookCover(book, Modifier.fillMaxWidth())
+        BookCover(book, Modifier.fillMaxWidth(), onDevice = onDevice)
         Spacer(Modifier.height(8.dp))
         Text(book.title, color = Dicta.TextPrimary, fontSize = 14.sp, fontWeight = FontWeight.Medium, maxLines = 1, overflow = TextOverflow.Ellipsis)
         book.titleTr?.let {

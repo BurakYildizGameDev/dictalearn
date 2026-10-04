@@ -367,6 +367,19 @@ Her kitap: **25 sayfa × 20 cümle = 500 cümle**, 26 sayfalık PDF, 200 hedef k
 - **Android mimari başına APK:** `-Pdictalearn.abiSplits=true` ile ~600 MB'lık APK'lar (universal: 689 MB; yerel kütüphaneler 109 MB, ses/PDF 583 MB). Release iş akışı bunu kullanır.
 - **Portföy:** `docs/PORTFOLIO.md` (YAPILACAKLAR F8.4).
 
+### ✅ Android: Kitapların İhtiyaç Anında İndirilmesi
+- **Sorun:** Mimari başına APK ~580 MB'tı; bunun ~540 MB'ı kitap sesi ve kelime ses paketiydi.
+- **Gradle:** `prepareBookAssets` görevi APK'ya yalnızca demo ders ile ilk kitabın ses/PDF'ini koyar.
+  `lesson.json` dosyaları ve sözlük her zaman pakettedir. WAV'lar girdi olarak hiç okunmaz.
+  `-Pdictalearn.bundleAllBooks=true` tamamen çevrimdışı APK üretir (`slimAssets` kaldırıldı).
+- **Uygulama:**
+  - `BookStore`: kitabın sesi/PDF'i APK'da değilse GitHub Pages'teki web kopyasından `filesDir/books/<id>/` altına bir kez indirilir.
+  - `FileDownloader`: `.part` dosyasına yazıp bitince yeniden adlandırır; yarım ya da iptal edilen indirme bozuk dosya bırakmaz.
+  - Kelime telaffuz sprite'ları harf başına (~2 MB) ilk kullanımda indirilir; indirilemezse sistem TTS'ine düşer.
+  - Kütüphanede indirilecek kitaplarda bulut simgesi, açılışta "Kitap indiriliyor: x / y MB" ekranı.
+- **Sonuç:** arm64 APK 580 MB → **42,9 MB**, armeabi-v7a 33,8 MB, x86_64 44,4 MB.
+- **Test:** 6 yeni birim testi; emülatörde indirme, indirilen kitabın uçakta (ses + PDF) çalışması ve kelime sesi indirmesi uçtan uca doğrulandı.
+
 ### ✅ Repo Bakımı — Git Geçmişi Temizliği ve Git LFS
 - Geçmiş değiştirilmeden önce tam yedek alındı: `../DictaLearn-git-backup-2026-10-04.git`.
 - `git filter-repo` ile 2.3 GB WAV tüm geçmişten silindi. WAV'lar diskte duruyor, `.gitignore`'da.
@@ -384,8 +397,8 @@ Her kitap: **25 sayfa × 20 cümle = 500 cümle**, 26 sayfalık PDF, 200 hedef k
 | **Web** | Uçtan uca | Playwright, gerçek Chromium (`tools/e2e/web_e2e.py`) | **22 / 22** (dev ve prod derlemesi) |
 | **Web** | Çevrimdışı (PWA) | `tools/e2e/pwa_offline.py`, prod derlemesi | **2 / 2** |
 | **Web** | Statik analiz | Oxlint + `tsc -b` | 0 uyarı, 0 hata |
-| **Android** | Birim | JUnit 4 | **89 / 89** |
-| **Android** | Uçtan uca | adb + uiautomator, Pixel 7 API 34 emülatörü (`tools/e2e/android_e2e.py`) | **16 / 16** |
+| **Android** | Birim | JUnit 4 | **95 / 95** |
+| **Android** | Uçtan uca | adb + uiautomator, Pixel 7 API 34 emülatörü (`tools/e2e/android_e2e.py`) | **18 / 18** |
 | **Android** | Derleme | Gradle | debug 607 MB · release 591 MB (tüm kitaplar) |
 
 **Uçtan uca testlerin kapsamı:**

@@ -27,7 +27,9 @@ millisecond-accurate audio ranges, word-level diffing, OCR-based lessons from PD
   sözlük ve 15.155 kelimelik stüdyo sesli telaffuz paketi (edge-tts kelime sınırı zaman damgalarıyla tek dosyada).
 - Leitner tabanlı aralıklı tekrar, zor cümle turu, günlük hedef/seri ve CSV/Anki dışa aktarımını iki platformda aynı
   algoritmayla uyguladım.
-- Kalite: 178 web + 89 Android birim testi; Playwright ve adb/uiautomator ile 22 + 16 kontrollük uçtan uca test paketleri;
+- Android APK'yı 580 MB'tan 43 MB'a indirdim: kitap sesleri APK yerine ilk açılışta GitHub Pages'teki web kopyasından
+  iniyor (atomik `.part` indirme, sonrasında çevrimdışı); Gradle görevi APK'ya yalnızca ilk kitabı paketliyor.
+- Kalite: 178 web + 95 Android birim testi; Playwright ve adb/uiautomator ile 22 + 18 kontrollük uçtan uca test paketleri;
   GitHub Actions ile CI, GitHub Pages yayını ve mimari başına release APK.
 - Depo bakımı: 1.8 GB'lık geçmişi `git filter-repo` ve Git LFS ile ~500 MB'a indirdim; WAV olarak kaydedilmiş MP3'leri
   tespit edip gerçek MP3'e dönüştürdüm (~1.8 GB → ~220 MB).

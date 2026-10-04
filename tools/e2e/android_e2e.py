@@ -2,11 +2,12 @@
 """
 Device/emulator smoke test of the Android app driven through adb + uiautomator (F2.5 automated part).
 
-    ./gradlew assembleDebug -Pdictalearn.slimAssets=true   # emulators with little storage
+    ./gradlew assembleDebug
     adb install -r app/build/outputs/apk/debug/app-debug.apk
     python tools/e2e/android_e2e.py [path/to/adb]
 
-Starts from a cleared app state. Exits non-zero if a check fails.
+Starts from a cleared app state. Exits non-zero if a check fails. Needs a network connection: books
+outside the APK, the word audio sprites and the ML Kit model are downloaded on first use.
 """
 import os
 import re
@@ -93,6 +94,15 @@ def back_to_library() -> None:
     raise AssertionError("did not return to the library")
 
 
+def wait_for_app_file(path: str, timeout: float) -> None:
+    deadline = time.time() + timeout
+    while time.time() < deadline:
+        if adb("shell", "run-as", PKG, "ls", path, check=False).strip() == path:
+            return
+        time.sleep(1)
+    raise AssertionError(f"{path} was not downloaded")
+
+
 def check(name: str, fn) -> None:
     try:
         fn()
@@ -151,6 +161,8 @@ def main() -> int:
         tap("column,")
         find("column")
         find("mermer sütun", exact=False)
+        tap("Telaffuz")
+        wait_for_app_file("files/word_audio/c.mp3", 30)  # sprite downloaded on first use
         tap("Deftere ekle")
         find("Defterde")
         back()
@@ -252,6 +264,37 @@ def main() -> int:
         find("Bilmiyorum / Göster")
 
     check("word mode switch + masked words", word_mode)
+
+    def download_book():
+        back_to_library()
+        scroll_to("Bencil Dev")
+        tap("Bencil Dev")
+        find("Cümle 1 / 300", 180)  # audio + PDF downloaded from GitHub Pages
+        wait_for_app_file("files/books/book_02_the_selfish_giant/audio.mp3", 5)
+        tap("Dinle")
+        find("Duraklat", 10)
+
+    check("book outside the APK downloads on first open and plays", download_book)
+
+    def downloaded_book_offline():
+        back_to_library()
+        adb("shell", "svc", "wifi", "disable")
+        adb("shell", "svc", "data", "disable")
+        try:
+            adb("shell", "am", "force-stop", PKG)
+            adb("shell", "am", "start", "-n", f"{PKG}/.MainActivity")
+            time.sleep(4)
+            scroll_to("Bencil Dev")
+            tap("Bencil Dev")
+            find("Cümle 1 / 300", 20)
+            tap("Kitabın PDF'i")
+            find("Sayfa 1", 20)
+            back()
+        finally:
+            adb("shell", "svc", "wifi", "enable")
+            adb("shell", "svc", "data", "enable")
+
+    check("downloaded book works offline (audio + PDF)", downloaded_book_offline)
 
     check("no crashes in logcat", lambda: (_ for _ in ()).throw(AssertionError(crashed()[-300:])) if "FATAL" in crashed() else None)
 

@@ -20,6 +20,21 @@ data class CatalogBook(
 
     /** Graded books ship a PDF named after the lesson id; the demo has none. */
     val pdfAssetPath: String? get() = if (level > 0) "lessons/$id/$id.pdf" else null
+
+    /**
+     * The large files of the book. Only a few books carry them inside the APK; the others are
+     * downloaded from [RemoteLessons] the first time they are opened (lesson.json is always bundled).
+     */
+    val downloadFiles: List<String> get() = listOfNotNull("audio.mp3", pdfAssetPath?.substringAfterLast('/'))
+}
+
+/** The web build on GitHub Pages serves the same lessons/ folder as the APK assets. */
+object RemoteLessons {
+    const val BASE_URL = "https://burakyildizgamedev.github.io/dictalearn/lessons/"
+
+    fun url(bookId: String, file: String): String = "$BASE_URL$bookId/$file"
+
+    fun wordAudioUrl(letter: Char): String = "${BASE_URL}word_audio/$letter.mp3"
 }
 
 object LessonCatalog {

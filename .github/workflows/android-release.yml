@@ -26,8 +26,9 @@ jobs:
           key: lfs-${{ hashFiles('.lfs-assets-id') }}
           restore-keys: lfs-
 
-      - name: Pull LFS objects (only the Android assets)
-        run: git lfs pull --include="Android/app/src/main/assets/**"
+      # Only the books bundled in the APK (see prepareBookAssets); the app downloads the rest.
+      - name: Pull LFS objects (bundled books only)
+        run: git lfs pull --include="Android/app/src/main/assets/lessons/sample_ch01/**,Android/app/src/main/assets/lessons/book_01_the_happy_prince/**"
 
       - uses: actions/setup-java@v4
         with:

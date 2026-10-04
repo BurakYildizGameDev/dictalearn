@@ -10,6 +10,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.*
@@ -20,6 +21,8 @@ import com.dictalearn.app.data.audio.AndroidSpeechEngine
 import com.dictalearn.app.data.audio.MediaPlayerAudioEngine
 import com.dictalearn.app.data.audio.WordAudioSpeechEngine
 import com.dictalearn.app.data.audio.TtsSegmentAudioEngine
+import com.dictalearn.app.data.download.BookStore
+import com.dictalearn.app.data.download.DownloadProgress
 import com.dictalearn.app.data.pdf.PdfPagesJobs
 import com.dictalearn.app.data.pdf.PdfPagesState
 import com.dictalearn.app.data.pdf.UserPdf
@@ -56,8 +59,11 @@ import com.dictalearn.app.ui.StudySessionScreen
 import com.dictalearn.app.ui.StudySessionViewModel
 import com.dictalearn.app.ui.theme.Dicta
 import com.dictalearn.app.ui.theme.DictaTheme
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
+import java.io.IOException
+import java.util.Locale
 
 private sealed interface Screen {
     data object Library : Screen
@@ -110,6 +116,7 @@ class MainActivity : ComponentActivity() {
         val srs = SrsStore(prefs)
         val hardStore = HardSentenceStore(prefs)
         val daily = DailyStats(prefs)
+        val bookStore = BookStore(this)
 
         setContent {
             DictaTheme {
@@ -127,6 +134,8 @@ class MainActivity : ComponentActivity() {
                 var pagesState by remember { mutableStateOf<PdfPagesState?>(null) }
                 var hardVersion by remember { mutableIntStateOf(0) }
                 var dailyVersion by remember { mutableIntStateOf(0) }
+                var onDevice by remember { mutableStateOf<Set<String>>(availableBooks.filter(bookStore::isOnDevice).mapTo(HashSet()) { it.id }) }
+                var download by remember { mutableStateOf<DownloadProgress?>(null) }
                 // Short round over the hard sentences of the current lesson (null = normal study).
                 var hardVm by remember { mutableStateOf<StudySessionViewModel?>(null) }
                 val ttsStatus by ttsEngine.status.collectAsState()
@@ -237,13 +246,27 @@ class MainActivity : ComponentActivity() {
                             error = result.errors.joinToString("\n")
                             return@LaunchedEffect
                         }
-                        audioEngine.load("assets/${book.audioAssetPath}")
+                        if (!bookStore.isOnDevice(book)) {
+                            // Books outside the APK are downloaded once, then work offline.
+                            download = DownloadProgress(0, 0)
+                            try {
+                                bookStore.download(book) { download = it }
+                            } finally {
+                                download = null
+                            }
+                            onDevice = onDevice + book.id
+                        }
+                        audioEngine.load(bookStore.audioSource(book))
                         val saved = progressStore.get(book.id)
                         val start = if (saved != null && !saved.completed) saved.segmentIndex else 0
                         loadedLesson = lesson
                         viewModel = newViewModel(lesson, book.id, start)
                         lastBookId = book.id
                         prefs.putString(KEY_LAST_BOOK, book.id)
+                    } catch (e: CancellationException) {
+                        throw e
+                    } catch (e: IOException) {
+                        error = "Kitap indirilemedi. İnternet bağlantını kontrol edip yeniden dene."
                     } catch (e: Exception) {
                         error = e.message ?: "Ders yüklenirken hata oluştu."
                     }
@@ -331,6 +354,7 @@ class MainActivity : ComponentActivity() {
                                 daily.setGoal(it)
                                 dailyVersion++
                             },
+                            onDevice = onDevice,
                             onDeletePdf = { pdf ->
                                 pagesJobs.cancel(pdf.id)
                                 pdfStore.remove(pdf.id)
@@ -420,11 +444,13 @@ class MainActivity : ComponentActivity() {
                                     onRetry = { retryKey++ },
                                     onBack = { goToLibrary() }
                                 ) }
-                                vm == null -> Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                                    CircularProgressIndicator(color = Dicta.Accent)
-                                }
+                                vm == null -> download?.let { DownloadState((s as? Screen.Study)?.book?.title.orEmpty(), it) }
+                                    ?: Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                                        CircularProgressIndicator(color = Dicta.Accent)
+                                    }
                                 showPdf && (s as? Screen.Study)?.book?.pdfAssetPath != null -> PdfReaderScreen(
-                                    assetPath = s.book.pdfAssetPath!!,
+                                    assetPath = s.book.pdfAssetPath!!.takeIf { bookStore.pdfFile(s.book) == null },
+                                    localFile = bookStore.pdfFile(s.book),
                                     title = s.book.title,
                                     onBack = { showPdf = false }
                                 )
@@ -494,6 +520,40 @@ private fun ErrorState(message: String, onRetry: () -> Unit, onBack: () -> Unit)
             OutlinedButton(onClick = onBack) { Text("Kütüphane") }
             Button(onClick = onRetry) { Text("Yeniden dene") }
         }
+    }
+}
+
+private fun megabytes(bytes: Long): String = String.format(Locale("tr"), "%.1f", bytes / 1_048_576.0)
+
+@Composable
+private fun DownloadState(title: String, progress: DownloadProgress) {
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .systemBarsPadding()
+            .padding(32.dp),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text(title, color = Dicta.TextPrimary)
+        Spacer(Modifier.height(16.dp))
+        if (progress.total > 0) {
+            LinearProgressIndicator(
+                progress = { (progress.bytes.toFloat() / progress.total).coerceIn(0f, 1f) },
+                modifier = Modifier.fillMaxWidth(),
+                color = Dicta.Accent
+            )
+        } else {
+            LinearProgressIndicator(modifier = Modifier.fillMaxWidth(), color = Dicta.Accent)
+        }
+        Spacer(Modifier.height(12.dp))
+        Text(
+            if (progress.total > 0) "Kitap indiriliyor: ${megabytes(progress.bytes)} / ${megabytes(progress.total)} MB"
+            else "Kitap indiriliyor…",
+            color = Dicta.TextSecondary
+        )
+        Spacer(Modifier.height(8.dp))
+        Text("Yalnızca ilk açılışta indirilir; sonra internetsiz çalışır.", color = Dicta.TextMuted)
     }
 }
 

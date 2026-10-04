@@ -9,7 +9,7 @@ Web'de ve Android'de, tamamen çevrimdışı.
 
 ![Web](https://img.shields.io/badge/Web-React%2019%20%C2%B7%20TypeScript%20%C2%B7%20Vite%208-61dafb?style=flat-square)
 ![Android](https://img.shields.io/badge/Android-Kotlin%20%C2%B7%20Jetpack%20Compose%20%C2%B7%20C%2B%2B%20NDK-3ddc84?style=flat-square)
-![Tests](https://img.shields.io/badge/tests-267%20unit%20%2B%2040%20e2e-brightgreen?style=flat-square)
+![Tests](https://img.shields.io/badge/tests-273%20unit%20%2B%2042%20e2e-brightgreen?style=flat-square)
 ![Library](https://img.shields.io/badge/k%C3%BCt%C3%BCphane-36%20kitap%20%C2%B7%2013.000%20c%C3%BCmle-6366f1?style=flat-square)
 ![Offline](https://img.shields.io/badge/hesap%20%C2%B7%20sunucu%20%C2%B7%20telemetri-yok-lightgrey?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/lisans-MIT-yellow?style=flat-square)](LICENSE)
@@ -112,6 +112,9 @@ stateDiagram-v2
 
 ### Kitaplar ve PDF
 - 36 kademeli klasik. Her kitapta nöral TTS seslendirmesi, çift sütunlu (İngilizce | Türkçe) PDF ve kelime notları var.
+- **Android'de ihtiyaç anında indirme:** APK ~43 MB'tır ve demo ders ile ilk kitabı içerir. Diğer kitapların sesi
+  ve PDF'i ilk açılışta (kitap başına ~10–15 MB) web sitesinden bir kez indirilir; sonra internetsiz çalışır.
+  Kelime telaffuz paketi de harf harf, ilk kullanımda iner.
 - **Web:** Geniş ekranda PDF yan panelde açılır (split view). Kendi PDF'ini de ekleyebilirsin, tarayıcıda saklanır.
 - **Kendi PDF'inden dikte dersi (web + Android):** PDF'teki İngilizce cümleler çıkarılır, Türkçe paralel metin
   ve başlıklar ayıklanır. **Taranmış (resimli) PDF'ler OCR ile okunur**: web'de Tesseract.js, Android'de
@@ -188,8 +191,8 @@ Gereksinim: Node.js 20.19+ (önerilen 22).
 ```bash
 cd Android
 ./gradlew testDebugUnitTest
-./gradlew assembleDebug                               # tüm kitaplar (~600 MB)
-./gradlew assembleDebug -Pdictalearn.slimAssets=true  # 2 kitap + demo, küçük emülatörler için
+./gradlew assembleDebug                                  # demo + ilk kitap gömülü, diğerleri ilk açılışta iner
+./gradlew assembleDebug -Pdictalearn.bundleAllBooks=true # tüm kitaplar APK'da (~600 MB), tamamen çevrimdışı
 ./gradlew assembleRelease                             # R8 ile küçültülmüş
 ./gradlew assembleRelease -Pdictalearn.abiSplits=true # mimari başına APK (arm64 telefonlar: app-arm64-v8a-…)
 ```
@@ -247,6 +250,7 @@ flowchart LR
 | Monorepo | `Web/` + `Android/` + ortak `lessons/` | İki platform tek ders şemasını paylaşır |
 | Web sesi | `HTMLAudioElement` + konum takibi | Uzun dosyalarda PCM'e çözme yok (1 saatlik ses ≈ 700 MB olurdu); hız değişince cümle kesilmez |
 | Android sesi | MediaPlayer, `SEEK_CLOSEST`, asenkron hazırlık | Milisaniye hassas başlangıç, ana thread bloke olmaz |
+| Android kitap dosyaları | APK'da demo + ilk kitap; diğerleri GitHub Pages'ten ilk açılışta (`BookStore`) | APK 580 MB → 43 MB; sunucu gerekmez, indirilen kitap çevrimdışı çalışır |
 | Diff | Saf TS / saf Kotlin Levenshtein | Bağımlılık yok, %100 test edilebilir |
 | Depolama | Web: localStorage + IndexedDB · Android: SharedPreferences | Hesap ve sunucu yok |
 | Zaman birimi | Tamsayı milisaniye | Kayan nokta yuvarlama hatası olmaz |
@@ -285,10 +289,10 @@ Bir ders, `lesson.json` ve `audio.mp3` dosyalarından oluşan taşınabilir bir 
 | Katman | Araç | Sayı |
 |---|---|---|
 | Web birim ve bileşen | Vitest + Testing Library | **178** |
-| Android birim | JUnit 4 | **89** |
+| Android birim | JUnit 4 | **95** |
 | Web uçtan uca | Playwright (gerçek Chromium) | **22 kontrol** (dev ve `/repo/` alt yollu prod derlemesi) |
 | Web çevrimdışı (PWA) | Playwright, prod derlemesi | **2 kontrol** (kurulabilirlik, çevrimdışı ders) |
-| Android uçtan uca | adb + uiautomator (emülatör) | **16 kontrol** (debug APK; R8 release APK ile de çalışır) |
+| Android uçtan uca | adb + uiautomator (emülatör) | **18 kontrol** (debug APK; R8 release APK ile de çalışır) |
 
 ```bash
 # Uçtan uca testler
@@ -309,6 +313,7 @@ Uçtan uca testlerin kontrol ettikleri:
 - Aralıklı tekrar, zor cümleler turu, günlük hedef ve defteri dışa aktarma.
 - PWA: kurulabilirlik ve daha önce açılan dersin çevrimdışı çalışması.
 - ML Kit çevirisi (Android).
+- Kitabın ilk açılışta indirilmesi ve sonra internetsiz (ses + PDF) çalışması (Android).
 - Mobil taşma olmaması ve konsol hatası olmaması.
 
 ## Yayınlama
@@ -401,7 +406,7 @@ python tools/build_word_audio.py   # stüdyo sesli kelime paketi (lessons/word_a
 - [x] Defterim için aralıklı tekrar, zor cümleleri tekrar etme
 - [x] Günlük hedef ve seri, defteri CSV/Anki dışa aktarma, PWA, mimari başına APK
 - [ ] Seviye 2'nin tamamlanması, Seviye 3 (B2, 35 sayfa) ve Seviye 4 (C1, 50 sayfa) — içerik üretimi
-- [ ] Ses dosyalarının ihtiyaç anında indirilmesi (Play Asset Delivery) — APK'yı ~100 MB'ın altına indirir
+- [x] Android'de kitapların ve kelime sesinin ihtiyaç anında indirilmesi — APK 580 MB → ~43 MB
 - [ ] Shadowing'de kendi sesini kaydedip orijinalle karşılaştırma (v1 kapsamı dışında bırakılmıştı)
 
 Ayrıntılar için [PLAN.md](PLAN.md), [YAPILANLAR.md](YAPILANLAR.md) ve CV/portföy metinleri için [docs/PORTFOLIO.md](docs/PORTFOLIO.md).

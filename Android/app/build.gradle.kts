@@ -1,3 +1,5 @@
+import javax.inject.Inject
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -6,6 +8,50 @@ plugins {
 // `-Pdictalearn.abiSplits=true` (release workflow): one APK per CPU architecture instead of one
 // universal APK, so the ML Kit / C++ native libraries are not shipped four times.
 val abiSplits = project.findProperty("dictalearn.abiSplits") == "true"
+
+/**
+ * Copies src/main/assets into the APK assets without the WAV masters and preview markdown, and with
+ * the audio/PDF of only [bundledBooks]; every other book (and the word audio sprites) is downloaded
+ * by the app from GitHub Pages on first use (BookStore). lesson.json files and the dictionary are
+ * always packaged. `-Pdictalearn.bundleAllBooks=true` builds a fully offline (~600 MB) APK instead.
+ */
+abstract class PrepareBookAssets @Inject constructor(private val fs: FileSystemOperations) : DefaultTask() {
+    @get:Internal abstract val sourceDir: DirectoryProperty
+    @get:Input abstract val bundledBooks: SetProperty<String>
+    @get:Input abstract val bundleAll: Property<Boolean>
+    @get:OutputDirectory abstract val outputDir: DirectoryProperty
+
+    // Only the packaged files are inputs, so the multi-GB WAV masters are never hashed.
+    @get:InputFiles @get:PathSensitive(PathSensitivity.RELATIVE)
+    val packagedFiles: FileTree
+        get() = sourceDir.asFileTree.matching { include { packaged(it) } }
+
+    private fun packaged(file: FileTreeElement): Boolean {
+        if (file.isDirectory) return true
+        val name = file.name
+        if (name.endsWith(".wav") || name.endsWith(".md")) return false
+        val folder = file.relativePath.segments.getOrNull(1).orEmpty() // lessons/<folder>/...
+        if (folder.startsWith("custom_")) return false
+        val large = name.endsWith(".mp3") || name.endsWith(".pdf")
+        return !large || bundleAll.get() || folder in bundledBooks.get()
+    }
+
+    @TaskAction
+    fun run() {
+        fs.sync {
+            from(packagedFiles)
+            into(outputDir)
+            includeEmptyDirs = false
+        }
+    }
+}
+
+val prepareBookAssets = tasks.register<PrepareBookAssets>("prepareBookAssets") {
+    sourceDir.set(layout.projectDirectory.dir("src/main/assets"))
+    bundledBooks.set(setOf("sample_ch01", "book_01_the_happy_prince"))
+    bundleAll.set(project.findProperty("dictalearn.bundleAllBooks") == "true")
+    outputDir.set(layout.buildDirectory.dir("generated/bookAssets"))
+}
 
 android {
     namespace = "com.dictalearn.app"
@@ -16,8 +62,8 @@ android {
         applicationId = "com.dictalearn.app"
         minSdk = 24
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 2
+        versionName = "1.1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -101,20 +147,18 @@ android {
         }
     }
 
-    androidResources {
-        // WAV masters (~3.5 GB) and preview markdown stay out of the APK; the app streams audio.mp3.
-        // The first part is AAPT's default ignore pattern.
-        val basePattern = "!.svn:!.git:!.ds_store:!*.scc:.*:<dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~:!*.wav:!*.md"
-        // `-Pdictalearn.slimAssets=true` keeps only book 01, book 32 and the demo, for emulators with little storage.
-        val slim = project.findProperty("dictalearn.slimAssets") == "true"
-        val slimPattern = (2..36).filter { it != 32 }.joinToString("") { ":<dir>book_%02d_*".format(it) }
-        ignoreAssetsPattern = basePattern + if (slim) slimPattern else ""
-    }
+    sourceSets["main"].assets.setSrcDirs(emptyList<String>()) // packaged through prepareBookAssets below
 
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
+    }
+}
+
+androidComponents {
+    onVariants { variant ->
+        variant.sources.assets?.addGeneratedSourceDirectory(prepareBookAssets, PrepareBookAssets::outputDir)
     }
 }
 
