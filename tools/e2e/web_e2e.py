@@ -210,7 +210,8 @@ def run() -> int:
             card = page.get_by_role("region", name="Bugünkü hedef")
             expect(card).to_be_visible()
             count = int(re.search(r"(\d+) / \d+ cümle", card.inner_text()).group(1))
-            assert count >= 6, f"daily counter did not count the sentences ({count})"
+            # sentences 1, 2, 3 and 6 were answered (4 and 5 were skipped with PageDown / jump)
+            assert count == 4, f"daily counter should count the 4 answered sentences ({count})"
 
         check("daily goal counts practised sentences", daily_goal)
 
