@@ -59,6 +59,9 @@ npm run lint                 # ESLint kontrolü
 
 ### Ortak Veri (`lessons/`)
 - `lesson.json` ve ses dosyaları her iki platform için de tek bir standart şemaya (`schema_version: 1`) sahiptir.
+- `*.mp3` ve `*.pdf` Git LFS ile saklanır (`.gitattributes`). Klonladıktan sonra `git lfs install && git lfs pull`.
+- `*.wav` master dosyaları git'e ve LFS'e girmez (`.gitignore`); `tools/` script'leriyle yeniden üretilir. Uygulamalar yalnızca `audio.mp3` kullanır.
+- `custom_*` kişisel dersler yereldir, repoya girmez (kural 6).
 
 ---
 
