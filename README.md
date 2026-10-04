@@ -16,9 +16,190 @@ Web'de ve Android'de, tamamen çevrimdışı.
 
 **[🌐 Web'de dene](https://burakyildizgamedev.github.io/dictalearn/)** · **[📱 Android APK indir](https://github.com/BurakYildizGameDev/dictalearn/releases/latest)**
 
+[🇬🇧 English](#-english) · [🇹🇷 Türkçe](#neden-dictalearn)
+
 <img src="docs/screenshots/web-library.png" alt="DictaLearn kütüphane ekranı" width="900">
 
 </div>
+
+---
+
+## 🇬🇧 English
+
+> The rest of this README is in Turkish (the app's audience is Turkish speakers learning English). This section
+> covers the whole project in English: what it does, how it is built and how to run it.
+
+### What it is
+
+DictaLearn is an open-source, keyboard- and audio-first app for practising English through **dictation and
+shadowing**. It runs on the **web** (React + TypeScript, installable as a PWA) and on **Android** (Kotlin + Jetpack
+Compose). Both apps share one lesson format and work **fully offline**, with no account, server or telemetry.
+
+It ships with a library of **36 graded classics** (A2 and B1). That is **13,000 narrated sentences**, about 23 hours of
+neural-voice audio. Each book comes with a two-column English | Turkish PDF and vocabulary notes. You can also turn
+your own PDFs, including scanned ones, into dictation lessons.
+
+**[Try the web app](https://burakyildizgamedev.github.io/dictalearn/)** ·
+**[Download the Android APK](https://github.com/BurakYildizGameDev/dictalearn/releases/latest)**
+(most phones: `app-arm64-v8a-release.apk`, ~43 MB)
+
+### Why dictation?
+
+Passive listening improves the ear slowly. DictaLearn makes you use four skills on every sentence:
+
+1. **Listen.** The sentence arrives as audio only. Its text is not in the DOM or UI tree at all (not merely hidden
+   with CSS), so you can't peek.
+2. **Write.** Type what you heard.
+3. **Compare and correct.** A word-level diff shows exactly what you missed. You then retype the sentence correctly.
+4. **Translate and shadow.** Reveal the Turkish translation and repeat the sentence aloud, imitating the speaker.
+
+Words you got wrong or marked as unknown are collected in a **notebook** and come back through spaced repetition.
+
+```
+dictating ──submit──▶ reviewing ──correct / skip──▶ shadowing ──next──▶ dictating (next sentence)
+                                                                  └──last sentence──▶ completed
+```
+
+### Features
+
+**Study loop**
+- **Word-level diff.** Levenshtein alignment over words. Results are distinguished by *shape* as well as colour, for
+  colour-blind users: wrong words are struck through, the correct word is underlined, missing words get a dashed
+  box and extra words are struck through.
+- **Sentence mode and word mode.** In word mode the upcoming words are masked and each word is checked with Space.
+  You get letter hints and pronunciation. Every solved word shows its Turkish meaning underneath, so the sentence is
+  rebuilt together with its meaning. Idioms such as *high above* appear once all their words are solved.
+- **Millisecond-accurate playback.** Each sentence plays exactly its `start_ms`–`end_ms` range. Speed is 0.75× / 1× /
+  1.25× with pitch preserved.
+- **Hard sentences.** Sentences scored below 70% on the first try are remembered per book and can be replayed as a
+  short focused round without touching your main progress.
+- **Daily goal and streak.** Goal of 10 / 20 / 40 sentences a day, a streak of days on target and a 7-day chart.
+- **Resume anywhere.** Progress is stored per book on the device.
+
+**Words and translation**
+- **Offline dictionary (14,067 entries).** Tap any word of a revealed sentence. Inflections (*stood → stand*,
+  *stories → story*) and multi-word expressions (*drift apart*) are recognised.
+- **Studio pronunciation for 15,155 words.** It uses the same neural voice as the books, packed as per-letter audio
+  sprites. This works even on devices with no English system voice. That was a real bug on Turkish Windows, where
+  the only TTS voice is Turkish.
+- **On-device sentence translation on Android** with Google ML Kit (the model is downloaded once).
+- **Notebook with spaced repetition (Leitner boxes: 1, 3, 7, 14, 30 days).** It exports to **CSV** (Excel-safe) and
+  to an **Anki** deck.
+
+**Books and PDFs**
+- **Lessons from your own PDF (web + Android).** English sentences are extracted, and the parallel Turkish text and
+  headings are filtered out.
+  - **Scanned PDFs are read with OCR:** Tesseract.js on the web, ML Kit on Android, both offline.
+  - Two-column pages are handled by learning the column start per page. English lines are detected by the share of
+    English function words, because OCR often drops Turkish diacritics.
+  - The lesson opens after the first 25 pages. The rest are OCR'd in the background and appended without shifting
+    your saved position.
+- **Built-in PDF reader** on both platforms, with a split view on wide screens on the web.
+- **Lesson editor.** Build a lesson from an audio file and SRT/VTT subtitles, edit timings, text and translations,
+  and import or export it as `.zip`.
+
+**Distribution**
+- **Installable web app.** A service worker caches the app shell and every book you open, so it works offline
+  afterwards.
+- **Small Android APK.** The APK bundles only the demo lesson and the first book (~43 MB per CPU architecture,
+  down from 580 MB). Other books (~10–15 MB each) are downloaded once from the GitHub Pages copy the first time
+  they are opened, then work offline. Word audio is fetched per letter on first use.
+
+### Tech stack
+
+| | Web | Android |
+|---|---|---|
+| Language / UI | TypeScript, React 19, Tailwind CSS 4 | Kotlin, Jetpack Compose, Material 3 |
+| Build | Vite 8, oxlint | Gradle (AGP 8), R8, per-ABI APK splits, C++ via NDK/CMake |
+| Audio | `HTMLAudioElement` with position tracking | `MediaPlayer` with `SEEK_CLOSEST` and async prepare |
+| PDF / OCR | pdf.js, Tesseract.js | `PdfRenderer`, ML Kit Text Recognition |
+| Translation | Offline dictionary | Offline dictionary + ML Kit Translate |
+| Storage | localStorage, IndexedDB, Cache Storage | SharedPreferences, app files |
+| Tests | Vitest + Testing Library, Playwright | JUnit 4, adb + uiautomator |
+| Content tools | Python: Edge neural TTS, ReportLab PDFs, ffmpeg, dictionary and word-audio builders | |
+
+### Engineering decisions
+
+| Problem | Decision | Result |
+|---|---|---|
+| Hour-long book audio decoded to PCM would take ~700 MB of browser memory | Play ranges on a media element and watch the playback position instead of decoding | Constant memory; a speed change mid-sentence can't cut it short |
+| Copy protection | The sentence and translation are never rendered before the answer is submitted | Enforced by end-to-end tests, not by CSS |
+| The browser offered only a Turkish voice, so English words were unintelligible | Pre-rendered word sprites in the books' narrator voice; the system voice is used only if it is English | Same studio quality on every device, offline |
+| OCR mangled Turkish letters, so a letter-based language filter failed | Detect English by the ratio of English function words | Parallel Turkish text is reliably removed |
+| A growing PDF lesson could break saved progress | New sentences are only ever appended (`mergeSentences`, `extendLesson`) | Background OCR never shifts your position |
+| A 580 MB APK, ~85% of it audio | A Gradle task packages only the bundled books; the app downloads the rest atomically (`.part` file, then rename) from the static site | 43 MB APK, no server to run |
+| 1.8 GB repository history with WAV files saved as `.mp3` | `git filter-repo`, Git LFS, re-encoding to real MP3 | ~500 MB history; audio 1.8 GB → 220 MB |
+
+The domain layers (diff, progress, dictionary, spaced repetition, PDF sentence extraction) are pure TypeScript and
+pure Kotlin with no platform dependencies. They were written test-first, and their behaviour matches on both
+platforms.
+
+### Quality
+
+| Suite | Tool | Count |
+|---|---|---|
+| Web unit and component tests | Vitest + Testing Library | **178** |
+| Android unit tests | JUnit 4 | **95** |
+| Web end-to-end | Playwright on real Chromium, dev build and the sub-path production build | **22 checks** |
+| Web offline (PWA) | Playwright, production build | **2 checks** |
+| Android end-to-end | adb + uiautomator on a Pixel 7 emulator | **18 checks** |
+
+The end-to-end suites cover:
+- the full keyboard-driven loop and copy protection;
+- audio stopping exactly at `end_ms`;
+- word mode, the word card and the notebook;
+- PDF and OCR lessons, spaced repetition, hard sentences, the daily goal and export;
+- offline use;
+- on Android, downloading a book on first open and then studying it in airplane mode.
+
+GitHub Actions runs lint, tests and builds on every push. It deploys the web app to GitHub Pages and attaches
+signed per-architecture APKs to a GitHub Release for every `v*` tag.
+
+### Running it locally
+
+Audio and PDFs are stored with **Git LFS**:
+
+```bash
+git lfs install
+git clone https://github.com/BurakYildizGameDev/dictalearn.git
+cd dictalearn && git lfs pull
+
+# Web (Node.js 20.19+, 22 recommended)
+cd Web && npm install
+npm run dev        # http://localhost:5173
+npm test           # unit and component tests
+npm run build      # production build in dist/ (VITE_BASE=/repo/ for a sub-path)
+
+# Android (JDK 17, Android SDK, NDK)
+cd Android
+./gradlew testDebugUnitTest
+./gradlew assembleDebug                                    # demo + first book bundled
+./gradlew assembleDebug -Pdictalearn.bundleAllBooks=true   # all 36 books inside (~600 MB)
+./gradlew assembleRelease -Pdictalearn.abiSplits=true      # one APK per CPU architecture
+```
+
+**Keyboard shortcuts (web):**
+- `Enter` checks the answer or moves on; `Ctrl+Enter` reveals or skips.
+- `Ctrl+R` replays the sentence; `Ctrl+Space` plays or pauses.
+- `Ctrl+T` toggles the translation; `Ctrl+M` switches between sentence and word mode.
+- `Ctrl+1/2/3` sets the speed; `PageUp`/`PageDown` move between sentences; `F1` shows all shortcuts.
+- Bare-key shortcuts are never bound while a text field is focused.
+
+### Repository layout
+
+```text
+Web/        React + TypeScript app (domain/, audio/, ocr/, state/, components/, PWA in public/)
+Android/    Kotlin + Compose app (domain/, data/, ui/), C++ via NDK
+lessons/    shared lesson packages (schema v1: lesson.json with integer-millisecond timings, audio.mp3, PDF)
+tools/      content pipeline (TTS, PDF, dictionary, word audio) and end-to-end tests (tools/e2e)
+docs/       screenshots and portfolio notes
+```
+
+### License and content
+
+The code is released under the [MIT License](LICENSE). The books are simplified adaptations of public-domain
+works; the dictionary is generated from the project's own content. Personal lessons built from non-open material
+(`custom_*`) stay local and are never committed.
 
 ---
 
