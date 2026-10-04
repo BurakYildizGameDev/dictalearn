@@ -12,6 +12,7 @@ Web'de ve Android'de, tamamen çevrimdışı.
 ![Tests](https://img.shields.io/badge/tests-194%20unit%20%2B%2029%20e2e-brightgreen?style=flat-square)
 ![Library](https://img.shields.io/badge/k%C3%BCt%C3%BCphane-36%20kitap%20%C2%B7%2013.000%20c%C3%BCmle-6366f1?style=flat-square)
 ![Offline](https://img.shields.io/badge/hesap%20%C2%B7%20sunucu%20%C2%B7%20telemetri-yok-lightgrey?style=flat-square)
+[![License: MIT](https://img.shields.io/badge/lisans-MIT-yellow?style=flat-square)](LICENSE)
 
 <img src="docs/screenshots/web-library.png" alt="DictaLearn kütüphane ekranı" width="900">
 
@@ -362,4 +363,4 @@ Ayrıntılar için [PLAN.md](PLAN.md) ve [YAPILANLAR.md](YAPILANLAR.md).
 - **Metinler:** Kamu malı eserlerin (Wilde, Doyle, Verne, Dickens, Shelley, Stoker, London, Carroll…) sadeleştirilmiş uyarlamalarıdır.
 - **Sözlük:** Projenin kendi içeriğinden ve elle yazılmış çekirdek listeden üretilmiştir.
 - **Kişisel dersler:** Açık lisanslı olmayan dersler (`custom_*`) yalnızca yerelde kalır, repoya eklenmez.
-- **Kod:** Kod lisansı için kök dizine bir `LICENSE` dosyası eklenmelidir.
+- **Kod:** [MIT Lisansı](LICENSE) © 2026 Burak.
