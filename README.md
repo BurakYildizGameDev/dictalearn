@@ -156,7 +156,7 @@ Ses ve PDF dosyaları **Git LFS** ile saklanır. LFS olmadan klonlarsan dersler 
 
 ```bash
 git lfs install
-git clone <repo-url> dictalearn
+git clone https://github.com/BurakYildizGameDev/dictalearn.git
 cd dictalearn
 git lfs pull
 ```
@@ -168,6 +168,9 @@ cd Web
 npm install
 npm run dev          # http://localhost:5173
 ```
+
+`npm run dev` ve `npm run build`, OCR modelini (`tesseract.js` + `eng.traineddata`) `public/ocr/` klasörüne otomatik
+kopyalar; bu klasör repoya girmez.
 
 | Komut | Açıklama |
 |---|---|
@@ -213,25 +216,26 @@ Gereksinim: JDK 17, Android SDK 36, NDK 28.2, minSdk 24.
 ```mermaid
 flowchart LR
   subgraph Data["lessons/ · ortak veri (Git LFS)"]
-    J[lesson.json] --- A[audio.mp3] --- P[kitap.pdf] --- D[dictionary.json]
+    J[lesson.json] --- A[audio.mp3] --- P[kitap.pdf] --- D[dictionary.json] --- W[word_audio/]
   end
 
   subgraph Web["Web · React + TypeScript"]
     direction TB
-    WD["domain/<br/>diff · progress · dictionary<br/>library · subtitles · packages"] --> WS["state/<br/>useStudySession · hash router"]
-    WA["audio/<br/>WebAudioEngine · Speech TTS"] --> WS
-    WS --> WC["components/<br/>Library · Study · Notebook · PDF"]
+    WD["domain/<br/>diff · progress · dictionary · review (SRS)<br/>library · pdf-lesson · subtitles · packages"] --> WS["state/<br/>useStudySession · hash router"]
+    WA["audio/<br/>WebAudioEngine · kelime sesi · Speech TTS"] --> WS
+    WO["ocr/<br/>pdf.js + Tesseract.js<br/>arka plan sayfa işi"] --> WS
+    WS --> WC["components/<br/>Library · Study · Review · Notebook · PDF"]
   end
 
   subgraph Android["Android · Kotlin + Compose"]
     direction TB
-    KD["domain/<br/>DiffEngine · ProgressStore · Dictionary"] --> KV[StudySessionViewModel]
-    KA["data/<br/>MediaPlayer · TTS · SharedPrefs"] --> KV
-    KM[ML Kit Translator] --> KU
-    KV --> KU["ui/<br/>Library · Study · Notebook · PdfReader"]
+    KD["domain/<br/>DiffEngine · ProgressStore · Dictionary<br/>Review (SRS) · PdfLesson"] --> KV[StudySessionViewModel]
+    KA["data/<br/>MediaPlayer · kelime sesi · TTS · SharedPrefs"] --> KV
+    KM["ML Kit<br/>Translator · Text Recognition"] --> KU
+    KV --> KU["ui/<br/>Library · Study · Review · Notebook · PdfReader"]
   end
 
-  T["tools/<br/>Neural TTS · ReportLab PDF<br/>build_dictionary.py"] --> Data
+  T["tools/<br/>Neural TTS · ReportLab PDF<br/>build_dictionary · build_word_audio"] --> Data
   Data --> Web
   Data --> Android
 ```
@@ -282,7 +286,7 @@ Bir ders, `lesson.json` ve `audio.mp3` dosyalarından oluşan taşınabilir bir 
 | Android birim | JUnit 4 | **89** |
 | Web uçtan uca | Playwright (gerçek Chromium) | **22 kontrol** (dev ve `/repo/` alt yollu prod derlemesi) |
 | Web çevrimdışı (PWA) | Playwright, prod derlemesi | **2 kontrol** (kurulabilirlik, çevrimdışı ders) |
-| Android uçtan uca | adb + uiautomator (emülatör) | **16 kontrol** (debug ve R8 release APK) |
+| Android uçtan uca | adb + uiautomator (emülatör) | **16 kontrol** (debug APK; R8 release APK ile de çalışır) |
 
 ```bash
 # Uçtan uca testler
@@ -299,6 +303,9 @@ Uçtan uca testlerin kontrol ettikleri:
 - Kelime modu ve tüm kısayollar.
 - Kaldığın yerden devam.
 - Kelime kartı, defter, PDF yükleme ve görüntüleme.
+- Taranmış PDF'ten OCR ile ders oluşturma.
+- Aralıklı tekrar, zor cümleler turu, günlük hedef ve defteri dışa aktarma.
+- PWA: kurulabilirlik ve daha önce açılan dersin çevrimdışı çalışması.
 - ML Kit çevirisi (Android).
 - Mobil taşma olmaması ve konsol hatası olmaması.
 
@@ -308,9 +315,13 @@ Uçtan uca testlerin kontrol ettikleri:
 |---|---|---|
 | `ci.yml` | push / PR | Web: lint, test, build (Node 22). Android: birim testleri |
 | `deploy-pages.yml` | `Web/**` değişikliği | `VITE_BASE=/<repo>/` ile derler, GitHub Pages'e yayınlar. LFS nesneleri önbelleğe alınır |
-| `android-release.yml` | `v*` etiketi | Testler, `assembleRelease`, APK'yı GitHub Release'e ekler |
+| `android-release.yml` | `v*` etiketi | Testler, mimari başına `assembleRelease` (`-Pdictalearn.abiSplits=true`), APK'ları GitHub Release'e ekler |
 
-**Pages:** Settings → Pages → Source: *GitHub Actions*.
+**Pages:** Settings → Pages → Source: *GitHub Actions*. Özel (private) repoda GitHub Pages ücretli plan ister; ücretsiz
+hesapta repo özelken `deploy-pages.yml` başarısız olur, repo herkese açılınca çalışır.
+
+**Git LFS kotası:** Ses ve PDF dosyaları ~560 MB'tır. İş akışları LFS nesnelerini önbelleğe alır, yine de her yeni
+indirme aylık LFS bant genişliğinden düşer.
 
 **Release imzalama:** Şu dört repository secret eklenir. Eklenmezse imzasız APK üretilir.
 
@@ -342,20 +353,25 @@ python tools/build_word_audio.py   # stüdyo sesli kelime paketi (lessons/word_a
 ```text
 .
 ├── Web/                      React 19 + TypeScript + Vite 8 + Tailwind CSS 4
-│   ├── src/domain/           saf TS: diff, lessons, library, progress, dictionary, mistakes, subtitles
-│   ├── src/audio/            WebAudioEngine, Speech TTS
+│   ├── src/domain/           saf TS: diff, lessons, library, progress, dictionary, mistakes, review, pdf-lesson, subtitles
+│   ├── src/audio/            WebAudioEngine, kelime sesi, Speech TTS
+│   ├── src/ocr/              Tesseract.js motoru, arka planda sayfa işleme
 │   ├── src/state/            useStudySession, hash router
-│   ├── src/components/       Library, StudySession, Notebook, PdfViewer, WordLookup, LessonEditor
-│   └── public/lessons/       derslerin web kopyası
+│   ├── src/components/       Library, StudySession, Review, Notebook, PdfViewer, WordLookup, LessonEditor
+│   ├── public/               PWA (sw.js, manifest, ikonlar) ve derslerin web kopyası
+│   └── scripts/              OCR dosyalarını kopyalayan derleme betiği
 ├── Android/                  Kotlin + Jetpack Compose + C++ NDK
 │   └── app/src/main/
-│       ├── java/…/domain/    DiffEngine, LessonParser, LessonCatalog, ProgressStore, Dictionary
-│       ├── java/…/data/      MediaPlayerAudioEngine, AndroidSpeechEngine, MlKitTranslator, SharedPrefs
-│       ├── java/…/ui/        Library, StudySession, Notebook, PdfReader, WordLookup, LessonEditor
+│       ├── java/…/domain/    DiffEngine, LessonParser, LessonCatalog, ProgressStore, Dictionary, Review, PdfLesson
+│       ├── java/…/data/      MediaPlayerAudioEngine, AndroidSpeechEngine, MlKitTranslator, ML Kit OCR, SharedPrefs
+│       ├── java/…/ui/        Library, StudySession, Review, Notebook, PdfReader, WordLookup, LessonEditor
 │       └── assets/lessons/   derslerin Android kopyası
-├── lessons/                  ortak ders paketleri + dictionary.json (kaynak)
-├── tools/                    içerik üretimi, sözlük, e2e testleri
-├── docs/screenshots/
+├── lessons/                  ortak ders paketleri, dictionary.json, word_audio/ (kaynak)
+├── tools/                    içerik üretimi, sözlük, kelime sesi
+│   └── e2e/                  Playwright (web, PWA) ve adb/uiautomator (Android) testleri
+├── .github/workflows/        ci, deploy-pages, android-release
+├── docs/                     PORTFOLIO.md, screenshots/
+├── LICENSE                   MIT
 ├── PLAN.md                   tasarım kararları ve faz listesi
 ├── YAPILANLAR.md             tamamlanan işlerin dökümü
 └── CLAUDE.md                 geliştirme kuralları
