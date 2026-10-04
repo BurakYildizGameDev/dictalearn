@@ -1,0 +1,4014 @@
+{
+  "schema_version": 1,
+  "lesson_id": "book_36_journey_to_the_center_of_the_earth",
+  "title": "Journey to the Center of the Earth (Dünyanın Merkezine Yolculuk) (25 Sayfa / 500 Cümle / Graded Reader)",
+  "source_lang": "en",
+  "target_lang": "tr",
+  "audio_file": "audio.mp3",
+  "attribution": {
+    "source": "Jules Verne / Public Domain / Graded Reader Adaptasyonu (25 Sayfa x 20 Cümle)",
+    "license": "Public Domain"
+  },
+  "segments": [
+    {
+      "id": 1,
+      "start_ms": 300,
+      "end_ms": 8628,
+      "text": "On the twenty-fourth of May, 1863, my uncle, Professor Otto Lidenbrock, rushed into his little house in Hamburg.",
+      "translation": "24 Mayıs 1863'te amcam Profesör Otto Lidenbrock, Hamburg'daki küçük evine telaşla koşarak girdi.",
+      "notes": "Sayfa 1 | rushed into: telaşla koşarak içeri girdi."
+    },
+    {
+      "id": 2,
+      "start_ms": 9028,
+      "end_ms": 15436,
+      "text": "He was a distinguished professor of mineralogy, known for his vast knowledge and terrible impatience.",
+      "translation": "Engin bilgisi ve korkunç sabırsızlığıyla tanınan seçkin bir mineraloji profesörüydü.",
+      "notes": "Sayfa 1 | distinguished professor: seçkin profesör."
+    },
+    {
+      "id": 3,
+      "start_ms": 15836,
+      "end_ms": 22724,
+      "text": "Whenever he gave lectures at the university, he spoke so fast that students could hardly follow his words.",
+      "translation": "Üniversitede ne zaman ders verse o kadar hızlı konuşurdu ki öğrenciler sözlerini güçlükle takip edebilirdi.",
+      "notes": "Sayfa 1 | could hardly follow: neredeyse hiç takip edemezdi / güçlükle izlerdi."
+    },
+    {
+      "id": 4,
+      "start_ms": 23124,
+      "end_ms": 29268,
+      "text": "I lived with him as his assistant and nephew, helping him classify his immense collection of rocks.",
+      "translation": "Onun yeğeni ve asistanı olarak birlikte yaşıyor, devasa kaya koleksiyonunu sınıflandırmasına yardım ediyordum.",
+      "notes": "Sayfa 1 | immense collection: devasa koleksiyon."
+    },
+    {
+      "id": 5,
+      "start_ms": 29668,
+      "end_ms": 35356,
+      "text": "On that particular afternoon, my uncle was waving an old book with tremendous excitement.",
+      "translation": "O özel öğleden sonrasında amcam, muazzam bir heyecanla eski bir kitabı sallıyordu.",
+      "notes": "Sayfa 1 | tremendous excitement: muazzam bir heyecan."
+    },
+    {
+      "id": 6,
+      "start_ms": 35756,
+      "end_ms": 41612,
+      "text": "\"Axel, come here immediately and look at this priceless treasure!\" he cried out loudly.",
+      "translation": "\"Axel, derhal buraya gel ve şu paha biçilmez hazineye bak!\" diye bağırdı yüksek sesle.",
+      "notes": "Sayfa 1 | priceless treasure: paha biçilmez hazine."
+    },
+    {
+      "id": 7,
+      "start_ms": 42012,
+      "end_ms": 47340,
+      "text": "The book was bound in rough leather and smelled of centuries of dust and damp cellars.",
+      "translation": "Kitap kaba bir deriyle ciltlenmişti ve yüzyılların tozunu ve nemli mahzen kokusunu taşıyordu.",
+      "notes": "Sayfa 1 | bound in rough leather: kaba deriyle ciltlenmiş."
+    },
+    {
+      "id": 8,
+      "start_ms": 47740,
+      "end_ms": 54292,
+      "text": "\"I bought it from an old bookseller who had no idea of its true value,\" the professor explained proudly.",
+      "translation": "\"Onu gerçek değerinden habersiz olan yaşlı bir sahaftan satın aldım,\" diye gururla açıkladı profesör.",
+      "notes": "Sayfa 1 | had no idea of: ...den tamamen habersizdi."
+    },
+    {
+      "id": 9,
+      "start_ms": 54692,
+      "end_ms": 60068,
+      "text": "It was an ancient Icelandic saga written in the twelfth century by Snorri Sturluson.",
+      "translation": "On ikinci yüzyılda Snorri Sturluson tarafından kaleme alınmış kadim bir İzlanda destanıydı.",
+      "notes": "Sayfa 1 | written in the twelfth century: on ikinci yüzyılda yazılmış."
+    },
+    {
+      "id": 10,
+      "start_ms": 60468,
+      "end_ms": 67044,
+      "text": "My uncle opened the yellowed pages carefully, admiring the strange runic characters inscribed upon them.",
+      "translation": "Amcam sararmış sayfaları dikkatle açtı ve üzerlerine kazınmış garip rünik karakterlere hayranlıkla baktı.",
+      "notes": "Sayfa 1 | runic characters: rünik harfler / yazılar."
+    },
+    {
+      "id": 11,
+      "start_ms": 67444,
+      "end_ms": 73324,
+      "text": "Suddenly, a folded piece of parchment slipped from between the pages and fell to the floor.",
+      "translation": "Aniden sayfaların arasından katlanmış bir parşömen parçası kaydı ve yere düştü.",
+      "notes": "Sayfa 1 | slipped from: arasından kayıp düştü."
+    },
+    {
+      "id": 12,
+      "start_ms": 73724,
+      "end_ms": 79052,
+      "text": "I quickly bent down and picked it up before the professor could scold me for hesitating.",
+      "translation": "Profesör beni tereddüt ettiğim için azarlamadan önce hızla eğilip onu yerden aldım.",
+      "notes": "Sayfa 1 | bent down: eğildi."
+    },
+    {
+      "id": 13,
+      "start_ms": 79452,
+      "end_ms": 85524,
+      "text": "The parchment was covered with mysterious letters that appeared completely incomprehensible to my eyes.",
+      "translation": "Parşömen, gözlerime tamamen anlaşılmaz görünen gizemli harflerle kaplıydı.",
+      "notes": "Sayfa 1 | completely incomprehensible: tamamen anlaşılmaz."
+    },
+    {
+      "id": 14,
+      "start_ms": 85924,
+      "end_ms": 91948,
+      "text": "Professor Lidenbrock snatched the paper from my hand and examined it through his magnifying glass.",
+      "translation": "Profesör Lidenbrock kağıdı elimden kaptı ve büyüteciyle dikkatle inceledi.",
+      "notes": "Sayfa 1 | snatched the paper: kağıdı çekip aldı / kaptı."
+    },
+    {
+      "id": 15,
+      "start_ms": 92348,
+      "end_ms": 98492,
+      "text": "\"These are runes!\" he exclaimed, his dark eyes sparkling behind his thick spectacles.",
+      "translation": "Kalın gözlüklerinin ardından koyu renk gözleri parıldayarak, \"Bunlar rün harfleri!\" diye haykırdı.",
+      "notes": "Sayfa 1 | sparkling behind spectacles: gözlüklerin arkasında parıldayan."
+    },
+    {
+      "id": 16,
+      "start_ms": 98892,
+      "end_ms": 104700,
+      "text": "\"Runic writing was used in ancient Scandinavia before the Latin alphabet was introduced.\"",
+      "translation": "\"Rün yazısı, Latin alfabesi gelmeden önce kadim İskandinavya'da kullanılıyordu.\"",
+      "notes": "Sayfa 1 | was introduced: getirilmişti / tanıtılmıştı."
+    },
+    {
+      "id": 17,
+      "start_ms": 105100,
+      "end_ms": 111028,
+      "text": "However, after a few minutes of intense study, his forehead wrinkled in deep frustration.",
+      "translation": "Ancak birkaç dakikalık yoğun incelemenin ardından alnı derin bir hayal kırıklığıyla kırıştı.",
+      "notes": "Sayfa 1 | wrinkled in deep frustration: derin bir hüsranla kırıştı."
+    },
+    {
+      "id": 18,
+      "start_ms": 111428,
+      "end_ms": 117236,
+      "text": "The characters were indeed runic, but they formed a secret cipher that made no sense at all.",
+      "translation": "Karakterler gerçekten rünikti fakat hiçbir anlam ifade etmeyen gizli bir şifre oluşturuyorlardı.",
+      "notes": "Sayfa 1 | secret cipher: gizli şifre / kriptogram."
+    },
+    {
+      "id": 19,
+      "start_ms": 117636,
+      "end_ms": 123756,
+      "text": "\"It is a cryptogram, Axel!\" he shouted, pacing back and forth across the study room.",
+      "translation": "Çalışma odasında bir ileri bir geri volta atarak, \"Bu bir kriptogram, Axel!\" diye bağırdı.",
+      "notes": "Sayfa 1 | pacing back and forth: bir ileri bir geri adımlamak."
+    },
+    {
+      "id": 20,
+      "start_ms": 124156,
+      "end_ms": 130444,
+      "text": "\"Someone has concealed a profound secret within this text, and I shall not rest until I unlock it!\"",
+      "translation": "\"Birisi bu metnin içine derin bir sır gizlemiş ve ben onu çözene kadar asla dinlenmeyeceğim!\"",
+      "notes": "Sayfa 1 | shall not rest until: ...e kadar asla huzur bulmayacağım."
+    },
+    {
+      "id": 21,
+      "start_ms": 131444,
+      "end_ms": 137372,
+      "text": "My uncle examined the lower edge of the parchment where a tiny line of faded ink was visible.",
+      "translation": "Amcam, parşömenin soluk mürekkeple yazılmış küçük bir satırın göründüğü alt kenarını inceledi.",
+      "notes": "Sayfa 2 | lower edge: alt kenar."
+    },
+    {
+      "id": 22,
+      "start_ms": 137772,
+      "end_ms": 144564,
+      "text": "\"Arne Saknussemm!\" he gasped in utter astonishment, recognizing the famous sixteenth-century name.",
+      "translation": "On altıncı yüzyılın o ünlü ismini tanıyarak tam bir şaşkınlık içinde, \"Arne Saknussemm!\" diye nefesini tuttu.",
+      "notes": "Sayfa 2 | gasped in utter astonishment: tam bir şaşkınlıkla nefesi kesildi."
+    },
+    {
+      "id": 23,
+      "start_ms": 144964,
+      "end_ms": 150868,
+      "text": "\"Saknussemm was a celebrated Icelandic alchemist and a man of immense scientific daring!\"",
+      "translation": "\"Saknussemm, ünlü bir İzlandalı simyacı ve muazzam bilimsel cesarete sahip bir adamdı!\"",
+      "notes": "Sayfa 2 | scientific daring: bilimsel cesaret / cüret."
+    },
+    {
+      "id": 24,
+      "start_ms": 151268,
+      "end_ms": 157292,
+      "text": "\"He was persecuted for heresy, and many of his writings were publicly burned after his death.\"",
+      "translation": "\"Sapkınlıkla suçlanıp zulüm gördü ve yazılarının birçoğu ölümünden sonra halkın önünde yakıldı.\"",
+      "notes": "Sayfa 2 | persecuted for heresy: sapkınlıkla suçlanıp eziyet gördü."
+    },
+    {
+      "id": 25,
+      "start_ms": 157692,
+      "end_ms": 163908,
+      "text": "The discovery of this signature transformed my uncle's scientific curiosity into pure obsession.",
+      "translation": "Bu imzanın keşfi amcamın bilimsel merakını saf bir saplantıya dönüştürdü.",
+      "notes": "Sayfa 2 | pure obsession: saf bir takıntı / saplantı."
+    },
+    {
+      "id": 26,
+      "start_ms": 164308,
+      "end_ms": 170572,
+      "text": "He immediately locked the front door and decreed that no one in the house would eat until the cipher was solved.",
+      "translation": "Derhal sokak kapısını kilitledi ve şifre çözülene kadar evdeki hiç kimsenin yemek yemeyeceğini buyurdu.",
+      "notes": "Sayfa 2 | decreed that: ...diye ferman verdi / hükmetti."
+    },
+    {
+      "id": 27,
+      "start_ms": 170972,
+      "end_ms": 177260,
+      "text": "Our faithful housekeeper, Martha, was horrified because she had already prepared a wonderful dinner.",
+      "translation": "Sadık kahyamız Martha dehşete düşmüştü çünkü çoktan harika bir akşam yemeği hazırlamıştı.",
+      "notes": "Sayfa 2 | faithful housekeeper: sadık hizmetçi / kahya."
+    },
+    {
+      "id": 28,
+      "start_ms": 177660,
+      "end_ms": 183780,
+      "text": "\"No food and no sleep!\" the professor barked, slamming his fist onto the wooden desk.",
+      "translation": "Profesör yumruğunu ahşap masaya vurarak, \"Yemek yok ve uyku da yok!\" diye gürledi.",
+      "notes": "Sayfa 2 | slamming his fist: yumruğunu vurarak."
+    },
+    {
+      "id": 29,
+      "start_ms": 184180,
+      "end_ms": 190348,
+      "text": "We sat together at the large oak table, rearranging the letters in countless different combinations.",
+      "translation": "Büyük meşe masada yan yana oturduk ve harfleri sayısız farklı kombinasyonda yeniden düzenledik.",
+      "notes": "Sayfa 2 | countless combinations: sayısız kombinasyon."
+    },
+    {
+      "id": 30,
+      "start_ms": 190748,
+      "end_ms": 197036,
+      "text": "The professor attempted every cryptographic method known to modern science without the slightest success.",
+      "translation": "Profesör modern bilimin bildiği her kriptografik yöntemi denedi ama en ufak bir başarı dahi elde edemedi.",
+      "notes": "Sayfa 2 | without the slightest success: en ufak bir başarı olmaksızın."
+    },
+    {
+      "id": 31,
+      "start_ms": 197436,
+      "end_ms": 203292,
+      "text": "Hours passed, and the ticking of the grandfather clock in the hallway sounded louder and louder.",
+      "translation": "Saatler geçti ve koridordaki büyük ayaklı saatin tiktakları giderek daha da yüksek duyulmaya başladı.",
+      "notes": "Sayfa 2 | grandfather clock: büyük sarkaçlı ayaklı saat."
+    },
+    {
+      "id": 32,
+      "start_ms": 203692,
+      "end_ms": 210244,
+      "text": "My head began to ache violently, and my empty stomach protested against this sudden forced fast.",
+      "translation": "Başım şiddetle ağrımaya başladı ve boş midem bu ani zorunlu açlığa isyan etti.",
+      "notes": "Sayfa 2 | forced fast: zorunlu oruç / açlık."
+    },
+    {
+      "id": 33,
+      "start_ms": 210644,
+      "end_ms": 216548,
+      "text": "I knew very well that my uncle would rather die of starvation than abandon an intellectual puzzle.",
+      "translation": "Amcamın entelektüel bir bilmeceyi bırakmaktansa açlıktan ölmeyi tercih edeceğini gayet iyi biliyordum.",
+      "notes": "Sayfa 2 | would rather die than abandon: vazgeçmektense ölmeyi yeğler."
+    },
+    {
+      "id": 34,
+      "start_ms": 216948,
+      "end_ms": 223356,
+      "text": "At midnight, exhausted and frustrated, the professor put on his hat and stormed out into the street.",
+      "translation": "Gece yarısı, yorgun ve hüsrana uğramış bir halde profesör şapkasını takıp sokağa fırladı.",
+      "notes": "Sayfa 2 | stormed out into: hışımla dışarı fırladı."
+    },
+    {
+      "id": 35,
+      "start_ms": 223756,
+      "end_ms": 229468,
+      "text": "He needed cold air to cool his burning brain, leaving me alone in the dimly lit study.",
+      "translation": "Yanan beynini soğutmak için soğuk havaya ihtiyacı vardı ve beni loş ışıklı çalışma odasında yalnız bıraktı.",
+      "notes": "Sayfa 2 | dimly lit study: loş ışıklı çalışma odası."
+    },
+    {
+      "id": 36,
+      "start_ms": 229868,
+      "end_ms": 236300,
+      "text": "I collapsed into his comfortable armchair, feeling utterly miserable and desperate for a crust of bread.",
+      "translation": "Bir lokma ekmeğe muhtaç ve son derece perişan hissederek onun rahat koltuğuna yığıldım.",
+      "notes": "Sayfa 2 | collapsed into: içine yığıldı."
+    },
+    {
+      "id": 37,
+      "start_ms": 236700,
+      "end_ms": 243108,
+      "text": "I thought about my lovely fiancée, Graüben, who was currently staying with relatives in Altona.",
+      "translation": "O sırada Altona'daki akrabalarının yanında kalan sevgili nişanlım Graüben'i düşündüm.",
+      "notes": "Sayfa 2 | lovely fiancée: sevgili nişanlı."
+    },
+    {
+      "id": 38,
+      "start_ms": 243508,
+      "end_ms": 249436,
+      "text": "\"If my uncle stays in this terrible mood, we will never be able to get married,\" I sighed.",
+      "translation": "\"Eğer amcam bu berbat ruh halinde kalırsa, asla evlenemeyeceğiz,\" diye iç çektim.",
+      "notes": "Sayfa 2 | terrible mood: berbat ruh hali."
+    },
+    {
+      "id": 39,
+      "start_ms": 249836,
+      "end_ms": 255164,
+      "text": "To distract myself from hunger, I picked up the mysterious parchment once again.",
+      "translation": "Açlıktan dikkatimi dağıtmak için gizemli parşömeni bir kez daha elime aldım.",
+      "notes": "Sayfa 2 | distract myself from: dikkatimi ...den başka yöne çekmek."
+    },
+    {
+      "id": 40,
+      "start_ms": 255564,
+      "end_ms": 260388,
+      "text": "Little did I know that a pure accident was about to change our lives forever.",
+      "translation": "Tamamen tesadüfi bir olayın hayatlarımızı sonsuza dek değiştirmek üzere olduğundan habersizdim.",
+      "notes": "Sayfa 2 | little did I know: neredeyse hiç bilmiyordum / haberim yoktu."
+    },
+    {
+      "id": 41,
+      "start_ms": 261388,
+      "end_ms": 266908,
+      "text": "I was fanning myself with the sheet of paper because the room had become uncomfortably warm.",
+      "translation": "Oda rahatsız edici derecede ısındığı için elimdeki kağıtla kendimi yelpazeliyordum.",
+      "notes": "Sayfa 3 | fanning myself: kendimi yelpazeliyordum."
+    },
+    {
+      "id": 42,
+      "start_ms": 267308,
+      "end_ms": 272732,
+      "text": "As the parchment moved through the candlelight, I happened to glance at its reverse side.",
+      "translation": "Parşömen mum ışığından geçerken, tesadüfen arka yüzüne gözüm ilişti.",
+      "notes": "Sayfa 3 | happened to glance: tesadüfen gözü ilişti."
+    },
+    {
+      "id": 43,
+      "start_ms": 273132,
+      "end_ms": 279180,
+      "text": "The ink had soaked slightly through the thin skin, showing the characters backward against the light.",
+      "translation": "Mürekkep ince deriden hafifçe sızmıştı ve harfleri ışığa karşı tersten gösteriyordu.",
+      "notes": "Sayfa 3 | soaked slightly through: deriden hafifçe diğer tarafa geçmişti."
+    },
+    {
+      "id": 44,
+      "start_ms": 279580,
+      "end_ms": 284860,
+      "text": "My eyes caught recognizable Latin words like 'craterem' and 'terram'.",
+      "translation": "Gözlerim 'craterem' ve 'terram' gibi tanınabilir Latince kelimelere çarptı.",
+      "notes": "Sayfa 3 | caught recognizable words: tanıdık kelimeleri yakaladı."
+    },
+    {
+      "id": 45,
+      "start_ms": 285260,
+      "end_ms": 291980,
+      "text": "\"Good heavens!\" I cried, leaping out of the chair with my heart pounding against my ribs.",
+      "translation": "Kalbim kaburgalarıma çarparak sandalyeden fırlayıp, \"Aman Tanrım!\" diye haykırdım.",
+      "notes": "Sayfa 3 | leaping out of the chair: sandalyeden fırlayarak."
+    },
+    {
+      "id": 46,
+      "start_ms": 292380,
+      "end_ms": 298596,
+      "text": "The text was not written in Icelandic at all; it was written in Latin disguised with runic letters!",
+      "translation": "Metin kesinlikle İzlandaca yazılmamıştı; rünik harflerle gizlenmiş Latinceydi!",
+      "notes": "Sayfa 3 | disguised with: ...ile gizlenmiş / kamufle edilmiş."
+    },
+    {
+      "id": 47,
+      "start_ms": 298996,
+      "end_ms": 304060,
+      "text": "Moreover, it had to be read backward from right to left and from the bottom up.",
+      "translation": "Üstelik sağdan sola ve aşağıdan yukarıya doğru tersten okunması gerekiyordu.",
+      "notes": "Sayfa 3 | from the bottom up: aşağıdan yukarıya doğru."
+    },
+    {
+      "id": 48,
+      "start_ms": 304460,
+      "end_ms": 309884,
+      "text": "With trembling hands, I took a pen and transcribed the letters in their proper order.",
+      "translation": "Titreyen ellerle bir kalem aldım ve harfleri doğru sıralarıyla kağıda döktüm.",
+      "notes": "Sayfa 3 | transcribed in proper order: doğru sırayla kopyaladı / yazdı."
+    },
+    {
+      "id": 49,
+      "start_ms": 310284,
+      "end_ms": 316188,
+      "text": "Within five minutes, the terrifying sentence formed clearly before my startled eyes.",
+      "translation": "Beş dakika içinde o korkunç cümle ürkmüş gözlerimin önünde apaçık belirdi.",
+      "notes": "Sayfa 3 | startled eyes: ürkmüş / şaşkın gözler."
+    },
+    {
+      "id": 50,
+      "start_ms": 316588,
+      "end_ms": 323332,
+      "text": "\"Descend into the crater of Sneffels Jokull which the shadow of Scartaris touches before the kalends of July.\"",
+      "translation": "\"Temmuz ayının başlangıcından önce Scartaris'in gölgesinin dokunduğu Sneffels Jokull kraterine in.\"",
+      "notes": "Sayfa 3 | descend into the crater: kratere in."
+    },
+    {
+      "id": 51,
+      "start_ms": 323732,
+      "end_ms": 327740,
+      "text": "\"And you will reach the center of the Earth, bold traveler!\"",
+      "translation": "\"Ve böylece Dünya'nın merkezine ulaşacaksın, cesur gezgin!\"",
+      "notes": "Sayfa 3 | bold traveler: cesur yolcu / gezgin."
+    },
+    {
+      "id": 52,
+      "start_ms": 328140,
+      "end_ms": 333876,
+      "text": "The final line was signed plainly: \"I did this. Arne Saknussemm.\"",
+      "translation": "Son satır açıkça imzalanmıştı: \"Bunu ben yaptım. Arne Saknussemm.\"",
+      "notes": "Sayfa 3 | signed plainly: sade bir şekilde imzalanmış."
+    },
+    {
+      "id": 53,
+      "start_ms": 334276,
+      "end_ms": 339772,
+      "text": "I stood frozen with fear as the full meaning of those words sank into my consciousness.",
+      "translation": "O kelimelerin tam anlamı bilincime yerleşirken korkudan donakalmış bir halde durdum.",
+      "notes": "Sayfa 3 | sank into my consciousness: bilincime işledi / oturdu."
+    },
+    {
+      "id": 54,
+      "start_ms": 340172,
+      "end_ms": 347060,
+      "text": "Sneffels was an extinct volcano in Iceland, standing thousands of feet above the frozen northern sea.",
+      "translation": "Sneffels, İzlanda'da donmuş kuzey denizinin binlerce fit üzerinde yükselen sönmüş bir yanardağdı.",
+      "notes": "Sayfa 3 | extinct volcano: sönmüş yanardağ."
+    },
+    {
+      "id": 55,
+      "start_ms": 347460,
+      "end_ms": 354348,
+      "text": "Journeying to the center of the globe was an impossible, insane nightmare that defied all geological science.",
+      "translation": "Kürenin merkezine seyahat etmek, tüm jeoloji bilimine meydan okuyan imkansız ve delice bir kabustu.",
+      "notes": "Sayfa 3 | defied all science: tüm bilime meydan okudu."
+    },
+    {
+      "id": 56,
+      "start_ms": 354748,
+      "end_ms": 362380,
+      "text": "\"If my uncle discovers this, he will immediately drag me into that bottomless abyss!\" I thought in panic.",
+      "translation": "Panik içinde, \"Eğer amcam bunu öğrenirse, beni derhal o dipsiz uçuruma sürükler!\" diye düşündüm.",
+      "notes": "Sayfa 3 | bottomless abyss: dipsiz uçurum."
+    },
+    {
+      "id": 57,
+      "start_ms": 362780,
+      "end_ms": 369332,
+      "text": "I walked toward the fireplace, determined to throw both the parchment and my transcription into the embers.",
+      "translation": "Hem parşömeni hem de çevirimi közlerin içine atmaya kararlı bir şekilde şömineye doğru yürüdüm.",
+      "notes": "Sayfa 3 | into the embers: kor ateşlerin içine."
+    },
+    {
+      "id": 58,
+      "start_ms": 369732,
+      "end_ms": 375372,
+      "text": "Destruction of the secret was the only way to save our lives from a certain and horrific death.",
+      "translation": "Sırrın yok edilmesi, hayatlarımızı kesin ve korkunç bir ölümden kurtarmanın tek yoluydu.",
+      "notes": "Sayfa 3 | certain and horrific death: kesin ve korkunç ölüm."
+    },
+    {
+      "id": 59,
+      "start_ms": 375772,
+      "end_ms": 381508,
+      "text": "Just as my hand reached toward the fire, the heavy street door opened with a loud creak.",
+      "translation": "Tam elim ateşe doğru uzanırken, ağır sokak kapısı yüksek bir gıcırtıyla açıldı.",
+      "notes": "Sayfa 3 | with a loud creak: yüksek bir gıcırtıyla."
+    },
+    {
+      "id": 60,
+      "start_ms": 381908,
+      "end_ms": 388148,
+      "text": "Professor Otto Lidenbrock had returned from his walk, his heavy footsteps echoing up the stairs.",
+      "translation": "Profesör Otto Lidenbrock yürüyüşünden dönmüştü ve ağır ayak sesleri merdivenlerde yankılanıyordu.",
+      "notes": "Sayfa 3 | footsteps echoing: yankılanan ayak sesleri."
+    },
+    {
+      "id": 61,
+      "start_ms": 389148,
+      "end_ms": 395148,
+      "text": "I had barely enough time to throw the papers back onto the desk before my uncle burst into the room.",
+      "translation": "Amcam odaya dalmadan önce kağıtları masanın üzerine geri fırlatacak kadar ancak vakit bulabilmiştim.",
+      "notes": "Sayfa 4 | barely enough time: ancak yetecek kadar zaman."
+    },
+    {
+      "id": 62,
+      "start_ms": 395548,
+      "end_ms": 401812,
+      "text": "He looked weary and dejected, having failed to find inspiration during his wandering through the streets.",
+      "translation": "Sokaklarda dolaşırken aradığı ilhamı bulamamış, yorgun ve kederli görünüyordu.",
+      "notes": "Sayfa 4 | weary and dejected: yorgun ve kederli / çökkün."
+    },
+    {
+      "id": 63,
+      "start_ms": 402212,
+      "end_ms": 408548,
+      "text": "I tried to hide my trembling, but my conscience could not bear seeing him suffer from hunger and grief.",
+      "translation": "Titrememi gizlemeye çalıştım ama vicdanım onun açlık ve keder içinde kıvranmasına dayanamadı.",
+      "notes": "Sayfa 4 | could not bear seeing: görmeye dayanamadı."
+    },
+    {
+      "id": 64,
+      "start_ms": 408948,
+      "end_ms": 416100,
+      "text": "\"Uncle,\" I said softly, unable to keep the tremendous truth to myself any longer, \"I have read the message.\"",
+      "translation": "Muazzam gerçeği daha fazla kendime saklayamayarak usulca, \"Amca,\" dedim, \"mesajı okudum.\"",
+      "notes": "Sayfa 4 | keep to myself: kendime saklamak."
+    },
+    {
+      "id": 65,
+      "start_ms": 416500,
+      "end_ms": 421780,
+      "text": "The professor froze in his tracks, staring at me as if I had lost my mind.",
+      "translation": "Profesör olduğu yerde donakaldı, aklımı kaçırmışım gibi bana dik dik baktı.",
+      "notes": "Sayfa 4 | froze in his tracks: olduğu yerde donakaldı."
+    },
+    {
+      "id": 66,
+      "start_ms": 422180,
+      "end_ms": 428876,
+      "text": "When I placed the decoded Latin translation in his hands, his face turned pale with overwhelming emotion.",
+      "translation": "Çözümlenmiş Latince çeviriyi ellerine bıraktığımda, yüzü ezici bir duygu seliyle soldu.",
+      "notes": "Sayfa 4 | overwhelming emotion: ezici / yoğun duygu."
+    },
+    {
+      "id": 67,
+      "start_ms": 429276,
+      "end_ms": 435876,
+      "text": "He read the words three times in complete silence, breathing heavily like a runner nearing the finish line.",
+      "translation": "Bitiş çizgisine yaklaşan bir koşucu gibi ağır ağır soluyarak sözleri tam bir sessizlik içinde üç kez okudu.",
+      "notes": "Sayfa 4 | breathing heavily: derin ve ağır soluyarak."
+    },
+    {
+      "id": 68,
+      "start_ms": 436276,
+      "end_ms": 442564,
+      "text": "\"Arne Saknussemm actually accomplished it!\" he roared, leaping into the air with childlike joy.",
+      "translation": "Çocuksu bir sevinçle havaya zıplayarak, \"Arne Saknussemm bunu gerçekten başarmış!\" diye kükredi.",
+      "notes": "Sayfa 4 | leaping into the air: havaya zıplayarak."
+    },
+    {
+      "id": 69,
+      "start_ms": 442964,
+      "end_ms": 448460,
+      "text": "\"Axel, my boy, we are going to follow his footsteps into the bowels of the planet!\"",
+      "translation": "\"Axel, oğlum, onun ayak izlerini gezegenin bağrına kadar takip edeceğiz!\"",
+      "notes": "Sayfa 4 | into the bowels of: ...nın bağrına / derinliklerine."
+    },
+    {
+      "id": 70,
+      "start_ms": 448860,
+      "end_ms": 453996,
+      "text": "I tried desperately to present scientific objections to this mad undertaking.",
+      "translation": "Bu çılgınca girişime bilimsel itirazlar sunmak için çaresizce çabaladım.",
+      "notes": "Sayfa 4 | mad undertaking: çılgın girişim."
+    },
+    {
+      "id": 71,
+      "start_ms": 454396,
+      "end_ms": 461212,
+      "text": "\"Uncle, modern geologists believe that the interior of the Earth is a mass of incandescent, molten rock!\"",
+      "translation": "\"Amca, modern jeologlar Dünya'nın içinin akkor halinde, erimiş kaya kütlesi olduğuna inanıyor!\"",
+      "notes": "Sayfa 4 | incandescent molten rock: akkor erimiş kaya."
+    },
+    {
+      "id": 72,
+      "start_ms": 461612,
+      "end_ms": 468068,
+      "text": "\"The heat at fifty miles beneath the surface would melt steel and vaporize human flesh in seconds!\"",
+      "translation": "\"Yüzeyin elli mil altındaki ısı, çeliği eritir ve insan etini saniyeler içinde buharlaştırır!\"",
+      "notes": "Sayfa 4 | vaporize human flesh: insan etini buharlaştırmak."
+    },
+    {
+      "id": 73,
+      "start_ms": 468468,
+      "end_ms": 473652,
+      "text": "The professor waved his hand dismissively, scoffing at conventional theories.",
+      "translation": "Profesör alışılagelmiş teorilerle alay ederek elini umursamazca salladı.",
+      "notes": "Sayfa 4 | scoffing at: ...ile alay ederek / küçümseyerek."
+    },
+    {
+      "id": 74,
+      "start_ms": 474052,
+      "end_ms": 480676,
+      "text": "\"Theories are merely guesses invented by armchair scholars who never venture into the field!\" he replied.",
+      "translation": "\"Teoriler, asla sahaya çıkmayan masa başı bilginlerin uydurduğu tahminlerden ibarettir!\" diye yanıtladı.",
+      "notes": "Sayfa 4 | armchair scholars: masa başı bilginler."
+    },
+    {
+      "id": 75,
+      "start_ms": 481076,
+      "end_ms": 487604,
+      "text": "\"Saknussemm went there and returned alive to write this testament, and that is empirical proof enough for me.\"",
+      "translation": "\"Saknussemm oraya bizzat gitti ve bu vasiyeti yazmak için sağ döndü; bu da benim için yeterli deneysel kanıttır.\"",
+      "notes": "Sayfa 4 | empirical proof: deneysel kanıt."
+    },
+    {
+      "id": 76,
+      "start_ms": 488004,
+      "end_ms": 495156,
+      "text": "He declared that our journey would begin without delay, before the shadow of Scartaris touched Sneffels in late June.",
+      "translation": "Scartaris'in gölgesi haziran sonunda Sneffels'e dokunmadan önce yolculuğumuzun gecikmeksizin başlayacağını ilan etti.",
+      "notes": "Sayfa 4 | without delay: gecikmeksizin."
+    },
+    {
+      "id": 77,
+      "start_ms": 495556,
+      "end_ms": 501100,
+      "text": "Martha was ordered to unlock the pantry and prepare provisions for an extended expedition.",
+      "translation": "Martha'ya kileri açması ve uzun sürecek bir keşif gezisi için erzak hazırlaması emredildi.",
+      "notes": "Sayfa 4 | extended expedition: kapsamlı / uzun keşif gezisi."
+    },
+    {
+      "id": 78,
+      "start_ms": 501500,
+      "end_ms": 508604,
+      "text": "I wandered through the house in a daze, packing scientific instruments, barometers, and sturdy clothing.",
+      "translation": "Bilimsel aletleri, barometreleri ve dayanıklı giysileri valizlere doldururken evin içinde sersemlemiş bir halde gezindim.",
+      "notes": "Sayfa 4 | in a daze: sersemlemiş / şaşkın halde."
+    },
+    {
+      "id": 79,
+      "start_ms": 509004,
+      "end_ms": 515460,
+      "text": "Graüben, to my immense surprise, encouraged me when I confessed my fears to her later that evening.",
+      "translation": "O akşam korkularımı itiraf ettiğimde, Graüben beni çok şaşırtarak gitmem yönünde yüreklendirdi.",
+      "notes": "Sayfa 4 | encouraged me: beni yüreklendirdi / cesaretlendirdi."
+    },
+    {
+      "id": 80,
+      "start_ms": 515860,
+      "end_ms": 525748,
+      "text": "\"Go, Axel!\" she whispered with shining eyes. \"A glorious reputation awaits you, and I will be proud to become your wife upon your return.\"",
+      "translation": "Işıldayan gözleriyle, \"Git Axel!\" diye fısıldadı. \"Seni şanlı bir itibar bekliyor ve döndüğünde karın olmaktan gurur duyacağım.\"",
+      "notes": "Sayfa 4 | glorious reputation: şanlı bir şöhret / itibar."
+    },
+    {
+      "id": 81,
+      "start_ms": 526748,
+      "end_ms": 532364,
+      "text": "On the second of June, our luggage was loaded aboard the steamer departing for Copenhagen.",
+      "translation": "2 Haziran'da eşyalarımız Kopenhag'a hareket eden buharlı gemiye yüklendi.",
+      "notes": "Sayfa 5 | loaded aboard the steamer: buharlı gemiye yüklendi."
+    },
+    {
+      "id": 82,
+      "start_ms": 532764,
+      "end_ms": 539796,
+      "text": "My uncle was in highest spirits, checking every thermometer, chronometer, and Ruhmkorff electric coil.",
+      "translation": "Her termometreyi, kronometreyi ve Ruhmkorff elektrik bobinini kontrol eden amcamın neşesi son derece yerindeydi.",
+      "notes": "Sayfa 5 | in highest spirits: keyfi en üst seviyede."
+    },
+    {
+      "id": 83,
+      "start_ms": 540196,
+      "end_ms": 548308,
+      "text": "These special Ruhmkorff lamps would provide safe, portable illumination in underground caverns without risk of gas explosions.",
+      "translation": "Bu özel Ruhmkorff lambaları, gaz patlaması riski olmadan yeraltı mağaralarında güvenli ve taşınabilir aydınlatma sağlayacaktı.",
+      "notes": "Sayfa 5 | portable illumination: taşınabilir aydınlatma."
+    },
+    {
+      "id": 84,
+      "start_ms": 548708,
+      "end_ms": 555452,
+      "text": "We arrived in Denmark after a smooth passage and consulted the renowned Danish scholar, Dr. Thomson.",
+      "translation": "Sorunsuz bir geçişin ardından Danimarka'ya ulaştık ve ünlü Danimarkalı bilim insanı Dr. Thomson'a danıştık.",
+      "notes": "Sayfa 5 | renowned Danish scholar: tanınmış Danimarkalı bilgin."
+    },
+    {
+      "id": 85,
+      "start_ms": 555852,
+      "end_ms": 562620,
+      "text": "Dr. Thomson provided us with warm letters of introduction to the Governor of Iceland and other notable authorities.",
+      "translation": "Dr. Thomson, İzlanda Valisi'ne ve diğer önde gelen yetkililere hitaben bize samimi tavsiye mektupları verdi.",
+      "notes": "Sayfa 5 | letters of introduction: tavsiye / tanıtım mektupları."
+    },
+    {
+      "id": 86,
+      "start_ms": 563020,
+      "end_ms": 570436,
+      "text": "On the seventh of June, we boarded the Valkyrie, a double-masted schooner carrying mail and cargo to Reykjavik.",
+      "translation": "7 Haziran'da Reykjavik'e posta ve yük taşıyan çift direkli bir uskuna olan Valkyrie'ye bindik.",
+      "notes": "Sayfa 5 | double-masted schooner: çift direkli uskuna."
+    },
+    {
+      "id": 87,
+      "start_ms": 570836,
+      "end_ms": 576644,
+      "text": "As soon as the ship reached the open North Sea, a ferocious storm battered our wooden hull.",
+      "translation": "Gemi açık Kuzey Denizi'ne çıkar çıkmaz azgın bir fırtına ahşap teknemizi dövmeye başladı.",
+      "notes": "Sayfa 5 | ferocious storm battered: azgın fırtına dövdü / hırpaladı."
+    },
+    {
+      "id": 88,
+      "start_ms": 577044,
+      "end_ms": 584100,
+      "text": "I spent five miserable days groaning in my narrow bunk, utterly incapacitated by violent seasickness.",
+      "translation": "Şiddetli deniz tutması yüzünden tamamen takatten düşmüş halde, dar ranzamda inleyerek beş perişan gün geçirdim.",
+      "notes": "Sayfa 5 | utterly incapacitated: tamamen hareket edemez / güçsüz düşmüş."
+    },
+    {
+      "id": 89,
+      "start_ms": 584500,
+      "end_ms": 591484,
+      "text": "My uncle, on the contrary, seemed completely immune to the tossing waves and ate heavy meals on the deck.",
+      "translation": "Amcam ise tam tersine, çalkalanan dalgalara karşı tamamen bağışık görünüyordu ve güvertede ağır yemekler yiyordu.",
+      "notes": "Sayfa 5 | immune to tossing waves: çalkantılı dalgalara bağışık."
+    },
+    {
+      "id": 90,
+      "start_ms": 591884,
+      "end_ms": 597836,
+      "text": "He chatted with the captain and calculated our geographical coordinates with unwavering precision.",
+      "translation": "Kaptanla sohbet etti ve coğrafi koordinatlarımızı sarsılmaz bir hassasiyetle hesapladı.",
+      "notes": "Sayfa 5 | unwavering precision: sarsılmaz hassasiyet."
+    },
+    {
+      "id": 91,
+      "start_ms": 598236,
+      "end_ms": 604284,
+      "text": "By the tenth day of our voyage, the wild wind subsided and the gray mist began to lift.",
+      "translation": "Yolculuğumuzun onuncu gününde vahşi rüzgar dindi ve gri sis dağılmaya başladı.",
+      "notes": "Sayfa 5 | wind subsided: rüzgar dindi / yatıştı."
+    },
+    {
+      "id": 92,
+      "start_ms": 604684,
+      "end_ms": 610948,
+      "text": "Far on the northern horizon, a jagged land of dark basalt rock and glittering glaciers appeared.",
+      "translation": "Kuzey ufkunda uzakta, koyu renk bazalt kayalarından ve parıldayan buzullardan oluşan sarp bir kara belirdi.",
+      "notes": "Sayfa 5 | jagged land: girintili çıkıntılı / sarp kara parçası."
+    },
+    {
+      "id": 93,
+      "start_ms": 611348,
+      "end_ms": 615668,
+      "text": "\"Iceland!\" the lookout shouted from the top of the main mast.",
+      "translation": "Gözcü ana direğin tepesinden, \"İzlanda!\" diye bağırdı.",
+      "notes": "Sayfa 5 | lookout shouted: gözcü bağırdı."
+    },
+    {
+      "id": 94,
+      "start_ms": 616068,
+      "end_ms": 622620,
+      "text": "The Valkyrie sailed smoothly into the calm bay of Faxaflói, surrounded by volcanic mountains.",
+      "translation": "Valkyrie, volkanik dağlarla çevrili Faxaflói'nin sakin koyuna usulca süzüldü.",
+      "notes": "Sayfa 5 | calm bay: sakin koy / körfez."
+    },
+    {
+      "id": 95,
+      "start_ms": 623020,
+      "end_ms": 629788,
+      "text": "Reykjavik presented itself as a modest town consisting of two rows of simple wooden cottages painted red.",
+      "translation": "Reykjavik, kırmızıya boyanmış iki sıra sade ahşap kulübeden oluşan mütevazı bir kasaba görünümündeydi.",
+      "notes": "Sayfa 5 | modest town: mütevazı kasaba."
+    },
+    {
+      "id": 96,
+      "start_ms": 630188,
+      "end_ms": 637028,
+      "text": "The surrounding landscape was desolate, bare of trees, and marked everywhere by ancient lava flows.",
+      "translation": "Çevredeki arazi ıssızdı, ağaçtan yoksundu ve her yeri kadim lav akıntılarıyla damgalanmıştı.",
+      "notes": "Sayfa 5 | bare of trees: ağaçtan yoksun."
+    },
+    {
+      "id": 97,
+      "start_ms": 637428,
+      "end_ms": 643428,
+      "text": "Yet in the crisp northern air, one majestic peak dominated the entire western horizon.",
+      "translation": "Yine de o berrak kuzey havasında, görkemli bir zirve batı ufkunun tamamına hükmediyordu.",
+      "notes": "Sayfa 5 | dominated the horizon: ufka hükmediyordu."
+    },
+    {
+      "id": 98,
+      "start_ms": 643828,
+      "end_ms": 650020,
+      "text": "It was Sneffels Jokull, wearing a glistening crown of perpetual snow like an ancient white giant.",
+      "translation": "Kadim beyaz bir dev gibi parıldayan ebedi kar tacını takmış olan Sneffels Jokull'du bu.",
+      "notes": "Sayfa 5 | perpetual snow: ebedi / erimeyen kar."
+    },
+    {
+      "id": 99,
+      "start_ms": 650420,
+      "end_ms": 656276,
+      "text": "Professor Lidenbrock pointed his finger toward the gleaming summit and squeezed my shoulder tightly.",
+      "translation": "Profesör Lidenbrock parmağıyla ışıldayan zirveyi işaret etti ve omzumu sıkıca sıktı.",
+      "notes": "Sayfa 5 | squeezed my shoulder: omzumu sıktı."
+    },
+    {
+      "id": 100,
+      "start_ms": 656676,
+      "end_ms": 663516,
+      "text": "\"There is our gateway, Axel,\" he murmured gravely. \"The entrance to the center of the world.\"",
+      "translation": "\"İşte bizim kapımız orada, Axel,\" diye ciddiyetle mırıldandı. \"Dünyanın merkezine açılan giriş kapısı.\"",
+      "notes": "Sayfa 5 | murmured gravely: ciddiyetle mırıldandı."
+    },
+    {
+      "id": 101,
+      "start_ms": 664516,
+      "end_ms": 671092,
+      "text": "In Reykjavik, the local Governor welcomed us with genuine warmth and arranged lodgings at the town school.",
+      "translation": "Reykjavik'te yerel vali bizi samimi bir sıcaklıkla karşıladı ve kasaba okulunda konaklama ayarladı.",
+      "notes": "Sayfa 6 | genuine warmth: samimi bir sıcaklık."
+    },
+    {
+      "id": 102,
+      "start_ms": 671492,
+      "end_ms": 678284,
+      "text": "The local mayor introduced us to a native hunter named Hans Bjelke, who was recommended as the perfect guide.",
+      "translation": "Yerel belediye başkanı, mükemmel bir rehber olarak tavsiye edilen Hans Bjelke adında yerli bir avcıyla bizi tanıştırdı.",
+      "notes": "Sayfa 6 | native hunter: yerli avcı."
+    },
+    {
+      "id": 103,
+      "start_ms": 678684,
+      "end_ms": 685908,
+      "text": "Hans was tall, muscular, and exceptionally calm, with long blond hair falling over his broad shoulders.",
+      "translation": "Hans uzun boylu, kaslı ve son derece sakindi; uzun sarı saçları geniş omuzlarına dökülüyordu.",
+      "notes": "Sayfa 6 | exceptionally calm: olağanüstü derecede sakin."
+    },
+    {
+      "id": 104,
+      "start_ms": 686308,
+      "end_ms": 693892,
+      "text": "His blue eyes reflected the quiet stillness of the arctic wilderness, showing neither fear nor excessive curiosity.",
+      "translation": "Mavi gözleri, ne korku ne de aşırı bir merak sergileyerek kutup yaban hayatının sessiz dinginliğini yansıtıyordu.",
+      "notes": "Sayfa 6 | quiet stillness: sessiz dinginlik."
+    },
+    {
+      "id": 105,
+      "start_ms": 694292,
+      "end_ms": 699932,
+      "text": "He made his living by collecting eiderdown from the sea ducks that nested upon the rocky cliffs.",
+      "translation": "Geçimini kayalık uçurumlarda yuva yapan deniz ördeklerinden eider kuştüyü toplayarak sağlıyordu.",
+      "notes": "Sayfa 6 | made his living by: ...ile geçimini sağlıyordu."
+    },
+    {
+      "id": 106,
+      "start_ms": 700332,
+      "end_ms": 706140,
+      "text": "My uncle was immediately impressed by the man's extraordinary composure and physical strength.",
+      "translation": "Amcam, adamın olağanüstü soğukkanlılığından ve fiziksel kuvvetinden hemen etkilendi.",
+      "notes": "Sayfa 6 | extraordinary composure: olağanüstü soğukkanlılık."
+    },
+    {
+      "id": 107,
+      "start_ms": 706540,
+      "end_ms": 712756,
+      "text": "Hans spoke very little, using only a few words of Danish to answer our questions directly.",
+      "translation": "Hans çok az konuşuyor, sorularımıza doğrudan cevap vermek için yalnızca birkaç Danimarkaca kelime kullanıyordu.",
+      "notes": "Sayfa 6 | spoke very little: çok az konuşurdu."
+    },
+    {
+      "id": 108,
+      "start_ms": 713156,
+      "end_ms": 719420,
+      "text": "When my uncle offered him three rix-dollars a week, Hans simply nodded his head in silent agreement.",
+      "translation": "Amcam ona haftalık üç rix-dolar teklif ettiğinde, Hans sessiz bir mutabakatla sadece başını salladı.",
+      "notes": "Sayfa 6 | silent agreement: sessiz mutabakat."
+    },
+    {
+      "id": 109,
+      "start_ms": 719820,
+      "end_ms": 724932,
+      "text": "\"He is a phlegmatic marvel,\" my uncle declared with profound satisfaction.",
+      "translation": "Amcam derin bir memnuniyetle, \"O, soğukkanlılık abidesi bir harika,\" diye belirtti.",
+      "notes": "Sayfa 6 | phlegmatic marvel: soğukkanlı bir harika."
+    },
+    {
+      "id": 110,
+      "start_ms": 725332,
+      "end_ms": 730900,
+      "text": "\"He will obey orders without asking foolish questions or arguing about the destination.\"",
+      "translation": "\"Aptalca sorular sormadan ya da gidilecek yer hakkında tartışmadan emirlere itaat edecektir.\"",
+      "notes": "Sayfa 6 | obey orders: emirlere itaat etmek."
+    },
+    {
+      "id": 111,
+      "start_ms": 731300,
+      "end_ms": 738452,
+      "text": "Hans arranged four sturdy Icelandic ponies to carry our heavy instruments, firearms, and baggage.",
+      "translation": "Hans ağır aletlerimizi, ateşli silahlarımızı ve bagajlarımızı taşımak için dört dayanıklı İzlanda midillisi ayarladı.",
+      "notes": "Sayfa 6 | sturdy Icelandic ponies: dayanıklı İzlanda midillileri."
+    },
+    {
+      "id": 112,
+      "start_ms": 738852,
+      "end_ms": 745500,
+      "text": "These small northern horses were sure-footed and capable of traversing the most treacherous volcanic terrains.",
+      "translation": "Bu küçük kuzey atları yere sağlam basıyordu ve en tehlikeli volkanik arazileri aşma yeteneğine sahipti.",
+      "notes": "Sayfa 6 | sure-footed: yere sağlam basan."
+    },
+    {
+      "id": 113,
+      "start_ms": 745900,
+      "end_ms": 752284,
+      "text": "We packed leather flasks filled with fresh spring water and concentrated meat extracts for our nourishment.",
+      "translation": "Beslenmemiz için taze kaynak suyuyla dolu deri mataralar ve konsantre et özleri paketledik.",
+      "notes": "Sayfa 6 | leather flasks: deri mataralar."
+    },
+    {
+      "id": 114,
+      "start_ms": 752684,
+      "end_ms": 758996,
+      "text": "On the morning of the fifteenth of June, our little caravan stood ready outside the mayor's residence.",
+      "translation": "15 Haziran sabahında küçük kervanımız belediye başkanının konutunun önünde hazır bekliyordu.",
+      "notes": "Sayfa 6 | little caravan: küçük kervan."
+    },
+    {
+      "id": 115,
+      "start_ms": 759396,
+      "end_ms": 766236,
+      "text": "The inhabitants of Reykjavik came out into the street to wave us farewell, thinking we were merely visiting geysers.",
+      "translation": "Reykjavik sakinleri, yalnızca gayzerleri ziyaret ettiğimizi düşünerek bize veda etmek için sokağa döküldü.",
+      "notes": "Sayfa 6 | wave us farewell: bize el sallayarak veda etmek."
+    },
+    {
+      "id": 116,
+      "start_ms": 766636,
+      "end_ms": 772516,
+      "text": "None of them suspected that our true goal lay miles below the volcanic crust of their island.",
+      "translation": "Hiçbiri gerçek hedefimizin adalarının volkanik kabuğunun miller boyu altında yattığından şüphelenmiyordu.",
+      "notes": "Sayfa 6 | volcanic crust: volkanik yer kabuğu."
+    },
+    {
+      "id": 117,
+      "start_ms": 772916,
+      "end_ms": 779132,
+      "text": "Hans rode ahead at a steady, rhythmic pace, leading the pack animals with unmatched skill.",
+      "translation": "Hans, yük hayvanlarını eşsiz bir ustalıkla yöneterek düzenli ve ritmik bir tempoda önden sürdü.",
+      "notes": "Sayfa 6 | steady rhythmic pace: düzenli ritmik tempo."
+    },
+    {
+      "id": 118,
+      "start_ms": 779532,
+      "end_ms": 785412,
+      "text": "My uncle rode behind him, his eyes glued firmly to the distant cone of Mount Sneffels.",
+      "translation": "Amcam, gözlerini uzaktaki Sneffels Dağı'nın konisine sımsıkı dikmiş bir halde onun ardından biniyordu.",
+      "notes": "Sayfa 6 | eyes glued firmly: gözleri sımsıkı kilitlenmiş."
+    },
+    {
+      "id": 119,
+      "start_ms": 785812,
+      "end_ms": 790852,
+      "text": "I brought up the rear, feeling a heavy dread knotting in the pit of my stomach.",
+      "translation": "Karnımın tam ortasında ağır bir dehşet düğümlenerek en arkadan geliyordum.",
+      "notes": "Sayfa 6 | brought up the rear: en arkadan gelmek."
+    },
+    {
+      "id": 120,
+      "start_ms": 791252,
+      "end_ms": 796076,
+      "text": "Every step our horses took was carrying us closer to the unknown abyss.",
+      "translation": "Atlarımızın attığı her adım bizi bilinmeyen uçuruma daha da yaklaştırıyordu.",
+      "notes": "Sayfa 6 | carrying us closer: bizi daha da yaklaştırıyordu."
+    },
+    {
+      "id": 121,
+      "start_ms": 797076,
+      "end_ms": 804156,
+      "text": "For several days we traveled across bleak plains formed of solidified black basalt and porous pumice stone.",
+      "translation": "Günlerce katılaşmış siyah bazalt ve gözenekli ponza taşından oluşmuş kasvetli ovaları aştık.",
+      "notes": "Sayfa 7 | solidified black basalt: katılaşmış siyah bazalt."
+    },
+    {
+      "id": 122,
+      "start_ms": 804556,
+      "end_ms": 811756,
+      "text": "The ground was cracked by ancient earthquakes, creating deep fissures that forced our caravan to make long detours.",
+      "translation": "Zemin, kervanımızı uzun dönemeçler yapmaya zorlayan derin yarıklar oluşturan kadim depremlerle çatlamıştı.",
+      "notes": "Sayfa 7 | make long detours: uzun dönemeçler / sapmalar yapmak."
+    },
+    {
+      "id": 123,
+      "start_ms": 812156,
+      "end_ms": 818564,
+      "text": "On the twenty-third of June, we arrived at the tiny seaside hamlet of Stapi at the foot of Sneffels.",
+      "translation": "23 Haziran'da Sneffels'in eteğindeki küçük deniz kenarı köyü Stapi'ye vardık.",
+      "notes": "Sayfa 7 | at the foot of: ...nın eteğinde."
+    },
+    {
+      "id": 124,
+      "start_ms": 818964,
+      "end_ms": 825012,
+      "text": "Here the steep slopes began, rising abruptly from the freezing waves of the Atlantic Ocean.",
+      "translation": "Burada dik yamaçlar başlıyor, Atlantik Okyanusu'nun dondurucu dalgalarından aniden yükseliyordu.",
+      "notes": "Sayfa 7 | rising abruptly: aniden yükselen."
+    },
+    {
+      "id": 125,
+      "start_ms": 825412,
+      "end_ms": 832132,
+      "text": "We were forced to leave our faithful ponies behind, as no quadruped could climb such precipitous rocks.",
+      "translation": "Sadık midillilerimizi geride bırakmak zorunda kaldık, zira hiçbir dört ayaklı böylesine sarp kayalara tırmanamazdı.",
+      "notes": "Sayfa 7 | leave behind: geride bırakmak."
+    },
+    {
+      "id": 126,
+      "start_ms": 832532,
+      "end_ms": 839708,
+      "text": "Hans divided the essential baggage into three heavy bundles, strapping the largest load onto his own shoulders.",
+      "translation": "Hans temel eşyaları üç ağır çıkına böldü ve en büyük yükü kendi omuzlarına bağladı.",
+      "notes": "Sayfa 7 | strapping onto shoulders: omuzlarına bağlayarak."
+    },
+    {
+      "id": 127,
+      "start_ms": 840108,
+      "end_ms": 845484,
+      "text": "At five in the morning on the twenty-fourth, our difficult pedestrian ascent commenced.",
+      "translation": "Ayın yirmi dördü sabah saat beşte, zorlu yaya tırmanışımız başladı.",
+      "notes": "Sayfa 7 | pedestrian ascent: yaya tırmanışı."
+    },
+    {
+      "id": 128,
+      "start_ms": 845884,
+      "end_ms": 852148,
+      "text": "We advanced along sharp ridges of volcanic slag, slipping frequently on the loose stones.",
+      "translation": "Gevşek taşların üzerinde sık sık kayarak volkanik cürufun keskin sırtları boyunca ilerledik.",
+      "notes": "Sayfa 7 | volcanic slag: volkanik cüruf / taş artığı."
+    },
+    {
+      "id": 129,
+      "start_ms": 852548,
+      "end_ms": 858956,
+      "text": "Hans cut steps in the icy crust with his axe whenever we encountered dangerous frozen snowfields.",
+      "translation": "Hans, ne zaman tehlikeli donmuş kar yığınlarıyla karşılaşsak baltasıyla buzlu kabuğa basamaklar oydu.",
+      "notes": "Sayfa 7 | cut steps with axe: baltayla basamaklar açtı."
+    },
+    {
+      "id": 130,
+      "start_ms": 859356,
+      "end_ms": 865884,
+      "text": "The thin mountain air made breathing labored and painful, sending sharp stabs through my burning chest.",
+      "translation": "Dağın seyrelmiş havası nefes almayı zahmetli ve acı verici hale getirdi, yanan göğsüme keskin batmalar sapladı.",
+      "notes": "Sayfa 7 | breathing labored: soluk alıp vermeyi güçleştirdi."
+    },
+    {
+      "id": 131,
+      "start_ms": 866284,
+      "end_ms": 872548,
+      "text": "My uncle climbed with surprising agility, driven forward by his fanatical scientific ambition.",
+      "translation": "Amcam, bağnaz bilimsel hırsının verdiği güçle şaşırtıcı bir çeviklikle tırmanıyordu.",
+      "notes": "Sayfa 7 | fanatical ambition: bağnaz / fanatik hırs."
+    },
+    {
+      "id": 132,
+      "start_ms": 872948,
+      "end_ms": 878468,
+      "text": "Whenever I stopped to rest, he grabbed my arm and urged me upward without mercy.",
+      "translation": "Dinlenmek için her durduğumda kolumu yakalıyor ve beni acımasızca yukarıya doğru zorluyordu.",
+      "notes": "Sayfa 7 | urged me upward: beni yukarıya doğru zorladı."
+    },
+    {
+      "id": 133,
+      "start_ms": 878868,
+      "end_ms": 885924,
+      "text": "By midday, a thick veil of clouds surrounded us, obscuring both the summit above and the valleys below.",
+      "translation": "Öğle vaktine doğru kalın bir bulut örtüsü etrafımızı sardı; hem yukarıdaki zirveyi hem de aşağıdaki vadileri örttü.",
+      "notes": "Sayfa 7 | thick veil of clouds: kalın bulut örtüsü."
+    },
+    {
+      "id": 134,
+      "start_ms": 886324,
+      "end_ms": 893284,
+      "text": "We walked along the brink of terrifying precipices where a single misstep meant plunging thousands of feet to our doom.",
+      "translation": "Tek bir hatalı adımın binlerce fit aşağıya, ölüme yuvarlanmak anlamına geldiği korkunç uçurumların kenarında yürüdük.",
+      "notes": "Sayfa 7 | brink of precipices: uçurumların eşiği / kenarı."
+    },
+    {
+      "id": 135,
+      "start_ms": 893684,
+      "end_ms": 900980,
+      "text": "A sudden gust of wind scattered the fog at last, revealing the twin peaks of Mount Sneffels towering over us.",
+      "translation": "Aniden esen bir rüzgar dalgası sonunda sisi dağıttı ve Sneffels Dağı'nın tepemizde yükselen ikiz zirvelerini açığa çıkardı.",
+      "notes": "Sayfa 7 | scattered the fog: sisi dağıttı."
+    },
+    {
+      "id": 136,
+      "start_ms": 901380,
+      "end_ms": 908316,
+      "text": "One of these soaring cones was named Scartaris, the very landmark mentioned in Saknussemm's coded cipher.",
+      "translation": "Bu yükselen konilerden biri, Saknussemm'in şifreli metninde adı geçen o meşhur nirengi noktası Scartaris'ti.",
+      "notes": "Sayfa 7 | the very landmark: tam da o nirengi noktası."
+    },
+    {
+      "id": 137,
+      "start_ms": 908716,
+      "end_ms": 915172,
+      "text": "At eleven o'clock that night, under the pale glow of the midnight sun, we reached the circular rim.",
+      "translation": "O gece saat on birde, gece yarısı güneşinin soluk ışıltısı altında dairesel krater kenarına ulaştık.",
+      "notes": "Sayfa 7 | circular rim: dairesel kenar / çember."
+    },
+    {
+      "id": 138,
+      "start_ms": 915572,
+      "end_ms": 922508,
+      "text": "Before us opened the immense crater of the volcano, an inverted cone a mile wide and five thousand feet deep.",
+      "translation": "Önümüzde bir mil genişliğinde ve beş bin fit derinliğinde ters bir huni olan devasa yanardağ krateri açılıyordu.",
+      "notes": "Sayfa 7 | inverted cone: ters koni / huni."
+    },
+    {
+      "id": 139,
+      "start_ms": 922908,
+      "end_ms": 930756,
+      "text": "Its gloomy bottom was silent and motionless, showing no smoke or sign of volcanic activity for over six centuries.",
+      "translation": "Kasvetli dibi sessiz ve hareketsizdi; altı yüzyılı aşkın süredir hiçbir duman veya volkanik faaliyet emaresi sergilemiyordu.",
+      "notes": "Sayfa 7 | gloomy bottom: kasvetli taban."
+    },
+    {
+      "id": 140,
+      "start_ms": 931156,
+      "end_ms": 939100,
+      "text": "\"We are at the threshold!\" Professor Lidenbrock exclaimed triumphantly, his voice echoing into the dark chasm.",
+      "translation": "Profesör Lidenbrock, sesi karanlık yarığın içinde yankılanarak zafer dolu bir haykırışla, \"Eşikteyiz!\" dedi.",
+      "notes": "Sayfa 7 | at the threshold: eşikte / kapının önünde."
+    },
+    {
+      "id": 141,
+      "start_ms": 940100,
+      "end_ms": 946316,
+      "text": "We camped for the night inside the sheltering hollow of the crater rim, wrapped in thick woolen blankets.",
+      "translation": "Kalın yün battaniyelere sarınmış halde, krater kenarının korunaklı çukurunda geceyi geçirmek üzere kamp kurduk.",
+      "notes": "Sayfa 8 | sheltering hollow: korunaklı çukur."
+    },
+    {
+      "id": 142,
+      "start_ms": 946716,
+      "end_ms": 953868,
+      "text": "At midnight in late June at this high latitude, the sun barely touched the ocean horizon before rising again.",
+      "translation": "Bu yüksek enlemde haziran sonu gece yarısında güneş, tekrar yükselmeden önce okyanus ufkuna ancak değiyordu.",
+      "notes": "Sayfa 8 | barely touched the horizon: ufka ancak değiyordu."
+    },
+    {
+      "id": 143,
+      "start_ms": 954268,
+      "end_ms": 960892,
+      "text": "The next morning, the twenty-fifth of June, dawned bright, cloudless, and exceptionally clear.",
+      "translation": "Ertesi sabah, 25 Haziran, pırıl pırıl, bulutsuz ve olağanüstü derecede berrak bir şekilde söktü.",
+      "notes": "Sayfa 8 | dawned bright: pırıl pırıl aydınlandı."
+    },
+    {
+      "id": 144,
+      "start_ms": 961292,
+      "end_ms": 967076,
+      "text": "We scrambled carefully down the sloping interior walls to reach the bottom floor of the crater.",
+      "translation": "Kraterin tabanına ulaşmak için eğimli iç duvarlardan aşağıya dikkatle tırmandık.",
+      "notes": "Sayfa 8 | scrambled carefully down: dikkatlice aşağıya indi / tırmandı."
+    },
+    {
+      "id": 145,
+      "start_ms": 967476,
+      "end_ms": 973812,
+      "text": "There we discovered three separate volcanic shafts plunging straight down into the black heart of the earth.",
+      "translation": "Orada, dünyanın kara bağrına doğru dimdik inen üç ayrı volkanik kuyu keşfettik.",
+      "notes": "Sayfa 8 | volcanic shafts: volkanik bacalar / kuyular."
+    },
+    {
+      "id": 146,
+      "start_ms": 974212,
+      "end_ms": 979948,
+      "text": "Each chimney was approximately one hundred feet in diameter and opened into utter darkness.",
+      "translation": "Her bir baca yaklaşık yüz fit çapındaydı ve zifiri karanlığa açılıyordu.",
+      "notes": "Sayfa 8 | utter darkness: zifiri karanlık."
+    },
+    {
+      "id": 147,
+      "start_ms": 980348,
+      "end_ms": 988028,
+      "text": "\"Which of these three conduits did Saknussemm follow?\" I asked, hoping the mystery would prove insolvable.",
+      "translation": "Gizemin çözülemez çıkacağını umarak, \"Saknussemm bu üç kanaldan hangisini takip etti?\" diye sordum.",
+      "notes": "Sayfa 8 | three conduits: üç kanal / geçit."
+    },
+    {
+      "id": 148,
+      "start_ms": 988428,
+      "end_ms": 993732,
+      "text": "\"Remember the cipher, Axel!\" my uncle replied with suppressed excitement.",
+      "translation": "Amcam bastırılmış bir heyecanla, \"Şifreyi hatırla, Axel!\" diye yanıtladı.",
+      "notes": "Sayfa 8 | suppressed excitement: bastırılmış heyecan."
+    },
+    {
+      "id": 149,
+      "start_ms": 994132,
+      "end_ms": 999580,
+      "text": "\"The shadow of Scartaris will caress the correct opening before the kalends of July!\"",
+      "translation": "\"Temmuz'un ilk günlerinden önce Scartaris'in gölgesi doğru bacayı okşayacaktır!\"",
+      "notes": "Sayfa 8 | caress the correct opening: doğru ağzı okşayacaktır."
+    },
+    {
+      "id": 150,
+      "start_ms": 999980,
+      "end_ms": 1006460,
+      "text": "However, on the twenty-sixth and twenty-seventh, thick storm clouds concealed the sun completely.",
+      "translation": "Ne var ki ayın yirmi altısında ve yirmi yedisinde kalın fırtına bulutları güneşi tamamen gizledi.",
+      "notes": "Sayfa 8 | concealed the sun: güneşi gizledi."
+    },
+    {
+      "id": 151,
+      "start_ms": 1006860,
+      "end_ms": 1013388,
+      "text": "My uncle paced like a caged tiger across the volcanic floor, cursing the weather with bitter fury.",
+      "translation": "Amcam kafesteki bir kaplan gibi volkanik tabanda volta attı, acı bir öfkeyle hava durumuna lanetler yağdırdı.",
+      "notes": "Sayfa 8 | caged tiger: kafesteki kaplan."
+    },
+    {
+      "id": 152,
+      "start_ms": 1013788,
+      "end_ms": 1021132,
+      "text": "If the sun remained hidden until July, the precise shadow would pass and our journey would be postponed for a whole year.",
+      "translation": "Eğer güneş temmuza kadar saklı kalsaydı, o kesin gölge geçecek ve yolculuğumuz koca bir yıl ertelenecekti.",
+      "notes": "Sayfa 8 | postponed for a whole year: koca bir yıl ertelendi."
+    },
+    {
+      "id": 153,
+      "start_ms": 1021532,
+      "end_ms": 1027772,
+      "text": "Finally, on the fateful morning of the twenty-eighth of June, the sky cleared into brilliant azure.",
+      "translation": "Sonunda, o tarihi 28 Haziran sabahında gökyüzü pırıl pırıl masmavi bir renge büründü.",
+      "notes": "Sayfa 8 | brilliant azure: pırıl pırıl masmavi."
+    },
+    {
+      "id": 154,
+      "start_ms": 1028172,
+      "end_ms": 1034724,
+      "text": "At precisely twenty minutes to twelve, the sun climbed high above the icy horn of Scartaris.",
+      "translation": "Tam saat on ikiye yirmi kala güneş, Scartaris'in buzlu boynuzunun yukarısına tırmandı.",
+      "notes": "Sayfa 8 | icy horn: buzlu boynuz / sivri uç."
+    },
+    {
+      "id": 155,
+      "start_ms": 1035124,
+      "end_ms": 1042444,
+      "text": "A long, sharp triangular shadow formed upon the crater floor, creeping slowly across the black stones.",
+      "translation": "Krater tabanında uzun, keskin üçgen bir gölge oluştu ve siyah taşların üzerinde yavaşça süründü.",
+      "notes": "Sayfa 8 | triangular shadow: üçgen gölge."
+    },
+    {
+      "id": 156,
+      "start_ms": 1042844,
+      "end_ms": 1049516,
+      "text": "At exact solar noon, the tip of the dark shadow fell directly across the mouth of the central shaft.",
+      "translation": "Tam öğle vaktinde, karanlık gölgenin ucu doğrudan merkezdeki bacanın ağzının üzerine düştü.",
+      "notes": "Sayfa 8 | exact solar noon: tam güneş öğlesi."
+    },
+    {
+      "id": 157,
+      "start_ms": 1049916,
+      "end_ms": 1056108,
+      "text": "\"Behold!\" shouted the professor, raising both hands toward the heavens in triumphant ecstasy.",
+      "translation": "Profesör zafer dolu bir kendinden geçişle iki elini göklere kaldırarak, \"İşte bakın!\" diye haykırdı.",
+      "notes": "Sayfa 8 | triumphant ecstasy: zafer dolu vecid / esriklik."
+    },
+    {
+      "id": 158,
+      "start_ms": 1056508,
+      "end_ms": 1062580,
+      "text": "As we rushed to the edge of the chosen abyss, Hans suddenly pointed to a rock beside the rim.",
+      "translation": "Biz seçilen uçurumun kenarına koştuğumuzda, Hans birdenbire kenardaki bir kayayı işaret etti.",
+      "notes": "Sayfa 8 | chosen abyss: seçilmiş uçurum."
+    },
+    {
+      "id": 159,
+      "start_ms": 1062980,
+      "end_ms": 1068644,
+      "text": "Carved deeply into the dark stone were two weathered runic letters: 'A. S.'",
+      "translation": "Koyu renk taşın içine derinlemesine oyulmuş iki aşınmış rün harfi vardı: 'A. S.'",
+      "notes": "Sayfa 8 | carved deeply: derince kazınmış."
+    },
+    {
+      "id": 160,
+      "start_ms": 1069044,
+      "end_ms": 1078716,
+      "text": "\"Arne Saknussemm!\" cried my uncle. \"All doubts are swept away! Forward, gentlemen, into the center of the Earth!\"",
+      "translation": "Amcam, \"Arne Saknussemm!\" diye bağırdı. \"Tüm şüpheler yok oldu! İleri baylar, Dünya'nın merkezine doğru!\"",
+      "notes": "Sayfa 8 | swept away: süpürülüp yok edildi."
+    },
+    {
+      "id": 161,
+      "start_ms": 1079716,
+      "end_ms": 1085308,
+      "text": "The real descent into the bowels of the planet began promptly at one o'clock in the afternoon.",
+      "translation": "Gezegenin bağrına asıl iniş, öğleden sonra tam saat birde başladı.",
+      "notes": "Sayfa 9 | bowels of the planet: gezegenin bağrı / derinlikleri."
+    },
+    {
+      "id": 162,
+      "start_ms": 1085708,
+      "end_ms": 1091972,
+      "text": "Hans uncoiled our longest ropes and secured one end firmly around a solid spur of basalt.",
+      "translation": "Hans en uzun urganlarımızı açtı ve bir ucunu sağlam bir bazalt çıkıntısına sıkıca bağladı.",
+      "notes": "Sayfa 9 | spur of basalt: bazalt çıkıntısı."
+    },
+    {
+      "id": 163,
+      "start_ms": 1092372,
+      "end_ms": 1097700,
+      "text": "He knotted the equipment securely and lowered the bundles down the vertical chimney first.",
+      "translation": "Ekipmanları güvenli bir şekilde bağladı ve önce çıkınları dikey bacadan aşağıya indirdi.",
+      "notes": "Sayfa 9 | vertical chimney: dikey baca."
+    },
+    {
+      "id": 164,
+      "start_ms": 1098100,
+      "end_ms": 1104340,
+      "text": "Then, one by one, we gripped the double rope with our hands and slid down into the darkness.",
+      "translation": "Ardından teker teker ellerimizle çift halatı kavradık ve karanlığın içine doğru aşağıya kaydık.",
+      "notes": "Sayfa 9 | slid down into: içine doğru aşağı kaydı."
+    },
+    {
+      "id": 165,
+      "start_ms": 1104740,
+      "end_ms": 1110188,
+      "text": "I felt a terrible dizziness whenever I dared to look down between my swinging boots.",
+      "translation": "Sallanan çizmelerimin arasından aşağıya bakmaya her cüret ettiğimde korkunç bir baş dönmesi hissettim.",
+      "notes": "Sayfa 9 | terrible dizziness: korkunç baş dönmesi."
+    },
+    {
+      "id": 166,
+      "start_ms": 1110588,
+      "end_ms": 1117476,
+      "text": "Fortunately, the volcanic walls offered occasional rocky ledges where we could pause and rest our aching arms.",
+      "translation": "Neyse ki volkanik duvarlar, durup ağrıyan kollarımızı dinlendirebileceğimiz ara sıra kayalık çıkıntılar sunuyordu.",
+      "notes": "Sayfa 9 | rocky ledges: kayalık çıkıntılar / setler."
+    },
+    {
+      "id": 167,
+      "start_ms": 1117876,
+      "end_ms": 1125556,
+      "text": "After three exhausting hours of descending, our feet finally touched a firm, sloping floor of solidified lava.",
+      "translation": "Üç yorucu iniş saatinin ardından ayaklarımız nihayet katılaşmış lavdan oluşan sağlam ve eğimli bir zemine değdi.",
+      "notes": "Sayfa 9 | sloping floor: eğimli zemin."
+    },
+    {
+      "id": 168,
+      "start_ms": 1125956,
+      "end_ms": 1131932,
+      "text": "Above our heads, the opening of the chimney appeared no larger than a tiny twinkling star.",
+      "translation": "Başlarımızın üzerinde bacanın ağzı, minik parıldayan bir yıldızdan daha büyük görünmüyordu.",
+      "notes": "Sayfa 9 | twinkling star: parıldayan yıldız."
+    },
+    {
+      "id": 169,
+      "start_ms": 1132332,
+      "end_ms": 1137516,
+      "text": "Daylight had vanished completely, leaving us in a world ruled by eternal night.",
+      "translation": "Gün ışığı tamamen yok olmuş, bizi ebedi gecenin hüküm sürdüğü bir dünyada bırakmıştı.",
+      "notes": "Sayfa 9 | ruled by eternal night: ebedi gecenin hükmettiği."
+    },
+    {
+      "id": 170,
+      "start_ms": 1137916,
+      "end_ms": 1144180,
+      "text": "Hans switched on the Ruhmkorff battery, flooding the subterranean tunnel with a brilliant electric glow.",
+      "translation": "Hans Ruhmkorff bataryasını açarak yeraltı tünelini parlak bir elektrik ışıltısıyla aydınlattı.",
+      "notes": "Sayfa 9 | flooding with glow: ışıltıyla doldurarak."
+    },
+    {
+      "id": 171,
+      "start_ms": 1144580,
+      "end_ms": 1151468,
+      "text": "The volcanic corridor was magnificent, coated with sparkling crystals of feldspar and shiny obsidian.",
+      "translation": "Volkanik koridor muhteşemdi; parıldayan feldispat kristalleri ve parlak obsidyenle kaplanmıştı.",
+      "notes": "Sayfa 9 | shiny obsidian: parlak obsidyen."
+    },
+    {
+      "id": 172,
+      "start_ms": 1151868,
+      "end_ms": 1158204,
+      "text": "\"Look at these basalt walls!\" my uncle exclaimed, tapping the rock with his geological hammer.",
+      "translation": "Jeoloji çekiciyle kayaya vurarak amcam, \"Şu bazalt duvarlara bak!\" diye haykırdı.",
+      "notes": "Sayfa 9 | geological hammer: jeolog çekici."
+    },
+    {
+      "id": 173,
+      "start_ms": 1158604,
+      "end_ms": 1164316,
+      "text": "\"They were carved by rivers of molten fire during ancient eruptions thousands of years ago!\"",
+      "translation": "\"Binlerce yıl önceki kadim püskürmeler sırasında erimiş ateş nehirleri tarafından oyulmuşlar!\"",
+      "notes": "Sayfa 9 | rivers of molten fire: erimiş ateş nehirleri."
+    },
+    {
+      "id": 174,
+      "start_ms": 1164716,
+      "end_ms": 1170980,
+      "text": "The passage sloped gently downward at an angle of roughly forty-five degrees toward the southeast.",
+      "translation": "Geçit güneydoğuya doğru yaklaşık kırk beş derecelik bir açıyla tatlı tatlı aşağıya doğru eğimleniyordu.",
+      "notes": "Sayfa 9 | sloped gently downward: tatlı bir eğimle aşağı indi."
+    },
+    {
+      "id": 175,
+      "start_ms": 1171380,
+      "end_ms": 1176084,
+      "text": "Walking was easy and comfortable on the smooth surface of the cooled magma.",
+      "translation": "Soğumuş magmanın pürüzsüz yüzeyinde yürümek kolay ve rahattı.",
+      "notes": "Sayfa 9 | cooled magma: soğumuş magma."
+    },
+    {
+      "id": 176,
+      "start_ms": 1176484,
+      "end_ms": 1184212,
+      "text": "To my astonishment, the underground temperature remained remarkably pleasant, registering only fifty-four degrees Fahrenheit.",
+      "translation": "Beni hayrete düşürecek şekilde yeraltı sıcaklığı yalnızca 54 Fahrenhayt göstererek dikkate değer ölçüde hoş kaldı.",
+      "notes": "Sayfa 9 | remarkably pleasant: dikkate değer biçimde hoş."
+    },
+    {
+      "id": 177,
+      "start_ms": 1184612,
+      "end_ms": 1192244,
+      "text": "\"You see, Axel,\" the professor laughed mockingly, \"your fears of intolerable subterranean heat are unfounded!\"",
+      "translation": "Profesör alaycı bir şekilde gülerek, \"Gördün mü Axel, dayanılmaz yeraltı ısısı korkuların temelsizmiş!\" dedi.",
+      "notes": "Sayfa 9 | intolerable heat: dayanılmaz ısı."
+    },
+    {
+      "id": 178,
+      "start_ms": 1192644,
+      "end_ms": 1199052,
+      "text": "I had to admit that his observations contradicted the prevailing thermal theories of contemporary science.",
+      "translation": "Onun gözlemlerinin çağdaş bilimin hakim termal teorileriyle çeliştiğini kabul etmek zorundaydım.",
+      "notes": "Sayfa 9 | contradicted prevailing theories: hakim teorilerle çelişti."
+    },
+    {
+      "id": 179,
+      "start_ms": 1199452,
+      "end_ms": 1205500,
+      "text": "We marched forward for nearly eight hours, penetrating deeper and deeper into the Earth's crust.",
+      "translation": "Yerkabuğunun daha ve daha derinlerine nüfuz ederek yaklaşık sekiz saat boyunca ileriye doğru yürüdük.",
+      "notes": "Sayfa 9 | penetrating deeper: daha derine nüfuz eden."
+    },
+    {
+      "id": 180,
+      "start_ms": 1205900,
+      "end_ms": 1213508,
+      "text": "When we halted to pitch our first subterranean camp, the barometer indicated a depth of two thousand feet below sea level.",
+      "translation": "İlk yeraltı kampımızı kurmak için durduğumuzda barometre deniz seviyesinin iki bin fit altındaki bir derinliği gösteriyordu.",
+      "notes": "Sayfa 9 | below sea level: deniz seviyesinin altında."
+    },
+    {
+      "id": 181,
+      "start_ms": 1214508,
+      "end_ms": 1221156,
+      "text": "On the fifth day of our descent, our tunnel branched into two distinct passageways at an immense crossroad.",
+      "translation": "İnişimizin beşinci gününde tünelimiz devasa bir dörtyol ağzında iki ayrı geçide ayrıldı.",
+      "notes": "Sayfa 10 | branched into two: ikiye ayrıldı / çatallandı."
+    },
+    {
+      "id": 182,
+      "start_ms": 1221556,
+      "end_ms": 1228612,
+      "text": "The eastern passage was composed of primitive granite, while the western gallery displayed layers of coal and schist.",
+      "translation": "Doğu geçidi ilkel granitten oluşuyordu, batı galerisi ise kömür ve şist katmanları sergiliyordu.",
+      "notes": "Sayfa 10 | layers of coal and schist: kömür ve şist katmanları."
+    },
+    {
+      "id": 183,
+      "start_ms": 1229012,
+      "end_ms": 1234772,
+      "text": "My uncle chose the eastern tunnel, convinced that it descended more steeply toward the core.",
+      "translation": "Amcam çekirdeğe doğru daha dik indiğine inanarak doğu tünelini seçti.",
+      "notes": "Sayfa 10 | descended more steeply: daha dik indi."
+    },
+    {
+      "id": 184,
+      "start_ms": 1235172,
+      "end_ms": 1242372,
+      "text": "Unfortunately, after three days of marching, this route led us into a dead end blocked by solid rock.",
+      "translation": "Ne yazık ki üç günlük yürüyüşün ardından bu rota bizi sert kayayla tıkanmış çıkmaz bir yola götürdü.",
+      "notes": "Sayfa 10 | dead end blocked by: ...ile tıkanmış çıkmaz yol."
+    },
+    {
+      "id": 185,
+      "start_ms": 1242772,
+      "end_ms": 1249252,
+      "text": "We had wasted precious time and physical energy exploring a completely useless subterranean gallery.",
+      "translation": "Tamamen yararsız bir yeraltı galerisini keşfederek değerli zamanımızı ve fiziksel enerjimizi boşa harcamıştık.",
+      "notes": "Sayfa 10 | wasted precious time: değerli zamanı boşa harcadı."
+    },
+    {
+      "id": 186,
+      "start_ms": 1249652,
+      "end_ms": 1255436,
+      "text": "Even worse, during this futile detour our water supply had diminished at an alarming rate.",
+      "translation": "Daha da kötüsü, bu nafile sapma sırasında su stoğumuz korkutucu bir hızla azalmıştı.",
+      "notes": "Sayfa 10 | diminished at an alarming rate: endişe verici bir hızla azaldı."
+    },
+    {
+      "id": 187,
+      "start_ms": 1255836,
+      "end_ms": 1262772,
+      "text": "We had counted on finding subterranean springs or streams, but the volcanic rock was completely dry.",
+      "translation": "Yeraltı pınarları ya da dereleri bulacağımıza güvenmiştik ama volkanik kaya tamamen kuruydu.",
+      "notes": "Sayfa 10 | counted on finding: bulmaya güvenmiştik / bel bağlamıştık."
+    },
+    {
+      "id": 188,
+      "start_ms": 1263172,
+      "end_ms": 1268980,
+      "text": "We were forced to retrace our steps back to the fork, suffering under heavy backpacks.",
+      "translation": "Ağır sırt çantalarının altında acı çekerek çatala kadar adımlarımızı geri izlemek zorunda kaldık.",
+      "notes": "Sayfa 10 | retrace steps: adımlarını gerisin geri takip etmek."
+    },
+    {
+      "id": 189,
+      "start_ms": 1269380,
+      "end_ms": 1274972,
+      "text": "By the eighth of July, the last drop of water had been drained from our leather flasks.",
+      "translation": "8 Temmuz'a gelindiğinde deri mataralarımızdaki son su damlası da tükenmişti.",
+      "notes": "Sayfa 10 | last drop drained: son damla da tüketildi."
+    },
+    {
+      "id": 190,
+      "start_ms": 1275372,
+      "end_ms": 1281780,
+      "text": "My throat burned like glowing embers, and my tongue swelled so severely that I could hardly swallow.",
+      "translation": "Boğazım kor közler gibi yanıyordu ve dilim o kadar şiddetli şişmişti ki neredeyse yutkunamıyordum.",
+      "notes": "Sayfa 10 | swelled severely: şiddetle şişti."
+    },
+    {
+      "id": 191,
+      "start_ms": 1282180,
+      "end_ms": 1289164,
+      "text": "\"Uncle, I can go no further,\" I gasped, sinking down onto the stony ground with tears in my eyes.",
+      "translation": "Gözlerimde yaşlarla taşlı zemine yığılarak, \"Amca, daha fazla gidemeyeceğim,\" diye soludum.",
+      "notes": "Sayfa 10 | sinking down onto: üzerine yığılarak."
+    },
+    {
+      "id": 192,
+      "start_ms": 1289564,
+      "end_ms": 1294076,
+      "text": "\"Let us turn back before we perish of thirst in this terrible tomb!\"",
+      "translation": "\"Bu korkunç mezarda susuzluktan can vermeden önce geri dönelim!\"",
+      "notes": "Sayfa 10 | perish of thirst: susuzluktan can vermek."
+    },
+    {
+      "id": 193,
+      "start_ms": 1294476,
+      "end_ms": 1299972,
+      "text": "Professor Lidenbrock looked at me with deep sorrow and knelt beside my trembling body.",
+      "translation": "Profesör Lidenbrock derin bir kederle bana baktı ve titreyen vücudumun yanında diz çöktü.",
+      "notes": "Sayfa 10 | knelt beside: yanında diz çöktü."
+    },
+    {
+      "id": 194,
+      "start_ms": 1300372,
+      "end_ms": 1307188,
+      "text": "He pulled a small flask from his coat—a reserve he had kept untouched for a moment of extreme extremity.",
+      "translation": "Ceketinden küçük bir matara çıkardı—son derece kritik bir an için el sürmeden sakladığı bir ihtiyat stoğu.",
+      "notes": "Sayfa 10 | extreme extremity: aşırı acil durum / son radde."
+    },
+    {
+      "id": 195,
+      "start_ms": 1307588,
+      "end_ms": 1314068,
+      "text": "\"Drink this, Axel,\" he murmured gently, pouring the last few drops between my parched lips.",
+      "translation": "Son birkaç damlayı kavrulmuş dudaklarımın arasına dökerek, \"Bunu iç Axel,\" diye usulca mırıldandı.",
+      "notes": "Sayfa 10 | parched lips: kurumuş / çatlamış dudaklar."
+    },
+    {
+      "id": 196,
+      "start_ms": 1314468,
+      "end_ms": 1321620,
+      "text": "The liquid restored a brief glimmer of life to my veins, but I realized that my uncle had deprived himself entirely.",
+      "translation": "Sıvı damarlarıma kısa bir hayat parıltısı kazandırdı ama amcamın kendini bundan tamamen mahrum bıraktığını fark ettim.",
+      "notes": "Sayfa 10 | deprived himself entirely: kendini tamamen mahrum bıraktı."
+    },
+    {
+      "id": 197,
+      "start_ms": 1322020,
+      "end_ms": 1329100,
+      "text": "\"If we do not find water within twenty-four hours,\" he promised gravely, \"I will agree to return to the surface.\"",
+      "translation": "Ciddiyetle, \"Eğer yirmi dört saat içinde su bulamazsak,\" diye söz verdi, \"yeryüzüne dönmeyi kabul edeceğim.\"",
+      "notes": "Sayfa 10 | agreed to return: dönmeyi kabul etti."
+    },
+    {
+      "id": 198,
+      "start_ms": 1329500,
+      "end_ms": 1335788,
+      "text": "Hans stood silently in the shadows, listening intently to the massive rock walls surrounding us.",
+      "translation": "Hans gölgelerin içinde sessizce duruyor, bizi çevreleyen devasa kaya duvarlarını dikkatle dinliyordu.",
+      "notes": "Sayfa 10 | listening intently: can kulağıyla dinleyen."
+    },
+    {
+      "id": 199,
+      "start_ms": 1336188,
+      "end_ms": 1343292,
+      "text": "Suddenly, without uttering a single word, the guide picked up his pickaxe and walked away into the dark corridor.",
+      "translation": "Aniden tek bir kelime bile etmeden rehber kazmasını aldı ve karanlık koridorun içine doğru yürüdü.",
+      "notes": "Sayfa 10 | without uttering a word: tek kelime etmeksizin."
+    },
+    {
+      "id": 200,
+      "start_ms": 1343692,
+      "end_ms": 1350772,
+      "text": "I closed my eyes in utter exhaustion, wondering if our loyal companion had decided to abandon us to our fate.",
+      "translation": "Sadık yoldaşımızın bizi kaderimize terk etmeye mi karar verdiğini merak ederek tam bir tükenmişlik içinde gözlerimi kapattım.",
+      "notes": "Sayfa 10 | abandon us to our fate: bizi kaderimize terk etmek."
+    },
+    {
+      "id": 201,
+      "start_ms": 1351772,
+      "end_ms": 1358108,
+      "text": "Nearly an hour passed before the steady scraping of footsteps announced the return of our Icelandic guide.",
+      "translation": "Ayak seslerinin düzenli sürtünmesi İzlandalı rehberimizin dönüşünü haber vermeden önce neredeyse bir saat geçti.",
+      "notes": "Sayfa 11 | scraping of footsteps: ayak seslerinin sürtünmesi."
+    },
+    {
+      "id": 202,
+      "start_ms": 1358508,
+      "end_ms": 1364796,
+      "text": "Hans approached my uncle and uttered a single word in his calm, resonant voice: \"Vatten!\"",
+      "translation": "Hans amcama yaklaştı ve sakin, yankılı sesiyle tek bir kelime söyledi: \"Vatten!\"",
+      "notes": "Sayfa 11 | uttered a single word: tek bir kelime söyledi."
+    },
+    {
+      "id": 203,
+      "start_ms": 1365196,
+      "end_ms": 1371628,
+      "text": "\"Water!\" my uncle yelled, leaping up with a vitality that seemed impossible for a starving man.",
+      "translation": "Açlıktan bitap düşmüş bir adam için imkansız görünen bir canlılıkla ayağa fırlayarak amcam, \"Su!\" diye bağırdı.",
+      "notes": "Sayfa 11 | leaping up with vitality: canlılıkla ayağa fırlayarak."
+    },
+    {
+      "id": 204,
+      "start_ms": 1372028,
+      "end_ms": 1378340,
+      "text": "We hurried after Hans along the western gallery, whose steep incline plunged deeper into the Earth.",
+      "translation": "Dik eğimi Dünya'nın daha derinlerine inen batı galerisi boyunca Hans'ın peşinden koştuk.",
+      "notes": "Sayfa 11 | steep incline plunged: dik eğim derine indi."
+    },
+    {
+      "id": 205,
+      "start_ms": 1378740,
+      "end_ms": 1385508,
+      "text": "After walking about a hundred paces, Hans stopped beside a solid granite wall and placed his ear against it.",
+      "translation": "Yaklaşık yüz adım yürüdükten sonra Hans sert bir granit duvarın yanında durdu ve kulağını duvara dayadı.",
+      "notes": "Sayfa 11 | placed his ear against: kulağını ...e dayadı."
+    },
+    {
+      "id": 206,
+      "start_ms": 1385908,
+      "end_ms": 1391500,
+      "text": "I pressed my ear to the cold stone and heard a distinct, muffled roaring behind the rock.",
+      "translation": "Kulağımı soğuk taşa bastırdım ve kayanın arkasında boğuk, belirgin bir kükreme duydum.",
+      "notes": "Sayfa 11 | muffled roaring: boğuk bir kükreme."
+    },
+    {
+      "id": 207,
+      "start_ms": 1391900,
+      "end_ms": 1398236,
+      "text": "A powerful underground river was flowing swiftly through the hidden layers only a few feet away from us.",
+      "translation": "Güçlü bir yeraltı nehri, bizden yalnızca birkaç fit uzaktaki gizli katmanlar arasından hızla akıyordu.",
+      "notes": "Sayfa 11 | flowing swiftly: hızla akıyordu."
+    },
+    {
+      "id": 208,
+      "start_ms": 1398636,
+      "end_ms": 1405572,
+      "text": "Hans gripped his heavy iron pickaxe and began striking the impenetrable rock with steady, rhythmic blows.",
+      "translation": "Hans ağır demir kazmasını kavradı ve düzenli, ritmik darbelerle geçit vermez kayaya vurmaya başladı.",
+      "notes": "Sayfa 11 | striking with steady blows: düzenli darbelerle vurarak."
+    },
+    {
+      "id": 209,
+      "start_ms": 1405972,
+      "end_ms": 1412668,
+      "text": "Sparks flew in showers from the contact of steel against quartz, illuminating his determined expression.",
+      "translation": "Çeliğin kuvarssa çarpmasından kıvılcımlar saçılıyor, onun kararlı yüz ifadesini aydınlatıyordu.",
+      "notes": "Sayfa 11 | sparks flew in showers: sağanak halinde kıvılcımlar saçıldı."
+    },
+    {
+      "id": 210,
+      "start_ms": 1413068,
+      "end_ms": 1418684,
+      "text": "For nearly two grueling hours, the patient hunter chipped away at the stubborn barrier.",
+      "translation": "Neredeyse iki zorlu saat boyunca sabırlı avcı inatçı engeli yavaş yavaş yonttu.",
+      "notes": "Sayfa 11 | chipped away at: parça parça oyup yonttu."
+    },
+    {
+      "id": 211,
+      "start_ms": 1419084,
+      "end_ms": 1425180,
+      "text": "Suddenly, a sharp hiss resonated through the tunnel, followed by a violent fracture in the stone.",
+      "translation": "Aniden tünelde keskin bir tıslama yankılandı, ardından taşta şiddetli bir kırılma meydana geldi.",
+      "notes": "Sayfa 11 | sharp hiss resonated: keskin bir tıslama yankılandı."
+    },
+    {
+      "id": 212,
+      "start_ms": 1425580,
+      "end_ms": 1431508,
+      "text": "A boiling jet of water burst through the fissure, knocking the heavy pickaxe from the guide's hands.",
+      "translation": "Kaynayan bir su fışkırması çatlaktan dışarı fırladı ve ağır kazmayı rehberin ellerinden düşürdü.",
+      "notes": "Sayfa 11 | boiling jet of water: kaynayan tazyikli su jeti."
+    },
+    {
+      "id": 213,
+      "start_ms": 1431908,
+      "end_ms": 1437644,
+      "text": "Hans let out a sharp cry of pain because the scalding torrent hit his bare arms directly.",
+      "translation": "Hans keskin bir acı çığlığı attı çünkü kaynar çağlayan doğrudan çıplak kollarına çarpmıştı.",
+      "notes": "Sayfa 11 | let out a sharp cry: acı bir çığlık attı."
+    },
+    {
+      "id": 214,
+      "start_ms": 1438044,
+      "end_ms": 1445508,
+      "text": "\"The water is boiling hot!\" I screamed in despair, feeling our salvation turn into a cruel mockery.",
+      "translation": "Kurtuluşumuzun acımasız bir alaya dönüştüğünü hissederek, \"Su kaynar sıcaklıkta!\" diye çaresizlikle bağırdım.",
+      "notes": "Sayfa 11 | salvation turned into mockery: kurtuluş alaya dönüştü."
+    },
+    {
+      "id": 215,
+      "start_ms": 1445908,
+      "end_ms": 1454116,
+      "text": "\"Patience, my boy!\" the professor shouted above the roaring jet. \"It will cool quickly in the cold air of the tunnel!\"",
+      "translation": "Profesör kükreyen suyun üzerinden bağırarak, \"Sabret oğlum! Tünelin soğuk havasında hızla soğuyacaktır!\" dedi.",
+      "notes": "Sayfa 11 | shouted above the roaring jet: kükreyen tazyikin üzerinden haykırdı."
+    },
+    {
+      "id": 216,
+      "start_ms": 1454516,
+      "end_ms": 1460924,
+      "text": "The boiling stream cascaded along the stony floor, giving off thick clouds of fragrant steam.",
+      "translation": "Kaynar dere, taşlı zemin boyunca çağladı ve kalın hoş kokulu buhar bulutları yaydı.",
+      "notes": "Sayfa 11 | cascaded along: boyunca çağlayarak aktı."
+    },
+    {
+      "id": 217,
+      "start_ms": 1461324,
+      "end_ms": 1467444,
+      "text": "Within minutes, the rushing water cooled to a drinkable temperature, rich with mineral salts.",
+      "translation": "Birkaç dakika içinde akan su, mineral tuzları bakımından zengin, içilebilir bir sıcaklığa kadar soğudu.",
+      "notes": "Sayfa 11 | rich with mineral salts: mineral tuzları açısından zengin."
+    },
+    {
+      "id": 218,
+      "start_ms": 1467844,
+      "end_ms": 1474852,
+      "text": "I threw myself on my knees and drank greedily, feeling absolute rebirth rush through every fiber of my being.",
+      "translation": "Dizlerimin üzerine kapandım ve açgözlülükle içtim; varlığımın her lifinde tam bir yeniden doğuşun aktığını hissettim.",
+      "notes": "Sayfa 11 | drank greedily: kana kana / açgözlülükle içti."
+    },
+    {
+      "id": 219,
+      "start_ms": 1475252,
+      "end_ms": 1481396,
+      "text": "It was the most delicious nectar that had ever touched human lips, restoring our strength and courage.",
+      "translation": "İnsan dudaklarına değmiş en lezzetli nektardı; gücümüzü ve cesaretimizi yerine getirdi.",
+      "notes": "Sayfa 11 | restoring strength: gücü yeniden kazandırmak."
+    },
+    {
+      "id": 220,
+      "start_ms": 1481796,
+      "end_ms": 1489236,
+      "text": "\"We shall name this blessed stream the Hansbach!\" my uncle declared, honoring the loyal man who had saved our lives.",
+      "translation": "Amcam hayatlarımızı kurtaran sadık adamı onurlandırarak, \"Bu kutsal dereye Hansbach adını vereceğiz!\" diye ilan etti.",
+      "notes": "Sayfa 11 | name this blessed stream: bu mübarek dereyi adlandırmak."
+    },
+    {
+      "id": 221,
+      "start_ms": 1490236,
+      "end_ms": 1497004,
+      "text": "With our thirst conquered, our expedition continued downward alongside the cheerful murmur of the Hansbach.",
+      "translation": "Susuzluğumuzu yenerek keşif heyetimiz Hansbach'ın neşeli şırıltısı eşliğinde aşağıya doğru yoluna devam etti.",
+      "notes": "Sayfa 12 | cheerful murmur: neşeli şırıltı."
+    },
+    {
+      "id": 222,
+      "start_ms": 1497404,
+      "end_ms": 1503596,
+      "text": "The stream served as our faithful guide, preventing us from losing our way in the branching labyrinths.",
+      "translation": "Dere, dallara ayrılan labirentlerde yolumuzu kaybetmemizi önleyen sadık rehberimiz oldu.",
+      "notes": "Sayfa 12 | branching labyrinths: dallanan labirentler."
+    },
+    {
+      "id": 223,
+      "start_ms": 1503996,
+      "end_ms": 1510116,
+      "text": "On the tenth of July, we entered a geological zone that filled my uncle with professional delight.",
+      "translation": "10 Temmuz'da amcamı mesleki bir sevinçle dolduran bir jeolojik bölgeye girdik.",
+      "notes": "Sayfa 12 | professional delight: mesleki sevinç."
+    },
+    {
+      "id": 224,
+      "start_ms": 1510516,
+      "end_ms": 1516372,
+      "text": "The granite walls gave way to sedimentary rock and enormous beds of carboniferous coal.",
+      "translation": "Granit duvarlar yerini tortul kayalara ve devasa karbonifer kömür yataklarına bıraktı.",
+      "notes": "Sayfa 12 | carboniferous coal: taş kömürü çağı kömürü."
+    },
+    {
+      "id": 225,
+      "start_ms": 1516772,
+      "end_ms": 1523108,
+      "text": "We were traversing the monumental cemetery of primeval forests that had flourished millions of years ago.",
+      "translation": "Milyonlarca yıl önce serpilmiş ilkel ormanların anıtsal mezarlığının içinden geçiyorduk.",
+      "notes": "Sayfa 12 | primeval forests: ilkel / ilkçağ ormanları."
+    },
+    {
+      "id": 226,
+      "start_ms": 1523508,
+      "end_ms": 1530516,
+      "text": "The walls of the corridor were studded with beautiful imprints of ancient ferns, lycopods, and sigillaria.",
+      "translation": "Koridorun duvarları kadim eğrelti otlarının, kibrit otlarının ve mühür ağaçlarının güzel izleriyle bezenmişti.",
+      "notes": "Sayfa 12 | studded with imprints: izlerle bezenmiş."
+    },
+    {
+      "id": 227,
+      "start_ms": 1530916,
+      "end_ms": 1536820,
+      "text": "Every detail of their delicate leaves was preserved in the dark shale with astonishing perfection.",
+      "translation": "Narin yapraklarının her ayrıntısı koyu renkli killi şist üzerinde şaşırtıcı bir kusursuzlukla korunmuştu.",
+      "notes": "Sayfa 12 | astonishing perfection: şaşırtıcı kusursuzluk."
+    },
+    {
+      "id": 228,
+      "start_ms": 1537220,
+      "end_ms": 1543772,
+      "text": "\"Think of the immense pressure required to turn living trees into these mineral seams!\" the professor remarked.",
+      "translation": "Profesör, \"Canlı ağaçları bu maden damarlarına dönüştürmek için gereken muazzam basıncı bir düşün!\" dedi.",
+      "notes": "Sayfa 12 | mineral seams: maden damarları."
+    },
+    {
+      "id": 229,
+      "start_ms": 1544172,
+      "end_ms": 1550556,
+      "text": "Here lay enough combustible material to supply all the industrial factories of Europe for centuries.",
+      "translation": "Burada Avrupa'nın tüm sanayi fabrikalarını yüzyıllar boyu besleyecek kadar yanıcı madde yatıyordu.",
+      "notes": "Sayfa 12 | combustible material: yanıcı madde."
+    },
+    {
+      "id": 230,
+      "start_ms": 1550956,
+      "end_ms": 1557076,
+      "text": "However, this underground coalfield presented a deadly hazard known to miners as firedamp.",
+      "translation": "Ancak bu yeraltı kömür havzası, madencilerin grizu olarak bildiği ölümcül bir tehlike barındırıyordu.",
+      "notes": "Sayfa 12 | deadly hazard: ölümcül tehlike."
+    },
+    {
+      "id": 231,
+      "start_ms": 1557476,
+      "end_ms": 1564580,
+      "text": "Invisible pockets of carbureted hydrogen gas could detonate into a devastating fireball at the slightest spark.",
+      "translation": "Görünmez hidrokarbon gaz cepleri en ufak bir kıvılcımda yıkıcı bir ateş topuna dönüşerek patlayabilirdi.",
+      "notes": "Sayfa 12 | detonate into a fireball: ateş topu halinde patlamak."
+    },
+    {
+      "id": 232,
+      "start_ms": 1564980,
+      "end_ms": 1572084,
+      "text": "Our Ruhmkorff electric apparatus proved to be our greatest blessing, producing cold light without an open flame.",
+      "translation": "Ruhmkorff elektrik aygıtımız açık alev olmadan soğuk ışık üreterek en büyük nimetimiz oldu.",
+      "notes": "Sayfa 12 | greatest blessing: en büyük nimet."
+    },
+    {
+      "id": 233,
+      "start_ms": 1572484,
+      "end_ms": 1578748,
+      "text": "As we descended deeper, the fossil remains evolved from simple plants to primitive animal life.",
+      "translation": "Daha da derine indikçe fosil kalıntıları basit bitkilerden ilkel hayvan yaşamına doğru evrildi.",
+      "notes": "Sayfa 12 | fossil remains evolved: fosil kalıntıları evrildi."
+    },
+    {
+      "id": 234,
+      "start_ms": 1579148,
+      "end_ms": 1585796,
+      "text": "I examined petrified shells, trilobites, and the skeletal fragments of ancient armored fishes.",
+      "translation": "Taşlaşmış kabukları, trilobitleri ve kadim zırhlı balıkların iskelet parçalarını inceledim.",
+      "notes": "Sayfa 12 | petrified shells: taşlaşmış kabuklar."
+    },
+    {
+      "id": 235,
+      "start_ms": 1586196,
+      "end_ms": 1591332,
+      "text": "We were literally walking backward through the great pages of biological history.",
+      "translation": "Kelimenin tam anlamıyla biyoloji tarihinin büyük sayfaları arasında zamanda geriye doğru yürüyorduk.",
+      "notes": "Sayfa 12 | walking backward through: ...içinde geriye doğru yürümek."
+    },
+    {
+      "id": 236,
+      "start_ms": 1591732,
+      "end_ms": 1597564,
+      "text": "My scientific skepticism gradually gave way to unbounded wonder and admiration.",
+      "translation": "Bilimsel şüpheciliğim yavaş yavaş yerini sınırsız bir hayret ve hayranlığa bıraktı.",
+      "notes": "Sayfa 12 | unbounded wonder: sınırsız hayret."
+    },
+    {
+      "id": 237,
+      "start_ms": 1597964,
+      "end_ms": 1603340,
+      "text": "The subterranean atmosphere remained dense and heavy, but entirely breathable.",
+      "translation": "Yeraltı atmosferi yoğun ve ağır kaldı ama tamamen solunabilir durumdaydı.",
+      "notes": "Sayfa 12 | dense and heavy: yoğun ve ağır."
+    },
+    {
+      "id": 238,
+      "start_ms": 1603740,
+      "end_ms": 1610244,
+      "text": "By calculating our barometer readings, my uncle announced that we were now thirty leagues below Iceland.",
+      "translation": "Barometre okumalarımızı hesaplayan amcam, şu anda İzlanda'nın otuz fersah altında olduğumuzu duyurdu.",
+      "notes": "Sayfa 12 | thirty leagues below: otuz fersah altında."
+    },
+    {
+      "id": 239,
+      "start_ms": 1610644,
+      "end_ms": 1615708,
+      "text": "That meant we were positioned directly beneath the crushing weight of the Atlantic Ocean.",
+      "translation": "Bu, doğrudan Atlantik Okyanusu'nun ezici ağırlığının tam altında bulunduğumuz anlamına geliyordu.",
+      "notes": "Sayfa 12 | crushing weight: ezici ağırlık."
+    },
+    {
+      "id": 240,
+      "start_ms": 1616108,
+      "end_ms": 1622804,
+      "text": "The thought that millions of tons of water hung above our heads caused an icy shiver to run down my spine.",
+      "translation": "Tepemizde milyonlarca ton suyun asılı durduğu düşüncesi omurgamdan aşağı buz gibi bir ürperti geçirdi.",
+      "notes": "Sayfa 12 | icy shiver ran down spine: omurgasından buz gibi bir ürperti geçti."
+    },
+    {
+      "id": 241,
+      "start_ms": 1623804,
+      "end_ms": 1629972,
+      "text": "On the twelfth of July, a dreadful accident plunged me into the darkest nightmare of my life.",
+      "translation": "12 Temmuz'da korkunç bir kaza beni hayatımın en karanlık kabusunun içine fırlattı.",
+      "notes": "Sayfa 13 | plunged into nightmare: kabusun içine sürükledi."
+    },
+    {
+      "id": 242,
+      "start_ms": 1630372,
+      "end_ms": 1636900,
+      "text": "I had walked ahead of the party, carrying one of the Ruhmkorff lamps to inspect an interesting rock formation.",
+      "translation": "İlginç bir kaya oluşumunu incelemek için Ruhmkorff lambalarından birini taşıyarak grubun önünden yürümüştüm.",
+      "notes": "Sayfa 13 | walked ahead of: grubun önünden yürüdü."
+    },
+    {
+      "id": 243,
+      "start_ms": 1637300,
+      "end_ms": 1643156,
+      "text": "Entranced by a glittering vein of gold, I failed to notice a turning where the tunnel divided.",
+      "translation": "Parıldayan bir altın damarına kendimi kaptırarak tünelin bölündüğü bir dönemeci fark edemedim.",
+      "notes": "Sayfa 13 | entranced by: ...ile büyülenmiş / kendinden geçmiş."
+    },
+    {
+      "id": 244,
+      "start_ms": 1643556,
+      "end_ms": 1650492,
+      "text": "When I turned around to show the specimen to my uncle, I found myself in absolute, terrifying solitude.",
+      "translation": "Örneği amcama göstermek için arkamı döndüğümde, kendimi mutlak ve korkunç bir yalnızlık içinde buldum.",
+      "notes": "Sayfa 13 | absolute solitude: mutlak yalnızlık."
+    },
+    {
+      "id": 245,
+      "start_ms": 1650892,
+      "end_ms": 1658740,
+      "text": "\"Uncle! Hans!\" I shouted, but only hollow echoes replied from the gloomy galleries.",
+      "translation": "\"Amca! Hans!\" diye bağırdım ama kasvetli galerilerden yalnızca yankılanan boğuk sesler cevap verdi.",
+      "notes": "Sayfa 13 | hollow echoes: boş / boğuk yankılar."
+    },
+    {
+      "id": 246,
+      "start_ms": 1659140,
+      "end_ms": 1665980,
+      "text": "Even more horrifying, the familiar murmur of the Hansbach had disappeared; I had strayed away from the water.",
+      "translation": "Daha da korkuncu, Hansbach'ın o tanıdık şırıltısı kaybolmuştu; sudan uzaklaşmıştım.",
+      "notes": "Sayfa 13 | strayed away from: ...den uzağa sapmıştı."
+    },
+    {
+      "id": 247,
+      "start_ms": 1666380,
+      "end_ms": 1673364,
+      "text": "In a frantic frenzy of panic, I ran blindly backward through the darkness, tripping over jagged boulders.",
+      "translation": "Çılgınca bir panik hezeyanıyla sivri kayalara takılarak karanlığın içinde körlemesine geriye koştum.",
+      "notes": "Sayfa 13 | ran blindly: körlemesine koştu."
+    },
+    {
+      "id": 248,
+      "start_ms": 1673764,
+      "end_ms": 1679092,
+      "text": "I stumbled and fell heavily, shattering my lantern against the sharp stone floor.",
+      "translation": "Tökezleyip sertçe düştüm ve fenerimi keskin taş zemine çarparak paramparça ettim.",
+      "notes": "Sayfa 13 | shattering my lantern: fenerimi paramparça ederek."
+    },
+    {
+      "id": 249,
+      "start_ms": 1679492,
+      "end_ms": 1686668,
+      "text": "Instant, impenetrable blackness enveloped me—a darkness so thick that it seemed to weigh upon my eyelids.",
+      "translation": "Anında, geçit vermez bir zifiri karanlık beni sardı—göz kapaklarıma ağırlık yapacak kadar koyu bir karanlık.",
+      "notes": "Sayfa 13 | impenetrable blackness: içine girilemez zifiri karanlık."
+    },
+    {
+      "id": 250,
+      "start_ms": 1687068,
+      "end_ms": 1693548,
+      "text": "I lay bleeding on the rocks, weeping uncontrollably and suffocating in the stagnant subterranean air.",
+      "translation": "Kayaların üzerinde kanlar içinde yattım, kontrolsüzce ağladım ve durgun yeraltı havasında boğulur gibi oldum.",
+      "notes": "Sayfa 13 | stagnant air: durgun / havasız hava."
+    },
+    {
+      "id": 251,
+      "start_ms": 1693948,
+      "end_ms": 1700524,
+      "text": "Hours passed, and madness began to creep into my feverish mind with terrifying hallucinations.",
+      "translation": "Saatler geçti ve delilik korkunç halüsinasyonlarla ateşli zihnime süzülmeye başladı.",
+      "notes": "Sayfa 13 | madness crept into: delilik içine süzüldü."
+    },
+    {
+      "id": 252,
+      "start_ms": 1700924,
+      "end_ms": 1707596,
+      "text": "Suddenly, through the dense silence, a faint vibrating whisper brushed against the rock wall near my head.",
+      "translation": "Aniden o yoğun sessizliğin içinden, başımın yanındaki kaya duvara hafifçe çarpan titreşimli bir fısıltı geçti.",
+      "notes": "Sayfa 13 | vibrating whisper: titreşen fısıltı."
+    },
+    {
+      "id": 253,
+      "start_ms": 1707996,
+      "end_ms": 1713468,
+      "text": "I pressed my ear against the stone, holding my breath so hard that my lungs ached.",
+      "translation": "Kulağımı taşa bastırdım, nefesimi ciğerlerimi ağrıtacak kadar sımsıkı tuttum.",
+      "notes": "Sayfa 13 | holding my breath: nefesini tutarak."
+    },
+    {
+      "id": 254,
+      "start_ms": 1713868,
+      "end_ms": 1721788,
+      "text": "\"Axel! Axel! Can you hear me?\" my uncle's voice traveled clearly through the granite stratum.",
+      "translation": "Granit tabakanın içinden amcamın sesi net bir şekilde ulaştı: \"Axel! Axel! Beni duyabiliyor musun?\"",
+      "notes": "Sayfa 13 | voice traveled clearly: ses net bir şekilde ulaştı."
+    },
+    {
+      "id": 255,
+      "start_ms": 1722188,
+      "end_ms": 1728692,
+      "text": "The dense rock acted like an immense acoustic tube, conducting sound waves over great distances.",
+      "translation": "Yoğun kaya, ses dalgalarını büyük mesafeler boyunca ileten devasa bir akustik tüp gibi işlev görüyordu.",
+      "notes": "Sayfa 13 | acoustic tube: akustik tüp / ses borusu."
+    },
+    {
+      "id": 256,
+      "start_ms": 1729092,
+      "end_ms": 1737276,
+      "text": "\"Uncle! I am lost in the dark!\" I cried back against the wall with all the strength left in my body.",
+      "translation": "Vücudumda kalan tüm güçle duvara doğru, \"Amca! Karanlıkta kayboldum!\" diye haykırdım.",
+      "notes": "Sayfa 13 | cried back: karşılık vererek bağırdı."
+    },
+    {
+      "id": 257,
+      "start_ms": 1737676,
+      "end_ms": 1746652,
+      "text": "\"Do not despair!\" the voice replied. \"Hans and I are descending toward you! Follow the sound of my chronometer!\"",
+      "translation": "Ses, \"Umudunu kaybetme!\" diye yanıtladı. \"Hans ve ben sana doğru iniyoruz! Kronometremin sesini takip et!\"",
+      "notes": "Sayfa 13 | do not despair: umudunu yitirme."
+    },
+    {
+      "id": 258,
+      "start_ms": 1747052,
+      "end_ms": 1753364,
+      "text": "He instructed me to crawl down the slope, calculating our separation at less than eight hundred yards.",
+      "translation": "Aramızdaki mesafeyi sekiz yüz yardadan daha az hesaplayarak eğimden aşağı sürünmemi tembihledi.",
+      "notes": "Sayfa 13 | crawl down the slope: yamaçtan aşağı sürünmek."
+    },
+    {
+      "id": 259,
+      "start_ms": 1753764,
+      "end_ms": 1759548,
+      "text": "I crawled on my hands and knees in the pitch dark until the ground suddenly dropped from beneath me.",
+      "translation": "Zemin birdenbire altımdan kaybolana kadar zifiri karanlıkta ellerimin ve dizlerimin üzerinde süründüm.",
+      "notes": "Sayfa 13 | ground suddenly dropped: yer birden altından kaydı."
+    },
+    {
+      "id": 260,
+      "start_ms": 1759948,
+      "end_ms": 1766188,
+      "text": "I plummeted into an open void, losing consciousness just as strong arms caught me in midair.",
+      "translation": "Güçlü kollar beni havada tam yakalarken bilincimi kaybederek açık bir boşluğa yuvarlandım.",
+      "notes": "Sayfa 13 | plummeted into an open void: açık bir boşluğa yuvarlandı."
+    },
+    {
+      "id": 261,
+      "start_ms": 1767188,
+      "end_ms": 1772372,
+      "text": "When I opened my eyes, I thought I had awakened in an enchanted fairy kingdom.",
+      "translation": "Gözlerimi açtığımda büyülü bir peri krallığında uyandığımı sandım.",
+      "notes": "Sayfa 14 | enchanted kingdom: büyülü krallık."
+    },
+    {
+      "id": 262,
+      "start_ms": 1772772,
+      "end_ms": 1780212,
+      "text": "I was lying on a bed of fine yellow sand, bathed in a soft, silvery radiance that had no visible source.",
+      "translation": "Görünür hiçbir kaynağı olmayan yumuşak, gümüşi bir ışıltıyla yıkanan ince sarı kumdan bir yatakta yatıyordum.",
+      "notes": "Sayfa 14 | bathed in silvery radiance: gümüşi ışıltıyla yıkanmış."
+    },
+    {
+      "id": 263,
+      "start_ms": 1780612,
+      "end_ms": 1786612,
+      "text": "My uncle was gently dressing the wound on my forehead with clean bandages and soothing ointments.",
+      "translation": "Amcam alnımdaki yarayı temiz sargı bezleri ve yatıştırıcı merhemlerle nazikçe sarıyordu.",
+      "notes": "Sayfa 14 | soothing ointments: yatıştırıcı merhemler."
+    },
+    {
+      "id": 264,
+      "start_ms": 1787012,
+      "end_ms": 1794788,
+      "text": "\"Axel, my dear boy, you are alive!\" he cried, embracing me with tears streaming down his rugged cheeks.",
+      "translation": "Pürüzlü yanaklarından yaşlar süzülerek bana sarılıp, \"Axel, canım oğlum, hayattasın!\" diye haykırdı.",
+      "notes": "Sayfa 14 | rugged cheeks: pürüzlü / sert hatlı yanaklar."
+    },
+    {
+      "id": 265,
+      "start_ms": 1795188,
+      "end_ms": 1801716,
+      "text": "Hans stood nearby, boiling dried meat over a small alcohol burner with his customary calmness.",
+      "translation": "Hans her zamanki sakinliğiyle küçük bir ispirto ocağında kurutulmuş et haşlayarak yakında duruyordu.",
+      "notes": "Sayfa 14 | customary calmness: her zamanki sakinlik."
+    },
+    {
+      "id": 266,
+      "start_ms": 1802116,
+      "end_ms": 1808620,
+      "text": "I sat up slowly and looked around, completely overwhelmed by the breathtaking spectacle before me.",
+      "translation": "Yavaşça doğruldum ve etrafıma baktım; önümdeki nefes kesici manzara karşısında tamamen büyülendim.",
+      "notes": "Sayfa 14 | breathtaking spectacle: nefes kesici manzara."
+    },
+    {
+      "id": 267,
+      "start_ms": 1809020,
+      "end_ms": 1814540,
+      "text": "We were standing on the shore of an immense body of water that stretched to a distant horizon.",
+      "translation": "Uzak bir ufka kadar uzanan devasa bir su kütlesinin kıyısında duruyorduk.",
+      "notes": "Sayfa 14 | body of water: su kütlesi."
+    },
+    {
+      "id": 268,
+      "start_ms": 1814940,
+      "end_ms": 1821060,
+      "text": "Gentle waves were breaking with a soft, rhythmic whisper upon a wide beach of golden sand.",
+      "translation": "Tatlı dalgalar altın rengi kumdan geniş bir kumsala yumuşak, ritmik bir fısıltıyla vuruyordu.",
+      "notes": "Sayfa 14 | breaking upon the beach: sahile vuruyordu."
+    },
+    {
+      "id": 269,
+      "start_ms": 1821460,
+      "end_ms": 1826956,
+      "text": "\"Is that the ocean?\" I whispered, unable to believe my senses.",
+      "translation": "Duyularıma inanamayarak, \"O bir okyanus mu?\" diye fısıldadım.",
+      "notes": "Sayfa 14 | unable to believe senses: duyularına inanamayarak."
+    },
+    {
+      "id": 270,
+      "start_ms": 1827356,
+      "end_ms": 1833620,
+      "text": "\"It is a subterranean sea,\" my uncle replied proudly, \"and I have christened it the Central Sea!\"",
+      "translation": "Amcam gururla, \"Bu bir yeraltı denizidir,\" diye yanıtladı, \"ve ben onu Merkez Denizi olarak vaftiz ettim!\"",
+      "notes": "Sayfa 14 | christened it: onu adlandırdı / vaftiz etti."
+    },
+    {
+      "id": 271,
+      "start_ms": 1834020,
+      "end_ms": 1840068,
+      "text": "High above our heads arched an enormous granite vault, towering thousands of feet into the air.",
+      "translation": "Başlarımızın çok yukarısında havaya binlerce fit yükselen devasa bir granit kubbe kavis çiziyordu.",
+      "notes": "Sayfa 14 | granite vault: granit tonoz / kubbe."
+    },
+    {
+      "id": 272,
+      "start_ms": 1840468,
+      "end_ms": 1846612,
+      "text": "The entire cavern was illuminated by an electric phenomenon similar to the aurora borealis.",
+      "translation": "Mağaranın tamamı kutup ışıklarına benzeyen elektriksel bir doğa olayıyla aydınlanıyordu.",
+      "notes": "Sayfa 14 | aurora borealis: kuzey ışıkları / kutup ışıkları."
+    },
+    {
+      "id": 273,
+      "start_ms": 1847012,
+      "end_ms": 1854236,
+      "text": "Luminous vapors hung beneath the rocky ceiling, diffusing a continuous, clear, and shadowless daylight.",
+      "translation": "Işık saçan buharlar kayalık tavanın altında asılı duruyor; kesintisiz, berrak ve gölgesiz bir gün ışığı yayıyordu.",
+      "notes": "Sayfa 14 | luminous vapors: ışık saçan buharlar."
+    },
+    {
+      "id": 274,
+      "start_ms": 1854636,
+      "end_ms": 1861284,
+      "text": "Dense clouds of vapor moved across this artificial sky, carried by mysterious underground winds.",
+      "translation": "Yoğun buhar bulutları gizemli yeraltı rüzgarlarıyla taşınarak bu yapay gökyüzünde süzülüyordu.",
+      "notes": "Sayfa 14 | artificial sky: yapay gökyüzü."
+    },
+    {
+      "id": 275,
+      "start_ms": 1861684,
+      "end_ms": 1868260,
+      "text": "The sea was truly vast; neither binoculars nor our keenest gaze could discover the opposite shore.",
+      "translation": "Deniz gerçekten uçsuz bucaksızdı; ne dürbünlerimiz ne de en keskin bakışlarımız karşı kıyıyı keşfedebildi.",
+      "notes": "Sayfa 14 | opposite shore: karşı kıyı."
+    },
+    {
+      "id": 276,
+      "start_ms": 1868660,
+      "end_ms": 1874852,
+      "text": "The air was crisp and revitalizing, filled with the unmistakable salty fragrance of the sea.",
+      "translation": "Hava serinletici ve tazelik vericiydi, denizin o belirgin tuzlu kokusuyla doluydu.",
+      "notes": "Sayfa 14 | unmistakable salty fragrance: belirgin tuzlu koku."
+    },
+    {
+      "id": 277,
+      "start_ms": 1875252,
+      "end_ms": 1881132,
+      "text": "Looking at the water line, I noticed that the tide was currently rising along the sandy beach.",
+      "translation": "Su çizgisine bakarak medcezrin kumsal boyunca şu anda yükselmekte olduğunu fark ettim.",
+      "notes": "Sayfa 14 | tide was rising: gelgit yükseliyordu."
+    },
+    {
+      "id": 278,
+      "start_ms": 1881532,
+      "end_ms": 1888660,
+      "text": "Even down here, thirty-five leagues below the Earth's surface, the lunar pull governed the motion of the waters.",
+      "translation": "Burada bile, Yerkürenin yüzeyinin otuz beş fersah altında ayın çekim gücü suların hareketini yönetiyordu.",
+      "notes": "Sayfa 14 | lunar pull governed: ayın çekimi yönetti."
+    },
+    {
+      "id": 279,
+      "start_ms": 1889060,
+      "end_ms": 1894892,
+      "text": "We were standing inside a wondrous subterranean world that no living mortal had ever witnessed.",
+      "translation": "Daha önce yaşayan hiçbir ölümlünün tanık olmadığı harika bir yeraltı dünyasının içinde duruyorduk.",
+      "notes": "Sayfa 14 | living mortal: yaşayan fani / ölümlü."
+    },
+    {
+      "id": 280,
+      "start_ms": 1895292,
+      "end_ms": 1902900,
+      "text": "\"Arne Saknussemm came this way,\" my uncle whispered with awe. \"And we shall cross this ocean to follow him!\"",
+      "translation": "Amcam huşu içinde, \"Arne Saknussemm bu yoldan geçmişti,\" diye fısıldadı. \"Ve biz onu takip etmek için bu okyanusu aşacağız!\"",
+      "notes": "Sayfa 14 | whispered with awe: huşu içinde fısıldadı."
+    },
+    {
+      "id": 281,
+      "start_ms": 1903900,
+      "end_ms": 1909612,
+      "text": "Behind the golden beach, a strange and eerie forest rose toward the distant cliffs.",
+      "translation": "Altın kumsalın ardında, garip ve tekinsiz bir orman uzak kayalıklara doğru yükseliyordu.",
+      "notes": "Sayfa 15 | eerie forest: tekinsiz / tekinsiz orman."
+    },
+    {
+      "id": 282,
+      "start_ms": 1910012,
+      "end_ms": 1915988,
+      "text": "My uncle and I walked toward it, eager to examine this unexpected subterranean vegetation.",
+      "translation": "Amcam ve ben, bu beklenmedik yeraltı bitki örtüsünü incelemek için can atarak oraya doğru yürüdük.",
+      "notes": "Sayfa 15 | eager to examine: incelemeye hevesli."
+    },
+    {
+      "id": 283,
+      "start_ms": 1916388,
+      "end_ms": 1922268,
+      "text": "As we approached, I stopped dead in my tracks, rubbing my eyes in utter disbelief.",
+      "translation": "Yaklaştığımızda tam bir inançsızlık içinde gözlerimi ovuşturarak olduğum yerde kalakaldım.",
+      "notes": "Sayfa 15 | stopped dead in tracks: olduğu yerde kalakaldı."
+    },
+    {
+      "id": 284,
+      "start_ms": 1922668,
+      "end_ms": 1930228,
+      "text": "The trees were not oaks, pines, or maples, but gigantic mushrooms standing thirty to forty feet high!",
+      "translation": "Ağaçlar meşe, çam ya da akçaağaç değil; otuz ila kırk fit yüksekliğinde duran devasa mantarlardı!",
+      "notes": "Sayfa 15 | gigantic mushrooms: devasa mantarlar."
+    },
+    {
+      "id": 285,
+      "start_ms": 1930628,
+      "end_ms": 1936892,
+      "text": "Their massive white stalks supported enormous circular umbrellas that shaded hundreds of square yards.",
+      "translation": "Devasa beyaz gövdeleri, yüzlerce metrekareyi gölgeleyen koskoca dairesel şemsiyeleri taşıyordu.",
+      "notes": "Sayfa 15 | massive white stalks: devasa beyaz gövdeler."
+    },
+    {
+      "id": 286,
+      "start_ms": 1937292,
+      "end_ms": 1944180,
+      "text": "They were gigantic specimens of Lycoperdon giganteum, thriving in the warm, humid air of the cavern.",
+      "translation": "Mağaranın ılık ve nemli havasında serpilip büyüyen devasa Lycoperdon giganteum örnekleriydi bunlar.",
+      "notes": "Sayfa 15 | thriving in humid air: nemli havada serpilip büyüyen."
+    },
+    {
+      "id": 287,
+      "start_ms": 1944580,
+      "end_ms": 1952380,
+      "text": "\"Behold the flora of the primary era!\" Professor Lidenbrock cried, touching the spongy white bark with awe.",
+      "translation": "Süngerimsi beyaz kabuğa huşuyla dokunarak Profesör Lidenbrock, \"Birinci zamanın bitki örtüsüne bakın!\" diye haykırdı.",
+      "notes": "Sayfa 15 | spongy white bark: süngerimsi beyaz kabuk."
+    },
+    {
+      "id": 288,
+      "start_ms": 1952780,
+      "end_ms": 1958876,
+      "text": "Thousands of these fungal colossi formed endless avenues beneath the glowing electrical ceiling.",
+      "translation": "Bu mantar devlerinden binlercesi, parıldayan elektrikli tavanın altında uçsuz bucaksız caddeler oluşturuyordu.",
+      "notes": "Sayfa 15 | fungal colossi: devasa mantarlar."
+    },
+    {
+      "id": 289,
+      "start_ms": 1959276,
+      "end_ms": 1965780,
+      "text": "The ground beneath them was carpeted with primitive lichens, mosses, and gigantic tree ferns.",
+      "translation": "Altlarındaki zemin ilkel likenler, yosunlar ve devasa ağaç eğrelti otlarıyla halı gibi kaplanmıştı.",
+      "notes": "Sayfa 15 | carpeted with mosses: yosunlarla kaplanmış."
+    },
+    {
+      "id": 290,
+      "start_ms": 1966180,
+      "end_ms": 1973620,
+      "text": "All of these plants lacked vibrant colors, exhibiting only pale shades of ghostly white, brown, and yellow.",
+      "translation": "Bu bitkilerin tamamı canlı renklerden yoksundu; yalnızca hayaletsi beyaz, kahverengi ve sarının soluk tonlarını sergiliyordu.",
+      "notes": "Sayfa 15 | lacked vibrant colors: canlı renklerden yoksundu."
+    },
+    {
+      "id": 291,
+      "start_ms": 1974020,
+      "end_ms": 1979924,
+      "text": "Without the direct golden light of the sun, nature had deprived them of true emerald chlorophyll.",
+      "translation": "Güneşin doğrudan altın ışığı olmadan doğa onları gerçek zümrüt klorofilinden mahrum bırakmıştı.",
+      "notes": "Sayfa 15 | deprived of chlorophyll: klorofilden mahrum bırakılmış."
+    },
+    {
+      "id": 292,
+      "start_ms": 1980324,
+      "end_ms": 1986228,
+      "text": "Further along the shore, we stumbled upon an immense graveyard of petrified wooden trunks.",
+      "translation": "Sahil boyunca biraz daha ileride, taşlaşmış ağaç gövdelerinden oluşan devasa bir mezarlığa rastladık.",
+      "notes": "Sayfa 15 | graveyard of trunks: gövdeler mezarlığı."
+    },
+    {
+      "id": 293,
+      "start_ms": 1986628,
+      "end_ms": 1993396,
+      "text": "Entire forests of ancient conifers had been turned to solid flint by mineral-rich subterranean waters.",
+      "translation": "Kadim kozalaklı ağaçlardan oluşan koca ormanlar, mineral zengini yeraltı suları tarafından sert çakmaktaşına dönüştürülmüştü.",
+      "notes": "Sayfa 15 | turned to solid flint: sert çakmaktaşına dönüştü."
+    },
+    {
+      "id": 294,
+      "start_ms": 1993796,
+      "end_ms": 2000036,
+      "text": "Lying among the stony logs were gigantic bones bleached white by time and mineral deposits.",
+      "translation": "Taşlaşmış tomrukların arasında zamanın ve mineral tortularının beyaza çevirdiği devasa kemikler yatıyordu.",
+      "notes": "Sayfa 15 | bleached white by time: zamanla bembeyaz olmuş."
+    },
+    {
+      "id": 295,
+      "start_ms": 2000436,
+      "end_ms": 2007420,
+      "text": "\"Axel, look here!\" my uncle exclaimed, kneeling beside a massive jawbone armed with pointed teeth.",
+      "translation": "Sivri dişlerle donatılmış devasa bir çene kemiğinin yanına diz çökerek amcam, \"Axel, buraya bak!\" diye seslendi.",
+      "notes": "Sayfa 15 | armed with pointed teeth: sivri dişlerle donanmış."
+    },
+    {
+      "id": 296,
+      "start_ms": 2007820,
+      "end_ms": 2012956,
+      "text": "\"This belonged to a mastodon, the colossal ancestor of the modern elephant!\"",
+      "translation": "\"Bu, modern filin devasa atası olan bir mastodona aitti!\"",
+      "notes": "Sayfa 15 | colossal ancestor: devasa ata."
+    },
+    {
+      "id": 297,
+      "start_ms": 2013356,
+      "end_ms": 2019860,
+      "text": "I stared at the colossal skeleton in terror, wondering if any of these prehistoric monsters still lived.",
+      "translation": "Bu tarih öncesi canavarlardan herhangi birinin hala yaşayıp yaşamadığını merak ederek dehşet içinde dev iskelete baktım.",
+      "notes": "Sayfa 15 | prehistoric monsters: tarih öncesi canavarlar."
+    },
+    {
+      "id": 298,
+      "start_ms": 2020260,
+      "end_ms": 2025348,
+      "text": "The warm breeze blowing from the sea whispered ominously through the fungal canopy.",
+      "translation": "Denizden esen ılık esinti mantar çatısının arasından uğursuzca fısıldıyordu.",
+      "notes": "Sayfa 15 | whispered ominously: uğursuzca fısıldadı."
+    },
+    {
+      "id": 299,
+      "start_ms": 2025748,
+      "end_ms": 2030812,
+      "text": "Everything around us belonged to an epoch long erased from the surface of the globe.",
+      "translation": "Çevremizdeki her şey, yerkürenin yüzeyinden çoktan silinmiş bir çağa aitti.",
+      "notes": "Sayfa 15 | erased from the surface: yüzeyden silinmiş."
+    },
+    {
+      "id": 300,
+      "start_ms": 2031212,
+      "end_ms": 2036444,
+      "text": "We were intruders in a forgotten world where time had frozen for millions of years.",
+      "translation": "Zamanın milyonlarca yıl boyunca donup kaldığı unutulmuş bir dünyada davetsiz misafirlerdik.",
+      "notes": "Sayfa 15 | intruders in a forgotten world: unutulmuş bir dünyada davetsiz misafirler."
+    },
+    {
+      "id": 301,
+      "start_ms": 2037444,
+      "end_ms": 2044140,
+      "text": "Professor Lidenbrock was determined to cross the subterranean sea rather than wander along its rocky shoreline.",
+      "translation": "Profesör Lidenbrock, kayalık kıyı şeridi boyunca dolanmaktansa yeraltı denizini aşmaya kararlıydı.",
+      "notes": "Sayfa 16 | determined to cross: aşmaya kararlı."
+    },
+    {
+      "id": 302,
+      "start_ms": 2044540,
+      "end_ms": 2051524,
+      "text": "\"Saknussemm went across, and so shall we,\" he declared firmly when I voiced my customary objections.",
+      "translation": "Alışılagelmiş itirazlarımı dile getirdiğimde kararlılıkla, \"Saknussemm karşıya geçti, biz de geçeceğiz,\" diye ilan etti.",
+      "notes": "Sayfa 16 | voiced objections: itirazlarını dile getirdi."
+    },
+    {
+      "id": 303,
+      "start_ms": 2051924,
+      "end_ms": 2057276,
+      "text": "Our resourceful guide Hans immediately set to work solving the logistical problem.",
+      "translation": "Becerikli rehberimiz Hans lojistik sorunu çözmek için hemen işe koyuldu.",
+      "notes": "Sayfa 16 | resourceful guide: becerikli rehber."
+    },
+    {
+      "id": 304,
+      "start_ms": 2057676,
+      "end_ms": 2063076,
+      "text": "He selected logs of petrified surturbrand wood that were light yet remarkably tough.",
+      "translation": "Hafif ama son derece dayanıklı olan taşlaşmış surturbrand odunundan kütükler seçti.",
+      "notes": "Sayfa 16 | remarkably tough: son derece sert / dayanıklı."
+    },
+    {
+      "id": 305,
+      "start_ms": 2063476,
+      "end_ms": 2070340,
+      "text": "Using our strong ropes, Hans lashed the sturdy timbers together into a compact raft ten feet wide.",
+      "translation": "Güçlü urganlarımızı kullanan Hans, sağlam keresteleri on fit genişliğinde kompakt bir sal oluşturacak şekilde birbirine bağladı.",
+      "notes": "Sayfa 16 | lashed timbers together: keresteleri birbirine bağladı."
+    },
+    {
+      "id": 306,
+      "start_ms": 2070740,
+      "end_ms": 2076788,
+      "text": "He fashioned a solid mast from a straight fir trunk and attached a square sail made of heavy linen.",
+      "translation": "Düz bir göknar gövdesinden sağlam bir direk yaptı ve kalın ketenden yapılmış kare bir yelken taktı.",
+      "notes": "Sayfa 16 | fashioned a solid mast: sağlam bir direk yaptı."
+    },
+    {
+      "id": 307,
+      "start_ms": 2077188,
+      "end_ms": 2083092,
+      "text": "A long flat oar mounted at the stern served as a makeshift rudder to steer our crude vessel.",
+      "translation": "Kıç tarafa monte edilen uzun düz bir kürek, ilkel teknemizi yönlendirmek için derme çatma bir dümen görevi gördü.",
+      "notes": "Sayfa 16 | makeshift rudder: derme çatma dümen."
+    },
+    {
+      "id": 308,
+      "start_ms": 2083492,
+      "end_ms": 2089660,
+      "text": "On the morning of the thirteenth of August, the raft was launched successfully into the gentle surf.",
+      "translation": "13 Ağustos sabahında sal sakin dalgaların içine başarıyla indirildi.",
+      "notes": "Sayfa 16 | launched successfully: başarıyla suya indirildi."
+    },
+    {
+      "id": 309,
+      "start_ms": 2090060,
+      "end_ms": 2096132,
+      "text": "To our immense relief, the wood floated buoyant and high upon the dense, saline water.",
+      "translation": "İçimizi çok rahatlatacak şekilde ahşap, yoğun ve tuzlu suyun üzerinde batmadan yüksekte yüzdü.",
+      "notes": "Sayfa 16 | floated buoyant: batmadan su üstünde yüzdü."
+    },
+    {
+      "id": 310,
+      "start_ms": 2096532,
+      "end_ms": 2104332,
+      "text": "We loaded our scientific apparatus, firearms, blankets, and remaining provisions onto the center of the raft.",
+      "translation": "Bilimsel aletlerimizi, ateşli silahlarımızı, battaniyelerimizi ve kalan erzakımızı salın ortasına yükledik.",
+      "notes": "Sayfa 16 | remaining provisions: kalan erzak."
+    },
+    {
+      "id": 311,
+      "start_ms": 2104732,
+      "end_ms": 2111596,
+      "text": "Hans secured every trunk and flask with strong cords so nothing would be swept away by unexpected waves.",
+      "translation": "Hans her sandığı ve matarayı güçlü iplerle bağladı, böylece hiçbir şey beklenmedik dalgalarla sürüklenip gitmeyecekti.",
+      "notes": "Sayfa 16 | swept away by waves: dalgalarla sürüklenip gitti."
+    },
+    {
+      "id": 312,
+      "start_ms": 2111996,
+      "end_ms": 2118020,
+      "text": "At six o'clock, we untied our mooring lines and pushed off from the beach of Port Graüben.",
+      "translation": "Saat altıda bağlama iplerimizi çözdük ve Graüben Limanı'nın kumsalından denize açıldık.",
+      "notes": "Sayfa 16 | untied mooring lines: palamar iplerini çözdü."
+    },
+    {
+      "id": 313,
+      "start_ms": 2118420,
+      "end_ms": 2124588,
+      "text": "A fresh northern breeze caught our linen sail, filling it smoothly and propelling us southward.",
+      "translation": "Taze bir kuzey esintisi keten yelkenimizi yakaladı, pürüzsüzce şişirdi ve bizi güneye doğru sevk etti.",
+      "notes": "Sayfa 16 | propelling us southward: bizi güneye doğru sevk etti."
+    },
+    {
+      "id": 314,
+      "start_ms": 2124988,
+      "end_ms": 2131732,
+      "text": "The shore receded rapidly, until the giant mushrooms shrank into mere dots and vanished entirely.",
+      "translation": "Kıyı hızla geride kaldı; ta ki dev mantarlar küçülüp birer noktaya dönüşene ve tamamen yok olana dek.",
+      "notes": "Sayfa 16 | shore receded rapidly: kıyı hızla uzaklaştı / geriledi."
+    },
+    {
+      "id": 315,
+      "start_ms": 2132132,
+      "end_ms": 2139068,
+      "text": "We were sailing on an uncharted sea beneath thousands of feet of solid crust, surrounded by luminous mist.",
+      "translation": "Işık saçan sisle çevrili, binlerce fitlik sert yer kabuğunun altında haritası çıkarılmamış bir denizde yelken açıyorduk.",
+      "notes": "Sayfa 16 | uncharted sea: haritası çıkarılmamış deniz."
+    },
+    {
+      "id": 316,
+      "start_ms": 2139468,
+      "end_ms": 2145660,
+      "text": "The raft moved at a steady speed of three and a half knots, cutting smoothly through the dark water.",
+      "translation": "Sal, karanlık suyu pürüzsüzce yararak üç buçuk knotluk düzenli bir hızla ilerliyordu.",
+      "notes": "Sayfa 16 | cutting smoothly through: pürüzsüzce yararak geçen."
+    },
+    {
+      "id": 317,
+      "start_ms": 2146060,
+      "end_ms": 2151220,
+      "text": "Hans stood at the stern holding the rudder, motionless and vigilant as always.",
+      "translation": "Hans kıçta dümeni tutarak her zamanki gibi hareketsiz ve tetikte duruyordu.",
+      "notes": "Sayfa 16 | motionless and vigilant: hareketsiz ve uyanık / tetikte."
+    },
+    {
+      "id": 318,
+      "start_ms": 2151620,
+      "end_ms": 2158220,
+      "text": "My uncle calculated our navigation coordinates in his pocket notebook with relentless mathematical precision.",
+      "translation": "Amcam cep not defterinde seyrüsefer koordinatlarımızı amansız bir matematiksel hassasiyetle hesapladı.",
+      "notes": "Sayfa 16 | relentless mathematical precision: amansız matematiksel kesinlik."
+    },
+    {
+      "id": 319,
+      "start_ms": 2158620,
+      "end_ms": 2164068,
+      "text": "I leaned over the side, watching the crystal-clear water where no bottom could be seen.",
+      "translation": "Hiçbir tabanın görülemediği berrak suya bakarak teknenin kenarından aşağıya eğildim.",
+      "notes": "Sayfa 16 | leaned over the side: kenarından aşağı eğildi."
+    },
+    {
+      "id": 320,
+      "start_ms": 2164468,
+      "end_ms": 2170444,
+      "text": "What unimaginable monsters were lurking in the mysterious depths beneath our fragile wooden craft?",
+      "translation": "Kırılgan ahşap teknemizin altındaki gizemli derinliklerde hangi akıl almaz canavarlar pusuya yatmıştı?",
+      "notes": "Sayfa 16 | lurking in the depths: derinliklerde pusuya yatan."
+    },
+    {
+      "id": 321,
+      "start_ms": 2171444,
+      "end_ms": 2178260,
+      "text": "On the fourteenth of August, Hans baited a strong iron hook with raw meat and threw the line into the sea.",
+      "translation": "14 Ağustos'ta Hans güçlü bir demir kancaya çiğ et taktı ve oltayı denize fırlattı.",
+      "notes": "Sayfa 17 | baited a strong hook: güçlü kancaya yem taktı."
+    },
+    {
+      "id": 322,
+      "start_ms": 2178660,
+      "end_ms": 2184828,
+      "text": "Within two hours, the line jerked violently, almost pulling the guide into the deep water.",
+      "translation": "İki saat içinde misina şiddetle sarsıldı, neredeyse rehberi derin suların içine çekecekti.",
+      "notes": "Sayfa 17 | jerked violently: şiddetle sarsıldı."
+    },
+    {
+      "id": 323,
+      "start_ms": 2185228,
+      "end_ms": 2190892,
+      "text": "With his mighty arms, Hans hauled a thrashing creature onto the wooden deck of the raft.",
+      "translation": "Kuvvetli kollarıyla Hans, çırpınan bir yaratığı salın ahşap güvertesine çekti.",
+      "notes": "Sayfa 17 | thrashing creature: çırpınan yaratık."
+    },
+    {
+      "id": 324,
+      "start_ms": 2191292,
+      "end_ms": 2198084,
+      "text": "It was a strange fish with a flat, armored head and a body covered with hard, diamond-shaped scales.",
+      "translation": "Yassı zırhlı bir başı ve sert, elmas biçimli pullarla kaplı gövdesi olan garip bir balıktı bu.",
+      "notes": "Sayfa 17 | diamond-shaped scales: elmas biçimli pullar."
+    },
+    {
+      "id": 325,
+      "start_ms": 2198484,
+      "end_ms": 2204892,
+      "text": "\"Look at this creature!\" my uncle exclaimed, kneeling down to inspect it with intense fascination.",
+      "translation": "Yoğun bir hayranlıkla incelemek için diz çökerek amcam, \"Şu yaratığa bak!\" diye haykırdı.",
+      "notes": "Sayfa 17 | intense fascination: yoğun hayranlık / büyülenme."
+    },
+    {
+      "id": 326,
+      "start_ms": 2205292,
+      "end_ms": 2211388,
+      "text": "\"It is a sturgeon belonging to an extinct genus that disappeared from the Earth during the Devonian epoch!\"",
+      "translation": "\"Devoniyen çağında yeryüzünden silinmiş, soyu tükenmiş bir cinse ait bir mersin balığı bu!\"",
+      "notes": "Sayfa 17 | extinct genus: soyu tükenmiş cins."
+    },
+    {
+      "id": 327,
+      "start_ms": 2211788,
+      "end_ms": 2217212,
+      "text": "Most remarkable of all, this primitive creature possessed no eyes whatsoever.",
+      "translation": "Her şeyden daha da dikkat çekici olanı, bu ilkel yaratığın kesinlikle hiçbir gözü yoktu.",
+      "notes": "Sayfa 17 | no eyes whatsoever: kesinlikle hiçbir gözü yok."
+    },
+    {
+      "id": 328,
+      "start_ms": 2217612,
+      "end_ms": 2224164,
+      "text": "Generations of living in eternal darkness had rendered optical organs completely useless and obsolete.",
+      "translation": "Ebedi karanlıkta geçen nesiller, görme organlarını tamamen yararsız ve körelmiş hale getirmişti.",
+      "notes": "Sayfa 17 | useless and obsolete: yararsız ve körelmiş."
+    },
+    {
+      "id": 329,
+      "start_ms": 2224564,
+      "end_ms": 2230948,
+      "text": "Hans cleaned the strange catch and cooked it over our burner, offering us a delicious and nourishing meal.",
+      "translation": "Hans bu garip avı temizledi ve ocağımızda pişirerek bize lezzetli ve besleyici bir yemek sundu.",
+      "notes": "Sayfa 17 | nourishing meal: besleyici öğün."
+    },
+    {
+      "id": 330,
+      "start_ms": 2231348,
+      "end_ms": 2237612,
+      "text": "That afternoon, my uncle decided to take soundings to determine the depth of the subterranean basin.",
+      "translation": "O öğleden sonra amcam, yeraltı havzasının derinliğini belirlemek için iskandil almaya karar verdi.",
+      "notes": "Sayfa 17 | take soundings: iskandil almak / derinlik ölçmek."
+    },
+    {
+      "id": 331,
+      "start_ms": 2238012,
+      "end_ms": 2244228,
+      "text": "He tied a heavy iron crowbar to a coil of rope two hundred fathoms long and threw it overboard.",
+      "translation": "Ağır bir demir levyeyi iki yüz kulaç uzunluğundaki bir halat kangalına bağladı ve bordadan aşağı attı.",
+      "notes": "Sayfa 17 | iron crowbar: demir levye."
+    },
+    {
+      "id": 332,
+      "start_ms": 2244628,
+      "end_ms": 2251684,
+      "text": "The rope paid out rapidly through his fingers until the entire two hundred fathoms were exhausted without touching bottom.",
+      "translation": "İki yüz kulacın tamamı tabana değmeden tükenene kadar halat hızla parmaklarının arasından kayıp gitti.",
+      "notes": "Sayfa 17 | rope paid out: halat salındı / boşaldı."
+    },
+    {
+      "id": 333,
+      "start_ms": 2252084,
+      "end_ms": 2258420,
+      "text": "\"The sea is bottomless!\" cried the professor, staring into the dark water with astonished eyes.",
+      "translation": "Şaşkın gözlerle karanlık suya bakarak profesör, \"Deniz dipsiz!\" diye bağırdı.",
+      "notes": "Sayfa 17 | staring into dark water: karanlık suya bakarak."
+    },
+    {
+      "id": 334,
+      "start_ms": 2258820,
+      "end_ms": 2265132,
+      "text": "When we pulled the line back onto the raft, Hans noticed deep tooth marks on the thick iron bar.",
+      "translation": "İpi sala geri çektiğimizde, Hans kalın demir çubuğun üzerindeki derin diş izlerini fark etti.",
+      "notes": "Sayfa 17 | deep tooth marks: derin diş izleri."
+    },
+    {
+      "id": 335,
+      "start_ms": 2265532,
+      "end_ms": 2272468,
+      "text": "The metal had been twisted and gouged by enormous jaws possessing terrifying, superhuman crushing power.",
+      "translation": "Metal, korkunç ve insanüstü bir ezme gücüne sahip devasa çeneler tarafından bükülmüş ve oyulmuştu.",
+      "notes": "Sayfa 17 | crushing power: ezici güç."
+    },
+    {
+      "id": 336,
+      "start_ms": 2272868,
+      "end_ms": 2280236,
+      "text": "\"What kind of monster could bite into solid iron?\" I stammered, feeling cold terror clutch my heart.",
+      "translation": "Soğuk bir dehşetin kalbimi pençelediğini hissederek, \"Nasıl bir canavar sert demiri ısırabilir?\" diye kekeledim.",
+      "notes": "Sayfa 17 | cold terror clutch heart: soğuk dehşet kalbi pençeledi."
+    },
+    {
+      "id": 337,
+      "start_ms": 2280636,
+      "end_ms": 2286444,
+      "text": "\"A creature compared to which the great whale of our oceans is a mere dwarf,\" whispered my uncle.",
+      "translation": "Amcam, \"Okyanuslarımızın büyük balinasının yanında cüce kalacağı türden bir yaratık,\" diye fısıldadı.",
+      "notes": "Sayfa 17 | a mere dwarf: sadece bir cüce."
+    },
+    {
+      "id": 338,
+      "start_ms": 2286844,
+      "end_ms": 2292244,
+      "text": "He checked his double-barreled rifle, loading both chambers with explosive bullets.",
+      "translation": "Her iki namluyu da patlayıcı kurşunlarla doldurarak çifte namlulu tüfeğini kontrol etti.",
+      "notes": "Sayfa 17 | double-barreled rifle: çifte namlulu tüfek."
+    },
+    {
+      "id": 339,
+      "start_ms": 2292644,
+      "end_ms": 2299052,
+      "text": "A heavy silence descended over the raft, broken only by the whistling wind and our anxious breathing.",
+      "translation": "Yalnızca ıslık çalan rüzgar ve endişeli nefeslerimizle bozulan ağır bir sessizlik salın üzerine çöktü.",
+      "notes": "Sayfa 17 | heavy silence descended: ağır bir sessizlik çöktü."
+    },
+    {
+      "id": 340,
+      "start_ms": 2299452,
+      "end_ms": 2305932,
+      "text": "We knew that somewhere beneath our timber planks, the terrifying monarchs of the Jurassic ocean were hunting.",
+      "translation": "Ahşap kalaslarımızın altında bir yerlerde Jura okyanusunun korkunç hükümdarlarının avlandığını biliyorduk.",
+      "notes": "Sayfa 17 | terrifying monarchs: korkunç hükümdarlar."
+    },
+    {
+      "id": 341,
+      "start_ms": 2306932,
+      "end_ms": 2312884,
+      "text": "On the morning of the eighteenth of August, the water suddenly bubbled and heaved around our raft.",
+      "translation": "18 Ağustos sabahında su, salımızın etrafında aniden kaynadı ve kabardı.",
+      "notes": "Sayfa 18 | bubbled and heaved: köpürüp kabardı."
+    },
+    {
+      "id": 342,
+      "start_ms": 2313284,
+      "end_ms": 2318804,
+      "text": "Hans pointed toward the horizon where an enormous black mass rose above the surface.",
+      "translation": "Hans, yüzeyin üzerinde devasa siyah bir kütlenin yükseldiği ufka doğru işaret etti.",
+      "notes": "Sayfa 18 | enormous black mass: devasa siyah kütle."
+    },
+    {
+      "id": 343,
+      "start_ms": 2319204,
+      "end_ms": 2326668,
+      "text": "\"It is a colossal porpoise!\" I shouted, but a moment later another monstrous form breached the waves.",
+      "translation": "\"O devasa bir yunus!\" diye bağırdım ama bir an sonra bir başka canavarca biçim dalgaları yardı.",
+      "notes": "Sayfa 18 | breached the waves: dalgaları yarıp yüzeye çıktı."
+    },
+    {
+      "id": 344,
+      "start_ms": 2327068,
+      "end_ms": 2334892,
+      "text": "\"No!\" cried my uncle. \"There is a sea crocodile with the teeth of a shark, and beside it a giant turtle!\"",
+      "translation": "Amcam, \"Hayır!\" diye haykırdı. \"Orada köpekbalığı dişlerine sahip bir deniz timsahı var ve yanında da dev bir kaplumbağa!\"",
+      "notes": "Sayfa 18 | sea crocodile: deniz timsahı."
+    },
+    {
+      "id": 345,
+      "start_ms": 2335292,
+      "end_ms": 2341940,
+      "text": "Two antediluvian leviathans were approaching each other, their movements churning the calm water into white foam.",
+      "translation": "Tufan öncesi iki deniz canavarı birbirine yaklaşıyordu ve hareketleri sakin suyu beyaz köpüğe çeviriyordu.",
+      "notes": "Sayfa 18 | antediluvian leviathans: tufan öncesi dev deniz yaratıkları."
+    },
+    {
+      "id": 346,
+      "start_ms": 2342340,
+      "end_ms": 2350452,
+      "text": "The first monster was an Ichthyosaurus, over one hundred feet in length, with the snout of a porpoise and gigantic circular eyes.",
+      "translation": "İlk canavar, yüz fitten uzun boyu, yunus burnu ve devasa yuvarlak gözleriyle bir İhtiyozor'du.",
+      "notes": "Sayfa 18 | gigantic circular eyes: devasa yuvarlak gözler."
+    },
+    {
+      "id": 347,
+      "start_ms": 2350852,
+      "end_ms": 2357644,
+      "text": "Its eyes were as large as carriage wheels, glowing with terrifying ferocity in the electrical luminescence.",
+      "translation": "Gözleri fayton tekerlekleri kadar büyüktü ve elektriksel ışıltı içinde korkunç bir vahşetle parlıyordu.",
+      "notes": "Sayfa 18 | carriage wheels: fayton tekerlekleri."
+    },
+    {
+      "id": 348,
+      "start_ms": 2358044,
+      "end_ms": 2366396,
+      "text": "The second creature was a Plesiosaurus, a gigantic serpent with a cylindrical body, a short tail, and paddles like oars.",
+      "translation": "İkinci yaratık ise silindirik bir gövdesi, kısa bir kuyruğu ve kürek benzeri yüzgeçleri olan devasa bir yılan gibi bir Pleziyozor'du.",
+      "notes": "Sayfa 18 | serpent with cylindrical body: silindirik gövdeli yılan."
+    },
+    {
+      "id": 349,
+      "start_ms": 2366796,
+      "end_ms": 2373948,
+      "text": "Its long, flexible neck rose thirty feet out of the sea, darting like an enormous swan striking at prey.",
+      "translation": "Uzun ve esnek boynu denizden otuz fit dışarı yükseliyor, ava vuran devasa bir kuğu gibi ileri atılıyordu.",
+      "notes": "Sayfa 18 | darting like a swan: kuğu gibi ileri atılan."
+    },
+    {
+      "id": 350,
+      "start_ms": 2374348,
+      "end_ms": 2381188,
+      "text": "The two prehistoric titans collided with the fury of thunderbolts, completely ignoring our trembling raft.",
+      "translation": "İki tarih öncesi titan, titreyen salımızı tamamen görmezden gelerek yıldırım öfkesiyle çarpıştı.",
+      "notes": "Sayfa 18 | collided with the fury: öfkeyle çarpıştı."
+    },
+    {
+      "id": 351,
+      "start_ms": 2381588,
+      "end_ms": 2387396,
+      "text": "The Plesiosaurus wound its serpentine coils around the armored flank of the Ichthyosaurus.",
+      "translation": "Pleziyozor yılansı kıvrımlarını İhtiyozor'un zırhlı böğrüne doladı.",
+      "notes": "Sayfa 18 | serpentine coils: yılansı kıvrımlar / halkalar."
+    },
+    {
+      "id": 352,
+      "start_ms": 2387796,
+      "end_ms": 2394828,
+      "text": "In response, the giant fish sank its rows of conical teeth into the reptile's soft, writhing neck.",
+      "translation": "Buna karşılık dev balık, konik diş sıralarını sürüngenin yumuşak, kıvranan boynuna geçirdi.",
+      "notes": "Sayfa 18 | rows of conical teeth: konik diş sıraları."
+    },
+    {
+      "id": 353,
+      "start_ms": 2395228,
+      "end_ms": 2402068,
+      "text": "Fountains of red blood erupted into the air, staining the surface of the subterranean sea for miles around.",
+      "translation": "Kızıl kan fıskiyeleri havaya püskürdü ve yeraltı denizinin yüzeyini miller boyunca kızıla boyadı.",
+      "notes": "Sayfa 18 | fountains of red blood: kızıl kan fıskiyeleri."
+    },
+    {
+      "id": 354,
+      "start_ms": 2402468,
+      "end_ms": 2409116,
+      "text": "The violent battle created immense tidal waves that threatened to overturn our fragile craft at every surge.",
+      "translation": "Şiddetli muharebe, her kabarmada kırılgan teknemizi alabora etmekle tehdit eden devasa dalgalar yarattı.",
+      "notes": "Sayfa 18 | threatened to overturn: alabora etmekle tehdit etti."
+    },
+    {
+      "id": 355,
+      "start_ms": 2409516,
+      "end_ms": 2416236,
+      "text": "Hans clung tightly to the rudder, keeping the raft aligned with the crashing breakers with superhuman composure.",
+      "translation": "Hans dümeni sımsıkı tuttu ve insanüstü bir soğukkanlılıkla salı çarpan dalgaların doğrultusunda tuttu.",
+      "notes": "Sayfa 18 | superhuman composure: insanüstü soğukkanlılık."
+    },
+    {
+      "id": 356,
+      "start_ms": 2416636,
+      "end_ms": 2423524,
+      "text": "For two agonizing hours, the primeval duel raged between the snapping jaws and twisting coils.",
+      "translation": "İki ıstırap dolu saat boyunca şakırdayan çeneler ile kıvrılan halkalar arasında ilkel düello sürüp gitti.",
+      "notes": "Sayfa 18 | primeval duel raged: ilkel düello şiddetle sürdü."
+    },
+    {
+      "id": 357,
+      "start_ms": 2423924,
+      "end_ms": 2430692,
+      "text": "At last, the thrashing of the Plesiosaurus grew weak as its severed throat poured life onto the waves.",
+      "translation": "Sonunda, parçalanan boğazı dalgaların üzerine hayat akıtırken Pleziyozor'un çırpınışları zayıfladı.",
+      "notes": "Sayfa 18 | severed throat: parçalanmış / kesilmiş boğaz."
+    },
+    {
+      "id": 358,
+      "start_ms": 2431092,
+      "end_ms": 2437188,
+      "text": "The dying serpent collapsed into the sea, its lifeless neck trailing behind in the bloody foam.",
+      "translation": "Can çekişen yılan, cansız boynu kanlı köpüğün ardında sürüklenerek denize yığıldı.",
+      "notes": "Sayfa 18 | collapsed into the sea: denize yığıldı."
+    },
+    {
+      "id": 359,
+      "start_ms": 2437588,
+      "end_ms": 2443900,
+      "text": "The victorious Ichthyosaurus plunged into the unfathomable depths to devour its slaughtered adversary.",
+      "translation": "Zafer kazanan İhtiyozor, katledilen hasmını yutmak için dipsiz derinliklere daldı.",
+      "notes": "Sayfa 18 | slaughtered adversary: katledilen hasım / rakip."
+    },
+    {
+      "id": 360,
+      "start_ms": 2444300,
+      "end_ms": 2450780,
+      "text": "We exhaled a collective sigh of deliverance, knowing we had narrowly escaped the most horrific demise.",
+      "translation": "En korkunç ölümden kıl payı kurtulduğumuzu bilerek hep birlikte bir kurtuluş nefesi verdik.",
+      "notes": "Sayfa 18 | collective sigh of deliverance: hep birlikte verilen kurtuluş nefesi."
+    },
+    {
+      "id": 361,
+      "start_ms": 2451780,
+      "end_ms": 2458572,
+      "text": "On the twenty-sixth of August, the air grew oppressively hot and charged with heavy atmospheric electricity.",
+      "translation": "26 Ağustos'ta hava boğucu derecede ısındı ve yoğun atmosferik elektrikle yüklendi.",
+      "notes": "Sayfa 19 | oppressively hot: boğucu derecede sıcak."
+    },
+    {
+      "id": 362,
+      "start_ms": 2458972,
+      "end_ms": 2466004,
+      "text": "Our hair stood on end, and small blue sparks leaped from our fingertips whenever we touched metal objects.",
+      "translation": "Saçlarımız dikildi ve metal nesnelere ne zaman dokunsak parmak uçlarımızdan küçük mavi kıvılcımlar sıçradı.",
+      "notes": "Sayfa 19 | hair stood on end: saçları diken diken oldu."
+    },
+    {
+      "id": 363,
+      "start_ms": 2466404,
+      "end_ms": 2472404,
+      "text": "Dense, pitch-black clouds gathered rapidly beneath the towering granite ceiling of the cavern.",
+      "translation": "Mağaranın yükselen granit tavanının altında hızla yoğun, zifiri karanlık bulutlar toplandı.",
+      "notes": "Sayfa 19 | pitch-black clouds: zifiri siyah bulutlar."
+    },
+    {
+      "id": 364,
+      "start_ms": 2472804,
+      "end_ms": 2479428,
+      "text": "\"A subterranean hurricane is upon us!\" shouted my uncle, struggling to secure the loose luggage.",
+      "translation": "Gevşek bagajları bağlamaya çabalayan amcam, \"Bir yeraltı kasırgası üzerimize geliyor!\" diye bağırdı.",
+      "notes": "Sayfa 19 | hurricane is upon us: kasırga başımızda / üzerimize geliyor."
+    },
+    {
+      "id": 365,
+      "start_ms": 2479828,
+      "end_ms": 2486284,
+      "text": "Before we could lower the linen sail, a furious squall struck our raft with devastating violence.",
+      "translation": "Biz keten yelkeni indiremeden, azgın bir boran yıkıcı bir şiddetle salımıza çarptı.",
+      "notes": "Sayfa 19 | furious squall struck: azgın boran çarptı."
+    },
+    {
+      "id": 366,
+      "start_ms": 2486684,
+      "end_ms": 2492948,
+      "text": "The mast snapped like a fragile reed, and our sail was ripped away into the whirling black sky.",
+      "translation": "Direk kırılgan bir kamış gibi kırıldı ve yelkenimiz girdaplı siyah gökyüzüne doğru kopup gitti.",
+      "notes": "Sayfa 19 | snapped like a fragile reed: narin bir kamış gibi kırıldı."
+    },
+    {
+      "id": 367,
+      "start_ms": 2493348,
+      "end_ms": 2500188,
+      "text": "Colossal waves, thirty feet high, lifted our little platform and plunged it into deep watery chasms.",
+      "translation": "Otuz fit yüksekliğindeki devasa dalgalar küçük platformumuzu havaya kaldırdı ve derin sulu yarıklara fırlattı.",
+      "notes": "Sayfa 19 | plunged into deep chasms: derin yarıklara fırlattı."
+    },
+    {
+      "id": 368,
+      "start_ms": 2500588,
+      "end_ms": 2507068,
+      "text": "Hans tied Axel and the professor to the heavy timbers with thick cords to keep us from being washed away.",
+      "translation": "Hans, dalgalara kapılıp gitmeyelim diye Axel'ı ve profesörü kalın iplerle ağır kerestelere bağladı.",
+      "notes": "Sayfa 19 | washed away: dalgalarla sürüklenip gitmek."
+    },
+    {
+      "id": 369,
+      "start_ms": 2507468,
+      "end_ms": 2513852,
+      "text": "Thunder roared continuously through the underground vault with a deafening reverberation that shook our bones.",
+      "translation": "Gök gürültüsü kemiklerimizi sarsan sağır edici bir yankılanmayla yeraltı kubbesinde aralıksız gürledi.",
+      "notes": "Sayfa 19 | deafening reverberation: sağır edici yankılanma."
+    },
+    {
+      "id": 370,
+      "start_ms": 2514252,
+      "end_ms": 2521236,
+      "text": "Brilliant flashes of sheet lightning illuminated the wild foam, turning the sea into a cauldron of white fire.",
+      "translation": "Şimşeklerin parlak çakışları vahşi köpüğü aydınlattı, denizi beyaz bir ateş kazanına çevirdi.",
+      "notes": "Sayfa 19 | cauldron of white fire: beyaz ateş kazanı."
+    },
+    {
+      "id": 371,
+      "start_ms": 2521636,
+      "end_ms": 2529532,
+      "text": "Suddenly, a glowing sphere of electrical plasma—a ball of Saint Elmo's fire—settled upon our shattered mast.",
+      "translation": "Aniden, parıldayan bir elektriksel plazma küresi—bir Aziz Elmo ateşi topu—parçalanmış direğimizin üzerine kondu.",
+      "notes": "Sayfa 19 | Saint Elmo's fire: Aziz Elmo ateşi."
+    },
+    {
+      "id": 372,
+      "start_ms": 2529932,
+      "end_ms": 2537084,
+      "text": "The azure fireball hissed and spun with blinding brilliance, hopping from our gunpowder kegs to our iron tools.",
+      "translation": "Masmavi ateş topu barut fıçılarımızdan demir aletlerimize sıçrayarak kör edici bir parlaklıkla tısladı ve döndü.",
+      "notes": "Sayfa 19 | blinding brilliance: kör edici parlaklık."
+    },
+    {
+      "id": 373,
+      "start_ms": 2537484,
+      "end_ms": 2544540,
+      "text": "I watched in paralyzed horror, expecting our gunpowder to explode at any microsecond and tear us to atoms.",
+      "translation": "Barutumuzun her an patlayıp bizi atomlarımıza ayırmasını bekleyerek felç olmuş bir dehşet içinde izledim.",
+      "notes": "Sayfa 19 | paralyzed horror: felç eden dehşet."
+    },
+    {
+      "id": 374,
+      "start_ms": 2544940,
+      "end_ms": 2551804,
+      "text": "For four dreadful days and nights, the tempest drove our raft across the uncharted sea at dizzying speed.",
+      "translation": "Dört korkunç gün ve gece boyunca fırtına, salımızı haritası çıkarılmamış denizde baş döndürücü bir hızla sürükledi.",
+      "notes": "Sayfa 19 | dizzying speed: baş döndürücü hız."
+    },
+    {
+      "id": 375,
+      "start_ms": 2552204,
+      "end_ms": 2558348,
+      "text": "We had neither food nor rest, soaked to the bone and battered by the merciless subterranean gale.",
+      "translation": "İliğimize kadar ıslanmış ve acımasız yeraltı fırtınasıyla hırpalanmış halde ne yemeğimiz vardı ne de dinlenebildik.",
+      "notes": "Sayfa 19 | soaked to the bone: iliklerine kadar ıslanmış."
+    },
+    {
+      "id": 376,
+      "start_ms": 2558748,
+      "end_ms": 2565804,
+      "text": "On the fifth day, a terrifying sound rose above the roar of the wind: the booming of breakers on rocks.",
+      "translation": "Beşinci günde rüzgarın kükremesinin üzerinde korkunç bir ses yükseldi: dalgaların kayalıklarda patlaması.",
+      "notes": "Sayfa 19 | breakers on rocks: kayalara çarpan azgın dalgalar."
+    },
+    {
+      "id": 377,
+      "start_ms": 2566204,
+      "end_ms": 2572708,
+      "text": "\"Land!\" cried Hans, his voice rising in alarm for the first time since our expedition began.",
+      "translation": "Keşif gezimiz başladığından beri ilk kez sesi telaşla yükselen Hans, \"Kara!\" diye bağırdı.",
+      "notes": "Sayfa 19 | rising in alarm: telaşla yükselen."
+    },
+    {
+      "id": 378,
+      "start_ms": 2573108,
+      "end_ms": 2579948,
+      "text": "Before us loomed a wall of jagged basalt reefs upon which immense waves were crashing with explosive fury.",
+      "translation": "Önümüzde, devasa dalgaların patlayıcı bir öfkeyle çarptığı sarp bazalt resiflerinden bir duvar belirdi.",
+      "notes": "Sayfa 19 | jagged basalt reefs: sarp bazalt resifleri."
+    },
+    {
+      "id": 379,
+      "start_ms": 2580348,
+      "end_ms": 2585820,
+      "text": "A monstrous wave picked up our craft and hurled it straight into the black granite barrier.",
+      "translation": "Canavarca bir dalga teknemizi kaldırdı ve dosdoğru siyah granit barikatın üzerine fırlattı.",
+      "notes": "Sayfa 19 | hurled it straight into: dosdoğru içine fırlattı."
+    },
+    {
+      "id": 380,
+      "start_ms": 2586220,
+      "end_ms": 2592964,
+      "text": "The raft splintered with a sickening crunch, and I was thrown violently onto a sandy ledge before blacking out.",
+      "translation": "Sal insanın içini kaldıran bir çatırtıyla parçalandı ve ben bilincimi kaybetmeden önce şiddetle kumlu bir sete fırlatıldım.",
+      "notes": "Sayfa 19 | splintered with a crunch: çatırtıyla paramparça oldu."
+    },
+    {
+      "id": 381,
+      "start_ms": 2593964,
+      "end_ms": 2600444,
+      "text": "When I regained consciousness, I found myself resting safely on a wide shore of golden sand.",
+      "translation": "Yeniden bilincime kavuştuğumda kendimi altın rengi kumdan geniş bir sahilde güvenle dinlenirken buldum.",
+      "notes": "Sayfa 20 | regained consciousness: bilincini yeniden kazandı."
+    },
+    {
+      "id": 382,
+      "start_ms": 2600844,
+      "end_ms": 2607276,
+      "text": "Hans had once again performed a miracle, pulling both my uncle and me from the foaming jaws of death.",
+      "translation": "Hans hem amcamı hem de beni ölümün köpüren çenelerinden çekip alarak bir kez daha mucize yaratmıştı.",
+      "notes": "Sayfa 20 | foaming jaws of death: ölümün köpüren çeneleri."
+    },
+    {
+      "id": 383,
+      "start_ms": 2607676,
+      "end_ms": 2615188,
+      "text": "Remarkably, most of our precious apparatus, gunpowder kegs, and food packages had also been salvaged.",
+      "translation": "Dikkate değer bir şekilde değerli aletlerimizin, barut fıçılarımızın ve yiyecek paketlerimizin çoğu da kurtarılmıştı.",
+      "notes": "Sayfa 20 | salvaged: kurtarıldı."
+    },
+    {
+      "id": 384,
+      "start_ms": 2615588,
+      "end_ms": 2622332,
+      "text": "The furious hurricane had blown itself out, leaving the subterranean sea calm and peaceful once again.",
+      "translation": "Öfkeli kasırga gücünü tüketmiş, yeraltı denizini bir kez daha sakin ve huzurlu bırakmıştı.",
+      "notes": "Sayfa 20 | blown itself out: gücünü tüketip dinmiş."
+    },
+    {
+      "id": 385,
+      "start_ms": 2622732,
+      "end_ms": 2629092,
+      "text": "While Hans repaired the battered raft, my uncle and I set out to explore the uncharted coast.",
+      "translation": "Hans hırpalanmış salı tamir ederken, amcam ve ben haritası çıkarılmamış sahili keşfetmek üzere yola çıktık.",
+      "notes": "Sayfa 20 | set out to explore: keşfetmek üzere yola çıktı."
+    },
+    {
+      "id": 386,
+      "start_ms": 2629492,
+      "end_ms": 2635324,
+      "text": "We soon discovered a vast plain littered with hundreds of thousands of fossilized skeletons.",
+      "translation": "Kısa süre sonra yüz binlerce fosilleşmiş iskeletle dolu devasa bir ovayı keşfettik.",
+      "notes": "Sayfa 20 | littered with skeletons: iskeletlerle dolu / saçılmış."
+    },
+    {
+      "id": 387,
+      "start_ms": 2635724,
+      "end_ms": 2643020,
+      "text": "Here lay the petrified remains of mastodons, dinotheriums, megatheriums, and ancient pachyderms.",
+      "translation": "Burada mastodonların, dinoteryumların, megateryumların ve kadim kalın derililerin taşlaşmış kalıntıları yatıyordu.",
+      "notes": "Sayfa 20 | petrified remains: taşlaşmış kalıntılar."
+    },
+    {
+      "id": 388,
+      "start_ms": 2643420,
+      "end_ms": 2650380,
+      "text": "Suddenly, Professor Lidenbrock uttered a loud cry and knelt beside a rounded bone half-buried in the sand.",
+      "translation": "Aniden Profesör Lidenbrock yüksek bir çığlık attı ve kuma yarı gömülü yuvarlak bir kemiğin yanında diz çöktü.",
+      "notes": "Sayfa 20 | half-buried in sand: kuma yarı gömülü."
+    },
+    {
+      "id": 389,
+      "start_ms": 2650780,
+      "end_ms": 2656324,
+      "text": "He held up a perfectly preserved human cranium with trembling, worshipful hands.",
+      "translation": "Titreyen, taparcasına elleriyle kusursuz korunmuş bir insan kafatasını havaya kaldırdı.",
+      "notes": "Sayfa 20 | human cranium: insan kafatası."
+    },
+    {
+      "id": 390,
+      "start_ms": 2656724,
+      "end_ms": 2662700,
+      "text": "\"A human skull, Axel!\" he cried, tears of triumph gleaming in his spectacles.",
+      "translation": "Gözlüklerinde zafer gözyaşları parıldayarak, \"Bir insan kafatası, Axel!\" diye haykırdı.",
+      "notes": "Sayfa 20 | tears of triumph: zafer gözyaşları."
+    },
+    {
+      "id": 391,
+      "start_ms": 2663100,
+      "end_ms": 2669316,
+      "text": "\"The skull of an antediluvian man who lived contemporaneously with the mastodon and the giant elk!\"",
+      "translation": "\"Mastodon ve dev geyikle aynı çağda yaşamış tufan öncesi bir insanın kafatası bu!\"",
+      "notes": "Sayfa 20 | lived contemporaneously: çağdaş olarak yaşadı."
+    },
+    {
+      "id": 392,
+      "start_ms": 2669716,
+      "end_ms": 2676700,
+      "text": "This discovery shattered every established geological dogma regarding the origin and antiquity of mankind.",
+      "translation": "Bu keşif, insanlığın kökeni ve kadimliği konusundaki yerleşik tüm jeolojik dogmaları yerle bir etti.",
+      "notes": "Sayfa 20 | shattered established dogma: yerleşik dogmaları yıktı."
+    },
+    {
+      "id": 393,
+      "start_ms": 2677100,
+      "end_ms": 2683604,
+      "text": "We advanced further into a forest of primeval arborescent ferns, drawn by a mysterious sound.",
+      "translation": "Gizemli bir sesin peşinden ilkel ağaçsı eğrelti otlarından oluşan bir ormanın daha da içine ilerledik.",
+      "notes": "Sayfa 20 | arborescent ferns: ağaçsı eğrelti otları."
+    },
+    {
+      "id": 394,
+      "start_ms": 2684004,
+      "end_ms": 2689428,
+      "text": "Through an opening in the trees, we beheld a sight that froze the blood in our veins.",
+      "translation": "Ağaçların arasındaki bir açıklıktan damarlarımızdaki kanı donduran bir manzaraya şahit olduk.",
+      "notes": "Sayfa 20 | froze the blood in veins: damarlarındaki kanı dondurdu."
+    },
+    {
+      "id": 395,
+      "start_ms": 2689828,
+      "end_ms": 2695612,
+      "text": "A herd of gigantic living mammoths was grazing peacefully on the subterranean foliage.",
+      "translation": "Canlı devasa mamutlardan oluşan bir sürü yeraltı yapraklarını huzur içinde otluyordu.",
+      "notes": "Sayfa 20 | grazing peacefully: huzurla otlayan."
+    },
+    {
+      "id": 396,
+      "start_ms": 2696012,
+      "end_ms": 2702852,
+      "text": "Their enormous curved tusks gleamed in the twilight, and their massive hairy trunks uprooted entire bushes.",
+      "translation": "Devasa kıvrık fildişleri alacakaranlıkta parıldıyor ve dev kıllı hortumları koca çalıları kökünden söküyordu.",
+      "notes": "Sayfa 20 | enormous curved tusks: devasa kıvrık fildişleri."
+    },
+    {
+      "id": 397,
+      "start_ms": 2703252,
+      "end_ms": 2709660,
+      "text": "Even more incredible, leaning against a gigantic trunk was a living colossus over twelve feet tall!",
+      "translation": "Daha da inanılmazı, devasa bir gövdeye yaslanmış halde boyu on iki fiti aşan canlı bir dev vardı!",
+      "notes": "Sayfa 20 | living colossus: canlı bir dev / devasa varlık."
+    },
+    {
+      "id": 398,
+      "start_ms": 2710060,
+      "end_ms": 2716684,
+      "text": "It was a giant shepherd with wild mane of hair, guiding the herd of primeval beasts with a huge club.",
+      "translation": "Yabanıl yele gibi saçları olan, devasa bir sopayla ilkel canavarlar sürüsünü güden dev bir çobandı bu.",
+      "notes": "Sayfa 20 | giant shepherd: dev çoban."
+    },
+    {
+      "id": 399,
+      "start_ms": 2717084,
+      "end_ms": 2724428,
+      "text": "\"Flee, Uncle!\" I whispered in mortal terror, pulling him backward before the giant could spot us.",
+      "translation": "Dev bizi fark etmeden önce amcamı geriye doğru çekerek ölümcül bir dehşetle, \"Kaçalım amca!\" diye fısıldadım.",
+      "notes": "Sayfa 20 | mortal terror: ölümcül dehşet."
+    },
+    {
+      "id": 400,
+      "start_ms": 2724828,
+      "end_ms": 2730684,
+      "text": "We retreated in breathless haste back toward the safety of the rocky shore where Hans was waiting.",
+      "translation": "Hans'ın beklediği kayalık sahilin güvenliğine doğru nefes nefese bir telaşla geri çekildik.",
+      "notes": "Sayfa 20 | retreated in breathless haste: nefes nefese bir aceleyle geri çekildi."
+    },
+    {
+      "id": 401,
+      "start_ms": 2731684,
+      "end_ms": 2737852,
+      "text": "Having escaped the primeval forest, we walked along the base of towering cliffs of dark granite.",
+      "translation": "İlkel ormandan kaçtıktan sonra koyu granitten yükselen uçurumların eteği boyunca yürüdük.",
+      "notes": "Sayfa 21 | base of towering cliffs: yükselen sarp kayalıkların eteği."
+    },
+    {
+      "id": 402,
+      "start_ms": 2738252,
+      "end_ms": 2743676,
+      "text": "My uncle took out his pocket compass to determine our direction across this new continent.",
+      "translation": "Amcam bu yeni kıtadaki yönümüzü belirlemek için cep pusulasını çıkardı.",
+      "notes": "Sayfa 21 | determine our direction: yönümüzü belirlemek."
+    },
+    {
+      "id": 403,
+      "start_ms": 2744076,
+      "end_ms": 2749548,
+      "text": "To his utter bewilderment, the needle pointed north toward the sea we had just crossed.",
+      "translation": "Onu tam bir hayrete düşürecek şekilde ibre, az önce geçtiğimiz denize doğru, yani kuzeye işaret ediyordu.",
+      "notes": "Sayfa 21 | utter bewilderment: tam bir şaşkınlık / hayret."
+    },
+    {
+      "id": 404,
+      "start_ms": 2749948,
+      "end_ms": 2755900,
+      "text": "The tempest had reversed its fury and blown our raft entirely backward to the northern shore!",
+      "translation": "Fırtına öfkesini tersine çevirmiş ve salımızı tamamen geriye, kuzey kıyısına savurmuştu!",
+      "notes": "Sayfa 21 | blown raft backward: salı geriye doğru savurdu."
+    },
+    {
+      "id": 405,
+      "start_ms": 2756300,
+      "end_ms": 2762924,
+      "text": "Professor Lidenbrock fell into a paroxysm of uncontrollable rage, kicking the sand in futile anger.",
+      "translation": "Profesör Lidenbrock nafile bir öfkeyle kumu tekmeleyerek kontrolsüz bir hiddet krizine tutuldu.",
+      "notes": "Sayfa 21 | paroxysm of rage: öfke krizi / nöbeti."
+    },
+    {
+      "id": 406,
+      "start_ms": 2763324,
+      "end_ms": 2768700,
+      "text": "All our perilous maritime journey seemed to have brought us right back to our starting point.",
+      "translation": "Tüm o tehlikeli deniz yolculuğumuz bizi sanki dosdoğru başlangıç noktamıza geri getirmiş gibiydi.",
+      "notes": "Sayfa 21 | perilous maritime journey: tehlikeli deniz yolculuğu."
+    },
+    {
+      "id": 407,
+      "start_ms": 2769100,
+      "end_ms": 2775652,
+      "text": "However, as I wandered along the rocky wall, my foot struck something hard half-buried in the shingle.",
+      "translation": "Ancak kayalık duvar boyunca gezinirken ayağım çakılların içine yarı gömülü sert bir şeye çarptı.",
+      "notes": "Sayfa 21 | half-buried in shingle: çakılların arasına yarı gömülü."
+    },
+    {
+      "id": 408,
+      "start_ms": 2776052,
+      "end_ms": 2781308,
+      "text": "It was a rusty sixteenth-century dagger, carved with Spanish craftsmanship.",
+      "translation": "İspanyol işçiliğiyle oyulmuş, paslı bir on altıncı yüzyıl hançeriydi bu.",
+      "notes": "Sayfa 21 | rusty dagger: paslı hançer."
+    },
+    {
+      "id": 409,
+      "start_ms": 2781708,
+      "end_ms": 2788788,
+      "text": "\"Uncle, look what I have found!\" I cried, holding the ancient blade aloft in the electrical light.",
+      "translation": "Kadim kılıcı elektrik ışığında havaya kaldırarak, \"Amca, ne bulduğuma bak!\" diye bağırdım.",
+      "notes": "Sayfa 21 | holding blade aloft: bıçağı havaya kaldırarak."
+    },
+    {
+      "id": 410,
+      "start_ms": 2789188,
+      "end_ms": 2796004,
+      "text": "\"A dagger!\" he gasped. \"A weapon left behind by human hands hundreds of years ago!\"",
+      "translation": "Nefesi kesilerek, \"Bir hançer!\" dedi. \"Yüzlerce yıl önce insan elleri tarafından geride bırakılmış bir silah!\"",
+      "notes": "Sayfa 21 | left behind by human hands: insan elleriyle geride bırakılmış."
+    },
+    {
+      "id": 411,
+      "start_ms": 2796404,
+      "end_ms": 2801996,
+      "text": "Saknussemm must have stood upon this exact spot before engraving his next signpost.",
+      "translation": "Saknussemm bir sonraki işaretini kazımadan önce tam da bu noktada durmuş olmalıydı.",
+      "notes": "Sayfa 21 | engraving next signpost: sonraki yol işaretini kazımak."
+    },
+    {
+      "id": 412,
+      "start_ms": 2802396,
+      "end_ms": 2809188,
+      "text": "We scrutinized the dark cliff face with our magnifying lenses, examining every fissure and crevice.",
+      "translation": "Her yarığı ve çatlağı inceleyerek koyu renk uçurum yüzeyini büyüteçlerimizle dikkatle taradık.",
+      "notes": "Sayfa 21 | scrutinized cliff face: uçurum yüzünü titizlikle inceledi."
+    },
+    {
+      "id": 413,
+      "start_ms": 2809588,
+      "end_ms": 2816164,
+      "text": "A few yards further, near the entrance of a dark opening, my uncle gave a cry of triumphant joy.",
+      "translation": "Birkaç yarda ileride, karanlık bir açıklığın girişinin yakınında amcam zafer dolu bir sevinç çığlığı attı.",
+      "notes": "Sayfa 21 | cry of triumphant joy: zafer dolu sevinç çığlığı."
+    },
+    {
+      "id": 414,
+      "start_ms": 2816564,
+      "end_ms": 2821964,
+      "text": "Carved into the vertical granite were two ancient runic characters: 'A. S.'",
+      "translation": "Dikey granitin içine kazınmış iki kadim rün harfi vardı: 'A. S.'",
+      "notes": "Sayfa 21 | carved into vertical granite: dikey granitin içine oyulmuş."
+    },
+    {
+      "id": 415,
+      "start_ms": 2822364,
+      "end_ms": 2830116,
+      "text": "\"Arne Saknussemm! Always Saknussemm!\" the professor shouted, kissing the cold stone with reverence.",
+      "translation": "Profesör soğuk taşı hürmetle öperek, \"Arne Saknussemm! Her zaman Saknussemm!\" diye haykırdı.",
+      "notes": "Sayfa 21 | kissing with reverence: hürmetle öperek."
+    },
+    {
+      "id": 416,
+      "start_ms": 2830516,
+      "end_ms": 2836660,
+      "text": "This was the true continuation of the route to the center of the Earth, leading through this dark passage.",
+      "translation": "Bu, Dünya'nın merkezine giden rotanın bu karanlık geçitten geçen gerçek devamıydı.",
+      "notes": "Sayfa 21 | continuation of the route: rotanın devamı."
+    },
+    {
+      "id": 417,
+      "start_ms": 2837060,
+      "end_ms": 2842508,
+      "text": "We rushed into the gallery, eager to pursue our glorious descent beneath the continent.",
+      "translation": "Kıtanın altındaki o şanlı inişimize devam etmek için can atarak galeriye doğru koştuk.",
+      "notes": "Sayfa 21 | eager to pursue: sürdürmeye hevesli."
+    },
+    {
+      "id": 418,
+      "start_ms": 2842908,
+      "end_ms": 2850132,
+      "text": "However, after taking barely twenty paces, our progress was abruptly halted by a catastrophic obstruction.",
+      "translation": "Ne var ki ancak yirmi adım attıktan sonra ilerleyişimiz feci bir engelle aniden durdu.",
+      "notes": "Sayfa 21 | abruptly halted: aniden durduruldu."
+    },
+    {
+      "id": 419,
+      "start_ms": 2850532,
+      "end_ms": 2857108,
+      "text": "An enormous monolithic boulder of granite had fallen from the ceiling, completely sealing the tunnel mouth.",
+      "translation": "Tavandan düşen devasa, yekpare bir granit kaya kütlesi tünelin ağzını tamamen kapatmıştı.",
+      "notes": "Sayfa 21 | completely sealing the mouth: ağzını tamamen mühürleyen / kapatan."
+    },
+    {
+      "id": 420,
+      "start_ms": 2857508,
+      "end_ms": 2863436,
+      "text": "It was an impassable wall of impenetrable rock, barring our way into the depths of the planet.",
+      "translation": "Gezegenin derinliklerine giden yolumuzu tıkayan, geçit vermez taştan aşılmaz bir duvardı bu.",
+      "notes": "Sayfa 21 | impassable wall: geçit vermez / aşılmaz duvar."
+    },
+    {
+      "id": 421,
+      "start_ms": 2864436,
+      "end_ms": 2869620,
+      "text": "My uncle stared at the enormous barrier with eyes burning with fierce obstinacy.",
+      "translation": "Amcam, şiddetli bir inatçılıkla yanan gözlerle devasa engele dik dik baktı.",
+      "notes": "Sayfa 22 | fierce obstinacy: şiddetli inatçılık."
+    },
+    {
+      "id": 422,
+      "start_ms": 2870020,
+      "end_ms": 2876476,
+      "text": "\"Neither granite nor iron will stop us now!\" he declared, striking the barrier with his fist.",
+      "translation": "Yumruğuyla engele vurarak, \"Şimdi ne granit ne de demir bizi durdurabilir!\" diye ilan etti.",
+      "notes": "Sayfa 22 | striking barrier with fist: yumruğuyla engele vurarak."
+    },
+    {
+      "id": 423,
+      "start_ms": 2876876,
+      "end_ms": 2883644,
+      "text": "\"We have survived hunger, monsters, and tempests; we shall not surrender to a mere lump of stone!\"",
+      "translation": "\"Açlıktan, canavarlardan ve kasırgalardan sağ çıktık; sadece bir taş parçasına boyun eğmeyeceğiz!\"",
+      "notes": "Sayfa 22 | surrender to a stone: bir taşa teslim olmak / boyun eğmek."
+    },
+    {
+      "id": 424,
+      "start_ms": 2884044,
+      "end_ms": 2889900,
+      "text": "He decided that we would shatter the monolithic obstruction using our remaining kegs of gunpowder.",
+      "translation": "Kalan barut fıçılarımızı kullanarak o yekpare engeli paramparça edeceğimize karar verdi.",
+      "notes": "Sayfa 22 | shatter monolithic obstruction: yekpare engeli parçalamak."
+    },
+    {
+      "id": 425,
+      "start_ms": 2890300,
+      "end_ms": 2895796,
+      "text": "Hans retrieved his pickaxe and an iron drill from our salvaged supplies on the shore.",
+      "translation": "Hans, sahildeki kurtarılmış malzemelerimizden kazmasını ve bir demir matkabı getirdi.",
+      "notes": "Sayfa 22 | salvaged supplies: kurtarılan malzemeler."
+    },
+    {
+      "id": 426,
+      "start_ms": 2896196,
+      "end_ms": 2902580,
+      "text": "For six grueling hours, the tireless guide bored a deep borehole into the heart of the granite boulder.",
+      "translation": "Altı zorlu saat boyunca yorulmak bilmez rehber, granit kayanın kalbine doğru derin bir delik açtı.",
+      "notes": "Sayfa 22 | tireless guide: yorulmak bilmez rehber."
+    },
+    {
+      "id": 427,
+      "start_ms": 2902980,
+      "end_ms": 2909460,
+      "text": "When the cavity reached a depth of over three feet, we packed it tightly with fifty pounds of gunpowder.",
+      "translation": "Boşluk üç fiti aşkın bir derinliğe ulaştığında, içini elli libre barutla sıkıca doldurduk.",
+      "notes": "Sayfa 22 | packed tightly: sıkıca doldurduk."
+    },
+    {
+      "id": 428,
+      "start_ms": 2909860,
+      "end_ms": 2915356,
+      "text": "We tamped the opening with clay and inserted a long linen fuse soaked in saltpeter.",
+      "translation": "Ağzını kille tıkadık ve güherçileye batırılmış uzun bir keten fitil yerleştirdik.",
+      "notes": "Sayfa 22 | linen fuse soaked in saltpeter: güherçileye batırılmış keten fitil."
+    },
+    {
+      "id": 429,
+      "start_ms": 2915756,
+      "end_ms": 2921132,
+      "text": "The detonation was scheduled for six o'clock on the morning of the twenty-seventh of August.",
+      "translation": "Patlama, 27 Ağustos sabahı saat altı için planlandı.",
+      "notes": "Sayfa 22 | scheduled for detonation: patlama için planlandı."
+    },
+    {
+      "id": 430,
+      "start_ms": 2921532,
+      "end_ms": 2928444,
+      "text": "To ensure our safety from flying debris, we resolved to wait aboard the raft anchored a hundred yards offshore.",
+      "translation": "Uçuşan taş parçalarından güvenliğimizi sağlamak için kıyıdan yüz yarda açıkta demirlemiş salın üzerinde beklemeye karar verdik.",
+      "notes": "Sayfa 22 | flying debris: uçuşan taş parçaları / döküntüler."
+    },
+    {
+      "id": 431,
+      "start_ms": 2928844,
+      "end_ms": 2934796,
+      "text": "At precisely a quarter to six, Hans stepped ashore and ignited the end of the long match.",
+      "translation": "Tam saat altıya çeyrek kala Hans kıyıya çıktı ve uzun fitilin ucunu ateşledi.",
+      "notes": "Sayfa 22 | ignited the end: ucunu ateşledi."
+    },
+    {
+      "id": 432,
+      "start_ms": 2935196,
+      "end_ms": 2942228,
+      "text": "He sprinted back to the beach, leaped aboard the raft, and shoved our craft vigorously out into the deep water.",
+      "translation": "Kumsala doğru koştu, sala atladı ve teknemizi kuvvetle derin sulara doğru itti.",
+      "notes": "Sayfa 22 | shoved vigorously: kuvvetle itti."
+    },
+    {
+      "id": 433,
+      "start_ms": 2942628,
+      "end_ms": 2948604,
+      "text": "We sat together on the wooden timbers, watching the tiny red spark hiss along the dark cliff.",
+      "translation": "Koyu renk uçurum boyunca tıslayarak ilerleyen minik kırmızı kıvılcımı izleyerek ahşap kerestelerin üzerinde yan yana oturduk.",
+      "notes": "Sayfa 22 | tiny red spark hiss: minik kırmızı kıvılcımın tıslaması."
+    },
+    {
+      "id": 434,
+      "start_ms": 2949004,
+      "end_ms": 2955052,
+      "text": "The fuse was calculated to burn for exactly ten minutes before reaching the explosive chamber.",
+      "translation": "Fitilin patlayıcı hazneye ulaşmadan önce tam on dakika boyunca yanacağı hesaplanmıştı.",
+      "notes": "Sayfa 22 | explosive chamber: patlayıcı haznesi."
+    },
+    {
+      "id": 435,
+      "start_ms": 2955452,
+      "end_ms": 2961428,
+      "text": "My uncle held his chronometer in his hand, counting down the seconds with suppressed agitation.",
+      "translation": "Amcam bastırılmış bir heyecanla saniyeleri geri sayarak kronometresini elinde tuttu.",
+      "notes": "Sayfa 22 | counting down seconds: saniyeleri geri saymak."
+    },
+    {
+      "id": 436,
+      "start_ms": 2961828,
+      "end_ms": 2969076,
+      "text": "\"One minute more... thirty seconds... fifteen... five...\" he whispered through clenched teeth.",
+      "translation": "Kenetlenmiş dişlerinin arasından, \"Bir dakika kaldı... otuz saniye... on beş... beş...\" diye fısıldadı.",
+      "notes": "Sayfa 22 | through clenched teeth: kenetlenmiş dişlerinin arasından."
+    },
+    {
+      "id": 437,
+      "start_ms": 2969476,
+      "end_ms": 2975572,
+      "text": "At zero, a momentary, terrifying silence hung over the dark subterranean sea.",
+      "translation": "Sıfırda, karanlık yeraltı denizinin üzerine anlık, korkunç bir sessizlik çöktü.",
+      "notes": "Sayfa 22 | momentary silence hung: anlık bir sessizlik çöktü."
+    },
+    {
+      "id": 438,
+      "start_ms": 2975972,
+      "end_ms": 2981276,
+      "text": "Then, the solid granite wall of the cliff seemed to rip open from top to bottom.",
+      "translation": "Ardından uçurumun sert granit duvarı tepeden tırnağa yırtılıp açılıyor gibi oldu.",
+      "notes": "Sayfa 22 | rip open from top to bottom: tepeden tırnağa yırtılıp açılmak."
+    },
+    {
+      "id": 439,
+      "start_ms": 2981676,
+      "end_ms": 2987484,
+      "text": "A flash of incandescent flame turned the subterranean twilight into blinding white daylight.",
+      "translation": "Akkor bir alev çakması yeraltı alacakaranlığını kör edici beyaz bir gün ışığına çevirdi.",
+      "notes": "Sayfa 22 | incandescent flame: akkor alev."
+    },
+    {
+      "id": 440,
+      "start_ms": 2987884,
+      "end_ms": 2994604,
+      "text": "A concussion so immense that it felt like the entire planet was shattering struck our ears with colossal force.",
+      "translation": "Bütün gezegen parçalanıyormuş gibi hissettiren o kadar muazzam bir sarsıntı kulaklarımıza devasa bir kuvvetle çarptı.",
+      "notes": "Sayfa 22 | concussion struck ears: sarsıntı kulaklara çarptı."
+    },
+    {
+      "id": 441,
+      "start_ms": 2995604,
+      "end_ms": 3000932,
+      "text": "The explosion did far more than simply shatter the granite boulder barring the gallery.",
+      "translation": "Patlama galeriyi tıkayan granit kayayı parçalamaktan çok daha fazlasını yaptı.",
+      "notes": "Sayfa 23 | far more than: ...den çok daha fazlası."
+    },
+    {
+      "id": 442,
+      "start_ms": 3001332,
+      "end_ms": 3007140,
+      "text": "It ruptured the entire foundational shelf holding back the waters of the subterranean ocean.",
+      "translation": "Yeraltı okyanusunun sularını tutan tüm temel taban sahanlığını yırttı.",
+      "notes": "Sayfa 23 | ruptured the foundational shelf: temel tabanı yırttı."
+    },
+    {
+      "id": 443,
+      "start_ms": 3007540,
+      "end_ms": 3014764,
+      "text": "A colossal chasm opened behind the destroyed doorway, plunging straight down into an infinite, bottomless abyss.",
+      "translation": "Yıkılan kapının ardında sonsuz, dipsiz bir uçuruma doğru dimdik inen devasa bir yarık açıldı.",
+      "notes": "Sayfa 23 | bottomless abyss: dipsiz uçurum."
+    },
+    {
+      "id": 444,
+      "start_ms": 3015164,
+      "end_ms": 3022844,
+      "text": "The entire Central Sea, millions of tons of water, began pouring into this colossal crack like a monstrous Niagara.",
+      "translation": "Milyonlarca ton sudan oluşan Merkez Denizi'nin tamamı, canavarca bir Niagara gibi bu devasa çatlağın içine akmaya başladı.",
+      "notes": "Sayfa 23 | pouring into colossal crack: devasa çatlağın içine akmaya başlayan."
+    },
+    {
+      "id": 445,
+      "start_ms": 3023244,
+      "end_ms": 3029772,
+      "text": "An irresistible aquatic current seized our raft, dragging it violently toward the roaring vortex.",
+      "translation": "Karşı konulmaz bir su akıntısı salımızı yakaladı ve kükreyen girdaba doğru şiddetle sürükledi.",
+      "notes": "Sayfa 23 | irresistible aquatic current: karşı konulmaz su akıntısı."
+    },
+    {
+      "id": 446,
+      "start_ms": 3030172,
+      "end_ms": 3035260,
+      "text": "\"Hold fast to the ropes!\" my uncle screamed above the deafening cataclysm.",
+      "translation": "Sağır edici felaketin üzerinde amcam, \"İplere sımsıkı tutunun!\" diye çığlık attı.",
+      "notes": "Sayfa 23 | hold fast to ropes: iplere sımsıkı tutunmak."
+    },
+    {
+      "id": 447,
+      "start_ms": 3035660,
+      "end_ms": 3042476,
+      "text": "Hans, with miraculous agility, threw himself over our remaining provisions and strapped us to the timbers.",
+      "translation": "Hans mucizevi bir çeviklikle kalan erzakımızın üzerine atıldı ve bizi kerestelere bağladı.",
+      "notes": "Sayfa 23 | miraculous agility: mucizevi çeviklik."
+    },
+    {
+      "id": 448,
+      "start_ms": 3042876,
+      "end_ms": 3047916,
+      "text": "A terrifying liquid mountain carried our craft to the very edge of the opening.",
+      "translation": "Korkunç bir sıvı dağ, teknemizi yarığın tam kenarına kadar taşıdı.",
+      "notes": "Sayfa 23 | terrifying liquid mountain: korkunç sıvı dağ."
+    },
+    {
+      "id": 449,
+      "start_ms": 3048316,
+      "end_ms": 3053932,
+      "text": "For one breathless second, the raft hung suspended in midair over the black gulf.",
+      "translation": "Nefes kesici bir saniye boyunca sal, kara boşluğun üzerinde havada asılı kaldı.",
+      "notes": "Sayfa 23 | hung suspended in midair: havada asılı kaldı."
+    },
+    {
+      "id": 450,
+      "start_ms": 3054332,
+      "end_ms": 3060332,
+      "text": "Then, we plummeted downward with dizzying, vertiginous velocity into the belly of the planet.",
+      "translation": "Ardından baş döndürücü bir hızla gezegenin karnına doğru aşağıya fırladık.",
+      "notes": "Sayfa 23 | plummeted downward: aşağıya doğru çakıldı / fırladı."
+    },
+    {
+      "id": 451,
+      "start_ms": 3060732,
+      "end_ms": 3067380,
+      "text": "We were not merely falling; we were riding the crest of an underground cataract of unimaginable magnitude.",
+      "translation": "Yalnızca düşmüyorduk; hayal bile edilemez büyüklükteki bir yeraltı çavlanının tepesinde sürükleniyorduk.",
+      "notes": "Sayfa 23 | riding the crest: tepesinde sürüklenmek."
+    },
+    {
+      "id": 452,
+      "start_ms": 3067780,
+      "end_ms": 3074764,
+      "text": "The wind tore at our clothes, and the rushing water roared like thousands of cannons firing simultaneously.",
+      "translation": "Rüzgar giysilerimizi parçalarcasına savuruyor ve akan su aynı anda ateşlenen binlerce top gibi kükrüyordu.",
+      "notes": "Sayfa 23 | cannons firing simultaneously: aynı anda ateşlenen toplar."
+    },
+    {
+      "id": 453,
+      "start_ms": 3075164,
+      "end_ms": 3080660,
+      "text": "All light disappeared instantly as we were swallowed by a vertical tunnel of solid rock.",
+      "translation": "Sert kayadan dikey bir tünel tarafından yutulduğumuz anda tüm ışık anında kayboldu.",
+      "notes": "Sayfa 23 | swallowed by vertical tunnel: dikey tünelce yutuldu."
+    },
+    {
+      "id": 454,
+      "start_ms": 3081060,
+      "end_ms": 3087468,
+      "text": "We clung to each other in the darkness, soaked, bruised, and convinced that our end had arrived.",
+      "translation": "Sırılsıklam, ezik içinde ve sonumuzun geldiğine inanmış bir halde karanlıkta birbirimize sarıldık.",
+      "notes": "Sayfa 23 | convinced that end arrived: sonun geldiğine inanmış."
+    },
+    {
+      "id": 455,
+      "start_ms": 3087868,
+      "end_ms": 3093940,
+      "text": "Hour after hour, the furious torrent hurled our wooden craft deeper and deeper into the Earth.",
+      "translation": "Saatler boyunca azgın çağlayan ahşap teknemizi Dünya'nın daha ve daha derinlerine fırlattı.",
+      "notes": "Sayfa 23 | hurled craft deeper: tekneyi daha derine fırlattı."
+    },
+    {
+      "id": 456,
+      "start_ms": 3094340,
+      "end_ms": 3100172,
+      "text": "My breath was forced back into my throat by the immense atmospheric pressure building around us.",
+      "translation": "Etrafımızda biriken muazzam atmosferik basınç nedeniyle nefesim boğazıma geri tıkandı.",
+      "notes": "Sayfa 23 | breath forced back into throat: nefesi boğazına tıkandı."
+    },
+    {
+      "id": 457,
+      "start_ms": 3100572,
+      "end_ms": 3107364,
+      "text": "How many leagues were we falling? Were we plunging directly toward the fiery molten core of the globe?",
+      "translation": "Kaç fersah boyunca düşüyorduk? Yerkürenin akkor halindeki erimiş çekirdeğine dosdoğru mu dalıyorduk?",
+      "notes": "Sayfa 23 | plunging directly toward: dosdoğru ...e dalan."
+    },
+    {
+      "id": 458,
+      "start_ms": 3107764,
+      "end_ms": 3113092,
+      "text": "No human mind could calculate our trajectory through this roaring abyss of darkness.",
+      "translation": "Hiçbir insan zihni bu kükreyen karanlık uçurumdaki yörüngemizi hesaplayamazdı.",
+      "notes": "Sayfa 23 | calculate trajectory: yörüngeyi hesaplamak."
+    },
+    {
+      "id": 459,
+      "start_ms": 3113492,
+      "end_ms": 3120212,
+      "text": "I lost all sense of time, space, and reality, floating between life and eternal oblivion.",
+      "translation": "Yaşam ile ebedi unutuluş arasında süzülerek tüm zaman, mekan ve gerçeklik algımı kaybettim.",
+      "notes": "Sayfa 23 | eternal oblivion: ebedi unutuluş / yokluk."
+    },
+    {
+      "id": 460,
+      "start_ms": 3120612,
+      "end_ms": 3126708,
+      "text": "Only the iron grip of Hans on my collar kept my limp body from slipping into the watery grave.",
+      "translation": "Yalnızca Hans'ın yakamdaki demir gibi tutuşu halsiz bedenimin sulu bir mezara kayıp gitmesini engelledi.",
+      "notes": "Sayfa 23 | watery grave: sulu mezar."
+    },
+    {
+      "id": 461,
+      "start_ms": 3127708,
+      "end_ms": 3134788,
+      "text": "After what seemed like an eternity of plunging, the furious downward velocity of our raft began to decelerate.",
+      "translation": "Sonsuzluk gibi gelen bir düşüşün ardından salımızın azgın aşağı yönlü hızı yavaşlamaya başladı.",
+      "notes": "Sayfa 24 | began to decelerate: yavaşlamaya başladı."
+    },
+    {
+      "id": 462,
+      "start_ms": 3135188,
+      "end_ms": 3142004,
+      "text": "The roaring cataract struck a subterranean reservoir, and the water level began to rise beneath our timbers.",
+      "translation": "Kükreyen çavlan bir yeraltı su haznesine çarptı ve su seviyesi kerestelerimizin altında yükselmeye başladı.",
+      "notes": "Sayfa 24 | subterranean reservoir: yeraltı haznesi / sarnıcı."
+    },
+    {
+      "id": 463,
+      "start_ms": 3142404,
+      "end_ms": 3148956,
+      "text": "Suddenly, I realized with a jolt of shock that we were no longer falling; we were rising rapidly!",
+      "translation": "Aniden bir şok sarsıntısıyla artık düşmediğimizi, hızla yükseldiğimizi fark ettim!",
+      "notes": "Sayfa 24 | jolt of shock: şok sarsıntısı."
+    },
+    {
+      "id": 464,
+      "start_ms": 3149356,
+      "end_ms": 3158380,
+      "text": "\"Uncle! Look! The water is carrying us upward!\" I shouted, rubbing my salt-crusted eyes.",
+      "translation": "Tuz bağlamış gözlerimi ovuşturarak, \"Amca! Bak! Su bizi yukarıya doğru taşıyor!\" diye bağırdım.",
+      "notes": "Sayfa 24 | carrying us upward: bizi yukarı taşıyor."
+    },
+    {
+      "id": 465,
+      "start_ms": 3158780,
+      "end_ms": 3164180,
+      "text": "My uncle lit a torch and examined the narrow vertical shaft enclosing our craft.",
+      "translation": "Amcam bir meşale yaktı ve teknemizi çevreleyen dar dikey bacayı inceledi.",
+      "notes": "Sayfa 24 | narrow vertical shaft: dar dikey baca."
+    },
+    {
+      "id": 466,
+      "start_ms": 3164580,
+      "end_ms": 3171012,
+      "text": "We were trapped inside an immense volcanic chimney, propelled upward like a piston inside a cylinder.",
+      "translation": "Bir silindirin içindeki piston gibi yukarı doğru itilerek devasa bir volkanik bacanın içinde kapana kısılmıştık.",
+      "notes": "Sayfa 24 | piston inside a cylinder: silindirin içindeki piston."
+    },
+    {
+      "id": 467,
+      "start_ms": 3171412,
+      "end_ms": 3177244,
+      "text": "Even more alarming, the temperature of the water around us was increasing at a terrifying rate.",
+      "translation": "Daha da korkutucu olanı, etrafımızdaki suyun sıcaklığı korkunç bir hızla artıyordu.",
+      "notes": "Sayfa 24 | increasing at a terrifying rate: korkunç bir hızla artıyordu."
+    },
+    {
+      "id": 468,
+      "start_ms": 3177644,
+      "end_ms": 3183548,
+      "text": "Dense clouds of white steam filled the shaft, making it almost impossible to draw breath.",
+      "translation": "Yoğun beyaz buhar bulutları bacayı doldurdu, nefes almayı neredeyse imkansız hale getirdi.",
+      "notes": "Sayfa 24 | draw breath: nefes almak."
+    },
+    {
+      "id": 469,
+      "start_ms": 3183948,
+      "end_ms": 3190164,
+      "text": "\"The water has met subterranean fires!\" the professor shouted, his voice shaking with awe.",
+      "translation": "Profesör sesi huşuyla titreyerek, \"Su yeraltı ateşleriyle buluştu!\" diye bağırdı.",
+      "notes": "Sayfa 24 | subterranean fires: yeraltı ateşleri."
+    },
+    {
+      "id": 470,
+      "start_ms": 3190564,
+      "end_ms": 3195580,
+      "text": "\"The ocean that poured into the chasm is being converted into superheated steam!\"",
+      "translation": "\"Yarığın içine dökülen okyanus aşırı ısınmış buhara dönüştürülüyor!\"",
+      "notes": "Sayfa 24 | superheated steam: aşırı ısınmış buhar."
+    },
+    {
+      "id": 471,
+      "start_ms": 3195980,
+      "end_ms": 3203036,
+      "text": "Beneath the boiling water, a glowing mass of liquid red magma was expanding with explosive volcanic pressure.",
+      "translation": "Kaynar suyun altında sıvı kızıl magmadan oluşan akkor bir kütle, patlayıcı volkanik basınçla genleşiyordu.",
+      "notes": "Sayfa 24 | liquid red magma: sıvı kızıl magma."
+    },
+    {
+      "id": 472,
+      "start_ms": 3203436,
+      "end_ms": 3208548,
+      "text": "We were caught in the throat of an active volcano in the middle of a full-scale eruption!",
+      "translation": "Geniş çaplı bir püskürmenin tam ortasında aktif bir yanardağın boğazında yakalanmıştık!",
+      "notes": "Sayfa 24 | full-scale eruption: geniş çaplı püskürme / patlama."
+    },
+    {
+      "id": 473,
+      "start_ms": 3208948,
+      "end_ms": 3215476,
+      "text": "\"We are going to be boiled alive or incinerated by lava!\" I wept in total despair.",
+      "translation": "Tam bir çaresizlikle ağlayarak, \"Canlı canlı haşlanacağız ya da lav tarafından küle çevrileceğiz!\" dedim.",
+      "notes": "Sayfa 24 | incinerated by lava: lav tarafından küle çevrilmiş."
+    },
+    {
+      "id": 474,
+      "start_ms": 3215876,
+      "end_ms": 3221852,
+      "text": "\"Courage, Axel!\" cried the professor, his eyes shining with scientific triumph.",
+      "translation": "Gözleri bilimsel bir zaferle parıldayan profesör, \"Cesur ol Axel!\" diye haykırdı.",
+      "notes": "Sayfa 24 | courage, Axel: cesur ol Axel."
+    },
+    {
+      "id": 475,
+      "start_ms": 3222252,
+      "end_ms": 3227268,
+      "text": "\"This eruption is our only chance of returning to the surface of the living world!\"",
+      "translation": "\"Bu püskürme, yaşayan dünyanın yüzeyine dönmek için tek şansımız!\"",
+      "notes": "Sayfa 24 | surface of the living world: yaşayan dünyanın yüzeyi."
+    },
+    {
+      "id": 476,
+      "start_ms": 3227668,
+      "end_ms": 3234556,
+      "text": "The thermometer climbed rapidly: one hundred degrees, one hundred and twenty, then one hundred and fifty!",
+      "translation": "Termometre hızla tırmandı: yüz derece, yüz yirmi, ardından yüz elli!",
+      "notes": "Sayfa 24 | thermometer climbed: termometre tırmandı / yükseldi."
+    },
+    {
+      "id": 477,
+      "start_ms": 3234956,
+      "end_ms": 3241796,
+      "text": "We cast off our heavy woolen coats, gasping for air and pouring cooler water over our burning heads.",
+      "translation": "Nefes nefese kalarak ve yanan başlarımızın üzerine daha serin sular dökerek kalın yün ceketlerimizi fırlatıp attık.",
+      "notes": "Sayfa 24 | gasping for air: nefes almaya çabalayarak."
+    },
+    {
+      "id": 478,
+      "start_ms": 3242196,
+      "end_ms": 3248820,
+      "text": "The raft was rising at the speed of a cannonball, vibrating violently against the smooth chimney walls.",
+      "translation": "Sal bir gülle hızıyla yükseliyor, pürüzsüz baca duvarlarına karşı şiddetle sarsılıyordu.",
+      "notes": "Sayfa 24 | speed of a cannonball: gülle hızıyla."
+    },
+    {
+      "id": 479,
+      "start_ms": 3249220,
+      "end_ms": 3255988,
+      "text": "A terrifying roar shook the mountain as rivers of liquid fire surged directly behind our floating timbers.",
+      "translation": "Sıvı ateş nehirleri yüzen kerestelerimizin hemen ardından kabarırken korkunç bir kükreme dağı sarstı.",
+      "notes": "Sayfa 24 | rivers of liquid fire: sıvı ateş nehirleri."
+    },
+    {
+      "id": 480,
+      "start_ms": 3256388,
+      "end_ms": 3263228,
+      "text": "Blinded by the incandescent glare and choked by sulfur fumes, I surrendered to blissful unconsciousness.",
+      "translation": "Akkor parıltıdan körleşmiş ve kükürt dumanlarıyla boğulmuş olarak kendimi huzurlu bir baygınlığa bıraktım.",
+      "notes": "Sayfa 24 | blissful unconsciousness: huzur verici baygınlık."
+    },
+    {
+      "id": 481,
+      "start_ms": 3264228,
+      "end_ms": 3270348,
+      "text": "When my eyelids slowly fluttered open, a blinding golden radiance greeted my astonished vision.",
+      "translation": "Göz kapaklarım yavaşça aralandığında, kör edici altın bir ışıltı şaşkın bakışlarımı selamladı.",
+      "notes": "Sayfa 25 | eyelids slowly fluttered open: göz kapakları yavaşça aralandı."
+    },
+    {
+      "id": 482,
+      "start_ms": 3270748,
+      "end_ms": 3277924,
+      "text": "It was not the pale electrical glow of the subterranean world, but the glorious, warm sunshine of our Earth.",
+      "translation": "Yeraltı dünyasının soluk elektriksel ışıltısı değil, Dünyamızın şanlı, sıcacık güneş ışığıydı bu.",
+      "notes": "Sayfa 25 | warm sunshine: sıcacık güneş ışığı."
+    },
+    {
+      "id": 483,
+      "start_ms": 3278324,
+      "end_ms": 3285764,
+      "text": "I was lying upon a soft bed of green grass, inhaling the sweet fragrance of blooming flowers and wild herbs.",
+      "translation": "Açan çiçeklerin ve yabani otların tatlı kokusunu içime çekerek yeşil çimenden yumuşak bir yatakta yatıyordum.",
+      "notes": "Sayfa 25 | sweet fragrance of blooming flowers: açan çiçeklerin tatlı kokusu."
+    },
+    {
+      "id": 484,
+      "start_ms": 3286164,
+      "end_ms": 3293004,
+      "text": "Beside me sat my uncle and Hans, their faces blackened with volcanic soot but completely unharmed.",
+      "translation": "Yanımda amcam ve Hans oturuyordu; yüzleri volkanik isle kararmıştı ama tamamen yarasızdılar.",
+      "notes": "Sayfa 25 | blackened with soot: isle kararmış."
+    },
+    {
+      "id": 485,
+      "start_ms": 3293404,
+      "end_ms": 3300628,
+      "text": "\"Axel! We are saved!\" my uncle exclaimed, embracing me with overflowing happiness.",
+      "translation": "Taşan bir mutlulukla bana sarılarak amcam, \"Axel! Kurtulduk!\" diye haykırdı.",
+      "notes": "Sayfa 25 | overflowing happiness: taşan mutluluk."
+    },
+    {
+      "id": 486,
+      "start_ms": 3301028,
+      "end_ms": 3307916,
+      "text": "The eruption had catapulted us through the smoking crater of a volcano and landed us gently on this grassy slope.",
+      "translation": "Püskürme bizi bir yanardağın tüten kraterinden yukarı fırlatmış ve bu çimenli yamaca nazikçe kondurmuştu.",
+      "notes": "Sayfa 25 | catapulted us through: ...den yukarı fırlattı."
+    },
+    {
+      "id": 487,
+      "start_ms": 3308316,
+      "end_ms": 3314988,
+      "text": "\"Are we back in Iceland?\" I asked, looking around at the lush vegetation and azure sea.",
+      "translation": "Gür bitki örtüsüne ve masmavi denize bakınarak, \"İzlanda'ya mı döndük?\" diye sordum.",
+      "notes": "Sayfa 25 | lush vegetation: gür bitki örtüsü."
+    },
+    {
+      "id": 488,
+      "start_ms": 3315388,
+      "end_ms": 3320044,
+      "text": "\"Look at those olive groves and terraced vineyards!\" laughed the professor.",
+      "translation": "Profesör gülerek, \"Şu zeytinliklere ve taraçalı üzüm bağlarına bak!\" dedi.",
+      "notes": "Sayfa 25 | terraced vineyards: taraçalı üzüm bağları."
+    },
+    {
+      "id": 489,
+      "start_ms": 3320444,
+      "end_ms": 3326636,
+      "text": "\"We entered the Earth through the frozen craters of the Arctic, and we have emerged in the warm Mediterranean!\"",
+      "translation": "\"Dünya'ya Kuzey Kutbu'nun donmuş kraterlerinden girdik ve sıcak Akdeniz'den çıktık!\"",
+      "notes": "Sayfa 25 | emerged in warm Mediterranean: sıcak Akdeniz'de ortaya çıktık."
+    },
+    {
+      "id": 490,
+      "start_ms": 3327036,
+      "end_ms": 3334116,
+      "text": "A young local peasant boy approached us, staring with wide eyes at our scorched clothing and blackened faces.",
+      "translation": "Yanık giysilerimize ve kararmış yüzlerimize iri gözlerle bakan yerli genç bir köylü çocuğu bize yaklaştı.",
+      "notes": "Sayfa 25 | staring with wide eyes: koca gözlerle bakan."
+    },
+    {
+      "id": 491,
+      "start_ms": 3334516,
+      "end_ms": 3340924,
+      "text": "In response to my uncle's questions in Italian, the boy smiled and replied: \"Stromboli!\"",
+      "translation": "Amcamın İtalyanca sorularına karşılık çocuk gülümsedi ve yanıtladı: \"Stromboli!\"",
+      "notes": "Sayfa 25 | in response to questions: sorulara cevaben."
+    },
+    {
+      "id": 492,
+      "start_ms": 3341324,
+      "end_ms": 3347276,
+      "text": "We were standing on the volcanic island of Stromboli, off the sun-drenched coast of Sicily!",
+      "translation": "Sicilya'nın güneşle yıkanan kıyılarının açıklarındaki volkanik Stromboli Adası'nda duruyorduk!",
+      "notes": "Sayfa 25 | sun-drenched coast: güneşle yıkanan sahil."
+    },
+    {
+      "id": 493,
+      "start_ms": 3347676,
+      "end_ms": 3353964,
+      "text": "In three extraordinary months, we had traversed over three thousand miles beneath the crust of Europe.",
+      "translation": "Üç olağanüstü ayda, Avrupa kıtasının kabuğu altında üç bin milden fazla mesafe katetmiştik.",
+      "notes": "Sayfa 25 | traversed over three thousand miles: üç bin milden fazla yol aştı."
+    },
+    {
+      "id": 494,
+      "start_ms": 3354364,
+      "end_ms": 3362356,
+      "text": "The generous Italian fishermen welcomed us with hearty hospitality, providing delicious wine, fresh bread, and fruit.",
+      "translation": "Cömert İtalyan balıkçıları lezzetli şarap, taze ekmek ve meyveler ikram ederek bizi candan bir konukseverlikle karşıladılar.",
+      "notes": "Sayfa 25 | hearty hospitality: candan misafirperverlik."
+    },
+    {
+      "id": 495,
+      "start_ms": 3362756,
+      "end_ms": 3368780,
+      "text": "Our return journey to Germany was a continuous triumph across the civilized capitals of Europe.",
+      "translation": "Almanya'ya dönüş yolculuğumuz, Avrupa'nın medeni başkentleri boyunca kesintisiz bir zafer turu oldu.",
+      "notes": "Sayfa 25 | continuous triumph: kesintisiz bir zafer."
+    },
+    {
+      "id": 496,
+      "start_ms": 3369180,
+      "end_ms": 3375708,
+      "text": "In Hamburg, our dear housekeeper Martha wept with joy, having long presumed that we were dead.",
+      "translation": "Hamburg'da sevgili kahyamız Martha, çoktan öldüğümüzü zannettiği için sevinç gözyaşları döktü.",
+      "notes": "Sayfa 25 | wept with joy: sevinçten ağladı."
+    },
+    {
+      "id": 497,
+      "start_ms": 3376108,
+      "end_ms": 3382444,
+      "text": "My beloved Graüben threw her arms around my neck, and within a month our joyful wedding was celebrated.",
+      "translation": "Sevgili Graüben kollarını boynuma doladı ve bir ay içinde neşeli düğünümüz kutlandı.",
+      "notes": "Sayfa 25 | joyful wedding: neşeli düğün."
+    },
+    {
+      "id": 498,
+      "start_ms": 3382844,
+      "end_ms": 3391172,
+      "text": "Hans, true to his modest northern soul, refused all medals and returned peacefully to his beloved Icelandic eider ducks.",
+      "translation": "Mütevazı kuzey ruhuna sadık kalan Hans, tüm madalyaları reddetti ve çok sevdiği İzlanda eider ördeklerine huzur içinde döndü.",
+      "notes": "Sayfa 25 | true to modest soul: mütevazı ruhuna sadık."
+    },
+    {
+      "id": 499,
+      "start_ms": 3391572,
+      "end_ms": 3398124,
+      "text": "Professor Otto Lidenbrock was celebrated as one of the greatest scientific explorers in human history.",
+      "translation": "Profesör Otto Lidenbrock, insanlık tarihinin en büyük bilimsel kaşiflerinden biri olarak göklere çıkarıldı.",
+      "notes": "Sayfa 25 | celebrated as greatest explorer: en büyük kaşif olarak anıldı."
+    },
+    {
+      "id": 500,
+      "start_ms": 3398524,
+      "end_ms": 3406420,
+      "text": "And on his desk in Hamburg, beside Saknussemm's ancient runic parchment, our journey to the center of the Earth became immortal.",
+      "translation": "Ve Hamburg'daki çalışma masasında, Saknussemm'in kadim rünik parşömeninin yanı başında, Dünya'nın merkezine yaptığımız yolculuk ölümsüzleşti.",
+      "notes": "Sayfa 25 | became immortal: ölümsüzleşti."
+    }
+  ]
+}

@@ -1,0 +1,4014 @@
+{
+  "schema_version": 1,
+  "lesson_id": "book_30_the_call_of_the_wild",
+  "title": "The Call of the Wild (Vahşetin Çağrısı) (25 Sayfa / 500 Cümle / Graded Reader)",
+  "source_lang": "en",
+  "target_lang": "tr",
+  "audio_file": "audio.mp3",
+  "attribution": {
+    "source": "Jack London / Public Domain / Graded Reader Adaptasyonu (25 Sayfa x 20 Cümle)",
+    "license": "Public Domain"
+  },
+  "segments": [
+    {
+      "id": 1,
+      "start_ms": 300,
+      "end_ms": 7812,
+      "text": "Buck did not read the newspapers, or he would have known that trouble was brewing for every soft-muscled dog on the Pacific coast.",
+      "translation": "Buck gazete okumuyordu; okusaydı Pasifik kıyısındaki yumuşak kaslı her köpek için büyük bir belanın yaklaştığını bilirdi.",
+      "notes": "Sayfa 1 | was brewing: mayalanıyordu / yaklaşıyordu."
+    },
+    {
+      "id": 2,
+      "start_ms": 8212,
+      "end_ms": 15172,
+      "text": "Men, groping in the Arctic darkness, had found a yellow metal, and thousands were rushing into the Northland.",
+      "translation": "Kutup karanlığında el yordamıyla arama yapan insanlar sarı bir metal bulmuştu ve binlercesi Kuzey Diyarı'na akın ediyordu.",
+      "notes": "Sayfa 1 | groping: el yordamıyla arayarak."
+    },
+    {
+      "id": 3,
+      "start_ms": 15572,
+      "end_ms": 22916,
+      "text": "These men needed heavy dogs with strong muscles to toil in the freezing cold and furry coats to protect them from the frost.",
+      "translation": "Bu adamların dondurucu soğukta çalışacak güçlü kaslara ve ayazdan koruyacak kürk gibi kalın tüylere sahip iri köpeklere ihtiyacı vardı.",
+      "notes": "Sayfa 1 | to toil: ağır işte çalışmak."
+    },
+    {
+      "id": 4,
+      "start_ms": 23316,
+      "end_ms": 28740,
+      "text": "Buck lived at a big house in the sun-kissed Santa Clara Valley owned by Judge Miller.",
+      "translation": "Buck, güneşin öptüğü Santa Clara Vadisi'nde Yargıç Miller'a ait büyük bir köşkte yaşıyordu.",
+      "notes": "Sayfa 1 | sun-kissed: güneşle yıkanmış/öpülmüş."
+    },
+    {
+      "id": 5,
+      "start_ms": 29140,
+      "end_ms": 36292,
+      "text": "The house stood back from the road, half-hidden among the trees, through which glimpses could be caught of the wide veranda.",
+      "translation": "Ev yoldan gerideydi; ağaçların arasında yarı gizlenmişti ve ağaçların arasından geniş verandanın manzarası yakalanabiliyordu.",
+      "notes": "Sayfa 1 | glimpses could be caught: manzaralar yakalanabiliyordu."
+    },
+    {
+      "id": 6,
+      "start_ms": 36692,
+      "end_ms": 43748,
+      "text": "There were great stables, green pastures, orchards of fruit trees, and deep wells of cool water.",
+      "translation": "Orada devasa ahırlar, yemyeşil otlaklar, meyve bahçeleri ve serin su dolu derin kuyular vardı.",
+      "notes": "Sayfa 1 | great stables: devasa ahırlar."
+    },
+    {
+      "id": 7,
+      "start_ms": 44148,
+      "end_ms": 49500,
+      "text": "Over this great domain Buck ruled like an absolute monarch from the day he was born.",
+      "translation": "Bu engin mülk üzerinde Buck, doğduğu günden itibaren mutlak bir hükümdar gibi hüküm sürdü.",
+      "notes": "Sayfa 1 | ruled like a monarch: hükümdar gibi yönetti."
+    },
+    {
+      "id": 8,
+      "start_ms": 49900,
+      "end_ms": 54676,
+      "text": "Here he was born, and here he had lived the four years of his happy life.",
+      "translation": "Burada doğmuştu ve mutlu hayatının dört yılını burada geçirmişti.",
+      "notes": "Sayfa 1 | had lived: yaşamıştı (Past Perfect)."
+    },
+    {
+      "id": 9,
+      "start_ms": 55076,
+      "end_ms": 60452,
+      "text": "It was true, there were other dogs, but they did not count against his majesty.",
+      "translation": "Doğruydu, başka köpekler de vardı; fakat onun haşmeti karşısında hiçbir hükmü yoktu onların.",
+      "notes": "Sayfa 1 | did not count: sayılmazdı / hükmü yoktu."
+    },
+    {
+      "id": 10,
+      "start_ms": 60852,
+      "end_ms": 67044,
+      "text": "His father, Elmo, a huge St. Bernard, had been the Judge's inseparable companion.",
+      "translation": "Babası, kocaman bir Saint Bernard olan Elmo, Yargıç'ın ayrılmaz yoldaşı olmuştu.",
+      "notes": "Sayfa 1 | inseparable: ayrılamaz, canciğer."
+    },
+    {
+      "id": 11,
+      "start_ms": 67444,
+      "end_ms": 72652,
+      "text": "And Buck did not fail to maintain the dignity of his father's noble heritage.",
+      "translation": "Ve Buck, babasının asil mirasının vakarını korumakta asla geri kalmadı.",
+      "notes": "Sayfa 1 | did not fail to: geri kalmadı / ihmal etmedi."
+    },
+    {
+      "id": 12,
+      "start_ms": 73052,
+      "end_ms": 79172,
+      "text": "His mother, Shep, had been a Scotch shepherd dog, giving him intelligence and agility.",
+      "translation": "Annesi Shep ise ona zeka ve çeviklik kazandırmış bir İskoç çoban köpeğiydi.",
+      "notes": "Sayfa 1 | Scotch shepherd: İskoç çoban köpeği."
+    },
+    {
+      "id": 13,
+      "start_ms": 79572,
+      "end_ms": 85092,
+      "text": "He weighed one hundred and forty pounds, possessed of deep chest and muscular limbs.",
+      "translation": "Yüz kırk pound ağırlığındaydı; derin bir göğse ve kaslı bacaklara sahipti.",
+      "notes": "Sayfa 1 | possessed of: ...e sahip."
+    },
+    {
+      "id": 14,
+      "start_ms": 85492,
+      "end_ms": 90652,
+      "text": "He escorted the Judge's daughters on long twilight or early morning rambles.",
+      "translation": "Alacakaranlıkta veya sabahın erken saatlerinde yapılan uzun yürüyüşlerde Yargıç'ın kızlarına eşlik ederdi.",
+      "notes": "Sayfa 1 | rambles: kır yürüyüşleri."
+    },
+    {
+      "id": 15,
+      "start_ms": 91052,
+      "end_ms": 95900,
+      "text": "On winter nights he lay at the Judge's feet before the roaring library fire.",
+      "translation": "Kış gecelerinde kütüphanedeki gürül gürül yanan ateşin önünde Yargıç'ın ayaklarının dibinde yatardı.",
+      "notes": "Sayfa 1 | roaring fire: gürül gürül yanan şömine."
+    },
+    {
+      "id": 16,
+      "start_ms": 96300,
+      "end_ms": 101436,
+      "text": "He carried the Judge's grandsons upon his back and rolled them gently in the grass.",
+      "translation": "Yargıç'ın torunlarını sırtında taşır ve onları çimlerin üzerinde incitmeden yuvarlardı.",
+      "notes": "Sayfa 1 | rolled gently: nazikçe yuvarladı."
+    },
+    {
+      "id": 17,
+      "start_ms": 101836,
+      "end_ms": 106204,
+      "text": "He was neither a pampered house dog nor an outdoor kennel dog.",
+      "translation": "Ne şımartılmış bir ev süs köpeğiydi ne de dışarıda kulübede beslenen sıradan bir bekçi köpeği.",
+      "notes": "Sayfa 1 | pampered: şımartılmış, el bebek gül bebek."
+    },
+    {
+      "id": 18,
+      "start_ms": 106604,
+      "end_ms": 112436,
+      "text": "Hunting, swimming, and outdoor life had hardened his muscles and invigorated his blood.",
+      "translation": "Avlanmak, yüzmek ve açık hava hayatı kaslarını sertleştirmiş ve kanını canlandırmıştı.",
+      "notes": "Sayfa 1 | invigorated: canlandırdı, zindelik verdi."
+    },
+    {
+      "id": 19,
+      "start_ms": 112836,
+      "end_ms": 117852,
+      "text": "He walked with pride and confidence, knowing himself to be king of the valley.",
+      "translation": "Kendisini vadinin kralı bilerek gururla ve güvenle yürürdü.",
+      "notes": "Sayfa 1 | knowing himself: kendini bilerek."
+    },
+    {
+      "id": 20,
+      "start_ms": 118252,
+      "end_ms": 124276,
+      "text": "But the year 1897 brought a dark shadow that would shatter his peaceful realm forever.",
+      "translation": "Fakat 1897 yılı, onun bu huzurlu krallığını sonsuza dek yerle bir edecek karanlık bir gölge getirdi.",
+      "notes": "Sayfa 1 | shatter forever: sonsuza dek paramparça etmek."
+    },
+    {
+      "id": 21,
+      "start_ms": 125276,
+      "end_ms": 131564,
+      "text": "Manuel, one of the gardener's helpers, was an undesirable character with a destructive weakness.",
+      "translation": "Bahçıvanın yardımcılarından biri olan Manuel, yıkıcı bir zaafı bulunan tekinsiz bir tipti.",
+      "notes": "Sayfa 2 | destructive weakness: yıkıcı zaaf."
+    },
+    {
+      "id": 22,
+      "start_ms": 131964,
+      "end_ms": 137316,
+      "text": "He loved to play the Chinese lottery and had a blind faith in his gambling system.",
+      "translation": "Çin piyangosu oynamaya bayılırdı ve kendi kumar sistemine körü körüne bir inancı vardı.",
+      "notes": "Sayfa 2 | blind faith: körü körüne inanç."
+    },
+    {
+      "id": 23,
+      "start_ms": 137716,
+      "end_ms": 144196,
+      "text": "To play a system requires money, while the wages of a gardener's helper barely feed a wife and children.",
+      "translation": "Bir sistemi oynamak para gerektirirdi; oysa bir bahçıvan çırağının yevmiyesi bir eş ve çocukları ancak doyururdu.",
+      "notes": "Sayfa 2 | barely feed: ancak doyurur."
+    },
+    {
+      "id": 24,
+      "start_ms": 144596,
+      "end_ms": 151004,
+      "text": "On the memorable night of Manuel's treachery, the Judge was at a meeting of the Raisin Growers' Association.",
+      "translation": "Manuel'in ihanet ettiği o unutulmaz gecede Yargıç, Kuru Üzüm Üreticileri Birliği'nin toplantısındaydı.",
+      "notes": "Sayfa 2 | memorable night: unutulmaz gece."
+    },
+    {
+      "id": 25,
+      "start_ms": 151404,
+      "end_ms": 157836,
+      "text": "The boys were busy at the athletic club, and nobody saw Manuel and Buck walk off through the orchard.",
+      "translation": "Gençler spor kulübünde meşguldü ve meyve bahçesinden geçerek uzaklaşan Manuel ile Buck'ı hiç kimse görmedi.",
+      "notes": "Sayfa 2 | walk off: yürüyüp gitmek."
+    },
+    {
+      "id": 26,
+      "start_ms": 158236,
+      "end_ms": 163780,
+      "text": "Buck had learned to trust the men he knew, and presumed this was merely an evening stroll.",
+      "translation": "Buck tanıdığı adamlara güvenmeyi öğrenmişti ve bunun yalnızca bir akşam gezintisi olduğunu sandı.",
+      "notes": "Sayfa 2 | presumed: varsaydı, sandı."
+    },
+    {
+      "id": 27,
+      "start_ms": 164180,
+      "end_ms": 169028,
+      "text": "No one saw them arrive at the little flag station known as College Park.",
+      "translation": "College Park olarak bilinen küçük tren durağına vardıklarını kimse görmedi.",
+      "notes": "Sayfa 2 | flag station: küçük ara durak."
+    },
+    {
+      "id": 28,
+      "start_ms": 169428,
+      "end_ms": 175020,
+      "text": "A stranger stood waiting in the shadows, talking in low whispers with the treacherous helper.",
+      "translation": "Gölgelerin içinde bekleyen bir yabancı, o hain yardımcıyla alçak sesli fısıltılarla konuşuyordu.",
+      "notes": "Sayfa 2 | treacherous helper: hain yardımcı."
+    },
+    {
+      "id": 29,
+      "start_ms": 175420,
+      "end_ms": 180604,
+      "text": "Money chinked in Manuel's hand as he handed a stout piece of rope to the stranger.",
+      "translation": "Manuel sağlam bir urgan parçasını yabancıya uzatırken elinde madeni paralar şıngırdadı.",
+      "notes": "Sayfa 2 | stout piece of rope: sağlam urgan."
+    },
+    {
+      "id": 30,
+      "start_ms": 181004,
+      "end_ms": 186956,
+      "text": "Before Buck could understand, the heavy rope was tied swiftly and tightly around his neck.",
+      "translation": "Buck ne olduğunu anlayamadan, kalın urgan hızla ve sımsıkı boynuna dolandı.",
+      "notes": "Sayfa 2 | tied swiftly: hızla bağlandı."
+    },
+    {
+      "id": 31,
+      "start_ms": 187356,
+      "end_ms": 192012,
+      "text": "He growled in fierce surprise and leaped forward to assert his authority.",
+      "translation": "Şiddetli bir şaşkınlıkla hırladı ve otoritesini göstermek için ileriye sıçradı.",
+      "notes": "Sayfa 2 | assert his authority: otoritesini göstermek."
+    },
+    {
+      "id": 32,
+      "start_ms": 192412,
+      "end_ms": 198340,
+      "text": "The rope tightened painfully around his throat, cutting off his wind and choking him into darkness.",
+      "translation": "Urgan boğazına acıyla kenetlendi; nefesini keserek onu karanlığın içinde boğdu.",
+      "notes": "Sayfa 2 | cutting off wind: nefesini keserek."
+    },
+    {
+      "id": 33,
+      "start_ms": 198740,
+      "end_ms": 204668,
+      "text": "In his life he had never been treated so, and never had he been so shockingly enraged.",
+      "translation": "Ömründe kendisine hiç böyle davranılmamıştı ve hiç böylesine dehşet verici biçimde öfkelenmemişti.",
+      "notes": "Sayfa 2 | shockingly enraged: fena halde öfkelenmiş."
+    },
+    {
+      "id": 34,
+      "start_ms": 205068,
+      "end_ms": 210588,
+      "text": "He struggled with all his strength, but the rope choked him until his senses faded away.",
+      "translation": "Bütün gücüyle çırpındı, fakat urgan bilinci silinene kadar onu nefessiz bıraktı.",
+      "notes": "Sayfa 2 | senses faded: bilinci silindi."
+    },
+    {
+      "id": 35,
+      "start_ms": 210988,
+      "end_ms": 216676,
+      "text": "When he recovered consciousness, he was lying on the floor of an express train baggage car.",
+      "translation": "Yeniden bilincine kavuştuğunda, bir ekspres trenin bagaj vagonunun zemininde yatıyordu.",
+      "notes": "Sayfa 2 | recovered consciousness: bilinci yerine geldi."
+    },
+    {
+      "id": 36,
+      "start_ms": 217076,
+      "end_ms": 222668,
+      "text": "A thick brass wire bound his jaw shut, preventing him from biting his captors.",
+      "translation": "Kalın bir pirinç tel çenesini sımsıkı bağlamış, kendisini kaçıranları ısırmasını engelliyordu.",
+      "notes": "Sayfa 2 | bound jaw shut: çenesini bağlı tuttu."
+    },
+    {
+      "id": 37,
+      "start_ms": 223068,
+      "end_ms": 228996,
+      "text": "For two days and nights the train sped north, while Buck suffered without water or food.",
+      "translation": "Tren iki gün ve iki gece boyunca kuzeye doğru hızla ilerledi; bu sürede Buck aç ve susuz acı çekti.",
+      "notes": "Sayfa 2 | suffered without water: susuz acı çekti."
+    },
+    {
+      "id": 38,
+      "start_ms": 229396,
+      "end_ms": 235516,
+      "text": "A roaring fever burned in his throat, and his fiery eyes blazed with uncontrollable wrath.",
+      "translation": "Boğazında kavurucu bir ateş yanıyordu ve alev alev gözleri zapt edilemez bir öfkeyle parlıyordu.",
+      "notes": "Sayfa 2 | uncontrollable wrath: zapt edilemez gazap."
+    },
+    {
+      "id": 39,
+      "start_ms": 235916,
+      "end_ms": 241700,
+      "text": "He had transformed from an aristocratic house ruler into a raging demon seeking vengeance.",
+      "translation": "Evdeki o soylu efendiden, intikam arayan kükreyen bir iblise dönüşmüştü.",
+      "notes": "Sayfa 2 | seeking vengeance: intikam arayan."
+    },
+    {
+      "id": 40,
+      "start_ms": 242100,
+      "end_ms": 248148,
+      "text": "Finally, the train came to a halt in a strange city where he was dragged into a high-walled shed.",
+      "translation": "Sonunda tren yabancı bir şehirde durdu; burada Buck yüksek duvarlı bir barakaya sürüklendi.",
+      "notes": "Sayfa 2 | high-walled shed: yüksek duvarlı baraka."
+    },
+    {
+      "id": 41,
+      "start_ms": 249148,
+      "end_ms": 254956,
+      "text": "A stout man with a red sweater signed a book for the express messenger and unlocked the door.",
+      "translation": "Kırmızı kazaklı tıknaz bir adam ekspres kurye için bir defteri imzaladı ve kapının kilidini açtı.",
+      "notes": "Sayfa 3 | stout man: tıknaz adam."
+    },
+    {
+      "id": 42,
+      "start_ms": 255356,
+      "end_ms": 261260,
+      "text": "Buck was inside a heavy wooden crate, his tongue swollen and his throat parched with thirst.",
+      "translation": "Buck ağır ahşap bir sandığın içindeydi; dili şişmiş ve boğazı susuzluktan kurumuştu.",
+      "notes": "Sayfa 3 | parched with thirst: susuzluktan kavrulmuş."
+    },
+    {
+      "id": 43,
+      "start_ms": 261660,
+      "end_ms": 266460,
+      "text": "The man brought a hatchet and a heavy club into the shed and approached the crate.",
+      "translation": "Adam barakaya bir balta ve ağır bir sopa getirdi ve sandığa yaklaştı.",
+      "notes": "Sayfa 3 | heavy club: ağır sopa."
+    },
+    {
+      "id": 44,
+      "start_ms": 266860,
+      "end_ms": 273124,
+      "text": "\"Now, you red-eyed devil,\" said the man softly, driving the hatchet into the wooden slats.",
+      "translation": "\"Şimdi seni kızıl gözlü iblis seni,\" dedi adam sakince, baltayı tahta çıtalara vurarak.",
+      "notes": "Sayfa 3 | wooden slats: tahta çıtalar."
+    },
+    {
+      "id": 45,
+      "start_ms": 273524,
+      "end_ms": 279308,
+      "text": "As the wood splintered, Buck hurled himself against the bars, roaring in desperate fury.",
+      "translation": "Ahşap parçalandıkça Buck kendini çaresiz bir öfkeyle kükreyerek parmaklıklara vurdu.",
+      "notes": "Sayfa 3 | as wood splintered: tahta parçalandıkça."
+    },
+    {
+      "id": 46,
+      "start_ms": 279708,
+      "end_ms": 285540,
+      "text": "His coat was bristling, his fangs were bared, and white foam flecked his bloody lips.",
+      "translation": "Tüyleri diken dikendi, dişleri meydandaydı ve beyaz köpükler kanlı dudaklarına sıçrıyordu.",
+      "notes": "Sayfa 3 | fangs were bared: dişleri meydandaydı."
+    },
+    {
+      "id": 47,
+      "start_ms": 285940,
+      "end_ms": 292156,
+      "text": "With a final wrench of the hatchet, the opening was made, and Buck sprang forward like a lion.",
+      "translation": "Baltanın son bir kanırtmasıyla delik açıldı ve Buck bir aslan gibi öne fırladı.",
+      "notes": "Sayfa 3 | wrench: burkma, kanırtma."
+    },
+    {
+      "id": 48,
+      "start_ms": 292556,
+      "end_ms": 297620,
+      "text": "Midway in his spring, a heavy blow from the club crashed against his head.",
+      "translation": "Daha havadayken, sopadan inen ağır bir darbe başına çarptı.",
+      "notes": "Sayfa 3 | midway in his spring: sıçrayışının tam ortasında."
+    },
+    {
+      "id": 49,
+      "start_ms": 298020,
+      "end_ms": 304116,
+      "text": "He was hurled to the ground, stunned and gasping, his teeth clicking together from the impact.",
+      "translation": "Afallamış ve nefesi kesilmiş halde yere savruldu; darbenin şiddetinden dişleri birbirine çarptı.",
+      "notes": "Sayfa 3 | hurled to ground: yere savruldu."
+    },
+    {
+      "id": 50,
+      "start_ms": 304516,
+      "end_ms": 310156,
+      "text": "Never had he been struck by a weapon; in his sunny realm men did not carry clubs.",
+      "translation": "Ömründe hiç bir silahla vurulmamıştı; onun güneşli diyarında insanlar sopa taşımazlardı.",
+      "notes": "Sayfa 3 | struck by a weapon: silahla vurulmuş."
+    },
+    {
+      "id": 51,
+      "start_ms": 310556,
+      "end_ms": 316148,
+      "text": "Again he sprang, and again the club descended with smashing, merciless force.",
+      "translation": "Bir kez daha sıçradı ve sopa bir kez daha ezici, acımasız bir güçle üzerine indi.",
+      "notes": "Sayfa 3 | descended: indi (darbe)."
+    },
+    {
+      "id": 52,
+      "start_ms": 316548,
+      "end_ms": 322596,
+      "text": "Twelve times he charged, and twelve times the club shattered his leap and brought him to the dust.",
+      "translation": "On iki defa hücum etti ve on iki defa sopa onun sıçrayışını kırarak onu toza toprağa serdi.",
+      "notes": "Sayfa 3 | brought to dust: toza toprağa serdi."
+    },
+    {
+      "id": 53,
+      "start_ms": 322996,
+      "end_ms": 329452,
+      "text": "At last he lay unconscious, bleeding from nose and mouth and ears, unable to rise.",
+      "translation": "Sonunda burnundan, ağzından ve kulaklarından kanlar süzülerek ayağa kalkamaz halde baygın yattı.",
+      "notes": "Sayfa 3 | unable to rise: kalkamaz halde."
+    },
+    {
+      "id": 54,
+      "start_ms": 329852,
+      "end_ms": 334964,
+      "text": "\"Answers to the name of Buck,\" the man remarked, reading from the invoice.",
+      "translation": "\"Buck adına karşılık verir,\" dedi adam faturadan okuyarak.",
+      "notes": "Sayfa 3 | invoice: fatura, irsaliye."
+    },
+    {
+      "id": 55,
+      "start_ms": 335364,
+      "end_ms": 342684,
+      "text": "\"Well, Buck, my boy,\" he said gently, \"we've had our little bout, and the best thing you can do is to drop it.\"",
+      "translation": "\"Pekala Buck evlat,\" dedi tatlı bir sesle, \"ufak güreşimizi yaptık ve yapabileceğin en akıllıca şey uslu durmak.\"",
+      "notes": "Sayfa 3 | had our bout: güreşimizi/maçımızı yaptık."
+    },
+    {
+      "id": 56,
+      "start_ms": 343084,
+      "end_ms": 348364,
+      "text": "\"You've learned your place, and I know mine; be a good dog and all'll go well.\"",
+      "translation": "\"Sen yerini öğrendin, ben de kendiminkini biliyorum; uslu bir köpek olursan her şey yolunda gider.\"",
+      "notes": "Sayfa 3 | learned your place: haddini/yerini öğrendin."
+    },
+    {
+      "id": 57,
+      "start_ms": 348764,
+      "end_ms": 355220,
+      "text": "The man brought a bowl of fresh water, which Buck lapped up eagerly, and a generous piece of raw meat.",
+      "translation": "Adam bir kap taze su getirdi; Buck bunu hevesle yalayıp bitirdi; ardından cömert bir parça çiğ et verdi.",
+      "notes": "Sayfa 3 | lapped up eagerly: hevesle yaladı."
+    },
+    {
+      "id": 58,
+      "start_ms": 355620,
+      "end_ms": 361668,
+      "text": "Buck was beaten, but he was not broken; his spirit was bruised, but not destroyed.",
+      "translation": "Buck yenilmişti ama kırılmamıştı; ruhu yaralanmıştı ama yok edilmemişti.",
+      "notes": "Sayfa 3 | beaten but not broken: yenilmiş ama kırılmamış."
+    },
+    {
+      "id": 59,
+      "start_ms": 362068,
+      "end_ms": 368308,
+      "text": "He had learned the great primitive law: a man with a club was a lawgiver, a master to be obeyed.",
+      "translation": "O büyük ilkel kanunu öğrenmişti: elinde sopa tutan adam bir kanun koyucuydu, itaat edilmesi gereken bir efendiydi.",
+      "notes": "Sayfa 3 | lawgiver: kanun koyucu."
+    },
+    {
+      "id": 60,
+      "start_ms": 368708,
+      "end_ms": 375092,
+      "text": "That club was his introduction into the reign of primitive law, and he accepted the lesson without surrender.",
+      "translation": "O sopa, onun ilkel kanunlar çağına girişi oldu ve teslim olmadan bu dersi aklına kazıdı.",
+      "notes": "Sayfa 3 | without surrender: teslim olmaksızın."
+    },
+    {
+      "id": 61,
+      "start_ms": 376092,
+      "end_ms": 380988,
+      "text": "Two men came to the shed one morning to inspect the newly arrived dogs.",
+      "translation": "Bir sabah yeni gelen köpekleri incelemek üzere barakaya iki adam geldi.",
+      "notes": "Sayfa 4 | inspect: denetlemek, incelemek."
+    },
+    {
+      "id": 62,
+      "start_ms": 381388,
+      "end_ms": 388156,
+      "text": "One was a little swarthy French-Canadian named Perrault, and the other was a giant half-breed named Francois.",
+      "translation": "Biri Perrault adında esmer, ufak tefek bir Fransız Kanadalıydı; diğeri ise Francois adında dev yapılı bir melezdi.",
+      "notes": "Sayfa 4 | swarthy: esmer, yanık tenli."
+    },
+    {
+      "id": 63,
+      "start_ms": 388556,
+      "end_ms": 396572,
+      "text": "\"Sacredam!\" cried Perrault, examining Buck with knowledgeable hands. \"Dat one damn bully dog, eh?\"",
+      "translation": "\"Vay canına!\" diye haykırdı Perrault, anlayan ellerle Buck'ı yoklayarak. \"Şu harika, güçlü bir köpek ama değil mi?\"",
+      "notes": "Sayfa 4 | bully dog: güçlü/mükemmel köpek (argo övgü)."
+    },
+    {
+      "id": 64,
+      "start_ms": 396972,
+      "end_ms": 402396,
+      "text": "They paid three hundred dollars for him, a price that proved his extraordinary value.",
+      "translation": "Onun için üç yüz dolar ödediler; bu da onun olağanüstü değerini kanıtlayan bir fiyattı.",
+      "notes": "Sayfa 4 | extraordinary value: olağanüstü değer."
+    },
+    {
+      "id": 65,
+      "start_ms": 402796,
+      "end_ms": 409492,
+      "text": "They were couriers for the Canadian Government, carrying urgent dispatches into the frozen Yukon Territory.",
+      "translation": "Kanada Hükümeti'nin ulaklarıydılar; donmuş Yukon Bölgesi'ne acil resmi evrakları taşıyorlardı.",
+      "notes": "Sayfa 4 | urgent dispatches: acil resmi postalar."
+    },
+    {
+      "id": 66,
+      "start_ms": 409892,
+      "end_ms": 414980,
+      "text": "Buck was taken aboard the steamship Narwhal and led down into the chilly hold.",
+      "translation": "Buck Narwhal buharlı gemisine bindirildi ve soğuk ambarına indirildi.",
+      "notes": "Sayfa 4 | chilly hold: soğuk gemi ambarı."
+    },
+    {
+      "id": 67,
+      "start_ms": 415380,
+      "end_ms": 423804,
+      "text": "There he joined other dogs: Curly, a good-natured Newfoundland, and Spitz, a big, snow-white husky from Spitsbergen.",
+      "translation": "Orada diğer köpeklere katıldı: iyi huylu bir Newfoundland olan Curly ve Spitsbergen'den gelen bembeyaz, iri bir husky olan Spitz.",
+      "notes": "Sayfa 4 | good-natured: iyi huylu."
+    },
+    {
+      "id": 68,
+      "start_ms": 424204,
+      "end_ms": 431284,
+      "text": "Spitz was friendly in an oily, treacherous way, smiling even while planning to steal a companion's food.",
+      "translation": "Spitz yılışık, sinsi bir dostluk sergiliyordu; bir arkadaşının yemeğini çalmayı planlarken bile gülümsüyordu.",
+      "notes": "Sayfa 4 | oily, treacherous: yılışık ve sinsi."
+    },
+    {
+      "id": 69,
+      "start_ms": 431684,
+      "end_ms": 438236,
+      "text": "Also aboard was Dave, a gloomy, morose dog who wanted only to be left entirely alone.",
+      "translation": "Ayrıca gemide, sadece tamamen kendi haline bırakılmak isteyen kasvetli, asık suratlı bir köpek olan Dave de vardı.",
+      "notes": "Sayfa 4 | morose: asık suratlı, aksi."
+    },
+    {
+      "id": 70,
+      "start_ms": 438636,
+      "end_ms": 444996,
+      "text": "Day after day the propeller churned the grey northern seas, carrying them closer to the Arctic circle.",
+      "translation": "Günler geçtikçe pervane gri kuzey denizlerini köpürterek onları Kutup dairesine daha da yaklaştırdı.",
+      "notes": "Sayfa 4 | propeller churned: pervane köpürttü."
+    },
+    {
+      "id": 71,
+      "start_ms": 445396,
+      "end_ms": 450532,
+      "text": "Each day the air grew colder and sharper, biting into their warm coats.",
+      "translation": "Her geçen gün hava daha soğuk ve daha keskin hale geliyor, sıcak kürklerini ısırıyordu.",
+      "notes": "Sayfa 4 | grew colder: daha da soğudu."
+    },
+    {
+      "id": 72,
+      "start_ms": 450932,
+      "end_ms": 456212,
+      "text": "Finally, the engines stopped, and the dogs were brought up onto the open deck.",
+      "translation": "Sonunda motorlar sustu ve köpekler açık güverteye çıkarıldı.",
+      "notes": "Sayfa 4 | open deck: açık güverte."
+    },
+    {
+      "id": 73,
+      "start_ms": 456612,
+      "end_ms": 462708,
+      "text": "Buck's first step on the beach at Dyea felt astonishingly strange and cold beneath his paws.",
+      "translation": "Dyea sahilinde attığı ilk adım, patilerinin altında şaşırtıcı derecede yabancı ve soğuk hissettirdi.",
+      "notes": "Sayfa 4 | astonishingly: şaşırtıcı şekilde."
+    },
+    {
+      "id": 74,
+      "start_ms": 463108,
+      "end_ms": 469324,
+      "text": "He stepped into something soft and white, and sank into it like mud, but it was freezing cold.",
+      "translation": "Yumuşak ve beyaz bir şeyin üzerine bastı ve çamur gibi içine battı, fakat buz gibi soğuktu bu.",
+      "notes": "Sayfa 4 | sank into it: içine battı."
+    },
+    {
+      "id": 75,
+      "start_ms": 469724,
+      "end_ms": 474236,
+      "text": "He leaped back with a snort, shaking his paws in bewilderment.",
+      "translation": "Şaşkınlık içinde patilerini silkeleyerek bir homurtuyla geriye sıçradı.",
+      "notes": "Sayfa 4 | in bewilderment: şaşkınlıkla."
+    },
+    {
+      "id": 76,
+      "start_ms": 474636,
+      "end_ms": 479364,
+      "text": "More of this white stuff was falling gently from the grey sky overhead.",
+      "translation": "Yukarıdaki gri gökyüzünden bu beyaz şeyden usul usul daha fazla dökülüyordu.",
+      "notes": "Sayfa 4 | overhead: yukarıda, başın üstünde."
+    },
+    {
+      "id": 77,
+      "start_ms": 479764,
+      "end_ms": 484972,
+      "text": "He bit at a falling flake, and it vanished upon his warm tongue like magic.",
+      "translation": "Düşen bir kar tanesine bir ısırık attı ve tanecik sıcak dilinin üzerinde sihir gibi yok oldu.",
+      "notes": "Sayfa 4 | vanished like magic: büyü gibi yok oldu."
+    },
+    {
+      "id": 78,
+      "start_ms": 485372,
+      "end_ms": 490628,
+      "text": "He tried again and again, causing the onlookers on the beach to roar with laughter.",
+      "translation": "Tekrar tekrar denedi; bu da sahildeki izleyicilerin kahkahalarla kükremesine yol açtı.",
+      "notes": "Sayfa 4 | roar with laughter: kahkahayla kükremek."
+    },
+    {
+      "id": 79,
+      "start_ms": 491028,
+      "end_ms": 496932,
+      "text": "He was ashamed, he knew not why, for it was his very first experience with snow.",
+      "translation": "Neden olduğunu bilmeden utandı, zira bu onun karla olan ilk deneyimiydi.",
+      "notes": "Sayfa 4 | first experience: ilk tecrübe."
+    },
+    {
+      "id": 80,
+      "start_ms": 497332,
+      "end_ms": 504076,
+      "text": "Here in this frozen wilderness, all civilised customs were left behind, and raw survival began.",
+      "translation": "Burada, bu donmuş yaban hayatında tüm medeni alışkanlıklar geride bırakıldı ve yalın hayatta kalma mücadelesi başladı.",
+      "notes": "Sayfa 4 | raw survival: yalın/katıksız hayatta kalma."
+    },
+    {
+      "id": 81,
+      "start_ms": 505076,
+      "end_ms": 510980,
+      "text": "Buck's first day on the Dyea beach was like a nightmare of savage fury and sudden violence.",
+      "translation": "Buck'ın Dyea sahilindeki ilk günü vahşi bir öfkenin ve ani şiddetin kabusu gibiydi.",
+      "notes": "Sayfa 5 | savage fury: vahşi öfke."
+    },
+    {
+      "id": 82,
+      "start_ms": 511380,
+      "end_ms": 517044,
+      "text": "Every hour was filled with shock and surprise, shattering the peace of his former life.",
+      "translation": "Her saati şok ve sürprizlerle doluydu; önceki hayatının huzurunu paramparça ediyordu.",
+      "notes": "Sayfa 5 | shattering: paramparça eden."
+    },
+    {
+      "id": 83,
+      "start_ms": 517444,
+      "end_ms": 522700,
+      "text": "He was suddenly jerked from the heart of civilization into the heart of things primordial.",
+      "translation": "Medeniyetin kalbinden bir anda koparılıp ilkçağın o ilkel dünyasının bağrına fırlatılmıştı.",
+      "notes": "Sayfa 5 | things primordial: ilkçağa ait şeyler."
+    },
+    {
+      "id": 84,
+      "start_ms": 523100,
+      "end_ms": 529652,
+      "text": "These dogs and men were not town dogs and town men; they knew only the law of club and fang.",
+      "translation": "Bu köpekler ve bu adamlar kasaba köpeği veya kasaba insanı değildi; sadece sopa ve diş kanununu bilirlerdi.",
+      "notes": "Sayfa 5 | law of club and fang: sopa ve diş kanunu."
+    },
+    {
+      "id": 85,
+      "start_ms": 530052,
+      "end_ms": 535908,
+      "text": "Curly, the friendly Newfoundland, was the first to suffer the terrible reality of this law.",
+      "translation": "Dost canlısı Newfoundland Curly, bu kanunun korkunç gerçeğini ilk tadan talihsiz oldu.",
+      "notes": "Sayfa 5 | first to suffer: ilk çeken/tadan."
+    },
+    {
+      "id": 86,
+      "start_ms": 536308,
+      "end_ms": 542212,
+      "text": "She made friendly advances toward a husky half her size, wishing to play upon the snow.",
+      "translation": "Karda oynamak isteyerek kendi cüssesinin yarısı kadar olan bir huskyye dostça yaklaştı.",
+      "notes": "Sayfa 5 | friendly advances: dostça yaklaşımlar."
+    },
+    {
+      "id": 87,
+      "start_ms": 542612,
+      "end_ms": 549020,
+      "text": "Without warning, the wolf-dog struck like a coiled spring, slashing her face from eye to jaw.",
+      "translation": "Hiçbir uyarı olmaksızın kurt köpeği kurulu bir yay gibi fırladı; Curly'nin yüzünü gözünden çenesine kadar yardı.",
+      "notes": "Sayfa 5 | slashing: kesip yararak."
+    },
+    {
+      "id": 88,
+      "start_ms": 549420,
+      "end_ms": 555084,
+      "text": "It was the wolf manner of fighting: to strike and leap away, to slash and tear.",
+      "translation": "Bu, kurtların dövüş tarzıydı: vurup geri sıçramak, yarıp parçalamak.",
+      "notes": "Sayfa 5 | wolf manner: kurt tarzı."
+    },
+    {
+      "id": 89,
+      "start_ms": 555484,
+      "end_ms": 562276,
+      "text": "Instantly, thirty or forty other huskies gathered in a silent, watchful circle around the combatants.",
+      "translation": "Anında, otuz kırk kadar diğer husky dövüşenlerin etrafında sessiz, tetikte bir çember oluşturdu.",
+      "notes": "Sayfa 5 | silent, watchful circle: sessiz, pürdikkat çember."
+    },
+    {
+      "id": 90,
+      "start_ms": 562676,
+      "end_ms": 569180,
+      "text": "Curly rushed her antagonist in honest indignation, but the husky struck her again and sprang aside.",
+      "translation": "Curly dürüst bir öfkeyle hasmının üzerine atıldı, fakat husky ona bir kez daha vurup kenara sıçradı.",
+      "notes": "Sayfa 5 | honourable indignation: haklı öfke."
+    },
+    {
+      "id": 91,
+      "start_ms": 569580,
+      "end_ms": 575772,
+      "text": "As she turned, her hind feet slipped on the packed snow, and she tumbled upon her side.",
+      "translation": "Dönerken arka ayakları sıkışmış karda kaydı ve yan tarafının üzerine yuvarlandı.",
+      "notes": "Sayfa 5 | packed snow: ezilmiş/sert kar."
+    },
+    {
+      "id": 92,
+      "start_ms": 576172,
+      "end_ms": 581644,
+      "text": "That was what the silent circle had been waiting for with gleaming eyes and dripping fangs.",
+      "translation": "Işıldayan gözleri ve damlayan dişleriyle o sessiz çemberin beklediği tam da buydu işte.",
+      "notes": "Sayfa 5 | gleaming eyes: parıldayan gözler."
+    },
+    {
+      "id": 93,
+      "start_ms": 582044,
+      "end_ms": 588500,
+      "text": "They closed in upon her, snarling and yelping, burying her beneath a bristling mass of bodies.",
+      "translation": "Hırlayarak ve havlayarak üzerine çullandılar; onu diken diken olmuş tüylü gövdelerden bir yığının altına gömdüler.",
+      "notes": "Sayfa 5 | closed in upon: üzerine çullandılar."
+    },
+    {
+      "id": 94,
+      "start_ms": 588900,
+      "end_ms": 594084,
+      "text": "So sudden and terrible was the attack that Buck was rooted to the spot in horror.",
+      "translation": "Saldırı öylesine ani ve korkunçtu ki Buck dehşet içinde olduğu yere çakılıp kaldı.",
+      "notes": "Sayfa 5 | rooted to the spot: olduğu yere çivilenmiş."
+    },
+    {
+      "id": 95,
+      "start_ms": 594484,
+      "end_ms": 600484,
+      "text": "Francois leaped into the melee with an axe, while Perrault slashed furiously with clubs.",
+      "translation": "Francois elinde bir baltayla kargaşanın içine daldı; Perrault ise sopalarla vahşice savurdu.",
+      "notes": "Sayfa 5 | leaped into melee: arbedeye daldı."
+    },
+    {
+      "id": 96,
+      "start_ms": 600884,
+      "end_ms": 606644,
+      "text": "They beat off the bloodthirsty pack, but it took less than two minutes to end Curly's life.",
+      "translation": "O kana susamış sürüyü defettiler, fakat Curly'nin canını almak iki dakikadan az sürmüştü.",
+      "notes": "Sayfa 5 | bloodthirsty pack: kana susamış sürü."
+    },
+    {
+      "id": 97,
+      "start_ms": 607044,
+      "end_ms": 612108,
+      "text": "There lay Curly, torn to pieces and lifeless upon the blood-stained snow.",
+      "translation": "Curly kana bulanmış karların üzerinde paramparça edilmiş ve cansız bir vaziyette yatıyordu.",
+      "notes": "Sayfa 5 | blood-stained: kana bulanmış."
+    },
+    {
+      "id": 98,
+      "start_ms": 612508,
+      "end_ms": 616540,
+      "text": "The scene often came back to Buck to trouble him in his sleep.",
+      "translation": "Bu sahne uykusunda onu rahatsız etmek üzere sık sık Buck'ın aklına geri gelirdi.",
+      "notes": "Sayfa 5 | often came back: sık sık geri geldi."
+    },
+    {
+      "id": 99,
+      "start_ms": 616940,
+      "end_ms": 623060,
+      "text": "So that was the way: once down, you were finished, torn to ribbons by your comrades.",
+      "translation": "Demek kural buydu: bir kez yere düştün mü işin bitmişti; yoldaşların tarafından didik didik parçalanırdın.",
+      "notes": "Sayfa 5 | once down: bir kez düştün mü."
+    },
+    {
+      "id": 100,
+      "start_ms": 623460,
+      "end_ms": 630204,
+      "text": "He saw Spitz run out his scarlet tongue and laugh, and from that moment Buck hated him with deadly hatred.",
+      "translation": "Spitz'in al dilini dışarı çıkarıp güldüğünü gördü ve o andan itibaren Buck ondan ölümcül bir nefretle nefret etti.",
+      "notes": "Sayfa 5 | deadly hatred: ölümcül nefret."
+    },
+    {
+      "id": 101,
+      "start_ms": 631204,
+      "end_ms": 636580,
+      "text": "Before Buck had recovered from the shock of Curly's death, another shock awaited him.",
+      "translation": "Buck Curly'nin ölümünün şokunu henüz atlatamamışken onu bir başka şok bekliyordu.",
+      "notes": "Sayfa 6 | recovered from: ...den toparlanmak."
+    },
+    {
+      "id": 102,
+      "start_ms": 636980,
+      "end_ms": 642188,
+      "text": "Francois buckled upon him an arrangement of straps and buckles made of stout leather.",
+      "translation": "Francois, sağlam deriden yapılmış bir kayış ve toka düzeneğini onun üzerine bağladı.",
+      "notes": "Sayfa 6 | stout leather: sağlam deri."
+    },
+    {
+      "id": 103,
+      "start_ms": 642588,
+      "end_ms": 648396,
+      "text": "It was a harness, such as he had seen the workhorses wear back in the Santa Clara orchards.",
+      "translation": "Tıpkı Santa Clara bahçelerinde iş atlarının giydiğini gördüğü türden bir koşum takımıydı bu.",
+      "notes": "Sayfa 6 | workhorses: iş/çiftlik atları."
+    },
+    {
+      "id": 104,
+      "start_ms": 648796,
+      "end_ms": 655108,
+      "text": "His dignity was wounded at being made a draught animal, but he was too wise to rebel against the club.",
+      "translation": "Bir çeki hayvanı haline getirilmekten ötürü gururu yaralandı, fakat sopaya isyan etmeyecek kadar akıllıydı.",
+      "notes": "Sayfa 6 | draught animal: çeki hayvanı."
+    },
+    {
+      "id": 105,
+      "start_ms": 655508,
+      "end_ms": 662084,
+      "text": "He was placed in the traces between Dave, the gloomy wheeler, and Spitz, the experienced leader.",
+      "translation": "Kasvetli tekerlek köpeği Dave ile tecrübeli lider Spitz'in arasındaki çekme kayışlarına yerleştirildi.",
+      "notes": "Sayfa 6 | wheeler: kızağa en yakın güçlü çeki köpeği."
+    },
+    {
+      "id": 106,
+      "start_ms": 662484,
+      "end_ms": 669108,
+      "text": "Francois cracked his whip, shouting: \"Mush! Ho! Ho!\"",
+      "translation": "Francois kamçısını şaklattı ve haykırdı: \"Deh! Haydi! Haydi!\"",
+      "notes": "Sayfa 6 | mush: kızak köpeklerini sürme komutu."
+    },
+    {
+      "id": 107,
+      "start_ms": 669508,
+      "end_ms": 675628,
+      "text": "The heavy sled moved forward across the snow, and Buck leaped into the work with all his energy.",
+      "translation": "Ağır kızak karların üzerinden ileriye doğru hareket etti ve Buck tüm enerjisiyle işe asıldı.",
+      "notes": "Sayfa 6 | leaped into work: işe var gücüyle sarıldı."
+    },
+    {
+      "id": 108,
+      "start_ms": 676028,
+      "end_ms": 681644,
+      "text": "Though he was inexperienced, he learned with astonishing quickness from his harsh teachers.",
+      "translation": "Deneyimsiz olmasına rağmen, o sert öğretmenlerinden şaşırtıcı bir çabuklukla öğrendi.",
+      "notes": "Sayfa 6 | astonishing quickness: şaşırtıcı çabukluk."
+    },
+    {
+      "id": 109,
+      "start_ms": 682044,
+      "end_ms": 687276,
+      "text": "Dave nipped his hindquarters whenever he made an awkward turn or slackened his pull.",
+      "translation": "Acemice bir dönüş yaptığında veya çekişini gevşettiğinde Dave onun butlarını hafifçe ısırırdı.",
+      "notes": "Sayfa 6 | slackened his pull: çekişini gevşetti."
+    },
+    {
+      "id": 110,
+      "start_ms": 687676,
+      "end_ms": 693292,
+      "text": "Spitz, snarling from the front, corrected his direction with sharp reprimands.",
+      "translation": "Önden hırlayan Spitz, sert uyarılarla onun rotasını anında düzeltirdi.",
+      "notes": "Sayfa 6 | reprimands: azarlamalar, uyarılar."
+    },
+    {
+      "id": 111,
+      "start_ms": 693692,
+      "end_ms": 699404,
+      "text": "And Francois's whip fell without pity whenever Buck failed to heed the warnings of his mates.",
+      "translation": "Ve Buck yoldaşlarının uyarılarına kulak asmadığı her an Francois'in kamçısı acımasızca üzerine inerdi.",
+      "notes": "Sayfa 6 | failed to heed: kulak asmadı."
+    },
+    {
+      "id": 112,
+      "start_ms": 699804,
+      "end_ms": 706140,
+      "text": "Two new dogs were added to the team: Billee and Joe, two true huskies who were brothers.",
+      "translation": "Takıma iki yeni köpek daha eklendi: öz kardeş olan iki hakiki husky, Billee ve Joe.",
+      "notes": "Sayfa 6 | true huskies: safkan huskyler."
+    },
+    {
+      "id": 113,
+      "start_ms": 706540,
+      "end_ms": 713284,
+      "text": "Billee was excessively good-natured, while Joe was sour, introspective, and forever snarling.",
+      "translation": "Billee aşırı derecede iyi huyluydu; Joe ise huysuz, içine kapanık ve sürekli hırlayan biriydi.",
+      "notes": "Sayfa 6 | introspective: içine kapanık."
+    },
+    {
+      "id": 114,
+      "start_ms": 713684,
+      "end_ms": 721484,
+      "text": "Then came Sol-leks, an old, battle-scarred husky with one eye who demanded only not to be approached on his blind side.",
+      "translation": "Ardından tek gözü olan, savaş yaralarıyla dolu, yalnızca kör tarafından kendisine yaklaşılmamasını isteyen yaşlı bir husky olan Sol-leks geldi.",
+      "notes": "Sayfa 6 | battle-scarred: savaş yaralarıyla dolu."
+    },
+    {
+      "id": 115,
+      "start_ms": 721884,
+      "end_ms": 728244,
+      "text": "When Buck unwittingly walked on his blind side, Sol-leks slashed his shoulder with lightning speed.",
+      "translation": "Buck farkında olmadan onun kör tarafından yürüdüğünde, Sol-leks şimşek hızıyla omzunu yardı.",
+      "notes": "Sayfa 6 | unwittingly: farkında olmadan, bilmeyerek."
+    },
+    {
+      "id": 116,
+      "start_ms": 728644,
+      "end_ms": 734884,
+      "text": "Buck never made that mistake again; his education in northern diplomacy was progressing rapidly.",
+      "translation": "Buck o hatayı bir daha asla yapmadı; kuzey diplomasisindeki eğitimi hızla ilerliyordu.",
+      "notes": "Sayfa 6 | northern diplomacy: kuzey diplomasisi (mecaz)."
+    },
+    {
+      "id": 117,
+      "start_ms": 735284,
+      "end_ms": 741236,
+      "text": "They hauled heavy government supplies up the canyon trail, climbing the dreaded Chilkoot Pass.",
+      "translation": "Korkulan Chilkoot Geçidi'ni tırmanarak kanyon patikası boyunca ağır hükümet erzaklarını çektiler.",
+      "notes": "Sayfa 6 | dreaded pass: korkulan geçit."
+    },
+    {
+      "id": 118,
+      "start_ms": 741636,
+      "end_ms": 747204,
+      "text": "Day after day they toiled against freezing winds and sheer glaciers of solid ice.",
+      "translation": "Günler boyu dondurucu rüzgarlara ve som buzdan dik buzullara karşı kan ter içinde çabaladılar.",
+      "notes": "Sayfa 6 | sheer glaciers: dimdik buzullar."
+    },
+    {
+      "id": 119,
+      "start_ms": 747604,
+      "end_ms": 754660,
+      "text": "Buck's muscles became hard as iron, and his pads grew tough enough to resist the razor-sharp crust of the snow.",
+      "translation": "Buck'ın kasları demir gibi sertleşti ve pati tabanları karın jilet gibi keskin kabuğuna direnecek kadar nasırlaştı.",
+      "notes": "Sayfa 6 | razor-sharp crust: jilet gibi kabuk."
+    },
+    {
+      "id": 120,
+      "start_ms": 755060,
+      "end_ms": 760316,
+      "text": "He was fitting himself for the great struggle of life in the silent, frozen North.",
+      "translation": "Sessiz, donmuş Kuzey'deki o büyük hayat mücadelesine kendini adım adım hazırlıyordu.",
+      "notes": "Sayfa 6 | fitting himself: kendini hazırlıyordu."
+    },
+    {
+      "id": 121,
+      "start_ms": 761316,
+      "end_ms": 766356,
+      "text": "The first night on the trail presented Buck with the urgent problem of finding shelter.",
+      "translation": "Patikadaki ilk gece, Buck'ı acil bir barınak bulma sorunuyla karşı karşıya bıraktı.",
+      "notes": "Sayfa 7 | urgent problem: acil sorun."
+    },
+    {
+      "id": 122,
+      "start_ms": 766756,
+      "end_ms": 773572,
+      "text": "The tent was pitched, but when he tried to enter, Francois and Perrault bombarded him with kitchen utensils.",
+      "translation": "Çadır kurulmuştu, fakat içeri girmeye çalıştığında Francois ve Perrault onu mutfak kap kacağıyla bombardımana tuttular.",
+      "notes": "Sayfa 7 | bombarded: bombardımana tuttular."
+    },
+    {
+      "id": 123,
+      "start_ms": 773972,
+      "end_ms": 780332,
+      "text": "He wandered freezing in the snow, the wind chilling him to the bone, wondering where the other dogs were.",
+      "translation": "Rüzgar onu iliklerine kadar dondururken karların arasında üşüyerek dolaştı; diğer köpeklerin nerede olduğunu merak ederek.",
+      "notes": "Sayfa 7 | wandered freezing: donarak dolaştı."
+    },
+    {
+      "id": 124,
+      "start_ms": 780732,
+      "end_ms": 786828,
+      "text": "Suddenly the snow gave way beneath his forelegs, and something squirmed warm under his feet.",
+      "translation": "Birdenbire ön bacaklarının altındaki kar çöktü ve ayaklarının altında sıcak bir şey kıpırdandı.",
+      "notes": "Sayfa 7 | gave way: çöktü, yol verdi."
+    },
+    {
+      "id": 125,
+      "start_ms": 787228,
+      "end_ms": 793660,
+      "text": "He leaped back, but a friendly whimper told him it was Billee, curled tight in a hole under the snow.",
+      "translation": "Geriye sıçradı, fakat dostça bir inilti ona bu kişinin kar altındaki bir çukura kıvrılmış Billee olduğunu söyledi.",
+      "notes": "Sayfa 7 | curled tight: sımsıkı kıvrılmış."
+    },
+    {
+      "id": 126,
+      "start_ms": 794060,
+      "end_ms": 799604,
+      "text": "Another lesson! So that was the way they slept in this freezing country!",
+      "translation": "Bir ders daha! Demek bu buz kesen memlekette böyle uyuyorlardı!",
+      "notes": "Sayfa 7 | that was the way: yol buydu işte."
+    },
+    {
+      "id": 127,
+      "start_ms": 800004,
+      "end_ms": 806844,
+      "text": "Buck promptly excavated a hole for himself, curled up, and fell into a warm, comfortable sleep.",
+      "translation": "Buck derhal kendine bir çukur kazdı, içine kıvrıldı ve sıcacık, rahat bir uykuya daldı.",
+      "notes": "Sayfa 7 | excavated a hole: bir çukur kazdı."
+    },
+    {
+      "id": 128,
+      "start_ms": 807244,
+      "end_ms": 813148,
+      "text": "When he awoke next morning, a heavy blanket of fresh snow had sealed him completely in.",
+      "translation": "Ertesi sabah uyandığında, kalın bir taze kar örtüsü onu tamamen içeri hapsetmişti.",
+      "notes": "Sayfa 7 | sealed in: içeri mühürlemişti."
+    },
+    {
+      "id": 129,
+      "start_ms": 813548,
+      "end_ms": 819356,
+      "text": "For a moment terror gripped him, thinking he was trapped, but he broke through into the daylight.",
+      "translation": "Tuzak kurulduğunu sanarak bir an dehşet onu sardı, fakat karı yarıp gün ışığına çıktı.",
+      "notes": "Sayfa 7 | broke through: yarıp çıktı."
+    },
+    {
+      "id": 130,
+      "start_ms": 819756,
+      "end_ms": 826308,
+      "text": "His food consisted of a pound and a half of dried salmon, which never satisfied his ravenous hunger.",
+      "translation": "Yiyeceği bir buçuk pound kurutulmuş somondan ibaretti ve bu, onun açlıktan kıvranan midesini asla doyurmuyordu.",
+      "notes": "Sayfa 7 | ravenous hunger: kurt gibi açlık."
+    },
+    {
+      "id": 131,
+      "start_ms": 826708,
+      "end_ms": 833164,
+      "text": "He saw another dog, Pike, sneak a piece of bacon from the grub-box while the drivers looked away.",
+      "translation": "Sürücüler başka yöne bakarken, Pike adlı diğer köpeğin erzak sandığından bir parça domuz pastırması aşırdığını gördü.",
+      "notes": "Sayfa 7 | sneak a piece: gizlice bir parça aşırmak."
+    },
+    {
+      "id": 132,
+      "start_ms": 833564,
+      "end_ms": 839732,
+      "text": "The next day Buck duplicated the performance, getting away with a whole chunk of bacon undetected.",
+      "translation": "Ertesi gün Buck bu marifeti tekrarladı ve koca bir parça pastırmayı fark edilmeden kapıp kaçtı.",
+      "notes": "Sayfa 7 | duplicated performance: marifeti tekrarladı."
+    },
+    {
+      "id": 133,
+      "start_ms": 840132,
+      "end_ms": 846036,
+      "text": "A great outcry followed, but an innocent dog, Dub, was punished instead of him.",
+      "translation": "Büyük bir yaygara koptu, fakat onun yerine masum bir köpek olan Dub cezalandırıldı.",
+      "notes": "Sayfa 7 | great outcry: büyük yaygara."
+    },
+    {
+      "id": 134,
+      "start_ms": 846436,
+      "end_ms": 851428,
+      "text": "This robbery marked Buck as fit to survive in the hostile Northland environment.",
+      "translation": "Bu hırsızlık, Buck'ın çetin Kuzey Diyarı ortamında hayatta kalmaya uygun olduğunu gösterdi.",
+      "notes": "Sayfa 7 | fit to survive: hayatta kalmaya uygun."
+    },
+    {
+      "id": 135,
+      "start_ms": 851828,
+      "end_ms": 857660,
+      "text": "Civilized moral codes of property and right had no place where survival was at stake.",
+      "translation": "Hayatta kalmanın söz konusu olduğu yerde, medeniyetin mülkiyet ve hak ahlakına yer yoktu.",
+      "notes": "Sayfa 7 | at stake: tehlikede/söz konusu."
+    },
+    {
+      "id": 136,
+      "start_ms": 858060,
+      "end_ms": 863292,
+      "text": "He did not steal for the joy of it, but because the clamour of his stomach demanded it.",
+      "translation": "Keyif olsun diye çalmıyordu; midesinin o yakıcı feryadı bunu emrettiği için çalıyordu.",
+      "notes": "Sayfa 7 | clamour of stomach: midenin feryadı."
+    },
+    {
+      "id": 137,
+      "start_ms": 863692,
+      "end_ms": 870364,
+      "text": "His ancient instincts, dormant through generations of soft domestic life, awoke with fierce power.",
+      "translation": "Nesiller boyu süren uysal evcil hayatta uykuda kalmış kadim içgüdüleri vahşi bir güçle uyandı.",
+      "notes": "Sayfa 7 | dormant instincts: uykudaki içgüdüler."
+    },
+    {
+      "id": 138,
+      "start_ms": 870764,
+      "end_ms": 877076,
+      "text": "He could smell the wind, forecast the weather by the stars, and sense every change of the trail.",
+      "translation": "Rüzgarın kokusunu alabiliyor, yıldızlara bakarak havayı tahmin edebiliyor ve patikadaki her değişikliği seziyordu.",
+      "notes": "Sayfa 7 | forecast: önceden tahmin etmek."
+    },
+    {
+      "id": 139,
+      "start_ms": 877476,
+      "end_ms": 882828,
+      "text": "The domesticated gentleman was dead; the primitive wolf inside him was rising.",
+      "translation": "O evcilleşmiş beyefendi ölmüştü; içindeki ilkel kurt artık ayağa kalkıyordu.",
+      "notes": "Sayfa 7 | was rising: yükseliyordu/uyanıyordu."
+    },
+    {
+      "id": 140,
+      "start_ms": 883228,
+      "end_ms": 889420,
+      "text": "And in the quiet of the freezing nights, he pointed his nose at the moon and howled the ancient wolf song.",
+      "translation": "Ve dondurucu gecelerin sessizliğinde burnunu aya doğru dikti ve kadim kurt ezgisini uludu.",
+      "notes": "Sayfa 7 | howled the wolf song: kurt şarkısını uludu."
+    },
+    {
+      "id": 141,
+      "start_ms": 890420,
+      "end_ms": 895652,
+      "text": "The camp was pitched one evening on the shores of Lake Le Barge in a biting blizzard.",
+      "translation": "Bir akşam kamp, dondurucu bir tipi altında Le Barge Gölü'nün kıyısında kuruldu.",
+      "notes": "Sayfa 8 | pitched: kuruldu (çadır)."
+    },
+    {
+      "id": 142,
+      "start_ms": 896052,
+      "end_ms": 902916,
+      "text": "Suddenly, without warning, four or five score of starving huskies invaded the camp from an Indian village.",
+      "translation": "Ansızın, hiçbir uyarı olmaksızın, bir Kızılderili köyünden gelen dört beş düzine aç husky kampı bastı.",
+      "notes": "Sayfa 8 | score: yirmi (four score = seksen)."
+    },
+    {
+      "id": 143,
+      "start_ms": 903316,
+      "end_ms": 908644,
+      "text": "They were walking skeletons, maddened by the smell of food and desperate with hunger.",
+      "translation": "Yiyecek kokusuyla çıldırmış ve açlıktan gözü dönmüş ayaklı birer iskelettiler.",
+      "notes": "Sayfa 8 | walking skeletons: ayaklı iskeletler."
+    },
+    {
+      "id": 144,
+      "start_ms": 909044,
+      "end_ms": 914924,
+      "text": "They poured into the camp, ravenous and ferocious, their fangs gleaming in the firelight.",
+      "translation": "Ateşin ışığında dişleri parıldayarak, açgözlü ve yırtıcı bir halde kampa akın ettiler.",
+      "notes": "Sayfa 8 | poured into: akın ettiler."
+    },
+    {
+      "id": 145,
+      "start_ms": 915324,
+      "end_ms": 920964,
+      "text": "Perrault and Francois fought with their heavy clubs, but the starving brutes felt no pain.",
+      "translation": "Perrault ve Francois ağır sopalarıyla savaştılar, fakat açlıktan gözü dönmüş bu hayvanlar hiçbir acı hissetmiyordu.",
+      "notes": "Sayfa 8 | felt no pain: acı hissetmedi."
+    },
+    {
+      "id": 146,
+      "start_ms": 921364,
+      "end_ms": 927652,
+      "text": "They chewed through leather straps, devoured canvas tarpaulins, and leaped at the team dogs.",
+      "translation": "Deri kayışları çiğneyip kopardılar, brandaları mideye indirdiler ve kızak köpeklerinin üzerine atıldılar.",
+      "notes": "Sayfa 8 | devoured: yiyip yuttu."
+    },
+    {
+      "id": 147,
+      "start_ms": 928052,
+      "end_ms": 934316,
+      "text": "Buck was attacked by three gaunt monsters simultaneously, slashing his throat and shoulders.",
+      "translation": "Buck boğazını ve omuzlarını yaran bir deri bir kemik kalmış üç canavarın aynı andaki saldırısına uğradı.",
+      "notes": "Sayfa 8 | simultaneously: eşzamanlı olarak."
+    },
+    {
+      "id": 148,
+      "start_ms": 934716,
+      "end_ms": 940620,
+      "text": "He fought furiously, ripping flesh with his fangs and hurling attackers back into the snow.",
+      "translation": "Dişleriyle etleri kopararak ve saldırganları karların içine geri savurarak vahşice savaştı.",
+      "notes": "Sayfa 8 | ripping flesh: et kopararak."
+    },
+    {
+      "id": 149,
+      "start_ms": 941020,
+      "end_ms": 947452,
+      "text": "Dave and Sol-leks fought back-to-back, bristling like porcupines, clearing a circle of blood.",
+      "translation": "Dave ve Sol-leks kirpi gibi tüylerini kabartıp sırt sırta vererek kanlı bir çember açarak savaştılar.",
+      "notes": "Sayfa 8 | back-to-back: sırt sırta."
+    },
+    {
+      "id": 150,
+      "start_ms": 947852,
+      "end_ms": 953324,
+      "text": "Joe snapped like a demon, while Billee fled weeping through the woods in sheer panic.",
+      "translation": "Joe bir iblis gibi dişlerini birbirine çarptı; Billee ise katıksız bir panikle ağlayarak ormana doğru kaçtı.",
+      "notes": "Sayfa 8 | sheer panic: katıksız panik."
+    },
+    {
+      "id": 151,
+      "start_ms": 953724,
+      "end_ms": 959340,
+      "text": "In the midst of the chaos, Spitz saw an opportunity to destroy his growing rival.",
+      "translation": "Bu kargaşanın ortasında Spitz, giderek büyüyen rakibini yok etmek için bir fırsat gördü.",
+      "notes": "Sayfa 8 | growing rival: büyüyen rakip."
+    },
+    {
+      "id": 152,
+      "start_ms": 959740,
+      "end_ms": 965836,
+      "text": "He attacked Buck from the side, driving his fangs into Buck's neck while Buck fought the invaders.",
+      "translation": "Buck istilacılarla savaşırken Spitz yandan saldırdı ve dişlerini Buck'ın boynuna geçirdi.",
+      "notes": "Sayfa 8 | from the side: yandan."
+    },
+    {
+      "id": 153,
+      "start_ms": 966236,
+      "end_ms": 970724,
+      "text": "Buck shook him off, raging at this treacherous assault in the dark.",
+      "translation": "Karanlıktaki bu kalleşçe saldırı karşısında çılgına dönen Buck onu silkeleyip attı.",
+      "notes": "Sayfa 8 | treacherous assault: haince saldırı."
+    },
+    {
+      "id": 154,
+      "start_ms": 971124,
+      "end_ms": 976476,
+      "text": "The team was driven into the forest, scattered and bleeding, waiting for daylight.",
+      "translation": "Kızak takımı ormanın içine doğru sürüldü; darmadağınık ve kan revan içinde gün ışığını beklediler.",
+      "notes": "Sayfa 8 | driven into: sürüklendi/sürüldü."
+    },
+    {
+      "id": 155,
+      "start_ms": 976876,
+      "end_ms": 982732,
+      "text": "When morning came, they limped back to camp, wounded, battered, and exhausted.",
+      "translation": "Sabah olduğunda yaralı, hırpalanmış ve bitkin bir halde topallayarak kampa döndüler.",
+      "notes": "Sayfa 8 | limped back: topallayarak döndü."
+    },
+    {
+      "id": 156,
+      "start_ms": 983132,
+      "end_ms": 988604,
+      "text": "Not an inch of food remained in the camp; the sled lashings had been gnawed to threads.",
+      "translation": "Kampta tek lokma yiyecek kalmamıştı; kızak bağları çiğnenip iplik iplik edilmişti.",
+      "notes": "Sayfa 8 | gnawed to threads: kemirilip iplik haline getirilmiş."
+    },
+    {
+      "id": 157,
+      "start_ms": 989004,
+      "end_ms": 995004,
+      "text": "Every dog was wounded: Dub was limping, and Sol-leks had lost his other eye partially.",
+      "translation": "Her köpek yaralıydı: Dub topallıyordu ve Sol-leks diğer gözünü de kısmen kaybetmişti.",
+      "notes": "Sayfa 8 | partially: kısmen."
+    },
+    {
+      "id": 158,
+      "start_ms": 995404,
+      "end_ms": 1003828,
+      "text": "\"Sacredam!\" Perrault groaned, inspecting their supplies. \"It will take us three weeks to reach Dawson!\"",
+      "translation": "\"Lanet olsun!\" diye inledi Perrault erzaklarını kontrol ederken. \"Dawson'a varmamız üç haftamızı alacak!\"",
+      "notes": "Sayfa 8 | take three weeks: üç hafta sürmek."
+    },
+    {
+      "id": 159,
+      "start_ms": 1004228,
+      "end_ms": 1009532,
+      "text": "\"And what if those wild devils give them madness?\" added Francois anxiously.",
+      "translation": "\"Ya o vahşi iblisler bizim köpeklere kuduz bulaştırdıysa?\" diye endişeyle ekledi Francois.",
+      "notes": "Sayfa 8 | give madness: kuduz bulaştırmak."
+    },
+    {
+      "id": 160,
+      "start_ms": 1009932,
+      "end_ms": 1016700,
+      "text": "Yet they repaired the harness, tightened the traces, and set off once more into the desolate white expanse.",
+      "translation": "Yine de koşumları onardılar, ipleri sıktılar ve o ıssız beyaz genişliğe doğru bir kez daha yola koyuldular.",
+      "notes": "Sayfa 8 | set off once more: bir kez daha yola koyuldular."
+    },
+    {
+      "id": 161,
+      "start_ms": 1017700,
+      "end_ms": 1023772,
+      "text": "Thirty Mile River was a treacherous ribbon of wild water barely skin-coated with fragile ice.",
+      "translation": "Otuz Mil Nehri, üzerinde ancak incecik kırılgan bir buz tabakası bulunan tekinsiz bir vahşi su şeridiydi.",
+      "notes": "Sayfa 9 | barely skin-coated: zar zor ince bir tabakayla kaplı."
+    },
+    {
+      "id": 162,
+      "start_ms": 1024172,
+      "end_ms": 1030892,
+      "text": "Underneath, the furious current rushed at six miles an hour, ready to swallow any living creature.",
+      "translation": "Buzun altında saatte altı mil hızla akan hırçın akıntı, canlı her yaratığı yutmaya hazır bekliyordu.",
+      "notes": "Sayfa 9 | furious current: hırçın akıntı."
+    },
+    {
+      "id": 163,
+      "start_ms": 1031292,
+      "end_ms": 1036908,
+      "text": "Perrault walked ahead with a long pole, constantly tapping the ice to test its strength.",
+      "translation": "Perrault elinde uzun bir sırıkla önden yürüyor; sağlamlığını sınamak için buza durmadan vuruyordu.",
+      "notes": "Sayfa 9 | tapping: tıklatarak, hafifçe vurarak."
+    },
+    {
+      "id": 164,
+      "start_ms": 1037308,
+      "end_ms": 1043476,
+      "text": "A dozen times he broke through, saved only by holding the pole horizontally across the hole.",
+      "translation": "Düzinelerce kez buzu kırıp suya düştü; ancak sırığı deliğin üzerine yatay tutarak canını kurtardı.",
+      "notes": "Sayfa 9 | broke through: kırıp içine düştü."
+    },
+    {
+      "id": 165,
+      "start_ms": 1043876,
+      "end_ms": 1049732,
+      "text": "Each time he fell in, they had to build an immediate fire to dry his frozen garments.",
+      "translation": "Suya her düştüğünde, donmuş giysilerini kurutmak için derhal bir ateş yakmak zorunda kaldılar.",
+      "notes": "Sayfa 9 | build an immediate fire: acilen ateş yakmak."
+    },
+    {
+      "id": 166,
+      "start_ms": 1050132,
+      "end_ms": 1056180,
+      "text": "At fifty degrees below zero, wet boots meant losing feet to frostbite within an hour.",
+      "translation": "Sıfırın altında elli derecede, ıslak çizmeler bir saat içinde ayakları soğuktan kaybetmek demekti.",
+      "notes": "Sayfa 9 | frostbite: donma/soğuk yanığı."
+    },
+    {
+      "id": 167,
+      "start_ms": 1056580,
+      "end_ms": 1062508,
+      "text": "Once, the whole sled broke through, dragging Dave and Buck into the churning black water.",
+      "translation": "Bir keresinde bütün kızak buzu kırdı; Dave ve Buck'ı köpüren kara suların içine sürükledi.",
+      "notes": "Sayfa 9 | churning water: köpüren su."
+    },
+    {
+      "id": 168,
+      "start_ms": 1062908,
+      "end_ms": 1068668,
+      "text": "They were hauled out half-drowned, their coats instantly turning into solid armor of ice.",
+      "translation": "Yarı boğulmuş halde çekip çıkarıldılar; kürkleri anında som bir buz zırhına dönüştü.",
+      "notes": "Sayfa 9 | armor of ice: buzdan zırh."
+    },
+    {
+      "id": 169,
+      "start_ms": 1069068,
+      "end_ms": 1074756,
+      "text": "Francois ran them around the roaring fire until the ice thawed and was scraped from their fur.",
+      "translation": "Buzlar eriyip kürklerinden kazınana kadar Francois onları gürül gürül yanan ateşin etrafında koşturdu.",
+      "notes": "Sayfa 9 | scraped from fur: kürkten kazındı."
+    },
+    {
+      "id": 170,
+      "start_ms": 1075156,
+      "end_ms": 1080772,
+      "text": "Buck's feet were softer than the huskies', having grown up on the warm lawns of California.",
+      "translation": "Kaliforniya'nın sıcak çimlerinde büyüdüğünden, Buck'ın patileri huskylerinkinden çok daha yumuşaktı.",
+      "notes": "Sayfa 9 | warm lawns: sıcak çimler."
+    },
+    {
+      "id": 171,
+      "start_ms": 1081172,
+      "end_ms": 1086692,
+      "text": "The razor-sharp ice crust cut his pads until he limped in agony at the end of each day.",
+      "translation": "Jilet gibi keskin buz kabuğu pati tabanlarını yardı; öyle ki her günün sonunda acı içinde topallıyordu.",
+      "notes": "Sayfa 9 | limped in agony: ızdırap içinde topalladı."
+    },
+    {
+      "id": 172,
+      "start_ms": 1087092,
+      "end_ms": 1092924,
+      "text": "He refused to rise for his supper unless Francois brought the dried fish directly to his bed.",
+      "translation": "Francois kurutulmuş balığı doğrudan yattığı yere getirmedikçe akşam yemeği için ayağa kalkmayı reddediyordu.",
+      "notes": "Sayfa 9 | refused to rise: kalkmayı reddetti."
+    },
+    {
+      "id": 173,
+      "start_ms": 1093324,
+      "end_ms": 1100068,
+      "text": "Seeing his distress, the kind-hearted Frenchman cut four tiny moccasins from his own buckskin jacket.",
+      "translation": "Onun bu perişan halini gören iyi yürekli Fransız, kendi geyik derisi ceketinden dört minik mokasen patik kesti.",
+      "notes": "Sayfa 9 | buckskin jacket: geyik derisi ceket."
+    },
+    {
+      "id": 174,
+      "start_ms": 1100468,
+      "end_ms": 1106252,
+      "text": "Every morning Francois lovingly tied the little moccasins upon Buck's four aching feet.",
+      "translation": "Her sabah Francois bu küçük patikleri Buck'ın sızlayan dört patisine sevgiyle bağladı.",
+      "notes": "Sayfa 9 | lovingly tied: sevgiyle bağladı."
+    },
+    {
+      "id": 175,
+      "start_ms": 1106652,
+      "end_ms": 1112916,
+      "text": "Buck looked ridiculous at first, marching stiffly like a soldier on parade, but he loved them.",
+      "translation": "Törendeki bir asker gibi kaskatı yürüyerek ilk başta gülünç görünüyordu, fakat bu patiklere bayıldı.",
+      "notes": "Sayfa 9 | looked ridiculous: gülünç görünüyordu."
+    },
+    {
+      "id": 176,
+      "start_ms": 1113316,
+      "end_ms": 1119916,
+      "text": "One morning Francois forgot them, and Buck lay on his back, waving his four paws in protest.",
+      "translation": "Bir sabah Francois onları unuttu; Buck ise sırtüstü yatıp dört patisini protesto edercesine havada salladı.",
+      "notes": "Sayfa 9 | waving in protest: itirazla sallayarak."
+    },
+    {
+      "id": 177,
+      "start_ms": 1120316,
+      "end_ms": 1126172,
+      "text": "Francois laughed, knelt down, and tied them on before Buck would take a single step.",
+      "translation": "Francois güldü, diz çöktü ve Buck tek bir adım bile atmadan önce onları bağladı.",
+      "notes": "Sayfa 9 | knelt down: diz çöktü."
+    },
+    {
+      "id": 178,
+      "start_ms": 1126572,
+      "end_ms": 1132260,
+      "text": "Later, his pads hardened like leather, and the moccasins were discarded upon the trail.",
+      "translation": "Daha sonra pati tabanları kösele gibi sertleşti ve mokasenler patikada bir kenara bırakıldı.",
+      "notes": "Sayfa 9 | hardened like leather: kösele gibi sertleşti."
+    },
+    {
+      "id": 179,
+      "start_ms": 1132660,
+      "end_ms": 1138948,
+      "text": "Through sheer determination, they conquered the Thirty Mile River in six days of unbroken toil.",
+      "translation": "Katıksız bir azimle, altı günlük kesintisiz bir çabayla Otuz Mil Nehri'ni dize getirdiler.",
+      "notes": "Sayfa 9 | sheer determination: katıksız kararlılık."
+    },
+    {
+      "id": 180,
+      "start_ms": 1139348,
+      "end_ms": 1144484,
+      "text": "Every mile brought Buck closer to his destined reckoning with the treacherous Spitz.",
+      "translation": "Alınan her mil, Buck'ı o hain Spitz ile yaşayacağı mukadder hesaplaşmaya bir adım daha yaklaştırdı.",
+      "notes": "Sayfa 9 | destined reckoning: mukadder hesaplaşma."
+    },
+    {
+      "id": 181,
+      "start_ms": 1145484,
+      "end_ms": 1150572,
+      "text": "Nothing moved Spitz so much as the quiet, deliberate rebellion of Buck.",
+      "translation": "Spitz'i hiçbir şey Buck'ın o sessiz, planlı başkaldırısı kadar öfkelendiremezdi.",
+      "notes": "Sayfa 10 | deliberate rebellion: kasıtlı/planlı isyan."
+    },
+    {
+      "id": 182,
+      "start_ms": 1150972,
+      "end_ms": 1156588,
+      "text": "Buck had never picked a fight, but he stood squarely in the path of the white leader's tyranny.",
+      "translation": "Buck hiçbir zaman kavgayı başlatan olmadı, fakat beyaz liderin zorbalığının tam karşısında dimdik durdu.",
+      "notes": "Sayfa 10 | stood squarely: dimdik durdu."
+    },
+    {
+      "id": 183,
+      "start_ms": 1156988,
+      "end_ms": 1161500,
+      "text": "He openly shielded other dogs from Spitz's unprovoked wrath.",
+      "translation": "Spitz'in sebepsiz gazabına karşı diğer köpekleri açıkça koruyup siper oldu.",
+      "notes": "Sayfa 10 | shielded from: ...den korudu."
+    },
+    {
+      "id": 184,
+      "start_ms": 1161900,
+      "end_ms": 1168716,
+      "text": "When Spitz attacked the timid Billee, Buck sprang between them, driving Spitz back with bared fangs.",
+      "translation": "Spitz o çekingen Billee'ye saldırdığında Buck ikisinin arasına daldı; dişlerini göstererek Spitz'i geri püskürttü.",
+      "notes": "Sayfa 10 | sprang between: aralarına atıldı."
+    },
+    {
+      "id": 185,
+      "start_ms": 1169116,
+      "end_ms": 1173844,
+      "text": "A covert mutiny grew within the team under Buck's silent encouragement.",
+      "translation": "Buck'ın sessiz cesaretlendirmesiyle kızak takımının içinde gizli bir isyan filizlendi.",
+      "notes": "Sayfa 10 | covert mutiny: gizli isyan."
+    },
+    {
+      "id": 186,
+      "start_ms": 1174244,
+      "end_ms": 1179356,
+      "text": "Pike refused to pull in his traces, and Dub shirked his duties openly.",
+      "translation": "Pike kayışlarını çekmeyi reddetti ve Dub görevlerinden açıkça kaytarmaya başladı.",
+      "notes": "Sayfa 10 | shirked his duties: görevlerinden kaytardı."
+    },
+    {
+      "id": 187,
+      "start_ms": 1179756,
+      "end_ms": 1185132,
+      "text": "Whenever Spitz tried to discipline them, Buck intervened, defying his authority.",
+      "translation": "Spitz onları terbiye etmeye kalkıştığında Buck araya giriyor, onun otoritesine meydan okuyordu.",
+      "notes": "Sayfa 10 | defying authority: otoriteye meydan okuyarak."
+    },
+    {
+      "id": 188,
+      "start_ms": 1185532,
+      "end_ms": 1190740,
+      "text": "Francois saw the danger brewing and kept his heavy whip constantly in motion.",
+      "translation": "Francois yaklaşan tehlikeyi gördü ve ağır kamçısını durmaksızın havada şaklatıp durdu.",
+      "notes": "Sayfa 10 | kept in motion: sürekli hareket halinde tuttu."
+    },
+    {
+      "id": 189,
+      "start_ms": 1191140,
+      "end_ms": 1198460,
+      "text": "\"One of dese days dat Buck gwine jump on Spitz and chew him all up!\" Francois warned Perrault.",
+      "translation": "\"Günün birinde bu Buck Spitz'in üstüne atlayıp onu kıtır kıtır yiyecek!\" diye uyardı Francois Perrault'yu.",
+      "notes": "Sayfa 10 | chew all up: kıtır kıtır yemek."
+    },
+    {
+      "id": 190,
+      "start_ms": 1198860,
+      "end_ms": 1205196,
+      "text": "\"Dat Spitz big fighter, but Buck two times bigger and mad like hell,\" the driver answered.",
+      "translation": "\"Şu Spitz yaman dövüşçü, ama Buck iki katı daha iri ve cehennem gibi öfkeli,\" diye yanıtladı sürücü.",
+      "notes": "Sayfa 10 | mad like hell: cehennem gibi öfkeli."
+    },
+    {
+      "id": 191,
+      "start_ms": 1205596,
+      "end_ms": 1211548,
+      "text": "Discipline broke down completely; the dogs quarrelled constantly and snarled at the harness.",
+      "translation": "Disiplin tamamen çöktü; köpekler durmadan kavga ediyor ve koşum takımlarına hırlıyordu.",
+      "notes": "Sayfa 10 | broke down: çöktü, bozuldu."
+    },
+    {
+      "id": 192,
+      "start_ms": 1211948,
+      "end_ms": 1216604,
+      "text": "Anarchy reigned where orderly cooperation had once ruled the trail.",
+      "translation": "Patikada bir zamanlar düzenli bir işbirliğinin hüküm sürdüğü yerde şimdi anarşi kol geziyordu.",
+      "notes": "Sayfa 10 | anarchy reigned: kargaşa hüküm sürdü."
+    },
+    {
+      "id": 193,
+      "start_ms": 1217004,
+      "end_ms": 1223172,
+      "text": "Dave and Sol-leks alone remained unmoved, caring only for the dignity of their daily toil.",
+      "translation": "Yalnızca Dave ve Sol-leks istiflerini bozmadı; sadece günlük emeklerinin onurunu önemsiyorlardı.",
+      "notes": "Sayfa 10 | remained unmoved: istifini bozmadı."
+    },
+    {
+      "id": 194,
+      "start_ms": 1223572,
+      "end_ms": 1228636,
+      "text": "For them the traces were sacred, and they had no time for petty squabbles.",
+      "translation": "Onlar için çekme ipleri kutsaldı ve ufak tefek didişmelere ayıracak vakitleri yoktu.",
+      "notes": "Sayfa 10 | petty squabbles: ufak tefek didişmeler."
+    },
+    {
+      "id": 195,
+      "start_ms": 1229036,
+      "end_ms": 1235324,
+      "text": "Spitz felt his supremacy slipping away, and his cold eyes watched Buck with murderous intent.",
+      "translation": "Spitz liderliğinin ellerinden kayıp gittiğini hissediyordu ve soğuk gözleri Buck'ı katilce niyetlerle izliyordu.",
+      "notes": "Sayfa 10 | supremacy slipping: üstünlüğün kayması."
+    },
+    {
+      "id": 196,
+      "start_ms": 1235724,
+      "end_ms": 1240236,
+      "text": "He knew that only a fight to the death could decide the master of the team.",
+      "translation": "Takımın efendisinin ancak ölümüne bir kavgayla belirlenebileceğini çok iyi biliyordu.",
+      "notes": "Sayfa 10 | fight to the death: ölümüne kavga."
+    },
+    {
+      "id": 197,
+      "start_ms": 1240636,
+      "end_ms": 1245148,
+      "text": "Buck knew it too, and he waited calmly for the inevitable moment.",
+      "translation": "Buck da bunu biliyordu ve o kaçınılmaz anı büyük bir sükunetle bekledi.",
+      "notes": "Sayfa 10 | inevitable moment: kaçınılmaz an."
+    },
+    {
+      "id": 198,
+      "start_ms": 1245548,
+      "end_ms": 1250660,
+      "text": "Between them lay an unbridgeable gulf of ancient hatred and primordial ambition.",
+      "translation": "Aralarında kadim nefretten ve ilkçağ hırsından örülü kapanmaz bir uçurum uzanıyordu.",
+      "notes": "Sayfa 10 | unbridgeable gulf: kapatılamaz uçurum."
+    },
+    {
+      "id": 199,
+      "start_ms": 1251060,
+      "end_ms": 1255836,
+      "text": "The pride of the trail and the glory of the lead belonged to one dog alone.",
+      "translation": "Patikanın onuru ve liderliğin şerefi yalnızca tek bir köpeğe ait olabilirdi.",
+      "notes": "Sayfa 10 | glory of the lead: liderlik şerefi."
+    },
+    {
+      "id": 200,
+      "start_ms": 1256236,
+      "end_ms": 1261900,
+      "text": "The final clash arrived on a freezing night beneath the pale luminescence of the northern moon.",
+      "translation": "Son çarpışma, kuzey ayının solgun ışıltısı altında dondurucu bir gecede çıkageldi.",
+      "notes": "Sayfa 10 | final clash: son çarpışma."
+    },
+    {
+      "id": 201,
+      "start_ms": 1262900,
+      "end_ms": 1269740,
+      "text": "A snowshoe hare leaped from the brush one night, and sixty dogs dashed across the snow in frantic pursuit.",
+      "translation": "Bir gece çalıların arasından bir kar tavşanı fırladı ve altmış köpek çılgınca bir takiple karların üzerinde koştu.",
+      "notes": "Sayfa 11 | snowshoe hare: kar tavşanı."
+    },
+    {
+      "id": 202,
+      "start_ms": 1270140,
+      "end_ms": 1275948,
+      "text": "Buck led the great hunting pack, baying with the joy of the blood-lust awakened in his heart.",
+      "translation": "Yüreğinde uyanan kan arzusunun sevinciyle uluyarak bu büyük av sürüsüne Buck öncülük etti.",
+      "notes": "Sayfa 11 | blood-lust: kan dökme arzusu/şehveti."
+    },
+    {
+      "id": 203,
+      "start_ms": 1276348,
+      "end_ms": 1283188,
+      "text": "Spitz cut across a narrow strip of land, heading off the hare and snapping its back with a single crunch.",
+      "translation": "Spitz dar bir kara parçasını kestirmeden geçip tavşanın önünü kesti ve tek bir çatırtıyla belini kırdı.",
+      "notes": "Sayfa 11 | heading off: önünü keserek."
+    },
+    {
+      "id": 204,
+      "start_ms": 1283588,
+      "end_ms": 1290068,
+      "text": "Buck crashed into him with all his momentum, but Spitz rolled upright, slashing Buck's shoulder.",
+      "translation": "Buck bütün hızıyla ona çarptı, fakat Spitz hemen ayağa fırlayarak Buck'ın omzunu yardı.",
+      "notes": "Sayfa 11 | rolled upright: toparlanıp ayağa kalktı."
+    },
+    {
+      "id": 205,
+      "start_ms": 1290468,
+      "end_ms": 1296972,
+      "text": "In an instant, the fifty other huskies formed a silent, expectant circle around the two fighters.",
+      "translation": "Bir anda diğer elli husky, iki dövüşçünün etrafında sessiz, beklenti dolu bir çember kurdu.",
+      "notes": "Sayfa 11 | expectant circle: beklenti dolu çember."
+    },
+    {
+      "id": 206,
+      "start_ms": 1297372,
+      "end_ms": 1302628,
+      "text": "This was the duel to the death: the fallen dog would never rise from the snow.",
+      "translation": "Bu, ölümüne bir düelloydu: yere düşen köpek karlardan bir daha asla ayağa kalkamayacaktı.",
+      "notes": "Sayfa 11 | duel to the death: ölümüne düello."
+    },
+    {
+      "id": 207,
+      "start_ms": 1303028,
+      "end_ms": 1308836,
+      "text": "Spitz was a seasoned fighter, parrying every strike and slashing like a fencing master.",
+      "translation": "Spitz usta bir eskrimci gibi her darbeyi savuşturan ve yarıp geçen tecrübeli bir dövüşçüydü.",
+      "notes": "Sayfa 11 | fencing master: eskrim ustası."
+    },
+    {
+      "id": 208,
+      "start_ms": 1309236,
+      "end_ms": 1315356,
+      "text": "Time after time Buck charged, and time after time Spitz tore his flesh and sprang clear.",
+      "translation": "Buck defalarca hücum etti ve Spitz defalarca onun etini parçalayıp yana kaçtı.",
+      "notes": "Sayfa 11 | time after time: defalarca."
+    },
+    {
+      "id": 209,
+      "start_ms": 1315756,
+      "end_ms": 1321540,
+      "text": "Buck was bleeding from a dozen wounds, panting heavily as the cold air froze his breath.",
+      "translation": "Soğuk hava nefesini dondururken Buck bir düzine yaradan kan kaybediyor, ağır ağır soluyordu.",
+      "notes": "Sayfa 11 | bleeding from wounds: yaralardan kanayan."
+    },
+    {
+      "id": 210,
+      "start_ms": 1321940,
+      "end_ms": 1328108,
+      "text": "The circle of huskies drew closer, their tongues lolling out, waiting for the final collapse.",
+      "translation": "Dilleri dışarı sarkmış halde huskylerin çemberi giderek daraldı; o son yere yığılışı bekleyerek.",
+      "notes": "Sayfa 11 | tongues lolling out: dilleri dışarı sarkarak."
+    },
+    {
+      "id": 211,
+      "start_ms": 1328508,
+      "end_ms": 1333116,
+      "text": "Buck possessed a quality that made for greatness: imagination.",
+      "translation": "Buck, büyüklüğü yaratan o eşsiz niteliğe sahipti: zeka ve taktik hayal gücü.",
+      "notes": "Sayfa 11 | made for greatness: büyüklük sağlayan."
+    },
+    {
+      "id": 212,
+      "start_ms": 1333516,
+      "end_ms": 1339252,
+      "text": "He feigned another rush at Spitz's throat, but at the last second dove low for the snow.",
+      "translation": "Spitz'in boğazına doğru yeni bir hamle yapar gibi sahte bir hücum yaptı, fakat son saniyede karların üzerine alçaldı.",
+      "notes": "Sayfa 11 | feigned another rush: başka bir hücum taklidi yaptı."
+    },
+    {
+      "id": 213,
+      "start_ms": 1339652,
+      "end_ms": 1346540,
+      "text": "His jaws snapped together upon Spitz's left foreleg, and the clean snap of bone echoed in the silence.",
+      "translation": "Çeneleri Spitz'in sol ön bacağına kenetlendi ve kemiğin net kırılma sesi sessizlikte yankılandı.",
+      "notes": "Sayfa 11 | clean snap of bone: kemiğin temiz kırılışı."
+    },
+    {
+      "id": 214,
+      "start_ms": 1346940,
+      "end_ms": 1352772,
+      "text": "Spitz staggered on three legs, crying out in sudden terror and agonizing pain.",
+      "translation": "Spitz ani bir dehşet ve dayanılmaz bir acıyla haykırarak üç bacağı üzerinde yalpaladı.",
+      "notes": "Sayfa 11 | staggered: yalpaladı, sendeledi."
+    },
+    {
+      "id": 215,
+      "start_ms": 1353172,
+      "end_ms": 1358548,
+      "text": "Before the white dog could recover, Buck charged again and broke his right foreleg.",
+      "translation": "Beyaz köpek toparlanamadan Buck bir kez daha yüklendi ve onun sağ ön bacağını da kırdı.",
+      "notes": "Sayfa 11 | broke right foreleg: sağ ön bacağını kırdı."
+    },
+    {
+      "id": 216,
+      "start_ms": 1358948,
+      "end_ms": 1364636,
+      "text": "Spitz fell upon his knees, the fighting spirit extinguished from his glazing eyes.",
+      "translation": "Dövüşme azmi buğulanan gözlerinden silinip giden Spitz dizlerinin üzerine çöktü.",
+      "notes": "Sayfa 11 | glazing eyes: donuklaşan gözler."
+    },
+    {
+      "id": 217,
+      "start_ms": 1365036,
+      "end_ms": 1370868,
+      "text": "There was no mercy; the law of club and fang demanded total destruction of the defeated.",
+      "translation": "Merhamet yoktu; sopa ve diş kanunu yenilenin tamamen yok edilmesini emrediyordu.",
+      "notes": "Sayfa 11 | demanded destruction: yok edilmeyi talep etti."
+    },
+    {
+      "id": 218,
+      "start_ms": 1371268,
+      "end_ms": 1376908,
+      "text": "Buck delivered the final crushing blow, and Spitz rolled helplessly onto his back.",
+      "translation": "Buck o son ezici darbeyi indirdi ve Spitz çaresizce sırtüstü devrildi.",
+      "notes": "Sayfa 11 | crushing blow: ezici darbe."
+    },
+    {
+      "id": 219,
+      "start_ms": 1377308,
+      "end_ms": 1383668,
+      "text": "The dark circle of sixty wolves closed in like a black tidal wave, and Spitz vanished forever.",
+      "translation": "Altmış kurttan oluşan karanlık çember kara bir medcezir dalgası gibi kapandı ve Spitz sonsuza dek yok oldu.",
+      "notes": "Sayfa 11 | black tidal wave: kara medcezir dalgası."
+    },
+    {
+      "id": 220,
+      "start_ms": 1384068,
+      "end_ms": 1389684,
+      "text": "Buck stood motionless in the moonlight, the dominant primordial beast that had made its kill.",
+      "translation": "Buck ay ışığının altında öylece hareketsiz durdu; avını yapmış o egemen ilkel canavarın ta kendisiydi artık.",
+      "notes": "Sayfa 11 | dominant primordial beast: egemen ilkel canavar."
+    },
+    {
+      "id": 221,
+      "start_ms": 1390684,
+      "end_ms": 1399300,
+      "text": "\"Eh? What did I say? Spitz gone for sure!\" cried Francois the next morning, looking at the empty snow.",
+      "translation": "\"Ha? Ben ne demiştim? Spitz kesin gitmiş!\" diye haykırdı ertesi sabah boş karlara bakan Francois.",
+      "notes": "Sayfa 12 | gone for sure: kesin gitmiş."
+    },
+    {
+      "id": 222,
+      "start_ms": 1399700,
+      "end_ms": 1405340,
+      "text": "He brought Sol-leks to the leader's position, intending to give the old veteran the harness.",
+      "translation": "Koşumları o eski kıdemliye verme niyetiyle Sol-leks'i liderin yerine getirdi.",
+      "notes": "Sayfa 12 | old veteran: ihtiyar kıdemli."
+    },
+    {
+      "id": 223,
+      "start_ms": 1405740,
+      "end_ms": 1411620,
+      "text": "Buck bounded into the place, growling low, refusing to yield the position he had won.",
+      "translation": "Buck kazandığı yeri teslim etmeyi reddederek alçak bir hırıltıyla liderin yerine fırladı.",
+      "notes": "Sayfa 12 | refusing to yield: teslim etmeyi reddederek."
+    },
+    {
+      "id": 224,
+      "start_ms": 1412020,
+      "end_ms": 1416676,
+      "text": "\"Get out of dat!\" shouted Francois, threatening him with a club.",
+      "translation": "\"Çık oradan çabuk!\" diye bağırdı Francois, onu sopayla tehdit ederek.",
+      "notes": "Sayfa 12 | threatening: tehdit ederek."
+    },
+    {
+      "id": 225,
+      "start_ms": 1417076,
+      "end_ms": 1422740,
+      "text": "Buck retreated out of reach of the club, but refused to let any other dog take the lead.",
+      "translation": "Buck sopanın erişemeyeceği bir mesafeye çekildi, fakat başka hiçbir köpeğin liderliği almasına izin vermedi.",
+      "notes": "Sayfa 12 | out of reach: erişim dışı."
+    },
+    {
+      "id": 226,
+      "start_ms": 1423140,
+      "end_ms": 1429572,
+      "text": "For an hour Francois chased him with clubs and whips, but Buck circled lithely beyond his grasp.",
+      "translation": "Bir saat boyunca Francois sopalar ve kamçılarla onun peşinde koştu, fakat Buck onun menzilinin dışında kıvrakça döndü.",
+      "notes": "Sayfa 12 | circled lithely: kıvrakça döndü."
+    },
+    {
+      "id": 227,
+      "start_ms": 1429972,
+      "end_ms": 1436404,
+      "text": "He demanded his rightful place as king of the traces; nothing less would satisfy his iron will.",
+      "translation": "Kayışların kralı olarak hakkı olan yeri talep ediyordu; onun çelik iradesini bundan daha azı tatmin edemezdi.",
+      "notes": "Sayfa 12 | iron will: demir irade."
+    },
+    {
+      "id": 228,
+      "start_ms": 1436804,
+      "end_ms": 1443716,
+      "text": "Perrault laughed and looked at his watch: \"We waste time! Put him in de lead, Francois!\"",
+      "translation": "Perrault güldü ve saatine baktı: \"Vakit kaybediyoruz! Geçir onu başa Francois!\"",
+      "notes": "Sayfa 12 | waste time: vakit kaybetmek."
+    },
+    {
+      "id": 229,
+      "start_ms": 1444116,
+      "end_ms": 1450140,
+      "text": "Francois threw down his club, and Buck trot forward proudly to receive the leader's harness.",
+      "translation": "Francois sopasını yere attı ve Buck gururla tırıs giderek liderin koşum takımını teslim aldı.",
+      "notes": "Sayfa 12 | trot forward: tırıs gitmek."
+    },
+    {
+      "id": 230,
+      "start_ms": 1450540,
+      "end_ms": 1456492,
+      "text": "Great as Spitz had been, Buck proved himself instantly superior in judgment and authority.",
+      "translation": "Spitz her ne kadar büyük olsa da, Buck muhakeme ve otoritede anında ondan üstün olduğunu kanıtladı.",
+      "notes": "Sayfa 12 | instantly superior: anında üstün."
+    },
+    {
+      "id": 231,
+      "start_ms": 1456892,
+      "end_ms": 1463396,
+      "text": "He punished shirkers swiftly, restored iron discipline, and bound the team into a single machine.",
+      "translation": "Kaytaranları anında cezalandırdı, demir gibi bir disiplin kurdu ve takımı tek bir makine gibi birbirine kenetledi.",
+      "notes": "Sayfa 12 | iron discipline: demir disiplin."
+    },
+    {
+      "id": 232,
+      "start_ms": 1463796,
+      "end_ms": 1470132,
+      "text": "The team pulled as it had never pulled before, flying across the frozen expanses like the wind.",
+      "translation": "Kızak takımı daha önce hiç çekmediği gibi çekti; donmuş arazilerde rüzgar gibi uçtu.",
+      "notes": "Sayfa 12 | flying like the wind: rüzgar gibi uçarak."
+    },
+    {
+      "id": 233,
+      "start_ms": 1470532,
+      "end_ms": 1477180,
+      "text": "They covered thirty, forty, and fifty miles a day, breaking all records on the Yukon trail.",
+      "translation": "Günde otuz, kırk, elli mil yol katettiler; Yukon patikasındaki bütün rekorları altüst ettiler.",
+      "notes": "Sayfa 12 | breaking all records: tüm rekorları kırarak."
+    },
+    {
+      "id": 234,
+      "start_ms": 1477580,
+      "end_ms": 1483988,
+      "text": "They dashed into Dawson City in record time, greeted by cheering throngs of miners and officials.",
+      "translation": "Madencilerin ve yetkililerin alkışlayan kalabalıkları tarafından karşılanarak rekor sürede Dawson Şehri'ne girdiler.",
+      "notes": "Sayfa 12 | cheering throngs: tezahürat yapan kalabalıklar."
+    },
+    {
+      "id": 235,
+      "start_ms": 1484388,
+      "end_ms": 1490820,
+      "text": "For two days Buck was the hero of the town, celebrated for his strength and indomitable courage.",
+      "translation": "Buck iki gün boyunca gücü ve boyun eğmez cesaretiyle övülen kasabanın kahramanı oldu.",
+      "notes": "Sayfa 12 | indomitable courage: boyun eğmez cesaret."
+    },
+    {
+      "id": 236,
+      "start_ms": 1491220,
+      "end_ms": 1497556,
+      "text": "Then came official orders from the government: Francois and Perrault were reassigned to other duties.",
+      "translation": "Derken hükümetten resmi emirler geldi: Francois ve Perrault başka görevlere tayin edildiler.",
+      "notes": "Sayfa 12 | reassigned: yeniden tayin edildi."
+    },
+    {
+      "id": 237,
+      "start_ms": 1497956,
+      "end_ms": 1503044,
+      "text": "Francois wept openly as he threw his arms around Buck's great furry neck.",
+      "translation": "Francois kollarını Buck'ın o kocaman tüylü boynuna dolarken hüngür hüngür ağladı.",
+      "notes": "Sayfa 12 | wept openly: açıkça ağladı."
+    },
+    {
+      "id": 238,
+      "start_ms": 1503444,
+      "end_ms": 1510020,
+      "text": "\"Au revoir, Buck!\" he sobbed. \"You are the best damn dog in all Canada!\"",
+      "translation": "\"Elveda Buck!\" diye hıçkırdı. \"Tüm Kanada'daki en harika köpeksin sen!\"",
+      "notes": "Sayfa 12 | au revoir: elveda (Fransızca)."
+    },
+    {
+      "id": 239,
+      "start_ms": 1510420,
+      "end_ms": 1516444,
+      "text": "And that was the last Buck saw of the two kind-hearted couriers who had guided his northern education.",
+      "translation": "Ve bu, kuzeydeki eğitimine rehberlik eden o iki iyi yürekli ulağı Buck'ın son görüşü oldu.",
+      "notes": "Sayfa 12 | last saw: son gördüğü."
+    },
+    {
+      "id": 240,
+      "start_ms": 1516844,
+      "end_ms": 1522292,
+      "text": "A new master took the whip, and a heavier, more grueling journey was about to begin.",
+      "translation": "Kamçıyı yeni bir efendi devraldı ve daha ağır, çok daha çetin bir yolculuk başlamak üzereydi.",
+      "notes": "Sayfa 12 | grueling journey: yıpratıcı yolculuk."
+    },
+    {
+      "id": 241,
+      "start_ms": 1523292,
+      "end_ms": 1528092,
+      "text": "A Scotch half-breed took charge of the team to haul the heavy government mail.",
+      "translation": "Ağır hükümet postasını çekmek üzere takımın idaresini bir İskoç melezi devraldı.",
+      "notes": "Sayfa 13 | took charge: idareyi devraldı."
+    },
+    {
+      "id": 242,
+      "start_ms": 1528492,
+      "end_ms": 1534732,
+      "text": "It was heavy work, the mail sacks weighing hundreds of pounds on the long trail back to Skagway.",
+      "translation": "Ağır bir işti bu; Skagway'e dönüş yolundaki o uzun patikada posta çuvalları yüzlerce pound çekiyordu.",
+      "notes": "Sayfa 13 | weighing hundreds: yüzlerce pound çeken."
+    },
+    {
+      "id": 243,
+      "start_ms": 1535132,
+      "end_ms": 1541132,
+      "text": "There was no glory now; only the monotonous, soul-crushing drudgery of daily hauling.",
+      "translation": "Artık hiçbir zafer pırıltısı yoktu; sadece her gün araba çekmenin o tekdüze, ruhu ezen angaryası vardı.",
+      "notes": "Sayfa 13 | soul-crushing drudgery: ruhu ezen angarya."
+    },
+    {
+      "id": 244,
+      "start_ms": 1541532,
+      "end_ms": 1547268,
+      "text": "They carried letters to the lonely men who toiled for gold in the frozen creeks of the Klondike.",
+      "translation": "Klondike'ın donmuş derelerinde altın aramak için kan ter döken o yalnız adamlara mektuplar taşıyorlardı.",
+      "notes": "Sayfa 13 | toiled for gold: altın için çabalayan."
+    },
+    {
+      "id": 245,
+      "start_ms": 1547668,
+      "end_ms": 1553356,
+      "text": "Thirty days of constant toil wore down the muscles and broke the stamina of the dogs.",
+      "translation": "Otuz günlük aralıksız çaba kasları yıprattı ve köpeklerin dayanma gücünü tüketti.",
+      "notes": "Sayfa 13 | wore down: yıprattı."
+    },
+    {
+      "id": 246,
+      "start_ms": 1553756,
+      "end_ms": 1559876,
+      "text": "Buck lost twenty pounds, but his iron constitution kept him pulling tirelessly in the lead.",
+      "translation": "Buck yirmi pound kaybetti, fakat demir gibi bünyesi onu önde yorulmaksızın çeker vaziyette tuttu.",
+      "notes": "Sayfa 13 | iron constitution: demir gibi bünye."
+    },
+    {
+      "id": 247,
+      "start_ms": 1560276,
+      "end_ms": 1566060,
+      "text": "Something was terribly wrong with Dave, the gloomy wheeler who had served so faithfully.",
+      "translation": "Bunca zaman öyle sadakatle hizmet etmiş o kasvetli tekerlek köpeği Dave'de fena halde bir gariplik vardı.",
+      "notes": "Sayfa 13 | terribly wrong: fena halde yanlış."
+    },
+    {
+      "id": 248,
+      "start_ms": 1566460,
+      "end_ms": 1572628,
+      "text": "He became sullen and irritable, groaning softly whenever the heavy sled was jerked into motion.",
+      "translation": "Ağır kızak her sarsılarak hareket ettiğinde alçak sesle inleyerek hırçın ve sinirli bir hale geldi.",
+      "notes": "Sayfa 13 | sullen and irritable: asık suratlı ve asabi."
+    },
+    {
+      "id": 249,
+      "start_ms": 1573028,
+      "end_ms": 1579004,
+      "text": "The drivers examined him repeatedly, but could find no broken bones or visible wounds.",
+      "translation": "Sürücüler onu defalarca muayene ettiler, fakat ne kırık bir kemik ne de görünür bir yara bulabildiler.",
+      "notes": "Sayfa 13 | examined repeatedly: defalarca muayene etti."
+    },
+    {
+      "id": 250,
+      "start_ms": 1579404,
+      "end_ms": 1584804,
+      "text": "Something internal was broken; he was dying inside of some incurable agony.",
+      "translation": "İçinde bir şeyler kopmuştu; çaresiz bir ızdırabın pençesinde içten içe can veriyordu.",
+      "notes": "Sayfa 13 | incurable agony: çaresiz acı."
+    },
+    {
+      "id": 251,
+      "start_ms": 1585204,
+      "end_ms": 1590364,
+      "text": "One morning he was so weak he could not rise to his feet when the camp was struck.",
+      "translation": "Bir sabah kamp toplanırken öylesine bitkindi ki ayağa bile kalkamadı.",
+      "notes": "Sayfa 13 | when camp was struck: kamp toplanırken."
+    },
+    {
+      "id": 252,
+      "start_ms": 1590764,
+      "end_ms": 1596452,
+      "text": "The driver harnessed Sol-leks in Dave's place, leaving the dying dog by the fire.",
+      "translation": "Sürücü, can çekişen köpeği ateşin başında bırakarak Dave'in yerine Sol-leks'i koştu.",
+      "notes": "Sayfa 13 | harnessed in place: yerine koştu."
+    },
+    {
+      "id": 253,
+      "start_ms": 1596852,
+      "end_ms": 1601964,
+      "text": "Dave could not bear that another dog should do the work that was his lifelong pride.",
+      "translation": "Hayatı boyunca duyduğu en büyük gurur olan kendi işini bir başka köpeğin yapmasına Dave katlanamadı.",
+      "notes": "Sayfa 13 | could not bear: dayanamadı."
+    },
+    {
+      "id": 254,
+      "start_ms": 1602364,
+      "end_ms": 1609444,
+      "text": "He crawled through the snow, biting at Sol-leks's traces, pleading with his eyes to be returned to his place.",
+      "translation": "Karlarda sürünerek gitti; Sol-leks'in iplerini dişledi; yerine geri dönmek için gözleriyle yalvardı.",
+      "notes": "Sayfa 13 | pleading with eyes: gözleriyle yalvararak."
+    },
+    {
+      "id": 255,
+      "start_ms": 1609844,
+      "end_ms": 1615796,
+      "text": "The drivers understood; they could not deny a faithful dog the right to die in his traces.",
+      "translation": "Sürücüler anladılar; sadık bir köpeğe kendi koşum iplerinde ölme hakkını çok göremezlerdi.",
+      "notes": "Sayfa 13 | could not deny: inkar edemezlerdi / çok göremezlerdi."
+    },
+    {
+      "id": 256,
+      "start_ms": 1616196,
+      "end_ms": 1621956,
+      "text": "They harnessed Dave once more, and he pulled with supreme, tragic pride all that day.",
+      "translation": "Dave'i bir kez daha kızağa koştular ve o gün boyunca muazzam, trajik bir gururla çekti.",
+      "notes": "Sayfa 13 | tragic pride: trajik gurur."
+    },
+    {
+      "id": 257,
+      "start_ms": 1622356,
+      "end_ms": 1628260,
+      "text": "The next morning he could only crawl on his belly, unable to stand, whimpering softly.",
+      "translation": "Ertesi sabah ayağa kalkamaz halde, kısık sesle inleyerek sadece karnı üzerinde sürünebiliyordu.",
+      "notes": "Sayfa 13 | crawl on his belly: karnı üstünde sürünmek."
+    },
+    {
+      "id": 258,
+      "start_ms": 1628660,
+      "end_ms": 1633724,
+      "text": "The sled moved off into the woods, leaving Dave lying alone in the snow.",
+      "translation": "Kızak Dave'i karların içinde yapayalnız bırakarak ormanın içine doğru ilerledi.",
+      "notes": "Sayfa 13 | moved off: uzaklaştı."
+    },
+    {
+      "id": 259,
+      "start_ms": 1634124,
+      "end_ms": 1641180,
+      "text": "The driver halted the team, walked back with his revolver into the trees, and a shot echoed through the silence.",
+      "translation": "Sürücü takımı durdurdu, elinde tabancasıyla ağaçların arasına geri yürüdü ve sessizliğin içinde bir el silah sesi yankılandı.",
+      "notes": "Sayfa 13 | shot echoed: kurşun sesi yankılandı."
+    },
+    {
+      "id": 260,
+      "start_ms": 1641580,
+      "end_ms": 1648516,
+      "text": "The driver returned, cracked his whip, and the dogs surged forward, knowing that Dave had found peace.",
+      "translation": "Sürücü geri döndü, kamçısını şaklattı ve Dave'in huzura kavuştuğunu bilen köpekler ileriye atıldı.",
+      "notes": "Sayfa 13 | had found peace: huzura ermişti."
+    },
+    {
+      "id": 261,
+      "start_ms": 1649516,
+      "end_ms": 1655924,
+      "text": "Thirty days later, the mail train arrived in Skagway with dogs battered and muscles exhausted.",
+      "translation": "Otuz gün sonra posta kızağı köpekleri hırpalanmış ve kasları tükenmiş halde Skagway'e vardı.",
+      "notes": "Sayfa 14 | battered: hırpalanmış, yıpranmış."
+    },
+    {
+      "id": 262,
+      "start_ms": 1656324,
+      "end_ms": 1662060,
+      "text": "In less than five months they had covered twenty-five hundred miles of frozen Arctic wilderness.",
+      "translation": "Beş aydan kısa bir sürede donmuş Arktik yabanında iki bin beş yüz mil yol katetmişlerdi.",
+      "notes": "Sayfa 14 | twenty-five hundred: iki bin beş yüz."
+    },
+    {
+      "id": 263,
+      "start_ms": 1662460,
+      "end_ms": 1668244,
+      "text": "They were dead beat, their legs shaking, needing at least two weeks of complete rest.",
+      "translation": "Bacakları tir tir titreyerek pestilleri çıkmıştı; en az iki haftalık tam bir dinlenmeye muhtaçtılar.",
+      "notes": "Sayfa 14 | dead beat: pestili çıkmış, tükenmiş."
+    },
+    {
+      "id": 264,
+      "start_ms": 1668644,
+      "end_ms": 1675196,
+      "text": "Instead, three days later, official orders commanded that the worn-out dogs be sold at auction.",
+      "translation": "Bunun yerine üç gün sonra gelen resmi emirler, bu tükenmiş köpeklerin açık artırmada satılmasını buyurdu.",
+      "notes": "Sayfa 14 | sold at auction: açık artırmada satılmak."
+    },
+    {
+      "id": 265,
+      "start_ms": 1675596,
+      "end_ms": 1680612,
+      "text": "Two men from the States, Hal and Charles, bought them for a song.",
+      "translation": "Birleşik Devletler'den gelen iki adam, Hal ve Charles, onları kelepir fiyatına satın aldı.",
+      "notes": "Sayfa 14 | for a song: yok pahasına, kelepir fiyata."
+    },
+    {
+      "id": 266,
+      "start_ms": 1681012,
+      "end_ms": 1688524,
+      "text": "Charles was a middle-aged, weak-eyed man, while Hal was a callow youth of nineteen carrying a big revolver and knife.",
+      "translation": "Charles gözleri zayıf, orta yaşlı bir adamdı; Hal ise belinde koca bir tabanca ve bıçak taşıyan on dokuz yaşında toy bir gençti.",
+      "notes": "Sayfa 14 | callow youth: toy/acemi genç."
+    },
+    {
+      "id": 267,
+      "start_ms": 1688924,
+      "end_ms": 1695332,
+      "text": "With them was Mercedes, Charles's wife and Hal's sister, a spoiled, complaining lady.",
+      "translation": "Yanlarında Charles'ın karısı ve Hal'ın kız kardeşi olan şımarık, durmadan söylenen bir hanımefendi, Mercedes vardı.",
+      "notes": "Sayfa 14 | spoiled: şımarık."
+    },
+    {
+      "id": 268,
+      "start_ms": 1695732,
+      "end_ms": 1702212,
+      "text": "They were completely inexperienced in northern travel and refused to take advice from experienced miners.",
+      "translation": "Kuzey yolculuğunda tamamen tecrübesizdiler ve kıdemli madencilerin tavsiyelerini dinlemeyi reddediyorlardı.",
+      "notes": "Sayfa 14 | refused to take advice: tavsiye almayı reddetti."
+    },
+    {
+      "id": 269,
+      "start_ms": 1702612,
+      "end_ms": 1710004,
+      "text": "Their camp was in utter disorder, tents unrolled, dishes unwashed, and baggage heaped in chaotic piles.",
+      "translation": "Kampları mutlak bir düzensizlik içindeydi; çadırlar gelişigüzel açılmış, kaplar yıkanmamış, bagajlar karmakarışık yığılmıştı.",
+      "notes": "Sayfa 14 | utter disorder: mutlak düzensizlik."
+    },
+    {
+      "id": 270,
+      "start_ms": 1710404,
+      "end_ms": 1718852,
+      "text": "They piled the sled with useless luxuries: tin boxes, huge trunks, clothes hampers, and delicate canned goods.",
+      "translation": "Kızağı lüzumsuz lükslerle doldurdular: teneke kutular, koca sandıklar, çamaşır sepetleri ve narin konserve kutuları.",
+      "notes": "Sayfa 14 | delicate canned goods: narin konserveler."
+    },
+    {
+      "id": 271,
+      "start_ms": 1719252,
+      "end_ms": 1724844,
+      "text": "The load rose twice as high as any experienced Arctic traveller would dare to pack.",
+      "translation": "Yük, tecrübeli hiçbir Arktik yolcusunun cesaret edemeyeceği kadar, normalin iki katı yüksekliğe ulaştı.",
+      "notes": "Sayfa 14 | twice as high: iki kat yüksek."
+    },
+    {
+      "id": 272,
+      "start_ms": 1725244,
+      "end_ms": 1731028,
+      "text": "When the dogs failed to move the mountainous weight, Hal beat them mercilessly with a heavy club.",
+      "translation": "Köpekler o dağ gibi ağırlığı kıpırdatmayı başaramayınca Hal ağır bir sopayla onlara acımasızca vurdu.",
+      "notes": "Sayfa 14 | mountainous weight: dağ gibi ağırlık."
+    },
+    {
+      "id": 273,
+      "start_ms": 1731428,
+      "end_ms": 1737572,
+      "text": "\"The runners are frozen fast to the snow, you fool!\" an onlooker shouted in disgust.",
+      "translation": "\"Kızak ayakları kara donup yapışmış be ahmak!\" diye seyircilerden biri tiksintiyle bağırdı.",
+      "notes": "Sayfa 14 | frozen fast: donup yapışmış."
+    },
+    {
+      "id": 274,
+      "start_ms": 1737972,
+      "end_ms": 1744980,
+      "text": "The spectators broke the runners loose, and the dogs surged forward, straining every fiber of their muscles.",
+      "translation": "İzleyiciler kızak ayaklarını dondan kurtardılar ve köpekler kaslarının her bir lifini zorlayarak ileriye atıldılar.",
+      "notes": "Sayfa 14 | straining every fiber: her lifi zorlayarak."
+    },
+    {
+      "id": 275,
+      "start_ms": 1745380,
+      "end_ms": 1751164,
+      "text": "At the first sharp turn in the road, the top-heavy sled toppled over into the deep snow.",
+      "translation": "Yoldaki ilk keskin virajda üstü aşırı yüklü kızak derin karların içine devriliverdi.",
+      "notes": "Sayfa 14 | top-heavy: tepesi aşırı ağır."
+    },
+    {
+      "id": 276,
+      "start_ms": 1751564,
+      "end_ms": 1758068,
+      "text": "Baggage, trunks, and clothing scattered everywhere across the street amidst the laughter of the townspeople.",
+      "translation": "Kasabalıların kahkahaları arasında bavullar, sandıklar ve giysiler caddenin dört bir yanına saçıldı.",
+      "notes": "Sayfa 14 | scattered everywhere: her yere saçıldı."
+    },
+    {
+      "id": 277,
+      "start_ms": 1758468,
+      "end_ms": 1764660,
+      "text": "Instead of lightening the load, Hal bought six additional outside dogs to haul the tremendous weight.",
+      "translation": "Yükü hafifletmek yerine Hal, o devasa ağırlığı çeksin diye dışarıdan altı ek köpek daha satın aldı.",
+      "notes": "Sayfa 14 | additional dogs: ek köpekler."
+    },
+    {
+      "id": 278,
+      "start_ms": 1765060,
+      "end_ms": 1771156,
+      "text": "Now there were fourteen dogs, but the sled could not carry enough food for such a large team.",
+      "translation": "Artık on dört köpek vardı, fakat kızak böylesine kalabalık bir takım için yeterli yiyeceği taşıyamazdı.",
+      "notes": "Sayfa 14 | could not carry: taşıyamazdı."
+    },
+    {
+      "id": 279,
+      "start_ms": 1771556,
+      "end_ms": 1777844,
+      "text": "Buck had never seen such incompetence; he knew with canine instinct that disaster lay ahead.",
+      "translation": "Buck ömründe böylesi bir beceriksizlik görmemişti; köpek içgüdüsüyle ileride bir felaketin beklediğini biliyordu.",
+      "notes": "Sayfa 14 | canine instinct: köpek içgüdüsü."
+    },
+    {
+      "id": 280,
+      "start_ms": 1778244,
+      "end_ms": 1783716,
+      "text": "They set off across the rotting spring ice toward Dawson with doom written upon their banner.",
+      "translation": "Bayraklarında adeta felaket yazılı olarak, eriyip çürüyen bahar buzları üzerinden Dawson'a doğru yola çıktılar.",
+      "notes": "Sayfa 14 | rotting spring ice: çürüyen/eriyen bahar buzu."
+    },
+    {
+      "id": 281,
+      "start_ms": 1784716,
+      "end_ms": 1789900,
+      "text": "It was a heartbreaking journey through the softening snow under the warm spring sun.",
+      "translation": "Ilık bahar güneşi altında yumuşayan karların arasından geçen yürek parçalayıcı bir yolculuktu bu.",
+      "notes": "Sayfa 15 | heartbreaking: yürek parçalayıcı."
+    },
+    {
+      "id": 282,
+      "start_ms": 1790300,
+      "end_ms": 1795940,
+      "text": "The trio quarrelled incessantly, blaming each other for their own blunders and delays.",
+      "translation": "Bu üçlü kendi gafletleri ve gecikmeleri yüzünden birbirini suçlayarak aralıksız kavga ediyordu.",
+      "notes": "Sayfa 15 | quarrelled incessantly: durmaksızın kavga etti."
+    },
+    {
+      "id": 283,
+      "start_ms": 1796340,
+      "end_ms": 1802772,
+      "text": "Mercedes wept, threw tantrums, and insisted on riding upon the overloaded sled herself.",
+      "translation": "Mercedes ağlıyor, kapris krizlerine giriyor ve o aşırı yüklü kızağın tepesinde oturmakta ısrar ediyordu.",
+      "notes": "Sayfa 15 | threw tantrums: kapris nöbetlerine girdi."
+    },
+    {
+      "id": 284,
+      "start_ms": 1803172,
+      "end_ms": 1808836,
+      "text": "She added one hundred and twenty pounds of useless weight to the burdens of the starving animals.",
+      "translation": "Açlıktan kıvranan hayvanların yüküne yüz yirmi poundluk gereksiz bir ağırlık daha ekliyordu.",
+      "notes": "Sayfa 15 | useless weight: yararsız ağırlık."
+    },
+    {
+      "id": 285,
+      "start_ms": 1809236,
+      "end_ms": 1815812,
+      "text": "Halfway to White River, the dog food was completely exhausted due to overfeeding in the first days.",
+      "translation": "İlk günlerdeki aşırı besleme yüzünden Beyaz Nehir yolunun yarısında köpek maması tamamen tükendi.",
+      "notes": "Sayfa 15 | completely exhausted: tamamen bitti/tükendi."
+    },
+    {
+      "id": 286,
+      "start_ms": 1816212,
+      "end_ms": 1822740,
+      "text": "Hal cut the rations in half, then into quarters, and finally had only rotten horsehide to offer.",
+      "translation": "Hal porsiyonları yarıya indirdi, sonra çeyreğe düşürdü ve sonunda verecek sadece çürük at derisi kaldı.",
+      "notes": "Sayfa 15 | rotten horsehide: çürük at derisi."
+    },
+    {
+      "id": 287,
+      "start_ms": 1823140,
+      "end_ms": 1829668,
+      "text": "The outside dogs, unaccustomed to harsh trail life, perished one by one of sheer starvation.",
+      "translation": "Zorlu patika hayatına alışkın olmayan dışarıdan alınan köpekler katıksız açlıktan teker teker can verdi.",
+      "notes": "Sayfa 15 | perished one by one: teker teker öldü."
+    },
+    {
+      "id": 288,
+      "start_ms": 1830068,
+      "end_ms": 1835636,
+      "text": "Dub injured his shoulder and was shot; Dolly went mad with rabies and had to be killed.",
+      "translation": "Dub omzundan sakatlandı ve vuruldu; Dolly kudurarak delirdi ve öldürülmek zorunda kalındı.",
+      "notes": "Sayfa 15 | went mad: delirdi."
+    },
+    {
+      "id": 289,
+      "start_ms": 1836036,
+      "end_ms": 1842324,
+      "text": "Joe and Billee could pull no more; one morning they could not rise, and their places were empty.",
+      "translation": "Joe ve Billee artık çekemez hale geldi; bir sabah kalkamadılar ve yerleri boş kaldı.",
+      "notes": "Sayfa 15 | pull no more: artık çekememek."
+    },
+    {
+      "id": 290,
+      "start_ms": 1842724,
+      "end_ms": 1850548,
+      "text": "Only five dogs remained: Sol-leks, Teek, Koona, Pike, and Buck, all walking skeletons.",
+      "translation": "Geriye sadece beş köpek kaldı: Sol-leks, Teek, Koona, Pike ve Buck; hepsi de ayaklı birer iskelet gibiydi.",
+      "notes": "Sayfa 15 | walking skeletons: ayaklı iskeletler."
+    },
+    {
+      "id": 291,
+      "start_ms": 1850948,
+      "end_ms": 1857356,
+      "text": "Buck had lost his magnificent bulk; his ribs and hollow flanks showed clearly through his matted coat.",
+      "translation": "Buck o görkemli cüssesini kaybetmişti; kaburgaları ve çökmüş böğrü keçeleşmiş kürkünün altından açıkça görünüyordu.",
+      "notes": "Sayfa 15 | hollow flanks: çökmüş böğürler."
+    },
+    {
+      "id": 292,
+      "start_ms": 1857756,
+      "end_ms": 1863204,
+      "text": "He moved in a daze of pain and weakness, numbness creeping into his tired soul.",
+      "translation": "Yorgun ruhuna bir uyuşukluk sızarken acı ve güçsüzlük sersemliği içinde adım atıyordu.",
+      "notes": "Sayfa 15 | in a daze: sersemlik içinde."
+    },
+    {
+      "id": 293,
+      "start_ms": 1863604,
+      "end_ms": 1869100,
+      "text": "The spring thaw was advancing with terrifying speed all across the Yukon basin.",
+      "translation": "Baharın buz erimesi tüm Yukon havzası boyunca korkutucu bir hızla ilerliyordu.",
+      "notes": "Sayfa 15 | spring thaw: bahar buz erimesi."
+    },
+    {
+      "id": 294,
+      "start_ms": 1869500,
+      "end_ms": 1876436,
+      "text": "The sun shone brightly, melting the snow into slush, and running water sang under the rotting river ice.",
+      "translation": "Güneş pırıl pırıl parlıyor, karları sulu çamura çeviriyor ve çürüyen nehir buzunun altında akan sular şırıldıyordu.",
+      "notes": "Sayfa 15 | rotting river ice: çürüyen nehir buzu."
+    },
+    {
+      "id": 295,
+      "start_ms": 1876836,
+      "end_ms": 1883076,
+      "text": "Great air-holes opened in the ice every mile, and the bottom of the river showed through green chasms.",
+      "translation": "Buzda her mil başında büyük hava delikleri açılıyor ve nehrin dibi yeşil yarıkların arasından görünüyordu.",
+      "notes": "Sayfa 15 | green chasms: yeşil yarıklar/uçurumlar."
+    },
+    {
+      "id": 296,
+      "start_ms": 1883476,
+      "end_ms": 1888996,
+      "text": "Every step upon the trail was fraught with deadly peril of sinking into the freezing flood.",
+      "translation": "Patikadaki her adım o dondurucu akıntıya gömülmenin ölümcül tehlikesiyle doluydu.",
+      "notes": "Sayfa 15 | fraught with: ile dolu."
+    },
+    {
+      "id": 297,
+      "start_ms": 1889396,
+      "end_ms": 1895420,
+      "text": "Pike fell down in his traces and could not get up; Hal killed him with the club and threw him aside.",
+      "translation": "Pike koşumlarında yere yığıldı ve kalkamadı; Hal sopayla onu öldürüp kenara fırlattı.",
+      "notes": "Sayfa 15 | threw aside: kenara attı."
+    },
+    {
+      "id": 298,
+      "start_ms": 1895820,
+      "end_ms": 1902228,
+      "text": "Only Buck, Sol-leks, and the two others staggered on, dragging the heavy sled through the mud.",
+      "translation": "Yalnızca Buck, Sol-leks ve diğer ikisi sendeleyerek yürüdü; ağır kızağı çamurların içinden çekerek.",
+      "notes": "Sayfa 15 | staggered on: sendeleyerek devam etti."
+    },
+    {
+      "id": 299,
+      "start_ms": 1902628,
+      "end_ms": 1909228,
+      "text": "At last, on a brilliant morning, they crawled into the camp of John Thornton at the mouth of White River.",
+      "translation": "Nihayet pırıl pırıl bir sabahta Beyaz Nehir'in ağzında John Thornton'ın kampına sürünerek girdiler.",
+      "notes": "Sayfa 15 | crawled into: sürünerek girdi."
+    },
+    {
+      "id": 300,
+      "start_ms": 1909628,
+      "end_ms": 1915388,
+      "text": "Buck collapsed onto the ground, his strength utterly gone, unable to take another step.",
+      "translation": "Dermanı tamamen tükenmiş, tek bir adım daha atamaz halde Buck yere yığıldı.",
+      "notes": "Sayfa 15 | strength utterly gone: dermanı büsbütün bitmiş."
+    },
+    {
+      "id": 301,
+      "start_ms": 1916388,
+      "end_ms": 1922124,
+      "text": "John Thornton was whittling an axe-handle from a piece of birchwood as the wretched outfit halted.",
+      "translation": "O sefil kafile durduğunda John Thornton huş ağacından bir balta sapı yontuyordu.",
+      "notes": "Sayfa 16 | whittling: çakıyla yontarak."
+    },
+    {
+      "id": 302,
+      "start_ms": 1922524,
+      "end_ms": 1928332,
+      "text": "He looked at the dying dogs and the ragged humans with silent, contemptuous disgust.",
+      "translation": "Can çekişen köpeklere ve üstü başı dökülen insanlara sessiz, küçümseyen bir tiksintiyle baktı.",
+      "notes": "Sayfa 16 | contemptuous disgust: küçümser tiksinti."
+    },
+    {
+      "id": 303,
+      "start_ms": 1928732,
+      "end_ms": 1935164,
+      "text": "\"Is it safe to cross the river ice to Dawson?\" Hal asked, panting from exhaustion.",
+      "translation": "\"Nehir buzunun üzerinden Dawson'a geçmek güvenli mi?\" diye sordu Hal, yorgunluktan soluk soluğa.",
+      "notes": "Sayfa 16 | safe to cross: karşıya geçmesi güvenli."
+    },
+    {
+      "id": 304,
+      "start_ms": 1935564,
+      "end_ms": 1942284,
+      "text": "\"They told you true in town,\" Thornton answered tersely. \"The bottom is dropping out of the trail.\"",
+      "translation": "\"Kasabada size doğruyu söylemişler,\" dedi Thornton kısaca. \"Patikanın tabanı çöktü çökecek.\"",
+      "notes": "Sayfa 16 | tersely: kısa ve öz, tersler gibi."
+    },
+    {
+      "id": 305,
+      "start_ms": 1942684,
+      "end_ms": 1948204,
+      "text": "\"Only a fool would venture upon that rotten ice today; it will break at any second.\"",
+      "translation": "\"Bugün o çürük buzun üzerine ancak bir ahmak adım atar; her saniye kırılabilir.\"",
+      "notes": "Sayfa 16 | venture upon: üzerine adım atmaya cüret etmek."
+    },
+    {
+      "id": 306,
+      "start_ms": 1948604,
+      "end_ms": 1955732,
+      "text": "\"We've been told that before,\" sneered Hal, \"and we got here anyway. Mush, you devils!\"",
+      "translation": "\"Bunu bize daha önce de söylediler,\" diye alay etti Hal, \"ve yine de buraya vardık. Deh, sizi iblisler!\"",
+      "notes": "Sayfa 16 | sneered: alaycı konuştu."
+    },
+    {
+      "id": 307,
+      "start_ms": 1956132,
+      "end_ms": 1962852,
+      "text": "He lashed out with his whip, striking Sol-leks, Teek, and Koona, forcing them to their feet.",
+      "translation": "Kamçısını savurdu; Sol-leks, Teek ve Koona'ya vurarak onları güçlükle ayağa kaldırdı.",
+      "notes": "Sayfa 16 | lashed out: kamçıyla savurdu."
+    },
+    {
+      "id": 308,
+      "start_ms": 1963252,
+      "end_ms": 1968532,
+      "text": "Buck did not move; a sense of impending doom told him that the ice was fatal.",
+      "translation": "Buck kımıldamadı; yaklaşan felaketin önsezisi ona o buzun ölümcül olduğunu söylüyordu.",
+      "notes": "Sayfa 16 | impending doom: yaklaşan felaket."
+    },
+    {
+      "id": 309,
+      "start_ms": 1968932,
+      "end_ms": 1975196,
+      "text": "Hal dropped the whip and took up the heavy club, raining brutal blows upon Buck's emaciated body.",
+      "translation": "Hal kamçıyı bıraktı ve ağır sopayı eline alarak Buck'ın bir deri bir kemik kalmış gövdesine acımasız darbeler yağdırdı.",
+      "notes": "Sayfa 16 | raining brutal blows: gaddar darbeler yağdırarak."
+    },
+    {
+      "id": 310,
+      "start_ms": 1975596,
+      "end_ms": 1982292,
+      "text": "Buck took the blows without a whimper, refusing to stand, welcoming death rather than that icy river.",
+      "translation": "Buck o buzlu nehre gitmektense ölümü yeğleyerek ayağa kalkmayı reddetti ve darbeleri hiç inlemeden karşıladı.",
+      "notes": "Sayfa 16 | welcoming death: ölümü kucaklayarak."
+    },
+    {
+      "id": 311,
+      "start_ms": 1982692,
+      "end_ms": 1987300,
+      "text": "Thornton sprang to his feet, his eyes blazing with righteous fury.",
+      "translation": "Thornton gözleri haklı bir öfkeyle parıldayarak yerinden fırladı.",
+      "notes": "Sayfa 16 | righteous fury: haklı gazap."
+    },
+    {
+      "id": 312,
+      "start_ms": 1987700,
+      "end_ms": 1994204,
+      "text": "\"If you strike that dog once more, I'll kill you!\" he shouted, stepping between Hal and Buck.",
+      "translation": "\"O köpeğe bir kez daha vurursan seni öldürürüm!\" diye bağırdı, Hal ile Buck'ın arasına girerek.",
+      "notes": "Sayfa 16 | stepping between: aralarına girerek."
+    },
+    {
+      "id": 313,
+      "start_ms": 1994604,
+      "end_ms": 2002404,
+      "text": "\"It's my dog!\" Hal cried, drawing his hunting knife. \"Get out of my way or I'll fix you!\"",
+      "translation": "\"O benim köpeğim!\" diye haykırdı Hal av bıçağını çekerek. \"Yolumdan çekil yoksa seni delik deşik ederim!\"",
+      "notes": "Sayfa 16 | fix you: hesabını görmek (tehdit)."
+    },
+    {
+      "id": 314,
+      "start_ms": 2002804,
+      "end_ms": 2008444,
+      "text": "Thornton struck Hal's knuckles with the axe-handle, knocking the blade spinning into the dirt.",
+      "translation": "Thornton balta sapıyla Hal'ın parmak eklemlerine vurdu; bıçağı havada döndürerek toprağa düşürdü.",
+      "notes": "Sayfa 16 | knuckles: parmak eklemleri."
+    },
+    {
+      "id": 315,
+      "start_ms": 2008844,
+      "end_ms": 2014412,
+      "text": "He then struck Hal across the chest, sending him sprawling backwards onto the sled.",
+      "translation": "Ardından Hal'ın göğsüne vurarak onu sırtüstü kızağın üzerine savurdu.",
+      "notes": "Sayfa 16 | sprawling backwards: sırtüstü savrularak."
+    },
+    {
+      "id": 316,
+      "start_ms": 2014812,
+      "end_ms": 2021196,
+      "text": "Thornton knelt down by Buck and cut his traces with his own hunting knife, freeing him from the harness.",
+      "translation": "Thornton Buck'ın yanına diz çöktü ve kendi av bıçağıyla çekme iplerini keserek onu koşumdan kurtardı.",
+      "notes": "Sayfa 16 | freeing from harness: koşumdan azat ederek."
+    },
+    {
+      "id": 317,
+      "start_ms": 2021596,
+      "end_ms": 2027788,
+      "text": "Hal stood up, cursing violently, but Thornton's determined look warned him not to press the issue.",
+      "translation": "Hal avazı çıktığı kadar küfrederek ayağa kalktı, fakat Thornton'ın kararlı bakışı meseleyi uzatmaması için onu uyardı.",
+      "notes": "Sayfa 16 | press the issue: meseleyi üstelemek."
+    },
+    {
+      "id": 318,
+      "start_ms": 2028188,
+      "end_ms": 2035052,
+      "text": "The young man turned away in disgust, took the sled lines, and shouted to the four remaining dogs.",
+      "translation": "Genç adam tiksintiyle döndü, kızak dizginlerini eline aldı ve geriye kalan dört köpeğe bağırdı.",
+      "notes": "Sayfa 16 | sled lines: kızak ipleri/dizginleri."
+    },
+    {
+      "id": 319,
+      "start_ms": 2035452,
+      "end_ms": 2042604,
+      "text": "Mercedes, Charles, and Hal set off across the slushy snow, heading out onto the fragile river ice.",
+      "translation": "Mercedes, Charles ve Hal sulu karların üzerinden yola çıktılar; o kırılgan nehir buzuna doğru ilerleyerek.",
+      "notes": "Sayfa 16 | heading out onto: ...e doğru yol alarak."
+    },
+    {
+      "id": 320,
+      "start_ms": 2043004,
+      "end_ms": 2050252,
+      "text": "Buck watched them go, lying beside Thornton, who gently rested a warm hand upon the great dog's battered head.",
+      "translation": "Büyük köpeğin hırpalanmış başına sıcak elini şefkatle koyan Thornton'ın yanında yatan Buck onların gidişini izledi.",
+      "notes": "Sayfa 16 | gently rested: şefkatle koydu."
+    },
+    {
+      "id": 321,
+      "start_ms": 2051252,
+      "end_ms": 2056484,
+      "text": "Buck and John Thornton watched the sled crawl out toward the center of the White River.",
+      "translation": "Buck ve John Thornton, kızağın Beyaz Nehir'in ortasına doğru sürünerek ilerleyişini izlediler.",
+      "notes": "Sayfa 17 | crawl out toward: doğru sürünerek ilerlemek."
+    },
+    {
+      "id": 322,
+      "start_ms": 2056884,
+      "end_ms": 2062092,
+      "text": "The ice sagged and groaned beneath the heavy weight of the cargo and the passengers.",
+      "translation": "Yükün ve yolcuların ağır yükü altında buz çöktü ve inledi.",
+      "notes": "Sayfa 17 | sagged and groaned: çöktü ve inledi."
+    },
+    {
+      "id": 323,
+      "start_ms": 2062492,
+      "end_ms": 2069404,
+      "text": "Suddenly, they saw the rear end of the sled drop down as if into a rut, and the pole shot up into the air.",
+      "translation": "Birdenbire kızağın arka kısmının sanki bir çukura düşer gibi çöktüğünü ve ön sırığın havaya fırladığını gördüler.",
+      "notes": "Sayfa 17 | shot up: havaya fırladı."
+    },
+    {
+      "id": 324,
+      "start_ms": 2069804,
+      "end_ms": 2074940,
+      "text": "Mercedes gave a piercing shriek of terror that echoed across the frozen valley.",
+      "translation": "Mercedes, donmuş vadide yankılanan kulak tırmalayıcı bir dehşet çığlığı attı.",
+      "notes": "Sayfa 17 | piercing shriek: tiz çığlık."
+    },
+    {
+      "id": 325,
+      "start_ms": 2075340,
+      "end_ms": 2080932,
+      "text": "Charles turned to run back, but a yawning chasm opened directly beneath his boots.",
+      "translation": "Charles geri kaçmak için döndü, fakat doğrudan çizmelerinin altında açgözlü bir yarık açıldı.",
+      "notes": "Sayfa 17 | yawning chasm: ağzı açık derin yarık."
+    },
+    {
+      "id": 326,
+      "start_ms": 2081332,
+      "end_ms": 2088700,
+      "text": "A whole section of ice gave way with a thunderous roar, plunging men, dogs, and sled into the dark current.",
+      "translation": "Buzun koca bir kesiti gök gürültüsünü andıran bir kükremeyle çöktü; insanları, köpekleri ve kızağı kara akıntının içine yuvarladı.",
+      "notes": "Sayfa 17 | plunging into: içine yuvarlayarak/dalarak."
+    },
+    {
+      "id": 327,
+      "start_ms": 2089100,
+      "end_ms": 2095484,
+      "text": "For a split second, hands flailed wildly and struggling heads appeared in the churning, icy foam.",
+      "translation": "Saniyenin bir kesri boyunca eller çılgınca çırpındı ve köpüren buzlu dalgaların arasında mücadele eden kafalar göründü.",
+      "notes": "Sayfa 17 | flailed wildly: çılgınca çırpındı."
+    },
+    {
+      "id": 328,
+      "start_ms": 2095884,
+      "end_ms": 2102052,
+      "text": "Then the powerful river current swept them beneath the remaining ice sheets, and they vanished forever.",
+      "translation": "Ardından nehrin o güçlü akıntısı onları geride kalan buz tabakalarının altına sürükledi ve sonsuza dek yok oldular.",
+      "notes": "Sayfa 17 | swept beneath: altına süpürdü."
+    },
+    {
+      "id": 329,
+      "start_ms": 2102452,
+      "end_ms": 2108452,
+      "text": "A wide, dark pool of open water was all that marked where the sled and its travellers had been.",
+      "translation": "Kızak ve yolcularının bir zamanlar bulunduğu yeri belirten tek şey, açılan geniş, kara bir su birikintisinden ibaretti.",
+      "notes": "Sayfa 17 | all that marked: belirten tek şey."
+    },
+    {
+      "id": 330,
+      "start_ms": 2108852,
+      "end_ms": 2113628,
+      "text": "John Thornton and Buck looked at each other in solemn, speechless awe.",
+      "translation": "John Thornton ve Buck vakur, kelimelere sığmayan bir huşu içinde birbirlerine baktılar.",
+      "notes": "Sayfa 17 | speechless awe: dilsiz bir huşu/dehşet."
+    },
+    {
+      "id": 331,
+      "start_ms": 2114028,
+      "end_ms": 2119692,
+      "text": "\"You poor devil,\" said John Thornton, his voice trembling as he touched Buck's head.",
+      "translation": "\"Zavallı dostum benim,\" dedi John Thornton; Buck'ın başına dokunurken sesi titriyordu.",
+      "notes": "Sayfa 17 | poor devil: zavallıcık (şefkatli hitap)."
+    },
+    {
+      "id": 332,
+      "start_ms": 2120092,
+      "end_ms": 2127436,
+      "text": "Buck licked Thornton's hand with rough affection, sensing that here was a master who ruled by love, not by the club.",
+      "translation": "Buck kaba bir sevgiyle Thornton'ın elini yaladı; burada sopayla değil sevgiyle hükmeden bir efendi olduğunu sezerek.",
+      "notes": "Sayfa 17 | ruled by love: sevgiyle hükmetti."
+    },
+    {
+      "id": 333,
+      "start_ms": 2127836,
+      "end_ms": 2133644,
+      "text": "Had Thornton not intervened, Buck would now be tumbling dead beneath the dark ice of the Yukon.",
+      "translation": "Thornton araya girmemiş olsaydı Buck şu an Yukon'un kara buzlarının altında cansız yuvarlanıyor olacaktı.",
+      "notes": "Sayfa 17 | had Thornton not intervened: araya girmemiş olsaydı."
+    },
+    {
+      "id": 334,
+      "start_ms": 2134044,
+      "end_ms": 2139732,
+      "text": "A profound bond of loyalty was forged between the man and the dog in that fateful moment.",
+      "translation": "O kader anında adamla köpek arasında derin bir sadakat bağı örüldü.",
+      "notes": "Sayfa 17 | was forged: dövüldü, inşa edildi."
+    },
+    {
+      "id": 335,
+      "start_ms": 2140132,
+      "end_ms": 2145748,
+      "text": "Thornton had been left behind by his partners while recovering from frozen feet during the winter.",
+      "translation": "Thornton, kışın donan ayaklarını iyileştirirken ortakları tarafından bu kampta geride bırakılmıştı.",
+      "notes": "Sayfa 17 | recovering from: ...den toparlanırken."
+    },
+    {
+      "id": 336,
+      "start_ms": 2146148,
+      "end_ms": 2154188,
+      "text": "He lived in a comfortable camp with two other dogs: Skeet, a motherly Irish setter, and Nig, a huge black hound.",
+      "translation": "İki köpekle birlikte rahat bir kampta yaşıyordu: anaç bir İrlanda setteri olan Skeet ve devasa siyah bir av köpeği olan Nig.",
+      "notes": "Sayfa 17 | motherly: anaç, şefkatli."
+    },
+    {
+      "id": 337,
+      "start_ms": 2154588,
+      "end_ms": 2160708,
+      "text": "Skeet washed Buck's bleeding wounds daily with her soft tongue, nursing him like a mother dog.",
+      "translation": "Skeet, Buck'ın kanayan yaralarını yumuşak diliyle her gün yıkadı; ona bir anne gibi baktı.",
+      "notes": "Sayfa 17 | nursing like a mother: anne gibi bakarak."
+    },
+    {
+      "id": 338,
+      "start_ms": 2161108,
+      "end_ms": 2167828,
+      "text": "Nig, equally friendly, greeted him with joyful barks, showing no jealousy toward the newcomer.",
+      "translation": "Aynı derecede dost canlısı olan Nig, yeni gelene en ufak bir kıskançlık göstermeden neşeli havlamalarla onu karşıladı.",
+      "notes": "Sayfa 17 | no jealousy: hiç kıskançlık yok."
+    },
+    {
+      "id": 339,
+      "start_ms": 2168228,
+      "end_ms": 2175716,
+      "text": "Through long lazy spring days, Buck lay in the warm sunshine, feeling his wasted muscles slowly rebuild.",
+      "translation": "Uzun, rehavet dolu bahar günleri boyunca Buck ılık güneş ışığında yattı; eriyip tükenmiş kaslarının yavaş yavaş yeniden güçlendiğini hissederek.",
+      "notes": "Sayfa 17 | slowly rebuild: yavaşça yeniden yapılanmak."
+    },
+    {
+      "id": 340,
+      "start_ms": 2176116,
+      "end_ms": 2181876,
+      "text": "His strength returned, his coat regained its glossy thickness, and a new life began.",
+      "translation": "Gücü yerine geldi, kürkü o parlak gürlüğünü yeniden kazandı ve onun için yepyeni bir hayat başladı.",
+      "notes": "Sayfa 17 | glossy thickness: parlak gürlük/kalınlık."
+    },
+    {
+      "id": 341,
+      "start_ms": 2182876,
+      "end_ms": 2188276,
+      "text": "For the first time in his life, Buck experienced the burning passion of true love.",
+      "translation": "Hayatında ilk kez Buck, gerçek sevginin o yakıcı tutkusunu tattı.",
+      "notes": "Sayfa 18 | burning passion: yakıcı tutku."
+    },
+    {
+      "id": 342,
+      "start_ms": 2188676,
+      "end_ms": 2194796,
+      "text": "With Judge Miller, it had been a dignified, aristocratic partnership of mutual respect.",
+      "translation": "Yargıç Miller ile olan ilişkisi, karşılıklı saygıya dayalı vakur ve soylu bir ortaklıktı.",
+      "notes": "Sayfa 18 | mutual respect: karşılıklı saygı."
+    },
+    {
+      "id": 343,
+      "start_ms": 2195196,
+      "end_ms": 2201052,
+      "text": "With John Thornton, it was an all-consuming adoration that bordered on feverish ecstasy.",
+      "translation": "John Thornton ile ise, hummalı bir kendinden geçişin sınırlarında dolaşan her şeyi içine alan bir tapınmaydı.",
+      "notes": "Sayfa 18 | all-consuming adoration: her şeyi yutan tapınma."
+    },
+    {
+      "id": 344,
+      "start_ms": 2201452,
+      "end_ms": 2208028,
+      "text": "This man had saved his life, which was something; but, further, he was the ideal master.",
+      "translation": "Bu adam onun hayatını kurtarmıştı, ki bu büyük bir şeydi; fakat dahası, o ideal efendinin ta kendisiydi.",
+      "notes": "Sayfa 18 | ideal master: ideal efendi."
+    },
+    {
+      "id": 345,
+      "start_ms": 2208428,
+      "end_ms": 2213828,
+      "text": "Other men saw to the welfare of their dogs from a sense of duty and business interest.",
+      "translation": "Diğer insanlar köpeklerinin bakımını sadece bir görev duygusu ve ticari çıkar gereği gözetirlerdi.",
+      "notes": "Sayfa 18 | sense of duty: görev bilinci."
+    },
+    {
+      "id": 346,
+      "start_ms": 2214228,
+      "end_ms": 2219868,
+      "text": "John Thornton saw to the welfare of his dogs as if they were his own flesh-and-blood children.",
+      "translation": "John Thornton ise köpeklerinin esenliğini adeta kendi etten kemikten evlatlarıymış gibi gözetirdi.",
+      "notes": "Sayfa 18 | flesh-and-blood: etten ve kemikten."
+    },
+    {
+      "id": 347,
+      "start_ms": 2220268,
+      "end_ms": 2226292,
+      "text": "He had a way of taking Buck's head roughly between his hands, resting his own head upon Buck's.",
+      "translation": "Buck'ın başını ellerinin arasına sevgiyle sertçe alıp kendi başını Buck'ınkine yaslama huyu vardı.",
+      "notes": "Sayfa 18 | resting his head: başını yaslayarak."
+    },
+    {
+      "id": 348,
+      "start_ms": 2226692,
+      "end_ms": 2232188,
+      "text": "And calling him affectionate curse words that sounded in Buck's ears like the sweetest music.",
+      "translation": "Ve ona Buck'ın kulaklarında en tatlı müzik gibi tınlayan şefkatli küfürlerle hitap ederdi.",
+      "notes": "Sayfa 18 | affectionate curse words: sevgi dolu küfürler."
+    },
+    {
+      "id": 349,
+      "start_ms": 2232588,
+      "end_ms": 2236332,
+      "text": "Buck had a trick of expression that was akin to speech.",
+      "translation": "Buck'ın konuşmaya benzeyen kendine has bir ifade tarzı vardı.",
+      "notes": "Sayfa 18 | akin to: ...e benzer."
+    },
+    {
+      "id": 350,
+      "start_ms": 2236732,
+      "end_ms": 2243500,
+      "text": "He would seize Thornton's hand in his mouth, closing his powerful jaws until the teeth pressed into the flesh.",
+      "translation": "Thornton'ın elini ağzının içine alır, güçlü çenelerini dişleri etine batana kadar sıkar ama asla incitmezdi.",
+      "notes": "Sayfa 18 | pressed into: içine bastırdı."
+    },
+    {
+      "id": 351,
+      "start_ms": 2243900,
+      "end_ms": 2250452,
+      "text": "It was a mock bite, a silent declaration that he surrendered his life entirely into the man's keeping.",
+      "translation": "Bu sahte bir ısırmaydı; canını tamamen bu adamın ellerine teslim ettiğine dair sessiz bir ilandı.",
+      "notes": "Sayfa 18 | mock bite: sahte ısırık."
+    },
+    {
+      "id": 352,
+      "start_ms": 2250852,
+      "end_ms": 2257188,
+      "text": "For long hours he would lie at Thornton's feet, staring up into his face with worshipful adoration.",
+      "translation": "Uzun saatler boyunca Thornton'ın ayaklarının dibinde yatar; taparcasına bir sevgiyle yüzüne bakardı.",
+      "notes": "Sayfa 18 | worshipful adoration: taparcasına hayranlık."
+    },
+    {
+      "id": 353,
+      "start_ms": 2257588,
+      "end_ms": 2263756,
+      "text": "He could not bear to let Thornton out of his sight, fearing he might vanish like Perrault and Francois.",
+      "translation": "Tıpkı Perrault ve Francois gibi onun da yok olabileceğinden korkarak Thornton'ı gözünün önünden ayırmaya dayanamazdı.",
+      "notes": "Sayfa 18 | out of his sight: gözünün önünden."
+    },
+    {
+      "id": 354,
+      "start_ms": 2264156,
+      "end_ms": 2270084,
+      "text": "Yet along with this great love for the man, the call of the wild was growing stronger within him.",
+      "translation": "Yine de adama duyduğu bu büyük sevgiyle birlikte, vahşi doğanın çağrısı da içinde giderek güçleniyordu.",
+      "notes": "Sayfa 18 | call of the wild: vahşi doğanın çağrısı."
+    },
+    {
+      "id": 355,
+      "start_ms": 2270484,
+      "end_ms": 2277204,
+      "text": "Deep in the forest sounded an ancient, mysterious cry, tempting him away from human fire and roof.",
+      "translation": "Ormanın derinliklerinde, insan ateşinden ve damından onu uzağa çağıran kadim, gizemli bir çığlık yankılanıyordu.",
+      "notes": "Sayfa 18 | tempting away: aklını çelip uzaklaştıran."
+    },
+    {
+      "id": 356,
+      "start_ms": 2277604,
+      "end_ms": 2283916,
+      "text": "Often he would turn his head toward the shadowy timber, listening with prickled ears to the silent wilderness.",
+      "translation": "Kulaklarını dikip o sessiz yaban hayatını dinleyerek başını sık sık gölgeli ormana doğru çevirirdi.",
+      "notes": "Sayfa 18 | prickled ears: dikilmiş kulaklar."
+    },
+    {
+      "id": 357,
+      "start_ms": 2284316,
+      "end_ms": 2289668,
+      "text": "He felt memories of ancestors he had never seen running through his blood and sinews.",
+      "translation": "Daha önce hiç görmediği atalarının hatıralarının kanında ve kaslarında aktığını hissediyordu.",
+      "notes": "Sayfa 18 | blood and sinews: kan ve kaslar."
+    },
+    {
+      "id": 358,
+      "start_ms": 2290068,
+      "end_ms": 2296596,
+      "text": "He saw the ancient hairy men crouching by rough fires, watching the shadows of the primeval woods.",
+      "translation": "İlkel ormanların gölgelerini izleyerek ilkel ateşlerin başında çömelmiş o kadim tüylü adamları hayalinde görürdü.",
+      "notes": "Sayfa 18 | primeval woods: ilkel ormanlar."
+    },
+    {
+      "id": 359,
+      "start_ms": 2296996,
+      "end_ms": 2303092,
+      "text": "The wild was calling him constantly, inviting him to return to the primitive heritage of the wolf.",
+      "translation": "Vahşi doğa onu durmadan çağırıyor; kurdun o ilkel mirasına geri dönmesi için onu davet ediyordu.",
+      "notes": "Sayfa 18 | primitive heritage: ilkel miras."
+    },
+    {
+      "id": 360,
+      "start_ms": 2303492,
+      "end_ms": 2310524,
+      "text": "Only one chain held him back from the wild forest: the fierce, tender love he bore for John Thornton.",
+      "translation": "Onu o vahşi ormandan alıkoyan tek bir zincir vardı: John Thornton'a beslediği o hırçın ve şefkatli sevgi.",
+      "notes": "Sayfa 18 | held him back: onu alıkoydu."
+    },
+    {
+      "id": 361,
+      "start_ms": 2311524,
+      "end_ms": 2317572,
+      "text": "Thornton's partners, Hans and Pete, arrived with a long raft loaded with supplies.",
+      "translation": "Thornton'ın ortakları Hans ve Pete, erzakla yüklü uzun bir salla çıkageldiler.",
+      "notes": "Sayfa 19 | long raft: uzun sal."
+    },
+    {
+      "id": 362,
+      "start_ms": 2317972,
+      "end_ms": 2324164,
+      "text": "Buck refused to notice them at first, but accepted them once he saw they were true friends of Thornton.",
+      "translation": "Buck ilk başta onları görmezden geldi, fakat Thornton'ın hakiki dostları olduklarını görünce onları kabullendi.",
+      "notes": "Sayfa 19 | refused to notice: görmezden geldi."
+    },
+    {
+      "id": 363,
+      "start_ms": 2324564,
+      "end_ms": 2329964,
+      "text": "In the autumn they journeyed toward the mouth of the Tanana River on their prospecting quest.",
+      "translation": "Sonbaharda maden arama yolculuklarında Tanana Nehri'nin ağzına doğru yola koyuldular.",
+      "notes": "Sayfa 19 | prospecting quest: maden arama seferi."
+    },
+    {
+      "id": 364,
+      "start_ms": 2330364,
+      "end_ms": 2336820,
+      "text": "While shooting the dangerous rapids of Forty Mile Creek, their boat was hurled against a submerged rock.",
+      "translation": "Forty Mile Deresi'nin tehlikeli çağlayanlarından geçerken botları su altındaki bir kayaya çarptı.",
+      "notes": "Sayfa 19 | shooting the rapids: çağlayandan hızla geçmek."
+    },
+    {
+      "id": 365,
+      "start_ms": 2337220,
+      "end_ms": 2343172,
+      "text": "The boat capsized, and Thornton was flung into the churning white foam of the raging waters.",
+      "translation": "Bot alabora oldu ve Thornton azgın suların köpüren beyaz dalgalarının içine savruldu.",
+      "notes": "Sayfa 19 | capsized: alabora oldu / devrildi."
+    },
+    {
+      "id": 366,
+      "start_ms": 2343572,
+      "end_ms": 2349620,
+      "text": "He was swept toward the deadly cataract, clutching desperately to a slippery rock in mid-stream.",
+      "translation": "Akıntının ortasında kaygan bir kayaya delicesine tutunarak ölümcül şelaleye doğru sürüklendi.",
+      "notes": "Sayfa 19 | deadly cataract: ölümcül şelale."
+    },
+    {
+      "id": 367,
+      "start_ms": 2350020,
+      "end_ms": 2355444,
+      "text": "From the bank, Buck gave a magnificent roar and plunged headlong into the torrent.",
+      "translation": "Kıyıdan Buck görkemli bir kükreme kopardı ve balıklama o coşkun sele atladı.",
+      "notes": "Sayfa 19 | plunged headlong: balıklama daldı."
+    },
+    {
+      "id": 368,
+      "start_ms": 2355844,
+      "end_ms": 2361196,
+      "text": "He fought the rushing waves with furious strength, swimming straight toward the rock.",
+      "translation": "Doğrudan kayaya doğru yüzerek hırçın dalgalarla çılgınca bir güçle savaştı.",
+      "notes": "Sayfa 19 | furious strength: azgın güç."
+    },
+    {
+      "id": 369,
+      "start_ms": 2361596,
+      "end_ms": 2366708,
+      "text": "He reached Thornton, and the man grabbed his thick furry neck with both hands.",
+      "translation": "Thornton'a ulaştı ve adam iki eliyle köpeğin kalın tüylü boynuna sımsıkı tutundu.",
+      "notes": "Sayfa 19 | thick furry neck: kalın tüylü boyun."
+    },
+    {
+      "id": 370,
+      "start_ms": 2367108,
+      "end_ms": 2374356,
+      "text": "\"Hold on, Buck! Go for the bank!\" Thornton shouted above the roar of the water.",
+      "translation": "\"Dayan Buck! Kıyıya doğru yüz!\" diye bağırdı Thornton suların uğultusunun üzerinden.",
+      "notes": "Sayfa 19 | above the roar: uğultunun üzerinden."
+    },
+    {
+      "id": 371,
+      "start_ms": 2374756,
+      "end_ms": 2380660,
+      "text": "The terrible current tore Thornton from his grip, sweeping the man downstream toward the falls.",
+      "translation": "Korkunç akıntı Thornton'ı köpeğin tutuşundan kopardı ve adamı şelaleye doğru aşağı sürükledi.",
+      "notes": "Sayfa 19 | tore from grip: tutuşundan kopardı."
+    },
+    {
+      "id": 372,
+      "start_ms": 2381060,
+      "end_ms": 2387180,
+      "text": "Thornton managed to catch a second rock, but his strength was rapidly failing in the freezing water.",
+      "translation": "Thornton ikinci bir kayayı yakalamayı başardı, fakat dondurucu suda gücü hızla tükeniyordu.",
+      "notes": "Sayfa 19 | strength rapidly failing: gücü hızla tükenen."
+    },
+    {
+      "id": 373,
+      "start_ms": 2387580,
+      "end_ms": 2393292,
+      "text": "Buck was hauled ashore by Hans and Pete, bruised and coughing water upon the pebbles.",
+      "translation": "Hans ve Pete tarafından kıyıya çekilen Buck çakılların üzerinde ezik içinde ve su öksürerek yattı.",
+      "notes": "Sayfa 19 | hauled ashore: kıyıya çekildi."
+    },
+    {
+      "id": 374,
+      "start_ms": 2393692,
+      "end_ms": 2399812,
+      "text": "They tied a stout rope around Buck's shoulders and chest, knotted securely to prevent slipping.",
+      "translation": "Kaymasını önlemek için sağlam düğümlerle Buck'ın omuzlarına ve göğsüne kalın bir halat bağladılar.",
+      "notes": "Sayfa 19 | stout rope: sağlam halat."
+    },
+    {
+      "id": 375,
+      "start_ms": 2400212,
+      "end_ms": 2405324,
+      "text": "Without an instant's hesitation, Buck plunged back into the foaming abyss.",
+      "translation": "Tek bir saniye dahi tereddüt etmeden Buck o köpüren girdabın içine tekrar atladı.",
+      "notes": "Sayfa 19 | without an instant's hesitation: tek an tereddüt etmeden."
+    },
+    {
+      "id": 376,
+      "start_ms": 2405724,
+      "end_ms": 2412084,
+      "text": "He missed the rock on his first pass, but swam with superhuman determination on the second attempt.",
+      "translation": "İlk geçişinde kayayı ıskaladı, fakat ikinci denemede insanüstü bir azimle yüzdü.",
+      "notes": "Sayfa 19 | superhuman determination: insanüstü azim."
+    },
+    {
+      "id": 377,
+      "start_ms": 2412484,
+      "end_ms": 2418148,
+      "text": "He crashed against the rock, and Thornton locked both arms around the great dog's neck.",
+      "translation": "Kayaya var gücüyle çarptı ve Thornton iki kolunu koca köpeğin boynuna kilitledi.",
+      "notes": "Sayfa 19 | locked arms: kollarını kilitledi."
+    },
+    {
+      "id": 378,
+      "start_ms": 2418548,
+      "end_ms": 2423444,
+      "text": "Hans and Pete hauled upon the rope from the shore with all their combined muscle.",
+      "translation": "Hans ve Pete kıyıdan bütün güçlerini birleştirerek halata var güçleriyle asıldılar.",
+      "notes": "Sayfa 19 | hauled upon: asıldılar."
+    },
+    {
+      "id": 379,
+      "start_ms": 2423844,
+      "end_ms": 2430540,
+      "text": "They were dragged through the boiling rapids, battered against jagged boulders, but they reached the bank alive.",
+      "translation": "Kaynayan çağlayanların içinden çekildiler, sivri kayalara çarptılar, fakat kıyıya canlı ulaştılar.",
+      "notes": "Sayfa 19 | jagged boulders: sivri kayalar."
+    },
+    {
+      "id": 380,
+      "start_ms": 2430940,
+      "end_ms": 2437660,
+      "text": "Buck had three broken ribs from the rescue, but Thornton wept tears of joy as he bandaged his saviour.",
+      "translation": "Bu kurtarıştan ötürü Buck'ın üç kaburgası kırılmıştı, fakat kurtarıcısını sararken Thornton sevinç gözyaşları döktü.",
+      "notes": "Sayfa 19 | bandaged his saviour: kurtarıcısını sardı."
+    },
+    {
+      "id": 381,
+      "start_ms": 2438660,
+      "end_ms": 2445188,
+      "text": "That winter at Dawson, Buck performed an exploit that became legendary throughout the entire Klondike.",
+      "translation": "O kış Dawson'da Buck, tüm Klondike boyunca efsanelere konu olan bir kahramanlık sergiledi.",
+      "notes": "Sayfa 20 | performed an exploit: bir hüner/kahramanlık sergiledi."
+    },
+    {
+      "id": 382,
+      "start_ms": 2445588,
+      "end_ms": 2451948,
+      "text": "In the Eldorado Saloon, several wealthy miners were boasting of the strength of their favourite dogs.",
+      "translation": "Eldorado Saloon'da birkaç zengin madenci, en gözde köpeklerinin gücüyle övünüyordu.",
+      "notes": "Sayfa 20 | boasting of: ile övünerek."
+    },
+    {
+      "id": 383,
+      "start_ms": 2452348,
+      "end_ms": 2457556,
+      "text": "One man claimed his dog could break out a sled weighing five hundred pounds.",
+      "translation": "Bir adam köpeğinin beş yüz poundluk donmuş bir kızağı yerinden sökebileceğini iddia etti.",
+      "notes": "Sayfa 20 | break out: dondan söküp kurtarmak."
+    },
+    {
+      "id": 384,
+      "start_ms": 2457956,
+      "end_ms": 2465564,
+      "text": "\"Buck can break out a thousand pounds and walk off with it for a hundred yards!\" Thornton declared proudly.",
+      "translation": "\"Buck bin poundluk donmuş kızağı yerinden söker ve onunla yüz yarda yürür!\" diye gururla bildirdi Thornton.",
+      "notes": "Sayfa 20 | walk off with: alıp yürümek."
+    },
+    {
+      "id": 385,
+      "start_ms": 2465964,
+      "end_ms": 2472612,
+      "text": "\"A thousand pounds? Put up your money!\" cried Matthewson, a rich Bonanza King.",
+      "translation": "\"Bin pound mu? Koy paranı ortaya!\" diye haykırdı zengin bir maden kralı olan Matthewson.",
+      "notes": "Sayfa 20 | put up your money: paranı ortaya koy."
+    },
+    {
+      "id": 386,
+      "start_ms": 2473012,
+      "end_ms": 2478604,
+      "text": "Matthewson placed a sack of gold dust worth one thousand dollars upon the bar counter.",
+      "translation": "Matthewson bar tezgahının üzerine bin dolar değerinde bir altın tozu kesesi koydu.",
+      "notes": "Sayfa 20 | sack of gold dust: altın tozu kesesi."
+    },
+    {
+      "id": 387,
+      "start_ms": 2479004,
+      "end_ms": 2484908,
+      "text": "Thornton had no such money, but his friend Jim O'Brien loaned him the gold on faith in Buck.",
+      "translation": "Thornton'ın o kadar parası yoktu, fakat dostu Jim O'Brien Buck'a olan inancıyla ona altını borç verdi.",
+      "notes": "Sayfa 20 | on faith: güvenerek."
+    },
+    {
+      "id": 388,
+      "start_ms": 2485308,
+      "end_ms": 2491020,
+      "text": "A crowd of several hundred miners poured out into the street to witness the impossible wager.",
+      "translation": "Birkaç yüz madenciden oluşan bir kalabalık, bu imkansız bahse tanıklık etmek için sokağa döküldü.",
+      "notes": "Sayfa 20 | poured out: sokağa döküldü."
+    },
+    {
+      "id": 389,
+      "start_ms": 2491420,
+      "end_ms": 2498788,
+      "text": "Matthewson's sled stood outside, loaded with twenty fifty-pound sacks of flour, frozen fast to the snow.",
+      "translation": "Matthewson'ın kızağı dışarıda duruyordu; yirmi adet elli poundluk un çuvalıyla yüklüydü ve kara donup yapışmıştı.",
+      "notes": "Sayfa 20 | sacks of flour: un çuvalları."
+    },
+    {
+      "id": 390,
+      "start_ms": 2499188,
+      "end_ms": 2505308,
+      "text": "The temperature was sixty degrees below zero, and the runners had gripped the ice for two hours.",
+      "translation": "Hava sıcaklığı sıfırın altında altmış dereceydi ve kızak ayakları iki saattir buza kilitlenmişti.",
+      "notes": "Sayfa 20 | gripped the ice: buzu kavramış/yapışmıştı."
+    },
+    {
+      "id": 391,
+      "start_ms": 2505708,
+      "end_ms": 2510700,
+      "text": "Odds of two-to-one and three-to-one were freely offered against Buck's chances.",
+      "translation": "Buck'ın şansına karşı ikiye bir ve üçe bir oranında bahisler serbestçe açıldı.",
+      "notes": "Sayfa 20 | odds: bahis oranları."
+    },
+    {
+      "id": 392,
+      "start_ms": 2511100,
+      "end_ms": 2516932,
+      "text": "Buck was harnessed alone to the monster sled, looking confident and magnificent in the snow.",
+      "translation": "Buck karların içinde kendinden emin ve görkemli görünerek o devasa kızağa tek başına koşuldu.",
+      "notes": "Sayfa 20 | harnessed alone: tek başına koşuldu."
+    },
+    {
+      "id": 393,
+      "start_ms": 2517332,
+      "end_ms": 2525564,
+      "text": "Thornton knelt beside him, took his head in his hands, and whispered: \"As you love me, Buck. As you love me.\"",
+      "translation": "Thornton yanına diz çöktü, başını ellerinin arasına aldı ve fısıldadı: \"Beni sevdiğin gibi Buck. Beni sevdiğin hatırına.\"",
+      "notes": "Sayfa 20 | as you love me: beni sevdiğin gibi."
+    },
+    {
+      "id": 394,
+      "start_ms": 2525964,
+      "end_ms": 2531508,
+      "text": "Buck whined with suppressed passion, his muscles trembling beneath his thick furry coat.",
+      "translation": "Buck bastırılmış bir tutkuyla inledi; kalın kürkünün altındaki kasları heyecandan titriyordu.",
+      "notes": "Sayfa 20 | suppressed passion: bastırılmış tutku."
+    },
+    {
+      "id": 395,
+      "start_ms": 2531908,
+      "end_ms": 2537812,
+      "text": "Thornton stood back and shouted the command: \"Now, Buck! Gee!\"",
+      "translation": "Thornton geriye çekildi ve komutu haykırdı: \"Şimdi Buck! Sağa!\"",
+      "notes": "Sayfa 20 | gee: sağa çekme komutu."
+    },
+    {
+      "id": 396,
+      "start_ms": 2538212,
+      "end_ms": 2543828,
+      "text": "Buck threw his weight to the right, breaking the frozen grip on that side with a sharp crack.",
+      "translation": "Buck ağırlığını sağa verdi; o taraftaki donmuş kilidi keskin bir çatırtıyla kırdı.",
+      "notes": "Sayfa 20 | sharp crack: keskin çatırtı."
+    },
+    {
+      "id": 397,
+      "start_ms": 2544228,
+      "end_ms": 2550540,
+      "text": "\"Haw!\" shouted Thornton, and Buck swung to the left, breaking the other runner completely free.",
+      "translation": "\"Sola!\" diye bağırdı Thornton; Buck sola yüklendi ve diğer kızak ayağını da buzdan tamamen kurtardı.",
+      "notes": "Sayfa 20 | haw: sola çekme komutu."
+    },
+    {
+      "id": 398,
+      "start_ms": 2550940,
+      "end_ms": 2557180,
+      "text": "\"Now, MUSH!\" roared Thornton, and Buck threw himself into the breast-band with all his soul.",
+      "translation": "\"Şimdi, DEH!\" diye kükredi Thornton; Buck bütün ruhuyla göğüs kayışına asıldı.",
+      "notes": "Sayfa 20 | threw into breast-band: göğüs kayışına var gücüyle asıldı."
+    },
+    {
+      "id": 399,
+      "start_ms": 2557580,
+      "end_ms": 2565044,
+      "text": "His claws gripped the ice, his muscles stood out like steel cables, and inch by inch the sled began to move.",
+      "translation": "Pençeleri buza kenetlendi, kasları çelik halatlar gibi kabardı ve kızak santim santim hareket etmeye başladı.",
+      "notes": "Sayfa 20 | steel cables: çelik halatlar."
+    },
+    {
+      "id": 400,
+      "start_ms": 2565444,
+      "end_ms": 2571900,
+      "text": "The crowd held its breath as the great dog hauled the thousand pounds across the line, winning the wager!",
+      "translation": "O koca köpek bin poundu çizginin karşısına çekip bahsi kazanırken kalabalık nefesini tuttu!",
+      "notes": "Sayfa 20 | held breath: nefesini tuttu."
+    },
+    {
+      "id": 401,
+      "start_ms": 2572900,
+      "end_ms": 2579500,
+      "text": "With the sixteen hundred dollars won by Buck, Thornton paid off his debts and bought complete supplies.",
+      "translation": "Buck'ın kazandırdığı bin altı yüz dolarla Thornton borçlarını ödedi ve eksiksiz erzak satın aldı.",
+      "notes": "Sayfa 21 | paid off debts: borçlarını kapattı."
+    },
+    {
+      "id": 402,
+      "start_ms": 2579900,
+      "end_ms": 2586212,
+      "text": "Together with Hans and Pete, he set out into the uncharted wilderness to find a fabled lost mine.",
+      "translation": "Hans ve Pete ile birlikte efsanevi bir kayıp altın madenini bulmak için haritalandırılmamış yaban hayatına çıktılar.",
+      "notes": "Sayfa 21 | uncharted: haritasız, keşfedilmemiş."
+    },
+    {
+      "id": 403,
+      "start_ms": 2586612,
+      "end_ms": 2591940,
+      "text": "For months they travelled east into country where no white man had ever trodden before.",
+      "translation": "Aylarca doğuya doğru, daha önce hiçbir beyaz adamın ayak basmadığı topraklara ilerlediler.",
+      "notes": "Sayfa 21 | had ever trodden: ayak basmıştı."
+    },
+    {
+      "id": 404,
+      "start_ms": 2592340,
+      "end_ms": 2599012,
+      "text": "They lived by the rifle and the fishing net, traversing valleys and scaling untamed mountain ranges.",
+      "translation": "Tüfekle ve balık ağıyla geçindiler; vadileri aşıp vahşi dağ silsilelerine tırmandılar.",
+      "notes": "Sayfa 21 | untamed: evcilleşmemiş, el değmemiş."
+    },
+    {
+      "id": 405,
+      "start_ms": 2599412,
+      "end_ms": 2605028,
+      "text": "In the spring they stumbled upon a broad valley where gold dust coated the gravel like butter.",
+      "translation": "İlkbaharda, altın tozunun çakılları tereyağı gibi kapladığı geniş bir vadiye denk geldiler.",
+      "notes": "Sayfa 21 | stumbled upon: tesadüfen rastladı."
+    },
+    {
+      "id": 406,
+      "start_ms": 2605428,
+      "end_ms": 2611716,
+      "text": "Every washing pan revealed handfuls of pure yellow gold, richer than their wildest dreams.",
+      "translation": "Her yıkama leğeni, en çılgın rüyalarından bile daha zengin olan avuç dolusu saf sarı altını açığa çıkardı.",
+      "notes": "Sayfa 21 | wildest dreams: en çılgın hayaller."
+    },
+    {
+      "id": 407,
+      "start_ms": 2612116,
+      "end_ms": 2618764,
+      "text": "They built a comfortable log cabin and spent long sunny days shoveling gravel and stacking gold bags.",
+      "translation": "Rahat bir kütük kulübe inşa ettiler ve çakıl küreyip altın torbalarını yığarak uzun güneşli günler geçirdiler.",
+      "notes": "Sayfa 21 | stacking: istifleyerek."
+    },
+    {
+      "id": 408,
+      "start_ms": 2619164,
+      "end_ms": 2625452,
+      "text": "For Buck, there was no work to do; he was free to wander wherever his wild fancy took him.",
+      "translation": "Buck için yapacak hiçbir iş yoktu; vahşi hevesi onu nereye çekerse oraya dolaşmakta özgürdü.",
+      "notes": "Sayfa 21 | wherever his fancy took him: hevesi nereye çekerse."
+    },
+    {
+      "id": 409,
+      "start_ms": 2625852,
+      "end_ms": 2632236,
+      "text": "He roamed through the ancient forests, chasing squirrels and bathing in clear alpine pools.",
+      "translation": "Sincapları kovalayarak ve berrak dağ havuzlarında yıkanarak kadim ormanlarda gezindi.",
+      "notes": "Sayfa 21 | alpine pools: yüksek dağ göletleri."
+    },
+    {
+      "id": 410,
+      "start_ms": 2632636,
+      "end_ms": 2638780,
+      "text": "Yet deep within his soul, the mysterious call from the heart of the forest grew louder each day.",
+      "translation": "Yine de ruhunun derinliklerinde, ormanın kalbinden gelen o gizemli çağrı her geçen gün daha gür çıkıyordu.",
+      "notes": "Sayfa 21 | grew louder: daha da yükseldi."
+    },
+    {
+      "id": 411,
+      "start_ms": 2639180,
+      "end_ms": 2644268,
+      "text": "It was a wild, compelling summons that filled him with unutterable longings.",
+      "translation": "Onu tarif edilemez özlemlerle dolduran vahşi, karşı konulmaz bir çağrıydı bu.",
+      "notes": "Sayfa 21 | unutterable longings: kelimelere dökülemez özlemler."
+    },
+    {
+      "id": 412,
+      "start_ms": 2644668,
+      "end_ms": 2650452,
+      "text": "He would start up from his sleep, his ears erect, listening to something only he could hear.",
+      "translation": "Kulakları dikilmiş vaziyette uykusundan sıçrar; yalnızca kendisinin duyabildiği bir şeyi dinlerdi.",
+      "notes": "Sayfa 21 | ears erect: kulakları dikilmiş."
+    },
+    {
+      "id": 413,
+      "start_ms": 2650852,
+      "end_ms": 2655748,
+      "text": "One night he slipped away from the camp and plunged into the darkened woods.",
+      "translation": "Bir gece kamptan usulca sıvıştı ve kararan ormanın içine daldı.",
+      "notes": "Sayfa 21 | slipped away: sessizce sıvıştı."
+    },
+    {
+      "id": 414,
+      "start_ms": 2656148,
+      "end_ms": 2661884,
+      "text": "A long, mournful howl rose through the trees, vibrating through his very bones.",
+      "translation": "Ağaçların arasından uzun, hüzünlü bir uluma yükseldi; iliklerine kadar onu titretti.",
+      "notes": "Sayfa 21 | vibrating through bones: kemiklerine kadar titreten."
+    },
+    {
+      "id": 415,
+      "start_ms": 2662284,
+      "end_ms": 2667828,
+      "text": "He ran toward the sound, leaping through the brush with silent, predatory grace.",
+      "translation": "Sessiz, yırtıcı bir zarafetle çalıların arasından sıçrayarak sese doğru koştu.",
+      "notes": "Sayfa 21 | predatory grace: avcı zarafeti."
+    },
+    {
+      "id": 416,
+      "start_ms": 2668228,
+      "end_ms": 2674372,
+      "text": "In an open glade, nose pointed at the stars, sat a lean timber wolf singing to the moon.",
+      "translation": "Açık bir orman çayırında burnunu yıldızlara dikmiş zayıf bir kır kurdu aya doğru şarkı söylüyordu.",
+      "notes": "Sayfa 21 | lean timber wolf: zayıf orman kurdu."
+    },
+    {
+      "id": 417,
+      "start_ms": 2674772,
+      "end_ms": 2680820,
+      "text": "Buck stepped forward softly, his tail low, wishing to make contact with his wild brother.",
+      "translation": "Vahşi kardeşiyle temas kurmak isteyerek kuyruğu aşağıda, Buck usulca öne adım attı.",
+      "notes": "Sayfa 21 | stepped forward softly: yumuşakça öne adım attı."
+    },
+    {
+      "id": 418,
+      "start_ms": 2681220,
+      "end_ms": 2686836,
+      "text": "The wolf caught his scent, turned like a flash, and fled terrified through the timber.",
+      "translation": "Kurt onun kokusunu aldı, şimşek gibi döndü ve dehşet içinde ormanın içinden kaçtı.",
+      "notes": "Sayfa 21 | caught scent: kokusunu aldı."
+    },
+    {
+      "id": 419,
+      "start_ms": 2687236,
+      "end_ms": 2693764,
+      "text": "Buck pursued him effortlessly, his long, effortless strides matching the wild beast mile after mile.",
+      "translation": "Miller boyunca o vahşi hayvanın hızına ayak uydurarak uzun, zahmetsiz adımlarıyla Buck onu kolayca takip etti.",
+      "notes": "Sayfa 21 | effortless strides: zahmetsiz adımlar."
+    },
+    {
+      "id": 420,
+      "start_ms": 2694164,
+      "end_ms": 2699924,
+      "text": "At last he cornered the wolf in a rocky creek bed, where the wild creature turned to fight.",
+      "translation": "Nihayetinde kurdu kayalık bir dere yatağında sıkıştırdı; orada vahşi yaratık dövüşmek için geri döndü.",
+      "notes": "Sayfa 21 | cornered: köşeye sıkıştırdı."
+    },
+    {
+      "id": 421,
+      "start_ms": 2700924,
+      "end_ms": 2706324,
+      "text": "The timber wolf snarled fiercely, his hackles raised, ready to die fighting.",
+      "translation": "Yeleleri kabarmış orman kurdu dövüşerek ölmeye hazır halde vahşice hırladı.",
+      "notes": "Sayfa 22 | hackles raised: yeleleri kabarmış."
+    },
+    {
+      "id": 422,
+      "start_ms": 2706724,
+      "end_ms": 2712580,
+      "text": "Buck did not attack; he circled gently, making friendly, fraternal overtures.",
+      "translation": "Buck saldırmadı; dostane, kardeşçe yaklaşımlarda bulunarak etrafında sakince döndü.",
+      "notes": "Sayfa 22 | fraternal overtures: kardeşçe yaklaşımlar."
+    },
+    {
+      "id": 423,
+      "start_ms": 2712980,
+      "end_ms": 2718740,
+      "text": "Gradually, the wolf ceased his growling and cautiously sniffed Buck's outstretched muzzle.",
+      "translation": "Zamanla kurt hırlamasını kesti ve temkinle Buck'ın uzattığı burnunu kokladı.",
+      "notes": "Sayfa 22 | outstretched muzzle: uzatılmış burun."
+    },
+    {
+      "id": 424,
+      "start_ms": 2719140,
+      "end_ms": 2725620,
+      "text": "In a moment, suspicion vanished, and they romped together upon the forest floor like playful puppies.",
+      "translation": "Bir anda şüphe yok oldu ve orman zemininde oyuncu enikler gibi birlikte neşeyle oynaştılar.",
+      "notes": "Sayfa 22 | romped together: birlikte oynaştılar."
+    },
+    {
+      "id": 425,
+      "start_ms": 2726020,
+      "end_ms": 2732524,
+      "text": "Side by side they ran through the moonlit woods, leaping fallen logs and splashing through streams.",
+      "translation": "Ay ışığının aydınlattığı ormanda yan yana koştular; devrilmiş kütüklerin üzerinden atlayıp derelerden geçtiler.",
+      "notes": "Sayfa 22 | side by side: yan yana."
+    },
+    {
+      "id": 426,
+      "start_ms": 2732924,
+      "end_ms": 2738540,
+      "text": "Buck was intoxicated with wild joy; he was running with his own kind at last.",
+      "translation": "Buck vahşi bir sevinçle sarhoş olmuştu; nihayet kendi soyuyla birlikte koşuyordu.",
+      "notes": "Sayfa 22 | intoxicated with joy: sevinçten sarhoş."
+    },
+    {
+      "id": 427,
+      "start_ms": 2738940,
+      "end_ms": 2744556,
+      "text": "He was a wolf among wolves, responding to the ancient blood that sang in his veins.",
+      "translation": "Kurtların arasında bir kurttu artık; damarlarında ezgisini söyleyen o kadim kana karşılık veriyordu.",
+      "notes": "Sayfa 22 | ancient blood: kadim kan."
+    },
+    {
+      "id": 428,
+      "start_ms": 2744956,
+      "end_ms": 2751220,
+      "text": "They ran for miles, until the wolf turned toward the wild mountains, beckoning Buck to follow.",
+      "translation": "Millerce koştular; ta ki kurt vahşi dağlara doğru dönüp Buck'a kendisini takip etmesini işaret edene dek.",
+      "notes": "Sayfa 22 | beckoning to follow: takip etmesi için işaret eden."
+    },
+    {
+      "id": 429,
+      "start_ms": 2751620,
+      "end_ms": 2756228,
+      "text": "Buck halted; a vision of John Thornton rose before his eyes.",
+      "translation": "Buck durdu; gözlerinin önünde John Thornton'ın hayali canlandı.",
+      "notes": "Sayfa 22 | vision rose: hayal belirdi."
+    },
+    {
+      "id": 430,
+      "start_ms": 2756628,
+      "end_ms": 2762364,
+      "text": "The memory of the man's warm hands and gentle voice tugged painfully at his heartstrings.",
+      "translation": "O adamın sıcak ellerinin ve nazik sesinin hatırası yürek tellerini acıyla sızlattı.",
+      "notes": "Sayfa 22 | tugged at heartstrings: yürek tellerini sızlattı."
+    },
+    {
+      "id": 431,
+      "start_ms": 2762764,
+      "end_ms": 2768164,
+      "text": "He turned back and trotted slowly toward the cabin, though his heart was torn in two.",
+      "translation": "Yüreği ikiye bölünmüş olsa da arkasını döndü ve kulübeye doğru yavaşça tırıs gitti.",
+      "notes": "Sayfa 22 | heart was torn: yüreği ikiye bölünmüştü."
+    },
+    {
+      "id": 432,
+      "start_ms": 2768564,
+      "end_ms": 2775596,
+      "text": "Thornton was eating breakfast when Buck leaped into camp, overwhelming the man with wild demonstrations of affection.",
+      "translation": "Buck kampa dalıp adamı vahşi sevgi gösterilerine boğduğunda Thornton kahvaltı ediyordu.",
+      "notes": "Sayfa 22 | overwhelming with affection: sevgiye boğarak."
+    },
+    {
+      "id": 433,
+      "start_ms": 2775996,
+      "end_ms": 2781996,
+      "text": "For two days he never left Thornton's side, watching his every movement with frantic devotion.",
+      "translation": "İki gün boyunca Thornton'ın yanından hiç ayrılmadı; onun her hareketini çılgınca bir sadakatle izledi.",
+      "notes": "Sayfa 22 | frantic devotion: çılgınca sadakat."
+    },
+    {
+      "id": 434,
+      "start_ms": 2782396,
+      "end_ms": 2787052,
+      "text": "He followed him everywhere, sleeping with his head upon the man's knees.",
+      "translation": "Onu her yerde takip etti; başı adamın dizlerinin üzerinde uyudu.",
+      "notes": "Sayfa 22 | followed everywhere: her yerde izledi."
+    },
+    {
+      "id": 435,
+      "start_ms": 2787452,
+      "end_ms": 2793428,
+      "text": "Yet the restlessness soon returned, pulling his gaze toward the dark, silent forest.",
+      "translation": "Fakat o huzursuzluk çok geçmeden geri döndü; bakışlarını o karanlık, sessiz ormana doğru çekerek.",
+      "notes": "Sayfa 22 | restlessness returned: huzursuzluk geri döndü."
+    },
+    {
+      "id": 436,
+      "start_ms": 2793828,
+      "end_ms": 2799996,
+      "text": "He began to hunt larger game alone, testing his strength against the fierce inhabitants of the wild.",
+      "translation": "Vahşi doğanın çetin sakinlerine karşı gücünü sınayarak tek başına daha büyük avların peşine düşmeye başladı.",
+      "notes": "Sayfa 22 | larger game: daha büyük av."
+    },
+    {
+      "id": 437,
+      "start_ms": 2800396,
+      "end_ms": 2805628,
+      "text": "He killed a black bear in a savage battle, leaving the carcass for the ravens.",
+      "translation": "Vahşi bir savaşta siyah bir ayıyı öldürdü; leşini kuzgunlara bıraktı.",
+      "notes": "Sayfa 22 | carcass: hayvan leşi."
+    },
+    {
+      "id": 438,
+      "start_ms": 2806028,
+      "end_ms": 2810420,
+      "text": "He caught salmon in the roaring rapids with the skill of a native otter.",
+      "translation": "Yerli bir su samurunun ustalığıyla kükreyen çağlayanlarda somon balığı yakaladı.",
+      "notes": "Sayfa 22 | skill of an otter: su samuru becerisi."
+    },
+    {
+      "id": 439,
+      "start_ms": 2810820,
+      "end_ms": 2816436,
+      "text": "He was a killer, a lord of the wilderness, fearing no beast that walked or crept.",
+      "translation": "O bir avcıydı, yaban hayatının efendisiydi; yürüyen veya sürünen hiçbir hayvandan korkmuyordu.",
+      "notes": "Sayfa 22 | lord of the wilderness: yaban hayatının efendisi."
+    },
+    {
+      "id": 440,
+      "start_ms": 2816836,
+      "end_ms": 2822260,
+      "text": "And then came the supreme hunting test that would crown him master of the northern forests.",
+      "translation": "Ve ardından onu kuzey ormanlarının efendisi olarak taçlandıracak o en yüce av sınavı çıkageldi.",
+      "notes": "Sayfa 22 | supreme test: en yüce sınav."
+    },
+    {
+      "id": 441,
+      "start_ms": 2823260,
+      "end_ms": 2829524,
+      "text": "In the late autumn, a great herd of moose moved through the valley, seeking lower winter pastures.",
+      "translation": "Sonbahar sonlarında büyük bir sığın geyiği sürüsü daha alçak kış otlaklarını arayarak vadiden geçti.",
+      "notes": "Sayfa 23 | great herd: büyük sürü."
+    },
+    {
+      "id": 442,
+      "start_ms": 2829924,
+      "end_ms": 2835636,
+      "text": "At their head marched a magnificent bull moose, standing seven feet high at the shoulder.",
+      "translation": "Başlarında omuz yüksekliği yedi fiti bulan muazzam bir erkek sığın geyiği yürüyordu.",
+      "notes": "Sayfa 23 | bull moose: erkek sığın geyiği."
+    },
+    {
+      "id": 443,
+      "start_ms": 2836036,
+      "end_ms": 2842660,
+      "text": "He possessed an enormous span of branched antlers, and his wicked little eyes blazed with savage fury.",
+      "translation": "Çatallı boynuzlardan oluşan devasa bir açıklığa sahipti ve hırçın küçük gözleri vahşi bir öfkeyle parlıyordu.",
+      "notes": "Sayfa 23 | branched antlers: çatallı boynuzlar."
+    },
+    {
+      "id": 444,
+      "start_ms": 2843060,
+      "end_ms": 2849180,
+      "text": "An arrow protruding from his flank showed that hunters had wounded him, making him doubly dangerous.",
+      "translation": "Böğründen dışarı sarkan bir ok avcıların onu yaraladığını gösteriyordu; bu da onu iki kat tehlikeli kılıyordu.",
+      "notes": "Sayfa 23 | protruding: dışarı fırlamış."
+    },
+    {
+      "id": 445,
+      "start_ms": 2849580,
+      "end_ms": 2854476,
+      "text": "Buck resolved to cut this monarch from the herd and bring him down single-handed.",
+      "translation": "Buck bu hükümdarı sürüden ayırmaya ve tek başına yere sermeye ant içti.",
+      "notes": "Sayfa 23 | single-handed: tek başına."
+    },
+    {
+      "id": 446,
+      "start_ms": 2854876,
+      "end_ms": 2861836,
+      "text": "For four long days and nights, Buck maintained an unbroken, relentless siege upon the giant beast.",
+      "translation": "Dört uzun gün ve gece boyunca Buck, bu devasa hayvanın üzerinde kesintisiz, amansız bir kuşatma sürdürdü.",
+      "notes": "Sayfa 23 | relentless siege: amansız kuşatma."
+    },
+    {
+      "id": 447,
+      "start_ms": 2862236,
+      "end_ms": 2867492,
+      "text": "He never let the wounded bull rest, drink, or graze for a single minute.",
+      "translation": "Yaralı erkeğin tek bir dakika dahi dinlenmesine, su içmesine ya da otlamasına izin vermedi.",
+      "notes": "Sayfa 23 | never let rest: asla dinlendirtmedi."
+    },
+    {
+      "id": 448,
+      "start_ms": 2867892,
+      "end_ms": 2875212,
+      "text": "Whenever the moose charged, Buck leaped lithely aside; whenever he turned to escape, Buck harried his heels.",
+      "translation": "Geyik ne zaman hücum etse Buck kıvrakça yana kaçtı; ne zaman kaçmaya yeltense Buck topuklarını taciz etti.",
+      "notes": "Sayfa 23 | harried his heels: topuklarını rahatsız etti."
+    },
+    {
+      "id": 449,
+      "start_ms": 2875612,
+      "end_ms": 2881156,
+      "text": "He was a black shadow that could not be shaken off, tireless as the falling snow.",
+      "translation": "O üzerinden silkelenip atılamayan bir kara gölgeydi; yağan kar kadar yorulmazdı.",
+      "notes": "Sayfa 23 | could not be shaken off: silkip atılamayan."
+    },
+    {
+      "id": 450,
+      "start_ms": 2881556,
+      "end_ms": 2887196,
+      "text": "The herd marched on, leaving their dying leader behind in the clutches of the patient stalker.",
+      "translation": "Sürü yola devam etti; can çekişen liderlerini sabırlı avcının pençelerinde geride bırakarak.",
+      "notes": "Sayfa 23 | patient stalker: sabırlı avcı."
+    },
+    {
+      "id": 451,
+      "start_ms": 2887596,
+      "end_ms": 2893740,
+      "text": "By the fourth evening, the great bull moose was staggering from pure exhaustion and blood loss.",
+      "translation": "Dördüncü akşama gelindiğinde o devasa sığın geyiği katıksız bitkinlikten ve kan kaybından sendeliyordu.",
+      "notes": "Sayfa 23 | staggering: sendeleyen."
+    },
+    {
+      "id": 452,
+      "start_ms": 2894140,
+      "end_ms": 2900644,
+      "text": "His massive head drooped, his tongue hung out swollen, and his ferocious eyes were glazed with death.",
+      "translation": "Kocaman başı öne düştü, dili şişmiş vaziyette dışarı sarktı ve vahşi gözleri ölümle donuklaştı.",
+      "notes": "Sayfa 23 | massive head drooped: ağır başı öne düştü."
+    },
+    {
+      "id": 453,
+      "start_ms": 2901044,
+      "end_ms": 2906660,
+      "text": "Buck sprang onto his back, sinking his fangs deep into the throat of the fallen giant.",
+      "translation": "Buck onun sırtına sıçradı ve dişlerini devrilen devin gırtlağına derinlemesine geçirdi.",
+      "notes": "Sayfa 23 | sinking fangs: dişlerini batırarak."
+    },
+    {
+      "id": 454,
+      "start_ms": 2907060,
+      "end_ms": 2912604,
+      "text": "The bull crashed to the earth with a final shuddering groan, and Buck was victorious.",
+      "translation": "Geyik son bir titreyen iniltiyle yere serildi ve Buck muzaffer oldu.",
+      "notes": "Sayfa 23 | shuddering groan: titreyen inilti."
+    },
+    {
+      "id": 455,
+      "start_ms": 2913004,
+      "end_ms": 2919700,
+      "text": "He feasted upon the fresh meat, rested for a day, and then felt a sudden urge to return to Thornton.",
+      "translation": "Taze etle ziyafet çekti, bir gün dinlendi ve ardından Thornton'a dönmek için ani bir dürtü hissetti.",
+      "notes": "Sayfa 23 | feasted upon: ziyafet çekti."
+    },
+    {
+      "id": 456,
+      "start_ms": 2920100,
+      "end_ms": 2925908,
+      "text": "A dark foreboding fell upon his spirit as he bounded back across the hills toward the camp.",
+      "translation": "Tepeleri aşıp kampa doğru geri koşarken ruhuna karanlık bir uğursuzluk önsezisi çöktü.",
+      "notes": "Sayfa 23 | dark foreboding: karanlık önsezi."
+    },
+    {
+      "id": 457,
+      "start_ms": 2926308,
+      "end_ms": 2931924,
+      "text": "The wind smelled strange; a subtle scent of danger and death drifted through the trees.",
+      "translation": "Rüzgar tuhaf kokuyordu; ağaçların arasından sinsi bir tehlike ve ölüm kokusu süzülüp geliyordu.",
+      "notes": "Sayfa 23 | subtle scent: hafif/sinsi koku."
+    },
+    {
+      "id": 458,
+      "start_ms": 2932324,
+      "end_ms": 2937652,
+      "text": "Three miles from the cabin he found the body of Nig, pierced by feathered arrows.",
+      "translation": "Kulübeye üç mil kala Nig'in tüylü oklarla delik deşik edilmiş cansız bedenini buldu.",
+      "notes": "Sayfa 23 | pierced by arrows: oklarla delinmiş."
+    },
+    {
+      "id": 459,
+      "start_ms": 2938052,
+      "end_ms": 2943668,
+      "text": "A hundred yards further lay one of the sled dogs, dying in the blood-soaked moss.",
+      "translation": "Yüz yarda ileride kızak köpeklerinden biri kana bulanmış yosunların üzerinde can çekişiyordu.",
+      "notes": "Sayfa 23 | blood-soaked moss: kana doymuş yosun."
+    },
+    {
+      "id": 460,
+      "start_ms": 2944068,
+      "end_ms": 2950260,
+      "text": "Buck leaped forward with lightning speed, a terrifying rage boiling in every vein of his body.",
+      "translation": "Bedeninin her bir damarında korkunç bir öfke kaynayarak Buck şimşek hızıyla öne fırladı.",
+      "notes": "Sayfa 23 | boiling rage: kaynayan gazap."
+    },
+    {
+      "id": 461,
+      "start_ms": 2951260,
+      "end_ms": 2955892,
+      "text": "Buck burst into the clearing and beheld a scene of horrific devastation.",
+      "translation": "Buck orman açıklığına daldı ve korkunç bir yıkım manzarasıyla karşılaştı.",
+      "notes": "Sayfa 24 | horrific devastation: dehşet verici yıkım."
+    },
+    {
+      "id": 462,
+      "start_ms": 2956292,
+      "end_ms": 2961212,
+      "text": "Hans lay dead upon his face, feathered with arrows like a porcupine.",
+      "translation": "Hans, bir kirpi gibi oklarla bezenmiş vaziyette yüzüstü ölü yatıyordu.",
+      "notes": "Sayfa 24 | feathered with arrows: oklarla donanmış."
+    },
+    {
+      "id": 463,
+      "start_ms": 2961612,
+      "end_ms": 2967564,
+      "text": "About the ruined cabin, a score of Yeehat Indians were dancing a wild victory dance.",
+      "translation": "Harap olmuş kulübenin etrafında yirmi kadar Yeehat yerlisi vahşi bir zafer dansı yapıyordu.",
+      "notes": "Sayfa 24 | victory dance: zafer dansı."
+    },
+    {
+      "id": 464,
+      "start_ms": 2967964,
+      "end_ms": 2974180,
+      "text": "At that moment, all restraint fell from Buck, and he became an incarnation of absolute fury.",
+      "translation": "O anda Buck'ın tüm dizginleri koptu ve mutlak bir gazabın canlı timsaline dönüştü.",
+      "notes": "Sayfa 24 | incarnation of fury: öfkenin beden bulmuş hali."
+    },
+    {
+      "id": 465,
+      "start_ms": 2974580,
+      "end_ms": 2980316,
+      "text": "He hurled himself into the midst of the Indians like a raging cyclone of fangs and claws.",
+      "translation": "Dişlerden ve pençelerden oluşan kükreyen bir kasırga gibi yerlilerin ortasına daldı.",
+      "notes": "Sayfa 24 | raging cyclone: kükreyen kasırga."
+    },
+    {
+      "id": 466,
+      "start_ms": 2980716,
+      "end_ms": 2986524,
+      "text": "He plunged straight at the chief's throat, ripping open the jugular vein with a single snap.",
+      "translation": "Dosdoğru şefin gırtlağına atıldı; tek bir ısırışla şahdamarını boydan boya yardı.",
+      "notes": "Sayfa 24 | jugular vein: şahdamarı."
+    },
+    {
+      "id": 467,
+      "start_ms": 2986924,
+      "end_ms": 2992948,
+      "text": "He leaped from throat to throat, tearing, slashing, and destroying with blinding speed.",
+      "translation": "Göz açıp kapayıncaya kadar bir hızla gırtlaktan gırtlağa sıçradı; parçalayarak, keserek ve yok ederek.",
+      "notes": "Sayfa 24 | blinding speed: göz kamaştırıcı hız."
+    },
+    {
+      "id": 468,
+      "start_ms": 2993348,
+      "end_ms": 2999516,
+      "text": "The Indians could not defend themselves; arrows pierced their own comrades in the wild panic.",
+      "translation": "Yerliler kendilerini savunamadılar; o vahşi panikte oklar kendi yoldaşlarını delip geçti.",
+      "notes": "Sayfa 24 | wild panic: vahşi panik."
+    },
+    {
+      "id": 469,
+      "start_ms": 2999916,
+      "end_ms": 3005868,
+      "text": "They believed him to be an evil Fiend, the Ghost Dog of the woods, invincible and immortal.",
+      "translation": "Onun ormanın İblisi, yenilmez ve ölümsüz Hayalet Köpek olduğuna inandılar.",
+      "notes": "Sayfa 24 | evil Fiend: kötücül ifrit/şeytan."
+    },
+    {
+      "id": 470,
+      "start_ms": 3006268,
+      "end_ms": 3012724,
+      "text": "Shrieking in terror, the surviving Yeehats fled into the forest, never to return to that valley.",
+      "translation": "Dehşet içinde çığlıklar atarak hayatta kalan Yeehatlar o vadiye bir daha asla dönmemek üzere ormana kaçtılar.",
+      "notes": "Sayfa 24 | shrieking in terror: dehşetle çığlık atarak."
+    },
+    {
+      "id": 471,
+      "start_ms": 3013124,
+      "end_ms": 3017444,
+      "text": "Buck followed Thornton's scent to the edge of the deep pool in the creek.",
+      "translation": "Buck Thornton'ın kokusunu deredeki derin göletin kıyısına kadar takip etti.",
+      "notes": "Sayfa 24 | edge of the deep pool: derin havuzun kenarı."
+    },
+    {
+      "id": 472,
+      "start_ms": 3017844,
+      "end_ms": 3022140,
+      "text": "Skeet lay dead at the water's edge, faithful to the end.",
+      "translation": "Sonuna kadar sadık kalan Skeet suyun kenarında ölü yatıyordu.",
+      "notes": "Sayfa 24 | faithful to the end: sonuna kadar sadık."
+    },
+    {
+      "id": 473,
+      "start_ms": 3022540,
+      "end_ms": 3027844,
+      "text": "In the murky depths beneath the surface lay John Thornton, lifeless and still.",
+      "translation": "Yüzeyin altındaki bulanık derinliklerde John Thornton cansız ve hareketsiz yatıyordu.",
+      "notes": "Sayfa 24 | murky depths: bulanık derinlikler."
+    },
+    {
+      "id": 474,
+      "start_ms": 3028244,
+      "end_ms": 3033668,
+      "text": "Buck curled himself by the edge of the pool, overwhelmed by an abyss of grief.",
+      "translation": "Uçsuz bucaksız bir keder uçurumuna gömülen Buck havuzun kenarına kıvrılıp yattı.",
+      "notes": "Sayfa 24 | abyss of grief: keder uçurumu."
+    },
+    {
+      "id": 475,
+      "start_ms": 3034068,
+      "end_ms": 3039444,
+      "text": "All day he lay motionless, mourning the only human he had ever truly loved.",
+      "translation": "Bütün gün hareketsiz yattı; gerçekten sevdiği tek insanın yasını tutarak.",
+      "notes": "Sayfa 24 | mourning: yas tutarak."
+    },
+    {
+      "id": 476,
+      "start_ms": 3039844,
+      "end_ms": 3044260,
+      "text": "The last tie that bound him to the world of men was broken forever.",
+      "translation": "Onu insanların dünyasına bağlayan son bağ da sonsuza dek kopmuştu.",
+      "notes": "Sayfa 24 | last tie was broken: son bağ koptu."
+    },
+    {
+      "id": 477,
+      "start_ms": 3044660,
+      "end_ms": 3050516,
+      "text": "He had killed man, the lawgiver with the club, and found that man was easy to destroy.",
+      "translation": "O sopalı kanun koyucu insanı öldürmüş ve insanın yok edilmesinin pek kolay olduğunu görmüştü.",
+      "notes": "Sayfa 24 | easy to destroy: yok etmesi kolay."
+    },
+    {
+      "id": 478,
+      "start_ms": 3050916,
+      "end_ms": 3056940,
+      "text": "Night came on, and the full moon rose above the timber, flooding the glade with pale light.",
+      "translation": "Gece çöktü ve dolunay ormanın üzerinde yükselerek açıklığı solgun bir ışıkla doldurdu.",
+      "notes": "Sayfa 24 | flooding with light: ışıkla doldurarak."
+    },
+    {
+      "id": 479,
+      "start_ms": 3057340,
+      "end_ms": 3062548,
+      "text": "From the distance came the calling voices of a great wolf pack hunting down the creek.",
+      "translation": "Uzaktan, derenin aşağısında avlanan büyük bir kurt sürüsünün çağıran sesleri geldi.",
+      "notes": "Sayfa 24 | calling voices: çağıran sesler."
+    },
+    {
+      "id": 480,
+      "start_ms": 3062948,
+      "end_ms": 3068468,
+      "text": "Buck stood up, shook the dust from his heavy coat, and walked out into the moonlight.",
+      "translation": "Buck ayağa kalktı, kalın kürkündeki tozu silkeledi ve ay ışığına doğru adım attı.",
+      "notes": "Sayfa 24 | walked out: dışarı adım attı."
+    },
+    {
+      "id": 481,
+      "start_ms": 3069468,
+      "end_ms": 3075828,
+      "text": "The wolf pack poured into the clearing like a grey flood, stopping dead at the sight of the giant dog.",
+      "translation": "Kurt sürüsü gri bir sel gibi orman açıklığına aktı; o dev köpeği görünce olduğu yerde mıhlanıp kaldı.",
+      "notes": "Sayfa 25 | stopping dead: olduğu yerde çakılmak."
+    },
+    {
+      "id": 482,
+      "start_ms": 3076228,
+      "end_ms": 3081508,
+      "text": "Buck stood motionless, silent, towering over the largest wolf among them.",
+      "translation": "Buck aralarındaki en iri kurttan bile daha heybetli, sessiz ve hareketsizce dikildi.",
+      "notes": "Sayfa 25 | towering over: tepesinde heybetle yükselerek."
+    },
+    {
+      "id": 483,
+      "start_ms": 3081908,
+      "end_ms": 3087812,
+      "text": "A bold wolf leaped forward to strike, but Buck snapped his neck with a single crushing bite.",
+      "translation": "Cesur bir kurt vurmak için öne fırladı, fakat Buck tek bir ezici ısırıkla onun boynunu kırdı.",
+      "notes": "Sayfa 25 | crushing bite: ezici ısırış."
+    },
+    {
+      "id": 484,
+      "start_ms": 3088212,
+      "end_ms": 3094548,
+      "text": "Three others charged together, and three times Buck's lightning fangs slashed open their throats.",
+      "translation": "Diğer üçü birlikte saldırdı ve üç defa Buck'ın şimşek gibi dişleri onların gırtlaklarını yardı.",
+      "notes": "Sayfa 25 | slashed open: yarıp açtı."
+    },
+    {
+      "id": 485,
+      "start_ms": 3094948,
+      "end_ms": 3100372,
+      "text": "Then a lean, grey timber wolf stepped forward with a whimper of friendly recognition.",
+      "translation": "Ardından zayıf, boz bir orman kurdu dostça bir tanıma iniltisiyle öne çıktı.",
+      "notes": "Sayfa 25 | friendly recognition: dostça tanıma."
+    },
+    {
+      "id": 486,
+      "start_ms": 3100772,
+      "end_ms": 3105452,
+      "text": "It was the wild brother with whom he had run beneath the moon weeks before.",
+      "translation": "Haftalar önce ayın altında birlikte koştuğu o vahşi kardeşti bu.",
+      "notes": "Sayfa 25 | with whom he had run: birlikte koştuğu."
+    },
+    {
+      "id": 487,
+      "start_ms": 3105852,
+      "end_ms": 3112692,
+      "text": "They touched noses softly, and an old, gaunt wolf sat down and raised the pack's song of fellowship.",
+      "translation": "Burunlarını usulca birbirine değdirdiler ve yaşlı, zayıf bir kurt oturup sürünün kardeşlik şarkısını başlattı.",
+      "notes": "Sayfa 25 | song of fellowship: kardeşlik ezgisi."
+    },
+    {
+      "id": 488,
+      "start_ms": 3113092,
+      "end_ms": 3118756,
+      "text": "Buck threw back his great head and joined in the chorus, howling the ancient call of his blood.",
+      "translation": "Buck o koca başını geriye attı ve koroya katıldı; kanının o kadim çağrısını uluyarak.",
+      "notes": "Sayfa 25 | howling the call: çağrıyı uluyarak."
+    },
+    {
+      "id": 489,
+      "start_ms": 3119156,
+      "end_ms": 3125324,
+      "text": "When the song ended, the pack turned into the forest, and Buck sprang forward to take the lead.",
+      "translation": "Şarkı bittiğinde sürü ormana doğru döndü ve Buck başa geçmek için öne fırladı.",
+      "notes": "Sayfa 25 | take the lead: liderliği almak."
+    },
+    {
+      "id": 490,
+      "start_ms": 3125724,
+      "end_ms": 3131820,
+      "text": "He was their chieftain, the master wolf, leading his people across the wild northern wastes.",
+      "translation": "O artık onların önderiydi; halkını vahşi kuzey çoraklarında yöneten başkurt olmuştu.",
+      "notes": "Sayfa 25 | master wolf: başkurt, lider kurt."
+    },
+    {
+      "id": 491,
+      "start_ms": 3132220,
+      "end_ms": 3138316,
+      "text": "Years passed, and a great legend grew among the Yeehat hunters about the valley of the gold creek.",
+      "translation": "Yıllar geçti ve altın deresi vadisi hakkında Yeehat avcıları arasında büyük bir efsane doğdu.",
+      "notes": "Sayfa 25 | great legend grew: büyük efsane büyüdü."
+    },
+    {
+      "id": 492,
+      "start_ms": 3138716,
+      "end_ms": 3144116,
+      "text": "They whispered around their campfires of a Ghost Dog that ran at the head of the wolf pack.",
+      "translation": "Kamp ateşlerinin etrafında, kurt sürüsünün başında koşan bir Hayalet Köpek hakkında fısıldaştılar.",
+      "notes": "Sayfa 25 | whispered of: hakkında fısıldaştılar."
+    },
+    {
+      "id": 493,
+      "start_ms": 3144516,
+      "end_ms": 3150732,
+      "text": "Hunters were found dead, their throats torn open, if they dared cross into his sacred domain.",
+      "translation": "Onun kutsal mülküne adım atmaya cüret ettiklerinde avcılar gırtlakları parçalanmış halde ölü bulunurdu.",
+      "notes": "Sayfa 25 | sacred domain: kutsal mülk/diyar."
+    },
+    {
+      "id": 494,
+      "start_ms": 3151132,
+      "end_ms": 3157444,
+      "text": "They noted that the wolves of that region grew larger and heavier, with brown splashes upon their coats.",
+      "translation": "O bölgenin kurtlarının kürklerinde kahverengi lekelerle daha iri ve daha ağır büyüdüklerini fark ettiler.",
+      "notes": "Sayfa 25 | brown splashes: kahverengi lekeler."
+    },
+    {
+      "id": 495,
+      "start_ms": 3157844,
+      "end_ms": 3164516,
+      "text": "Yet once every summer, when the wild flowers bloomed across the alpine meadows, Buck returned alone.",
+      "translation": "Yine de her yaz bir kez, vahşi çiçekler dağ çayırlarında açtığında Buck oraya tek başına dönerdi.",
+      "notes": "Sayfa 25 | once every summer: her yaz bir kez."
+    },
+    {
+      "id": 496,
+      "start_ms": 3164916,
+      "end_ms": 3169836,
+      "text": "He came to the clearing where the ruined cabin stood by the silent yellow creek.",
+      "translation": "Sessiz sarı derenin kıyısında o harap kulübenin durduğu açıklığa gelirdi.",
+      "notes": "Sayfa 25 | ruined cabin: harap kulübe."
+    },
+    {
+      "id": 497,
+      "start_ms": 3170236,
+      "end_ms": 3176596,
+      "text": "He stood beside the deep pool where John Thornton lay, gazing into the water in mournful silence.",
+      "translation": "John Thornton'ın yattığı derin göletin kenarında durur; kederli bir sessizlikle suların içine bakardı.",
+      "notes": "Sayfa 25 | mournful silence: yas dolu sessizlik."
+    },
+    {
+      "id": 498,
+      "start_ms": 3176996,
+      "end_ms": 3183236,
+      "text": "He gave one long, sorrowful howl that echoed across the hills before turning back to the wild.",
+      "translation": "Vahşi doğaya geri dönmeden önce tepelerde yankılanan uzun, kederli bir uluma koyverirdi.",
+      "notes": "Sayfa 25 | sorrowful howl: kederli uluma."
+    },
+    {
+      "id": 499,
+      "start_ms": 3183636,
+      "end_ms": 3189588,
+      "text": "He had answered the call of his ancestors, reclaiming his rightful place in the primordial kingdom.",
+      "translation": "O ilkçağ krallığındaki hak ettiği yeri yeniden kazanarak atalarının çağrısına karşılık vermişti.",
+      "notes": "Sayfa 25 | reclaiming rightful place: hakkı olan yeri geri alarak."
+    },
+    {
+      "id": 500,
+      "start_ms": 3189988,
+      "end_ms": 3196156,
+      "text": "And there he runs today, great of chest and white of fang, singing the song of the younger world.",
+      "translation": "Ve o bugün de orada koşuyor; heybetli göğsü ve ak dişleriyle o genç dünyanın kadim şarkısını söyleyerek.",
+      "notes": "Sayfa 25 | song of the younger world: genç dünyanın şarkısı."
+    }
+  ]
+}

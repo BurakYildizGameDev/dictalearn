@@ -1,0 +1,4014 @@
+{
+  "schema_version": 1,
+  "lesson_id": "book_27_the_red_headed_league",
+  "title": "The Red-Headed League (Kızıl Saçlılar Kulübü) (25 Sayfa / 500 Cümle / Graded Reader)",
+  "source_lang": "en",
+  "target_lang": "tr",
+  "audio_file": "audio.mp3",
+  "attribution": {
+    "source": "Sir Arthur Conan Doyle / Public Domain / Graded Reader Adaptasyonu (25 Sayfa x 20 Cümle)",
+    "license": "Public Domain"
+  },
+  "segments": [
+    {
+      "id": 1,
+      "start_ms": 300,
+      "end_ms": 6252,
+      "text": "I had called upon my friend, Mr. Sherlock Holmes, one day in the autumn of last year.",
+      "translation": "Geçen yılın sonbaharında bir gün dostum Bay Sherlock Holmes'ü ziyaret etmiştim.",
+      "notes": "Sayfa 1 | called upon: ziyaret etmişti; autumn: sonbahar."
+    },
+    {
+      "id": 2,
+      "start_ms": 6652,
+      "end_ms": 13564,
+      "text": "I found him in deep conversation with a very stout, florid-faced elderly gentleman with fiery red hair.",
+      "translation": "Onu alev kızılı saçları olan, son derece tıknaz, al yanaklı yaşlıca bir beyefendiyle derin bir sohbette buldum.",
+      "notes": "Sayfa 1 | florid-faced: al yanaklı, kırmızı yüzlü; fiery red: kor kırmızısı."
+    },
+    {
+      "id": 3,
+      "start_ms": 13964,
+      "end_ms": 19628,
+      "text": "With an apology for my intrusion, I was about to withdraw when Holmes pulled me into the room.",
+      "translation": "İzinsiz girişim için özür dileyerek tam geri çekilmek üzereydim ki Holmes beni odanın içine çekti.",
+      "notes": "Sayfa 1 | apology for intrusion: içeri daldığı için özür; withdraw: geri çekilmek."
+    },
+    {
+      "id": 4,
+      "start_ms": 20028,
+      "end_ms": 25140,
+      "text": "\"You could not have come at a better time, my dear Watson,\" he said cordially.",
+      "translation": "Büyük bir samimiyetle, \"Daha uygun bir zamanda gelemezdin azizim Watson,\" dedi.",
+      "notes": "Sayfa 1 | cordially: içtenlikle, dostça."
+    },
+    {
+      "id": 5,
+      "start_ms": 25540,
+      "end_ms": 30964,
+      "text": "\"I was afraid that you were engaged,\" I answered, glancing at the strange visitor.",
+      "translation": "Garip ziyaretçiye göz ucuyla bakarak, \"Meşgul olduğunuzdan çekinmiştim,\" diye yanıt verdim.",
+      "notes": "Sayfa 1 | engaged: meşgul, meşguliyeti olan."
+    },
+    {
+      "id": 6,
+      "start_ms": 31364,
+      "end_ms": 38348,
+      "text": "\"So I am. I am very busy indeed, but this gentleman's case promises to be singular.\"",
+      "translation": "\"Öyleyim de. Gerçekten çok meşgulüm fakat bu beyefendinin davası eşine az rastlanır cinsten olacağa benziyor.\"",
+      "notes": "Sayfa 1 | singular: benzersiz, nevi şahsına münhasır."
+    },
+    {
+      "id": 7,
+      "start_ms": 38748,
+      "end_ms": 43836,
+      "text": "He waved me to an armchair and introduced our guest as Mr. Jabez Wilson.",
+      "translation": "Bana bir koltuğu işaret etti ve konuğumuzu Bay Jabez Wilson olarak takdim etti.",
+      "notes": "Sayfa 1 | introduced as: olarak tanıştırmak/takdim etmek."
+    },
+    {
+      "id": 8,
+      "start_ms": 44236,
+      "end_ms": 48892,
+      "text": "The portly client puffed out his chest with an appearance of some little pride.",
+      "translation": "İri yarı müvekkil hafif bir gurur edasıyla göğsünü kabarttı.",
+      "notes": "Sayfa 1 | portly: göbekli, heybetli; puffed out his chest: göğsünü kabarttı."
+    },
+    {
+      "id": 9,
+      "start_ms": 49292,
+      "end_ms": 54284,
+      "text": "He pulled a dirty and wrinkled newspaper from the inside pocket of his greatcoat.",
+      "translation": "Paltosunun iç cebinden kirli ve kırışmış bir gazete çıkardı.",
+      "notes": "Sayfa 1 | wrinkled: buruşmuş; greatcoat: kalın kışlık palto."
+    },
+    {
+      "id": 10,
+      "start_ms": 54684,
+      "end_ms": 59796,
+      "text": "As he did so, Holmes leaned back and brought the tips of his fingers together.",
+      "translation": "O bunu yaparken Holmes arkasına yaslandı ve parmak uçlarını birbirine birleştirdi.",
+      "notes": "Sayfa 1 | tips of fingers: parmak uçları (Holmes'ün düşünme pozu)."
+    },
+    {
+      "id": 11,
+      "start_ms": 60196,
+      "end_ms": 67516,
+      "text": "\"I know, my dear Watson, that you share my love of all that is bizarre and outside the routine of daily life.\"",
+      "translation": "\"Biliyorum azizim Watson, sen de benim gibi tuhaf olan ve gündelik hayatın rutini dışına çıkan her şeye tutku duyuyorsun.\"",
+      "notes": "Sayfa 1 | bizarre: tuhaf, alışılagelmişin dışında."
+    },
+    {
+      "id": 12,
+      "start_ms": 67916,
+      "end_ms": 73748,
+      "text": "\"You have shown your relish for it by the enthusiasm with which you have chronicled my little adventures.\"",
+      "translation": "\"Küçük maceralarımı kaydettiğin o şevk dolu hevesinle bu zevkini çoktan kanıtladın.\"",
+      "notes": "Sayfa 1 | relish: haz, tat, lezzet; chronicled: vakanüvis gibi kaydetmek."
+    },
+    {
+      "id": 13,
+      "start_ms": 74148,
+      "end_ms": 80652,
+      "text": "I examined our visitor, but could see little beyond the obvious facts that he was a common British tradesman.",
+      "translation": "Ziyaretçimizi inceledim fakat sıradan bir İngiliz esnafı olduğu yönündeki aşikar gerçeklerin ötesinde pek az şey görebildim.",
+      "notes": "Sayfa 1 | tradesman: esnaf, tüccar."
+    },
+    {
+      "id": 14,
+      "start_ms": 81052,
+      "end_ms": 87724,
+      "text": "He bore every mark of being an everyday pawnbroker, slow, obese, and commonplace.",
+      "translation": "Sıradan bir rehincinin tüm işaretlerini taşıyordu; hantal, şişman ve alelade bir adamdı.",
+      "notes": "Sayfa 1 | obese: aşırı kilolu; commonplace: sıradan, alelade."
+    },
+    {
+      "id": 15,
+      "start_ms": 88124,
+      "end_ms": 93932,
+      "text": "He wore rather baggy grey shepherd's check trousers and a not over-clean black frock-coat.",
+      "translation": "Epeyce bol gri kareli bir pantolon ve pek de temiz sayılmayacak siyah bir frak giymişti.",
+      "notes": "Sayfa 1 | shepherd's check: çoban ekosesi, pötikare desen; frock-coat: redingot/frak."
+    },
+    {
+      "id": 16,
+      "start_ms": 94332,
+      "end_ms": 101124,
+      "text": "Altogether, look as I would, there was nothing remarkable about the man save his blazing head of coral hair.",
+      "translation": "Velhasıl nasıl bakarsam bakayım, alev gibi parlayan mercan kırmızısı saçları haricinde adamda dikkat çeken hiçbir şey yoktu.",
+      "notes": "Sayfa 1 | blazing: kor gibi yanan; save: haricinde."
+    },
+    {
+      "id": 17,
+      "start_ms": 101524,
+      "end_ms": 107068,
+      "text": "Sherlock Holmes's quick eye took in my occupation, and he shook his head with a smile.",
+      "translation": "Sherlock Holmes'ün çevik gözü benim bu çabamı hemen fark etti ve gülümseyerek başını iki yana salladı.",
+      "notes": "Sayfa 1 | took in my occupation: neyle meşgul olduğumu anladı."
+    },
+    {
+      "id": 18,
+      "start_ms": 107468,
+      "end_ms": 115436,
+      "text": "\"Beyond the obvious facts that he has done manual labour, that he takes snuff, and that he has been in China, I can deduce little.\"",
+      "translation": "\"Vaktiyle bedenen çalıştığı, enfiye çektiği ve Çin'de bulunduğu yönündeki bariz gerçekler dışında ben de pek az şey çıkarabiliyorum.\"",
+      "notes": "Sayfa 1 | manual labour: beden işçiliği; takes snuff: enfiye çekmek."
+    },
+    {
+      "id": 19,
+      "start_ms": 115836,
+      "end_ms": 122892,
+      "text": "Mr. Jabez Wilson started up in his chair, with his forefinger upon the paper and his eyes upon my companion.",
+      "translation": "Bay Jabez Wilson, işaret parmağı gazetenin üzerinde ve gözleri dostuma dikilmiş halde koltuğunda irkildi.",
+      "notes": "Sayfa 1 | started up: koltuğunda sıçramak/irkilmek; forefinger: işaret parmağı."
+    },
+    {
+      "id": 20,
+      "start_ms": 123292,
+      "end_ms": 130084,
+      "text": "\"How, in the name of good fortune, did you know all that, Mr. Holmes?\" he asked in utter amazement.",
+      "translation": "Tam bir hayret içinde, \"Tanrı aşkına bütün bunları nereden bildiniz Bay Holmes?\" diye sordu.",
+      "notes": "Sayfa 1 | in the name of good fortune: hayret belirten nida (Tanrı aşkına)."
+    },
+    {
+      "id": 21,
+      "start_ms": 131084,
+      "end_ms": 137900,
+      "text": "\"Your right hand is quite a size larger than your left; you have worked with it, and the muscles are more developed.\"",
+      "translation": "\"Sağ eliniz sol elinizden epey daha büyük; onunla çalışmışsınız ve kasları çok daha fazla gelişmiş.\"",
+      "notes": "Sayfa 2 | quite a size larger: epeyce daha iri."
+    },
+    {
+      "id": 22,
+      "start_ms": 138300,
+      "end_ms": 143940,
+      "text": "\"The fish that you have tattooed immediately above your right wrist could only have been done in China.\"",
+      "translation": "\"Sağ bileğinizin hemen üzerine yaptırdığınız balık dövmesi ancak Çin'de yapılmış olabilir.\"",
+      "notes": "Sayfa 2 | tattooed: dövme yapılmış; wrist: el bileği."
+    },
+    {
+      "id": 23,
+      "start_ms": 144340,
+      "end_ms": 148756,
+      "text": "\"The delicate pink of the scales is quite peculiar to that country.\"",
+      "translation": "\"Pullardaki o narin pembe renk tonu yalnızca o ülkeye özgüdür.\"",
+      "notes": "Sayfa 2 | scales: balık pulları; peculiar to: -e özgü, has."
+    },
+    {
+      "id": 24,
+      "start_ms": 149156,
+      "end_ms": 156092,
+      "text": "\"When, in addition, I see a Chinese coin hanging from your watch-chain, the matter becomes even more simple.\"",
+      "translation": "\"Buna ilaveten saat zincirinizden sarkan bir Çin madeni parası gördüğümde, mesele daha da basitleşiyor.\"",
+      "notes": "Sayfa 2 | watch-chain: köstekli saat zinciri."
+    },
+    {
+      "id": 25,
+      "start_ms": 156492,
+      "end_ms": 162324,
+      "text": "Mr. Jabez Wilson laughed heavily. \"Well, I never!\" said he.",
+      "translation": "Bay Jabez Wilson göbeğini hoplatarak güldü. \"Yok artık, böylesini hiç görmedim!\" dedi.",
+      "notes": "Sayfa 2 | Well, I never!: Hayret doğrusu! / Yok artık! (İngiliz deyimi)."
+    },
+    {
+      "id": 26,
+      "start_ms": 162724,
+      "end_ms": 168508,
+      "text": "\"I thought at first that you had done something clever, but I see that there was nothing in it after all.\"",
+      "translation": "\"İlk başta çok zekice bir şey yaptığınızı sanmıştım, meğerse sonunda hiçbir marifet yokmuş.\"",
+      "notes": "Sayfa 2 | nothing in it: abartılacak bir yanı olmamak."
+    },
+    {
+      "id": 27,
+      "start_ms": 168908,
+      "end_ms": 174332,
+      "text": "\"I begin to think, Watson,\" said Holmes, \"that I make a mistake in explaining.\"",
+      "translation": "Holmes, \"Watson,\" dedi, \"açıklama yapmakla hata ettiğimi düşünmeye başlıyorum.\"",
+      "notes": "Sayfa 2 | make a mistake in explaining: izah etmekle hata etmek."
+    },
+    {
+      "id": 28,
+      "start_ms": 174732,
+      "end_ms": 183252,
+      "text": "\"You know that small minds always despise what is easily understood. Now, Mr. Wilson, what about this newspaper?\"",
+      "translation": "\"Bilirsin ki küçük zihinler kolay anlaşılan şeyleri daima küçümserler. Şimdi Bay Wilson, şu gazeteden ne haber?\"",
+      "notes": "Sayfa 2 | despise: küçümsemek, hakir görmek."
+    },
+    {
+      "id": 29,
+      "start_ms": 183652,
+      "end_ms": 189580,
+      "text": "\"Yes, sir, it's about the Red-Headed League,\" said our client, pointing to the column.",
+      "translation": "Müvekkilimiz sütunu işaret ederek, \"Evet efendim, Kızıl Saçlılar Kulübü hakkındaki o ilan,\" dedi.",
+      "notes": "Sayfa 2 | column: gazete sütunu."
+    },
+    {
+      "id": 30,
+      "start_ms": 189980,
+      "end_ms": 194756,
+      "text": "\"Read it, Watson,\" said Holmes, settling back into his chair.",
+      "translation": "Koltuğuna yaslanan Holmes, \"Bunu oku Watson,\" dedi.",
+      "notes": "Sayfa 2 | settling back: arkasına yaslanmak."
+    },
+    {
+      "id": 31,
+      "start_ms": 195156,
+      "end_ms": 200028,
+      "text": "I took the paper and looked at the advertisement which was marked with a red pencil.",
+      "translation": "Gazeteyi aldım ve kırmızı kurşun kalemle işaretlenmiş ilana baktım.",
+      "notes": "Sayfa 2 | marked with red pencil: kırmızı kalemle işaretlenmiş."
+    },
+    {
+      "id": 32,
+      "start_ms": 200428,
+      "end_ms": 210028,
+      "text": "\"To the Red-Headed League: On the bequest of the late Ezekiah Hopkins, of Lebanon, Pennsylvania, U.S.A., there is now another vacancy open.\"",
+      "translation": "\"Kızıl Saçlılar Kulübü'ne: ABD, Pensilvanya, Lebanon kasabasından merhum Ezekiah Hopkins'in vasiyeti üzerine, şimdi açık bir kadro daha bulunmaktadır.\"",
+      "notes": "Sayfa 2 | bequest: vasiyetle bırakılan miras; vacancy: açık iş pozisyonu."
+    },
+    {
+      "id": 33,
+      "start_ms": 210428,
+      "end_ms": 216644,
+      "text": "\"It entitles a member of the League to a salary of four pounds a week for purely nominal services.\"",
+      "translation": "\"Bu pozisyon, kulübün bir üyesine tamamen sembolik hizmetler karşılığında haftalık dört pound maaş hakkı tanır.\"",
+      "notes": "Sayfa 2 | entitles to: hak kazandırmak; nominal services: göstermelik, sembolik işler."
+    },
+    {
+      "id": 34,
+      "start_ms": 217044,
+      "end_ms": 224004,
+      "text": "\"All red-headed men who are sound in body and mind, and above the age of twenty-one years, are eligible.\"",
+      "translation": "\"Bedenen ve aklen sağlıklı olan, yirmi bir yaşını doldurmuş tüm kızıl saçlı erkekler başvurabilir.\"",
+      "notes": "Sayfa 2 | sound in body and mind: aklı ve bedeni sıhhatli; eligible: şartları karşılayan."
+    },
+    {
+      "id": 35,
+      "start_ms": 224404,
+      "end_ms": 233572,
+      "text": "\"Apply in person on Monday, at eleven o'clock, to Duncan Ross, at the offices of the League, 7 Pope's Court, Fleet Street.\"",
+      "translation": "\"Pazartesi günü saat tam on birde Fleet Street, 7 Pope's Court adresindeki Kulüp bürolarında bizzat Duncan Ross'a müracaat ediniz.\"",
+      "notes": "Sayfa 2 | apply in person: şahsen müracaat etmek."
+    },
+    {
+      "id": 36,
+      "start_ms": 233972,
+      "end_ms": 241292,
+      "text": "\"What on earth does this mean?\" I ejaculated, after I had twice read over the extraordinary announcement.",
+      "translation": "Bu akıl almaz ilanı iki kez üst üste okuduktan sonra hayretle haykırdım: \"Tanrı aşkına bu da ne demek oluyor?\"",
+      "notes": "Sayfa 2 | ejaculated: aniden haykırmak, ağzından kaçırmak."
+    },
+    {
+      "id": 37,
+      "start_ms": 241692,
+      "end_ms": 247020,
+      "text": "Holmes chuckled and wriggled in his chair, as was his habit when in high spirits.",
+      "translation": "Holmes kıkırdadı ve neşesi yerinde olduğunda hep yaptığı gibi koltuğunda kıpırdandı.",
+      "notes": "Sayfa 2 | wriggled: yerinde duramayıp kıpırdanmak; habit: alışkanlık."
+    },
+    {
+      "id": 38,
+      "start_ms": 247420,
+      "end_ms": 251620,
+      "text": "\"It is a little off the beaten track, isn't it?\" said he.",
+      "translation": "\"Alışılmış patikaların epey dışında bir hadise, değil mi?\" dedi.",
+      "notes": "Sayfa 2 | off the beaten track: alışılmışın dışında, sıra dışı (deyim)."
+    },
+    {
+      "id": 39,
+      "start_ms": 252020,
+      "end_ms": 260396,
+      "text": "\"And now, Mr. Wilson, off you go at scratch and tell us all about yourself, your household, and the effect of this advertisement.\"",
+      "translation": "\"Ve şimdi Bay Wilson, en baştan başlayın ve bize kendinizi, evinizi ve bu ilanın hayatınızdaki tesirini anlatın.\"",
+      "notes": "Sayfa 2 | at scratch: en baştan, sıfır noktasından."
+    },
+    {
+      "id": 40,
+      "start_ms": 260796,
+      "end_ms": 270612,
+      "text": "\"First of all, Watson, note the paper and the date: The Morning Chronicle, April 27, 1890. Just two months ago.\"",
+      "translation": "\"Öncelikle Watson, gazeteyi ve tarihi not et: The Morning Chronicle, 27 Nisan 1890. Tam iki ay önce.\"",
+      "notes": "Sayfa 2 | note the date: tarihi not etmek."
+    },
+    {
+      "id": 41,
+      "start_ms": 271612,
+      "end_ms": 278812,
+      "text": "\"Well, it is just as I have been telling you, Mr. Sherlock Holmes,\" said Jabez Wilson, mopping his forehead.",
+      "translation": "Jabez Wilson alnındaki teri mendiliyle silerek, \"Efendim, tam da size anlattığım gibi,\" dedi.",
+      "notes": "Sayfa 3 | mop forehead: alnını silmek."
+    },
+    {
+      "id": 42,
+      "start_ms": 279212,
+      "end_ms": 284180,
+      "text": "\"I have a small pawnbroker's business at Coburg Square, near the City.\"",
+      "translation": "\"City yakınlarındaki Coburg Meydanı'nda küçük bir rehinci dükkanım var.\"",
+      "notes": "Sayfa 3 | pawnbroker's business: rehin dükkanı işletmesi."
+    },
+    {
+      "id": 43,
+      "start_ms": 284580,
+      "end_ms": 290508,
+      "text": "\"It's not a very large affair, and of late years it has not done more than just give me a bare living.\"",
+      "translation": "\"Pek büyük bir iş sayılmaz ve son yıllarda bana kıt kanaat bir geçim sağlamaktan öteye gitmedi.\"",
+      "notes": "Sayfa 3 | bare living: kıt kanaat geçim."
+    },
+    {
+      "id": 44,
+      "start_ms": 290908,
+      "end_ms": 299620,
+      "text": "\"I used to be able to keep two assistants, but now I only keep one; and I would have a job to pay him but that he is willing to come for half wages.\"",
+      "translation": "\"Eskiden iki çırak tutabilirdim fakat şimdi sadece bir tane çalıştırıyorum; o da yarı maaşa razı gelmese ona para ödemekte bile zorlanırdım.\"",
+      "notes": "Sayfa 3 | half wages: yarı maaş; have a job to: bir şeyi yapmakta zorlanmak."
+    },
+    {
+      "id": 45,
+      "start_ms": 300020,
+      "end_ms": 304436,
+      "text": "\"What is the name of this obliging youth?\" asked Sherlock Holmes.",
+      "translation": "Sherlock Holmes, \"Bu yardımsever gencin adı nedir?\" diye sordu.",
+      "notes": "Sayfa 3 | obliging: yardımsever, alttan alan."
+    },
+    {
+      "id": 46,
+      "start_ms": 304836,
+      "end_ms": 311964,
+      "text": "\"His name is Vincent Spaulding, and he's not such a youth either. It's not easy to put an age to him.\"",
+      "translation": "\"Adı Vincent Spaulding ve aslında pek de genç sayılmaz. Yaşını tahmin etmek hiç kolay değil.\"",
+      "notes": "Sayfa 3 | put an age to him: yaşını kestirmek."
+    },
+    {
+      "id": 47,
+      "start_ms": 312364,
+      "end_ms": 319756,
+      "text": "\"I should not wish a smarter assistant, Mr. Holmes; and I know very well that he could earn twice what I am able to give him.\"",
+      "translation": "\"Daha akıllı bir yardımcı dileyemezdim Bay Holmes; ve ona verebildiğimin iki katını rahatça kazanabileceğini çok iyi biliyorum.\"",
+      "notes": "Sayfa 3 | smarter: daha zeki, daha cin gibi."
+    },
+    {
+      "id": 48,
+      "start_ms": 320156,
+      "end_ms": 326108,
+      "text": "\"Why should he be satisfied with half wages, then?\" asked Holmes, leaning forward.",
+      "translation": "Holmes öne doğru eğilerek, \"Öyleyse neden yarı maaşa razı olsun ki?\" diye sordu.",
+      "notes": "Sayfa 3 | satisfied with: bir şeyle yetinmek/razı olmak."
+    },
+    {
+      "id": 49,
+      "start_ms": 326508,
+      "end_ms": 331452,
+      "text": "\"He said he wanted to learn the business, and that was why he took my humble offer.\"",
+      "translation": "\"İşi öğrenmek istediğini, mütevazı teklifimi bu yüzden kabul ettiğini söyledi.\"",
+      "notes": "Sayfa 3 | humble offer: mütevazı teklif."
+    },
+    {
+      "id": 50,
+      "start_ms": 331852,
+      "end_ms": 337588,
+      "text": "\"That is remarkable,\" Holmes murmured. \"Tell me more about this young man.\"",
+      "translation": "Holmes, \"Bu gerçekten dikkate değer,\" diye mırıldandı. \"Bana bu genç adam hakkında biraz daha bilgi verin.\"",
+      "notes": "Sayfa 3 | remarkable: kayda değer, şaşırtıcı."
+    },
+    {
+      "id": 51,
+      "start_ms": 337988,
+      "end_ms": 345404,
+      "text": "\"He is small, stout-built, very quick in his ways, no hair on his face, though he's not short of thirty.\"",
+      "translation": "\"Kısa boylu, tıknaz yapılı, hareketlerinde pek atiktir; otuzundan aşağı olmamasına rağmen yüzünde tüy bile yoktur.\"",
+      "notes": "Sayfa 3 | stout-built: tıknaz yapılı; not short of thirty: otuzdan az değil."
+    },
+    {
+      "id": 52,
+      "start_ms": 345804,
+      "end_ms": 351084,
+      "text": "\"He has a white splash of acid across his forehead, which marks him distinctly.\"",
+      "translation": "\"Alnında, onu hemen ele veren beyaz bir asit lekesi izi vardır.\"",
+      "notes": "Sayfa 3 | splash of acid: asit sıçraması lekesi."
+    },
+    {
+      "id": 53,
+      "start_ms": 351484,
+      "end_ms": 358036,
+      "text": "Holmes sat up in his chair in considerable excitement. \"I thought as much,\" said he.",
+      "translation": "Holmes belirgin bir heyecanla koltuğunda doğruldu. \"Ben de öyle tahmin etmiştim,\" dedi.",
+      "notes": "Sayfa 3 | considerable excitement: kayda değer heyecan."
+    },
+    {
+      "id": 54,
+      "start_ms": 358436,
+      "end_ms": 362324,
+      "text": "\"Did you ever observe that his ears were pierced for earrings?\"",
+      "translation": "\"Kulaklarının küpe takmak için delinmiş olduğunu hiç fark ettiniz mi?\"",
+      "notes": "Sayfa 3 | pierced for earrings: küpe için delinmiş."
+    },
+    {
+      "id": 55,
+      "start_ms": 362724,
+      "end_ms": 368892,
+      "text": "\"Yes, sir. He told me that a gypsy had done it for him when he was a lad.\"",
+      "translation": "\"Evet efendim. Çocukken bir çingenenin kulaklarını deldiğini söylemişti.\"",
+      "notes": "Sayfa 3 | lad: delikanlı, erkek çocuğu; gypsy: çingene."
+    },
+    {
+      "id": 56,
+      "start_ms": 369292,
+      "end_ms": 375988,
+      "text": "\"Hum!\" said Holmes, sinking back in deep thought. \"He is still with you, I take it?\"",
+      "translation": "Derin düşüncelere dalarak arkasına yaslanan Holmes, \"Hımm! Hâlâ yanınızda çalışıyor, öyle mi?\" dedi.",
+      "notes": "Sayfa 3 | sinking back: arkasına gömülmek."
+    },
+    {
+      "id": 57,
+      "start_ms": 376388,
+      "end_ms": 382052,
+      "text": "\"Oh, yes, sir; he is down in the cellar right now developing his photographs.\"",
+      "translation": "\"Ah, evet efendim; şu anda bile bodruma inmiş fotoğraflarını tab ediyor.\"",
+      "notes": "Sayfa 3 | down in the cellar: bodrum katında."
+    },
+    {
+      "id": 58,
+      "start_ms": 382452,
+      "end_ms": 390540,
+      "text": "\"He has a passion for photography; snips away with a little camera, and then dives down into the cellar like a rabbit into its hole.\"",
+      "translation": "\"Fotoğrafçılığa acayip bir merakı var; küçük bir kamerayla şakır şakır çeker, sonra da tavşan gibi deliğine dalar gibi bodruma iner.\"",
+      "notes": "Sayfa 3 | dives into cellar: bodruma dalmak; passion: tutku, merak."
+    },
+    {
+      "id": 59,
+      "start_ms": 390940,
+      "end_ms": 397252,
+      "text": "\"That is his main fault; but on the whole he's a good worker. There's no vice in him.\"",
+      "translation": "\"Tek kusuru bu; ama genel olarak iyi bir çalışandır. Hiçbir kötü huyu yoktur.\"",
+      "notes": "Sayfa 3 | no vice in him: içinde kötülük olmamak."
+    },
+    {
+      "id": 60,
+      "start_ms": 397652,
+      "end_ms": 403532,
+      "text": "\"He is still with you, then? And how did he bring this advertisement to your notice?\"",
+      "translation": "\"Hâlâ yanınızda demek? Peki bu ilanı sizin dikkatinize nasıl getirdi?\"",
+      "notes": "Sayfa 3 | bring to notice: dikkatine sunmak."
+    },
+    {
+      "id": 61,
+      "start_ms": 404532,
+      "end_ms": 411060,
+      "text": "\"Well, it was just eight weeks ago that Vincent Spaulding came into the office with this very paper in his hand.\"",
+      "translation": "\"Efendim, tam sekiz hafta önceydi; Vincent Spaulding elinde bu gazete ile yazıhaneye girdi.\"",
+      "notes": "Sayfa 4 | this very paper: tam da bu gazete."
+    },
+    {
+      "id": 62,
+      "start_ms": 411460,
+      "end_ms": 417004,
+      "text": "\"'I wish to the Lord, Mr. Wilson, that I was a red-headed man,' said he.\"",
+      "translation": "\"Bana, 'Tanrım, keşke ben de kızıl saçlı bir adam olsaydım Bay Wilson,' dedi.\"",
+      "notes": "Sayfa 4 | wish to the Lord: Tanrı'dan dilemek, keşke."
+    },
+    {
+      "id": 63,
+      "start_ms": 417404,
+      "end_ms": 422732,
+      "text": "\"'Why that?' I asked, looking up from my ledger with surprise.\"",
+      "translation": "\"Şaşkınlıkla hesap defterimden başımı kaldırarak, 'O da neden?' diye sordum.\"",
+      "notes": "Sayfa 4 | ledger: muhasebe/hesap defteri."
+    },
+    {
+      "id": 64,
+      "start_ms": 423132,
+      "end_ms": 428388,
+      "text": "\"'Why!' says he, 'here's another vacancy on the League of the Red-Headed Men.'\"",
+      "translation": "\"'Neden olsun!' dedi, 'İşte Kızıl Saçlı Erkekler Kulübü'nde yeni bir münhal kadro açılmış.'\"",
+      "notes": "Sayfa 4 | vacancy: açık iş kadrosu."
+    },
+    {
+      "id": 65,
+      "start_ms": 428788,
+      "end_ms": 435196,
+      "text": "\"'It's worth quite a little fortune to any man who gets it, and they've got more money than they know what to do with.'\"",
+      "translation": "\"'Orayı kapan adama resmen küçük bir servet değerinde; ellerinde ne yapacaklarını bilemedikleri kadar çok para var.'\"",
+      "notes": "Sayfa 4 | little fortune: hatırı sayılır bir servet."
+    },
+    {
+      "id": 66,
+      "start_ms": 435596,
+      "end_ms": 441620,
+      "text": "\"'If my hair would only change its color, here's a nice little crib all ready for me to step into.'\"",
+      "translation": "\"'Saçım sadece renk değiştirebilseydi, içine cup diye atlayabileceğim sıcacık bir köşe hazırdı.'\"",
+      "notes": "Sayfa 4 | crib: rahat ve kazançlı iş (argo/deyim)."
+    },
+    {
+      "id": 67,
+      "start_ms": 442020,
+      "end_ms": 450828,
+      "text": "\"'Why, what is it, then?' I asked. You see, Mr. Holmes, I am a very stay-at-home man.\"",
+      "translation": "\"'Peki nedir bu iş öyleyse?' diye sordum. Bilirsiniz ya Bay Holmes, ben evine ve dükkanına fazlasıyla bağlı bir adamım.\"",
+      "notes": "Sayfa 4 | stay-at-home man: evcimen, dışarı pek çıkmayan kimse."
+    },
+    {
+      "id": 68,
+      "start_ms": 451228,
+      "end_ms": 458596,
+      "text": "\"As my business came to me instead of my having to go to it, I was often weeks on end without putting my foot over the door-mat.\"",
+      "translation": "\"İş ayağıma geldiği ve peşinden koşmam gerekmediği için, çoğu zaman kapının paspasına bile basmadan haftalar geçirirdim.\"",
+      "notes": "Sayfa 4 | door-mat: kapı önü paspası; weeks on end: haftalarca üst üste."
+    },
+    {
+      "id": 69,
+      "start_ms": 458996,
+      "end_ms": 463772,
+      "text": "\"In that way, I didn't know much of what was going on in the world outside.\"",
+      "translation": "\"Bu yüzden dış dünyada olup bitenlerden pek haberim olmazdı.\"",
+      "notes": "Sayfa 4 | world outside: dış dünya."
+    },
+    {
+      "id": 70,
+      "start_ms": 464172,
+      "end_ms": 470700,
+      "text": "\"'Have you never heard of the League of the Red-Headed Men?' he asked, opening his eyes wide with astonishment.\"",
+      "translation": "\"Gözlerini şaşkınlıkla fal taşı gibi açarak, 'Kızıl Saçlı Erkekler Kulübü'nü hiç duymadınız mı?' diye sordu.\"",
+      "notes": "Sayfa 4 | opening eyes wide: gözlerini kocamanca açmak."
+    },
+    {
+      "id": 71,
+      "start_ms": 471100,
+      "end_ms": 477412,
+      "text": "\"'Never,' said I. 'Well, I wonder at that, for you are eligible yourself for one of the vacancies.'\"",
+      "translation": "\"'Asla duymadım,' dedim. 'Doğrusu buna çok şaşırdım, zira o açık kadrolardan birine başvurmaya bizzat sizin hakkınız var.'\"",
+      "notes": "Sayfa 4 | eligible: şartları tutan, hakkı olan."
+    },
+    {
+      "id": 72,
+      "start_ms": 477812,
+      "end_ms": 484484,
+      "text": "\"'And what are they worth?' I asked, beginning to feel curious about this golden opportunity.\"",
+      "translation": "\"Bu altın fırsatı merak etmeye başlayarak, 'Peki getirisi nedir?' diye sordum.\"",
+      "notes": "Sayfa 4 | golden opportunity: altın fırsat."
+    },
+    {
+      "id": 73,
+      "start_ms": 484884,
+      "end_ms": 492612,
+      "text": "\"'Oh, merely a couple of hundred a year, but the work is slight, and it needn't interfere very much with one's other occupations.'\"",
+      "translation": "\"'Yılda sadece iki yüz pound kadar; fakat iş son derece hafif ve insanın diğer meşguliyetlerini de pek engellemiyor.'\"",
+      "notes": "Sayfa 4 | interfere with: bir şeye mani olmak, araya girmek."
+    },
+    {
+      "id": 74,
+      "start_ms": 493012,
+      "end_ms": 497188,
+      "text": "\"Well, you can easily think that that made me prick up my ears.\"",
+      "translation": "\"Bunun kulaklarımı nasıl dikleştirdiğini ve dikkatimi nasıl çektiğini tahmin edebilirsiniz.\"",
+      "notes": "Sayfa 4 | prick up ears: kulak kabartmak, dikkat kesilmek (deyim)."
+    },
+    {
+      "id": 75,
+      "start_ms": 497588,
+      "end_ms": 503756,
+      "text": "\"The business has not been over-good for some years, and an extra couple of hundred would have been very handy.\"",
+      "translation": "\"İşler birkaç yıldır pek parlak gitmiyordu ve fazladan iki yüz pound ilaç gibi gelirdi.\"",
+      "notes": "Sayfa 4 | very handy: çok makbule geçer, pek kullanışlı."
+    },
+    {
+      "id": 76,
+      "start_ms": 504156,
+      "end_ms": 510924,
+      "text": "\"Spaulding explained that an American millionaire named Hopkins had founded the fund to benefit his fellow red-heads.\"",
+      "translation": "\"Spaulding, Hopkins adında Amerikalı bir milyonerin kendi gibi kızıl saçlı yoldaşlarına fayda sağlamak için bu fonu kurduğunu anlattı.\"",
+      "notes": "Sayfa 4 | fellow red-heads: kızıl saçlı kader ortakları."
+    },
+    {
+      "id": 77,
+      "start_ms": 511324,
+      "end_ms": 518188,
+      "text": "\"'Your hair is a full, rich blaze,' he insisted, 'so you would stand an excellent chance of being chosen.'\"",
+      "translation": "\"'Sizin saçınız tam bir alev rengi,' diye üsteledi, 'bu yüzden seçilme şansınız fevkalade yüksek.'\"",
+      "notes": "Sayfa 4 | rich blaze: pırıl pırıl alev tonu."
+    },
+    {
+      "id": 78,
+      "start_ms": 518588,
+      "end_ms": 524012,
+      "text": "\"He told me that we must go to Pope's Court at once, before the appointment was filled.\"",
+      "translation": "\"Kadro dolmadan önce hemen Pope's Court'a gitmemiz gerektiğini söyledi.\"",
+      "notes": "Sayfa 4 | appointment was filled: kadronun dolması."
+    },
+    {
+      "id": 79,
+      "start_ms": 524412,
+      "end_ms": 530292,
+      "text": "\"I ordered Vincent Spaulding to shut the shutters for the day, and we started off for the address.\"",
+      "translation": "\"Vincent Spaulding'e o günlük dükkanın kepenklerini indirmesini söyledim ve verilen adrese doğru yola koyulduk.\"",
+      "notes": "Sayfa 4 | shut the shutters: kepenkleri kapatmak."
+    },
+    {
+      "id": 80,
+      "start_ms": 530692,
+      "end_ms": 535132,
+      "text": "\"I never hope to see such a sight as that again, Mr. Holmes!\"",
+      "translation": "\"Ömrümde bir daha öyle bir manzara göreceğimi hiç sanmıyorum Bay Holmes!\"",
+      "notes": "Sayfa 4 | such a sight: böylesi bir manzara."
+    },
+    {
+      "id": 81,
+      "start_ms": 536132,
+      "end_ms": 544772,
+      "text": "\"From north, south, east, and west, every man who had a shade of red in his hair had tramped into the City to answer the advertisement.\"",
+      "translation": "\"Kuzeyden, güneyden, doğudan ve batıdan saçında azıcık kızıllık olan her adam ilana başvurmak için City bölgesine akın etmişti.\"",
+      "notes": "Sayfa 5 | tramped into: akın etmek, yayan yürüyüp doluşmak."
+    },
+    {
+      "id": 82,
+      "start_ms": 545172,
+      "end_ms": 551316,
+      "text": "\"Fleet Street was choked with red-headed folk, and Pope's Court looked like a coster's orange barrow.\"",
+      "translation": "\"Fleet Street kızıl saçlı insanlarla tıkanıp kalmıştı ve Pope's Court adeta bir seyyar satıcının portakal tezgahına benziyordu.\"",
+      "notes": "Sayfa 5 | coster's orange barrow: seyyar manavın portakal arabası."
+    },
+    {
+      "id": 83,
+      "start_ms": 551716,
+      "end_ms": 557836,
+      "text": "\"I should not have thought there were so many in the whole country as were brought together by that single advertisement.\"",
+      "translation": "\"Tek bir ilanın bir araya getirdiği kadar çok kızıl kafanın bütün ülkede var olabileceğini aklımdan bile geçirmezdim.\"",
+      "notes": "Sayfa 5 | brought together: bir araya getirilen."
+    },
+    {
+      "id": 84,
+      "start_ms": 558236,
+      "end_ms": 565796,
+      "text": "\"Every shade of colour they were—straw, lemon, orange, brick, Irish-setter, liver, clay.\"",
+      "translation": "\"Her tonda saç rengi vardı: saman sarısı, limon, portakal, tuğla kırmızısı, av köpeği kızılı, ciğer rengi, kil rengi...\"",
+      "notes": "Sayfa 5 | every shade: her bir renk tonu; Irish-setter: kızıl tüylü İrlanda av köpeği."
+    },
+    {
+      "id": 85,
+      "start_ms": 566196,
+      "end_ms": 572052,
+      "text": "\"As Spaulding said, there were not many who had the real vivid flame-coloured tint like my own.\"",
+      "translation": "\"Spaulding'in de dediği gibi, benimki gibi hakiki alev kırmızısı parlak tona sahip olanların sayısı pek azdı.\"",
+      "notes": "Sayfa 5 | vivid flame-coloured tint: capcanlı alev rengi tonu."
+    },
+    {
+      "id": 86,
+      "start_ms": 572452,
+      "end_ms": 576700,
+      "text": "\"When I saw the crowd waiting, I would have given it up in despair.\"",
+      "translation": "\"Bekleyen o muazzam kalabalığı görünce umutsuzluğa kapılıp vazgeçecektim.\"",
+      "notes": "Sayfa 5 | given up in despair: çaresizlik içinde pes etmek."
+    },
+    {
+      "id": 87,
+      "start_ms": 577100,
+      "end_ms": 583940,
+      "text": "\"Spaulding, however, would not hear of it; he pushed and pulled and shoved until he got me through the crowd.\"",
+      "translation": "\"Fakat Spaulding vazgeçmeme kesinlikle kulak asmadı; beni kalabalığın arasından itti, çekti, kaktı ve içeri soktu.\"",
+      "notes": "Sayfa 5 | pushed and shoved: itip kakarak yol açmak."
+    },
+    {
+      "id": 88,
+      "start_ms": 584340,
+      "end_ms": 588180,
+      "text": "\"He brought me right up to the steps which led to the office.\"",
+      "translation": "\"Beni dosdoğru yazıhaneye çıkan merdivenlerin basamaklarına kadar taşıdı.\"",
+      "notes": "Sayfa 5 | led to the office: ofise çıkan."
+    },
+    {
+      "id": 89,
+      "start_ms": 588580,
+      "end_ms": 594532,
+      "text": "\"There was a double stream upon the stair, some going up in hope, and some coming back dejected.\"",
+      "translation": "\"Merdivende çifte insan akışı vardı; bazıları umutla yukarı çıkıyor, bazıları ise hayal kırıklığıyla süklüm püklüm geri dönüyordu.\"",
+      "notes": "Sayfa 5 | dejected: kederli, neşesi kaçmış."
+    },
+    {
+      "id": 90,
+      "start_ms": 594932,
+      "end_ms": 599684,
+      "text": "\"We wedged in as well as we could and soon found ourselves in the office.\"",
+      "translation": "\"Elimizden geldiğince araya sıkıştık ve çok geçmeden kendimizi yazıhanenin içinde bulduk.\"",
+      "notes": "Sayfa 5 | wedged in: araya sıkışmak/kaynamak."
+    },
+    {
+      "id": 91,
+      "start_ms": 600084,
+      "end_ms": 604860,
+      "text": "\"There was nothing in the office but a couple of wooden chairs and a deal table.\"",
+      "translation": "\"Yazıhanede birkaç tahta sandalye ve ucuz bir çam masadan başka hiçbir şey yoktu.\"",
+      "notes": "Sayfa 5 | deal table: ucuz çam ağacından masa."
+    },
+    {
+      "id": 92,
+      "start_ms": 605260,
+      "end_ms": 609964,
+      "text": "\"Behind the table sat a small man with a head that was even redder than mine.\"",
+      "translation": "\"Masanın arkasında, kafasındaki saçlar benimkinden bile daha kırmızı olan ufak tefek bir adam oturuyordu.\"",
+      "notes": "Sayfa 5 | even redder: daha da kırmızı."
+    },
+    {
+      "id": 93,
+      "start_ms": 610364,
+      "end_ms": 616628,
+      "text": "\"He said a few words to each candidate as he came up, but he always managed to find some fault in them.\"",
+      "translation": "\"Gelen her adaya birkaç kelime söylüyor, fakat daima bir kulp takıp kusur bulmayı başarıyordu.\"",
+      "notes": "Sayfa 5 | find some fault: kusur/eksik bulmak."
+    },
+    {
+      "id": 94,
+      "start_ms": 617028,
+      "end_ms": 623412,
+      "text": "\"The hair of one was too dark, another too light, and very few had the genuine blaze of colour.\"",
+      "translation": "\"Birinin saçı fazla koyu, diğerininki fazla açıktı; pek azında o hakiki alev parlaklığı vardı.\"",
+      "notes": "Sayfa 5 | genuine blaze: hakiki alev parıltısı."
+    },
+    {
+      "id": 95,
+      "start_ms": 623812,
+      "end_ms": 630244,
+      "text": "\"However, when our turn came, the little man was much more favorable to me than to any of the others.\"",
+      "translation": "\"Fakat sıra bize geldiğinde, o ufak tefek adam diğer herkese davrandığından çok daha sıcak davrandı bana.\"",
+      "notes": "Sayfa 5 | favorable: olumlu, mülayim."
+    },
+    {
+      "id": 96,
+      "start_ms": 630644,
+      "end_ms": 635684,
+      "text": "\"He closed the door as we entered, so that he might have a private word with us.\"",
+      "translation": "\"Biz içeri girer girmez bizimle baş başa konuşabilmek için kapıyı arkamızdan kapattı.\"",
+      "notes": "Sayfa 5 | private word: baş başa gizli konuşma."
+    },
+    {
+      "id": 97,
+      "start_ms": 636084,
+      "end_ms": 642564,
+      "text": "\"'This is Mr. Jabez Wilson,' said my assistant, 'and he is willing to fill a vacancy in the League.'\"",
+      "translation": "\"Yardımcım, 'Bu beyefendi Bay Jabez Wilson,' dedi, 've Kulüp'teki açık kadroyu doldurmaya taliptir.'\"",
+      "notes": "Sayfa 5 | willing to fill: doldurmaya hevesli/istekli."
+    },
+    {
+      "id": 98,
+      "start_ms": 642964,
+      "end_ms": 648340,
+      "text": "\"'And he is admirably suited for it,' the other answered, staring at my head.\"",
+      "translation": "\"Diğeri kafama gözlerini dikerek, 'Ve bu iş için fevkalade biçilmiş kaftan,' diye karşılık verdi.\"",
+      "notes": "Sayfa 5 | admirably suited: harika şekilde uygun."
+    },
+    {
+      "id": 99,
+      "start_ms": 648740,
+      "end_ms": 654884,
+      "text": "\"'He has every requirement. I cannot recall when I have seen anything so fine!'\"",
+      "translation": "\"'Bütün şartları taşıyor. Ömrümde bu kadar harika bir saç gördüğümü hiç hatırlamıyorum!'\"",
+      "notes": "Sayfa 5 | every requirement: aranan tüm nitelikler."
+    },
+    {
+      "id": 100,
+      "start_ms": 655284,
+      "end_ms": 662148,
+      "text": "\"He took a step backward, cocked his head on one side, and gazed at my hair until I felt quite bashful.\"",
+      "translation": "\"Bir adım geri çekildi, başını bir yana eğdi ve ben mahcubiyetten kızarana kadar saçlarıma uzun uzun baktı.\"",
+      "notes": "Sayfa 5 | bashful: utangaç, mahcup."
+    },
+    {
+      "id": 101,
+      "start_ms": 663148,
+      "end_ms": 669796,
+      "text": "\"Then suddenly he plunged forward, wrung my hand, and congratulated me warmly on my success.\"",
+      "translation": "\"Ardından aniden öne atıldı, elimi sımsıkı sıktı ve başarım dolayısıyla beni içtenlikle tebrik etti.\"",
+      "notes": "Sayfa 6 | wrung my hand: elimi hararetle sıktı."
+    },
+    {
+      "id": 102,
+      "start_ms": 670196,
+      "end_ms": 675740,
+      "text": "\"'It would be an injustice to hesitate,' said he, with great warmth and enthusiasm.\"",
+      "translation": "\"Büyük bir samimiyet ve coşkuyla, 'Tereddüt etmek haksızlık olur,' dedi.\"",
+      "notes": "Sayfa 6 | injustice to hesitate: tereddüt etmek haksızlık sayılır."
+    },
+    {
+      "id": 103,
+      "start_ms": 676140,
+      "end_ms": 681900,
+      "text": "\"'You will, however, I am sure, excuse me for taking an obvious precaution.'\"",
+      "translation": "\"'Yine de bariz bir tedbir aldığım için beni mazur göreceğinizden eminim.'\"",
+      "notes": "Sayfa 6 | obvious precaution: bariz ve gerekli tedbir."
+    },
+    {
+      "id": 104,
+      "start_ms": 682300,
+      "end_ms": 687748,
+      "text": "\"With that he seized my hair in both his hands, and tugged until I yelled with the pain.\"",
+      "translation": "\"Bunu söyler söylemez iki eliyle saçlarıma asıldı ve ben acıdan feryat edene kadar var gücüyle çekti.\"",
+      "notes": "Sayfa 6 | tugged: kuvvetle çekti; yelled with pain: acıyla haykırdı."
+    },
+    {
+      "id": 105,
+      "start_ms": 688148,
+      "end_ms": 695228,
+      "text": "\"'There are tears in your eyes,' said he as he released me. 'I perceive that all is as it should be.'\"",
+      "translation": "\"Beni bırakırken, 'Gözleriniz yaşardı,' dedi. 'Görüyorum ki her şey olması gerektiği gibi, sahte değil.'\"",
+      "notes": "Sayfa 6 | as it should be: olması gerektiği gibi."
+    },
+    {
+      "id": 106,
+      "start_ms": 695628,
+      "end_ms": 701052,
+      "text": "\"'We have to be careful, for we have twice been deceived by wigs and once by paint.'\"",
+      "translation": "\"'Çok dikkatli olmak zorundayız; zira iki kez perukla, bir kez de boyayla bizi kandırmaya çalıştılar.'\"",
+      "notes": "Sayfa 6 | deceived: aldatılmış, kandırılmış."
+    },
+    {
+      "id": 107,
+      "start_ms": 701452,
+      "end_ms": 706660,
+      "text": "\"He stepped to the window and shouted down into the court that the vacancy had been filled.\"",
+      "translation": "\"Pencereye doğru yürüdü ve avluya doğru kadronun dolduğunu avazı çıktığı kadar haykırdı.\"",
+      "notes": "Sayfa 6 | shouted down: aşağıya doğru seslenmek."
+    },
+    {
+      "id": 108,
+      "start_ms": 707060,
+      "end_ms": 713516,
+      "text": "\"A groan of disappointment came up from the crowd below, and everyone trooped off in various directions.\"",
+      "translation": "\"Aşağıdaki kalabalıktan derin bir hayal kırıklığı iniltisi yükseldi ve herkes çeşitli yönlere doğru dağıldı.\"",
+      "notes": "Sayfa 6 | groan of disappointment: hayal kırıklığı homurtusu."
+    },
+    {
+      "id": 109,
+      "start_ms": 713916,
+      "end_ms": 720084,
+      "text": "\"In a few minutes, not a red-headed man was to be seen in the street save myself and my employer.\"",
+      "translation": "\"Birkaç dakika içinde sokakta kendim ve yeni işverenim dışında tek bir kızıl saçlı adam bile kalmadı.\"",
+      "notes": "Sayfa 6 | employer: işveren."
+    },
+    {
+      "id": 110,
+      "start_ms": 720484,
+      "end_ms": 728404,
+      "text": "\"'My name,' said he, 'is Mr. Duncan Ross, and I am myself one of the pensioners upon the fund left by our benefactor.'\"",
+      "translation": "\"'Benim adım,' dedi, 'Bay Duncan Ross ve ben de hayırseverimizin bıraktığı fondan maaş alan üyelerden biriyim.'\"",
+      "notes": "Sayfa 6 | pensioner upon the fund: fondan aylık alan üye; benefactor: hayırsever."
+    },
+    {
+      "id": 111,
+      "start_ms": 728804,
+      "end_ms": 733724,
+      "text": "\"'Are you a married man, Mr. Wilson? Have you a family?'\"",
+      "translation": "\"'Evli bir adam mısınız Bay Wilson? Bakmakla yükümlü olduğunuz bir aileniz var mı?'\"",
+      "notes": "Sayfa 6 | married man: evli adam."
+    },
+    {
+      "id": 112,
+      "start_ms": 734124,
+      "end_ms": 738732,
+      "text": "\"I answered that I had not, which caused his face to darken somewhat.\"",
+      "translation": "\"Olmadığını söyledim; bu cevap yüzünün birazcık asılmasına neden oldu.\"",
+      "notes": "Sayfa 6 | face to darken: yüzü asılmak, kararmak."
+    },
+    {
+      "id": 113,
+      "start_ms": 739132,
+      "end_ms": 746476,
+      "text": "\"'Dear me!' he said gravely, 'that is very serious indeed! I am sorry to hear you say that.'\"",
+      "translation": "\"Ciddi bir edayla, 'Aman Tanrım!' dedi, 'Bu gerçekten çok sakıncalı! Bunu söylediğinizi duyduğuma üzüldüm.'\"",
+      "notes": "Sayfa 6 | dear me!: vah vah!, aman Tanrım!"
+    },
+    {
+      "id": 114,
+      "start_ms": 746876,
+      "end_ms": 752612,
+      "text": "\"'The fund was intended for the propagation and spread of the red-heads as well as for their maintenance.'\"",
+      "translation": "\"'Fon, sadece kızılların geçimini sağlamak için değil, aynı zamanda çoğalıp yayılmaları için tesis edilmişti.'\"",
+      "notes": "Sayfa 6 | propagation: çoğalma, üreme; maintenance: geçimini temin etme."
+    },
+    {
+      "id": 115,
+      "start_ms": 753012,
+      "end_ms": 756852,
+      "text": "\"'It is exceedingly unfortunate that you should be a bachelor.'\"",
+      "translation": "\"'Bekar bir adam olmanız son derece talihsiz bir durum.'\"",
+      "notes": "Sayfa 6 | bachelor: bekar erkek."
+    },
+    {
+      "id": 116,
+      "start_ms": 757252,
+      "end_ms": 762364,
+      "text": "\"My face fell at this, for I thought that I was to lose the vacancy after all.\"",
+      "translation": "\"Bunun üzerine yüzüm asıldı, zira açık kadroyu sonunda kaybedeceğimi sandım.\"",
+      "notes": "Sayfa 6 | face fell: yüzü düştü/asıldı."
+    },
+    {
+      "id": 117,
+      "start_ms": 762764,
+      "end_ms": 767780,
+      "text": "\"After thinking it over for a few moments, however, he brightened up again.\"",
+      "translation": "\"Fakat birkaç dakika etraflıca düşündükten sonra yüzü yeniden güldü.\"",
+      "notes": "Sayfa 6 | brightened up: neşesi yerine geldi, aydınlandı."
+    },
+    {
+      "id": 118,
+      "start_ms": 768180,
+      "end_ms": 776820,
+      "text": "\"'In the case of another, the objection might be fatal,' said he, 'but we must stretch a point in favor of a man with such a head of hair as yours.'\"",
+      "translation": "\"'Bir başkası olsa bu engel kati olurdu,' dedi, 'fakat sizinki gibi bir baş saça sahip bir adamın lehine kuralları biraz esnetebiliriz.'\"",
+      "notes": "Sayfa 6 | stretch a point: kuralı esnetmek (deyim)."
+    },
+    {
+      "id": 119,
+      "start_ms": 777220,
+      "end_ms": 781516,
+      "text": "\"'When shall you be able to enter upon your new duties?' he asked.\"",
+      "translation": "\"'Yeni vazifenize ne zaman başlayabilirsiniz?' diye sordu.\"",
+      "notes": "Sayfa 6 | enter upon duties: göreve başlamak."
+    },
+    {
+      "id": 120,
+      "start_ms": 781916,
+      "end_ms": 788444,
+      "text": "\"'Well, it is a little awkward, for I have a business already,' said I, thinking of my pawnshop.\"",
+      "translation": "\"Rehin dükkanımı düşünerek, 'Şey, biraz çetrefilli bir durum, zira halihazırda bir işletmem var,' dedim.\"",
+      "notes": "Sayfa 6 | awkward: sıkıntılı, çetrefilli."
+    },
+    {
+      "id": 121,
+      "start_ms": 789444,
+      "end_ms": 797532,
+      "text": "\"'Oh, never mind about that, Mr. Wilson!' said Vincent Spaulding. 'I shall be able to look after that for you.'\"",
+      "translation": "\"Vincent Spaulding araya girip, 'Ah, onu hiç dert etmeyin Bay Wilson!' dedi. 'Dükkana sizin yerinize ben rahatça göz kulak olurum.'\"",
+      "notes": "Sayfa 7 | look after: göz kulak olmak."
+    },
+    {
+      "id": 122,
+      "start_ms": 797932,
+      "end_ms": 803788,
+      "text": "\"'What would be the hours?' I asked, turning back to Mr. Duncan Ross.\"",
+      "translation": "\"Tekrar Bay Duncan Ross'a dönerek, 'Mesai saatleri nedir?' diye sordum.\"",
+      "notes": "Sayfa 7 | hours: çalışma/mesai saatleri."
+    },
+    {
+      "id": 123,
+      "start_ms": 804188,
+      "end_ms": 811388,
+      "text": "\"'Ten to two. A man who enters upon this work must be in the office from ten until two every day.'\"",
+      "translation": "\"'Ondan ikiye kadar. Bu işe giren bir adam her gün saat ondan ikiye kadar mutlaka yazıhanede bulunmalıdır.'\"",
+      "notes": "Sayfa 7 | ten to two: saat ondan ikiye kadar."
+    },
+    {
+      "id": 124,
+      "start_ms": 811788,
+      "end_ms": 819228,
+      "text": "\"'If you leave, you forfeit your whole situation for ever; the will of our benefactor is exceedingly strict on that point.'\"",
+      "translation": "\"'Eğer ayrılırsanız, işinizi ve tüm haklarınızı ebediyen kaybedersiniz; hayırseverimizin vasiyeti bu hususta son derece katıdır.'\"",
+      "notes": "Sayfa 7 | forfeit your situation: makamını ve hakkını kaybetmek."
+    },
+    {
+      "id": 125,
+      "start_ms": 819628,
+      "end_ms": 825148,
+      "text": "\"'If you budge from the office during those four hours, your contract is instantly void.'\"",
+      "translation": "\"'O dört saat boyunca yazıhaneden bir adım bile dışarı çıkarsanız sözleşmeniz derhal fesholur.'\"",
+      "notes": "Sayfa 7 | budge: yerinden kıpırdamak; void: hükümsüz, geçersiz."
+    },
+    {
+      "id": 126,
+      "start_ms": 825548,
+      "end_ms": 830540,
+      "text": "\"'It's only four hours a day, and I would not think of leaving,' said I.\"",
+      "translation": "\"Günde sadece dört saat ve ayrılmayı aklımdan bile geçirmem,' dedim.\"",
+      "notes": "Sayfa 7 | would not think of: aklından bile geçirmemek."
+    },
+    {
+      "id": 127,
+      "start_ms": 830940,
+      "end_ms": 838692,
+      "text": "\"'No excuse will avail,' said Mr. Duncan Ross sternly; 'neither sickness, nor business, nor anything else.'\"",
+      "translation": "\"Bay Duncan Ross sert bir tavırla, 'Hiçbir mazeret kabul edilmez,' dedi; 'ne hastalık, ne başka bir iş, ne de başka herhangi bir şey.'\"",
+      "notes": "Sayfa 7 | no excuse will avail: hiçbir mazeret para etmez/fayda vermez."
+    },
+    {
+      "id": 128,
+      "start_ms": 839092,
+      "end_ms": 843436,
+      "text": "\"'There you must stay until two o'clock, or you lose the place.'\"",
+      "translation": "\"'Saat ikiye kadar orada oturup bekleyeceksiniz, yoksa yeri kaybedersiniz.'\"",
+      "notes": "Sayfa 7 | lose the place: kadroyu/yeri kaybetmek."
+    },
+    {
+      "id": 129,
+      "start_ms": 843836,
+      "end_ms": 849140,
+      "text": "\"'And the work?' I asked, wondering what I was expected to do.\"",
+      "translation": "\"Benden ne beklendiğini merak ederek, 'Peki yapılacak iş nedir?' diye sordum.\"",
+      "notes": "Sayfa 7 | expected to do: yapması beklenen."
+    },
+    {
+      "id": 130,
+      "start_ms": 849540,
+      "end_ms": 856452,
+      "text": "\"'Is to copy out the Encyclopaedia Britannica. There is the first volume of it upon that shelf.'\"",
+      "translation": "\"'Britannica Ansiklopedisi'ni baştan sona elle kopya etmektir. İşte ilk cildi şu rafta duruyor.'\"",
+      "notes": "Sayfa 7 | copy out: elle temize çekip kopyalamak; volume: cilt."
+    },
+    {
+      "id": 131,
+      "start_ms": 856852,
+      "end_ms": 863500,
+      "text": "\"'You must provide your own ink, pens, and blotting-paper, but we provide this table and chair.'\"",
+      "translation": "\"'Mürekkebinizi, kalemlerinizi ve kurutma kağıdınızı kendiniz temin etmelisiniz; fakat bu masa ve sandalyeyi biz sağlıyoruz.'\"",
+      "notes": "Sayfa 7 | blotting-paper: mürekkep kurutma kağıdı."
+    },
+    {
+      "id": 132,
+      "start_ms": 863900,
+      "end_ms": 867428,
+      "text": "\"'Will you be ready to-morrow?' asked Mr. Ross.\"",
+      "translation": "\"Bay Ross, 'Yarın başlamaya hazır olacak mısınız?' diye sordu.\"",
+      "notes": "Sayfa 7 | ready to-morrow: yarına hazır."
+    },
+    {
+      "id": 133,
+      "start_ms": 867828,
+      "end_ms": 872340,
+      "text": "\"'Certainly,' I answered, delighted with so simple a task.\"",
+      "translation": "\"Böylesine çocuk oyuncağı bir işten memnun kalarak, 'Elbette,' diye yanıt verdim.\"",
+      "notes": "Sayfa 7 | delighted with simple task: basit işten memnun olmak."
+    },
+    {
+      "id": 134,
+      "start_ms": 872740,
+      "end_ms": 880516,
+      "text": "\"'Then, good-bye, Mr. Jabez Wilson, and let me congratulate you once more on the important position which you have obtained.'\"",
+      "translation": "\"'O halde şimdilik hoşça kalın Bay Jabez Wilson ve elde ettiğiniz bu mühim makam dolayısıyla sizi bir kez daha tebrik etmeme izin verin.'\"",
+      "notes": "Sayfa 7 | important position: mühim mevki."
+    },
+    {
+      "id": 135,
+      "start_ms": 880916,
+      "end_ms": 889364,
+      "text": "\"He bowed me out of the room, and I went home with my assistant, hardly knowing what to say or do, I was so pleased at my good fortune.\"",
+      "translation": "\"Beni eğilerek odadan uğurladı ve talihime öylesine sevinmiştim ki ne diyeceğimi bilemeden yardımcım ile birlikte eve döndüm.\"",
+      "notes": "Sayfa 7 | pleased at good fortune: talihine sevinmiş."
+    },
+    {
+      "id": 136,
+      "start_ms": 889764,
+      "end_ms": 895308,
+      "text": "\"Well, I thought over the matter all day, and by evening I was in low spirits again.\"",
+      "translation": "\"Doğrusu gün boyu bu meseleyi düşündüm ve akşama doğru canım yeniden sıkılmaya başladı.\"",
+      "notes": "Sayfa 7 | in low spirits: canı sıkkın, morali bozuk."
+    },
+    {
+      "id": 137,
+      "start_ms": 895708,
+      "end_ms": 901084,
+      "text": "\"I had quite persuaded myself that the whole affair must be some great hoax or fraud.\"",
+      "translation": "\"Bütün bu meselenin büyük bir aldatmaca ya da muziplik olması gerektiğine kendimi iyice inandırmıştım.\"",
+      "notes": "Sayfa 7 | hoax or fraud: muziplik, eşek şakası veya dolandırıcılık."
+    },
+    {
+      "id": 138,
+      "start_ms": 901484,
+      "end_ms": 909116,
+      "text": "\"It seemed completely incredible that anyone could pay such a sum for doing anything so simple as copying out an encyclopaedia.\"",
+      "translation": "\"Bir ansiklopediyi temize çekmek gibi basit bir iş için birinin böylesine yüksek bir meblağ ödeyebileceği tamamen akıl almaz görünüyordu.\"",
+      "notes": "Sayfa 7 | completely incredible: tamamen akıl almaz."
+    },
+    {
+      "id": 139,
+      "start_ms": 909516,
+      "end_ms": 916284,
+      "text": "\"Vincent Spaulding, however, did what he could to cheer me up, and reasoned with me until I changed my mind.\"",
+      "translation": "\"Fakat Vincent Spaulding moralimi düzeltmek için elinden geleni yaptı ve fikrimi değiştirene kadar benimle uzun uzun konuştu.\"",
+      "notes": "Sayfa 7 | cheer up: neşelendirmek; reasoned with: ikna etmek için mantık yürütmek."
+    },
+    {
+      "id": 140,
+      "start_ms": 916684,
+      "end_ms": 923020,
+      "text": "\"He insisted that the bequest was genuine, and that it would be madness to throw away four pounds a week.\"",
+      "translation": "\"Vasiyetin sahici olduğunu ve haftalık dört poundu çöpe atmanın delilik sayılacağını savundu.\"",
+      "notes": "Sayfa 7 | throw away: çöpe atmak, elinin tersiyle itmek."
+    },
+    {
+      "id": 141,
+      "start_ms": 924020,
+      "end_ms": 930668,
+      "text": "\"In the morning, I bought a penny bottle of ink, a quill-pen, and seven sheets of foolscap paper.\"",
+      "translation": "\"Sabahleyin bir penilik bir mürekkep şişesi, bir tüy kalem ve yedi tabaka büyük yazı kağıdı satın aldım.\"",
+      "notes": "Sayfa 8 | penny bottle: bir penilik şişe; foolscap paper: dosya kağıdı."
+    },
+    {
+      "id": 142,
+      "start_ms": 931068,
+      "end_ms": 936108,
+      "text": "\"I started off for Pope's Court, feeling half hopeful and half foolish.\"",
+      "translation": "\"Yarı umutlu, yarı ahmak gibi hissederek Pope's Court'a doğru yola koyuldum.\"",
+      "notes": "Sayfa 8 | half hopeful: yarı umutlu."
+    },
+    {
+      "id": 143,
+      "start_ms": 936508,
+      "end_ms": 942460,
+      "text": "\"Well, to my surprise and delight, everything was in order, and the room was waiting for me.\"",
+      "translation": "\"Fakat şaşkınlığım ve sevincim büyüktü; her şey tıkırında gidiyordu ve oda beni bekliyordu.\"",
+      "notes": "Sayfa 8 | everything was in order: her şey yerli yerindeydi."
+    },
+    {
+      "id": 144,
+      "start_ms": 942860,
+      "end_ms": 948620,
+      "text": "\"The table was set out, and Mr. Duncan Ross was there to see that I got fairly to work.\"",
+      "translation": "\"Masa hazırlanmıştı ve Bay Duncan Ross işe layıkıyla başladığımdan emin olmak için oradaydı.\"",
+      "notes": "Sayfa 8 | fairly to work: işe hakkıyla/düzgünce koyulmak."
+    },
+    {
+      "id": 145,
+      "start_ms": 949020,
+      "end_ms": 956796,
+      "text": "\"He started me off upon the letter 'A', and then he left me; but he would pop in from time to time to see that all was right with me.\"",
+      "translation": "\"Beni 'A' harfinden başlattı ve sonra beni yalnız bıraktı; fakat her şeyin yolunda olduğunu görmek için ara sıra kapıdan başını uzatıyordu.\"",
+      "notes": "Sayfa 8 | pop in: kısa süreliğine içeri uğramak/bakmak."
+    },
+    {
+      "id": 146,
+      "start_ms": 957196,
+      "end_ms": 964804,
+      "text": "\"At two o'clock he bade me good-day, complimented me upon the amount that I had written, and locked the door of the office after me.\"",
+      "translation": "\"Saat ikide bana iyi günler diledi, yazdığım sayfa miktarı için beni tebrik etti ve arkamdan yazıhanenin kapısını kilitledi.\"",
+      "notes": "Sayfa 8 | bade good-day: iyi günler diledi; complimented: iltifat etti."
+    },
+    {
+      "id": 147,
+      "start_ms": 965204,
+      "end_ms": 972596,
+      "text": "\"This went on day after day, Mr. Holmes. I was at my desk by ten, and I left at two.\"",
+      "translation": "\"Bu durum günbegün böyle devam etti Bay Holmes. Saat onda masamda oluyordum, ikide de çıkıyordum.\"",
+      "notes": "Sayfa 8 | went on day after day: günden güne devam etti."
+    },
+    {
+      "id": 148,
+      "start_ms": 972996,
+      "end_ms": 979140,
+      "text": "\"On Saturday, the manager came in and plunked down four golden sovereigns for my week's work.\"",
+      "translation": "\"Cumartesi günü müdür içeri girdi ve haftalık emeğim için masaya şakırdayan dört altın para bıraktı.\"",
+      "notes": "Sayfa 8 | plunked down: masaya şak diye bırakmak."
+    },
+    {
+      "id": 149,
+      "start_ms": 979540,
+      "end_ms": 983500,
+      "text": "\"It was the same next week, and the same the week after.\"",
+      "translation": "\"Ertesi hafta da aynı şey oldu, bir sonraki hafta da.\"",
+      "notes": "Sayfa 8 | same the week after: sonraki hafta da aynı."
+    },
+    {
+      "id": 150,
+      "start_ms": 983900,
+      "end_ms": 988844,
+      "text": "\"Every morning I was there at ten, and every afternoon I left at two.\"",
+      "translation": "\"Her sabah saat onda oradaydım ve her öğleden sonra ikide ayrılıyordum.\"",
+      "notes": "Sayfa 8 | every morning: her sabah."
+    },
+    {
+      "id": 151,
+      "start_ms": 989244,
+      "end_ms": 997596,
+      "text": "\"By degrees, Mr. Duncan Ross took to coming in only once of a morning, and then, after a time, he did not come in at all.\"",
+      "translation": "\"Zamanla Bay Duncan Ross sabahları sadece bir kez uğramaya başladı; bir süre sonra ise hiç uğramaz oldu.\"",
+      "notes": "Sayfa 8 | by degrees: azar azar, zamanla; took to: adet edinmek."
+    },
+    {
+      "id": 152,
+      "start_ms": 997996,
+      "end_ms": 1004932,
+      "text": "\"Still, of course, I never dared to leave the room for an instant, for I was not sure when he might come.\"",
+      "translation": "\"Yine de ne zaman geleceğinden emin olamadığım için bir anlığına bile odadan dışarı adım atmaya asla cesaret edemedim.\"",
+      "notes": "Sayfa 8 | never dared to leave: ayrılmaya asla cüret edemedi."
+    },
+    {
+      "id": 153,
+      "start_ms": 1005332,
+      "end_ms": 1011308,
+      "text": "\"The billet was such a good one, and suited me so well, that I would not risk the loss of it.\"",
+      "translation": "\"İş öylesine ballıydı ve bana öyle iyi uymuştu ki, onu kaybetme riskini asla göze alamazdım.\"",
+      "notes": "Sayfa 8 | billet: rahat ve kazançlı iş memuriyeti."
+    },
+    {
+      "id": 154,
+      "start_ms": 1011708,
+      "end_ms": 1018284,
+      "text": "\"Eight weeks passed away like this, and I had written about Abbots and Archery and Armour and Architecture.\"",
+      "translation": "\"Sekiz hafta işte böyle su gibi akıp geçti; Başrahipler, Okçuluk, Zırhlar ve Mimarlık hakkında sayfalarca yazı yazmıştım.\"",
+      "notes": "Sayfa 8 | passed away like this: böylece akıp gitti."
+    },
+    {
+      "id": 155,
+      "start_ms": 1018684,
+      "end_ms": 1023460,
+      "text": "\"I hoped that with diligence I might get on to the 'B's before very long.\"",
+      "translation": "\"Böyle gayretle çalışarak çok geçmeden 'B' harfine geçebileceğimi umuyordum.\"",
+      "notes": "Sayfa 8 | diligence: çalışkanlık, sebat."
+    },
+    {
+      "id": 156,
+      "start_ms": 1023860,
+      "end_ms": 1029644,
+      "text": "\"It cost me something in foolscap, and I had pretty nearly filled a shelf with my writings.\"",
+      "translation": "\"Yazı kağıtları bana biraz masraf çıkarmıştı ve yazdıklarımla neredeyse bir rafı tıka basa doldurmuştum.\"",
+      "notes": "Sayfa 8 | pretty nearly filled: neredeyse tamamen doldurmuştu."
+    },
+    {
+      "id": 157,
+      "start_ms": 1030044,
+      "end_ms": 1033692,
+      "text": "\"And then suddenly the whole business came to an end!\"",
+      "translation": "\"Ve sonra birdenbire bütün bu iş bıçak gibi kesiliverdi!\"",
+      "notes": "Sayfa 8 | came to an end: sona erdi."
+    },
+    {
+      "id": 158,
+      "start_ms": 1034092,
+      "end_ms": 1039180,
+      "text": "\"To an end?\" cried Holmes, his eyebrows raising in keen interest.",
+      "translation": "Holmes kaşlarını büyük bir merakla kaldırarak, \"Sona mı erdi?\" diye haykırdı.",
+      "notes": "Sayfa 8 | eyebrows raising: kaşları yukarı kalkmak."
+    },
+    {
+      "id": 159,
+      "start_ms": 1039580,
+      "end_ms": 1044524,
+      "text": "\"Yes, sir. And no later than this very morning.\"",
+      "translation": "\"Evet efendim. Hem de tam bu sabahleyin!\"",
+      "notes": "Sayfa 8 | no later than this very morning: tam da bu sabah."
+    },
+    {
+      "id": 160,
+      "start_ms": 1044924,
+      "end_ms": 1050156,
+      "text": "\"I went to my work as usual at ten o'clock, but the door was shut and locked.\"",
+      "translation": "\"Her zamanki gibi saat onda işime gittim fakat kapı kapalı ve kilitliydi.\"",
+      "notes": "Sayfa 8 | shut and locked: kapalı ve kilitli."
+    },
+    {
+      "id": 161,
+      "start_ms": 1051156,
+      "end_ms": 1057108,
+      "text": "\"During those eight weeks, my pawnshop had been managed by Vincent Spaulding with great fidelity.\"",
+      "translation": "\"O sekiz hafta boyunca rehin dükkanım Vincent Spaulding tarafından büyük bir sadakatle idare edilmişti.\"",
+      "notes": "Sayfa 9 | fidelity: sadakat, bağlılık."
+    },
+    {
+      "id": 162,
+      "start_ms": 1057508,
+      "end_ms": 1063772,
+      "text": "\"He was always at his post whenever I returned in the afternoon, and the business had suffered no loss.\"",
+      "translation": "\"Öğleden sonra döndüğümde her zaman görevinin başındaydı ve işler hiçbir kayba uğramamıştı.\"",
+      "notes": "Sayfa 9 | at his post: görevinin başında."
+    },
+    {
+      "id": 163,
+      "start_ms": 1064172,
+      "end_ms": 1070796,
+      "text": "\"I felt very easy in my mind, knowing that thirty-two golden sovereigns had been added to my savings.\"",
+      "translation": "\"Tasarruflarıma otuz iki parlak altın eklendiğini bilmek içimi fevkalade rahatlatıyordu.\"",
+      "notes": "Sayfa 9 | easy in my mind: içi rahat, huzurlu."
+    },
+    {
+      "id": 164,
+      "start_ms": 1071196,
+      "end_ms": 1075660,
+      "text": "\"It was the easiest money that ever a man earned in the City of London.\"",
+      "translation": "\"Londra şehrinde bir adamın kazanabileceği en zahmetsiz ve en tatlı paraydı bu.\"",
+      "notes": "Sayfa 9 | easiest money: en kolay kazanılan para."
+    },
+    {
+      "id": 165,
+      "start_ms": 1076060,
+      "end_ms": 1082012,
+      "text": "\"I was beginning to look forward to copying out the entire library before the fund was exhausted.\"",
+      "translation": "\"Fon tükenmeden önce bütün ansiklopedi kütüphanesini temize çekmeyi iple çekmeye başlamıştım.\"",
+      "notes": "Sayfa 9 | look forward to: iple çekmek, dört gözle beklemek."
+    },
+    {
+      "id": 166,
+      "start_ms": 1082412,
+      "end_ms": 1088412,
+      "text": "\"I calculated that at the rate of two pages an hour, it would take me another two years at least.\"",
+      "translation": "\"Saatte iki sayfa hesabı üzerinden, en az iki yılımı daha alacağını hesaplamıştım.\"",
+      "notes": "Sayfa 9 | calculated: hesapladı."
+    },
+    {
+      "id": 167,
+      "start_ms": 1088812,
+      "end_ms": 1094644,
+      "text": "\"That meant over four hundred pounds of pure profit for four hours of easy pen-work a day.\"",
+      "translation": "\"Bu da günde dört saatlik zahmetsiz bir yazı işi karşılığında dört yüz pounddan fazla net kazanç demekti.\"",
+      "notes": "Sayfa 9 | pure profit: safi kar, net kazanç."
+    },
+    {
+      "id": 168,
+      "start_ms": 1095044,
+      "end_ms": 1100684,
+      "text": "\"I had finished the article on Attica, and was well into the history of the ancient Greeks.\"",
+      "translation": "\"Attika maddesini bitirmiştim ve antik Yunan tarihinin epeyce derinlerine inmiştim.\"",
+      "notes": "Sayfa 9 | well into: bir şeyin epeyce içine girmiş."
+    },
+    {
+      "id": 169,
+      "start_ms": 1101084,
+      "end_ms": 1107180,
+      "text": "\"My handwriting was improving with the constant practice, and my table was always neat and orderly.\"",
+      "translation": "\"Sürekli pratik sayesinde el yazım güzelleşiyordu ve masam daima tertemiz ve derli topluydu.\"",
+      "notes": "Sayfa 9 | neat and orderly: derli toplu ve düzenli."
+    },
+    {
+      "id": 170,
+      "start_ms": 1107580,
+      "end_ms": 1112572,
+      "text": "\"Vincent Spaulding continually congratulated me upon my steady progress.\"",
+      "translation": "\"Vincent Spaulding düzenli ilerlemem dolayısıyla beni durmadan tebrik edip yüreklendiriyordu.\"",
+      "notes": "Sayfa 9 | steady progress: istikrarlı ilerleme."
+    },
+    {
+      "id": 171,
+      "start_ms": 1112972,
+      "end_ms": 1119836,
+      "text": "\"'Stick to it, Mr. Wilson,' he would say; 'it's a gold mine, and you must work it to the last seam.'\"",
+      "translation": "\"'Sebat edin Bay Wilson,' derdi; 'bu bir altın madeni ve son damarına kadar işletmelisiniz.'\"",
+      "notes": "Sayfa 9 | stick to it: vazgeçmeden sarılmak, sebat etmek; last seam: son maden damarı."
+    },
+    {
+      "id": 172,
+      "start_ms": 1120236,
+      "end_ms": 1125300,
+      "text": "\"So you can imagine my feelings when I arrived this morning and found the door barred.\"",
+      "translation": "\"Bu sabah vardığımda kapıyı kilitli bulduğumda neler hissettiğimi artık siz hayal edin.\"",
+      "notes": "Sayfa 9 | door barred: kapının kilitli ve sürgülü olması."
+    },
+    {
+      "id": 173,
+      "start_ms": 1125700,
+      "end_ms": 1130836,
+      "text": "\"There was no sound from within, though I knocked and rattled the handle repeatedly.\"",
+      "translation": "\"Defalarca kapıya vurup kolu takırdatmama rağmen içeriden en ufak bir ses bile gelmiyordu.\"",
+      "notes": "Sayfa 9 | rattled the handle: kapı kolunu takırdatmak."
+    },
+    {
+      "id": 174,
+      "start_ms": 1131236,
+      "end_ms": 1135124,
+      "text": "\"The small brass plate had been removed from the door-post.\"",
+      "translation": "\"Kapı pervazındaki küçük pirinç levha bile sökülüp alınmıştı.\"",
+      "notes": "Sayfa 9 | brass plate: pirinç tabela."
+    },
+    {
+      "id": 175,
+      "start_ms": 1135524,
+      "end_ms": 1140636,
+      "text": "\"In its place was pinned a little square of cardboard, fastened with a red wafer.\"",
+      "translation": "\"Onun yerine, kırmızı bir mühür macunuyla tutturulmuş küçük kare bir karton parçası iğnelenmişti.\"",
+      "notes": "Sayfa 9 | red wafer: zarf/kağıt mühürleme macunu."
+    },
+    {
+      "id": 176,
+      "start_ms": 1141036,
+      "end_ms": 1147156,
+      "text": "\"Here it is, Mr. Holmes, you can read it for yourself; it was pinned onto the middle panel.\"",
+      "translation": "\"İşte burada Bay Holmes, kendiniz okuyabilirsiniz; orta panelin üzerine iliştirilmişti.\"",
+      "notes": "Sayfa 9 | pinned onto: üzerine iğnelenmiş."
+    },
+    {
+      "id": 177,
+      "start_ms": 1147556,
+      "end_ms": 1152476,
+      "text": "He held up a piece of white cardboard about the size of a sheet of note-paper.",
+      "translation": "Bir mektup kağıdı büyüklüğünde beyaz bir karton parçasını havaya kaldırdı.",
+      "notes": "Sayfa 9 | sheet of note-paper: mektup kağıdı yaprağı."
+    },
+    {
+      "id": 178,
+      "start_ms": 1152876,
+      "end_ms": 1160820,
+      "text": "It read in this extraordinary fashion: 'THE RED-HEADED LEAGUE IS DISSOLVED. October 9, 1890.'\"",
+      "translation": "\"Üzerinde şu akıl almaz satırlar yazılıydı: 'KIZIL SAÇLILAR KULÜBÜ FESHEDİLMİŞTİR. 9 Ekim 1890.'\"",
+      "notes": "Sayfa 9 | dissolved: feshedilmiş, dağıtılmış."
+    },
+    {
+      "id": 179,
+      "start_ms": 1161220,
+      "end_ms": 1166404,
+      "text": "Sherlock Holmes and I surveyed this curt announcement and the rueful face behind it.",
+      "translation": "Sherlock Holmes ve ben bu kısa bildiriyi ve arkasındaki o hüzünlü yüzü süzdük.",
+      "notes": "Sayfa 9 | curt announcement: kuru, kısa bildiri; rueful face: kederli yüz."
+    },
+    {
+      "id": 180,
+      "start_ms": 1166804,
+      "end_ms": 1174724,
+      "text": "Then the comical side of the affair so completely overtopped every other consideration that we both burst out into a roar of laughter.",
+      "translation": "Ardından meselenin komik tarafı diğer bütün mülahazaları öylesine bastırdı ki ikimiz birden kahkahalarla yerlere yattık.",
+      "notes": "Sayfa 9 | roar of laughter: gürültülü kahkaha tufanı."
+    },
+    {
+      "id": 181,
+      "start_ms": 1175724,
+      "end_ms": 1182636,
+      "text": "\"I cannot see that there is anything very funny,\" cried our client, flushing up to the roots of his flaming head.",
+      "translation": "Müvekkilimiz alev rengi saçlarının köklerine kadar kızararak, \"Bunda bu kadar komik olan ne var anlayamıyorum!\" diye haykırdı.",
+      "notes": "Sayfa 10 | flushing up to the roots: saç diplerine kadar kızarmak."
+    },
+    {
+      "id": 182,
+      "start_ms": 1183036,
+      "end_ms": 1188028,
+      "text": "\"If you have no better advice to give than to laugh at me, I can go elsewhere!\"",
+      "translation": "\"Bana gülmekten başka verecek daha iyi bir tavsiyeniz yoksa başka kapıya gidebilirim!\"",
+      "notes": "Sayfa 10 | go elsewhere: başka yere gitmek."
+    },
+    {
+      "id": 183,
+      "start_ms": 1188428,
+      "end_ms": 1194476,
+      "text": "\"No, no,\" cried Holmes, shoving him back into the chair from which he had half risen.",
+      "translation": "Yarı yarıya doğrulduğu koltuğa onu geri oturtan Holmes, \"Yok yok, katiyen,\" dedi.",
+      "notes": "Sayfa 10 | half risen: yarı doğrulmuş."
+    },
+    {
+      "id": 184,
+      "start_ms": 1194876,
+      "end_ms": 1200180,
+      "text": "\"I really wouldn't miss your case for the world; it is so refreshingly unusual!\"",
+      "translation": "\"Dünyaları verseler davanızı kaçırmak istemezdim; öylesine ferahlatıcı derecede sıra dışı bir hadise ki!\"",
+      "notes": "Sayfa 10 | wouldn't miss for the world: dünyada kaçırmam (deyim)."
+    },
+    {
+      "id": 185,
+      "start_ms": 1200580,
+      "end_ms": 1206340,
+      "text": "\"But there is, if you will excuse my saying so, something just a little funny about it.\"",
+      "translation": "\"Fakat söylememe izin verirseniz, içinde hakikaten birazcık komik bir taraf da yok değil.\"",
+      "notes": "Sayfa 10 | excuse my saying so: söylememe izin verirseniz."
+    },
+    {
+      "id": 186,
+      "start_ms": 1206740,
+      "end_ms": 1211132,
+      "text": "\"Pray, what steps did you take when you found the card upon the door?\"",
+      "translation": "\"Lütfen söyleyin, kapıda o kartı bulduğunuzda hangi adımları attınız?\"",
+      "notes": "Sayfa 10 | what steps did you take: hangi adımları attınız?"
+    },
+    {
+      "id": 187,
+      "start_ms": 1211532,
+      "end_ms": 1216932,
+      "text": "\"I was completely staggered, sir. I did not know what to do.\"",
+      "translation": "\"Tamamen serseme döndüm efendim. Ne yapacağımı şaşırdım.\"",
+      "notes": "Sayfa 10 | staggered: allak bullak olmuş, afallamış."
+    },
+    {
+      "id": 188,
+      "start_ms": 1217332,
+      "end_ms": 1222420,
+      "text": "\"Then I called at the offices round, but none of them knew anything about the matter.\"",
+      "translation": "\"Sonra civardaki diğer bürolara sordum fakat hiçbiri mesele hakkında bir şey bilmiyordu.\"",
+      "notes": "Sayfa 10 | called at offices round: etraftaki bürolara uğradı."
+    },
+    {
+      "id": 189,
+      "start_ms": 1222820,
+      "end_ms": 1231148,
+      "text": "\"Finally, I went to the landlord, who is an accountant living on the ground floor, and I asked him if he could tell me what had become of the Red-Headed League.\"",
+      "translation": "\"En sonunda zemin katta oturan bir muhasebeci olan bina sahibine gittim ve Kızıl Saçlılar Kulübü'ne ne olduğunu bilip bilmediğini sordum.\"",
+      "notes": "Sayfa 10 | what had become of: ne hale geldiğini, akıbetini."
+    },
+    {
+      "id": 190,
+      "start_ms": 1231548,
+      "end_ms": 1235844,
+      "text": "\"He said that he had never heard of any such body in all his life.\"",
+      "translation": "\"Ömrü boyunca böyle bir kuruluşu hiç duymadığını söyledi.\"",
+      "notes": "Sayfa 10 | such body: böyle bir dernek/kurum."
+    },
+    {
+      "id": 191,
+      "start_ms": 1236244,
+      "end_ms": 1239700,
+      "text": "\"Then I asked him who Mr. Duncan Ross was.\"",
+      "translation": "\"Bunun üzerine ona Bay Duncan Ross'un kim olduğunu sordum.\"",
+      "notes": "Sayfa 10 | who he was: kim olduğunu."
+    },
+    {
+      "id": 192,
+      "start_ms": 1240100,
+      "end_ms": 1245428,
+      "text": "\"He answered that the name was new to him, and that no such gentleman was on his books.\"",
+      "translation": "\"Bu ismin kendisine yabancı olduğunu ve defterlerinde böyle bir beyefendinin kayıtlı bulunmadığını söyledi.\"",
+      "notes": "Sayfa 10 | on his books: kayıt defterinde."
+    },
+    {
+      "id": 193,
+      "start_ms": 1245828,
+      "end_ms": 1249524,
+      "text": "\"'Well,' said I, 'the gentleman at No. 4.'\"",
+      "translation": "\"'Peki,' dedim, '4 numaradaki o beyefendi kimdi öyleyse?'\"",
+      "notes": "Sayfa 10 | gentleman at No. 4: 4 numaradaki zat."
+    },
+    {
+      "id": 194,
+      "start_ms": 1249924,
+      "end_ms": 1252468,
+      "text": "\"'What, the red-headed man?'\"",
+      "translation": "\"'Ne, şu kızıl saçlı adam mı?'\"",
+      "notes": "Sayfa 10 | red-headed man: kızıl saçlı adam."
+    },
+    {
+      "id": 195,
+      "start_ms": 1252868,
+      "end_ms": 1254740,
+      "text": "\"'Yes.'\"",
+      "translation": "\"'Evet ta kendisi.'\"",
+      "notes": "Sayfa 10 | Yes: Evet."
+    },
+    {
+      "id": 196,
+      "start_ms": 1255140,
+      "end_ms": 1265004,
+      "text": "\"'Oh,' said he, 'his name was William Morris. He was a solicitor and was using my room as a temporary convenience until his new premises were ready.'\"",
+      "translation": "\"'Ah,' dedi, 'onun adı William Morris idi. Kendisi bir avukattı ve yeni yazıhanesi hazır olana dek benim odamı geçici bir kolaylık olarak kullanıyordu.'\"",
+      "notes": "Sayfa 10 | solicitor: dava vekili, avukat; premises: mülk, iş yeri binası."
+    },
+    {
+      "id": 197,
+      "start_ms": 1265404,
+      "end_ms": 1271428,
+      "text": "\"'He moved out yesterday. He gave up his room and cleared out bag and baggage.'\"",
+      "translation": "\"'Dün taşındı. Odayı boşalttı ve tası tarağı toplayıp gitti.'\"",
+      "notes": "Sayfa 10 | cleared out bag and baggage: pılısını pırtısını toplayıp ayrılmak."
+    },
+    {
+      "id": 198,
+      "start_ms": 1271828,
+      "end_ms": 1275404,
+      "text": "\"'Where has he gone?' I asked.\"",
+      "translation": "\"'Nereye gitti peki?' diye sordum.\"",
+      "notes": "Sayfa 10 | Where has he gone?: Nereye gitti?"
+    },
+    {
+      "id": 199,
+      "start_ms": 1275804,
+      "end_ms": 1283844,
+      "text": "\"'To his new offices. He did tell me the address: 17 King Edward Street, near St. Paul's.'\"",
+      "translation": "\"'Yeni yazıhanesine. Adresini bana söylemişti: St. Paul yakınlarındaki King Edward Caddesi 17 numara.'\"",
+      "notes": "Sayfa 10 | new offices: yeni bürosu."
+    },
+    {
+      "id": 200,
+      "start_ms": 1284244,
+      "end_ms": 1292668,
+      "text": "\"I started off for King Edward Street, Mr. Holmes, but when I got to that address, it was a manufactory of artificial knee-caps!\"",
+      "translation": "\"King Edward Caddesi'ne koştum Bay Holmes, fakat o adrese vardığımda orası suni diz kapağı imalathanesiydi!\"",
+      "notes": "Sayfa 10 | artificial knee-caps: yapay protez diz kapakları."
+    },
+    {
+      "id": 201,
+      "start_ms": 1293668,
+      "end_ms": 1299236,
+      "text": "\"No one in that building had ever heard of either Mr. William Morris or Mr. Duncan Ross.\"",
+      "translation": "\"O binadaki hiç kimse ne Bay William Morris ne de Bay Duncan Ross adını duymuştu.\"",
+      "notes": "Sayfa 11 | neither... nor...: ne... ne de..."
+    },
+    {
+      "id": 202,
+      "start_ms": 1299636,
+      "end_ms": 1304556,
+      "text": "\"And what did you do then?\" asked Holmes, leaning his chin upon his hand.",
+      "translation": "Çenesini eline dayayan Holmes, \"Peki sonra ne yaptınız?\" diye sordu.",
+      "notes": "Sayfa 11 | leaning chin upon hand: çenesini eline dayamak."
+    },
+    {
+      "id": 203,
+      "start_ms": 1304956,
+      "end_ms": 1311220,
+      "text": "\"I went home to Saxe-Coburg Square, and I took the advice of my assistant, Vincent Spaulding.\"",
+      "translation": "\"Saxe-Coburg Meydanı'ndaki evime döndüm ve yardımcım Vincent Spaulding'in fikrini aldım.\"",
+      "notes": "Sayfa 11 | took the advice: tavsiyesini/fikrini almak."
+    },
+    {
+      "id": 204,
+      "start_ms": 1311620,
+      "end_ms": 1318460,
+      "text": "\"He could not help me in any way. He could only say that if I waited, I should hear by the post.\"",
+      "translation": "\"Bana hiçbir şekilde yardımcı olamadı. Sadece beklersem postayla bir haber alabileceğimi söyleyebildi.\"",
+      "notes": "Sayfa 11 | hear by post: mektupla haber almak."
+    },
+    {
+      "id": 205,
+      "start_ms": 1318860,
+      "end_ms": 1326012,
+      "text": "\"But that was not quite enough, Mr. Holmes. I did not wish to lose such a place without a struggle.\"",
+      "translation": "\"Fakat bu bana pek yetmedi Bay Holmes. Böylesine tatlı bir işi tek bir mücadele vermeden kaybetmek istemedim.\"",
+      "notes": "Sayfa 11 | without a struggle: direnmeden, mücadele etmeksizin."
+    },
+    {
+      "id": 206,
+      "start_ms": 1326412,
+      "end_ms": 1332244,
+      "text": "\"And as I had heard that you were good enough to give advice to poor folk, I came right away to you.\"",
+      "translation": "\"Ve sizin yoksul insanlara akıl vermekten çekinmediğinizi duyduğum için kalkıp doğrudan size geldim.\"",
+      "notes": "Sayfa 11 | came right away: doğrudan/derhal geldim."
+    },
+    {
+      "id": 207,
+      "start_ms": 1332644,
+      "end_ms": 1341188,
+      "text": "\"And you did very wisely,\" said Holmes. \"Your case is an exceedingly remarkable one, and I shall be happy to look into it.\"",
+      "translation": "Holmes, \"Çok da akıllıca yapmışsınız,\" dedi. \"Davanız son derece dikkat çekici ve onu incelemekten büyük memnuniyet duyacağım.\"",
+      "notes": "Sayfa 11 | exceedingly remarkable: fevkalade kayda değer."
+    },
+    {
+      "id": 208,
+      "start_ms": 1341588,
+      "end_ms": 1347684,
+      "text": "\"From what you have told me, I think that graver issues may be at stake than might at first sight appear.\"",
+      "translation": "\"Bana anlattıklarınızdan anladığım kadarıyla, ilk bakışta göründüğünden çok daha vahim meseleler tehlikede olabilir.\"",
+      "notes": "Sayfa 11 | graver issues: daha vahim meseleler; at stake: tehlikede/bahiste olmak."
+    },
+    {
+      "id": 209,
+      "start_ms": 1348084,
+      "end_ms": 1355572,
+      "text": "\"Grave enough!\" said Mr. Jabez Wilson indignantly. \"Why, I have lost four pound a week!\"",
+      "translation": "Bay Jabez Wilson öfkeyle, \"Yeterince vahim zaten!\" dedi. \"Haftalık dört poundumu kaybettim yahu!\"",
+      "notes": "Sayfa 11 | indignantly: öfke ve hiddetle."
+    },
+    {
+      "id": 210,
+      "start_ms": 1355972,
+      "end_ms": 1363628,
+      "text": "\"As far as you are personally concerned,\" Holmes remarked, \"I do not see that you have any grievance against this extraordinary league.\"",
+      "translation": "Holmes, \"Şahsen sizin açınızdan bakıldığında,\" diye belirtti, \"bu sıra dışı kulübe karşı en ufak bir şikayetiniz olabileceğini görmüyorum.\"",
+      "notes": "Sayfa 11 | grievance: şikayet, yakınma, sitem."
+    },
+    {
+      "id": 211,
+      "start_ms": 1364028,
+      "end_ms": 1374804,
+      "text": "\"On the contrary, you are, as I understand, richer by some thirty-two pounds, to say nothing of the minute knowledge which you have gained on every subject under the letter 'A'.\"",
+      "translation": "\"Bilakis, 'A' harfi altındaki her konuda edindiğiniz ince bilgileri saymıyorum bile, yaklaşık otuz iki pound daha zenginsiniz.\"",
+      "notes": "Sayfa 11 | minute knowledge: en ince ayrıntısına kadar bilgi."
+    },
+    {
+      "id": 212,
+      "start_ms": 1375204,
+      "end_ms": 1380148,
+      "text": "\"You have lost nothing by them, and you have gained both money and education.\"",
+      "translation": "\"Onlar yüzünden hiçbir şey kaybetmediniz; hem para hem de genel kültür kazandınız.\"",
+      "notes": "Sayfa 11 | gained money and education: hem para hem kültür kazanmak."
+    },
+    {
+      "id": 213,
+      "start_ms": 1380548,
+      "end_ms": 1390652,
+      "text": "\"No, sir. But I want to find out about them, and who they are, and what their object was in playing this prank—if it was a prank—upon me.\"",
+      "translation": "\"Doğru efendim. Fakat onların kim olduğunu, neyin nesi olduklarını ve bana bu muzipliği—eğer muziplik idiyse—yapmaktaki maksatlarının ne olduğunu öğrenmek istiyorum.\"",
+      "notes": "Sayfa 11 | playing this prank: bu eşek şakasını yapmak."
+    },
+    {
+      "id": 214,
+      "start_ms": 1391052,
+      "end_ms": 1396332,
+      "text": "\"It was a pretty expensive joke for them, for it has cost them thirty-two pounds.\"",
+      "translation": "\"Onlar için epey pahalıya patlayan bir şaka olmuş; zira tam otuz iki poundlarına mal oldu.\"",
+      "notes": "Sayfa 11 | cost thirty-two pounds: otuz iki pounda mal olmak."
+    },
+    {
+      "id": 215,
+      "start_ms": 1396732,
+      "end_ms": 1401004,
+      "text": "\"We shall endeavour to clear up these points for you,\" said Holmes.",
+      "translation": "Holmes, \"Bu hususları sizin için aydınlatmaya gayret edeceğiz,\" dedi.",
+      "notes": "Sayfa 11 | endeavour to clear up: aydınlatmaya gayret etmek."
+    },
+    {
+      "id": 216,
+      "start_ms": 1401404,
+      "end_ms": 1408196,
+      "text": "\"And, first of all, one or two questions, Mr. Wilson: How long had this assistant been with you?\"",
+      "translation": "\"Ve her şeyden önce bir iki soru Bay Wilson: Bu yardımcı ne kadar zamandır yanınızdaydı?\"",
+      "notes": "Sayfa 11 | how long: ne kadar süre."
+    },
+    {
+      "id": 217,
+      "start_ms": 1408596,
+      "end_ms": 1412124,
+      "text": "\"About a month before the advertisement appeared.\"",
+      "translation": "\"İlan çıkmadan yaklaşık bir ay kadar önce gelmişti.\"",
+      "notes": "Sayfa 11 | before advertisement appeared: ilan çıkmadan önce."
+    },
+    {
+      "id": 218,
+      "start_ms": 1412524,
+      "end_ms": 1416460,
+      "text": "\"How did he come? Did you advertise for him?\"",
+      "translation": "\"Nasıl geldi? Onun için bir ilan mı vermiştiniz?\"",
+      "notes": "Sayfa 11 | advertise: ilan vermek."
+    },
+    {
+      "id": 219,
+      "start_ms": 1416860,
+      "end_ms": 1423436,
+      "text": "\"No, sir. He answered an advertisement that I had put in the papers for an assistant.\"",
+      "translation": "\"Hayır efendim. Benim bir çırak aramak için gazeteye verdiğim ilana başvurmuştu.\"",
+      "notes": "Sayfa 11 | answered an advertisement: ilana başvurmak."
+    },
+    {
+      "id": 220,
+      "start_ms": 1423836,
+      "end_ms": 1427292,
+      "text": "\"Was he the only applicant?\" asked Holmes.",
+      "translation": "Holmes, \"Başvuran tek kişi o muydu?\" diye sordu.",
+      "notes": "Sayfa 11 | only applicant: tek başvuran."
+    },
+    {
+      "id": 221,
+      "start_ms": 1428292,
+      "end_ms": 1432420,
+      "text": "\"No, I had a dozen applicants,\" answered Wilson.",
+      "translation": "Wilson, \"Hayır, bir düzine kadar başvuran vardı,\" diye yanıtladı.",
+      "notes": "Sayfa 12 | a dozen applicants: bir düzine aday."
+    },
+    {
+      "id": 222,
+      "start_ms": 1432820,
+      "end_ms": 1435844,
+      "text": "\"Why did you pick him?\" asked Holmes.",
+      "translation": "Holmes, \"Peki neden onu seçtiniz?\" diye sordu.",
+      "notes": "Sayfa 12 | pick him: onu seçmek."
+    },
+    {
+      "id": 223,
+      "start_ms": 1436244,
+      "end_ms": 1442868,
+      "text": "\"Because he was handy and would come cheap. In fact, he offered to come for half wages.\"",
+      "translation": "\"Çünkü hem eli yatkındı hem de ucuza geliyordu. Hatta yarı maaşa çalışmayı bizzat teklif etti.\"",
+      "notes": "Sayfa 12 | handy: eli yatkın, becerikli."
+    },
+    {
+      "id": 224,
+      "start_ms": 1443268,
+      "end_ms": 1448980,
+      "text": "\"What is he like, this Vincent Spaulding? Describe him again carefully.\"",
+      "translation": "\"Nasıl biridir bu Vincent Spaulding? Eşkalini bir kez daha dikkatle tarif edin.\"",
+      "notes": "Sayfa 12 | describe him carefully: dikkatle tarif etmek."
+    },
+    {
+      "id": 225,
+      "start_ms": 1449380,
+      "end_ms": 1455716,
+      "text": "\"Small, stout, quick, with a white splash of acid on his forehead and pierced ears.\"",
+      "translation": "\"Kısa boylu, tıknaz, atik; alnında beyaz bir asit lekesi ve delinmiş kulakları var.\"",
+      "notes": "Sayfa 12 | pierced ears: delinmiş kulaklar."
+    },
+    {
+      "id": 226,
+      "start_ms": 1456116,
+      "end_ms": 1464612,
+      "text": "Holmes sat up, his face alive with interest. \"Did he ever do any business with the City and Suburban Bank behind your shop?\"",
+      "translation": "Holmes yüzünde canlanan büyük bir ilgiyle doğruldu: \"Dükkanınızın arkasındaki Şehir ve Banliyö Bankası ile hiç iş yaptığı oldu mu?\"",
+      "notes": "Sayfa 12 | face alive with interest: yüzü merak ve ilgiyle aydınlanmak."
+    },
+    {
+      "id": 227,
+      "start_ms": 1465012,
+      "end_ms": 1470220,
+      "text": "\"Never that I know of,\" said Wilson, surprised by the sudden question.",
+      "translation": "Bu ani soruya şaşıran Wilson, \"Bildiğim kadarıyla asla,\" dedi.",
+      "notes": "Sayfa 12 | that I know of: bildiğim kadarıyla."
+    },
+    {
+      "id": 228,
+      "start_ms": 1470620,
+      "end_ms": 1474004,
+      "text": "\"What does he do down in the cellar all those hours?\"",
+      "translation": "\"O kadar saat boyunca o bodrumda ne yapıyor peki?\"",
+      "notes": "Sayfa 12 | all those hours: o kadar saat boyunca."
+    },
+    {
+      "id": 229,
+      "start_ms": 1474404,
+      "end_ms": 1479804,
+      "text": "\"He develops his photographs, as I told you; he's mad on taking pictures.\"",
+      "translation": "\"Size söylediğim gibi, fotoğraflarını tab ediyor; fotoğraf çekmeye delicesine meraklıdır.\"",
+      "notes": "Sayfa 12 | mad on taking pictures: fotoğraf çekmeye aşırı tutkun."
+    },
+    {
+      "id": 230,
+      "start_ms": 1480204,
+      "end_ms": 1484236,
+      "text": "\"You have never seen him down there yourself?\" asked Holmes.",
+      "translation": "Holmes, \"Onu orada bizzat kendi gözlerinizle hiç gördünüz mü?\" diye sordu.",
+      "notes": "Sayfa 12 | seen down there yourself: bizzat kendin görmek."
+    },
+    {
+      "id": 231,
+      "start_ms": 1484636,
+      "end_ms": 1489892,
+      "text": "\"No, sir; I don't care much for climbing down those steep wooden stairs.\"",
+      "translation": "\"Hayır efendim; o dik ahşap merdivenlerden aşağı inmeye pek hevesli değilimdir.\"",
+      "notes": "Sayfa 12 | steep wooden stairs: dik ahşap merdivenler."
+    },
+    {
+      "id": 232,
+      "start_ms": 1490292,
+      "end_ms": 1494348,
+      "text": "\"And you never suspected anything?\" inquired Holmes.",
+      "translation": "Holmes, \"Ve hiçbir şeyden şüphelenmediniz mi?\" diye sordu.",
+      "notes": "Sayfa 12 | suspected anything: bir şeyden şüphelenmek."
+    },
+    {
+      "id": 233,
+      "start_ms": 1494748,
+      "end_ms": 1500436,
+      "text": "\"Nothing whatever; he is quiet and industrious, and the shop is well cared for.\"",
+      "translation": "\"Katiyen hiçbir şeyden; sessiz ve çalışkan biridir, dükkana da gayet iyi bakar.\"",
+      "notes": "Sayfa 12 | industrious: çalışkan, gayretli."
+    },
+    {
+      "id": 234,
+      "start_ms": 1500836,
+      "end_ms": 1509188,
+      "text": "\"Well, Mr. Wilson,\" said Holmes, rising to his feet, \"I shall be happy to give you an opinion upon the subject in a day or two.\"",
+      "translation": "Ayağa kalkan Holmes, \"Pekala Bay Wilson,\" dedi, \"bir iki gün içinde bu konu hakkındaki fikrimi size bildirmekten mutluluk duyacağım.\"",
+      "notes": "Sayfa 12 | give an opinion: fikir beyan etmek."
+    },
+    {
+      "id": 235,
+      "start_ms": 1509588,
+      "end_ms": 1514988,
+      "text": "\"Today is Saturday, and I hope that by Monday we may come to a definite conclusion.\"",
+      "translation": "\"Bugün cumartesi ve umarım pazartesiye kadar kesin bir sonuca varabiliriz.\"",
+      "notes": "Sayfa 12 | definite conclusion: kesin ve nihai sonuç."
+    },
+    {
+      "id": 236,
+      "start_ms": 1515388,
+      "end_ms": 1521196,
+      "text": "\"Now, Watson,\" said Holmes, when our visitor had departed, \"what do you make of it all?\"",
+      "translation": "Ziyaretçimiz ayrıldığında Holmes, \"Şimdi Watson,\" dedi, \"bütün bunlardan ne anlıyorsun?\"",
+      "notes": "Sayfa 12 | what do you make of it: bundan ne çıkarıyorsun?"
+    },
+    {
+      "id": 237,
+      "start_ms": 1521596,
+      "end_ms": 1527860,
+      "text": "\"I make nothing of it,\" I answered frankly. \"It is a most mysterious business.\"",
+      "translation": "Açık yüreklilikle, \"Hiçbir şey anlamadım,\" diye yanıtladım. \"Son derece esrarengiz bir iş.\"",
+      "notes": "Sayfa 12 | frankly: açıkça, dürüstçe."
+    },
+    {
+      "id": 238,
+      "start_ms": 1528260,
+      "end_ms": 1534740,
+      "text": "\"As a rule,\" said Holmes, \"the more bizarre a thing is, the less mysterious it proves to be.\"",
+      "translation": "Holmes, \"Kural olarak,\" dedi, \"bir şey ne kadar tuhaf görünürse, aslen o kadar az gizemli olduğu ortaya çıkar.\"",
+      "notes": "Sayfa 12 | the more... the less...: ne kadar çok... o kadar az... yapısı."
+    },
+    {
+      "id": 239,
+      "start_ms": 1535140,
+      "end_ms": 1543180,
+      "text": "\"It is your commonplace, featureless crimes which are really puzzling, just as a commonplace face is the most difficult to identify.\"",
+      "translation": "\"Asıl kafa karıştıran suçlar, sıradan ve ayırt edici özelliği olmayan suçlardır; tıpkı sıradan bir yüzü teşhis etmenin en zoru olması gibi.\"",
+      "notes": "Sayfa 12 | featureless: ayırt edici vasfı olmayan; identify: teşhis etmek."
+    },
+    {
+      "id": 240,
+      "start_ms": 1543580,
+      "end_ms": 1548188,
+      "text": "\"But I must be prompt over this matter; there is serious work brewing.\"",
+      "translation": "\"Fakat bu meselede çok hızlı davranmalıyım; zira arkada çok tehlikeli bir iş kaynıyor.\"",
+      "notes": "Sayfa 12 | serious work brewing: tehlikeli bir işin kotarılması/kaynaması."
+    },
+    {
+      "id": 241,
+      "start_ms": 1549188,
+      "end_ms": 1553388,
+      "text": "\"What are you going to do, then?\" I asked.",
+      "translation": "\"Öyleyse ne yapacaksın?\" diye sordum.",
+      "notes": "Sayfa 13 | What are you going to do?: Ne yapacaksın?"
+    },
+    {
+      "id": 242,
+      "start_ms": 1553788,
+      "end_ms": 1561780,
+      "text": "\"To smoke,\" he answered. \"It is quite a three pipe problem, and I beg that you won't speak to me for fifty minutes.\"",
+      "translation": "Holmes, \"Pipo tüttüreceğim,\" diye yanıt verdi. \"Bu tam üç pipoluk bir mesele ve elli dakika boyunca benimle tek kelime konuşmamanı rica ediyorum.\"",
+      "notes": "Sayfa 13 | three pipe problem: üç pipoluk derin düşünme gerektiren zor mesele."
+    },
+    {
+      "id": 243,
+      "start_ms": 1562180,
+      "end_ms": 1567868,
+      "text": "He curled himself up in his chair, with his thin knees drawn up to his hawk-like nose.",
+      "translation": "Zayıf dizlerini kartal burnuna kadar çekip koltuğuna büzüldü.",
+      "notes": "Sayfa 13 | hawk-like nose: kartal gibi kavisli burun; curled up: büzülüp kıvrılmak."
+    },
+    {
+      "id": 244,
+      "start_ms": 1568268,
+      "end_ms": 1574724,
+      "text": "There he sat with his eyes closed and his black clay pipe thrusting out like the bill of some strange bird.",
+      "translation": "Gözleri kapalı, siyah lüle taşı piposu garip bir kuşun gagası gibi öne fırlamış halde öylece oturdu.",
+      "notes": "Sayfa 13 | clay pipe: kilden/lüleden pipo; bill of a bird: kuş gagası."
+    },
+    {
+      "id": 245,
+      "start_ms": 1575124,
+      "end_ms": 1580740,
+      "text": "I had come to the conclusion that he had dropped asleep, when he suddenly sprang out of his chair.",
+      "translation": "Onun uyuyakaldığı sonucuna varmıştım ki aniden koltuğundan yay gibi fırladı.",
+      "notes": "Sayfa 13 | sprang out: yay gibi fırlamak."
+    },
+    {
+      "id": 246,
+      "start_ms": 1581140,
+      "end_ms": 1586684,
+      "text": "He set his pipe down upon the mantelpiece with the gesture of a man who has made up his mind.",
+      "translation": "Kararını vermiş bir adamın kararlılığıyla piposunu şömine rafına bıraktı.",
+      "notes": "Sayfa 13 | mantelpiece: şömine rafı; made up his mind: kararını vermiş."
+    },
+    {
+      "id": 247,
+      "start_ms": 1587084,
+      "end_ms": 1592028,
+      "text": "\"Sarasate plays at the St. James's Hall this afternoon,\" he remarked.",
+      "translation": "\"Bu öğleden sonra St. James Salonu'nda Sarasate keman çalıyor,\" dedi.",
+      "notes": "Sayfa 13 | Sarasate: dönemin dünyaca ünlü İspanyol keman virtüözü."
+    },
+    {
+      "id": 248,
+      "start_ms": 1592428,
+      "end_ms": 1597972,
+      "text": "\"What do you say, Watson? Could your patients spare you for a few hours?\"",
+      "translation": "\"Ne dersin Watson? Hastaların seni birkaç saatliğine mazur görebilir mi?\"",
+      "notes": "Sayfa 13 | spare you: seni idare etmek, yokluğuna katlanmak."
+    },
+    {
+      "id": 249,
+      "start_ms": 1598372,
+      "end_ms": 1603820,
+      "text": "\"I have nothing to do to-day. My practice is never very absorbing.\"",
+      "translation": "\"Bugün hiçbir işim yok. Hekimliğim beni hiçbir zaman tamamen bağlamaz.\"",
+      "notes": "Sayfa 13 | absorbing: insanı tamamen meşgul eden/tutan."
+    },
+    {
+      "id": 250,
+      "start_ms": 1604220,
+      "end_ms": 1611252,
+      "text": "\"Then put on your hat and come. I am going through the City first, and we can have some lunch on the way.\"",
+      "translation": "\"Öyleyse şapkanı tak ve gel. Önce City bölgesine uğrayacağım; yolda da biraz öğle yemeği atıştırabiliriz.\"",
+      "notes": "Sayfa 13 | put on your hat: şapkanı tak."
+    },
+    {
+      "id": 251,
+      "start_ms": 1611652,
+      "end_ms": 1619020,
+      "text": "\"I observe that there is a good deal of German music on the programme, which is rather more to my taste than Italian or French.\"",
+      "translation": "\"Programda bolca Alman müziği olduğunu görüyorum; bu da İtalyan veya Fransız müziğine kıyasla zevkime çok daha uygun.\"",
+      "notes": "Sayfa 13 | to my taste: zevkime/beğenime göre."
+    },
+    {
+      "id": 252,
+      "start_ms": 1619420,
+      "end_ms": 1624556,
+      "text": "\"It is introspective, and I want to introspect. Come along!\"",
+      "translation": "\"Alman müziği içe dönüktür ve ben de iç dünyamda derin bir tefekküre dalmak istiyorum. Haydi düş peşime!\"",
+      "notes": "Sayfa 13 | introspect: iç gözlem yapmak, derin düşünmek."
+    },
+    {
+      "id": 253,
+      "start_ms": 1624956,
+      "end_ms": 1631484,
+      "text": "We traveled by the Underground as far as Aldersgate; and a short walk took us to Saxe-Coburg Square.",
+      "translation": "Metroyu kullanarak Aldersgate durağına kadar gittik; kısa bir yürüyüş bizi Saxe-Coburg Meydanı'na ulaştırdı.",
+      "notes": "Sayfa 13 | the Underground: Londra metrosu."
+    },
+    {
+      "id": 254,
+      "start_ms": 1631884,
+      "end_ms": 1640380,
+      "text": "It was a poky, little, shabby-genteel place, where four lines of dingy two-storied brick houses looked upon a railed-in enclosure.",
+      "translation": "Dört sıra kasvetli iki katlı tuğla evin parmaklıklarla çevrili bir avluya baktığı, dar, hırpani ama eskiden soylu olan bir yerdi.",
+      "notes": "Sayfa 13 | shabby-genteel: eski soyluluğu kalmamış, yıpranmış; poky: daracık, basık."
+    },
+    {
+      "id": 255,
+      "start_ms": 1640780,
+      "end_ms": 1647644,
+      "text": "Three gilt balls and a brown board with 'JABEZ WILSON' in white letters announced the pawnbroker's shop.",
+      "translation": "Üç yaldızlı küre ve üzerinde beyaz harflerle 'JABEZ WILSON' yazan kahverengi bir tabela rehinci dükkanını haber veriyordu.",
+      "notes": "Sayfa 13 | three gilt balls: rehincilerin tarihi simgesi olan üç altın küre."
+    },
+    {
+      "id": 256,
+      "start_ms": 1648044,
+      "end_ms": 1653108,
+      "text": "Sherlock Holmes stopped in front of it and looked it all over with tremendous attention.",
+      "translation": "Sherlock Holmes dükkanın önünde durdu ve olağanüstü bir dikkatle her köşesini baştan aşağı süzdü.",
+      "notes": "Sayfa 13 | tremendous attention: muazzam bir pürdikkat."
+    },
+    {
+      "id": 257,
+      "start_ms": 1653508,
+      "end_ms": 1660396,
+      "text": "Then he walked slowly up the street, and then down again to the corner, still looking keenly at the houses.",
+      "translation": "Ardından sokakta yavaşça yukarı doğru yürüdü, sonra tekrar köşeye indi; gözleri hâlâ keskin bir dikkatle binalardaydı.",
+      "notes": "Sayfa 13 | keenly: keskin ve dikkatli şekilde."
+    },
+    {
+      "id": 258,
+      "start_ms": 1660796,
+      "end_ms": 1670372,
+      "text": "Finally he returned to the pawnbroker's, and, having thumped vigorously upon the pavement with his stick two or three times, he went up to the door and knocked.",
+      "translation": "En sonunda rehinciye geri döndü; bastonuyla kaldırım taşlarına iki üç kez var gücüyle vurduktan sonra kapıya yönelip çaldı.",
+      "notes": "Sayfa 13 | thumped vigorously: var gücüyle küt küt vurmak."
+    },
+    {
+      "id": 259,
+      "start_ms": 1670772,
+      "end_ms": 1677180,
+      "text": "It was instantly opened by a sharp-looking, clean-shaven young fellow, who asked him to step in.",
+      "translation": "Kapı, uyanık bakışlı, sinekkaydı tıraşlı genç bir adam tarafından derhal açıldı ve onu içeri buyur etti.",
+      "notes": "Sayfa 13 | clean-shaven: sinekkaydı tıraş olmuş; sharp-looking: uyanık bakışlı."
+    },
+    {
+      "id": 260,
+      "start_ms": 1677580,
+      "end_ms": 1683388,
+      "text": "\"Thank you,\" said Holmes, \"I only wished to ask you how you would go from here to the Strand.\"",
+      "translation": "Holmes, \"Teşekkür ederim,\" dedi, \"yalnızca buradan Strand caddesine nasıl gideceğimi sormak istemiştim.\"",
+      "notes": "Sayfa 13 | the Strand: Londra'nın ünlü ana caddesi."
+    },
+    {
+      "id": 261,
+      "start_ms": 1684388,
+      "end_ms": 1690628,
+      "text": "\"Third right, fourth left,\" answered the assistant promptly, closing the door in our faces.",
+      "translation": "Yardımcı, \"Üçüncü sağdan, dördüncü soldan,\" diye hemen yanıtladı ve kapıyı yüzümüze kapattı.",
+      "notes": "Sayfa 14 | promptly: vakit kaybetmeden."
+    },
+    {
+      "id": 262,
+      "start_ms": 1691028,
+      "end_ms": 1696260,
+      "text": "\"Smart fellow, that,\" observed Holmes as we walked away down the street.",
+      "translation": "Sokakta uzaklaşırken Holmes, \"Pek uyanık bir delikanlı,\" diye belirtti.",
+      "notes": "Sayfa 14 | smart fellow: uyanık, cin gibi adam."
+    },
+    {
+      "id": 263,
+      "start_ms": 1696660,
+      "end_ms": 1704604,
+      "text": "\"He is, in my judgment, the fourth smartest man in London, and for daring I am not sure that he has not a claim to be third.\"",
+      "translation": "\"Bana göre Londra'daki en zeki dördüncü adamdır; cüretkarlıkta ise üçüncülük hakkı olduğuna hiç şüphem yok.\"",
+      "notes": "Sayfa 14 | for daring: cüretkarlık ve gözüpeklik bakımından."
+    },
+    {
+      "id": 264,
+      "start_ms": 1705004,
+      "end_ms": 1710044,
+      "text": "\"I have known something of him before,\" he added, looking thoughtfully ahead.",
+      "translation": "Düşünceli bir şekilde önüne bakarak, \"Onun hakkında daha önceden bazı şeyler biliyordum,\" diye ekledi.",
+      "notes": "Sayfa 14 | known something of him: hakkında bilgi sahibi olmak."
+    },
+    {
+      "id": 265,
+      "start_ms": 1710444,
+      "end_ms": 1716132,
+      "text": "\"Evidently,\" said I, \"Mr. Wilson's assistant counts for a good deal in this mystery.\"",
+      "translation": "\"Belli ki,\" dedim, \"Bay Wilson'ın yardımcısı bu gizemde çok büyük bir rol oynuyor.\"",
+      "notes": "Sayfa 14 | counts for a good deal: büyük önem taşımak/rol oynamak."
+    },
+    {
+      "id": 266,
+      "start_ms": 1716532,
+      "end_ms": 1720252,
+      "text": "\"I take it that you asked your way merely that you might see him?\"",
+      "translation": "\"Yol tarifini sırf onu görebilmek amacıyla sordun sanırım?\"",
+      "notes": "Sayfa 14 | merely that you might see: sırf görebilmek için."
+    },
+    {
+      "id": 267,
+      "start_ms": 1720652,
+      "end_ms": 1723364,
+      "text": "\"Not him,\" Holmes replied.",
+      "translation": "Holmes, \"Onu değil,\" diye yanıt verdi.",
+      "notes": "Sayfa 14 | Not him: Onu değil."
+    },
+    {
+      "id": 268,
+      "start_ms": 1723764,
+      "end_ms": 1725636,
+      "text": "\"What then?\"",
+      "translation": "\"Neyi peki?\"",
+      "notes": "Sayfa 14 | What then: Öyleyse neyi?"
+    },
+    {
+      "id": 269,
+      "start_ms": 1726036,
+      "end_ms": 1728532,
+      "text": "\"The knees of his trousers.\"",
+      "translation": "\"Pantolonunun dizlerini.\"",
+      "notes": "Sayfa 14 | knees of trousers: pantolon dizleri."
+    },
+    {
+      "id": 270,
+      "start_ms": 1728932,
+      "end_ms": 1733300,
+      "text": "\"And what did you see?\" I asked in astonishment.",
+      "translation": "Hayretle, \"Peki ne gördün?\" diye sordum.",
+      "notes": "Sayfa 14 | in astonishment: hayretle."
+    },
+    {
+      "id": 271,
+      "start_ms": 1733700,
+      "end_ms": 1736052,
+      "text": "\"What I expected to see.\"",
+      "translation": "\"Görmeyi beklediğim şeyi.\"",
+      "notes": "Sayfa 14 | what I expected: beklediğim şeyi."
+    },
+    {
+      "id": 272,
+      "start_ms": 1736452,
+      "end_ms": 1739476,
+      "text": "\"Why did you beat the pavement with your stick?\"",
+      "translation": "\"Peki neden bastonunla kaldırım taşlarına küt küt vurdun?\"",
+      "notes": "Sayfa 14 | beat the pavement: kaldırıma vurmak."
+    },
+    {
+      "id": 273,
+      "start_ms": 1739876,
+      "end_ms": 1747652,
+      "text": "\"My dear doctor, this is a time for observation, not for talk. We are spies in an enemy's country.\"",
+      "translation": "\"Azizim doktor, şimdi konuşma değil, gözlem yapma vaktidir. Düşman ülkesindeki casuslar gibiyiz.\"",
+      "notes": "Sayfa 14 | spies in an enemy's country: düşman toprağındaki casuslar."
+    },
+    {
+      "id": 274,
+      "start_ms": 1748052,
+      "end_ms": 1754892,
+      "text": "\"We know something of Saxe-Coburg Square. Let us now explore the parts which lie behind it.\"",
+      "translation": "\"Saxe-Coburg Meydanı hakkında biraz bilgi sahibi olduk. Şimdi hemen arkasında uzanan kısımları keşfedelim.\"",
+      "notes": "Sayfa 14 | explore the parts: arkadaki kısımları keşfetmek."
+    },
+    {
+      "id": 275,
+      "start_ms": 1755292,
+      "end_ms": 1764988,
+      "text": "The road in which we found ourselves as we turned round the corner from the retired Saxe-Coburg Square presented as great a contrast to it as the front of a picture does to the back.",
+      "translation": "Sakin Saxe-Coburg Meydanı'nın köşesini döndüğümüzde kendimizi bulduğumuz cadde, bir tablonun ön yüzü ile arkası kadar büyük bir tezat oluşturuyordu.",
+      "notes": "Sayfa 14 | great contrast: muazzam zıtlık/tezat; retired: sakin, köşeye çekilmiş."
+    },
+    {
+      "id": 276,
+      "start_ms": 1765388,
+      "end_ms": 1770812,
+      "text": "It was one of the main arteries which conveyed the traffic of the City to the north and west.",
+      "translation": "City'nin trafiğini kuzeye ve batıya taşıyan ana damarlardan biriydi burası.",
+      "notes": "Sayfa 14 | main arteries: ana arterler, büyük caddeler."
+    },
+    {
+      "id": 277,
+      "start_ms": 1771212,
+      "end_ms": 1776372,
+      "text": "The roadway was blocked with the immense stream of commerce flowing in a double tide.",
+      "translation": "Yol, çift yönlü bir akıntı gibi çağlayan muazzam bir ticaret seliyle tıkanmıştı.",
+      "notes": "Sayfa 14 | stream of commerce: ticaret akışı; double tide: çift yönlü medcezir akıntısı."
+    },
+    {
+      "id": 278,
+      "start_ms": 1776772,
+      "end_ms": 1781404,
+      "text": "While the footpaths were black with the hurrying swarms of pedestrians.",
+      "translation": "Kaldırımlar ise aceleyle koşturan insan sürüleriyle simsiyahtı.",
+      "notes": "Sayfa 14 | swarms of pedestrians: yaya sürüleri/kalabalıkları."
+    },
+    {
+      "id": 279,
+      "start_ms": 1781804,
+      "end_ms": 1792340,
+      "text": "It was difficult to realize as we looked at the line of fine shops and stately business premises that they really abutted on the other side upon the faded and stagnant square which we had just quitted.",
+      "translation": "O şık dükkanlar dizisine ve görkemli iş binalarına bakarken, bunların arka taraflarının az önce ayrıldığımız o solgun ve durgun meydana dayandığına inanmak neredeyse imkansızdı.",
+      "notes": "Sayfa 14 | abutted upon: bir yere sırtını dayamak; stately: heybetli, görkemli."
+    },
+    {
+      "id": 280,
+      "start_ms": 1792740,
+      "end_ms": 1800876,
+      "text": "\"Let me see,\" said Holmes, standing at the corner and glancing along the line, \"I should like just to remember the order of the houses here.\"",
+      "translation": "Köşede durup binalar sırasına göz gezdiren Holmes, \"Bakalım,\" dedi, \"buradaki binaların sırasını aklımda tam olarak tutmak isterim.\"",
+      "notes": "Sayfa 14 | order of the houses: binaların diziliş sırası."
+    },
+    {
+      "id": 281,
+      "start_ms": 1801876,
+      "end_ms": 1806724,
+      "text": "\"It is a hobby of mine to have an exact knowledge of London,\" said Holmes.",
+      "translation": "Holmes, \"Londra hakkında kusursuz bir bilgiye sahip olmak benim bir hobimdir,\" dedi.",
+      "notes": "Sayfa 15 | exact knowledge: eksiksiz, dakik bilgi."
+    },
+    {
+      "id": 282,
+      "start_ms": 1807124,
+      "end_ms": 1817780,
+      "text": "\"There is Mortimer's, the tobacconist, the little newspaper shop, the Coburg branch of the City and Suburban Bank, the Vegetarian Restaurant, and the carriage-building depot.\"",
+      "translation": "\"Şurada tütüncü Mortimer var, yanında küçük gazete bayi, Şehir ve Banliyö Bankası'nın Coburg şubesi, Vejetaryen Restoranı ve fayton tamir atölyesi.\"",
+      "notes": "Sayfa 15 | carriage-building depot: araba imal ve tamir deposu."
+    },
+    {
+      "id": 283,
+      "start_ms": 1818180,
+      "end_ms": 1826268,
+      "text": "\"That carries us right on to the other block. And now, Doctor, our work is done, and it's time for some play.\"",
+      "translation": "\"Bu bizi diğer adaya kadar götürüyor. Ve şimdi Doktor, işimiz bitti; biraz eğlenme vakti geldi.\"",
+      "notes": "Sayfa 15 | time for some play: biraz keyif çatma/dinlenme vakti."
+    },
+    {
+      "id": 284,
+      "start_ms": 1826668,
+      "end_ms": 1833988,
+      "text": "\"A sandwich and a cup of coffee, and then off to violin-land, where all is sweetness and delicacy and harmony.\"",
+      "translation": "\"Bir sandviç ile bir fincan kahve; sonra da her şeyin tatlılık, zarafet ve ahenkten ibaret olduğu kemanlar diyarına!\"",
+      "notes": "Sayfa 15 | violin-land: kemanlar diyarı; delicacy: zarafet, incelik."
+    },
+    {
+      "id": 285,
+      "start_ms": 1834388,
+      "end_ms": 1839692,
+      "text": "\"There are no red-headed clients to vex us with their conundrums in St. James's Hall.\"",
+      "translation": "\"St. James Salonu'nda bilmeceleriyle canımızı sıkacak kızıl kafalı müvekkiller yok nasılsa.\"",
+      "notes": "Sayfa 15 | vex us: canımızı sıkmak; conundrums: çetrefilli bilmeceler."
+    },
+    {
+      "id": 286,
+      "start_ms": 1840092,
+      "end_ms": 1848372,
+      "text": "My friend was an enthusiastic musician, being himself not only a very capable performer but a composer of no ordinary merit.",
+      "translation": "Dostum tutkulu bir müzisyendi; yalnızca çok yetenekli bir icracı olmakla kalmayıp, sıradan olmayan değerde besteler yapan bir besteciydi.",
+      "notes": "Sayfa 15 | composer of no ordinary merit: üstün meziyetli bir besteci."
+    },
+    {
+      "id": 287,
+      "start_ms": 1848772,
+      "end_ms": 1853692,
+      "text": "All the afternoon he sat in the stalls wrapped in the most perfect happiness.",
+      "translation": "Bütün öğleden sonra boyunca parter koltuklarında kusursuz bir mutluluğa sarınmış halde oturdu.",
+      "notes": "Sayfa 15 | stalls: tiyatro/konser salonu ön koltukları."
+    },
+    {
+      "id": 288,
+      "start_ms": 1854092,
+      "end_ms": 1860404,
+      "text": "Gently waving his long, thin fingers in time to the music, with his gently smiling eyes.",
+      "translation": "Tatlı tatlı gülümseyen gözleriyle, uzun ince parmaklarını müziğin ritmine göre hafifçe sallıyordu.",
+      "notes": "Sayfa 15 | in time to the music: müziğin ritmine uyarak."
+    },
+    {
+      "id": 289,
+      "start_ms": 1860804,
+      "end_ms": 1866972,
+      "text": "His languid, dreamy eyes were as unlike those of Holmes the sleuth-hound as could well be imagined.",
+      "translation": "O süzgün, hülyalı gözleri, iz peşindeki bir tazı gibi olan dedektif Holmes'ün bakışlarından hayal edilebilecek kadar uzaktı.",
+      "notes": "Sayfa 15 | sleuth-hound: iz süren av köpeği, hafiye; languid: baygın, süzgün."
+    },
+    {
+      "id": 290,
+      "start_ms": 1867372,
+      "end_ms": 1872292,
+      "text": "In his singular character, the dual nature alternately asserted itself.",
+      "translation": "Onun o eşsiz karakterinde, çift yönlü fıtratı nöbetleşe kendini gösteriyordu.",
+      "notes": "Sayfa 15 | dual nature: ikili doğa/mizaç; alternately: sırayla, nöbetleşe."
+    },
+    {
+      "id": 291,
+      "start_ms": 1872692,
+      "end_ms": 1881020,
+      "text": "His extreme exactness and astuteness represented the reaction against the poetic and contemplative mood which occasionally predominated in him.",
+      "translation": "Aşırı dikkati ve keskin zekası, zaman zaman onda baskın çıkan şiirsel ve tefekküre dalan ruh haline karşı bir denge oluşturuyordu.",
+      "notes": "Sayfa 15 | astuteness: cin gibi uyanıklık, keskin zeka; contemplative: derin düşüncelere dalan."
+    },
+    {
+      "id": 292,
+      "start_ms": 1881420,
+      "end_ms": 1886556,
+      "text": "The swing of his nature had conducted him from extreme languor to devouring energy.",
+      "translation": "Karakterinin bu salınımı, onu aşırı bir uyuşukluktan yiyip bitiren bir enerjiye savururdu.",
+      "notes": "Sayfa 15 | swing of his nature: mizacının zıt kutuplar arasındaki salınımı."
+    },
+    {
+      "id": 293,
+      "start_ms": 1886956,
+      "end_ms": 1896052,
+      "text": "I knew too well that he was never so truly formidable as when, for days on end, he had been lounging in his armchair amid his improvisations.",
+      "translation": "Günler boyunca koltuğunda doğaçlama keman ezgileri arasında tembellik ettikten sonra hiçbir zaman bu kadar korkutucu olmadığını çok iyi biliyordum.",
+      "notes": "Sayfa 15 | truly formidable: gerçekten ürkütücü ve güçlü."
+    },
+    {
+      "id": 294,
+      "start_ms": 1896452,
+      "end_ms": 1904228,
+      "text": "Then it was that the lust of the chase would suddenly come upon him, and that his brilliant reasoning power would rise to the level of intuition.",
+      "translation": "İşte tam o anlarda avlanma tutkusu birdenbire üzerine çöker ve o parlak akıl yürütme kudreti adeta ilahi bir sezgi seviyesine yükselirdi.",
+      "notes": "Sayfa 15 | lust of the chase: avlanma/iz sürme ihtirası; intuition: sezgi."
+    },
+    {
+      "id": 295,
+      "start_ms": 1904628,
+      "end_ms": 1911732,
+      "text": "Until those who were unacquainted with his methods would look askance at him as on a man whose knowledge was not that of other mortals.",
+      "translation": "Öyle ki onun yöntemlerini bilmeyenler, bilgisi diğer fanilere benzemeyen bir adama bakar gibi ona kuşku ve hayretle bakarlardı.",
+      "notes": "Sayfa 15 | look askance: şüpheyle yan gözle bakmak; mortals: ölümlüler, faniler."
+    },
+    {
+      "id": 296,
+      "start_ms": 1912132,
+      "end_ms": 1920172,
+      "text": "When I saw him that afternoon so enwrapped in the music, I felt that an evil time was darkling for those whom he had set himself to pursue.",
+      "translation": "O öğleden sonra müziğe böylesine dalmış olduğunu gördüğümde, peşine düşmeye ant içtiği kişiler için kara günlerin yaklaştığını derinden hissettim.",
+      "notes": "Sayfa 15 | darkling: kararmakta olan, yaklaşan felaket."
+    },
+    {
+      "id": 297,
+      "start_ms": 1920572,
+      "end_ms": 1926236,
+      "text": "\"You want to go home, no doubt, Doctor,\" he remarked as we emerged from the hall.",
+      "translation": "Salondan dışarı çıktığımızda, \"Şüphesiz eve dönmek istiyorsun Doktor,\" dedi.",
+      "notes": "Sayfa 15 | no doubt: şüphesiz."
+    },
+    {
+      "id": 298,
+      "start_ms": 1926636,
+      "end_ms": 1929300,
+      "text": "\"Yes, it would be as well.\"",
+      "translation": "\"Evet, fena olmaz doğrusu.\"",
+      "notes": "Sayfa 15 | it would be as well: iyi olurdu."
+    },
+    {
+      "id": 299,
+      "start_ms": 1929700,
+      "end_ms": 1936924,
+      "text": "\"And I have some business to do which will take some hours. This business at Coburg Square is serious.\"",
+      "translation": "\"Benim de birkaç saat sürecek bir işim var. Coburg Meydanı'ndaki bu iş çok ciddi.\"",
+      "notes": "Sayfa 15 | serious: ciddi, mühim."
+    },
+    {
+      "id": 300,
+      "start_ms": 1937324,
+      "end_ms": 1940972,
+      "text": "\"Why serious?\" I asked.",
+      "translation": "\"Neden ciddi?\" diye sordum.",
+      "notes": "Sayfa 15 | Why serious?: Neden ciddi?"
+    },
+    {
+      "id": 301,
+      "start_ms": 1941972,
+      "end_ms": 1946580,
+      "text": "\"A considerable crime is in contemplation,\" said Holmes gravely.",
+      "translation": "Holmes ciddiyetle, \"Çok büyük bir suç tasarlanıyor,\" dedi.",
+      "notes": "Sayfa 16 | in contemplation: tasarlanmakta, planlanmakta."
+    },
+    {
+      "id": 302,
+      "start_ms": 1946980,
+      "end_ms": 1951132,
+      "text": "\"I have every reason to believe that we shall be in time to stop it.\"",
+      "translation": "\"Onu durdurmak için tam vaktinde yetişeceğimize inanmak için her türlü sebebim var.\"",
+      "notes": "Sayfa 16 | in time to stop: durdurmaya zamanında yetişmek."
+    },
+    {
+      "id": 303,
+      "start_ms": 1951532,
+      "end_ms": 1957652,
+      "text": "\"Today being Saturday rather complicates matters. I shall want your help to-night.\"",
+      "translation": "\"Bugünün cumartesi olması işleri biraz karmaşıklaştırıyor. Bu gece yardımına ihtiyacım olacak.\"",
+      "notes": "Sayfa 16 | complicates matters: işleri karmaşıklaştırır."
+    },
+    {
+      "id": 304,
+      "start_ms": 1958052,
+      "end_ms": 1961484,
+      "text": "\"At what time?\" I asked.",
+      "translation": "\"Hangi saatte?\" diye sordum.",
+      "notes": "Sayfa 16 | At what time?: Saat kaçta?"
+    },
+    {
+      "id": 305,
+      "start_ms": 1961884,
+      "end_ms": 1964308,
+      "text": "\"Ten will be early enough.\"",
+      "translation": "\"Saat on yeterince erken sayılır.\"",
+      "notes": "Sayfa 16 | early enough: yeterince erken."
+    },
+    {
+      "id": 306,
+      "start_ms": 1964708,
+      "end_ms": 1967612,
+      "text": "\"I shall be at Baker Street at ten.\"",
+      "translation": "\"Saat onda Baker Street'te olacağım.\"",
+      "notes": "Sayfa 16 | at Baker Street: Baker Sokağı'nda."
+    },
+    {
+      "id": 307,
+      "start_ms": 1968012,
+      "end_ms": 1976724,
+      "text": "\"Very well. And, I say, Doctor, there may be some little danger, so kindly put your army revolver in your pocket.\"",
+      "translation": "\"Pekala. Ve şunu da söyleyeyim Doktor, birazcık tehlike olabilir; bu yüzden ordu tabancanı lütfen cebine koyuver.\"",
+      "notes": "Sayfa 16 | army revolver: ordu tipi altıpatlar tabanca."
+    },
+    {
+      "id": 308,
+      "start_ms": 1977124,
+      "end_ms": 1982788,
+      "text": "He waved his hand, turned on his heel, and disappeared in an instant among the crowd.",
+      "translation": "Elini salladı, topukları üzerinde döndü ve bir anda kalabalığın arasında gözden kayboldu.",
+      "notes": "Sayfa 16 | turned on his heel: aniden topukları üzerinde dönmek."
+    },
+    {
+      "id": 309,
+      "start_ms": 1983188,
+      "end_ms": 1991108,
+      "text": "I am not more stupid than my neighbours, but I was always oppressed with a sense of my own stupidity in my dealings with Sherlock Holmes.",
+      "translation": "Komşularımdan daha aptal biri değilim; fakat Sherlock Holmes ile olan münasebetlerimde kendi kıt aklımın ağırlığı altında daima ezilirdim.",
+      "notes": "Sayfa 16 | oppressed with sense of stupidity: kendi ahmaklığı hissiyle ezilmek."
+    },
+    {
+      "id": 310,
+      "start_ms": 1991508,
+      "end_ms": 1999740,
+      "text": "Here I had heard what he had heard, I had seen what he had seen, and yet from his words it was evident that he saw clearly what was about to happen.",
+      "translation": "İşte onun duyduğu her şeyi ben de duymuştum, onun gördüğü her şeyi ben de görmüştüm; yine de sözlerinden, neler olacağını gün gibi açıkça gördüğü aşikardı.",
+      "notes": "Sayfa 16 | what was about to happen: ne olmak üzere olduğunu."
+    },
+    {
+      "id": 311,
+      "start_ms": 2000140,
+      "end_ms": 2004436,
+      "text": "While to me the whole business was still confused and grotesque.",
+      "translation": "Bana göre ise bütün bu mesele hâlâ karmakarışık ve tuhaftı.",
+      "notes": "Sayfa 16 | grotesque: garip, acayip."
+    },
+    {
+      "id": 312,
+      "start_ms": 2004836,
+      "end_ms": 2010140,
+      "text": "I drove home to Kensington, and thought the whole matter over during my evening journey.",
+      "translation": "Kensington'daki evime arabayla gittim ve akşam yolculuğum boyunca bütün bu meseleyi etraflıca düşündüm.",
+      "notes": "Sayfa 16 | thought over: etraflıca düşünmek."
+    },
+    {
+      "id": 313,
+      "start_ms": 2010540,
+      "end_ms": 2015388,
+      "text": "What could be expected from this night's expedition, and why should I go armed?",
+      "translation": "Bu geceki seferden ne beklenebilirdi ve ben neden silahlı gitmek zorundaydım?",
+      "notes": "Sayfa 16 | go armed: silahlanmış olarak gitmek."
+    },
+    {
+      "id": 314,
+      "start_ms": 2015788,
+      "end_ms": 2018932,
+      "text": "Where were we going, and what were we to do?",
+      "translation": "Nereye gidiyorduk ve ne yapacaktık?",
+      "notes": "Sayfa 16 | what were we to do: ne yapmamız gerekiyordu."
+    },
+    {
+      "id": 315,
+      "start_ms": 2019332,
+      "end_ms": 2027084,
+      "text": "I had the hint from Holmes that this smooth-faced pawnbroker's assistant was a formidable man—a man who might play a deep game.",
+      "translation": "Holmes'ten bu sinekkaydı tıraşlı rehinci çırağının dişli bir adam olduğu, derin oyunlar oynayabilecek bir kimse olduğu yönünde bir ipucu almıştım.",
+      "notes": "Sayfa 16 | play a deep game: derin oyunlar oynamak."
+    },
+    {
+      "id": 316,
+      "start_ms": 2027484,
+      "end_ms": 2034468,
+      "text": "I tried to puzzle it out, but I gave it up in despair and set the matter aside until night should bring an explanation.",
+      "translation": "Bunu çözmeye çalıştım fakat umutsuzlukla vazgeçtim ve gece gereken açıklamayı getirene dek konuyu bir kenara bıraktım.",
+      "notes": "Sayfa 16 | puzzle it out: bilmeceyi çözmek; set aside: kenara koymak."
+    },
+    {
+      "id": 317,
+      "start_ms": 2034868,
+      "end_ms": 2040076,
+      "text": "It was a quarter past nine when I started from home and made my way to Baker Street.",
+      "translation": "Evden çıkıp Baker Street'e doğru yola koyulduğumda saat dokuzu çeyrek geçiyordu.",
+      "notes": "Sayfa 16 | made my way: yolunu tuttu."
+    },
+    {
+      "id": 318,
+      "start_ms": 2040476,
+      "end_ms": 2045204,
+      "text": "Two hansoms were standing at the door when I reached the well-known lodgings.",
+      "translation": "Tanıdık pansiyona vardığımda kapının önünde iki adet tek atlı kiralık fayton bekliyordu.",
+      "notes": "Sayfa 16 | two hansoms: iki fayton."
+    },
+    {
+      "id": 319,
+      "start_ms": 2045604,
+      "end_ms": 2050164,
+      "text": "As I entered the passage, I heard the sound of voices from above.",
+      "translation": "Holün girişine adım attığımda yukarıdan gelen konuşma seslerini duydum.",
+      "notes": "Sayfa 16 | sound of voices: insan sesleri."
+    },
+    {
+      "id": 320,
+      "start_ms": 2050564,
+      "end_ms": 2055892,
+      "text": "On entering his room, I found Holmes in animated conversation with two men.",
+      "translation": "Odaya girdiğimde Holmes'ü iki adamla hararetli bir sohbet içinde buldum.",
+      "notes": "Sayfa 16 | animated conversation: canlı, hararetli konuşma."
+    },
+    {
+      "id": 321,
+      "start_ms": 2056892,
+      "end_ms": 2062388,
+      "text": "One of the men was Peter Jones, the official police detective from Scotland Yard.",
+      "translation": "Adamlardan biri Scotland Yard'dan resmi polis hafiyesi Peter Jones idi.",
+      "notes": "Sayfa 17 | official police detective: resmi polis hafiyesi."
+    },
+    {
+      "id": 322,
+      "start_ms": 2062788,
+      "end_ms": 2070228,
+      "text": "The other was a long, thin, sad-faced man, with a very shiny hat and oppressively respectable frock-coat.",
+      "translation": "Diğeri ise pırıl pırıl parlayan silindir şapkası ve aşırı saygın redingotu olan, uzun boylu, zayıf, kederli yüzlü bir adamdı.",
+      "notes": "Sayfa 17 | oppressively respectable: aşırı derecede, boğucu şekilde saygın."
+    },
+    {
+      "id": 323,
+      "start_ms": 2070628,
+      "end_ms": 2076676,
+      "text": "\"Ha! Our party is complete,\" said Holmes, buttoning up his pea-jacket.",
+      "translation": "Denizci kabanını ilikleyen Holmes, \"Ha! Grubumuz tamamlandı,\" dedi.",
+      "notes": "Sayfa 17 | party is complete: ekip tamamlandı; pea-jacket: kalın denizci ceketi."
+    },
+    {
+      "id": 324,
+      "start_ms": 2077076,
+      "end_ms": 2084564,
+      "text": "\"Watson, I think you know Mr. Jones, of Scotland Yard? Let me introduce you to Mr. Merryweather.\"",
+      "translation": "\"Watson, sanırım Scotland Yard'dan Bay Jones'u tanıyorsun? Seni Bay Merryweather ile tanıştırayım.\"",
+      "notes": "Sayfa 17 | introduce to: biriyle tanıştırmak."
+    },
+    {
+      "id": 325,
+      "start_ms": 2084964,
+      "end_ms": 2091084,
+      "text": "\"Mr. Merryweather is to be our companion in to-night's adventure, as he is the director of the bank.\"",
+      "translation": "\"Banka müdürü olduğu için Bay Merryweather bu geceki maceramızda bize yoldaşlık edecek.\"",
+      "notes": "Sayfa 17 | director of the bank: banka yönetim kurulu başkanı/müdürü."
+    },
+    {
+      "id": 326,
+      "start_ms": 2091484,
+      "end_ms": 2097460,
+      "text": "\"We're hunting in couples again, Doctor, you see,\" said Jones in his consequential way.",
+      "translation": "Jones o havalı edasıyla, \"Görüyorsun ya Doktor, yine çifter çifter ava çıkıyoruz,\" dedi.",
+      "notes": "Sayfa 17 | consequential way: havalı, kendini mühimseyen tavır."
+    },
+    {
+      "id": 327,
+      "start_ms": 2097860,
+      "end_ms": 2105996,
+      "text": "\"Our friend here is a wonderful man for starting a chase. All he wants is an old dog to help him to run down the quarry.\"",
+      "translation": "\"Buradaki dostumuz iz sürmeyi başlatmada harikadır. Tek ihtiyacı, avı sıkıştırmasına yardım edecek tecrübeli yaşlı bir tazıdır.\"",
+      "notes": "Sayfa 17 | quarry: av, peşine düşülen hedef."
+    },
+    {
+      "id": 328,
+      "start_ms": 2106396,
+      "end_ms": 2112708,
+      "text": "\"I hope a wild goose may not prove to be the end of our chase,\" observed Mr. Merryweather gloomily.",
+      "translation": "Bay Merryweather kederli bir ifadeyle, \"Umarım takibimizin sonu bir yaban kazı avına, yani nafile bir çabaya çıkmaz,\" dedi.",
+      "notes": "Sayfa 17 | wild goose chase: nafile, boşuna çaba (deyim)."
+    },
+    {
+      "id": 329,
+      "start_ms": 2113108,
+      "end_ms": 2119444,
+      "text": "\"You may place considerable confidence in Mr. Holmes, sir,\" said the police detective loftily.",
+      "translation": "Polis hafiyesi üstten bir tavırla, \"Bay Holmes'e son derece güvenebilirsiniz efendim,\" dedi.",
+      "notes": "Sayfa 17 | place considerable confidence: büyük güven duymak."
+    },
+    {
+      "id": 330,
+      "start_ms": 2119844,
+      "end_ms": 2127668,
+      "text": "\"He has his own little methods, which are, if he won't mind my saying so, just a little too theoretical and fantastic.\"",
+      "translation": "\"Kendine has küçük yöntemleri vardır; söylememi mazur görürse birazcık fazla nazari ve fantastiktir.\"",
+      "notes": "Sayfa 17 | theoretical: teorik, nazari."
+    },
+    {
+      "id": 331,
+      "start_ms": 2128068,
+      "end_ms": 2134548,
+      "text": "\"He has the makings of a detective in him, though; he was not over-far from the mark once or twice.\"",
+      "translation": "\"Yine de içinde bir hafiye kumaşı var; bir iki defa hedeften pek de uzak düşmedi hani.\"",
+      "notes": "Sayfa 17 | makings of a detective: hafiye olma kumaşı/yeteneği."
+    },
+    {
+      "id": 332,
+      "start_ms": 2134948,
+      "end_ms": 2141428,
+      "text": "\"Since you speak so confidently, Mr. Jones, it may be so,\" said the banker with a sigh.",
+      "translation": "Bankacı iç çekerek, \"Böyle kendinizden emin konuştuğunuza göre Bay Jones, belki de öyledir,\" dedi.",
+      "notes": "Sayfa 17 | with a sigh: iç çekerek."
+    },
+    {
+      "id": 333,
+      "start_ms": 2141828,
+      "end_ms": 2150732,
+      "text": "\"Still, I confess that I miss my rubber of whist. It is the first Saturday night for seven-and-twenty years that I have not had my game.\"",
+      "translation": "\"Yine de itiraf ederim ki briç partimi özleyeceğim. Yirmi yedi yıldır oyunumu oynamadığım ilk cumartesi gecesi bu.\"",
+      "notes": "Sayfa 17 | rubber of whist: bir parti briç/vist kağıt oyunu."
+    },
+    {
+      "id": 334,
+      "start_ms": 2151132,
+      "end_ms": 2158068,
+      "text": "\"I think you will find,\" said Sherlock Holmes, \"that you will play for a higher stake to-night than you have ever done yet.\"",
+      "translation": "Sherlock Holmes, \"Sanırım bu gece,\" dedi, \"şimdiye dek oynadığınızdan çok daha yüksek bir bahis için oynayacağınızı göreceksiniz.\"",
+      "notes": "Sayfa 17 | play for higher stake: daha büyük bir bahis/bedel için oynamak."
+    },
+    {
+      "id": 335,
+      "start_ms": 2158468,
+      "end_ms": 2166412,
+      "text": "\"And that the play will be more exciting! For you, Mr. Merryweather, the stake will be some thirty thousand pounds.\"",
+      "translation": "\"Ve oyun çok daha heyecanlı olacak! Sizin için Bay Merryweather, bahis konusu tam otuz bin pounddur.\"",
+      "notes": "Sayfa 17 | thirty thousand pounds: otuz bin sterlin."
+    },
+    {
+      "id": 336,
+      "start_ms": 2166812,
+      "end_ms": 2172380,
+      "text": "\"And for you, Jones, it will be the man upon whom you wish to put your handcuffs.\"",
+      "translation": "\"Ve senin için Jones, kelepçelerini takmayı en çok arzuladığın adamdır.\"",
+      "notes": "Sayfa 17 | put handcuffs: kelepçe takmak."
+    },
+    {
+      "id": 337,
+      "start_ms": 2172780,
+      "end_ms": 2180436,
+      "text": "\"John Clay, the murderer, thief, smasher, and forger!\" exclaimed the detective with flashing eyes.",
+      "translation": "Dedektif gözleri parlayarak haykırdı: \"Katil, hırsız, kasa hırsızı ve kalpazan John Clay!\"",
+      "notes": "Sayfa 17 | smasher: sahte para basan veya kasa kıran azılı suçlu."
+    },
+    {
+      "id": 338,
+      "start_ms": 2180836,
+      "end_ms": 2189524,
+      "text": "\"He's a young man, Mr. Merryweather, but he is at the head of his profession, and I would rather have my bracelets on him than on any criminal in London.\"",
+      "translation": "\"Genç bir adamdır Bay Merryweather, fakat mesleğinin zirvesindedir ve kelepçelerimi Londra'daki başka hiçbir suçlu yerine ona takmayı tercih ederim.\"",
+      "notes": "Sayfa 17 | bracelets: kelepçeler (argo)."
+    },
+    {
+      "id": 339,
+      "start_ms": 2189924,
+      "end_ms": 2199332,
+      "text": "\"He's a remarkable man, is young John Clay. His grandfather was a royal duke, and he was himself educated at Eton and Oxford.\"",
+      "translation": "\"Genç John Clay fevkalade bir adamdır. Büyükbabası bir kraliyet düküydü ve kendisi Eton ile Oxford'da tahsil gördü.\"",
+      "notes": "Sayfa 17 | royal duke: kraliyet dükü; educated at Eton: Eton kolejinde eğitim görmüş."
+    },
+    {
+      "id": 340,
+      "start_ms": 2199732,
+      "end_ms": 2207964,
+      "text": "\"His brain is as cunning as his fingers are nimble, and though we meet signs of him at every turn, we never know where to find the man himself.\"",
+      "translation": "\"Zekası parmakları kadar kıvrak ve kurnazdır; her köşede onun bıraktığı izlere rastlamamıza rağmen adamın bizzat kendisini nerede bulacağımızı asla bilemeyiz.\"",
+      "notes": "Sayfa 17 | nimble fingers: çevik parmaklar; cunning brain: kurnaz akıl."
+    },
+    {
+      "id": 341,
+      "start_ms": 2208964,
+      "end_ms": 2215588,
+      "text": "\"He'll crack a crib in Scotland one week, and be raising money to build an orphanage in Cornwall the next.\"",
+      "translation": "\"Bir hafta İskoçya'da bir kasa patlatır, ertesi hafta Cornwall'da bir yetimhane inşa etmek için yardım parası toplar.\"",
+      "notes": "Sayfa 18 | crack a crib: kasa/ev soymak (hırsız argosu)."
+    },
+    {
+      "id": 342,
+      "start_ms": 2215988,
+      "end_ms": 2220356,
+      "text": "\"I've been on his track for years and have never set eyes on him yet.\"",
+      "translation": "\"Yıllardır onun izindeyim ve henüz yüzünü kendi gözlerimle bir kez bile göremedim.\"",
+      "notes": "Sayfa 18 | set eyes on: gözleriyle görmek."
+    },
+    {
+      "id": 343,
+      "start_ms": 2220756,
+      "end_ms": 2226444,
+      "text": "\"I hope that I may have the pleasure of introducing you to-night,\" said Holmes with a dry smile.",
+      "translation": "Holmes kuru bir tebessümle, \"Umarım bu gece sizi tanıştırma zevkine erebilirim,\" dedi.",
+      "notes": "Sayfa 18 | pleasure of introducing: tanıştırma zevki."
+    },
+    {
+      "id": 344,
+      "start_ms": 2226844,
+      "end_ms": 2233924,
+      "text": "\"I've had one or two little turns also with Mr. John Clay, and I agree with you that he is at the head of his profession.\"",
+      "translation": "\"Bay John Clay ile benim de bir iki küçük karşılaşmam oldu ve mesleğinin zirvesinde olduğu konusunda seninle hemfikirim.\"",
+      "notes": "Sayfa 18 | little turns: küçük kapışmalar, karşılaşmalar."
+    },
+    {
+      "id": 345,
+      "start_ms": 2234324,
+      "end_ms": 2239028,
+      "text": "\"However, it is past ten o'clock, and quite time that we started.\"",
+      "translation": "\"Bununla birlikte saat onu geçti ve yola koyulmamızın tam vaktidir.\"",
+      "notes": "Sayfa 18 | quite time: tam vakti."
+    },
+    {
+      "id": 346,
+      "start_ms": 2239428,
+      "end_ms": 2244924,
+      "text": "\"If you two gentlemen will take the first hansom, Watson and I will follow in the second.\"",
+      "translation": "\"Siz iki beyefendi ilk faytona binerseniz, Watson ile ben ikincisinde peşinizden geliriz.\"",
+      "notes": "Sayfa 18 | follow in the second: ikincisiyle takip etmek."
+    },
+    {
+      "id": 347,
+      "start_ms": 2245324,
+      "end_ms": 2253412,
+      "text": "Sherlock Holmes was not very communicative during the long drive, and lay back in the cab humming the tunes which he had heard in the afternoon.",
+      "translation": "Uzun yolculuk boyunca Sherlock Holmes pek konuşkan değildi; faytona arkasına yaslanmış, öğleden sonra dinlediği ezgileri mırıldanıyordu.",
+      "notes": "Sayfa 18 | not communicative: ketum, konuşmaya isteksiz."
+    },
+    {
+      "id": 348,
+      "start_ms": 2253812,
+      "end_ms": 2259788,
+      "text": "We rattled through an endless labyrinth of gas-lit streets until we emerged into Farringdon Street.",
+      "translation": "Farringdon Caddesi'ne çıkana kadar, gaz lambalarıyla aydınlatılmış sokakların uçsuz bucaksız labirentinde gürültüyle ilerledik.",
+      "notes": "Sayfa 18 | endless labyrinth: sonsuz labirent."
+    },
+    {
+      "id": 349,
+      "start_ms": 2260188,
+      "end_ms": 2265204,
+      "text": "\"We are close there now,\" my friend remarked, pointing out of the cab window.",
+      "translation": "Dostum faytonun penceresinden dışarıyı işaret ederek, \"Şimdi oraya çok yaklaştık,\" diye belirtti.",
+      "notes": "Sayfa 18 | close there now: artık oraya çok yakın."
+    },
+    {
+      "id": 350,
+      "start_ms": 2265604,
+      "end_ms": 2270788,
+      "text": "\"This fellow Merryweather is a bank director, and personally interested in the matter.\"",
+      "translation": "\"Şu dostumuz Merryweather bir banka müdürüdür ve bu meseleyle şahsen yakından ilgilidir.\"",
+      "notes": "Sayfa 18 | personally interested: şahsen alakadar."
+    },
+    {
+      "id": 351,
+      "start_ms": 2271188,
+      "end_ms": 2278508,
+      "text": "\"I thought it as well to have Jones with us also; he is not a bad fellow, though an absolute imbecile in his profession.\"",
+      "translation": "\"Jones'un da yanımızda bulunmasını uygun gördüm; mesleğinde tam bir ahmak olmasına rağmen fena bir adam değildir.\"",
+      "notes": "Sayfa 18 | absolute imbecile: tam bir ahmak/embesil."
+    },
+    {
+      "id": 352,
+      "start_ms": 2278908,
+      "end_ms": 2286732,
+      "text": "\"He has one positive virtue: he is as brave as a bulldog and as tenacious as a lobster if he gets his claws upon anyone.\"",
+      "translation": "\"Tek bir olumlu meziyeti vardır: bir buldok kadar cesurdur ve kıskaçlarını birine geçirdi mi bir ıstakoz kadar inatçıdır.\"",
+      "notes": "Sayfa 18 | tenacious: inatçı, bırakmayan; positive virtue: olumlu erdem."
+    },
+    {
+      "id": 353,
+      "start_ms": 2287132,
+      "end_ms": 2290828,
+      "text": "\"Here we are, and they are waiting for us at the door.\"",
+      "translation": "\"İşte geldik ve kapıda bizi bekliyorlar.\"",
+      "notes": "Sayfa 18 | Here we are: İşte geldik."
+    },
+    {
+      "id": 354,
+      "start_ms": 2291228,
+      "end_ms": 2296508,
+      "text": "We had reached the same crowded thoroughfare in which we had found ourselves that afternoon.",
+      "translation": "O öğleden sonra kendimizi içinde bulduğumuz aynı o kalabalık ana caddeye ulaşmıştık.",
+      "notes": "Sayfa 18 | crowded thoroughfare: kalabalık ana cadde."
+    },
+    {
+      "id": 355,
+      "start_ms": 2296908,
+      "end_ms": 2304204,
+      "text": "Our cabs were dismissed, and, following the guidance of Mr. Merryweather, we passed down a narrow passage.",
+      "translation": "Faytonlarımızı gönderdik ve Bay Merryweather'ın kılavuzluğunu takip ederek dar bir geçitten geçtik.",
+      "notes": "Sayfa 18 | cabs dismissed: faytonlar salıverildi/gönderildi."
+    },
+    {
+      "id": 356,
+      "start_ms": 2304604,
+      "end_ms": 2309428,
+      "text": "We unlocked a side door which opened into the rear of the great bank building.",
+      "translation": "Büyük banka binasının arka tarafına açılan yan kapının kilidini açtık.",
+      "notes": "Sayfa 18 | rear of the building: binanın arka cephesi."
+    },
+    {
+      "id": 357,
+      "start_ms": 2309828,
+      "end_ms": 2315180,
+      "text": "Merryweather struck a match and led us down a long, winding stone staircase.",
+      "translation": "Merryweather bir kibrit çaktı ve bizi uzun, dolambaçlı bir taş merdivenden aşağı indirdi.",
+      "notes": "Sayfa 18 | winding stone staircase: kıvrımlı taş merdiven."
+    },
+    {
+      "id": 358,
+      "start_ms": 2315580,
+      "end_ms": 2321004,
+      "text": "We reached a massive iron gate, which he unlocked with a heavy key from his pocket.",
+      "translation": "Cebinden çıkardığı ağır bir anahtarla açtığı devasa bir demir kapıya vardık.",
+      "notes": "Sayfa 18 | massive iron gate: heybetli demir kapı."
+    },
+    {
+      "id": 359,
+      "start_ms": 2321404,
+      "end_ms": 2327284,
+      "text": "The gate groaned on its hinges, and swung open to admit us into a stone-paved passage.",
+      "translation": "Kapı menteşeleri üzerinde gıcırdadı ve bizi taş döşeli bir dehlize kabul etmek için ardına kadar açıldı.",
+      "notes": "Sayfa 18 | groaned on its hinges: menteşeleri üzerinde inledi/gıcırdadı."
+    },
+    {
+      "id": 360,
+      "start_ms": 2327684,
+      "end_ms": 2335484,
+      "text": "This brought us to a third, and that into a huge subterranean vault, piled all round with crates and massive boxes.",
+      "translation": "Bu dehliz bizi üçüncü bir kapıya, o da her yanı tahta sandıklar ve devasa kasalarla yığılmış dev bir yer altı mahzenine çıkardı.",
+      "notes": "Sayfa 18 | subterranean vault: yer altı kasa dairesi/mahzeni."
+    },
+    {
+      "id": 361,
+      "start_ms": 2336484,
+      "end_ms": 2342868,
+      "text": "\"You are not very vulnerable from above,\" Holmes remarked as he held up his lantern and gazed about him.",
+      "translation": "Fenerini havaya kaldırıp etrafına bakan Holmes, \"Yukarıdan gelecek bir saldırıya karşı pek zayıf sayılmazsınız,\" dedi.",
+      "notes": "Sayfa 19 | vulnerable from above: yukarıdan saldırıya açık/savunmasız."
+    },
+    {
+      "id": 362,
+      "start_ms": 2343268,
+      "end_ms": 2348908,
+      "text": "\"Nor from below,\" said Mr. Merryweather, striking his stick upon the stone floor.",
+      "translation": "Bay Merryweather bastonunu taş zemine vurarak, \"Aşağıdan da öyle,\" dedi.",
+      "notes": "Sayfa 19 | striking upon stone floor: taş zemine vurarak."
+    },
+    {
+      "id": 363,
+      "start_ms": 2349308,
+      "end_ms": 2354996,
+      "text": "\"Why, dear me, it sounds hollow!\" he remarked, looking up in surprise.",
+      "translation": "Şaşkınlıkla yukarı bakarak, \"Aman Tanrım, boş bir tınlama sesi veriyor!\" diye haykırdı.",
+      "notes": "Sayfa 19 | sounds hollow: içi boş yankı sesi vermek."
+    },
+    {
+      "id": 364,
+      "start_ms": 2355396,
+      "end_ms": 2360460,
+      "text": "\"I must really beg that you will be a little more quiet!\" said Holmes severely.",
+      "translation": "Holmes sert bir tonda, \"Gerçekten biraz daha sessiz olmanızı rica etmek zorundayım!\" dedi.",
+      "notes": "Sayfa 19 | severely: sertçe, ihtarla."
+    },
+    {
+      "id": 365,
+      "start_ms": 2360860,
+      "end_ms": 2364916,
+      "text": "\"You have already imperiled the whole success of our expedition.\"",
+      "translation": "\"Bütün harekatımızın başarısını az kalsın tehlikeye atıyordunuz.\"",
+      "notes": "Sayfa 19 | imperiled: tehlikeye düşürmüş."
+    },
+    {
+      "id": 366,
+      "start_ms": 2365316,
+      "end_ms": 2371364,
+      "text": "\"Might I beg that you would have the goodness to sit down upon one of those boxes, and not to interfere?\"",
+      "translation": "\"Lütfen şu sandıklardan birinin üzerine oturma ve işe karışmama lütfunda bulunur musunuz?\"",
+      "notes": "Sayfa 19 | have the goodness to: lütfunda bulunmak."
+    },
+    {
+      "id": 367,
+      "start_ms": 2371764,
+      "end_ms": 2377764,
+      "text": "The solemn Mr. Merryweather perched himself upon a crate, looking very aggrieved at this rebuke.",
+      "translation": "Ağırbaşlı Bay Merryweather, bu azardan ötürü son derece kırılmış bir halde bir sandığın üzerine tünedi.",
+      "notes": "Sayfa 19 | rebuke: azar, paylama; aggrieved: gücenmiş, kırılmış."
+    },
+    {
+      "id": 368,
+      "start_ms": 2378164,
+      "end_ms": 2387884,
+      "text": "Holmes, meanwhile, fell upon his knees upon the floor and, with the lantern and a magnifying lens, began to examine the cracks between the stones.",
+      "translation": "Bu arada Holmes yere diz çöktü ve feneri ile büyüteciyle taşlar arasındaki çatlakları santim santim incelemeye başladı.",
+      "notes": "Sayfa 19 | magnifying lens: büyüteç merceği."
+    },
+    {
+      "id": 369,
+      "start_ms": 2388284,
+      "end_ms": 2394884,
+      "text": "A few seconds sufficed to satisfy him, for he sprang to his feet again and put his glass in his pocket.",
+      "translation": "Tatmin olması için birkaç saniye yetti; zira hemen ayağa fırladı ve büyütecini cebine koydu.",
+      "notes": "Sayfa 19 | sufficed to satisfy: tatmin etmeye yetti."
+    },
+    {
+      "id": 370,
+      "start_ms": 2395284,
+      "end_ms": 2402724,
+      "text": "\"We have at least an hour,\" he remarked, \"for they can hardly take any steps until the good pawnbroker is safely in bed.\"",
+      "translation": "\"En az bir saatimiz var,\" diye belirtti, \"zira o iyi yürekli rehinci yatağına sağ salim girmeden hiçbir adım atamazlar.\"",
+      "notes": "Sayfa 19 | safely in bed: güvenle yatağa girmiş."
+    },
+    {
+      "id": 371,
+      "start_ms": 2403124,
+      "end_ms": 2409820,
+      "text": "\"Then they will not lose a minute, for the sooner they do their work, the longer time they will have for their escape.\"",
+      "translation": "\"Ardından tek bir dakika bile kaybetmeyecekler; çünkü işlerini ne kadar çabuk hallederlerse kaçış için o kadar uzun vakitleri kalacaktır.\"",
+      "notes": "Sayfa 19 | the sooner... the longer...: ne kadar erken... o kadar uzun..."
+    },
+    {
+      "id": 372,
+      "start_ms": 2410220,
+      "end_ms": 2418044,
+      "text": "\"We are at present, Doctor—as no doubt you have divined—in the cellar of the City branch of one of the principal London banks.\"",
+      "translation": "\"Şu anda Doktor—şüphesiz senin de tahmin ettiğin gibi—Londra'nın en büyük bankalarından birinin City şubesinin bodrumundayız.\"",
+      "notes": "Sayfa 19 | divined: sezmiş, tahmin etmiş."
+    },
+    {
+      "id": 373,
+      "start_ms": 2418444,
+      "end_ms": 2427876,
+      "text": "\"Mr. Merryweather is the chairman of directors, and he will explain to you the reasons why the more daring criminals of London should take a considerable interest in this cellar.\"",
+      "translation": "\"Bay Merryweather yönetim kurulu başkanıdır ve Londra'nın en cüretkar suçlularının bu mahzenle neden bu kadar yakından ilgilendiğini sana kendisi açıklayacaktır.\"",
+      "notes": "Sayfa 19 | chairman of directors: yönetim kurulu başkanı."
+    },
+    {
+      "id": 374,
+      "start_ms": 2428276,
+      "end_ms": 2432788,
+      "text": "\"It is our French gold,\" whispered the director, leaning forward.",
+      "translation": "Banka müdürü öne eğilerek fısıldadı: \"Bizim Fransız altınlarımız yüzünden.\"",
+      "notes": "Sayfa 19 | French gold: Fransız altını."
+    },
+    {
+      "id": 375,
+      "start_ms": 2433188,
+      "end_ms": 2437268,
+      "text": "\"We have had several warnings that an attempt might be made upon it.\"",
+      "translation": "\"Ona karşı bir soygun girişiminde bulunulabileceğine dair birkaç ihbar ve uyarı almıştık.\"",
+      "notes": "Sayfa 19 | attempt might be made: girişimde bulunulabileceği."
+    },
+    {
+      "id": 376,
+      "start_ms": 2437668,
+      "end_ms": 2442708,
+      "text": "\"Your French gold?\" I asked, curious about the treasure.",
+      "translation": "Hazinenin detayını merak ederek, \"Fransız altınlarınız mı?\" diye sordum.",
+      "notes": "Sayfa 19 | curious about the treasure: hazineyi merak eden."
+    },
+    {
+      "id": 377,
+      "start_ms": 2443108,
+      "end_ms": 2451940,
+      "text": "\"Yes; we had occasion some months ago to strengthen our resources, and borrowed for that purpose thirty thousand Napoleons from the Bank of France.\"",
+      "translation": "\"Evet; birkaç ay önce rezervlerimizi güçlendirme ihtiyacı hasıl oldu ve bu maksatla Fransa Merkez Bankası'ndan otuz bin Napolyon altını borç aldık.\"",
+      "notes": "Sayfa 19 | strengthen resources: kaynakları/rezervleri takviye etmek."
+    },
+    {
+      "id": 378,
+      "start_ms": 2452340,
+      "end_ms": 2459324,
+      "text": "\"It has become known that the money is still lying in our cellar, uncoined and packed in original bullion cases.\"",
+      "translation": "\"Bu paranın hâlâ mahzenimizde, bozdurulmamış ve orijinal külçe kasalarında saklandığı dışarıya sızdı.\"",
+      "notes": "Sayfa 19 | bullion cases: altın külçe sandıkları."
+    },
+    {
+      "id": 379,
+      "start_ms": 2459724,
+      "end_ms": 2465772,
+      "text": "\"The crate upon which I sit contains two thousand napoleons packed between layers of lead foil.\"",
+      "translation": "\"Şu an üzerine oturduğum sandık, kurşun folyo tabakaları arasına istiflenmiş iki bin adet Napolyon altını içeriyor.\"",
+      "notes": "Sayfa 19 | lead foil: kurşun yaprak/folyo."
+    },
+    {
+      "id": 380,
+      "start_ms": 2466172,
+      "end_ms": 2472124,
+      "text": "\"Our reserve of gold is much larger at present than is usually kept in a single branch office.\"",
+      "translation": "\"Altın rezervimiz şu anda tek bir şube ofisinde tutulan miktardan katbekat daha büyüktür.\"",
+      "notes": "Sayfa 19 | reserve of gold: altın rezervi."
+    },
+    {
+      "id": 381,
+      "start_ms": 2473124,
+      "end_ms": 2478044,
+      "text": "\"The directors have had misgivings upon the subject,\" Mr. Merryweather added.",
+      "translation": "Bay Merryweather, \"Yönetim kurulu bu hususta derin endişeler taşıyordu,\" diye ekledi.",
+      "notes": "Sayfa 20 | misgivings: kuşku, iç huzursuzluğu ve kaygı."
+    },
+    {
+      "id": 382,
+      "start_ms": 2478444,
+      "end_ms": 2482404,
+      "text": "\"Which were very well justified,\" observed Holmes.",
+      "translation": "Holmes, \"Ki bu endişelerinde son derece haklıydılar,\" diye belirtti.",
+      "notes": "Sayfa 20 | well justified: son derece haklı, yerinde."
+    },
+    {
+      "id": 383,
+      "start_ms": 2482804,
+      "end_ms": 2486668,
+      "text": "\"And now it is time that we arranged our little plans.\"",
+      "translation": "\"Ve artık küçük planlarımızı tertip etmemizin tam zamanıdır.\"",
+      "notes": "Sayfa 20 | arranged our plans: planlarımızı ayarlamak."
+    },
+    {
+      "id": 384,
+      "start_ms": 2487068,
+      "end_ms": 2490908,
+      "text": "\"I expect that within an hour matters will come to a head.\"",
+      "translation": "\"Bir saat içinde olayların nihai doruk noktasına ulaşacağını tahmin ediyorum.\"",
+      "notes": "Sayfa 20 | come to a head: kriz anına/doruk noktasına varmak."
+    },
+    {
+      "id": 385,
+      "start_ms": 2491308,
+      "end_ms": 2496852,
+      "text": "\"In the meantime, Mr. Merryweather, we must put the screen over that dark lantern.\"",
+      "translation": "\"Bu arada Bay Merryweather, o fenerin kapağını tamamen kapatıp ışığını kesmeliyiz.\"",
+      "notes": "Sayfa 20 | dark lantern: kapağı kapatılarak ışığı gizlenen fener."
+    },
+    {
+      "id": 386,
+      "start_ms": 2497252,
+      "end_ms": 2500996,
+      "text": "\"And sit in the dark?\" asked the banker in dismay.",
+      "translation": "Bankacı dehşetle, \"Zifiri karanlıkta mı oturacağız?\" diye sordu.",
+      "notes": "Sayfa 20 | in dismay: dehşet ve kaygı içinde."
+    },
+    {
+      "id": 387,
+      "start_ms": 2501396,
+      "end_ms": 2510996,
+      "text": "\"I am afraid so. I had brought a pack of cards in my pocket, and I thought that, as we were a partie carrée, you might have your rubber after all.\"",
+      "translation": "\"Korkarım öyle. Cebimde bir deste kağıt getirmiştim ve dört kişilik bir grup olduğumuza göre en nihayetinde briç partinizi yaparsınız diye düşünmüştüm.\"",
+      "notes": "Sayfa 20 | partie carrée: dörtlü grup (Fransızca); pack of cards: oyun kağıdı destesi."
+    },
+    {
+      "id": 388,
+      "start_ms": 2511396,
+      "end_ms": 2517636,
+      "text": "\"But I see that the enemy's preparations have gone so far that we cannot risk the presence of a light.\"",
+      "translation": "\"Fakat düşmanın hazırlıklarının o kadar ilerlediğini görüyorum ki en ufak bir ışık sızıntısı riskini dahi göze alamayız.\"",
+      "notes": "Sayfa 20 | risk the presence of light: ışık riskini göze almak."
+    },
+    {
+      "id": 389,
+      "start_ms": 2518036,
+      "end_ms": 2522236,
+      "text": "\"And, first of all, we must choose our positions.\"",
+      "translation": "\"Ve her şeyden önce mevzilerimizi seçmeliyiz.\"",
+      "notes": "Sayfa 20 | choose positions: mevzileri belirlemek."
+    },
+    {
+      "id": 390,
+      "start_ms": 2522636,
+      "end_ms": 2529428,
+      "text": "\"These are daring men, and though we shall take them at a disadvantage, they may do us some harm unless we are careful.\"",
+      "translation": "\"Bunlar son derece cüretkar adamlar ve onları gafil avlayacak olsak bile dikkatli olmazsak bize zarar verebilirler.\"",
+      "notes": "Sayfa 20 | take at a disadvantage: gafil ve dezavantajlı yakalamak."
+    },
+    {
+      "id": 391,
+      "start_ms": 2529828,
+      "end_ms": 2535276,
+      "text": "\"I shall stand behind this packing-case, and do you conceal yourselves behind those.\"",
+      "translation": "\"Ben şu tahta sandığın arkasında duracağım; sizler de şunların arkasına gizlenin.\"",
+      "notes": "Sayfa 20 | packing-case: ambalaj/taşıma sandığı."
+    },
+    {
+      "id": 392,
+      "start_ms": 2535676,
+      "end_ms": 2540164,
+      "text": "\"Then, when I flash a light upon them, close in swiftly.\"",
+      "translation": "\"Ardından üzerlerine ışığı çaktığım anda hızla etraflarını sarın.\"",
+      "notes": "Sayfa 20 | close in swiftly: hızla çembere almak."
+    },
+    {
+      "id": 393,
+      "start_ms": 2540564,
+      "end_ms": 2545460,
+      "text": "\"If they fire, Watson, have no scruple about shooting them down.\"",
+      "translation": "\"Eğer ateş açarlarsa Watson, onları vurmakta zerre kadar tereddüt etme.\"",
+      "notes": "Sayfa 20 | have no scruple: vicdan azabı çekmemek, hiç tereddüt etmemek."
+    },
+    {
+      "id": 394,
+      "start_ms": 2545860,
+      "end_ms": 2551548,
+      "text": "I placed my revolver, cocked, upon the top of the wooden case behind which I crouched.",
+      "translation": "Horozu çekilmiş altıpatlarımı, arkasına çömeldiğim tahta sandığın üzerine koydum.",
+      "notes": "Sayfa 20 | revolver cocked: horozu kurulmuş tabanca; crouched: çömelmiş."
+    },
+    {
+      "id": 395,
+      "start_ms": 2551948,
+      "end_ms": 2557876,
+      "text": "Holmes slid the screen across the front of his lantern, and we were left in absolute darkness.",
+      "translation": "Holmes fenerin önündeki sürgüyü kapattı ve zifiri bir karanlıkta yapayalnız kaldık.",
+      "notes": "Sayfa 20 | absolute darkness: zifiri, mutlak karanlık."
+    },
+    {
+      "id": 396,
+      "start_ms": 2558276,
+      "end_ms": 2562908,
+      "text": "Such an absolute darkness as I have seldom before experienced.",
+      "translation": "Daha önce ömrümde pek az tecrübe ettiğim türden zifiri ve koyu bir karanlıktı bu.",
+      "notes": "Sayfa 20 | seldom experienced: nadiren tecrübe edilmiş."
+    },
+    {
+      "id": 397,
+      "start_ms": 2563308,
+      "end_ms": 2570172,
+      "text": "The smell of hot metal remained to assure us that the light was still there, ready to flash out at an instant's notice.",
+      "translation": "Isınan metalin kokusu, ışığın hâlâ orada olduğunu ve bir anda parlamaya hazır beklediğini bize hatırlatıyordu.",
+      "notes": "Sayfa 20 | smell of hot metal: ısınan fener metalinin kokusu."
+    },
+    {
+      "id": 398,
+      "start_ms": 2570572,
+      "end_ms": 2577724,
+      "text": "To me, with my nerves worked up to a pitch of expectancy, there was something depressing and subduing in the sudden gloom.",
+      "translation": "Sinirleri en yüksek beklenti noktasına kadar gerilmiş olan bana göre, bu ani kasvette insanın ruhunu ezen ve baskılayan bir hava vardı.",
+      "notes": "Sayfa 20 | subduing: iradeyi ezen, baskılayan; expectancy: beklenti."
+    },
+    {
+      "id": 399,
+      "start_ms": 2578124,
+      "end_ms": 2581412,
+      "text": "And in the cold, dank air of the vault.",
+      "translation": "Ve mahzenin o soğuk, rutubetli havasında insanın iliklerine işleyen bir ürperti kol geziyordu.",
+      "notes": "Sayfa 20 | dank air: rutubetli, nemli hava."
+    },
+    {
+      "id": 400,
+      "start_ms": 2581812,
+      "end_ms": 2588892,
+      "text": "\"They have but one retreat,\" whispered Holmes. \"Back through the house into Saxe-Coburg Square.\"",
+      "translation": "Holmes fısıldadı: \"Yalnızca tek bir kaçış yolları var; o da evin içinden geçip Saxe-Coburg Meydanı'na çıkmak.\"",
+      "notes": "Sayfa 20 | one retreat: tek geri çekilme/kaçış yolu."
+    },
+    {
+      "id": 401,
+      "start_ms": 2589892,
+      "end_ms": 2598436,
+      "text": "\"I have stopped that outlet, Mr. Holmes,\" whispered Jones. \"I have an inspector and two officers waiting at the front door.\"",
+      "translation": "Jones fısıldayarak, \"O çıkış kapısını tıkadım Bay Holmes,\" dedi. \"Ön kapıda bir komiser ve iki polis memuru bekliyor.\"",
+      "notes": "Sayfa 21 | stopped that outlet: o çıkışı tıkamak/kapatmak."
+    },
+    {
+      "id": 402,
+      "start_ms": 2598836,
+      "end_ms": 2605412,
+      "text": "\"Then we have stopped all the holes,\" said Holmes. \"And now we must be silent and wait.\"",
+      "translation": "Holmes, \"O halde bütün delikleri tıkamışız demektir,\" dedi. \"Ve şimdi tamamen susup beklemeliyiz.\"",
+      "notes": "Sayfa 21 | stopped all the holes: tüm delikleri kapattık."
+    },
+    {
+      "id": 403,
+      "start_ms": 2605812,
+      "end_ms": 2612748,
+      "text": "What a time it seemed! From comparing notes afterwards, it was but an hour and a quarter.",
+      "translation": "Zaman ne kadar da uzamış gibiydi! Sonradan notlarımızı karşılaştırdığımızda geçen sürenin sadece bir saat on beş dakika olduğunu anladık.",
+      "notes": "Sayfa 21 | an hour and a quarter: bir saat on beş dakika."
+    },
+    {
+      "id": 404,
+      "start_ms": 2613148,
+      "end_ms": 2618788,
+      "text": "Yet it appeared to us that the night must have almost passed, and the dawn be breaking above us.",
+      "translation": "Oysa bize sanki bütün gece akıp geçmiş ve üzerimizde şafak sökmek üzereymiş gibi geliyordu.",
+      "notes": "Sayfa 21 | dawn breaking: şafağın sökmesi."
+    },
+    {
+      "id": 405,
+      "start_ms": 2619188,
+      "end_ms": 2623964,
+      "text": "My limbs were weary and stiff, for I feared to change my position.",
+      "translation": "Mevzimi değiştirmekten korktuğum için kollarım ve bacaklarım tutulmuş, kaskatı kesilmişti.",
+      "notes": "Sayfa 21 | weary and stiff: yorgun ve kaskatı."
+    },
+    {
+      "id": 406,
+      "start_ms": 2624364,
+      "end_ms": 2632884,
+      "text": "Yet my nerves were worked up to the highest pitch of attention, and my hearing was so acute that I could not only hear the gentle breathing of my companions.",
+      "translation": "Yine de sinirlerim en yüksek dikkat noktasına kadar gerilmişti; işitme duyum öyle bilenmişti ki yoldaşlarımın hafif nefes alış verişlerini duymakla kalmıyordum.",
+      "notes": "Sayfa 21 | hearing acute: işitme duyusunun aşırı keskinleşmesi."
+    },
+    {
+      "id": 407,
+      "start_ms": 2633284,
+      "end_ms": 2640532,
+      "text": "But I could distinguish the deeper, heavier in-breath of the bulky Jones from the thin, sighing note of the bank director.",
+      "translation": "Aynı zamanda iri yarı Jones'un daha derin ve ağır soluk alışını, banka müdürünün ince, iç çeker gibi olan nefesinden rahatça ayırt edebiliyordum.",
+      "notes": "Sayfa 21 | distinguish: ayırt etmek."
+    },
+    {
+      "id": 408,
+      "start_ms": 2640932,
+      "end_ms": 2645612,
+      "text": "From my position, I could look over the box in the direction of the floor.",
+      "translation": "Bulunduğum mevziden, sandığın üzerinden döşeme zeminine doğru bakabiliyordum.",
+      "notes": "Sayfa 21 | in the direction of: yönüne doğru."
+    },
+    {
+      "id": 409,
+      "start_ms": 2646012,
+      "end_ms": 2650428,
+      "text": "Suddenly my eyes caught the glint of a light upon the stone floor.",
+      "translation": "Birdenbire gözlerim taş zemindeki hafif bir ışık pırıltısını yakaladı.",
+      "notes": "Sayfa 21 | glint of light: ışık pırıltısı."
+    },
+    {
+      "id": 410,
+      "start_ms": 2650828,
+      "end_ms": 2655316,
+      "text": "At first, it was but a lurid spark upon the stone pavement.",
+      "translation": "İlk başta taş döşeme üzerinde yalnızca sönük, solgun bir kıvılcım gibiydi.",
+      "notes": "Sayfa 21 | lurid spark: solgun, meşum bir kıvılcım."
+    },
+    {
+      "id": 411,
+      "start_ms": 2655716,
+      "end_ms": 2659292,
+      "text": "Then it lengthened out until it became a yellow line.",
+      "translation": "Ardından uzadı ve ince sarı bir çizgi haline geldi.",
+      "notes": "Sayfa 21 | lengthened out: uzayıp genişledi."
+    },
+    {
+      "id": 412,
+      "start_ms": 2659692,
+      "end_ms": 2665476,
+      "text": "And then, without any warning or sound, a gash seemed to open and a hand appeared.",
+      "translation": "Ve sonra, hiçbir uyarı veya ses olmaksızın zemin yarıldı ve beyaz bir el belirdi.",
+      "notes": "Sayfa 21 | gash seemed to open: bir yarık açılır gibi oldu."
+    },
+    {
+      "id": 413,
+      "start_ms": 2665876,
+      "end_ms": 2671636,
+      "text": "A white, almost womanly hand, which felt about in the centre of the little area of light.",
+      "translation": "Küçük aydınlık alanın tam ortasında el yordamıyla aranan, adeta bir kadınınkini andıran bembeyaz bir eldi bu.",
+      "notes": "Sayfa 21 | womanly hand: kadınsı, narin el; felt about: el yordamıyla yoklamak."
+    },
+    {
+      "id": 414,
+      "start_ms": 2672036,
+      "end_ms": 2678012,
+      "text": "For a minute or more, the hand, with its writhing fingers, protruded out of the floor.",
+      "translation": "Bir dakika ya da daha uzun bir süre boyunca, kıvrılan parmaklarıyla o el döşemenin içinden dışarı uzanmış vaziyette kaldı.",
+      "notes": "Sayfa 21 | writhing fingers: kıvrılan, kıpırdayan parmaklar; protruded: dışarı uzanmak."
+    },
+    {
+      "id": 415,
+      "start_ms": 2678412,
+      "end_ms": 2686788,
+      "text": "Then it was withdrawn as suddenly as it had appeared, and all was dark again save the single lurid spark which marked a chink between the stones.",
+      "translation": "Ardından aniden geri çekildi ve taşlar arasındaki ince yarığı belirten o tek solgun kıvılcım haricinde her yer yeniden karanlığa gömüldü.",
+      "notes": "Sayfa 21 | withdrawn: geri çekilmiş; chink: ince çatlak/yarık."
+    },
+    {
+      "id": 416,
+      "start_ms": 2687188,
+      "end_ms": 2691220,
+      "text": "Its disappearance, however, was but momentary.",
+      "translation": "Fakat bu kayboluş yalnızca anlıktı.",
+      "notes": "Sayfa 21 | momentary: anlık, geçici."
+    },
+    {
+      "id": 417,
+      "start_ms": 2691620,
+      "end_ms": 2698724,
+      "text": "With a rending, tearing sound, one of the broad, white stones turned over upon its side with a deep thump.",
+      "translation": "Taşların sürtünmesinden çıkan bir gıcırtıyla, geniş beyaz taşlardan biri derin bir gümlemeyle yan tarafının üzerine devrildi.",
+      "notes": "Sayfa 21 | deep thump: boğuk gümleme sesi; rending sound: yırtılma/çatlama sesi."
+    },
+    {
+      "id": 418,
+      "start_ms": 2699124,
+      "end_ms": 2704380,
+      "text": "It left a square, gaping hole, through which streamed the light of a lantern.",
+      "translation": "Ortada kare şeklinde, ardına kadar açık bir delik bıraktı ve o delikten içeri bir fenerin ışığı sel gibi aktı.",
+      "notes": "Sayfa 21 | gaping hole: ardına kadar açık çukur/delik."
+    },
+    {
+      "id": 419,
+      "start_ms": 2704780,
+      "end_ms": 2710300,
+      "text": "Over the edge there peeped a clean-cut, boyish face, which looked keenly about it.",
+      "translation": "Deliğin kenarından, etrafı keskin gözlerle süzen tıraşlı, genç ve dinç bir yüz belirdi.",
+      "notes": "Sayfa 21 | clean-cut: düzgün hatlı, tıraşlı; peeped: gizlice başını uzattı."
+    },
+    {
+      "id": 420,
+      "start_ms": 2710700,
+      "end_ms": 2716796,
+      "text": "Then, with a hand on either side of the aperture, a young fellow drew himself up to his waist.",
+      "translation": "Ardından deliğin her iki yanına birer elini koyarak, o genç adam beline kadar yukarı tırmandı.",
+      "notes": "Sayfa 21 | drew himself up: kendini yukarı çekti."
+    },
+    {
+      "id": 421,
+      "start_ms": 2717796,
+      "end_ms": 2723628,
+      "text": "He rested his knee upon the edge of the floor, and in another instant he stood beside the opening.",
+      "translation": "Dizini döşemenin kenarına dayadı ve bir saniye sonra açılan deliğin yanında ayakta duruyordu.",
+      "notes": "Sayfa 22 | rested his knee: dizini dayadı."
+    },
+    {
+      "id": 422,
+      "start_ms": 2724028,
+      "end_ms": 2731132,
+      "text": "He helped after him a companion, lithe and small like himself, with a pale face and a shock of very red hair.",
+      "translation": "Tıpkı kendisi gibi çevik ve ufak tefek, solgun yüzlü ve gür kızıl saçlı bir yoldaşının da yukarı çıkmasına yardım etti.",
+      "notes": "Sayfa 22 | lithe: esnek, çevik; shock of red hair: gür kızıl saç yelesi."
+    },
+    {
+      "id": 423,
+      "start_ms": 2731532,
+      "end_ms": 2742452,
+      "text": "\"It's all clear,\" he whispered. \"Have you the chisel and the bags? Great Scott! Jump, Archie, jump, and I'll swing for it!\"",
+      "translation": "\"Etraf tertemiz,\" diye fısıldadı. \"Keskiler ve çuvallar sende mi? Aman Tanrım! Atla Archie, atla; ben başımın çaresine bakarım!\"",
+      "notes": "Sayfa 22 | Great Scott!: Hay aksi!, Tanrım!; swing for it: bedelini ödemek/asılmayı göze almak."
+    },
+    {
+      "id": 424,
+      "start_ms": 2742852,
+      "end_ms": 2747340,
+      "text": "Sherlock Holmes had sprung out and seized the intruder by the collar.",
+      "translation": "Sherlock Holmes sandığın arkasından yay gibi fırlamış ve içeri sızan adamı yakasından kıskıvrak yakalamıştı.",
+      "notes": "Sayfa 22 | sprung out: fırladı; seized by the collar: yakasından yakaladı."
+    },
+    {
+      "id": 425,
+      "start_ms": 2747740,
+      "end_ms": 2754220,
+      "text": "The other dived down the hole, and I heard the sound of rending cloth as Jones clutched at his coat-tails.",
+      "translation": "Diğeri derhal deliğe geri daldı ve Jones onun palto eteklerine yapışırken kumaşın yırtılma sesini duydum.",
+      "notes": "Sayfa 22 | coat-tails: palto etekleri; clutched at: yapışmak, kavramak."
+    },
+    {
+      "id": 426,
+      "start_ms": 2754620,
+      "end_ms": 2760860,
+      "text": "A revolver gleamed in the hand of the captive, but Holmes's hunting crop came down on the man's wrist.",
+      "translation": "Esirin elinde bir altıpatlar parıldadı, fakat Holmes'ün av kırbacı hızla adamın bileğine indi.",
+      "notes": "Sayfa 22 | hunting crop: avcı kırbacı; wrist: bilek."
+    },
+    {
+      "id": 427,
+      "start_ms": 2761260,
+      "end_ms": 2765796,
+      "text": "The pistol clinked upon the stone floor with a sharp metallic rattle.",
+      "translation": "Tabanca keskin bir madeni şakırtıyla taş zemine fırlayıp düştü.",
+      "notes": "Sayfa 22 | clinked: şıngırdadı; metallic rattle: madeni tıkırtı."
+    },
+    {
+      "id": 428,
+      "start_ms": 2766196,
+      "end_ms": 2772796,
+      "text": "\"It's no use, John Clay,\" said Holmes blandly. \"You have no chance at all.\"",
+      "translation": "Holmes gayet sakin bir sesle, \"Boşuna çabalama John Clay,\" dedi. \"Zerre kadar şansın kalmadı.\"",
+      "notes": "Sayfa 22 | blandly: sakince, yumuşak bir edayla."
+    },
+    {
+      "id": 429,
+      "start_ms": 2773196,
+      "end_ms": 2777396,
+      "text": "\"So I see,\" the other answered with the utmost coolness.",
+      "translation": "Diğeri son derece soğukkanlı bir tavırla, \"Görüyorum,\" diye karşılık verdi.",
+      "notes": "Sayfa 22 | utmost coolness: en üst düzey soğukkanlılık."
+    },
+    {
+      "id": 430,
+      "start_ms": 2777796,
+      "end_ms": 2782812,
+      "text": "\"I fancy that my pal is all right, though I see you have got his coat-tails.\"",
+      "translation": "\"Her ne kadar palto eteklerini elinizde görsem de, sanırım ortağım paçayı yırttı.\"",
+      "notes": "Sayfa 22 | pal: ahbap, ortak; all right: güvende, kurtulmuş."
+    },
+    {
+      "id": 431,
+      "start_ms": 2783212,
+      "end_ms": 2787676,
+      "text": "\"There are three men waiting for him at the other end,\" said Holmes.",
+      "translation": "Holmes, \"Tünelin diğer ucunda onu bekleyen üç polis memuru var,\" dedi.",
+      "notes": "Sayfa 22 | waiting at the other end: diğer uçta bekleyen."
+    },
+    {
+      "id": 432,
+      "start_ms": 2788076,
+      "end_ms": 2795396,
+      "text": "\"Oh, indeed! You seem to have done the thing very completely. I must compliment you.\"",
+      "translation": "\"Öyle mi sahi! İşi her yönüyle eksiksiz bağlamış görünüyorsunuz. Doğrusu sizi tebrik etmeliyim.\"",
+      "notes": "Sayfa 22 | compliment: tebrik etmek, hakkını teslim etmek."
+    },
+    {
+      "id": 433,
+      "start_ms": 2795796,
+      "end_ms": 2802156,
+      "text": "\"And I you,\" Holmes answered. \"Your red-headed idea was very new and effective.\"",
+      "translation": "Holmes, \"Ben de seni tebrik ederim,\" diye yanıtladı. \"Kızıl saç fikrin gerçekten çok özgün ve tesirliydi.\"",
+      "notes": "Sayfa 22 | new and effective: özgün ve etkili."
+    },
+    {
+      "id": 434,
+      "start_ms": 2802556,
+      "end_ms": 2809732,
+      "text": "\"You'll see your pal again presently,\" said Jones. \"He's quicker at climbing down holes than I am.\"",
+      "translation": "Jones, \"Az sonra ortağına yeniden kavuşursun,\" dedi. \"Deliklerden aşağı kaymada benden daha çevik çıktı kerata.\"",
+      "notes": "Sayfa 22 | presently: çok geçmeden, az sonra."
+    },
+    {
+      "id": 435,
+      "start_ms": 2810132,
+      "end_ms": 2813132,
+      "text": "\"Just wait while I put the derbies on you.\"",
+      "translation": "\"Şu kelepçeleri bileklerine takana kadar kıpırdama yeter.\"",
+      "notes": "Sayfa 22 | derbies: polis kelepçeleri (argo)."
+    },
+    {
+      "id": 436,
+      "start_ms": 2813532,
+      "end_ms": 2820612,
+      "text": "\"I beg that you will not touch me with your filthy hands,\" remarked our prisoner as the handcuffs clicked upon his wrists.",
+      "translation": "Kelepçeler bileklerinde kilitlenirken tutsağımız, \"O pis ellerinizle bana dokunmamanızı rica ederim,\" dedi.",
+      "notes": "Sayfa 22 | filthy hands: kirli eller; clicked upon wrists: bileklerinde kilitlendi."
+    },
+    {
+      "id": 437,
+      "start_ms": 2821012,
+      "end_ms": 2825092,
+      "text": "\"You may not be aware that I have royal blood in my veins.\"",
+      "translation": "\"Damarlarımda kraliyet kanı aktığının farkında olmayabilirsiniz.\"",
+      "notes": "Sayfa 22 | royal blood in veins: damarlarında asil kan akmak."
+    },
+    {
+      "id": 438,
+      "start_ms": 2825492,
+      "end_ms": 2831132,
+      "text": "\"Have the goodness, also, when you address me always to say 'sir' and 'please.'\"",
+      "translation": "\"Ayrıca bana hitap ederken daima 'efendim' ve 'lütfen' deme nezaketini gösterin.\"",
+      "notes": "Sayfa 22 | have the goodness: nezaket göstermek."
+    },
+    {
+      "id": 439,
+      "start_ms": 2831532,
+      "end_ms": 2835372,
+      "text": "\"All right,\" said Jones with a stare and a snigger.",
+      "translation": "Jones dik dik bakıp kıs kıs gülerek, \"Oldu bil,\" dedi.",
+      "notes": "Sayfa 22 | snigger: kıs kıs alayla gülmek."
+    },
+    {
+      "id": 440,
+      "start_ms": 2835772,
+      "end_ms": 2842972,
+      "text": "\"Well, would you please, sir, march upstairs, where we can get a cab to carry your Highness to the police-station?\"",
+      "translation": "\"Peki ekselansları, zat-ı alinizi karakola götürecek bir fayton bulabileceğimiz üst kata doğru lütfen yürür müsünüz?\"",
+      "notes": "Sayfa 22 | your Highness: Ekselansları/Alteksleri (alaycı hitap)."
+    },
+    {
+      "id": 441,
+      "start_ms": 2843972,
+      "end_ms": 2849468,
+      "text": "\"That is better,\" said John Clay serenely, bowing with aristocratic dignity.",
+      "translation": "John Clay aristokrat bir vakarla eğilerek, \"İşte bu daha iyi,\" dedi.",
+      "notes": "Sayfa 23 | aristocratic dignity: soylu bir vakar ve haysiyet."
+    },
+    {
+      "id": 442,
+      "start_ms": 2849868,
+      "end_ms": 2855676,
+      "text": "He made a sweeping bow to the three of us and walked quietly off in the custody of the detective.",
+      "translation": "Üçümüze birden yerlere kadar eğilerek reverans yaptı ve dedektifin gözetiminde sessizce yürüyüp gitti.",
+      "notes": "Sayfa 23 | sweeping bow: yerlere kadar reverans; custody: gözetim."
+    },
+    {
+      "id": 443,
+      "start_ms": 2856076,
+      "end_ms": 2864332,
+      "text": "\"Really, Mr. Holmes,\" said Mr. Merryweather, as we followed them from the cellar, \"I do not know how the bank can thank or repay you.\"",
+      "translation": "Mahzenden onların peşinden çıkarken Bay Merryweather, \"Gerçekten Bay Holmes,\" dedi, \"bankanın size nasıl teşekkür edeceğini veya borcunu nasıl ödeyeceğini bilemiyorum.\"",
+      "notes": "Sayfa 23 | thank or repay: teşekkür etmek ya da karşılığını ödemek."
+    },
+    {
+      "id": 444,
+      "start_ms": 2864732,
+      "end_ms": 2873516,
+      "text": "\"There is no doubt that you have detected and defeated in the most complete manner one of the most determined attempts at bank robbery that have ever come within my experience.\"",
+      "translation": "\"Şüphe yok ki meslek hayatımda gördüğüm en gözü pek banka soygunu girişimlerinden birini en kusursuz şekilde ortaya çıkarıp bertaraf ettiniz.\"",
+      "notes": "Sayfa 23 | detected and defeated: tespit edip bertaraf etti."
+    },
+    {
+      "id": 445,
+      "start_ms": 2873916,
+      "end_ms": 2879868,
+      "text": "\"I have had one or two little scores of my own to settle with Mr. John Clay,\" said Holmes.",
+      "translation": "Holmes, \"Bay John Clay ile kapatmam gereken bir iki küçük şahsi hesabım vardı zaten,\" dedi.",
+      "notes": "Sayfa 23 | scores to settle: kapatılacak hesaplar (deyim)."
+    },
+    {
+      "id": 446,
+      "start_ms": 2880268,
+      "end_ms": 2885980,
+      "text": "\"I have been at some small expense over this matter, which I shall expect the bank to refund.\"",
+      "translation": "\"Bu meselede bazı küçük masraflarım oldu; bankanın bunları karşılayacağını umuyorum.\"",
+      "notes": "Sayfa 23 | refund: masrafları geri ödemek/tazmin etmek."
+    },
+    {
+      "id": 447,
+      "start_ms": 2886380,
+      "end_ms": 2892428,
+      "text": "\"Beyond that, I am amply repaid by having had an experience which is in many ways unique.\"",
+      "translation": "\"Bunun ötesinde, pek çok yönden eşi benzeri olmayan bir tecrübe yaşamış olmakla mükafatımı fazlasıyla aldım.\"",
+      "notes": "Sayfa 23 | amply repaid: karşılığını fazlasıyla almış olmak."
+    },
+    {
+      "id": 448,
+      "start_ms": 2892828,
+      "end_ms": 2897148,
+      "text": "\"And by hearing the very remarkable narrative of the Red-Headed League.\"",
+      "translation": "\"Ve o fevkalade Kızıl Saçlılar Kulübü hikayesini dinlemiş olmak da cabası.\"",
+      "notes": "Sayfa 23 | remarkable narrative: dikkate değer anlatı."
+    },
+    {
+      "id": 449,
+      "start_ms": 2897548,
+      "end_ms": 2904940,
+      "text": "\"You see, Watson,\" he explained in the early hours of the morning as we sat over our whisky and soda in Baker Street.",
+      "translation": "Baker Street'te viski sodalarımızın başında oturduğumuz sabahın erken saatlerinde, \"Görüyorsun ya Watson,\" diye izah etti.",
+      "notes": "Sayfa 23 | whisky and soda: dönemin popüler içeceği."
+    },
+    {
+      "id": 450,
+      "start_ms": 2905340,
+      "end_ms": 2919740,
+      "text": "\"It was perfectly obvious from the first that the only possible object of this rather fantastic business of the advertisement of the League, and the copying of the Encyclopaedia, must be to get this not over-bright pawnbroker out of the way for a number of hours every day.\"",
+      "translation": "\"Kulüp ilanının ve ansiklopedi kopyalatmanın o fantastik hikayesinin yegane muhtemel amacının, bu pek de uyanık sayılmayan rehinciyi her gün birkaç saatliğine ortadan uzaklaştırmak olduğu en başından beri gün gibi ortadaydı.\"",
+      "notes": "Sayfa 23 | not over-bright: pek cin fikirli olmayan; out of the way: ayak altından çekmek."
+    },
+    {
+      "id": 451,
+      "start_ms": 2920140,
+      "end_ms": 2926164,
+      "text": "\"It was a curious way of managing it, but, really, it would be difficult to suggest a better.\"",
+      "translation": "\"Bunu başarmanın tuhaf bir yoluydu; fakat doğrusu bundan daha iyisini önermek çok güç olurdu.\"",
+      "notes": "Sayfa 23 | curious way: tuhaf bir yöntem."
+    },
+    {
+      "id": 452,
+      "start_ms": 2926564,
+      "end_ms": 2932468,
+      "text": "\"The method was no doubt suggested to Clay's ingenious mind by the colour of his accomplice's hair.\"",
+      "translation": "\"Bu yöntem, şüphesiz Clay'in dahi zihnine suç ortağının saç rengi tarafından ilham edilmişti.\"",
+      "notes": "Sayfa 23 | ingenious mind: dahi, mucit zeka."
+    },
+    {
+      "id": 453,
+      "start_ms": 2932868,
+      "end_ms": 2939636,
+      "text": "\"The four pounds a week was a lure which must draw him, and what was it to them, who were playing for thousands?\"",
+      "translation": "\"Haftalık dört pound adamı cezbetmeye yetecek bir yemdi; binlerce pound için oynayan adamlar için dört poundun ne ehemmiyeti olabilirdi ki?\"",
+      "notes": "Sayfa 23 | lure: yem, cezbedici tuzak."
+    },
+    {
+      "id": 454,
+      "start_ms": 2940036,
+      "end_ms": 2947428,
+      "text": "\"They put in the advertisement, one rogue has the temporary office, the other rogue incites the man to apply for it.\"",
+      "translation": "\"İlanı verdiler; sahtekarlardan biri geçici yazıhaneyi tuttu, diğer sahtekar ise adamı oraya başvurması için kışkırttı.\"",
+      "notes": "Sayfa 23 | rogue: sahtekar, haydut; incites: kışkırtmak, heveslendirmek."
+    },
+    {
+      "id": 455,
+      "start_ms": 2947828,
+      "end_ms": 2952172,
+      "text": "\"Together they managed to secure his absence every morning in the week.\"",
+      "translation": "\"Böylece el birliğiyle adamın haftanın her sabahı dükkandan uzakta bulunmasını garantiye aldılar.\"",
+      "notes": "Sayfa 23 | secure his absence: yokluğunu temin etmek."
+    },
+    {
+      "id": 456,
+      "start_ms": 2952572,
+      "end_ms": 2960612,
+      "text": "\"From the time I heard of the assistant having come for half wages, it was obvious that he had some strong motive for securing the situation.\"",
+      "translation": "\"Yardımcının yarı maaşa çalışmayı kabul ettiğini duyduğum andan itibaren, bu işi kapmak için çok güçlü bir gizli gayesi olduğu aşikardı.\"",
+      "notes": "Sayfa 23 | strong motive: güçlü bir saik/gaye."
+    },
+    {
+      "id": 457,
+      "start_ms": 2961012,
+      "end_ms": 2966460,
+      "text": "\"And that motive could only be to have access to the premises during the master's absence.\"",
+      "translation": "\"Ve bu gaye, ancak ve ancak efendisinin yokluğunda dükkan binasını serbestçe kullanabilmek olabilirdi.\"",
+      "notes": "Sayfa 23 | have access to premises: binaya serbestçe girip çıkabilmek."
+    },
+    {
+      "id": 458,
+      "start_ms": 2966860,
+      "end_ms": 2973364,
+      "text": "\"What could he be doing in the cellar? burrowing! burrowing for some other building!\"",
+      "translation": "\"Bodrumda ne yapıyor olabilirdi ki? Kazı yapıyordu! Başka bir binaya doğru tünel kazıyordu!\"",
+      "notes": "Sayfa 23 | burrowing: köstebek gibi tünel kazmak."
+    },
+    {
+      "id": 459,
+      "start_ms": 2973764,
+      "end_ms": 2978948,
+      "text": "\"That was the only possible explanation of his prolonged absences underground.\"",
+      "translation": "\"Yer altında saatlerce kayboluşunun tek mantıklı açıklaması buydu.\"",
+      "notes": "Sayfa 23 | prolonged absences: uzun süreli yokluklar."
+    },
+    {
+      "id": 460,
+      "start_ms": 2979348,
+      "end_ms": 2984100,
+      "text": "\"And the inspection of his knees confirmed my suspicion beyond all doubt.\"",
+      "translation": "\"Ve pantolonunun dizlerini incelemek, şüphemi hiçbir şüpheye yer bırakmayacak biçimde doğruladı.\"",
+      "notes": "Sayfa 23 | confirmed suspicion: şüpheyi doğrulamak."
+    },
+    {
+      "id": 461,
+      "start_ms": 2985100,
+      "end_ms": 2990620,
+      "text": "\"You saw yourself how those knees were stained and wrinkled from those long hours of burrowing.\"",
+      "translation": "\"O uzun saatler süren tünel kazmaktan o dizlerin nasıl kirlenip yıprandığını sen de kendi gözlerinle gördün.\"",
+      "notes": "Sayfa 24 | stained and wrinkled: lekeli ve buruş buruş."
+    },
+    {
+      "id": 462,
+      "start_ms": 2991020,
+      "end_ms": 2994788,
+      "text": "\"The only remaining point was what they were burrowing for.\"",
+      "translation": "\"Geriye kalan tek muamma, neye doğru tünel kazdıklarıydı.\"",
+      "notes": "Sayfa 24 | only remaining point: geriye kalan tek nokta."
+    },
+    {
+      "id": 463,
+      "start_ms": 2995188,
+      "end_ms": 3003012,
+      "text": "\"I walked round the corner, saw the City and Suburban Bank abutted on our friend's premises, and felt that I had solved my problem.\"",
+      "translation": "\"Köşeyi dönüp yürüdüm, Şehir ve Banliyö Bankası'nın dostumuzun dükkanına sırtını dayadığını gördüm ve problemimi çözdüğümü anladım.\"",
+      "notes": "Sayfa 24 | solved my problem: meselemi çözdüm."
+    },
+    {
+      "id": 464,
+      "start_ms": 3003412,
+      "end_ms": 3011788,
+      "text": "\"When you drove home after the concert, I called upon Scotland Yard and upon the chairman of the bank directors, with the result that you have seen.\"",
+      "translation": "\"Konserden sonra sen evine gittiğinde, ben Scotland Yard'a ve banka yönetim kurulu başkanına uğradım; neticeyi ise az önce kendi gözlerinle gördün.\"",
+      "notes": "Sayfa 24 | with the result that: neticesinde."
+    },
+    {
+      "id": 465,
+      "start_ms": 3012188,
+      "end_ms": 3017372,
+      "text": "\"And how could you tell that they would make their attempt to-night?\" I asked.",
+      "translation": "\"Peki bu gece girişimde bulunacaklarını nereden anlayabildin?\" diye sordum.",
+      "notes": "Sayfa 24 | how could you tell: nereden bildin/anladın."
+    },
+    {
+      "id": 466,
+      "start_ms": 3017772,
+      "end_ms": 3025284,
+      "text": "\"Well, when they closed their League offices, that was a sign that they cared no longer about Mr. Jabez Wilson's presence.\"",
+      "translation": "\"Kulüp yazıhanesini kapattıklarında bu, artık Bay Jabez Wilson'ın dükkanda olup biteni görmesinden korkmadıklarının işaretiydi.\"",
+      "notes": "Sayfa 24 | cared no longer: artık umursamamak."
+    },
+    {
+      "id": 467,
+      "start_ms": 3025684,
+      "end_ms": 3029308,
+      "text": "\"In other words, that they had completed their tunnel.\"",
+      "translation": "\"Başka bir deyişle, tünellerini tamamen bitirmişlerdi.\"",
+      "notes": "Sayfa 24 | in other words: diğer bir ifadeyle."
+    },
+    {
+      "id": 468,
+      "start_ms": 3029708,
+      "end_ms": 3036260,
+      "text": "\"But it was essential that they should use it soon, as it might be discovered, or the bullion might be removed.\"",
+      "translation": "\"Fakat tünel fark edilebileceği ya da altın külçeleri başka yere nakledilebileceği için onu derhal kullanmaları şarttı.\"",
+      "notes": "Sayfa 24 | essential: hayati, elzem; bullion removed: külçelerin taşınması."
+    },
+    {
+      "id": 469,
+      "start_ms": 3036660,
+      "end_ms": 3044556,
+      "text": "\"Saturday would suit them better than any other day, as it would give them two full days for their escape before the bank reopened on Monday.\"",
+      "translation": "\"Cumartesi günü onlara diğer bütün günlerden çok daha uygundu; çünkü banka pazartesi açılana kadar kaçış için önlerinde tam iki gün kalacaktı.\"",
+      "notes": "Sayfa 24 | suit them better: işlerine daha çok yaramak."
+    },
+    {
+      "id": 470,
+      "start_ms": 3044956,
+      "end_ms": 3049060,
+      "text": "\"For all these reasons, I expected them to come to-night.\"",
+      "translation": "\"Bütün bu sebeplerden ötürü bu gece geleceklerini kesin olarak tahmin ettim.\"",
+      "notes": "Sayfa 24 | for all these reasons: bütün bu nedenlerle."
+    },
+    {
+      "id": 471,
+      "start_ms": 3049460,
+      "end_ms": 3055148,
+      "text": "\"You reasoned it out beautifully!\" I exclaimed in unfeigned admiration.",
+      "translation": "Yapaylıktan uzak, saf bir hayranlıkla, \"Harikulade bir mantık zinciri kurmuşsun!\" diye haykırdım.",
+      "notes": "Sayfa 24 | unfeigned admiration: içten, yapmacıksız hayranlık."
+    },
+    {
+      "id": 472,
+      "start_ms": 3055548,
+      "end_ms": 3059964,
+      "text": "\"It is so long a chain, and yet every link rings true.\"",
+      "translation": "\"Öylesine uzun bir zincir ki bu, yine de her bir halkası hakikatle çınlıyor.\"",
+      "notes": "Sayfa 24 | every link rings true: her halkası doğru/sağlam çıkmak (mecaz)."
+    },
+    {
+      "id": 473,
+      "start_ms": 3060364,
+      "end_ms": 3064828,
+      "text": "\"It saved me from ennui,\" he answered, yawning slightly.",
+      "translation": "Hafifçe esneyerek, \"Beni can sıkıntısından kurtardı ya, o yeter,\" diye yanıt verdi.",
+      "notes": "Sayfa 24 | ennui: bezginlik, can sıkıntısı (Fransızca)."
+    },
+    {
+      "id": 474,
+      "start_ms": 3065228,
+      "end_ms": 3070220,
+      "text": "\"Alas! I already feel it closing in upon me again.\"",
+      "translation": "\"Heyhat! Can sıkıntısının üzerime yeniden bir sis gibi çöktüğünü şimdiden hissediyorum.\"",
+      "notes": "Sayfa 24 | Alas!: Heyhat!, Ne yazık ki!"
+    },
+    {
+      "id": 475,
+      "start_ms": 3070620,
+      "end_ms": 3076116,
+      "text": "\"My life is spent in one long effort to escape from the commonplaces of existence.\"",
+      "translation": "\"Bütün ömrüm varoluşun sıradanlığından ve tekdüzeliğinden kaçmak için verilen uzun bir mücadeleyle geçiyor.\"",
+      "notes": "Sayfa 24 | commonplaces of existence: varoluşun sıradanlıkları."
+    },
+    {
+      "id": 476,
+      "start_ms": 3076516,
+      "end_ms": 3081292,
+      "text": "\"These little problems help me to do so, if only for a brief hour.\"",
+      "translation": "\"Bu küçük problemler, sadece kısa bir saatliğine de olsa bana bu kaçışta yardımcı oluyor.\"",
+      "notes": "Sayfa 24 | if only for a brief hour: sadece kısa bir anlığına bile olsa."
+    },
+    {
+      "id": 477,
+      "start_ms": 3081692,
+      "end_ms": 3086036,
+      "text": "\"And you are a benefactor of the human race,\" said I warmly.",
+      "translation": "Sıcak bir sesle, \"Ve sen insanlığın gerçek bir velinimetisin,\" dedim.",
+      "notes": "Sayfa 24 | benefactor of the human race: insanlığın velinimeti/iyilikseveri."
+    },
+    {
+      "id": 478,
+      "start_ms": 3086436,
+      "end_ms": 3094116,
+      "text": "He shrugged his shoulders. \"Well, perhaps, after all, it is of some little use,\" he remarked.",
+      "translation": "Omuzlarını silkti. \"Belki de, her şeye rağmen, bir nebze faydası dokunuyordur,\" dedi.",
+      "notes": "Sayfa 24 | of some little use: az buçuk bir faydası olmak."
+    },
+    {
+      "id": 479,
+      "start_ms": 3094516,
+      "end_ms": 3100636,
+      "text": "\"L'homme c'est rien—l'œuvre c'est tout,' as Gustave Flaubert wrote to George Sand.\"",
+      "translation": "\"Gustave Flaubert'in George Sand'a yazdığı gibi: 'İnsan hiçbir şeydir—esas olan eserdir.'\"",
+      "notes": "Sayfa 24 | Flaubert alıntısı: Eserin yaratıcıdan daha üstün ve kalıcı olduğu felsefesi."
+    },
+    {
+      "id": 480,
+      "start_ms": 3101036,
+      "end_ms": 3109244,
+      "text": "He leaned back in his chair, closed his eyes, and drifted into quiet contemplation as the dawn broke over the rooftops of London.",
+      "translation": "Koltuğuna yaslandı, gözlerini kapattı ve Londra'nın çatıları üzerinde şafak sökerken dingin bir tefekküre daldı.",
+      "notes": "Sayfa 24 | drifted into quiet contemplation: sessiz bir düşünceye dalmak."
+    },
+    {
+      "id": 481,
+      "start_ms": 3110244,
+      "end_ms": 3116244,
+      "text": "The morning newspapers were full of the sensational attempted robbery at the City and Suburban Bank.",
+      "translation": "Sabah gazeteleri Şehir ve Banliyö Bankası'ndaki sansasyonel soygun girişimiyle dolup taşıyordu.",
+      "notes": "Sayfa 25 | sensational attempted robbery: sansasyonel soygun teşebbüsü."
+    },
+    {
+      "id": 482,
+      "start_ms": 3116644,
+      "end_ms": 3123052,
+      "text": "They praised the extraordinary vigilance of Scotland Yard and the prompt arrest of the notorious John Clay.",
+      "translation": "Scotland Yard'ın olağanüstü uyanıklığını ve azılı suçlu John Clay'in derhal yakalanmasını övgülerle anıyorlardı.",
+      "notes": "Sayfa 25 | vigilance: uyanıklık, tetikte olma."
+    },
+    {
+      "id": 483,
+      "start_ms": 3123452,
+      "end_ms": 3129788,
+      "text": "Not a word was mentioned of the quiet consulting detective who had planned and executed the entire capture.",
+      "translation": "Bütün bu yakalamayı planlayan ve icra eden o sakin danışman dedektiften tek kelime bile bahsedilmiyordu.",
+      "notes": "Sayfa 25 | consulting detective: danışman dedektif (Holmes'ün unvanı)."
+    },
+    {
+      "id": 484,
+      "start_ms": 3130188,
+      "end_ms": 3135228,
+      "text": "Holmes merely smiled as I read the glowing accounts aloud from the daily press.",
+      "translation": "Günlük basından bu övgü dolu haberleri sesli okurken Holmes yalnızca gülümsedi.",
+      "notes": "Sayfa 25 | glowing accounts: övgü dolu yazılar/haberler."
+    },
+    {
+      "id": 485,
+      "start_ms": 3135628,
+      "end_ms": 3141964,
+      "text": "\"The official police must have their laurels, Watson; it pleases the public and does us no harm.\"",
+      "translation": "\"Resmi polisler kendi defne taçlarını takmalıdır Watson; bu halkı memnun eder ve bize de hiçbir zararı dokunmaz.\"",
+      "notes": "Sayfa 25 | have their laurels: defne taçlarını/zafer payesini almak."
+    },
+    {
+      "id": 486,
+      "start_ms": 3142364,
+      "end_ms": 3149372,
+      "text": "\"A private practitioner can afford to remain in the shadow so long as his intellectual curiosity is satisfied.\"",
+      "translation": "\"Özel bir araştırmacı, entelektüel merakı tatmin olduğu müddetçe gölgede kalmayı pekala göze alabilir.\"",
+      "notes": "Sayfa 25 | intellectual curiosity: zihinsel merak."
+    },
+    {
+      "id": 487,
+      "start_ms": 3149772,
+      "end_ms": 3157332,
+      "text": "Later that afternoon, Mr. Jabez Wilson called once more at Baker Street, his fiery hair gleaming in the sunlight.",
+      "translation": "O gün öğleden sonra Bay Jabez Wilson, alev kızılı saçları gün ışığında parıldayarak Baker Street'e bir kez daha uğradı.",
+      "notes": "Sayfa 25 | called once more: bir kez daha uğradı."
+    },
+    {
+      "id": 488,
+      "start_ms": 3157732,
+      "end_ms": 3162772,
+      "text": "He was still bewildered by the strange events that had transpired in his own cellar.",
+      "translation": "Kendi bodrumunda cereyan eden bu garip olaylar karşısında hâlâ şaşkınlıktan dili tutulmuş haldeydi.",
+      "notes": "Sayfa 25 | transpired: cereyan eden, vuku bulan."
+    },
+    {
+      "id": 489,
+      "start_ms": 3163172,
+      "end_ms": 3169916,
+      "text": "\"To think that Vincent Spaulding was tunneling under my very feet while I was copying the letter 'A'!\" he lamented.",
+      "translation": "\"Ben 'A' harfini temize çekerken meğerse Vincent Spaulding ta ayaklarımın altını oyuyormuş, düşünebiliyor musunuz!\" diye hayıflandı.",
+      "notes": "Sayfa 25 | tunneling under very feet: tam ayaklarının altını kazmak."
+    },
+    {
+      "id": 490,
+      "start_ms": 3170316,
+      "end_ms": 3176412,
+      "text": "\"You have suffered no financial loss, Mr. Wilson,\" Holmes reminded him with a dry chuckle.",
+      "translation": "Holmes kuru bir kıkırdamayla, \"Hiçbir mali kayba uğramadınız Bay Wilson,\" diye hatırlattı ona.",
+      "notes": "Sayfa 25 | financial loss: maddi kayıp."
+    },
+    {
+      "id": 491,
+      "start_ms": 3176812,
+      "end_ms": 3182188,
+      "text": "\"You have thirty-two pounds of their money, and your pawnshop is completely intact.\"",
+      "translation": "\"Onların parasından cebinizde otuz iki pound var ve rehin dükkanınız da sapasağlam duruyor.\"",
+      "notes": "Sayfa 25 | completely intact: zerre zarar görmemiş, sapasağlam."
+    },
+    {
+      "id": 492,
+      "start_ms": 3182588,
+      "end_ms": 3188756,
+      "text": "\"And what is more, you have acquired an extensive knowledge of ancient history and Greek architecture.\"",
+      "translation": "\"Dahası, antik tarih ve Yunan mimarisi hakkında geniş bir bilgi birikimi edindiniz.\"",
+      "notes": "Sayfa 25 | extensive knowledge: engin bilgi birikimi."
+    },
+    {
+      "id": 493,
+      "start_ms": 3189156,
+      "end_ms": 3194868,
+      "text": "The pawnbroker scratched his flaming head and admitted that things might have turned out much worse.",
+      "translation": "Rehinci alev kırmızısı kafasını kaşıdı ve işlerin çok daha kötü sonuçlanabileceğini itiraf etti.",
+      "notes": "Sayfa 25 | scratched his head: kafasını kaşıdı."
+    },
+    {
+      "id": 494,
+      "start_ms": 3195268,
+      "end_ms": 3200980,
+      "text": "He thanked Holmes profusely and took his departure, shaking his head in continuing wonder.",
+      "translation": "Holmes'e defalarca teşekkür etti ve şaşkınlıkla başını sallayarak oradan ayrıldı.",
+      "notes": "Sayfa 25 | thanked profusely: hararetle/defalarca teşekkür etti."
+    },
+    {
+      "id": 495,
+      "start_ms": 3201380,
+      "end_ms": 3206756,
+      "text": "Holmes watched him from the window as the portly figure disappeared into the London bustle.",
+      "translation": "O heybetli siluet Londra'nın telaşı içinde kaybolurken Holmes onu pencereden izledi.",
+      "notes": "Sayfa 25 | London bustle: Londra'nın keşmekeşi ve hareketliliği."
+    },
+    {
+      "id": 496,
+      "start_ms": 3207156,
+      "end_ms": 3212652,
+      "text": "\"A grotesque little comedy, Watson,\" he remarked, turning back to the hearth.",
+      "translation": "Ocağa doğru geri dönen Holmes, \"Acayip ve komik küçük bir tiyatroydu Watson,\" diye belirtti.",
+      "notes": "Sayfa 25 | grotesque comedy: tuhaf, absürt komedi."
+    },
+    {
+      "id": 497,
+      "start_ms": 3213052,
+      "end_ms": 3219964,
+      "text": "\"Yet it saved the Bank of France thirty thousand Napoleons and put the most dangerous rogue in England behind bars.\"",
+      "translation": "\"Yine de Fransa Merkez Bankası'nın otuz bin Napolyon altınını kurtardı ve İngiltere'nin en tehlikeli haydutunu demir parmaklıklar ardına tıktı.\"",
+      "notes": "Sayfa 25 | behind bars: parmaklıklar ardında."
+    },
+    {
+      "id": 498,
+      "start_ms": 3220364,
+      "end_ms": 3226004,
+      "text": "\"And it has given me another chapter for my journal of your exploits,\" I replied proudly.",
+      "translation": "Gururla, \"Ve senin marifetlerini kaydettiğim günlüğüme bir muazzam bölüm daha kazandırdı,\" diye karşılık verdim.",
+      "notes": "Sayfa 25 | journal of exploits: kahramanlıklar ve başarılar günlüğü."
+    },
+    {
+      "id": 499,
+      "start_ms": 3226404,
+      "end_ms": 3232788,
+      "text": "Holmes reached for his violin and drew the bow across the strings with a long, harmonious chord.",
+      "translation": "Holmes kemanına uzandı ve yayı tellerin üzerinde gezdirerek uzun, ahenkli bir akor çıkardı.",
+      "notes": "Sayfa 25 | harmonious chord: ahenkli tını/akor."
+    },
+    {
+      "id": 500,
+      "start_ms": 3233188,
+      "end_ms": 3241492,
+      "text": "And so ended the singular adventure of the Red-Headed League, one of the most curious cases in the long and brilliant career of Sherlock Holmes.",
+      "translation": "Ve böylece Sherlock Holmes'ün uzun ve parlak kariyerindeki en sıra dışı vakalardan biri olan Kızıl Saçlılar Kulübü'nün o eşsiz macerası noktalanmış oldu.",
+      "notes": "Sayfa 25 | so ended: işte böylece bitti/sonlandı; brilliant career: parlak meslek hayatı."
+    }
+  ]
+}
