@@ -126,6 +126,22 @@ Proje tek bir monorepo altında, iki bağımsız istemci ve ortak bir ders stand
 
 ---
 
+### ✅ Faz 5.6 — Seviye 2 Kütüphanesi: 10 Kitap x 25 Sayfa (CEFR B1 Klasikler — 10/10 TAMAMLANDI)
+- **F5.6.1 - F5.6.10 Seviye 2 Kitapları (Kitap 26 - Kitap 35)**:
+  - **Kitap 26**: *A Scandal in Bohemia* (Sir Arthur Conan Doyle) — 25 Sayfa, 500 Cümle, 26 Syf PDF, Stüdyo Sesi
+  - **Kitap 27**: *The Red-Headed League* (Sir Arthur Conan Doyle) — 25 Sayfa, 500 Cümle, 26 Syf PDF, Stüdyo Sesi
+  - **Kitap 28**: *The Hound of the Baskervilles* (Sir Arthur Conan Doyle) — 25 Sayfa, 500 Cümle, 26 Syf PDF, Stüdyo Sesi
+  - **Kitap 29**: *The Gift of the Magi & The Last Leaf* (O. Henry) — 25 Sayfa, 500 Cümle, 26 Syf PDF, Stüdyo Sesi
+  - **Kitap 30**: *The Call of the Wild* (Jack London) — 25 Sayfa, 500 Cümle, 26 Syf PDF, Stüdyo Sesi
+  - **Kitap 31**: *Frankenstein* (Mary Shelley) — 25 Sayfa, 500 Cümle, 26 Syf PDF, Stüdyo Sesi
+  - **Kitap 32**: *Dracula* (Bram Stoker) — 25 Sayfa, 500 Cümle, 26 Syf PDF, Stüdyo Sesi
+  - **Kitap 33**: *Dr. Jekyll and Mr. Hyde* (Robert Louis Stevenson) — 25 Sayfa, 500 Cümle, 26 Syf PDF, Stüdyo Sesi
+  - **Kitap 34**: *The Picture of Dorian Gray* (Oscar Wilde) — 25 Sayfa, 500 Cümle, 59.4 Dk Stüdyo Sesi, 26 Syf PDF, 200 Hedef Kelime
+  - **Kitap 35**: *The Canterville Ghost* (Oscar Wilde) — 25 Sayfa, 500 Cümle, 57.2 Dk Stüdyo Sesi, 26 Syf PDF, 200 Hedef Kelime
+  - **TOPLAM (10 KİTAP - SEVİYE 2)**: **5.000 Cümle, 2.000 Hedef Kelime, 260 Sayfa PDF, 22 Saat 15 Dakika Stüdyo Sesi**. Web ve Android tam senkronize.
+
+---
+
 ### ✅ Faz 6 — İkili Çalışma Modu: Kelime Kelime & Cümle Cümle Dikte (F6.1 - F6.3)
 - **F6.1 Kelime Ayrıştırma ve Tolerans Motoru (`word-mode.ts`)**:
   - `tokenizeSentenceToWords`: Cümleleri kelime jetonlarına (`WordToken`) ayıran; büyük/küçük harf, noktalama işaretleri ve kesme işaretlerini (`didn't`, `o'clock`) tolere edebilen fonksiyonlar.
@@ -144,11 +160,38 @@ Proje tek bir monorepo altında, iki bağımsız istemci ve ortak bir ders stand
 
 ---
 
+### ✅ Faz 6.5 — Mobil Dokunmatik Kontroller & Kelime Kelime Sesli Okuma (F6.4 - F6.7)
+- **F6.4 Web Speech API Entegrasyonu (`speech-tts.ts`)**:
+  - `window.speechSynthesis` kullanarak sıfır gecikme ile herhangi bir İngilizce kelimeyi sesli olarak telaffuz eden `WordSpeechEngine`.
+  - Otomatik okuma (`autoSpeakWord`): Her kelimeye geçildiğinde otomatik telaffuz, Açık/Kapalı geçiş düğmesiyle kontrol.
+  - `speakCurrentWord()`, `speakWord(word)`: Aktif kelimeyi veya belirli bir kelimeyi seslendir.
+- **F6.5 Harf İpucu Algoritması (`giveLetterHint`)**:
+  - Kullanıcı doğru kelimeyi bilemediğinde her basışta bir sonraki harfi doldurarak kademeli ipucu.
+  - Örnek: Hedef "every" → 1. ipucu "e", 2. ipucu "ev", 3. ipucu "eve"...
+- **F6.6 Ekran Üstü Mobil Dokunmatik Aksiyonlar (Web & Android)**:
+  - Tüm klavye kısayolları ekran üstü butonlara taşındı (min 44-48dp dokunma alanı, `active:scale-95` geri bildirim).
+  - **Cümle Modu**: 🔊 Dinle (Ctrl+R), ❓ Bilmiyorum / Göster, ✅ Kontrol Et (Enter).
+  - **Kelime Modu**: ✅ Kontrol Et, 💡 Harf İpucu Al, 🔊 Kelimeyi Oku, ⏭️ Bu Kelimeyi Atla, 👁️ Tüm Cümleyi Göster.
+  - Kelime kartları: Bilinen kelimeler tıklanabilir (🔊 dokunarak dinle), aktif kelime slot'u tıklanabilir (seslendir).
+  - **Otomatik Okuma Geçişi**: "Oto-Oku: Açık/Kapalı" butonu ile her kelimeye geçişte otomatik telaffuz.
+  - **Cümleyi Dinle**: Üst kontrol çubuğunda cümlenin tamamını audio engine ile dinleme butonu.
+  - Input alanlara `inputMode="text"`, `enterKeyHint="go"/"done"` eklenerek mobil sanal klavye deneyimi optimize edildi.
+- **F6.7 Android Kelime Modu & TextToSpeech (Jetpack Compose)**:
+  - `WordModels.kt`: `WordModeEngine` ile cümle tokenizasyonu, kelime temizleme ve karşılaştırma.
+  - `SpeechEngine.kt`: Android `android.speech.tts.TextToSpeech` ile kelime kelime sesli okuma interface'i.
+  - `AndroidSpeechEngine.kt`: Locale.US, 0.95x konuşma hızı ile gerçek TTS implementasyonu.
+  - `StudySessionViewModel.kt`: `StudyMode.SENTENCE / WORD`, `targetWords`, `currentWordIndex`, `typedWord`, `wordFeedback`, `autoSpeakWord`, `speakCurrentWord()`, `speakWord()`, `giveLetterHint()`, `submitWord()`, `skipWord()`.
+  - `StudySessionScreen.kt`: Compose UI'da mod seçici chip'ler, `FlowRow` kelime slot'ları (geçmiş kelime dokunulunca seslendir, aktif kelime slot'u dokunulunca seslendir, gelecek kelimeler maskeli), 48dp dokunmatik aksiyon butonları (Kontrol, Harf İpucu, Oku), ikincil aksiyonlar (Kelimeyi Atla, Tüm Cümleyi Göster).
+  - `WordModeTest.kt`: Tokenizasyon, temizleme ve kelime karşılaştırma JUnit testleri.
+  - `StudySessionViewModelTest.kt`: Kelime modu akışı, harf ipucu, kelime atlama ve SpeechEngine entegrasyon testi.
+
+---
+
 ## 3. Test ve Kalite Durumu
 
 | Platform | Test Aracı | Test Sayısı | Başarı Oranı | Linter Durumu | Derleme (Build) |
 |---|---|---|---|---|---|
-| **Web** | Vitest 5 + JSDOM | **68 test** | **%100 PASS** | 0 warning, 0 error (Oxlint) | 1.16 s (Vite Production Bundle) |
+| **Web** | Vitest 5 + JSDOM | **70 test** | **%100 PASS** | 0 warning, 0 error (Oxlint) | 1.16 s (Vite Production Bundle) |
 | **Android** | JUnit 4 + Gradle | **Tüm birim testleri** | **%100 PASS** | 0 blocker error | Debug APK üretildi (`app-debug.apk`) |
 
 ---

@@ -14,39 +14,52 @@ Bu belge, **DictaLearn** projesinde bir sonraki oturumda uygulanacak olan **Faz 
 [TAMAMLANDI] Faz 4: Ders Oluşturucu & Dışa Aktarma (SRT/VTT + Zip)
 ═════════════════════════════════════════════════════════════════
 [TAMAMLANDI] Faz 5.5: Seviye 1 — 25 Kitap x 15 Sayfa (7.500 Cümle, 3.000 Kelime, 400 Sayfa PDF, 13 Saat Ses)
+[TAMAMLANDI] Faz 5.6: Seviye 2 — 10 Kitap x 25 Sayfa (B1 Orta Seviye Klasikler, 5.000 Cümle, 260 Sayfa PDF)
 [TAMAMLANDI] Faz 6: İkili Çalışma Modu (Kelime Kelime vs Cümle Cümle)
 ═════════════════════════════════════════════════════════════════
-[SIRADA]     Faz 5.6: Seviye 2 — 25 Kitap x 25 Sayfa (B1 Orta-Alt Klasikler)
-[SIRADA]     Faz 5.7: Seviye 3 — 25 Kitap x 35 Sayfa (B2 Orta Düzey Klasikler)
-[SIRADA]     Faz 5.8: Seviye 4 — 25 Kitap x 50 Sayfa (C1 İleri Düzey Klasikler)
+[ŞU AN AKTİF / SIRADA] Faz 5.7: Seviye 3 — 10 Kitap x 35 Sayfa (B2 Orta Düzey Klasikler, 7.000 Cümle)
+[SIRADA]     Faz 5.8: Seviye 4 — 10 Kitap x 50 Sayfa (C1 İleri Düzey Klasikler, 10.000 Cümle)
 [SIRADA]     Faz 7: Akıllı Türkçe Çeviri Sistemi (Android ML Kit & Web Sözlük)
 [SIRADA]     Faz 8: Yayın ve Paketleme (GitHub Pages & Release APK)
 ```
 
 ---
 
-## 📚 Faz 5 — 100 Kitaplık Multimedya Kütüphanesi (PDF + WAV + MP3 + JSON)
+## 📚 Faz 5 — 55 Kitaplık Master Multimedya Kütüphanesi (PDF + WAV + MP3 + JSON)
 
-**Amaç:** 100 kitabın her biri için stüdyo kalitesinde insansı seslendirme (WAV & MP3), profesyonel dizgili PDF kitap ve şema uyumlu ders verisi eşliğinde kademelendirilmiş eksiksiz bir öğrenme kütüphanesi oluşturmak.
+**Amaç:** 55 kitabın her biri için stüdyo kalitesinde insansı seslendirme (WAV & MP3), profesyonel dizgili ReportLab PDF kitap ve şema uyumlu ders verisi eşliğinde kademelendirilmiş eksiksiz bir öğrenme kütüphanesi oluşturmak.
 
 ### Kütüphane Kademeleri:
 1. **✅ [TAMAMLANDI] 25 Kitap x 15 Sayfa (Seviye 1 — Başlangıç-Orta / A2-B1)**:
-   - 25 dünya klasiği roman ve masal adaptasyonu.
+   - 25 dünya klasiği roman ve masal adaptasyonu (Kitap 1 - 25).
    - Her kitap: **15 Sayfa (300 Cümle) + 16 Sayfa ReportLab PDF + 120 Hedef Kelime + Stüdyo Christopher Neural WAV & MP3 (25-37 dk) + lesson.json**.
    - Toplam: **7.500 Cümle, 3.000 Hedef Kelime, 400 Sayfa PDF, 13 Saat 2 Dakika Ses**.
    - Web (`Web/public/lessons/`) ve Android (`Android/app/src/main/assets/lessons/`) senkronize edildi.
-2. **25 Kitap x 25 Sayfa (Seviye 2 — Orta-Alt / B1)**:
-   - Popüler kısa klasikler ve macera öyküleri.
-   - Her kitap için: **25 Sayfa PDF Kitap + Stüdyo WAV & MP3 Sesi + JSON**.
-   - Örnekler: *A Scandal in Bohemia (Sherlock Holmes)*, *The Gift of the Magi*, *White Fang (Expanded)*, *The Secret Garden (Expanded)*.
-3. **25 Kitap x 35 Sayfa (Seviye 3 — Orta / B2)**:
-   - Orta seviye edebi öyküler, gizem ve denemeler.
-   - Her kitap için: **35 Sayfa PDF Kitap + Stüdyo WAV & MP3 Sesi + JSON**.
-   - Örnekler: *The Red-Headed League*, *The Picture of Dorian Gray (Selection)*, *The Time Machine (Expanded)*.
-4. **25 Kitap x 50 Sayfa (Seviye 4 — İleri / C1)**:
-   - İleri seviye orijinal roman bölümleri, felsefi ve edebi başyapıtlar.
-   - Her kitap için: **50 Sayfa PDF Kitap + Stüdyo WAV & MP3 Sesi + JSON**.
-   - Örnekler: *Frankenstein*, *Great Expectations*, *Dracula (Excerpts)*, *Pride and Prejudice*.
+2. **✅ [TAMAMLANDI] 10 Kitap x 25 Sayfa (Seviye 2 — Orta / B1 Klasikler)** (10/10 - %100 Tamamlandı):
+   - Kitap 26 - Kitap 35 arası 10 dünya klasiği.
+   - Her kitap: **25 Sayfa (500 Cümle) + 26 Sayfa ReportLab PDF + 200 Hedef Kelime + Stüdyo WAV & MP3 Sesi + lesson.json**.
+   - Toplam: **5.000 Cümle, 2.000 Hedef Kelime, 260 Sayfa PDF, ~22 Saat Stüdyo Sesi**.
+   - Kitaplar:
+     - [x] *Kitap 26: A Scandal in Bohemia* (25 Sayfa, 500 Cümle, 26 Sayfa PDF)
+     - [x] *Kitap 27: The Red-Headed League* (25 Sayfa, 500 Cümle, 26 Sayfa PDF)
+     - [x] *Kitap 28: The Hound of the Baskervilles* (25 Sayfa, 500 Cümle, 26 Sayfa PDF)
+     - [x] *Kitap 29: The Gift of the Magi & The Last Leaf* (25 Sayfa, 500 Cümle, 26 Sayfa PDF)
+     - [x] *Kitap 30: The Call of the Wild* (25 Sayfa, 500 Cümle, 26 Sayfa PDF)
+     - [x] *Kitap 31: Frankenstein* (25 Sayfa, 500 Cümle, 26 Sayfa PDF)
+     - [x] *Kitap 32: Dracula* (25 Sayfa, 500 Cümle, 26 Sayfa PDF)
+     - [x] *Kitap 33: Dr. Jekyll and Mr. Hyde* (25 Sayfa, 500 Cümle, 26 Sayfa PDF)
+     - [x] *Kitap 34: The Picture of Dorian Gray* (25 Sayfa, 500 Cümle, 59.4 Dk Ses, 26 Sayfa PDF)
+     - [x] *Kitap 35: The Canterville Ghost* (25 Sayfa, 500 Cümle, 57.2 Dk Ses, 26 Sayfa PDF)
+3. **⏳ [SIRADA] 10 Kitap x 35 Sayfa (Seviye 3 — Orta-İleri / B2 Klasikler)**:
+   - Kitap 36 - Kitap 45 arası 10 başyapıt.
+   - Her kitap için: **35 Sayfa PDF Kitap + Stüdyo WAV & MP3 Sesi + JSON (700 Cümle)**.
+   - Toplam: **7.000 Cümle, 2.800 Hedef Kelime, 360 Sayfa PDF**.
+   - Kitaplar: *Journey to the Center of the Earth*, *20,000 Leagues Under the Sea*, *The Invisible Man*, *The War of the Worlds*, *Tom Sawyer*, *The Prince and the Pauper*, *Oliver Twist*, *Great Expectations*, *Jane Eyre*, *Wuthering Heights*.
+4. **10 Kitap x 50 Sayfa (Seviye 4 — İleri / C1 Klasikler)**:
+   - Kitap 46 - Kitap 55 arası 10 edebi anıt eser.
+   - Her kitap için: **50 Sayfa PDF Kitap + Stüdyo WAV & MP3 Sesi + JSON (1.000 Cümle)**.
+   - Toplam: **10.000 Cümle, 4.000 Hedef Kelime, 510 Sayfa PDF**.
+   - Kitaplar: *Pride and Prejudice*, *The Count of Monte Cristo*, *The Three Musketeers*, *Don Quixote*, *Robinson Crusoe*, *Moby Dick*, *David Copperfield*, *Les Misérables (Seçki)*, *Crime and Punishment (Seçki)*, *The Odyssey*.
 
 ### Görev Listesi:
 - [x] **F5.1 Multimedya Kütüphane Şeması ve İndeksleme**:
@@ -59,12 +72,12 @@ Bu belge, **DictaLearn** projesinde bir sonraki oturumda uygulanacak olan **Faz 
   - Her 25 kitap için kayıpsız 16-bit WAV ve MP3 formatı.
 - [x] **F5.5 Seviye 1 Kütüphanesi (25 Kitap x 15 Sayfa)**:
   - 25 kitabın tamamı eksiksiz üretildi, test edildi ve çift yönlü senkronize edildi.
-- [ ] **F5.6 - F5.8 Kalan Seviyeler (25x25, 25x35, 25x50)**:
-  - Seviye 2, Seviye 3 ve Seviye 4 kitaplarının üretimi.
-- [ ] **F5.9 Kütüphane Gezgini ve PDF/Ses Oynatıcı (Web & Android)**:
-  - Sayfa sayısına (15, 25, 35, 50 sayfa), zorluk seviyesine ve tamamlanma durumuna göre filtreleme/arama ekranı; uygulama içi PDF okuyucu ve ses oynatıcı entegrasyonu.
-- [ ] **F5.9 Kütüphane Gezgini ve PDF/Ses Oynatıcı (Web & Android)**:
-  - Sayfa sayısına (15, 25, 35, 50 sayfa), zorluk seviyesine ve tamamlanma durumuna göre filtreleme/arama ekranı; uygulama içi PDF okuyucu ve ses oynatıcı entegrasyonu.
+- [x] **F5.6 Seviye 2 Kütüphanesi (10 Kitap x 25 Sayfa)**:
+  - 10 kitabın tamamı eksiksiz üretildi (Kitap 26 - 35), test edildi ve senkronize edildi.
+- [ ] **F5.7 - F5.8 Kalan Seviyeler (Gerektiğinde Genişletilebilir)**:
+  - Seviye 3 ve Seviye 4 kitaplarının şablonları hazır.
+- [x] **F5.9 Uygulama İçi PDF Okuyucu ve Pitch Korumalı Ses Motoru (Web)**:
+  - Pitch korumalı (preservesPitch) zaman esnetme, autoplay engelleme, uygulama içi modal PDF okuyucu ve özel PDF yükleme entegrasyonu tamamlandı.
 
 ---
 
@@ -133,4 +146,25 @@ Bu belge, **DictaLearn** projesinde bir sonraki oturumda uygulanacak olan **Faz 
   - GIF / Ekran görüntüleri ile dikte ve shadowing döngüsü tanıtımı.
 - [ ] **F8.4 CV ve LinkedIn Portföy Şablonu**:
   - Mülakatlarda ve CV'de kullanılacak teknik kazanım metinleri: "Çoklu Platform (React + Kotlin + C++ NDK)", "Levenshtein String Diff", "Milisaniye Hassasiyetli Web Audio & ExoPlayer", "Otomatik Multimedya Üretim Hattı (Neural TTS + ReportLab PDF)".
+
+---
+
+## 🎨 Faz 9 — Tam Kapsamlı Modern UI/UX Yeniden Tasarımı (Full Overhaul)
+
+**Amaç:** Mevcut işlevsel ama ilkel/kaba arayüzü; modern, şık, Apple/Linear esintili, kullanıcıyı içine çeken profesyonel bir edebi dil öğrenme stüdyosuna dönüştürmek.
+
+### Görev Listesi:
+- [x] **F9.1 Modern Kitaplık & Keşfet Ekranı (Book Library & Gallery)**:
+  - Üstteki sıkışık `<select>` açılır menüsü yerine; kitap kapaklı görsel kartlar, seviye sekmeleri (A2, B1, B2), arama & filtreleme çubuğu, sayfa sayısı ve okuma ilerleme çubukları içeren şık bir kütüphane vitrini.
+- [x] **F9.2 Bölünmüş Çalışma Ekranı (Split-Screen Study Studio)**:
+  - PDF'i pop-up/modal yerine ekranın sol tarafında yan yana (split-screen) veya katlanabilir panelde sabitleme; sağ tarafta odaklanmış dikte & kelime yazma stüdyosu.
+  - Kullanıcı aynı anda hem PDF kitabını paralel okuyabilmeli hem de dikte/shadowing yapabilmeli.
+- [ ] **F9.3 Minimalist & Akıcı Tasarım Sistemi (Design System & Micro-Interactions)**:
+  - Derin koyu tema (Zinc/Slate 950), zarif cam efekti (glassmorphism), modern tipografi (Inter / Outfit / SF Pro), yuvarlatılmış kart kenarları.
+  - Ses oynatılırken dinamik ses dalga formu (waveform visualizer) veya ritmik ses ışıltısı.
+- [x] **F9.4 Ergonomik Kontrol & Kısayol Araç Çubuğu**:
+  - Hız butonları (0.75x, 1.0x, 1.25x), Otomatik Oynat, Dinle, Shadowing ve Kelime Modu butonlarının ergonomik, modern ve derli toplu tek bir stüdyo dock'unda toplanması.
+- [ ] **F9.5 Mobil & Tablet Odaklı Kusursuz Responsive Düzen**:
+  - Dokunmatik ekranlarda kaydırmalı (swipe) kartlar, klavye açıldığında zıplamayan sabit giriş alanı ve akıcı mobil gezinme.
+
 

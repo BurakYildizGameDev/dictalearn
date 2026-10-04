@@ -295,3 +295,6 @@ export interface AudioEngine {
 | 2026-10-03 | Web (React/Vite/TS) + Android (Kotlin/C++) ayrımı | Hem GitHub Pages'de anında açılan web sürümü hem de Android'de tavizsiz yerel deneyim sağlamak için. |
 | 2026-10-03 | Ortak `lessons/` klasörü | Ders verisinin ve şemasının her iki platformda ortak kullanılmasını sağlamak için. |
 | 2026-10-03 | Web Audio API tercihi | Tarayıcıda harici kütüphane olmaksızın en hassas segment durdurma ve hız kontrolü sağlamak için. |
+| 2026-10-04 | Kütüphane ana ekran + hash router (`#/study/<id>`) | Uzun `<select>` listesi yerine kapaklı kütüphane; yenilemede ders korunur, GitHub Pages alt yolunda çalışır (`import.meta.env.BASE_URL`). |
+| 2026-10-04 | Ders ilerlemesi kalıcı (`ProgressStore`, Web: localStorage, Android: SharedPreferences) | 300-500 cümlelik kitaplarda her açılışta 1. cümleden başlamak kullanılamaz durumdaydı. |
+| 2026-10-04 | Uzun derslerde PCM decode yok; Android APK'ya WAV girmez | 1 saatlik sesin AudioBuffer'a çözülmesi ~700 MB bellek; WAV'lar APK'yı 4 GB sınırının üstüne çıkarıyordu. |
