@@ -1,5 +1,5 @@
 import React, { useMemo, useRef, useState } from 'react'
-import { Search, Upload, FileText, Trash2, PenLine, Play, CheckCircle2, BookOpen, Headphones, Flame, Target } from 'lucide-react'
+import { Search, Upload, FileText, Trash2, PenLine, Play, CheckCircle2, BookOpen, Headphones, Flame, Target, Smartphone } from 'lucide-react'
 import {
   filterCatalog,
   LEVEL_LABELS,
@@ -10,6 +10,10 @@ import { progressPercent, type LessonProgress } from '../domain/progress/progres
 import { isPdfFile } from '../domain/storage/pdf-storage'
 import { Button, ProgressBar, Segmented } from './ui'
 import { cx } from './cx'
+
+
+// Android APKs are too large for GitHub Pages; they are attached to GitHub Releases by android-release.yml.
+const ANDROID_DOWNLOAD_URL = 'https://github.com/BurakYildizGameDev/dictalearn/releases/latest'
 
 export interface UploadedPdf {
   id: string
@@ -138,6 +142,15 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
             {totalSentences.toLocaleString('tr-TR')} seslendirilmiş cümle. Her cümleyi önce kulağınla duy,
             sonra yaz ve farkları gör.
           </p>
+          <a
+            href={ANDROID_DOWNLOAD_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-flex items-center gap-2 rounded-xl border border-emerald-400/30 bg-emerald-500/10 px-4 py-2 text-sm font-medium text-emerald-200 transition-colors hover:bg-emerald-500/20"
+          >
+            <Smartphone className="h-4 w-4" />
+            Android uygulamasını indir
+          </a>
         </div>
 
         <div className="flex flex-col gap-3">

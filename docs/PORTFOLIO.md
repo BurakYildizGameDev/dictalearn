@@ -44,6 +44,6 @@ millisecond-accurate audio ranges, word-level diffing, OCR-based lessons from PD
 
 ## Bağlantılar
 
-- Kaynak kod: https://github.com/BurakYildizGameDev/dictalearn (şimdilik özel)
-- Canlı demo: https://burakyildizgamedev.github.io/dictalearn/ (repo herkese açılınca, `deploy-pages.yml` ile)
-- Android APK: _GitHub Releases_ (`android-release.yml`, `v*` etiketi)
+- Kaynak kod: https://github.com/BurakYildizGameDev/dictalearn
+- Canlı demo: https://burakyildizgamedev.github.io/dictalearn/
+- Android APK: https://github.com/BurakYildizGameDev/dictalearn/releases/latest

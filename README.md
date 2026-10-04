@@ -14,6 +14,8 @@ Web'de ve Android'de, tamamen çevrimdışı.
 ![Offline](https://img.shields.io/badge/hesap%20%C2%B7%20sunucu%20%C2%B7%20telemetri-yok-lightgrey?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/lisans-MIT-yellow?style=flat-square)](LICENSE)
 
+**[🌐 Web'de dene](https://burakyildizgamedev.github.io/dictalearn/)** · **[📱 Android APK indir](https://github.com/BurakYildizGameDev/dictalearn/releases/latest)**
+
 <img src="docs/screenshots/web-library.png" alt="DictaLearn kütüphane ekranı" width="900">
 
 </div>
@@ -317,8 +319,9 @@ Uçtan uca testlerin kontrol ettikleri:
 | `deploy-pages.yml` | `Web/**` değişikliği | `VITE_BASE=/<repo>/` ile derler, GitHub Pages'e yayınlar. LFS nesneleri önbelleğe alınır |
 | `android-release.yml` | `v*` etiketi | Testler, mimari başına `assembleRelease` (`-Pdictalearn.abiSplits=true`), APK'ları GitHub Release'e ekler |
 
-**Pages:** Settings → Pages → Source: *GitHub Actions*. Özel (private) repoda GitHub Pages ücretli plan ister; ücretsiz
-hesapta repo özelken `deploy-pages.yml` başarısız olur, repo herkese açılınca çalışır.
+**Pages:** Settings → Pages → Source: *GitHub Actions*. Canlı adres: https://burakyildizgamedev.github.io/dictalearn/.
+Kütüphanedeki **"Android uygulamasını indir"** düğmesi en son GitHub Release'e gider; APK'lar Pages'in 100 MB dosya
+sınırını aştığı için Pages'e değil Releases'e yüklenir.
 
 **Git LFS kotası:** Ses ve PDF dosyaları ~560 MB'tır. İş akışları LFS nesnelerini önbelleğe alır, yine de her yeni
 indirme aylık LFS bant genişliğinden düşer.
