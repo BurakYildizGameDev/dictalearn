@@ -120,9 +120,9 @@ Bu belge, **DictaLearn** projesinde bir sonraki oturumda uygulanacak olan **Faz 
    - Kitap dışı serbest cümleler için hafif istemci taraflı çeviri köprüsü.
 
 ### Görev Listesi:
-- [ ] **F7.1 Android ML Kit Çeviri Entegrasyonu**: `MLKitTranslator.kt` servisi.
-- [ ] **F7.2 Web Çevrimdışı Sözlük Modülü**: `Web/src/domain/dictionary/` sözlük indeksleyici.
-- [ ] **F7.3 Kelime Bilgi Kartı (Word Popup / Tooltip)**:
+- [x] **F7.1 Android ML Kit Çeviri Entegrasyonu**: `MLKitTranslator.kt` servisi.
+- [x] **F7.2 Web Çevrimdışı Sözlük Modülü**: `Web/src/domain/dictionary/` sözlük indeksleyici.
+- [x] **F7.3 Kelime Bilgi Kartı (Word Popup / Tooltip)**:
   - Tıklanan kelimenin Türkçe anlamı, kelime türü (isim/fiil/sıfat) ve Hata Defteri'ne "Öğrenilecek Kelime" olarak ekleme butonu.
 
 ---
@@ -132,14 +132,14 @@ Bu belge, **DictaLearn** projesinde bir sonraki oturumda uygulanacak olan **Faz 
 **Amaç:** Projeyi canlı web yayınına (GitHub Pages), bağımsız mobil mağaza dağıtımına (Itch.io APK) ve işe alımcıları/mühendislik yöneticilerini etkileyecek profesyonel bir CV/Portföy vitrinine dönüştürmek.
 
 ### Görev Listesi:
-- [ ] **F8.1 GitHub Pages Canlı Web Yayını (`gh-pages`)**:
+- [x] **F8.1 GitHub Pages Canlı Web Yayını (`gh-pages`)**:
   - Vite `base` konfigürasyonunun GitHub Pages repository adresine göre ayarlanması (`/dictalearn/` veya özel domain).
   - `npm run build` ile tek tıkla veya GitHub Actions CI ile her `main` push'unda otomatik canlıya alma.
   - Canlı demo linki: İşe alımcıların ve kullanıcıların kurulumsuz hemen tarayıcıda deneyimlemesi.
-- [ ] **F8.2 Itch.io Bağımsız Mağaza ve Android Release APK**:
+- [x] **F8.2 Itch.io Bağımsız Mağaza ve Android Release APK**:
   - `gradlew assembleRelease` ile optimize edilmiş, küçültülmüş (ProGuard/R8) evrensel APK üretimi.
   - Itch.io oyun/uygulama sayfası için vitrin görselleri, afiş, özellik listesi ve doğrudan `.apk` indirme butonu.
-- [ ] **F8.3 Kapsamlı GitHub README & Mühendislik Vitrini**:
+- [x] **F8.3 Kapsamlı GitHub README & Mühendislik Vitrini**:
   - Dinamik rozetler: `Tests: 63 Passing`, `Android: Kotlin + C++ NDK`, `Web: React + TS + Web Audio`, `License: MIT`.
   - Sistem Mimari Şeması (Mermaid diyagramı: C++ NDK, WebAudioEngine, Studio TTS Pipeline).
   - Canlı Web Demosu ve APK İndirme linkleri.
@@ -159,12 +159,12 @@ Bu belge, **DictaLearn** projesinde bir sonraki oturumda uygulanacak olan **Faz 
 - [x] **F9.2 Bölünmüş Çalışma Ekranı (Split-Screen Study Studio)**:
   - PDF'i pop-up/modal yerine ekranın sol tarafında yan yana (split-screen) veya katlanabilir panelde sabitleme; sağ tarafta odaklanmış dikte & kelime yazma stüdyosu.
   - Kullanıcı aynı anda hem PDF kitabını paralel okuyabilmeli hem de dikte/shadowing yapabilmeli.
-- [ ] **F9.3 Minimalist & Akıcı Tasarım Sistemi (Design System & Micro-Interactions)**:
+- [x] **F9.3 Minimalist & Akıcı Tasarım Sistemi (Design System & Micro-Interactions)**:
   - Derin koyu tema (Zinc/Slate 950), zarif cam efekti (glassmorphism), modern tipografi (Inter / Outfit / SF Pro), yuvarlatılmış kart kenarları.
   - Ses oynatılırken dinamik ses dalga formu (waveform visualizer) veya ritmik ses ışıltısı.
 - [x] **F9.4 Ergonomik Kontrol & Kısayol Araç Çubuğu**:
   - Hız butonları (0.75x, 1.0x, 1.25x), Otomatik Oynat, Dinle, Shadowing ve Kelime Modu butonlarının ergonomik, modern ve derli toplu tek bir stüdyo dock'unda toplanması.
-- [ ] **F9.5 Mobil & Tablet Odaklı Kusursuz Responsive Düzen**:
+- [x] **F9.5 Mobil & Tablet Odaklı Kusursuz Responsive Düzen**:
   - Dokunmatik ekranlarda kaydırmalı (swipe) kartlar, klavye açıldığında zıplamayan sabit giriş alanı ve akıcı mobil gezinme.
 
 

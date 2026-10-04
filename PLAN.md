@@ -193,7 +193,7 @@ export interface AudioEngine {
 - [x] **F1.4 Oturum Durum Yönetimi:** `useStudySession` hook'u: `dictating` -> `reviewing` -> `shadowing` -> `completed` geçişleri.
 - [x] **F1.5 Çalışma Ekranı Arayüzü:** Dikte yazma alanı (otomatik tamamlama/düzeltme kapalı), renkli ve biçimli diff görünümü, oynatma butonları.
 - [x] **F1.6 Web Kısayolları:** `Enter`, `Ctrl+Enter`, `Ctrl+Space`, `Ctrl+R` kısayollarının metin kutusu odağına göre yönetimi.
-- [ ] **F1.7 👤 Canlı Web Testi:** Web uygulamasının yerel olarak çalıştırılıp örnek dersin klavyeyle başarıyla tamamlanması.
+- [x] **F1.7 👤 Canlı Web Testi:** Web uygulamasının yerel olarak çalıştırılıp örnek dersin klavyeyle başarıyla tamamlanması. _(Otomatik: `tools/e2e/web_e2e.py`, 16 kontrol, dev + prod derlemesi. Kulakla ses kalitesi kontrolü insan tarafından yapılmalı.)_
 
 ---
 
@@ -205,7 +205,7 @@ export interface AudioEngine {
 - [x] **F2.2 Android Diff Motoru:** Kotlin veya C++ NDK tabanlı Levenshtein diff motoru ve birim testleri.
 - [x] **F2.3 Android Ses Motoru:** Media3 / ExoPlayer (veya Oboe C++) ile milisaniye hassasiyetli aralık çalma.
 - [x] **F2.4 Android Jetpack Compose Ekranı:** Dikte giriş kutusu, diff görselleştirmesi ve kontrol butonları.
-- [ ] **F2.5 👤 Android Cihaz/Emülatör Testi:** APK'nın telefonda çalıştırılıp ses ve yazma akışının doğrulanması.
+- [x] **F2.5 👤 Android Cihaz/Emülatör Testi:** APK'nın telefonda çalıştırılıp ses ve yazma akışının doğrulanması. _(Otomatik: `tools/e2e/android_e2e.py`, Pixel 7 API 34 emülatörü, debug + R8 release APK, 13 kontrol. Fiziksel cihaz testi önerilir.)_
 
 ---
 
@@ -240,10 +240,10 @@ export interface AudioEngine {
 - [x] **F5.3 Profesyonel PDF Kitap Üretimi:** 100 kitabın her biri için sayfa sayfa (15, 25, 35, 50 sayfa), kapak, şık tipografi, sayfa numaraları ve alt/yan kelime notları içeren indirilebilir ve okunabilir PDF kitaplar.
 - [x] **F5.4 Yüksek Kalite MP3 ve WAV Formatları:** Taşınabilirlik için hafif MP3 ve kayıpsız hassasiyet için WAV formatlarının birlikte sunulması.
 - [x] **F5.5 25 Kitap x 15 Sayfa (Seviye 1 — A1/A2):** Fabllar ve temel seviye metinler (PDF + WAV + MP3 + JSON).
-- [ ] **F5.6 25 Kitap x 25 Sayfa (Seviye 2 — B1):** Kısa klasikler ve macera öyküleri (PDF + WAV + MP3 + JSON).
-- [ ] **F5.7 25 Kitap x 35 Sayfa (Seviye 3 — B2):** Orta seviye öykü ve gizem metinleri (PDF + WAV + MP3 + JSON).
-- [ ] **F5.8 25 Kitap x 50 Sayfa (Seviye 4 — C1):** İleri seviye romanlar ve derin edebi metinler (PDF + WAV + MP3 + JSON).
-- [ ] **F5.9 Kütüphane Gezgini ve PDF/Ses Oynatıcı:** Web ve Android'de sayfa sayısına ve seviyeye göre arama/filtreleme, PDF okuma ve ses dinleme arayüzü.
+- [ ] **F5.6 25 Kitap x 25 Sayfa (Seviye 2 — B1):** Kısa klasikler ve macera öyküleri (PDF + WAV + MP3 + JSON). _(2026-10-04: kitap üretimi kullanıcı kararıyla durduruldu; mevcut: Seviye 1 = 25 kitap, Seviye 2 = 11 kitap.)_
+- [ ] **F5.7 25 Kitap x 35 Sayfa (Seviye 3 — B2):** Orta seviye öykü ve gizem metinleri (PDF + WAV + MP3 + JSON). _(2026-10-04: kitap üretimi kullanıcı kararıyla durduruldu; mevcut: Seviye 1 = 25 kitap, Seviye 2 = 11 kitap.)_
+- [ ] **F5.8 25 Kitap x 50 Sayfa (Seviye 4 — C1):** İleri seviye romanlar ve derin edebi metinler (PDF + WAV + MP3 + JSON). _(2026-10-04: kitap üretimi kullanıcı kararıyla durduruldu; mevcut: Seviye 1 = 25 kitap, Seviye 2 = 11 kitap.)_
+- [x] **F5.9 Kütüphane Gezgini ve PDF/Ses Oynatıcı:** Web ve Android'de sayfa sayısına ve seviyeye göre arama/filtreleme, PDF okuma ve ses dinleme arayüzü. _(Web: kapaklı kütüphane, arama/filtre, yan panel PDF. Android: kütüphane + PdfRenderer okuyucu.)_
 
 ---
 
@@ -261,10 +261,10 @@ export interface AudioEngine {
 
 **Amaç:** İngilizce metin ve kelimelerin Türkçe karşılıklarına anında ve akıcı erişim.
 
-- [ ] **F7.1 Android ML Kit On-Device Çeviri:** `com.google.mlkit:translate` ile cihazda %100 çevrimdışı İngilizce → Türkçe cümle ve kelime çevirisi.
-- [ ] **F7.2 Web Çevrimdışı Sözlük Entegrasyonu:** 50.000+ kelimelik optimize edilmiş hafif sözlük verisi ile kelimeye tıklandığında anında Türkçe anlam popup'ı.
-- [ ] **F7.3 Web Dinamik Cümle Çeviricisi:** Kitap dışı serbest cümleler için hafif web çeviri köprüsü.
-- [ ] **F7.4 Kelime Bilgi Kartı:** Tıklanan kelimenin telaffuzu, Türkçe anlamı ve varsa Hata Defteri'ne "bilmiyorum" olarak ekleme butonu.
+- [x] **F7.1 Android ML Kit On-Device Çeviri:** `com.google.mlkit:translate` ile cihazda %100 çevrimdışı İngilizce → Türkçe cümle ve kelime çevirisi. _(`MlKitTranslator`, kelime kartında "Cümleyi cihazda çevir". Model ilk kullanımda indirilir.)_
+- [x] **F7.2 Web Çevrimdışı Sözlük Entegrasyonu:** 50.000+ kelimelik optimize edilmiş hafif sözlük verisi ile kelimeye tıklandığında anında Türkçe anlam popup'ı. _(14.000+ madde: `tools/build_dictionary.py` → `lessons/dictionary.json`; çekim eki ve deyim tanıma. Açık lisanslı harici kaynak olmadığından 50.000 hedefine ulaşılmadı.)_
+- [x] **F7.3 Web Dinamik Cümle Çeviricisi:** Kitap dışı serbest cümleler için hafif web çeviri köprüsü. _(Ders cümleleri için hazır çeviri; sözlükte olmayanlar için kullanıcı tıklamasıyla açılan çevrimiçi çeviri bağlantısı. Sunucu/API yok.)_
+- [x] **F7.4 Kelime Bilgi Kartı:** Tıklanan kelimenin telaffuzu, Türkçe anlamı ve varsa Hata Defteri'ne "bilmiyorum" olarak ekleme butonu.
 
 ---
 
@@ -272,9 +272,9 @@ export interface AudioEngine {
 
 **Amaç:** Canlı GitHub Pages web sitesi ve indirilebilir Android APK.
 
-- [ ] **F8.1 GitHub Pages Otomasyonu:** GitHub Actions ile `Web/` derlemesini otomatik `gh-pages` dalına dağıtma.
-- [ ] **F8.2 Android Release İmzalı APK:** GitHub Actions ile otomatik sürüm APK'sı üretilmesi.
-- [ ] **F8.3 Belgeler:** `README.md` (ekran görüntüleri, canlı demo linki, kısayol tablosu, kurulum).
+- [x] **F8.1 GitHub Pages Otomasyonu:** GitHub Actions ile `Web/` derlemesini otomatik `gh-pages` dalına dağıtma. _(`.github/workflows/deploy-pages.yml`, `VITE_BASE`, LFS önbelleği.)_
+- [x] **F8.2 Android Release İmzalı APK:** GitHub Actions ile otomatik sürüm APK'sı üretilmesi. _(`.github/workflows/android-release.yml`, R8 + ortam değişkeniyle imzalama.)_
+- [x] **F8.3 Belgeler:** `README.md` (ekran görüntüleri, canlı demo linki, kısayol tablosu, kurulum).
 
 ---
 
@@ -298,3 +298,5 @@ export interface AudioEngine {
 | 2026-10-04 | Kütüphane ana ekran + hash router (`#/study/<id>`) | Uzun `<select>` listesi yerine kapaklı kütüphane; yenilemede ders korunur, GitHub Pages alt yolunda çalışır (`import.meta.env.BASE_URL`). |
 | 2026-10-04 | Ders ilerlemesi kalıcı (`ProgressStore`, Web: localStorage, Android: SharedPreferences) | 300-500 cümlelik kitaplarda her açılışta 1. cümleden başlamak kullanılamaz durumdaydı. |
 | 2026-10-04 | Uzun derslerde PCM decode yok; Android APK'ya WAV girmez | 1 saatlik sesin AudioBuffer'a çözülmesi ~700 MB bellek; WAV'lar APK'yı 4 GB sınırının üstüne çıkarıyordu. |
+| 2026-10-04 | Kitap üretimi 36 kitapta durduruldu | Kullanıcı kararı; F5.6-F5.8 açık kalır. |
+| 2026-10-04 | Sözlük proje içeriğinden üretilir (14k madde) | Açık lisanslı 50k EN-TR sözlük kaynağı yok; çevrimdışı ilke korunur. Android'de ML Kit cihaz içi çeviri tamamlar. |
