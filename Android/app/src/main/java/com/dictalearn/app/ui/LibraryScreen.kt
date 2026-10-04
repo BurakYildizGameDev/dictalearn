@@ -14,6 +14,7 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Bookmarks
+import androidx.compose.material.icons.filled.LocalFireDepartment
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Description
 import androidx.compose.material.icons.filled.Headphones
@@ -54,7 +55,9 @@ fun LibraryScreen(
     onAddPdf: () -> Unit = {},
     onStudyPdf: (UserPdf) -> Unit = {},
     onReadPdf: (UserPdf) -> Unit = {},
-    onDeletePdf: (UserPdf) -> Unit = {}
+    onDeletePdf: (UserPdf) -> Unit = {},
+    daily: DailySnapshot? = null,
+    onGoalChange: (Int) -> Unit = {}
 ) {
     var query by rememberSaveable { mutableStateOf("") }
     var level by rememberSaveable { mutableStateOf<Int?>(null) }
@@ -108,6 +111,7 @@ fun LibraryScreen(
                         color = Dicta.TextSecondary,
                         fontSize = 14.sp
                     )
+                    if (daily != null) DailyGoalCard(daily, onGoalChange)
                     if (lastBook != null && lastProgress != null && !lastProgress.completed) {
                         ContinueCard(lastBook, lastProgress) { onOpenBook(lastBook) }
                     }
@@ -351,6 +355,79 @@ private fun UserPdfSection(
                 IconButton(onClick = { onDelete(pdf) }) {
                     Icon(Icons.Default.Delete, contentDescription = "${pdf.name} sil", tint = Dicta.TextMuted)
                 }
+            }
+        }
+    }
+}
+
+data class DailySnapshot(val count: Int, val goal: Int, val streak: Int, val week: List<Pair<java.time.LocalDate, Int>>)
+
+/** Today's goal, streak and the last 7 days. */
+@Composable
+private fun DailyGoalCard(daily: DailySnapshot, onGoalChange: (Int) -> Unit) {
+    val done = daily.count >= daily.goal
+    val max = maxOf(daily.goal, daily.week.maxOfOrNull { it.second } ?: 0).coerceAtLeast(1)
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clip(RoundedCornerShape(16.dp))
+            .background(Dicta.Surface)
+            .border(1.dp, Dicta.Outline, RoundedCornerShape(16.dp))
+            .padding(14.dp),
+        verticalArrangement = Arrangement.spacedBy(8.dp)
+    ) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Column(Modifier.weight(1f)) {
+                Text("BUGÜNKÜ HEDEF", style = MaterialTheme.typography.labelSmall, color = Dicta.TextMuted)
+                Text(
+                    "${daily.count} / ${daily.goal} cümle" + if (done) " · tamamlandı" else "",
+                    color = if (done) Dicta.Success else Dicta.TextPrimary,
+                    fontSize = 17.sp
+                )
+            }
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier
+                    .clip(RoundedCornerShape(8.dp))
+                    .background(Dicta.Warning.copy(alpha = 0.1f))
+                    .padding(horizontal = 8.dp, vertical = 4.dp)
+            ) {
+                Icon(Icons.Default.LocalFireDepartment, contentDescription = "Seri", tint = Dicta.Warning, modifier = Modifier.size(16.dp))
+                Spacer(Modifier.width(4.dp))
+                Text("${daily.streak} gün", color = Dicta.Warning, fontSize = 13.sp)
+            }
+        }
+        LinearProgressIndicator(
+            progress = { (daily.count.toFloat() / daily.goal).coerceAtMost(1f) },
+            modifier = Modifier.fillMaxWidth().height(4.dp).clip(CircleShape),
+            color = Dicta.Accent,
+            trackColor = Dicta.SurfaceHigh
+        )
+        Row(verticalAlignment = Alignment.Bottom) {
+            Row(horizontalArrangement = Arrangement.spacedBy(5.dp), verticalAlignment = Alignment.Bottom, modifier = Modifier.weight(1f)) {
+                daily.week.forEach { (_, n) ->
+                    Box(
+                        modifier = Modifier
+                            .width(10.dp)
+                            .height((3 + 25f * n / max).dp)
+                            .clip(RoundedCornerShape(2.dp))
+                            .background(
+                                when {
+                                    n >= daily.goal -> Dicta.Success.copy(alpha = 0.8f)
+                                    n > 0 -> Dicta.Accent.copy(alpha = 0.6f)
+                                    else -> Dicta.SurfaceHigh
+                                }
+                            )
+                    )
+                }
+            }
+            listOf(10, 20, 40).forEach { g ->
+                FilterChip(
+                    selected = daily.goal == g,
+                    onClick = { onGoalChange(g) },
+                    label = { Text("$g", fontSize = 12.sp) },
+                    modifier = Modifier.padding(start = 4.dp)
+                )
             }
         }
     }

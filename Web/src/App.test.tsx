@@ -71,6 +71,14 @@ describe('App Integration Smoke Test', () => {
     expect(screen.getByRole('button', { name: /PDF Ekle/i })).toBeInTheDocument()
   })
 
+  it('shows the daily goal card and lets the user change the goal', () => {
+    render(<App />)
+    const card = screen.getByRole('region', { name: 'Bugünkü hedef' })
+    expect(card).toHaveTextContent('0 / 20 cümle')
+    fireEvent.click(screen.getByTitle('Günde 10 cümle'))
+    expect(screen.getByRole('region', { name: 'Bugünkü hedef' })).toHaveTextContent('0 / 10 cümle')
+  })
+
   it('filters books with the search box', () => {
     render(<App />)
     fireEvent.change(screen.getByPlaceholderText(/Kitap, yazar ara/i), { target: { value: 'dracula' } })

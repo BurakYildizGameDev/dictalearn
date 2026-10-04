@@ -104,6 +104,7 @@ def main() -> int:
     time.sleep(4)
 
     check("library shows books", lambda: find("The Happy Prince", 20))
+    check("daily goal card on the library", lambda: find("BUGÜNKÜ HEDEF", 5))
 
     def open_book():
         tap("Mutlu Prens")

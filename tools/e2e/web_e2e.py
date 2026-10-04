@@ -205,6 +205,15 @@ def run() -> int:
 
         check("completion screen + restart", completion)
 
+        def daily_goal():
+            page.goto(BASE + "#/")
+            card = page.get_by_role("region", name="Bugünkü hedef")
+            expect(card).to_be_visible()
+            count = int(re.search(r"(\d+) / \d+ cümle", card.inner_text()).group(1))
+            assert count >= 6, f"daily counter did not count the sentences ({count})"
+
+        check("daily goal counts practised sentences", daily_goal)
+
         def notebook():
             page.goto(BASE + "#/notebook")
             expect(page.get_by_role("heading", name="Tekrar edilecek kelimeler")).to_be_visible()

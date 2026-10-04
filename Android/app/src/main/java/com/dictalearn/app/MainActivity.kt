@@ -28,6 +28,8 @@ import com.dictalearn.app.domain.audio.AudioEngine
 import com.dictalearn.app.domain.pdflesson.PdfLesson
 import com.dictalearn.app.domain.review.SrsStore
 import com.dictalearn.app.domain.review.HardSentenceStore
+import com.dictalearn.app.domain.progress.DailyStats
+import com.dictalearn.app.ui.DailySnapshot
 import com.dictalearn.app.ui.ReviewScreen
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
@@ -107,6 +109,7 @@ class MainActivity : ComponentActivity() {
         val pagesJobs = PdfPagesJobs(this)
         val srs = SrsStore(prefs)
         val hardStore = HardSentenceStore(prefs)
+        val daily = DailyStats(prefs)
 
         setContent {
             DictaTheme {
@@ -123,6 +126,7 @@ class MainActivity : ComponentActivity() {
                 var userPdfs by remember { mutableStateOf(pdfStore.list()) }
                 var pagesState by remember { mutableStateOf<PdfPagesState?>(null) }
                 var hardVersion by remember { mutableIntStateOf(0) }
+                var dailyVersion by remember { mutableIntStateOf(0) }
                 // Short round over the hard sentences of the current lesson (null = normal study).
                 var hardVm by remember { mutableStateOf<StudySessionViewModel?>(null) }
                 val ttsStatus by ttsEngine.status.collectAsState()
@@ -185,6 +189,8 @@ class MainActivity : ComponentActivity() {
                             }
                         },
                         onRecord = { record ->
+                            daily.addSentence()
+                            dailyVersion++
                             if (hardKey != null) {
                                 hardStore.record(hardKey, record.segmentId, record.accuracy)
                                 hardVersion++
@@ -318,6 +324,13 @@ class MainActivity : ComponentActivity() {
                             onAddPdf = { pickPdf.launch(arrayOf("application/pdf")) },
                             onStudyPdf = { screen = Screen.PdfLesson(it) },
                             onReadPdf = { screen = Screen.PdfRead(it) },
+                            daily = dailyVersion.let {
+                                DailySnapshot(daily.todayCount(), daily.goal(), daily.streak(), daily.lastDays(7))
+                            },
+                            onGoalChange = {
+                                daily.setGoal(it)
+                                dailyVersion++
+                            },
                             onDeletePdf = { pdf ->
                                 pagesJobs.cancel(pdf.id)
                                 pdfStore.remove(pdf.id)

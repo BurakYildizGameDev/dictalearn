@@ -1,5 +1,5 @@
 import React, { useMemo, useRef, useState } from 'react'
-import { Search, Upload, FileText, Trash2, PenLine, Play, CheckCircle2, BookOpen, Headphones } from 'lucide-react'
+import { Search, Upload, FileText, Trash2, PenLine, Play, CheckCircle2, BookOpen, Headphones, Flame, Target } from 'lucide-react'
 import {
   filterCatalog,
   LEVEL_LABELS,
@@ -17,7 +17,16 @@ export interface UploadedPdf {
   pdfUrl: string
 }
 
+export interface DailySnapshot {
+  count: number
+  goal: number
+  streak: number
+  week: Array<{ date: string; count: number }>
+}
+
 export interface LibraryViewProps {
+  daily?: DailySnapshot
+  onGoalChange?: (goal: number) => void
   books: CatalogBook[]
   progress: Record<string, LessonProgress>
   lastBookId?: string | null
@@ -75,6 +84,8 @@ const BookCover: React.FC<{ book: CatalogBook; className?: string; mini?: boolea
 type LevelFilter = BookLevel | 'all'
 
 export const LibraryView: React.FC<LibraryViewProps> = ({
+  daily,
+  onGoalChange,
   books,
   progress,
   lastBookId,
@@ -129,6 +140,8 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
           </p>
         </div>
 
+        <div className="flex flex-col gap-3">
+        {daily && <DailyGoalCard daily={daily} onGoalChange={onGoalChange} />}
         {showContinue && lastBook && (
           <button
             type="button"
@@ -149,6 +162,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
             </span>
           </button>
         )}
+        </div>
       </section>
 
       {/* Toolbar */}
@@ -309,5 +323,61 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
         </section>
       )}
     </div>
+  )
+}
+
+const DAY_LETTERS = ['Pz', 'Pt', 'Sa', 'Ça', 'Pe', 'Cu', 'Ct']
+
+/** Today's goal, streak and the last 7 days. */
+const DailyGoalCard: React.FC<{ daily: DailySnapshot; onGoalChange?: (goal: number) => void }> = ({ daily, onGoalChange }) => {
+  const done = daily.count >= daily.goal
+  const max = Math.max(daily.goal, ...daily.week.map((d) => d.count))
+  return (
+    <section aria-label="Bugünkü hedef" className="rounded-2xl border border-white/[0.08] bg-zinc-900/70 p-4">
+      <div className="flex items-start justify-between gap-3">
+        <div>
+          <p className="flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-wider text-zinc-500">
+            <Target className="h-3.5 w-3.5" /> Bugünkü hedef
+          </p>
+          <p className="mt-1 text-lg text-zinc-100">
+            <span className={done ? 'text-emerald-300' : ''}>{daily.count}</span>
+            <span className="text-zinc-500"> / {daily.goal} cümle</span>
+            {done && <span className="ml-2 text-xs text-emerald-300">tamamlandı</span>}
+          </p>
+        </div>
+        <p
+          className="flex items-center gap-1 rounded-lg bg-amber-400/10 px-2.5 py-1 text-sm font-medium text-amber-200"
+          title="Hedefin tutturulduğu ardışık gün sayısı"
+        >
+          <Flame className="h-4 w-4" /> {daily.streak} gün
+        </p>
+      </div>
+      <ProgressBar value={(daily.count / daily.goal) * 100} className="mt-3" label="Bugünkü hedef ilerlemesi" />
+      <div className="mt-3 flex items-end justify-between gap-3">
+        <div className="flex h-10 items-end gap-1.5" aria-label="Son 7 gün">
+          {daily.week.map((d) => {
+            const [y, m, dd] = d.date.split('-').map(Number)
+            const weekday = DAY_LETTERS[new Date(y, m - 1, dd).getDay()]
+            return (
+              <div key={d.date} className="flex flex-col items-center gap-1" title={`${d.date}: ${d.count} cümle`}>
+                <div
+                  className={cx('w-3 rounded-sm', d.count >= daily.goal ? 'bg-emerald-400/80' : d.count > 0 ? 'bg-indigo-400/60' : 'bg-white/[0.06]')}
+                  style={{ height: `${Math.max(3, (d.count / max) * 28)}px` }}
+                />
+                <span className="text-[9px] text-zinc-600">{weekday}</span>
+              </div>
+            )
+          })}
+        </div>
+        {onGoalChange && (
+          <Segmented<number>
+            ariaLabel="Günlük hedef"
+            value={daily.goal}
+            onChange={onGoalChange}
+            options={[10, 20, 40].map((g) => ({ value: g, label: String(g), title: `Günde ${g} cümle` }))}
+          />
+        )}
+      </div>
+    </section>
   )
 }

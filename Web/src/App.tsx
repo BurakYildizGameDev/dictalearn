@@ -11,6 +11,7 @@ import { firstBatchSize, mergeSentences } from './domain/pdf-lesson/progressive'
 import { LocalMistakeRepository } from './domain/mistakes/local-mistake-repository'
 import { CATALOG, findBook, lessonAssetUrls } from './domain/library/catalog'
 import { ProgressStore, type KeyValueStorage } from './domain/progress/progress-store'
+import { DailyStats } from './domain/progress/daily-stats'
 import { listAllCustomPdfs, saveCustomPdf, removeCustomPdf, asPdfBlob, getCustomPdf, removePdfPages } from './domain/storage/pdf-storage'
 import { useHashRoute } from './state/route'
 import { StudySessionView } from './components/StudySessionView'
@@ -75,6 +76,12 @@ export function App() {
   const srs = useMemo(() => new SrsStore(safeStorage()), [])
   const hardStore = useMemo(() => new HardSentenceStore(safeStorage()), [])
   const [hardVersion, setHardVersion] = useState(0)
+  const daily = useMemo(() => new DailyStats(safeStorage()), [])
+  const [dailyVersion, setDailyVersion] = useState(0)
+  const countSentence = () => {
+    daily.addSentence()
+    setDailyVersion((v) => v + 1)
+  }
   // Snapshot of the hard sentences when a review round starts (so the round does not shrink while playing).
   const [hardLesson, setHardLesson] = useState<Lesson | null>(null)
 
@@ -378,6 +385,15 @@ export function App() {
         <main className="flex min-w-0 flex-1 flex-col">
           {route.name === 'library' && (
             <LibraryView
+              daily={
+                dailyVersion >= 0
+                  ? { count: daily.todayCount(), goal: daily.goal(), streak: daily.streak(), week: daily.lastDays(7) }
+                  : undefined
+              }
+              onGoalChange={(goal) => {
+                daily.setGoal(goal)
+                setDailyVersion((v) => v + 1)
+              }}
               books={VISIBLE_BOOKS}
               progress={progressMap}
               lastBookId={lastBookId}
@@ -491,6 +507,7 @@ export function App() {
               onRecord={(r) => {
                 hardStore.record(loaded.id, r.segmentId, r.accuracy)
                 setHardVersion((v) => v + 1)
+                countSentence()
               }}
               onBackToLessons={() => setHardLesson(null)}
               onOpenPdf={activePdfUrl ? () => setIsPdfOpen((v) => !v) : undefined}
@@ -505,6 +522,7 @@ export function App() {
               hardCount={hardVersion >= 0 ? hardStore.count(loaded.id) : 0}
               onReviewHard={() => setHardLesson(hardSubLesson(loaded.lesson, hardStore.list(loaded.id)))}
               onRecord={(r) => {
+                countSentence()
                 if (loaded.id === CUSTOM_LESSON_ID) return
                 hardStore.record(loaded.id, r.segmentId, r.accuracy)
                 setHardVersion((v) => v + 1)
