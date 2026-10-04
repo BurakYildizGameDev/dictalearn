@@ -9,7 +9,7 @@ Web'de ve Android'de, tamamen çevrimdışı.
 
 ![Web](https://img.shields.io/badge/Web-React%2019%20%C2%B7%20TypeScript%20%C2%B7%20Vite%208-61dafb?style=flat-square)
 ![Android](https://img.shields.io/badge/Android-Kotlin%20%C2%B7%20Jetpack%20Compose%20%C2%B7%20C%2B%2B%20NDK-3ddc84?style=flat-square)
-![Tests](https://img.shields.io/badge/tests-235%20unit%20%2B%2031%20e2e-brightgreen?style=flat-square)
+![Tests](https://img.shields.io/badge/tests-249%20unit%20%2B%2033%20e2e-brightgreen?style=flat-square)
 ![Library](https://img.shields.io/badge/k%C3%BCt%C3%BCphane-36%20kitap%20%C2%B7%2013.000%20c%C3%BCmle-6366f1?style=flat-square)
 ![Offline](https://img.shields.io/badge/hesap%20%C2%B7%20sunucu%20%C2%B7%20telemetri-yok-lightgrey?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/lisans-MIT-yellow?style=flat-square)](LICENSE)
@@ -100,6 +100,9 @@ stateDiagram-v2
 - **Kelime bazlı çeviri:** Kelime modunda çözülen her kelimenin altında Türkçe anlamı belirir.
 - **Android:** Google ML Kit ile **cihaz içinde** cümle çevirisi. Dil modeli bir kez indirilir, sonra internetsiz çalışır.
 - **Defterim:** kaçırılan ve bilinmeyen kelimeler, sıklık ve anlamlarıyla birlikte.
+- **Aralıklı tekrar (Leitner):** Defterdeki kelimeler doğru bildikçe 1, 3, 7, 14, 30 gün arayla sorulur.
+  Yanlışta kelime başa döner; dikte sırasında tekrar kaçırılırsa da başa döner. Tekrar turunda kelime stüdyo
+  sesiyle okunur, Türkçesi gösterilir, İngilizcesini yazarsın.
 
 ### Kitaplar ve PDF
 - 36 kademeli klasik. Her kitapta nöral TTS seslendirmesi, çift sütunlu (İngilizce | Türkçe) PDF ve kelime notları var.
@@ -266,10 +269,10 @@ Bir ders, `lesson.json` ve `audio.mp3` dosyalarından oluşan taşınabilir bir 
 
 | Katman | Araç | Sayı |
 |---|---|---|
-| Web birim ve bileşen | Vitest + Testing Library | **156** |
-| Android birim | JUnit 4 | **79** |
-| Web uçtan uca | Playwright (gerçek Chromium) | **18 kontrol** (dev ve `/repo/` alt yollu prod derlemesi) |
-| Android uçtan uca | adb + uiautomator (emülatör) | **13 kontrol** (debug ve R8 release APK) |
+| Web birim ve bileşen | Vitest + Testing Library | **166** |
+| Android birim | JUnit 4 | **83** |
+| Web uçtan uca | Playwright (gerçek Chromium) | **19 kontrol** (dev ve `/repo/` alt yollu prod derlemesi) |
+| Android uçtan uca | adb + uiautomator (emülatör) | **14 kontrol** (debug ve R8 release APK) |
 
 ```bash
 # Uçtan uca testler

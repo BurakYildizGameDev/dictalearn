@@ -65,6 +65,8 @@ android {
     }
 
     compileOptions {
+        // java.time (spaced repetition dates) on API 24-25
+        isCoreLibraryDesugaringEnabled = true
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
@@ -112,6 +114,7 @@ dependencies {
     implementation(libs.androidx.material.icons.extended)
 
     implementation(libs.oboe)
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.0.4")
 
     // On-device EN->TR translation (Faz 7.1); the ~30 MB language model downloads on first use.
     implementation("com.google.mlkit:translate:17.0.3")

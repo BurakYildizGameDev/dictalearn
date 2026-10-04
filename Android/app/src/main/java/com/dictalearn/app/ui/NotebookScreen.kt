@@ -22,6 +22,7 @@ import com.dictalearn.app.domain.dictionary.Dictionary
 import com.dictalearn.app.domain.library.LessonCatalog
 import com.dictalearn.app.domain.mistakes.MistakeKind
 import com.dictalearn.app.domain.mistakes.MistakeRepository
+import com.dictalearn.app.domain.review.SrsStore
 import com.dictalearn.app.ui.theme.Dicta
 
 private data class NotebookRow(val word: String, val count: Int, val unknown: Boolean, val lessonId: String)
@@ -33,7 +34,9 @@ fun NotebookScreen(
     repository: MistakeRepository,
     dictionary: Dictionary?,
     onSpeak: (String) -> Unit,
-    onBack: () -> Unit
+    onBack: () -> Unit,
+    srs: SrsStore? = null,
+    onStartReview: () -> Unit = {}
 ) {
     var version by remember { mutableIntStateOf(0) }
     var confirmClear by remember { mutableStateOf(false) }
@@ -45,6 +48,12 @@ fun NotebookScreen(
                 NotebookRow(word, list.size, list.any { it.kind == MistakeKind.UNKNOWN }, list.maxBy { it.timestamp }.lessonId)
             }
             .sortedByDescending { it.count }
+    }
+    val reviewStats = remember(version) {
+        srs?.let {
+            it.sync(repository.getMistakes())
+            it.stats()
+        }
     }
 
     Scaffold(
@@ -79,6 +88,30 @@ fun NotebookScreen(
                 contentPadding = PaddingValues(16.dp),
                 verticalArrangement = Arrangement.spacedBy(8.dp)
             ) {
+                if (reviewStats != null && reviewStats.total > 0) {
+                    item {
+                        Column(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .clip(RoundedCornerShape(16.dp))
+                                .background(Dicta.Accent.copy(alpha = 0.08f))
+                                .padding(16.dp),
+                            verticalArrangement = Arrangement.spacedBy(6.dp)
+                        ) {
+                            Text(
+                                if (reviewStats.due > 0) "Bugün tekrar zamanı gelen ${reviewStats.due} kelime var" else "Bugünkü tekrarlar tamam",
+                                color = Dicta.TextPrimary,
+                                fontSize = 15.sp
+                            )
+                            Text(
+                                "Aralıklı tekrar: bildiğin kelimeler 1, 3, 7, 14, 30 gün arayla sorulur · öğrenilen: ${reviewStats.learned} / ${reviewStats.total}",
+                                color = Dicta.TextMuted,
+                                fontSize = 12.sp
+                            )
+                            Button(onClick = onStartReview, enabled = reviewStats.due > 0) { Text("Tekrara başla") }
+                        }
+                    }
+                }
                 items(rows, key = { it.word }) { row ->
                     Row(
                         modifier = Modifier

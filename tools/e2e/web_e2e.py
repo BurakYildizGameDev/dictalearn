@@ -9,6 +9,7 @@ Requires: pip install playwright && python -m playwright install chromium
 Exits non-zero on the first failed check.
 """
 import os
+import re
 import sys
 import time
 
@@ -211,6 +212,26 @@ def run() -> int:
             expect(page.get_by_text("bilmiyorum", exact=True).first).to_be_visible()
 
         check("notebook lists missed + unknown words", notebook)
+
+        def spaced_review():
+            expect(page.get_by_text("tekrar zamanı gelen", exact=False)).to_be_visible()
+            page.get_by_role("button", name="Tekrara başla").click()
+            expect(page).to_have_url(re.compile(r"#/review$"))
+            box = page.get_by_label("Duyduğun İngilizce kelimeyi yaz")
+            for _ in range(60):  # answer everything with "Bilmiyorum" until the summary
+                if page.get_by_text("Tekrar tamamlandı").count():
+                    break
+                if page.get_by_role("button", name="Bilmiyorum").count():
+                    page.get_by_role("button", name="Bilmiyorum").click()
+                else:
+                    box.fill("x")
+                    box.press("Enter")
+                page.get_by_role("button", name="Devam").click()
+            expect(page.get_by_text("Tekrar tamamlandı")).to_be_visible()
+            page.get_by_role("button", name="Defterime dön").click()
+            expect(page.get_by_role("heading", name="Tekrar edilecek kelimeler")).to_be_visible()
+
+        check("spaced repetition review from the notebook", spaced_review)
 
         def speed():
             page.evaluate("localStorage.setItem('dictalearn_study_mode', 'sentence')")

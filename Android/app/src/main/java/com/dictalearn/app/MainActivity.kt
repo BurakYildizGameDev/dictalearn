@@ -26,6 +26,8 @@ import com.dictalearn.app.data.pdf.UserPdf
 import com.dictalearn.app.data.pdf.UserPdfStore
 import com.dictalearn.app.domain.audio.AudioEngine
 import com.dictalearn.app.domain.pdflesson.PdfLesson
+import com.dictalearn.app.domain.review.SrsStore
+import com.dictalearn.app.ui.ReviewScreen
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import kotlinx.coroutines.launch
@@ -62,6 +64,7 @@ private sealed interface Screen {
     data object Notebook : Screen
     data class PdfLesson(val pdf: UserPdf) : Screen
     data class PdfRead(val pdf: UserPdf) : Screen
+    data object Review : Screen
 }
 
 private const val KEY_LAST_BOOK = "last_book"
@@ -101,6 +104,7 @@ class MainActivity : ComponentActivity() {
         val availableBooks = LessonCatalog.onlyAvailable(assets.list("lessons")?.toSet().orEmpty())
         val pdfStore = UserPdfStore(this, prefs)
         val pagesJobs = PdfPagesJobs(this)
+        val srs = SrsStore(prefs)
 
         setContent {
             DictaTheme {
@@ -185,7 +189,11 @@ class MainActivity : ComponentActivity() {
                 }
 
                 BackHandler(enabled = screen != Screen.Library) {
-                    if (showPdf) showPdf = false else goToLibrary()
+                    when {
+                        showPdf -> showPdf = false
+                        screen == Screen.Review -> screen = Screen.Notebook
+                        else -> goToLibrary()
+                    }
                 }
 
                 // Load lesson JSON off the main thread; audio prepares asynchronously.
@@ -340,7 +348,16 @@ class MainActivity : ComponentActivity() {
                             repository = mistakeRepo,
                             dictionary = dictionary,
                             onSpeak = { speechEngine.speak(it) },
-                            onBack = { goToLibrary() }
+                            onBack = { goToLibrary() },
+                            srs = srs,
+                            onStartReview = { screen = Screen.Review }
+                        )
+
+                        Screen.Review -> ReviewScreen(
+                            srs = srs,
+                            dictionary = dictionary,
+                            onSpeak = { speechEngine.speak(it) },
+                            onBack = { screen = Screen.Notebook }
                         )
 
                         Screen.Editor -> Box(Modifier.systemBarsPadding()) { LessonEditorScreen(

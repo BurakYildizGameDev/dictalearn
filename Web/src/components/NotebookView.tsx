@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from 'react'
-import { BookMarked, Trash2, Volume2 } from 'lucide-react'
+import { BookMarked, Repeat, Trash2, Volume2 } from 'lucide-react'
 import type { MistakeRepository } from '../domain/mistakes/types'
+import type { SrsStore } from '../domain/review/srs'
 import { groupNotebook } from '../domain/mistakes/notebook'
 import { findBook } from '../domain/library/catalog'
 import { useDictionary } from '../hooks/use-dictionary'
@@ -10,7 +11,11 @@ import { Button, Segmented } from './ui'
 type Filter = 'all' | 'mistakes' | 'unknown'
 
 /** The mistake notebook (F3.3): words missed in dictation plus words marked as unknown. */
-export const NotebookView: React.FC<{ mistakeRepository: MistakeRepository }> = ({ mistakeRepository }) => {
+export const NotebookView: React.FC<{
+  mistakeRepository: MistakeRepository
+  srs: SrsStore
+  onStartReview: () => void
+}> = ({ mistakeRepository, srs, onStartReview }) => {
   const dictionary = useDictionary()
   const [version, setVersion] = useState(0)
   const [filter, setFilter] = useState<Filter>('all')
@@ -19,6 +24,11 @@ export const NotebookView: React.FC<{ mistakeRepository: MistakeRepository }> = 
     void version // bumped after clearing to re-read the repository
     return groupNotebook(mistakeRepository.getMistakes())
   }, [mistakeRepository, version])
+  const reviewStats = useMemo(() => {
+    void version
+    srs.sync(mistakeRepository.getMistakes())
+    return srs.stats()
+  }, [srs, mistakeRepository, version])
   const visible = rows.filter((r) => filter === 'all' || (filter === 'unknown' ? r.unknown : !r.unknown))
 
   const clearAll = () => {
@@ -34,6 +44,23 @@ export const NotebookView: React.FC<{ mistakeRepository: MistakeRepository }> = 
       <p className="mt-2 text-sm text-zinc-400">
         Dikte sırasında kaçırdığın kelimeler ve kelime kartından “bilmiyorum” diye eklediklerin.
       </p>
+
+      {reviewStats.total > 0 && (
+        <div className="mt-6 flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-indigo-400/20 bg-indigo-400/[0.05] p-4">
+          <div>
+            <p className="text-sm font-medium text-zinc-100">
+              {reviewStats.due > 0 ? `Bugün tekrar zamanı gelen ${reviewStats.due} kelime var` : 'Bugünkü tekrarlar tamam'}
+            </p>
+            <p className="mt-0.5 text-xs text-zinc-400">
+              Aralıklı tekrar: bildiğin kelimeler 1, 3, 7, 14, 30 gün arayla sorulur · öğrenilen: {reviewStats.learned} / {reviewStats.total}
+            </p>
+          </div>
+          <Button variant="primary" onClick={onStartReview} disabled={reviewStats.due === 0}>
+            <Repeat className="h-4 w-4" />
+            Tekrara başla
+          </Button>
+        </div>
+      )}
 
       <div className="mt-6 flex flex-wrap items-center justify-between gap-3">
         <Segmented<Filter>

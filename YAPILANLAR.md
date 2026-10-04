@@ -329,6 +329,17 @@ Her kitap: **25 sayfa × 20 cümle = 500 cümle**, 26 sayfalık PDF, 200 hedef k
 - `shortGloss`: ilk anlam, en fazla 22 karakter ("toplamak, paketlemek" → "toplamak").
 - "Anlamlar: Açık/Kapalı" düğmesi (web'de kalıcı).
 
+### ✅ Defterim için Aralıklı Tekrar (2026-10-04)
+- **`SrsStore`** (web: `domain/review/srs.ts`, Android: `domain/review/SrsStore.kt`, aynı algoritma): Leitner kutuları.
+  - Aralıklar: bugün, 1, 3, 7, 14, 30 gün.
+  - Doğru cevapta kart bir kutu yükselir; yanlış cevapta kutu 0'a döner ve ertesi gün sorulur.
+  - Dikte sırasında yeniden kaçırılan kelime de başa döner.
+- **Tekrar ekranı** (web `#/review`, Android `ReviewScreen`):
+  - Kelime stüdyo sesiyle okunur ve Türkçe anlamı gösterilir; kullanıcı İngilizcesini yazar.
+  - Turdaki ilk cevap kutuyu belirler; yanlış bilinen kelimeler turun sonunda bir kez daha çalışılır.
+- Defterim'de "Bugün tekrar zamanı gelen N kelime" kartı ve öğrenilen kelime sayısı gösterilir.
+- Android'de `java.time` için core library desugaring açıldı (minSdk 24).
+
 ### ✅ Repo Bakımı — Git Geçmişi Temizliği ve Git LFS
 - Geçmiş değiştirilmeden önce tam yedek alındı: `../DictaLearn-git-backup-2026-10-04.git`.
 - `git filter-repo` ile 2.3 GB WAV tüm geçmişten silindi. WAV'lar diskte duruyor, `.gitignore`'da.
@@ -342,11 +353,11 @@ Her kitap: **25 sayfa × 20 cümle = 500 cümle**, 26 sayfalık PDF, 200 hedef k
 
 | Platform | Katman | Araç | Sonuç |
 |---|---|---|---|
-| **Web** | Birim + bileşen | Vitest 5 + Testing Library | **156 / 156** |
-| **Web** | Uçtan uca | Playwright, gerçek Chromium (`tools/e2e/web_e2e.py`) | **18 / 18** (kelime telaffuzu ve PDF dersi dahil) |
+| **Web** | Birim + bileşen | Vitest 5 + Testing Library | **166 / 166** |
+| **Web** | Uçtan uca | Playwright, gerçek Chromium (`tools/e2e/web_e2e.py`) | **19 / 19** (telaffuz, PDF dersi, aralıklı tekrar dahil) |
 | **Web** | Statik analiz | Oxlint + `tsc -b` | 0 uyarı, 0 hata |
-| **Android** | Birim | JUnit 4 | **79 / 79** |
-| **Android** | Uçtan uca | adb + uiautomator, Pixel 7 API 34 emülatörü (`tools/e2e/android_e2e.py`) | **13 / 13**, hem debug hem R8 release APK |
+| **Android** | Birim | JUnit 4 | **83 / 83** |
+| **Android** | Uçtan uca | adb + uiautomator, Pixel 7 API 34 emülatörü (`tools/e2e/android_e2e.py`) | **14 / 14** |
 | **Android** | Derleme | Gradle | debug 607 MB · release 591 MB (tüm kitaplar) |
 
 **Uçtan uca testlerin kapsamı:**

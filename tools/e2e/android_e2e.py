@@ -198,6 +198,22 @@ def main() -> int:
 
     check("notebook lists the unknown word", notebook)
 
+    def spaced_review():
+        tap("Defterim")
+        tap("Tekrara başla")
+        for _ in range(40):
+            if visible("Tekrar tamamlandı"):
+                break
+            if visible("Bilmiyorum"):
+                tap("Bilmiyorum", timeout=3)
+            tap("Devam", timeout=5)
+        find("Tekrar tamamlandı", 5)
+        tap("Defterime dön")
+        find("Bugünkü tekrarlar tamam", 5, exact=False)
+        back_to_library()
+
+    check("spaced repetition review from the notebook", spaced_review)
+
     def word_mode():
         tap("Devam et")
         find("Cümle 2 / 300", 20)

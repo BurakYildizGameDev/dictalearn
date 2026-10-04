@@ -18,6 +18,8 @@ import { LessonEditorView } from './components/LessonEditorView'
 import { PdfViewerModal } from './components/PdfViewerModal'
 import { LibraryView, type UploadedPdf } from './components/LibraryView'
 import { NotebookView } from './components/NotebookView'
+import { ReviewView } from './components/ReviewView'
+import { SrsStore } from './domain/review/srs'
 import { Button } from './components/ui'
 import { Headphones, AlertTriangle, ArrowLeft, Library, BookMarked } from 'lucide-react'
 
@@ -69,6 +71,7 @@ export function App() {
   const speechEngine = useMemo(() => new SpeechSegmentEngine(wordAudio), [])
   const mistakeRepository = useMemo(() => new LocalMistakeRepository(), [])
   const progressStore = useMemo(() => new ProgressStore(safeStorage()), [])
+  const srs = useMemo(() => new SrsStore(safeStorage()), [])
 
   const [progressMap, setProgressMap] = useState(() => progressStore.all())
   const [lastBookId, setLastBookId] = useState<string | null>(() => safeStorage()?.getItem(LAST_BOOK_KEY) ?? null)
@@ -231,7 +234,7 @@ export function App() {
 
   // Leaving the study screens stops the audio.
   useEffect(() => {
-    if (route.name === 'library' || route.name === 'editor' || route.name === 'notebook') {
+    if (route.name === 'library' || route.name === 'editor' || route.name === 'notebook' || route.name === 'review') {
       audioEngine.pause()
       speechEngine.pause()
     }
@@ -383,7 +386,11 @@ export function App() {
             />
           )}
 
-          {route.name === 'notebook' && <NotebookView mistakeRepository={mistakeRepository} />}
+          {route.name === 'notebook' && (
+            <NotebookView mistakeRepository={mistakeRepository} srs={srs} onStartReview={() => navigate({ name: 'review' })} />
+          )}
+
+          {route.name === 'review' && <ReviewView srs={srs} onDone={() => navigate({ name: 'notebook' })} />}
 
           {route.name === 'editor' && (
             <LessonEditorView
