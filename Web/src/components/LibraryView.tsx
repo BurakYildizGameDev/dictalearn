@@ -80,7 +80,7 @@ const BookCover: React.FC<{ book: CatalogBook; className?: string; mini?: boolea
     </span>
     <div className={mini ? 'hidden' : undefined}>
       <p className="line-clamp-4 font-serif text-[15px] leading-tight text-white drop-shadow">{book.title}</p>
-      <p className="mt-1 truncate text-[10px] uppercase tracking-wider text-white/70">{book.author}</p>
+      <p lang="en" className="mt-1 truncate text-[10px] uppercase tracking-wider text-white/70">{book.author}</p>
     </div>
   </div>
 )
