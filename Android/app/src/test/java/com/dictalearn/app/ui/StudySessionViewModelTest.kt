@@ -333,4 +333,16 @@ class StudySessionViewModelTest {
         viewModel.extendLesson(lesson)
         assertEquals(3, viewModel.totalSegmentsFlow.value)
     }
+
+    @Test
+    fun onRecord_reportsFirstAttemptsOnly() {
+        val recorded = mutableListOf<SegmentRecord>()
+        val vm = StudySessionViewModel(lesson, fakeAudioEngine, autoPlay = false, onRecord = { recorded.add(it) })
+        vm.setTypedText("he")
+        vm.submitAnswer()
+        vm.setCorrectionText("He packed his suitcase.")
+        vm.submitCorrection()
+        assertEquals(1, recorded.size)
+        assertTrue(recorded.single().accuracy < 0.7)
+    }
 }

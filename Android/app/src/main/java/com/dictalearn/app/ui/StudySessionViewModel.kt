@@ -47,7 +47,9 @@ class StudySessionViewModel(
     initialSegmentIndex: Int = 0,
     initialSpeed: Float = 1.0f,
     private val onProgress: (Int) -> Unit = {},
-    private val onComplete: () -> Unit = {}
+    private val onComplete: () -> Unit = {},
+    /** Result of every first attempt (e.g. to remember hard sentences). */
+    private val onRecord: (SegmentRecord) -> Unit = {}
 ) : ViewModel() {
 
     /** Can grow while a PDF is still being read in the background (see extendLesson). */
@@ -111,6 +113,11 @@ class StudySessionViewModel(
 
     private val _records = mutableListOf<SegmentRecord>()
     val records: List<SegmentRecord> get() = _records.toList()
+
+    private fun addRecord(record: SegmentRecord) {
+        _records.add(record)
+        onRecord(record)
+    }
 
     val currentSegment: Segment
         get() = lesson.segments.getOrElse(_currentSegmentIndex.value) { lesson.segments[0] }
@@ -221,7 +228,7 @@ class StudySessionViewModel(
             return
         }
         _diffResult.value = DiffEngine.computeWordDiff(currentSegment.text, currentSegment.text)
-        _records.add(
+        addRecord(
             SegmentRecord(
                 segmentId = currentSegment.id,
                 accuracy = ((total - missedWords.size).toDouble() / total.coerceAtLeast(1)).coerceAtLeast(0.0),
@@ -313,7 +320,7 @@ class StudySessionViewModel(
         _diffResult.value = diff
         logMistakes(diff)
 
-        _records.add(
+        addRecord(
             SegmentRecord(
                 segmentId = currentSegment.id,
                 accuracy = diff.accuracy,
@@ -362,7 +369,7 @@ class StudySessionViewModel(
         _diffResult.value = diff
         logMistakes(diff)
 
-        _records.add(
+        addRecord(
             SegmentRecord(
                 segmentId = currentSegment.id,
                 accuracy = diff.accuracy,

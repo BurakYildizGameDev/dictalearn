@@ -20,6 +20,7 @@ import { LibraryView, type UploadedPdf } from './components/LibraryView'
 import { NotebookView } from './components/NotebookView'
 import { ReviewView } from './components/ReviewView'
 import { SrsStore } from './domain/review/srs'
+import { HardSentenceStore, hardSubLesson, HARD_SUFFIX } from './domain/review/hard-sentences'
 import { Button } from './components/ui'
 import { Headphones, AlertTriangle, ArrowLeft, Library, BookMarked } from 'lucide-react'
 
@@ -72,6 +73,10 @@ export function App() {
   const mistakeRepository = useMemo(() => new LocalMistakeRepository(), [])
   const progressStore = useMemo(() => new ProgressStore(safeStorage()), [])
   const srs = useMemo(() => new SrsStore(safeStorage()), [])
+  const hardStore = useMemo(() => new HardSentenceStore(safeStorage()), [])
+  const [hardVersion, setHardVersion] = useState(0)
+  // Snapshot of the hard sentences when a review round starts (so the round does not shrink while playing).
+  const [hardLesson, setHardLesson] = useState<Lesson | null>(null)
 
   const [progressMap, setProgressMap] = useState(() => progressStore.all())
   const [lastBookId, setLastBookId] = useState<string | null>(() => safeStorage()?.getItem(LAST_BOOK_KEY) ?? null)
@@ -475,10 +480,35 @@ export function App() {
             </div>
           )}
 
-          {showStudy && loaded && (
+          {showStudy && loaded && hardLesson?.lesson_id === `${loaded.id}${HARD_SUFFIX}` && (
+            <StudySessionView
+              key={hardLesson.lesson_id}
+              lesson={hardLesson}
+              mode="hard"
+              title={activeTitle}
+              audioEngine={loaded.engine === 'speech' ? speechEngine : audioEngine}
+              mistakeRepository={mistakeRepository}
+              onRecord={(r) => {
+                hardStore.record(loaded.id, r.segmentId, r.accuracy)
+                setHardVersion((v) => v + 1)
+              }}
+              onBackToLessons={() => setHardLesson(null)}
+              onOpenPdf={activePdfUrl ? () => setIsPdfOpen((v) => !v) : undefined}
+              isPdfOpen={isPdfOpen}
+            />
+          )}
+
+          {showStudy && loaded && hardLesson?.lesson_id !== `${loaded.id}${HARD_SUFFIX}` && (
             <StudySessionView
               key={loaded.id}
               lesson={loaded.lesson}
+              hardCount={hardVersion >= 0 ? hardStore.count(loaded.id) : 0}
+              onReviewHard={() => setHardLesson(hardSubLesson(loaded.lesson, hardStore.list(loaded.id)))}
+              onRecord={(r) => {
+                if (loaded.id === CUSTOM_LESSON_ID) return
+                hardStore.record(loaded.id, r.segmentId, r.accuracy)
+                setHardVersion((v) => v + 1)
+              }}
               title={activeTitle}
               audioEngine={loaded.engine === 'speech' ? speechEngine : audioEngine}
               mistakeRepository={mistakeRepository}

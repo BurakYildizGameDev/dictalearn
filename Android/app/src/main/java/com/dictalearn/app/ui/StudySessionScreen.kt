@@ -19,6 +19,7 @@ import androidx.compose.material.icons.filled.ChevronLeft
 import androidx.compose.material.icons.filled.ChevronRight
 import androidx.compose.material.icons.filled.EmojiEvents
 import androidx.compose.material.icons.filled.Lightbulb
+import androidx.compose.material.icons.filled.LocalFireDepartment
 import androidx.compose.material.icons.filled.MenuBook
 import androidx.compose.material.icons.filled.Mic
 import androidx.compose.material.icons.filled.Pause
@@ -68,6 +69,11 @@ fun StudySessionScreen(
     onOpenPdf: (() -> Unit)? = null,
     /** Optional notice above the stage (e.g. background PDF reading progress). */
     banner: (@Composable () -> Unit)? = null,
+    /** Remembered hard sentences of this lesson (normal mode). */
+    hardCount: Int = 0,
+    onReviewHard: (() -> Unit)? = null,
+    /** Short review round of the lesson's hard sentences. */
+    hardMode: Boolean = false,
     modifier: Modifier = Modifier
 ) {
     val state by viewModel.state.collectAsState()
@@ -107,13 +113,20 @@ fun StudySessionScreen(
                                 overflow = TextOverflow.Ellipsis
                             )
                             Text(
-                                "Cümle ${currentIndex + 1} / $totalSegments",
+                                (if (hardMode) "Zor cümleler · " else "") + "Cümle ${currentIndex + 1} / $totalSegments",
                                 fontSize = 12.sp,
-                                color = Dicta.TextMuted
+                                color = if (hardMode) Dicta.Warning else Dicta.TextMuted
                             )
                         }
                     },
                     actions = {
+                        if (!hardMode && onReviewHard != null && hardCount > 0) {
+                            TextButton(onClick = onReviewHard) {
+                                Icon(Icons.Default.LocalFireDepartment, contentDescription = "Zor cümleler", tint = Dicta.Warning, modifier = Modifier.size(16.dp))
+                                Spacer(Modifier.width(2.dp))
+                                Text("$hardCount", color = Dicta.Warning)
+                            }
+                        }
                         if (onOpenPdf != null) {
                             IconButton(onClick = onOpenPdf) {
                                 Icon(Icons.Default.MenuBook, contentDescription = "Kitabın PDF'i")
@@ -172,7 +185,7 @@ fun StudySessionScreen(
                     }
                 SessionState.REVIEWING -> Reviewing(viewModel, audioStatus, listen)
                 SessionState.SHADOWING -> Shadowing(viewModel, audioStatus, listen)
-                SessionState.COMPLETED -> Completed(viewModel, onBack)
+                SessionState.COMPLETED -> Completed(viewModel, onBack, hardMode, hardCount, onReviewHard)
             }
         }
     }
@@ -590,7 +603,13 @@ private fun Shadowing(viewModel: StudySessionViewModel, status: AudioStatus, lis
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun Completed(viewModel: StudySessionViewModel, onBack: (() -> Unit)?) {
+private fun Completed(
+    viewModel: StudySessionViewModel,
+    onBack: (() -> Unit)?,
+    hardMode: Boolean,
+    hardCount: Int,
+    onReviewHard: (() -> Unit)?
+) {
     val records = viewModel.records
     val avgAccuracy = if (records.isNotEmpty()) (records.map { it.accuracy }.average() * 100).roundToInt() else 0
     val perfectCount = records.count { it.isPerfect }
@@ -619,7 +638,7 @@ private fun Completed(viewModel: StudySessionViewModel, onBack: (() -> Unit)?) {
         ) {
             Icon(Icons.Default.EmojiEvents, contentDescription = null, tint = Dicta.Warning)
         }
-        Text("Ders tamamlandı", style = MaterialTheme.typography.headlineSmall)
+        Text(if (hardMode) "Zor cümle turu tamamlandı" else "Ders tamamlandı", style = MaterialTheme.typography.headlineSmall)
 
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             listOf(
@@ -660,12 +679,22 @@ private fun Completed(viewModel: StudySessionViewModel, onBack: (() -> Unit)?) {
             }
         }
 
+        if (!hardMode && onReviewHard != null && hardCount > 0) {
+            Button(
+                onClick = onReviewHard,
+                colors = ButtonDefaults.buttonColors(containerColor = Dicta.Warning, contentColor = Color(0xFF451A03)),
+                shape = RoundedCornerShape(14.dp),
+                modifier = Modifier.fillMaxWidth().height(50.dp)
+            ) {
+                Text("Zor cümleleri tekrar et ($hardCount)")
+            }
+        }
         Button(onClick = viewModel::restart, shape = RoundedCornerShape(14.dp), modifier = Modifier.fillMaxWidth().height(50.dp)) {
-            Text("Dersi tekrar başlat")
+            Text(if (hardMode) "Turu tekrarla" else "Dersi tekrar başlat")
         }
         if (onBack != null) {
             OutlinedButton(onClick = onBack, shape = RoundedCornerShape(14.dp), modifier = Modifier.fillMaxWidth().height(50.dp)) {
-                Text("Kütüphaneye dön", color = Dicta.TextPrimary)
+                Text(if (hardMode) "Derse dön" else "Kütüphaneye dön", color = Dicta.TextPrimary)
             }
         }
     }

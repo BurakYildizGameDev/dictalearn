@@ -90,7 +90,7 @@ export const NotebookView: React.FC<{
         <ul className="mt-6 divide-y divide-white/[0.06] rounded-2xl border border-white/[0.08] bg-zinc-900/60">
           {visible.map((row) => {
             const entry = dictionary?.lookup(row.word)
-            const book = findBook(row.lessons[0])
+            const book = findBook(row.lessons[0]?.replace('::hard', ''))
             return (
               <li key={row.word} className="flex items-center gap-3 px-4 py-3">
                 <button

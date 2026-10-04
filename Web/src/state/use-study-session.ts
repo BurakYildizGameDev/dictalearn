@@ -30,6 +30,8 @@ export interface UseStudySessionProps {
   onProgress?: (segmentIndex: number) => void
   /** Called once when the last segment is finished. */
   onComplete?: () => void
+  /** Called with the result of every first attempt (e.g. to remember hard sentences). */
+  onRecord?: (record: SegmentRecord) => void
 }
 
 function clampIndex(index: number, total: number): number {
@@ -46,6 +48,7 @@ export function useStudySession({
   initialSegmentIndex = 0,
   onProgress,
   onComplete,
+  onRecord,
 }: UseStudySessionProps) {
   const [state, setState] = useState<SessionState>('dictating')
   const [currentSegmentIndex, setCurrentSegmentIndex] = useState(() =>
@@ -89,10 +92,17 @@ export function useStudySession({
 
   const onProgressRef = useRef(onProgress)
   const onCompleteRef = useRef(onComplete)
+  const onRecordRef = useRef(onRecord)
   useEffect(() => {
     onProgressRef.current = onProgress
     onCompleteRef.current = onComplete
+    onRecordRef.current = onRecord
   })
+
+  const pushRecord = useCallback((record: SegmentRecord) => {
+    setSessionRecords((prev) => [...prev, record])
+    onRecordRef.current?.(record)
+  }, [])
 
   useEffect(() => {
     onProgressRef.current?.(currentSegmentIndex)
@@ -231,15 +241,12 @@ export function useStudySession({
       setDiffResult(diff)
       logMistakes(diff)
 
-      setSessionRecords((prev) => [
-        ...prev,
-        {
+      pushRecord({
           segmentId: currentSegment.id,
           accuracy: diff.accuracy,
           replayCount,
           isPerfect: diff.isPerfect,
-        },
-      ])
+        })
 
       if (diff.isPerfect) {
         // Perfect sentence goes straight to shadowing
@@ -251,7 +258,7 @@ export function useStudySession({
         setState('reviewing')
       }
     },
-    [state, typedText, currentSegment, options, replayCount, logMistakes]
+    [state, typedText, currentSegment, options, replayCount, logMistakes, pushRecord]
   )
 
   const giveUp = useCallback(() => {
@@ -269,20 +276,17 @@ export function useStudySession({
     setDiffResult(diff)
     logMistakes(diff)
 
-    setSessionRecords((prev) => [
-      ...prev,
-      {
+    pushRecord({
         segmentId: currentSegment.id,
         accuracy: diff.accuracy,
         replayCount,
         isPerfect: false,
-      },
-    ])
+      })
 
     setCorrectionText('')
     setCorrectionDiff(null)
     setState('reviewing')
-  }, [state, studyMode, targetWords, currentWordIndex, currentSegment, options, replayCount, logMistakes])
+  }, [state, studyMode, targetWords, currentWordIndex, currentSegment, options, replayCount, logMistakes, pushRecord])
 
   // Submit correction attempt in reviewing state
   const submitCorrection = useCallback(
@@ -352,18 +356,15 @@ export function useStudySession({
       }
       const total = targetWords.length || 1
       setDiffResult(computeWordDiff(currentSegment.text, currentSegment.text, options))
-      setSessionRecords((prev) => [
-        ...prev,
-        {
+      pushRecord({
           segmentId: currentSegment.id,
           accuracy: Math.max(0, (total - missed.size) / total),
           replayCount,
           isPerfect: missed.size === 0,
-        },
-      ])
+        })
       setState('shadowing')
     },
-    [currentWordIndex, targetWords.length, currentSegment, options, replayCount]
+    [currentWordIndex, targetWords.length, currentSegment, options, replayCount, pushRecord]
   )
 
   const submitWord = useCallback(

@@ -127,7 +127,7 @@ fun NotebookScreen(
                         Column(Modifier.weight(1f)) {
                             Text(row.word, fontFamily = FontFamily.Serif, fontSize = 18.sp, color = Dicta.TextPrimary)
                             val meaning = dictionary?.lookup(row.word)?.meaning ?: if (dictionary == null) "…" else "Sözlükte yok"
-                            val book = LessonCatalog.find(row.lessonId)?.title
+                            val book = LessonCatalog.find(row.lessonId.removeSuffix("::hard"))?.title
                             Text(
                                 listOfNotNull(meaning, book).joinToString(" · "),
                                 color = Dicta.TextMuted,

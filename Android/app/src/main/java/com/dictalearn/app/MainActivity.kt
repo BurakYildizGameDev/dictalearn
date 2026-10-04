@@ -27,6 +27,7 @@ import com.dictalearn.app.data.pdf.UserPdfStore
 import com.dictalearn.app.domain.audio.AudioEngine
 import com.dictalearn.app.domain.pdflesson.PdfLesson
 import com.dictalearn.app.domain.review.SrsStore
+import com.dictalearn.app.domain.review.HardSentenceStore
 import com.dictalearn.app.ui.ReviewScreen
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
@@ -105,6 +106,7 @@ class MainActivity : ComponentActivity() {
         val pdfStore = UserPdfStore(this, prefs)
         val pagesJobs = PdfPagesJobs(this)
         val srs = SrsStore(prefs)
+        val hardStore = HardSentenceStore(prefs)
 
         setContent {
             DictaTheme {
@@ -120,6 +122,9 @@ class MainActivity : ComponentActivity() {
                 var dictionary by remember { mutableStateOf<Dictionary?>(null) }
                 var userPdfs by remember { mutableStateOf(pdfStore.list()) }
                 var pagesState by remember { mutableStateOf<PdfPagesState?>(null) }
+                var hardVersion by remember { mutableIntStateOf(0) }
+                // Short round over the hard sentences of the current lesson (null = normal study).
+                var hardVm by remember { mutableStateOf<StudySessionViewModel?>(null) }
                 val ttsStatus by ttsEngine.status.collectAsState()
                 val scope = rememberCoroutineScope()
 
@@ -155,7 +160,8 @@ class MainActivity : ComponentActivity() {
                     lesson: Lesson,
                     lessonKey: String?,
                     startIndex: Int,
-                    engine: AudioEngine = audioEngine
+                    engine: AudioEngine = audioEngine,
+                    hardKey: String? = lessonKey
                 ): StudySessionViewModel =
                     StudySessionViewModel(
                         lesson = lesson,
@@ -177,20 +183,33 @@ class MainActivity : ComponentActivity() {
                                 progressStore.markCompleted(lessonKey, lesson.segments.size)
                                 progress = progressStore.all()
                             }
+                        },
+                        onRecord = { record ->
+                            if (hardKey != null) {
+                                hardStore.record(hardKey, record.segmentId, record.accuracy)
+                                hardVersion++
+                            }
                         }
                     )
+
+                fun startHardRound(vm: StudySessionViewModel, key: String, engine: AudioEngine) {
+                    val sub = HardSentenceStore.subLesson(vm.lesson, hardStore.list(key))
+                    if (sub.segments.isNotEmpty()) hardVm = newViewModel(sub, null, 0, engine, hardKey = key)
+                }
 
                 fun goToLibrary() {
                     audioEngine.pause()
                     ttsEngine.pause()
                     speechEngine.stop()
                     showPdf = false
+                    hardVm = null
                     screen = Screen.Library
                 }
 
                 BackHandler(enabled = screen != Screen.Library) {
                     when {
                         showPdf -> showPdf = false
+                        hardVm != null -> hardVm = null
                         screen == Screen.Review -> screen = Screen.Notebook
                         else -> goToLibrary()
                     }
@@ -329,6 +348,14 @@ class MainActivity : ComponentActivity() {
                                     title = s.pdf.name,
                                     onBack = { showPdf = false }
                                 )
+                                hardVm != null -> StudySessionScreen(
+                                    viewModel = hardVm!!,
+                                    title = s.pdf.name,
+                                    audioStatus = ttsStatus,
+                                    onPause = { ttsEngine.pause() },
+                                    onBack = { hardVm = null },
+                                    hardMode = true
+                                )
                                 else -> StudySessionScreen(
                                     viewModel = vm,
                                     title = vm.lesson.title,
@@ -339,7 +366,9 @@ class MainActivity : ComponentActivity() {
                                         ttsEngine.pause()
                                         showPdf = true
                                     },
-                                    banner = { PdfLessonBanner(pages) }
+                                    banner = { PdfLessonBanner(pages) },
+                                    hardCount = hardVersion.let { hardStore.count("pdf_${s.pdf.id}") },
+                                    onReviewHard = { startHardRound(vm, "pdf_${s.pdf.id}", ttsEngine) }
                                 )
                             }
                         }
@@ -386,8 +415,18 @@ class MainActivity : ComponentActivity() {
                                     title = s.book.title,
                                     onBack = { showPdf = false }
                                 )
+                                hardVm != null -> StudySessionScreen(
+                                    viewModel = hardVm!!,
+                                    title = (s as? Screen.Study)?.book?.title ?: vm.lesson.title,
+                                    audioStatus = audioStatus,
+                                    onPause = { audioEngine.pause() },
+                                    onBack = { hardVm = null },
+                                    hardMode = true
+                                )
                                 else -> StudySessionScreen(
                                     viewModel = vm,
+                                    hardCount = (s as? Screen.Study)?.book?.id?.let { id -> hardVersion.let { hardStore.count(id) } } ?: 0,
+                                    onReviewHard = (s as? Screen.Study)?.book?.id?.let { id -> { startHardRound(vm, id, audioEngine) } },
                                     title = (s as? Screen.Study)?.book?.title ?: vm.lesson.title,
                                     audioStatus = audioStatus,
                                     onPause = { audioEngine.pause() },

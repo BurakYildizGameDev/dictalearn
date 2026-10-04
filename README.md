@@ -9,7 +9,7 @@ Web'de ve Android'de, tamamen çevrimdışı.
 
 ![Web](https://img.shields.io/badge/Web-React%2019%20%C2%B7%20TypeScript%20%C2%B7%20Vite%208-61dafb?style=flat-square)
 ![Android](https://img.shields.io/badge/Android-Kotlin%20%C2%B7%20Jetpack%20Compose%20%C2%B7%20C%2B%2B%20NDK-3ddc84?style=flat-square)
-![Tests](https://img.shields.io/badge/tests-249%20unit%20%2B%2033%20e2e-brightgreen?style=flat-square)
+![Tests](https://img.shields.io/badge/tests-257%20unit%20%2B%2035%20e2e-brightgreen?style=flat-square)
 ![Library](https://img.shields.io/badge/k%C3%BCt%C3%BCphane-36%20kitap%20%C2%B7%2013.000%20c%C3%BCmle-6366f1?style=flat-square)
 ![Offline](https://img.shields.io/badge/hesap%20%C2%B7%20sunucu%20%C2%B7%20telemetri-yok-lightgrey?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/lisans-MIT-yellow?style=flat-square)](LICENSE)
@@ -88,6 +88,8 @@ stateDiagram-v2
     "Anlamlar" düğmesiyle kapatılabilir.
 - **Shadowing:** Cümleyi istediğin kadar tekrar dinleyebilirsin; çeviri `Ctrl+T` ile açılıp kapanır, cümle notları gösterilir.
 - **Hız:** 0.75x / 1x / 1.25x. Perde korunur, ses kalınlaşıp incelmez.
+- **Zor cümleler:** İlk denemede doğruluğu %70'in altında kalan cümleler ders bazında hatırlanır. "Zor cümleler (N)"
+  düğmesi ya da ders sonu ekranı bu cümlelerden kısa bir tur açar. İyi yapılan cümle listeden çıkar; ana dersteki ilerleme etkilenmez.
 - **Kaldığın yerden devam:** Her kitabın ilerlemesi cihazda saklanır. İstediğin cümleye atlayabilir ya da `PageUp`/`PageDown` ile gezinebilirsin.
 
 ### Çeviri ve kelime
@@ -269,10 +271,10 @@ Bir ders, `lesson.json` ve `audio.mp3` dosyalarından oluşan taşınabilir bir 
 
 | Katman | Araç | Sayı |
 |---|---|---|
-| Web birim ve bileşen | Vitest + Testing Library | **166** |
-| Android birim | JUnit 4 | **83** |
-| Web uçtan uca | Playwright (gerçek Chromium) | **19 kontrol** (dev ve `/repo/` alt yollu prod derlemesi) |
-| Android uçtan uca | adb + uiautomator (emülatör) | **14 kontrol** (debug ve R8 release APK) |
+| Web birim ve bileşen | Vitest + Testing Library | **171** |
+| Android birim | JUnit 4 | **86** |
+| Web uçtan uca | Playwright (gerçek Chromium) | **20 kontrol** (dev ve `/repo/` alt yollu prod derlemesi) |
+| Android uçtan uca | adb + uiautomator (emülatör) | **15 kontrol** (debug ve R8 release APK) |
 
 ```bash
 # Uçtan uca testler
@@ -368,6 +370,7 @@ python tools/build_word_audio.py   # stüdyo sesli kelime paketi (lessons/word_a
 - [x] Faz 8: Pages ve release otomasyonu, README
 - [x] Faz 9: modern arayüz (kütüphane, split view, dock, mobil düzen)
 - [x] Kendi PDF'inden dikte dersi, taranmış PDF'ler için OCR, kelime bazlı çeviri, stüdyo kelime telaffuzu
+- [x] Defterim için aralıklı tekrar, zor cümleleri tekrar etme
 - [ ] Seviye 2'nin tamamlanması, Seviye 3 (B2, 35 sayfa) ve Seviye 4 (C1, 50 sayfa)
 - [ ] Play Store için asset pack'lere bölünmüş Android paketi
 

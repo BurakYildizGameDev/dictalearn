@@ -233,6 +233,35 @@ def run() -> int:
 
         check("spaced repetition review from the notebook", spaced_review)
 
+        def hard_sentences():
+            page.evaluate("localStorage.setItem('dictalearn_study_mode', 'sentence')")
+            page.goto(BASE + "#/study/sample_ch01")
+            page.wait_for_selector("#dictation-input")
+            page.get_by_label("Cümleye git").fill("2")
+            page.get_by_label("Cümleye git").press("Enter")
+            page.wait_for_selector("#dictation-input")
+            before = page.get_by_role("button", name=re.compile(r"Zor cümleler \(\d+\)"))
+            n_before = int(re.search(r"\((\d+)\)", before.inner_text()).group(1)) if before.count() else 0
+            page.get_by_role("button", name="Bilmiyorum / Göster").click()  # 0% -> hard
+            hard_btn = page.get_by_role("button", name=re.compile(r"Zor cümleler \(\d+\)"))
+            expect(hard_btn).to_have_text(re.compile(rf"\({n_before + 1}\)"))
+            hard_btn.click()
+            expect(page.get_by_text("Zor cümleler turu", exact=False)).to_be_visible()
+            total = int(page.get_by_label("Cümleye git").get_attribute("max"))
+            assert total == n_before + 1, total
+            # answer every hard sentence perfectly: reveal, then correct it
+            for _ in range(total):
+                page.get_by_role("button", name="Bilmiyorum / Göster").click()
+                text = page.get_by_label("Orijinal cümle").inner_text()
+                page.locator("#correction-input").fill(text)
+                page.locator("#correction-input").press("Enter")
+                page.get_by_role("button", name=re.compile("Sonraki Cümle|Dersi Bitir")).click()
+            expect(page.get_by_text("Zor cümle turu tamamlandı")).to_be_visible()
+            page.get_by_role("button", name="Derse Dön").click()
+            page.wait_for_selector("#dictation-input")
+
+        check("hard sentences: marked below 70%, reviewed in a short round", hard_sentences)
+
         def speed():
             page.evaluate("localStorage.setItem('dictalearn_study_mode', 'sentence')")
             page.goto(BASE + "#/study/sample_ch01")

@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState, useMemo } from 'react'
 import type { Lesson } from '../domain/lessons/types'
 import type { AudioEngine } from '../domain/audio/audio-engine'
 import type { MistakeRepository } from '../domain/mistakes/types'
-import { useStudySession, type StudyMode } from '../state/use-study-session'
+import { useStudySession, type StudyMode, type SegmentRecord } from '../state/use-study-session'
 import { useShortcuts } from '../hooks/use-shortcuts'
 import { useAudioStatus } from '../hooks/use-audio-status'
 import { DiffView } from './DiffView'
@@ -34,6 +34,7 @@ import {
   Mic,
   StickyNote,
   History,
+  Flame,
 } from 'lucide-react'
 
 export interface StudySessionViewProps {
@@ -48,6 +49,12 @@ export interface StudySessionViewProps {
   isPdfOpen?: boolean
   /** Short display title; defaults to lesson.title. */
   title?: string
+  onRecord?: (record: SegmentRecord) => void
+  /** Number of remembered hard sentences of this lesson (normal mode). */
+  hardCount?: number
+  onReviewHard?: () => void
+  /** 'hard' = short review round of the lesson's hard sentences. */
+  mode?: 'normal' | 'hard'
 }
 
 const SPEEDS = [0.75, 1.0, 1.25] as const
@@ -144,6 +151,10 @@ export const StudySessionView: React.FC<StudySessionViewProps> = ({
   onOpenPdf,
   isPdfOpen = false,
   title,
+  onRecord,
+  hardCount = 0,
+  onReviewHard,
+  mode = 'normal',
 }) => {
   const displayTitle = title ?? lesson.title
   // Default off: browsers block audio before the first user gesture anyway.
@@ -176,6 +187,7 @@ export const StudySessionView: React.FC<StudySessionViewProps> = ({
     initialSegmentIndex,
     onProgress,
     onComplete,
+    onRecord,
   })
   const audioStatus = useAudioStatus(audioEngine)
 
@@ -306,7 +318,7 @@ export const StudySessionView: React.FC<StudySessionViewProps> = ({
         <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-amber-400/10 text-amber-300">
           <Trophy className="h-7 w-7" />
         </div>
-        <h2 className="font-serif text-3xl text-zinc-50">Ders tamamlandı</h2>
+        <h2 className="font-serif text-3xl text-zinc-50">{mode === 'hard' ? 'Zor cümle turu tamamlandı' : 'Ders tamamlandı'}</h2>
         <p className="mt-1 text-sm text-zinc-400">{displayTitle}</p>
 
         <dl className="my-8 grid grid-cols-3 gap-3">
@@ -340,14 +352,20 @@ export const StudySessionView: React.FC<StudySessionViewProps> = ({
         )}
 
         <div className="mt-8 flex flex-wrap justify-center gap-3">
-          <Button variant="primary" size="lg" onClick={session.restart}>
+          {mode === 'normal' && onReviewHard && hardCount > 0 && (
+            <Button variant="warning" size="lg" onClick={onReviewHard}>
+              <Flame className="h-4 w-4" />
+              Zor cümleleri tekrar et ({hardCount})
+            </Button>
+          )}
+          <Button variant={mode === 'normal' && hardCount > 0 ? 'secondary' : 'primary'} size="lg" onClick={session.restart}>
             <RotateCcw className="h-4 w-4" />
-            Dersi Tekrar Başlat
+            {mode === 'hard' ? 'Turu tekrarla' : 'Dersi Tekrar Başlat'}
           </Button>
           {onBackToLessons && (
             <Button size="lg" onClick={onBackToLessons}>
               <ArrowLeft className="h-4 w-4" />
-              Kütüphaneye Dön
+              {mode === 'hard' ? 'Derse Dön' : 'Kütüphaneye Dön'}
             </Button>
           )}
         </div>
@@ -366,6 +384,7 @@ export const StudySessionView: React.FC<StudySessionViewProps> = ({
           <div className="min-w-0">
             <h1 className="truncate font-serif text-xl text-zinc-50 sm:text-2xl">{displayTitle}</h1>
             <p className="mt-0.5 text-xs text-zinc-500">
+              {mode === 'hard' && <span className="text-amber-300/90">Zor cümleler turu · </span>}
               {session.studyMode === 'word' ? 'Kelime kelime dikte' : 'Cümle dikte'} ·{' '}
               {session.state === 'dictating'
                 ? 'Dinle ve yaz'
@@ -376,6 +395,17 @@ export const StudySessionView: React.FC<StudySessionViewProps> = ({
           </div>
 
           <nav aria-label="Cümle gezinme" className="flex shrink-0 items-center gap-1">
+            {mode === 'normal' && onReviewHard && hardCount > 0 && (
+              <button
+                type="button"
+                onClick={onReviewHard}
+                title="Doğruluğu %70'in altında kalan cümleleri tekrar et"
+                className="mr-1 flex h-8 items-center gap-1 rounded-lg bg-amber-400/10 px-2.5 text-xs font-medium text-amber-200 hover:bg-amber-400/20 cursor-pointer"
+              >
+                <Flame className="h-3.5 w-3.5" />
+                Zor cümleler ({hardCount})
+              </button>
+            )}
             <button
               type="button"
               aria-label="Önceki cümle"

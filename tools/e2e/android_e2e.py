@@ -161,6 +161,18 @@ def main() -> int:
 
     check("ML Kit on-device sentence translation", mlkit)
 
+    def hard_round():
+        # the wrong answer above (< 70%) made sentence 1 a hard sentence
+        tap("Zor cümleler")
+        find("Zor cümleler · Cümle 1 / 1", 10)
+        for _ in range(3):  # the first BACK may only close the keyboard
+            back()
+            if visible("Cümleyi düzelterek yeniden yaz", exact=False):
+                break
+        find("Cümleyi düzelterek yeniden yaz", 5, exact=False)
+
+    check("hard sentence offered after a wrong answer", hard_round)
+
     def shadowing_next():
         tap("Düzeltmeyi atla")
         find("SHADOWING / SESLI TEKRAR", exact=False)

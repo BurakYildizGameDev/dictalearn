@@ -253,6 +253,20 @@ describe('StudySessionView Component (Faz 1 & Faz 3)', () => {
     expect(localStorage.getItem('dictalearn_word_gloss')).toBe('false')
   })
 
+  it('offers a hard-sentence round in normal mode and labels the round in hard mode', () => {
+    const onReviewHard = vi.fn()
+    const { unmount } = render(
+      <StudySessionView lesson={dummyLesson} audioEngine={mockAudioEngine} hardCount={2} onReviewHard={onReviewHard} />
+    )
+    fireEvent.click(screen.getByRole('button', { name: /Zor cümleler \(2\)/ }))
+    expect(onReviewHard).toHaveBeenCalled()
+    unmount()
+
+    render(<StudySessionView lesson={dummyLesson} audioEngine={mockAudioEngine} mode="hard" hardCount={2} onReviewHard={onReviewHard} />)
+    expect(screen.getByText(/Zor cümleler turu/)).toBeInTheDocument()
+    expect(screen.queryByRole('button', { name: /Zor cümleler \(/ })).toBeNull()
+  })
+
   describe('word info card (Faz 7)', () => {
     beforeEach(async () => {
       const { resetDictionaryCache } = await import('../domain/dictionary/dictionary-loader')

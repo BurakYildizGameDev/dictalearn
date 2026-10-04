@@ -406,4 +406,19 @@ describe('useStudySession Hook (Phase 3 Full 4-Step Cycle)', () => {
       expect(result.current.sessionRecords).toHaveLength(0)
     })
   })
+
+  it('reports every first-attempt result through onRecord', () => {
+    const onRecord = vi.fn()
+    const { result } = renderHook(() =>
+      useStudySession({ lesson: dummyLesson, audioEngine: mockAudioEngine, autoPlay: false, onRecord })
+    )
+    act(() => result.current.setTypedText('He packed his'))
+    act(() => result.current.submitAnswer())
+    // the correction attempt is not a new record
+    act(() => result.current.setCorrectionText('He packed his small brown suitcase.'))
+    act(() => result.current.submitCorrection())
+    expect(onRecord).toHaveBeenCalledTimes(1)
+    expect(onRecord.mock.calls[0][0]).toMatchObject({ segmentId: 1, isPerfect: false })
+    expect(onRecord.mock.calls[0][0].accuracy).toBeLessThan(0.7)
+  })
 })
