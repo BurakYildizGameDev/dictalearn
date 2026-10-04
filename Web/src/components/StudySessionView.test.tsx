@@ -66,7 +66,7 @@ describe('StudySessionView Component (Faz 1 & Faz 3)', () => {
     fireEvent.click(submitBtn)
 
     // Now in reviewing state: original text, translation, and correction field are visible
-    expect(screen.getByText('He packed his small brown suitcase.')).toBeInTheDocument()
+    expect(screen.getByLabelText('Orijinal cümle')).toHaveTextContent('He packed his small brown suitcase.')
     expect(screen.getByText('Küçük kahverengi bavulunu topladı.')).toBeInTheDocument()
     expect(screen.getByText(/Cümleyi düzelterek yeniden yazın/i)).toBeInTheDocument()
   })
@@ -98,7 +98,7 @@ describe('StudySessionView Component (Faz 1 & Faz 3)', () => {
     // Enters shadowing mode directly
     expect(screen.getByText(/Shadowing \/ Sesli Tekrar/i)).toBeInTheDocument()
     expect(screen.getByText(/Kusursuz/i)).toBeInTheDocument()
-    expect(screen.getByText('He packed his small brown suitcase.')).toBeInTheDocument()
+    expect(screen.getByLabelText('Orijinal cümle')).toHaveTextContent('He packed his small brown suitcase.')
 
     // Initially translation is hidden in shadowing
     expect(screen.queryByText('Küçük kahverengi bavulunu topladı.')).toBeNull()
@@ -121,7 +121,7 @@ describe('StudySessionView Component (Faz 1 & Faz 3)', () => {
     fireEvent.click(giveUpBtn)
 
     // Now in reviewing state
-    expect(screen.getByText('He packed his small brown suitcase.')).toBeInTheDocument()
+    expect(screen.getByLabelText('Orijinal cümle')).toHaveTextContent('He packed his small brown suitcase.')
     expect(screen.getByText('Küçük kahverengi bavulunu topladı.')).toBeInTheDocument()
     expect(screen.getByText(/0%/i)).toBeInTheDocument()
     expect(screen.getByText(/Cümleyi düzelterek yeniden yazın/i)).toBeInTheDocument()
@@ -225,5 +225,46 @@ describe('StudySessionView Component (Faz 1 & Faz 3)', () => {
     fireEvent.click(listenSentenceBtn)
     expect(mockAudioEngine.playRange).toHaveBeenCalledWith(0, 4000)
   })
-})
 
+  describe('word info card (Faz 7)', () => {
+    beforeEach(async () => {
+      const { resetDictionaryCache } = await import('../domain/dictionary/dictionary-loader')
+      resetDictionaryCache()
+      vi.spyOn(globalThis, 'fetch').mockResolvedValue({
+        ok: true,
+        json: async () => ({ version: 1, entries: { pack: 'toplamak', suitcase: 'bavul' } }),
+      } as Response)
+    })
+
+    it('shows the Turkish meaning of a clicked word after the answer is revealed', async () => {
+      const repo = {
+        getMistakes: vi.fn(() => []),
+        addMistakes: vi.fn(),
+        clearMistakes: vi.fn(),
+        getWordFrequencies: vi.fn(() => ({})),
+      }
+      render(<StudySessionView lesson={dummyLesson} audioEngine={mockAudioEngine} mistakeRepository={repo} />)
+      fireEvent.click(screen.getByRole('button', { name: /Bilmiyorum \/ Göster/i }))
+
+      const sentence = screen.getByLabelText('Orijinal cümle')
+      const packed = Array.from(sentence.querySelectorAll('button')).find((b) => b.textContent === 'packed')!
+      fireEvent.click(packed)
+
+      // The dictionary loads asynchronously; the open card fills in when it arrives.
+      expect(await screen.findByText('toplamak')).toBeInTheDocument()
+      expect(screen.getByRole('dialog', { name: /Kelime kartı: pack/i })).toBeInTheDocument()
+
+      fireEvent.click(screen.getByRole('button', { name: /deftere ekle/i }))
+      expect(repo.addMistakes).toHaveBeenCalledWith([
+        expect.objectContaining({ word: 'pack', kind: 'unknown', lesson_id: 'sample_ch01', segment_id: 1 }),
+      ])
+      expect(screen.getByRole('button', { name: /Defterde/i })).toBeDisabled()
+    })
+
+    it('never renders clickable sentence words during dictating (copy protection)', () => {
+      render(<StudySessionView lesson={dummyLesson} audioEngine={mockAudioEngine} />)
+      expect(screen.queryByLabelText('Orijinal cümle')).toBeNull()
+      expect(screen.queryByRole('button', { name: 'suitcase.' })).toBeNull()
+    })
+  })
+})

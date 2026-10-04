@@ -6,6 +6,7 @@ import { useStudySession, type StudyMode } from '../state/use-study-session'
 import { useShortcuts } from '../hooks/use-shortcuts'
 import { useAudioStatus } from '../hooks/use-audio-status'
 import { DiffView } from './DiffView'
+import { WordLookupSentence } from './WordLookupSentence'
 import { Button, Kbd, ProgressBar, Segmented } from './ui'
 import { cx } from './cx'
 import {
@@ -70,6 +71,19 @@ function writeStored(key: string, value: string) {
   }
 }
 
+/** Small equalizer shown while audio plays (F9.3). */
+const PlayingBars: React.FC = () => (
+  <span aria-hidden="true" className="flex h-3.5 items-end gap-[2px]">
+    {[0, 150, 300, 450].map((delay) => (
+      <span
+        key={delay}
+        className="h-full w-[3px] origin-bottom rounded-full bg-current animate-eq"
+        style={{ animationDelay: `${delay}ms` }}
+      />
+    ))}
+  </span>
+)
+
 /** Listen button that doubles as pause/resume while the segment is playing. */
 const ListenButton: React.FC<{
   audioEngine: AudioEngine
@@ -88,6 +102,7 @@ const ListenButton: React.FC<{
     >
       {playing ? <Pause className="h-4 w-4" /> : <Volume2 className="h-4 w-4" />}
       <span>{playing ? 'Duraklat' : label}</span>
+      {playing && <PlayingBars />}
     </Button>
   )
 }
@@ -601,7 +616,13 @@ export const StudySessionView: React.FC<StudySessionViewProps> = ({
                 <Eyebrow>Orijinal</Eyebrow>
                 <ListenButton audioEngine={audioEngine} onReplay={session.replaySegment} variant="secondary" />
               </div>
-              <p className="select-text font-serif text-xl leading-relaxed text-zinc-50 sm:text-2xl">{segment.text}</p>
+              <WordLookupSentence
+                text={segment.text}
+                lessonId={lesson.lesson_id}
+                segmentId={segment.id}
+                mistakeRepository={mistakeRepository}
+                className="font-serif text-xl leading-relaxed text-zinc-50 sm:text-2xl"
+              />
               {segment.translation && <p className="mt-3 text-sm leading-relaxed text-zinc-400">{segment.translation}</p>}
               {segment.notes && <SegmentNote text={segment.notes} />}
             </Card>
@@ -662,7 +683,14 @@ export const StudySessionView: React.FC<StudySessionViewProps> = ({
                 </Button>
               </div>
 
-              <p className="select-text font-serif text-2xl leading-relaxed text-zinc-50 sm:text-3xl">{segment.text}</p>
+              <WordLookupSentence
+                text={segment.text}
+                lessonId={lesson.lesson_id}
+                segmentId={segment.id}
+                mistakeRepository={mistakeRepository}
+                className="font-serif text-2xl leading-relaxed text-zinc-50 sm:text-3xl"
+              />
+              <p className="mt-2 text-[11px] text-zinc-600">Anlamını görmek için bir kelimeye dokun.</p>
 
               {session.showTranslation && segment.translation && (
                 <p className="mt-3 text-base leading-relaxed text-indigo-100/80 animate-fade-up">{segment.translation}</p>

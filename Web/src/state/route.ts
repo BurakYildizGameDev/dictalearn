@@ -6,6 +6,7 @@ export type Route =
   | { name: 'study'; bookId: string }
   | { name: 'editor' }
   | { name: 'custom' } // lesson built in the editor; lives only in memory
+  | { name: 'notebook' }
 
 export function parseHash(hash: string): Route {
   const parts = hash.replace(/^#\/?/, '').split('/')
@@ -22,6 +23,8 @@ export function parseHash(hash: string): Route {
       return { name: 'editor' }
     case 'custom':
       return { name: 'custom' }
+    case 'notebook':
+      return { name: 'notebook' }
     default:
       return { name: 'library' }
   }
@@ -35,6 +38,8 @@ export function routeToHash(route: Route): string {
       return '#/editor'
     case 'custom':
       return '#/custom'
+    case 'notebook':
+      return '#/notebook'
     default:
       return '#/'
   }

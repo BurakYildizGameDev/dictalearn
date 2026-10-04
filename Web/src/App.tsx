@@ -11,8 +11,9 @@ import { StudySessionView } from './components/StudySessionView'
 import { LessonEditorView } from './components/LessonEditorView'
 import { PdfViewerModal } from './components/PdfViewerModal'
 import { LibraryView, type UploadedPdf } from './components/LibraryView'
+import { NotebookView } from './components/NotebookView'
 import { Button } from './components/ui'
-import { Headphones, AlertTriangle, ArrowLeft, Library } from 'lucide-react'
+import { Headphones, AlertTriangle, ArrowLeft, Library, BookMarked } from 'lucide-react'
 
 const BASE_URL = import.meta.env.BASE_URL
 const LAST_BOOK_KEY = 'dictalearn_last_book'
@@ -130,7 +131,7 @@ export function App() {
 
   // Leaving the study screens stops the audio.
   useEffect(() => {
-    if (route.name === 'library' || route.name === 'editor') audioEngine.pause()
+    if (route.name === 'library' || route.name === 'editor' || route.name === 'notebook') audioEngine.pause()
   }, [route.name, audioEngine])
 
   // A custom lesson only lives in memory; after a reload there is nothing to show.
@@ -239,12 +240,20 @@ export function App() {
             <span className="font-semibold tracking-tight text-zinc-100">DictaLearn</span>
           </button>
 
-          {route.name !== 'library' && (
-            <Button size="sm" variant="ghost" onClick={() => navigate({ name: 'library' })}>
-              <Library className="h-4 w-4" />
-              Kütüphane
-            </Button>
-          )}
+          <div className="flex items-center gap-1">
+            {route.name !== 'library' && (
+              <Button size="sm" variant="ghost" onClick={() => navigate({ name: 'library' })}>
+                <Library className="h-4 w-4" />
+                Kütüphane
+              </Button>
+            )}
+            {route.name !== 'notebook' && (
+              <Button size="sm" variant="ghost" onClick={() => navigate({ name: 'notebook' })} title="Hata defteri ve bilmediğin kelimeler">
+                <BookMarked className="h-4 w-4" />
+                Defterim
+              </Button>
+            )}
+          </div>
         </div>
       </nav>
 
@@ -263,6 +272,8 @@ export function App() {
               onOpenEditor={() => navigate({ name: 'editor' })}
             />
           )}
+
+          {route.name === 'notebook' && <NotebookView mistakeRepository={mistakeRepository} />}
 
           {route.name === 'editor' && (
             <LessonEditorView

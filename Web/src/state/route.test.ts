@@ -19,7 +19,7 @@ describe('hash routes', () => {
   })
 
   it('round-trips every route', () => {
-    for (const hash of ['#/', '#/study/book_01_the_happy_prince', '#/editor', '#/custom']) {
+    for (const hash of ['#/', '#/study/book_01_the_happy_prince', '#/editor', '#/custom', '#/notebook']) {
       expect(routeToHash(parseHash(hash))).toBe(hash)
     }
   })

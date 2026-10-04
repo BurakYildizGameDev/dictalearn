@@ -8,10 +8,15 @@
 
   --animate-fade-up: fade-up 220ms ease-out both;
   --animate-shake: shake 320ms ease-in-out;
+  --animate-eq: eq 900ms ease-in-out infinite;
 
   @keyframes fade-up {
     from { opacity: 0; transform: translateY(6px); }
     to { opacity: 1; transform: none; }
+  }
+  @keyframes eq {
+    0%, 100% { transform: scaleY(0.35); }
+    50% { transform: scaleY(1); }
   }
   @keyframes shake {
     0%, 100% { transform: translateX(0); }
