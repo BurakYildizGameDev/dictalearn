@@ -18,6 +18,8 @@ import { Headphones, AlertTriangle, ArrowLeft, Library, BookMarked } from 'lucid
 const BASE_URL = import.meta.env.BASE_URL
 const LAST_BOOK_KEY = 'dictalearn_last_book'
 const CUSTOM_LESSON_ID = '__custom__'
+// Personal lessons are git-ignored (not openly licensed), so only a local dev server has them.
+const VISIBLE_BOOKS = CATALOG.filter((b) => b.kind !== 'personal' || import.meta.env.DEV)
 
 function safeStorage(): KeyValueStorage | null {
   try {
@@ -261,7 +263,7 @@ export function App() {
         <main className="flex min-w-0 flex-1 flex-col">
           {route.name === 'library' && (
             <LibraryView
-              books={CATALOG}
+              books={VISIBLE_BOOKS}
               progress={progressMap}
               lastBookId={lastBookId}
               uploadedPdfs={uploadedPdfs}

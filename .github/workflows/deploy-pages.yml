@@ -1,0 +1,67 @@
+name: Deploy Web to GitHub Pages
+
+# F8.1: builds Web/ with the repository sub-path and publishes it to GitHub Pages.
+# Enable it once in Settings -> Pages -> Source: "GitHub Actions".
+on:
+  push:
+    branches: [ master, main ]
+    paths: [ 'Web/**', '.github/workflows/deploy-pages.yml' ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Lesson audio/PDFs live in Git LFS. Cache the LFS objects so repeated deploys
+      # do not re-download ~500 MB and burn the LFS bandwidth quota.
+      - name: List LFS objects
+        run: git lfs ls-files --long | cut -d ' ' -f1 | sort > .lfs-assets-id
+
+      - uses: actions/cache@v4
+        with:
+          path: .git/lfs
+          key: lfs-${{ hashFiles('.lfs-assets-id') }}
+          restore-keys: lfs-
+
+      - name: Pull LFS objects (only the web copies)
+        run: git lfs pull --include="Web/public/**"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: Web/package-lock.json
+
+      - name: Build
+        working-directory: ./Web
+        env:
+          VITE_BASE: /${{ github.event.repository.name }}/
+        run: |
+          npm ci
+          npm test
+          npm run build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: Web/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
