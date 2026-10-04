@@ -33,7 +33,23 @@ Android/.externalNativeBuild/
 .DS_Store
 Thumbs.db
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+gutenberg_full.txt
+tools/rocket_raw_sentences.txt
+
 # IDE & Editor
 .vscode/
 *.swp
 *.swo
+
+# Audio masters: regenerable with tools/build_book_audio.py, never used by the apps
+# (both platforms play audio.mp3). Kept out of git and LFS to stay within GitHub limits.
+*.wav
+
+# Personal / not openly licensed lessons (CLAUDE.md rule 6) stay local only
+lessons/custom_*/
+Web/public/lessons/custom_*/
+Android/app/src/main/assets/lessons/custom_*/
