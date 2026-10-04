@@ -258,5 +258,152 @@ describe('useStudySession Hook (Phase 3 Full 4-Step Cycle)', () => {
     expect(result.current.state).toBe('shadowing')
     expect(result.current.sessionRecords).toHaveLength(1)
   })
-})
 
+  describe('bug fixes & navigation', () => {
+    it('giveUp is ignored outside dictating so records are not duplicated', () => {
+      const { result } = renderHook(() =>
+        useStudySession({ lesson: dummyLesson, audioEngine: mockAudioEngine, autoPlay: false })
+      )
+      act(() => result.current.giveUp())
+      act(() => result.current.giveUp())
+      expect(result.current.state).toBe('reviewing')
+      expect(result.current.sessionRecords).toHaveLength(1)
+    })
+
+    it('word mode: repeated wrong attempts on one word count as a single mistake', () => {
+      const { result } = renderHook(() =>
+        useStudySession({
+          lesson: dummyLesson,
+          audioEngine: mockAudioEngine,
+          autoPlay: false,
+          initialStudyMode: 'word',
+          mistakeRepository: mockMistakeRepo,
+        })
+      )
+      act(() => { result.current.submitWord('she') })
+      act(() => { result.current.submitWord('the') })
+      act(() => { result.current.submitWord('we') })
+      expect(result.current.wordMistakeCount).toBe(1)
+      expect(loggedMistakes).toHaveLength(1)
+
+      for (const w of ['he', 'packed', 'his', 'small', 'brown', 'suitcase']) {
+        act(() => { result.current.submitWord(w) })
+      }
+      expect(result.current.state).toBe('shadowing')
+      const record = result.current.sessionRecords[0]
+      expect(record.isPerfect).toBe(false)
+      expect(record.accuracy).toBeCloseTo(5 / 6)
+    })
+
+    it('word mode: giving up keeps the words already typed correctly', () => {
+      const { result } = renderHook(() =>
+        useStudySession({
+          lesson: dummyLesson,
+          audioEngine: mockAudioEngine,
+          autoPlay: false,
+          initialStudyMode: 'word',
+        })
+      )
+      act(() => { result.current.submitWord('he') })
+      act(() => { result.current.submitWord('packed') })
+      act(() => result.current.giveUp())
+
+      expect(result.current.state).toBe('reviewing')
+      expect(result.current.diffResult?.correctCount).toBe(2)
+      expect(result.current.sessionRecords[0].accuracy).toBeCloseTo(2 / 6)
+    })
+
+    it('starts from initialSegmentIndex (resume progress)', () => {
+      const { result } = renderHook(() =>
+        useStudySession({
+          lesson: dummyLesson,
+          audioEngine: mockAudioEngine,
+          autoPlay: false,
+          initialSegmentIndex: 1,
+        })
+      )
+      expect(result.current.currentSegmentIndex).toBe(1)
+      expect(result.current.currentSegment.id).toBe(2)
+    })
+
+    it('clamps an out-of-range initialSegmentIndex', () => {
+      const { result } = renderHook(() =>
+        useStudySession({
+          lesson: dummyLesson,
+          audioEngine: mockAudioEngine,
+          autoPlay: false,
+          initialSegmentIndex: 99,
+        })
+      )
+      expect(result.current.currentSegmentIndex).toBe(1)
+    })
+
+    it('goToSegment jumps from any state and resets the attempt', () => {
+      const { result } = renderHook(() =>
+        useStudySession({ lesson: dummyLesson, audioEngine: mockAudioEngine, autoPlay: false })
+      )
+      act(() => result.current.setTypedText('He packed'))
+      act(() => result.current.submitAnswer())
+      expect(result.current.state).toBe('reviewing')
+
+      act(() => result.current.goToSegment(1))
+      expect(result.current.state).toBe('dictating')
+      expect(result.current.currentSegmentIndex).toBe(1)
+      expect(result.current.typedText).toBe('')
+      expect(result.current.diffResult).toBeNull()
+
+      act(() => result.current.goToSegment(-5))
+      expect(result.current.currentSegmentIndex).toBe(0)
+    })
+
+    it('previousSegment / skipSegment navigate without completing the lesson', () => {
+      const { result } = renderHook(() =>
+        useStudySession({ lesson: dummyLesson, audioEngine: mockAudioEngine, autoPlay: false })
+      )
+      act(() => result.current.skipSegment())
+      expect(result.current.currentSegmentIndex).toBe(1)
+      act(() => result.current.skipSegment()) // already last: stays
+      expect(result.current.currentSegmentIndex).toBe(1)
+      expect(result.current.state).toBe('dictating')
+      act(() => result.current.previousSegment())
+      expect(result.current.currentSegmentIndex).toBe(0)
+    })
+
+    it('reports progress changes and completion', () => {
+      const onProgress = vi.fn()
+      const onComplete = vi.fn()
+      const { result } = renderHook(() =>
+        useStudySession({
+          lesson: dummyLesson,
+          audioEngine: mockAudioEngine,
+          autoPlay: false,
+          onProgress,
+          onComplete,
+        })
+      )
+      act(() => result.current.giveUp())
+      act(() => result.current.skipCorrection())
+      act(() => result.current.nextSegment())
+      expect(onProgress).toHaveBeenLastCalledWith(1)
+
+      act(() => result.current.giveUp())
+      act(() => result.current.skipCorrection())
+      act(() => result.current.nextSegment())
+      expect(result.current.state).toBe('completed')
+      expect(onComplete).toHaveBeenCalledTimes(1)
+    })
+
+    it('restart returns to the first segment with a clean session', () => {
+      const { result } = renderHook(() =>
+        useStudySession({ lesson: dummyLesson, audioEngine: mockAudioEngine, autoPlay: false })
+      )
+      act(() => result.current.giveUp())
+      act(() => result.current.skipCorrection())
+      act(() => result.current.nextSegment())
+      act(() => result.current.restart())
+      expect(result.current.currentSegmentIndex).toBe(0)
+      expect(result.current.state).toBe('dictating')
+      expect(result.current.sessionRecords).toHaveLength(0)
+    })
+  })
+})

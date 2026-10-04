@@ -1,9 +1,11 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest'
-import { render, screen } from '@testing-library/react'
+import { render, screen, fireEvent } from '@testing-library/react'
 import App from './App'
 
 describe('App Integration Smoke Test', () => {
   beforeEach(() => {
+    window.location.hash = ''
+    localStorage.clear()
     vi.spyOn(globalThis, 'fetch').mockImplementation(async (input) => {
       const url = String(input)
       if (url.includes('.json')) {
@@ -61,9 +63,37 @@ describe('App Integration Smoke Test', () => {
     window.AudioContext = MockAudioContext
   })
 
-  it('renders application header and title', async () => {
+  it('opens on the library with level sections and book cards', () => {
     render(<App />)
-    expect(screen.getByText('DictaLearn')).toBeInTheDocument()
-    expect(await screen.findByText(/Chapter 1: The Departure/i)).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: /DictaLearn ana sayfa/i })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: /Seviye 1/i })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: /The Happy Prince/i })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: /PDF Ekle/i })).toBeInTheDocument()
+  })
+
+  it('filters books with the search box', () => {
+    render(<App />)
+    fireEvent.change(screen.getByPlaceholderText(/Kitap, yazar ara/i), { target: { value: 'dracula' } })
+    expect(screen.getByRole('button', { name: /Dracula/i })).toBeInTheDocument()
+    expect(screen.queryByRole('button', { name: /The Happy Prince/i })).toBeNull()
+  })
+
+  it('loads a book from the library into the study screen via the hash route', async () => {
+    render(<App />)
+    fireEvent.click(screen.getByRole('button', { name: /The Happy Prince/i }))
+
+    expect(await screen.findByRole('heading', { level: 1, name: 'The Happy Prince' })).toBeInTheDocument()
+    expect(screen.getByRole('textbox')).toBeInTheDocument()
+    expect(window.location.hash).toBe('#/study/book_01_the_happy_prince')
+    expect(globalThis.fetch).toHaveBeenCalledWith('/lessons/book_01_the_happy_prince/lesson.json')
+    expect(localStorage.getItem('dictalearn_last_book')).toBe('book_01_the_happy_prince')
+  })
+
+  it('shows an error with retry instead of a blank page when a lesson fails to load', async () => {
+    vi.mocked(globalThis.fetch).mockResolvedValue({ ok: false, status: 404, statusText: 'Not Found' } as Response)
+    window.location.hash = '#/study/book_02_the_selfish_giant'
+    render(<App />)
+    expect(await screen.findByText(/Ders yüklenemedi/i)).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: /Yeniden Dene/i })).toBeInTheDocument()
   })
 })

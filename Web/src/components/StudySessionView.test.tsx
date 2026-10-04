@@ -177,5 +177,53 @@ describe('StudySessionView Component (Faz 1 & Faz 3)', () => {
     // Word 3 is now active
     expect(screen.getByText('[3. Kelime]')).toBeInTheDocument()
   })
+
+  it('letter hint button provides incremental letters in word mode', () => {
+    render(<StudySessionView lesson={dummyLesson} audioEngine={mockAudioEngine} />)
+
+    // Switch to Kelime Modu
+    fireEvent.click(screen.getByRole('button', { name: /Kelime/i }))
+
+    const wordInput = screen.getByPlaceholderText(/Kelimeyi buraya yazın/i) as HTMLInputElement
+    expect(wordInput.value).toBe('')
+
+    // Click "Harf İpucu Al" -> Word 1 is "He", clean is "he"
+    const hintBtn = screen.getByRole('button', { name: /Harf İpucu Al/i })
+    fireEvent.click(hintBtn)
+    expect(wordInput.value).toBe('h')
+
+    // Click hint again -> gets second letter "he"
+    fireEvent.click(hintBtn)
+    expect(wordInput.value).toBe('he')
+
+    // Submit word
+    fireEvent.click(screen.getByRole('button', { name: /Kontrol Et/i }))
+    expect(screen.getByText('[2. Kelime]')).toBeInTheDocument()
+  })
+
+  it('provides on-screen audio controls (Kelimeyi Oku, Oto-Oku toggle, Cümleyi Dinle)', () => {
+    render(<StudySessionView lesson={dummyLesson} audioEngine={mockAudioEngine} />)
+
+    // Switch to Kelime Modu
+    fireEvent.click(screen.getByRole('button', { name: /Kelime/i }))
+
+    // Kelimeyi Oku button is present
+    const speakBtns = screen.getAllByRole('button', { name: /Kelimeyi Oku/i })
+    expect(speakBtns.length).toBeGreaterThanOrEqual(1)
+    fireEvent.click(speakBtns[0])
+
+    // Oto-Oku toggle button is present
+    const autoReadBtn = screen.getByRole('button', { name: /Oto-Oku/i })
+    expect(autoReadBtn).toBeInTheDocument()
+    expect(autoReadBtn.textContent).toContain('Açık')
+
+    fireEvent.click(autoReadBtn)
+    expect(autoReadBtn.textContent).toContain('Kapalı')
+
+    // Cümleyi Dinle button calls audioEngine.playRange
+    const listenSentenceBtn = screen.getByRole('button', { name: /Cümleyi Dinle/i })
+    fireEvent.click(listenSentenceBtn)
+    expect(mockAudioEngine.playRange).toHaveBeenCalledWith(0, 4000)
+  })
 })
 

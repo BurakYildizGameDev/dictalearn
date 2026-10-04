@@ -1,10 +1,11 @@
-import { useState, useCallback, useEffect, useMemo } from 'react'
+import { useState, useCallback, useEffect, useMemo, useRef } from 'react'
 import type { Lesson, Segment } from '../domain/lessons/types'
 import type { AudioEngine } from '../domain/audio/audio-engine'
 import type { DiffOptions, DiffResult } from '../domain/diff/types'
 import type { MistakeRepository, MistakeRecord } from '../domain/mistakes/types'
 import { computeWordDiff } from '../domain/diff/diff-engine'
 import { tokenizeSentenceToWords, checkWordMatch, type WordToken } from '../domain/words/word-mode'
+import { WordSpeechEngine } from '../audio/speech-tts'
 
 export type SessionState = 'dictating' | 'reviewing' | 'shadowing' | 'completed'
 export type StudyMode = 'sentence' | 'word'
@@ -23,6 +24,16 @@ export interface UseStudySessionProps {
   options?: DiffOptions
   mistakeRepository?: MistakeRepository
   initialStudyMode?: StudyMode
+  /** Segment to start from, e.g. restored progress. Clamped to the lesson. */
+  initialSegmentIndex?: number
+  /** Called whenever the current segment changes (including on mount). */
+  onProgress?: (segmentIndex: number) => void
+  /** Called once when the last segment is finished. */
+  onComplete?: () => void
+}
+
+function clampIndex(index: number, total: number): number {
+  return Math.min(Math.max(0, Math.floor(index)), Math.max(0, total - 1))
 }
 
 export function useStudySession({
@@ -32,9 +43,16 @@ export function useStudySession({
   options,
   mistakeRepository,
   initialStudyMode,
+  initialSegmentIndex = 0,
+  onProgress,
+  onComplete,
 }: UseStudySessionProps) {
   const [state, setState] = useState<SessionState>('dictating')
-  const [currentSegmentIndex, setCurrentSegmentIndex] = useState(0)
+  const [currentSegmentIndex, setCurrentSegmentIndex] = useState(() =>
+    clampIndex(initialSegmentIndex, lesson.segments.length)
+  )
+  // Bumped on every fresh attempt so effects (autoplay) re-run even for the same segment.
+  const [attemptKey, setAttemptKey] = useState(0)
   const [typedText, setTypedText] = useState('')
   const [correctionText, setCorrectionText] = useState('')
   const [diffResult, setDiffResult] = useState<DiffResult | null>(null)
@@ -65,7 +83,66 @@ export function useStudySession({
   const [currentWordIndex, setCurrentWordIndex] = useState(0)
   const [typedWord, setTypedWord] = useState('')
   const [wordFeedback, setWordFeedback] = useState<'idle' | 'correct' | 'incorrect'>('idle')
-  const [wordMistakeCount, setWordMistakeCount] = useState(0)
+  // Indexes of words missed (wrong at least once, or skipped) in the current sentence.
+  const [missedWords, setMissedWords] = useState<ReadonlySet<number>>(() => new Set())
+  const wordMistakeCount = missedWords.size
+
+  const onProgressRef = useRef(onProgress)
+  const onCompleteRef = useRef(onComplete)
+  useEffect(() => {
+    onProgressRef.current = onProgress
+    onCompleteRef.current = onComplete
+  })
+
+  useEffect(() => {
+    onProgressRef.current?.(currentSegmentIndex)
+  }, [currentSegmentIndex])
+
+  const [autoSpeakWord, setAutoSpeakWordState] = useState<boolean>(() => {
+    try {
+      const saved = localStorage.getItem('dictalearn_auto_speak_word')
+      return saved !== 'false'
+    } catch {
+      return true
+    }
+  })
+
+  const setAutoSpeakWord = useCallback((val: boolean) => {
+    setAutoSpeakWordState(val)
+    try {
+      localStorage.setItem('dictalearn_auto_speak_word', String(val))
+    } catch {
+      // ignore
+    }
+  }, [])
+
+  const toggleAutoSpeakWord = useCallback(() => {
+    setAutoSpeakWord(!autoSpeakWord)
+  }, [autoSpeakWord, setAutoSpeakWord])
+
+  const speakCurrentWord = useCallback(() => {
+    const target = targetWords[currentWordIndex]
+    if (target?.clean) {
+      WordSpeechEngine.speak(target.clean)
+    }
+  }, [targetWords, currentWordIndex])
+
+  const speakWord = useCallback((word: string) => {
+    WordSpeechEngine.speak(word)
+  }, [])
+
+  const giveLetterHint = useCallback(() => {
+    const target = targetWords[currentWordIndex]
+    if (!target?.clean) return
+
+    const clean = target.clean
+    const currentLen = typedWord.length
+    if (currentLen < clean.length) {
+      const nextSlice = clean.slice(0, currentLen + 1)
+      setTypedWord(nextSlice)
+      setWordFeedback('idle')
+    }
+  }, [targetWords, currentWordIndex, typedWord])
 
   const setStudyMode = useCallback((mode: StudyMode) => {
     setStudyModeState(mode)
@@ -77,12 +154,19 @@ export function useStudySession({
     setCurrentWordIndex(0)
     setTypedWord('')
     setWordFeedback('idle')
-    setWordMistakeCount(0)
+    setMissedWords(new Set())
   }, [])
 
   const toggleStudyMode = useCallback(() => {
     setStudyMode(studyMode === 'sentence' ? 'word' : 'sentence')
   }, [studyMode, setStudyMode])
+
+  useEffect(() => {
+    if (state !== 'dictating' || studyMode !== 'word' || !autoSpeakWord) return
+    // The first word would talk over the sentence audio that autoplay just started.
+    if (currentWordIndex === 0 && autoPlay) return
+    speakCurrentWord()
+  }, [state, studyMode, currentWordIndex, autoSpeakWord, autoPlay, speakCurrentWord])
 
   const playCurrentSegment = useCallback(() => {
     if (currentSegment) {
@@ -94,7 +178,7 @@ export function useStudySession({
     if (state === 'dictating' && autoPlay) {
       playCurrentSegment()
     }
-  }, [state, currentSegmentIndex, autoPlay, playCurrentSegment])
+  }, [state, currentSegmentIndex, attemptKey, autoPlay, playCurrentSegment])
 
   const replaySegment = useCallback(() => {
     setReplayCount((prev) => prev + 1)
@@ -171,9 +255,17 @@ export function useStudySession({
   )
 
   const giveUp = useCallback(() => {
-    if (state !== 'dictating' && state !== 'reviewing') return
+    if (state !== 'dictating') return
 
-    const diff = computeWordDiff(currentSegment.text, '', options)
+    // In word mode the words already solved count as typed.
+    const typedSoFar =
+      studyMode === 'word'
+        ? targetWords
+            .slice(0, currentWordIndex)
+            .map((w) => w.raw)
+            .join(' ')
+        : ''
+    const diff = computeWordDiff(currentSegment.text, typedSoFar, options)
     setDiffResult(diff)
     logMistakes(diff)
 
@@ -181,7 +273,7 @@ export function useStudySession({
       ...prev,
       {
         segmentId: currentSegment.id,
-        accuracy: 0,
+        accuracy: diff.accuracy,
         replayCount,
         isPerfect: false,
       },
@@ -190,7 +282,7 @@ export function useStudySession({
     setCorrectionText('')
     setCorrectionDiff(null)
     setState('reviewing')
-  }, [state, currentSegment, options, replayCount, logMistakes])
+  }, [state, studyMode, targetWords, currentWordIndex, currentSegment, options, replayCount, logMistakes])
 
   // Submit correction attempt in reviewing state
   const submitCorrection = useCallback(
@@ -224,137 +316,89 @@ export function useStudySession({
   }, [])
 
   // Word-by-Word Mode Actions (Faz 6)
+
+  // Marks a word as missed once; later wrong attempts on the same word are not re-counted.
+  const markWordMissed = useCallback(
+    (index: number, kind: 'substitute' | 'missing', typed: string) => {
+      if (missedWords.has(index)) return missedWords
+      const next = new Set(missedWords).add(index)
+      setMissedWords(next)
+      const target = targetWords[index]
+      if (mistakeRepository && target) {
+        mistakeRepository.addMistakes([
+          {
+            word: target.clean,
+            kind,
+            typed: typed || undefined,
+            lesson_id: lesson.lesson_id,
+            segment_id: currentSegment.id,
+            at: new Date().toISOString(),
+          },
+        ])
+      }
+      return next
+    },
+    [missedWords, targetWords, mistakeRepository, lesson.lesson_id, currentSegment.id]
+  )
+
+  // Advances to the next word or, after the last one, finishes the sentence.
+  const advanceWord = useCallback(
+    (missed: ReadonlySet<number>) => {
+      setTypedWord('')
+      const nextIdx = currentWordIndex + 1
+      if (nextIdx < targetWords.length) {
+        setCurrentWordIndex(nextIdx)
+        return
+      }
+      const total = targetWords.length || 1
+      setDiffResult(computeWordDiff(currentSegment.text, currentSegment.text, options))
+      setSessionRecords((prev) => [
+        ...prev,
+        {
+          segmentId: currentSegment.id,
+          accuracy: Math.max(0, (total - missed.size) / total),
+          replayCount,
+          isPerfect: missed.size === 0,
+        },
+      ])
+      setState('shadowing')
+    },
+    [currentWordIndex, targetWords.length, currentSegment, options, replayCount]
+  )
+
   const submitWord = useCallback(
     (overrideWord?: string): boolean => {
       if (state !== 'dictating' || studyMode !== 'word') return false
 
       const wordToTest = overrideWord !== undefined ? overrideWord : typedWord
       const target = targetWords[currentWordIndex]
-      if (!target) return false
+      if (!target || !wordToTest.trim()) return false
 
-      const isMatch = checkWordMatch(wordToTest, target.clean)
-      if (isMatch) {
+      if (checkWordMatch(wordToTest, target.clean)) {
         setWordFeedback('correct')
-        setTypedWord('')
-
-        const nextIdx = currentWordIndex + 1
-        if (nextIdx >= targetWords.length) {
-          // Entire sentence completed via word-by-word!
-          const isPerfect = wordMistakeCount === 0
-          const accuracy = isPerfect
-            ? 1
-            : Math.max(0, (targetWords.length - wordMistakeCount) / targetWords.length)
-          const diff = computeWordDiff(currentSegment.text, currentSegment.text, options)
-          setDiffResult(diff)
-          setSessionRecords((prev) => [
-            ...prev,
-            {
-              segmentId: currentSegment.id,
-              accuracy,
-              replayCount,
-              isPerfect,
-            },
-          ])
-          setState('shadowing')
-        } else {
-          setCurrentWordIndex(nextIdx)
-        }
+        advanceWord(missedWords)
         return true
-      } else {
-        setWordFeedback('incorrect')
-        setWordMistakeCount((prev) => prev + 1)
-        if (mistakeRepository) {
-          mistakeRepository.addMistakes([
-            {
-              word: target.clean,
-              kind: 'substitute',
-              typed: wordToTest,
-              lesson_id: lesson.lesson_id,
-              segment_id: currentSegment.id,
-              at: new Date().toISOString(),
-            },
-          ])
-        }
-        return false
       }
+      setWordFeedback('incorrect')
+      markWordMissed(currentWordIndex, 'substitute', wordToTest.trim())
+      return false
     },
-    [
-      state,
-      studyMode,
-      typedWord,
-      targetWords,
-      currentWordIndex,
-      wordMistakeCount,
-      currentSegment,
-      options,
-      replayCount,
-      mistakeRepository,
-      lesson.lesson_id,
-    ]
+    [state, studyMode, typedWord, targetWords, currentWordIndex, missedWords, advanceWord, markWordMissed]
   )
 
   const skipWord = useCallback(() => {
     if (state !== 'dictating' || studyMode !== 'word') return
+    if (!targetWords[currentWordIndex]) return
 
-    const target = targetWords[currentWordIndex]
-    if (!target) return
-
-    const newMistakes = wordMistakeCount + 1
-    setWordMistakeCount(newMistakes)
-    if (mistakeRepository) {
-      mistakeRepository.addMistakes([
-        {
-          word: target.clean,
-          kind: 'missing',
-          typed: typedWord,
-          lesson_id: lesson.lesson_id,
-          segment_id: currentSegment.id,
-          at: new Date().toISOString(),
-        },
-      ])
-    }
-
-    setTypedWord('')
+    const missed = markWordMissed(currentWordIndex, 'missing', typedWord.trim())
     setWordFeedback('idle')
-    const nextIdx = currentWordIndex + 1
-    if (nextIdx >= targetWords.length) {
-      const accuracy = Math.max(0, (targetWords.length - newMistakes) / targetWords.length)
-      const diff = computeWordDiff(currentSegment.text, currentSegment.text, options)
-      setDiffResult(diff)
-      setSessionRecords((prev) => [
-        ...prev,
-        {
-          segmentId: currentSegment.id,
-          accuracy,
-          replayCount,
-          isPerfect: false,
-        },
-      ])
-      setState('shadowing')
-    } else {
-      setCurrentWordIndex(nextIdx)
-    }
-  }, [
-    state,
-    studyMode,
-    targetWords,
-    currentWordIndex,
-    wordMistakeCount,
-    typedWord,
-    mistakeRepository,
-    lesson.lesson_id,
-    currentSegment,
-    options,
-    replayCount,
-  ])
+    advanceWord(missed)
+  }, [state, studyMode, targetWords, currentWordIndex, typedWord, markWordMissed, advanceWord])
 
-  const nextSegment = useCallback(() => {
-    // Can advance from reviewing or shadowing
-    const isLast = currentSegmentIndex >= lesson.segments.length - 1
-    if (isLast) {
-      setState('completed')
-    } else {
-      setCurrentSegmentIndex((prev) => prev + 1)
+  // Resets everything that belongs to a single attempt and lands in dictating.
+  const goToSegment = useCallback(
+    (index: number) => {
+      setCurrentSegmentIndex(clampIndex(index, lesson.segments.length))
       setTypedText('')
       setCorrectionText('')
       setDiffResult(null)
@@ -364,10 +408,42 @@ export function useStudySession({
       setCurrentWordIndex(0)
       setTypedWord('')
       setWordFeedback('idle')
-      setWordMistakeCount(0)
+      setMissedWords(new Set())
+      setAttemptKey((k) => k + 1)
       setState('dictating')
+    },
+    [lesson.segments.length]
+  )
+
+  const nextSegment = useCallback(() => {
+    const isLast = currentSegmentIndex >= lesson.segments.length - 1
+    if (isLast) {
+      audioEngine.pause()
+      setState('completed')
+      onCompleteRef.current?.()
+    } else {
+      goToSegment(currentSegmentIndex + 1)
     }
-  }, [currentSegmentIndex, lesson.segments.length])
+  }, [currentSegmentIndex, lesson.segments.length, goToSegment, audioEngine])
+
+  /** PageDown: jump forward without finishing the lesson. */
+  const skipSegment = useCallback(() => {
+    if (currentSegmentIndex < lesson.segments.length - 1) {
+      goToSegment(currentSegmentIndex + 1)
+    }
+  }, [currentSegmentIndex, lesson.segments.length, goToSegment])
+
+  /** PageUp: go back one segment. */
+  const previousSegment = useCallback(() => {
+    if (currentSegmentIndex > 0) {
+      goToSegment(currentSegmentIndex - 1)
+    }
+  }, [currentSegmentIndex, goToSegment])
+
+  const restart = useCallback(() => {
+    setSessionRecords([])
+    goToSegment(0)
+  }, [goToSegment])
 
   return {
     state,
@@ -389,7 +465,12 @@ export function useStudySession({
     submitCorrection,
     skipCorrection,
     nextSegment,
+    skipSegment,
+    previousSegment,
+    goToSegment,
+    restart,
     replaySegment,
+    playCurrentSegment,
     // Word-by-Word Mode additions
     studyMode,
     setStudyMode,
@@ -403,5 +484,11 @@ export function useStudySession({
     wordMistakeCount,
     submitWord,
     skipWord,
+    autoSpeakWord,
+    setAutoSpeakWord,
+    toggleAutoSpeakWord,
+    speakCurrentWord,
+    speakWord,
+    giveLetterHint,
   }
 }

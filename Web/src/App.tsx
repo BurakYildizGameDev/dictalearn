@@ -1,409 +1,362 @@
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useEffect, useMemo, useCallback, useSyncExternalStore } from 'react'
 import type { Lesson } from './domain/lessons/types'
 import { loadLessonFromUrl } from './domain/lessons/lesson-loader'
 import { WebAudioEngine } from './audio/web-audio-engine'
 import { LocalMistakeRepository } from './domain/mistakes/local-mistake-repository'
+import { CATALOG, findBook, lessonAssetUrls } from './domain/library/catalog'
+import { ProgressStore, type KeyValueStorage } from './domain/progress/progress-store'
+import { listAllCustomPdfs, saveCustomPdf, removeCustomPdf, asPdfBlob } from './domain/storage/pdf-storage'
+import { useHashRoute } from './state/route'
 import { StudySessionView } from './components/StudySessionView'
 import { LessonEditorView } from './components/LessonEditorView'
-import { Headphones, AlertTriangle, Edit3, ArrowLeft, FileText, BookOpen } from 'lucide-react'
+import { PdfViewerModal } from './components/PdfViewerModal'
+import { LibraryView, type UploadedPdf } from './components/LibraryView'
+import { Button } from './components/ui'
+import { Headphones, AlertTriangle, ArrowLeft, Library } from 'lucide-react'
 
-interface PresetLesson {
-  id: string
-  name: string
-  jsonUrl: string
-  audioUrl: string
-  pdfUrl?: string
+const BASE_URL = import.meta.env.BASE_URL
+const LAST_BOOK_KEY = 'dictalearn_last_book'
+const CUSTOM_LESSON_ID = '__custom__'
+
+function safeStorage(): KeyValueStorage | null {
+  try {
+    return window.localStorage
+  } catch {
+    return null
+  }
 }
 
-const PRESET_LESSONS: PresetLesson[] = [
-  {
-    id: 'book_01_the_happy_prince',
-    name: '1. The Happy Prince (15 Sayfa / 300 Cümle)',
-    jsonUrl: '/lessons/book_01_the_happy_prince/lesson.json',
-    audioUrl: '/lessons/book_01_the_happy_prince/audio.mp3',
-    pdfUrl: '/lessons/book_01_the_happy_prince/book_01_the_happy_prince.pdf',
-  },
-  {
-    id: 'book_02_the_selfish_giant',
-    name: '2. The Selfish Giant (15 Sayfa / 300 Cümle)',
-    jsonUrl: '/lessons/book_02_the_selfish_giant/lesson.json',
-    audioUrl: '/lessons/book_02_the_selfish_giant/audio.mp3',
-    pdfUrl: '/lessons/book_02_the_selfish_giant/book_02_the_selfish_giant.pdf',
-  },
-  {
-    id: 'book_03_the_nightingale_and_the_rose',
-    name: '3. The Nightingale and the Rose (15 Sayfa / 300 Cümle)',
-    jsonUrl: '/lessons/book_03_the_nightingale_and_the_rose/lesson.json',
-    audioUrl: '/lessons/book_03_the_nightingale_and_the_rose/audio.mp3',
-    pdfUrl: '/lessons/book_03_the_nightingale_and_the_rose/book_03_the_nightingale_and_the_rose.pdf',
-  },
-  {
-    id: 'book_04_the_devoted_friend',
-    name: '4. The Devoted Friend (15 Sayfa / 300 Cümle)',
-    jsonUrl: '/lessons/book_04_the_devoted_friend/lesson.json',
-    audioUrl: '/lessons/book_04_the_devoted_friend/audio.mp3',
-    pdfUrl: '/lessons/book_04_the_devoted_friend/book_04_the_devoted_friend.pdf',
-  },
-  {
-    id: 'book_05_the_remarkable_rocket',
-    name: '5. The Remarkable Rocket (15 Sayfa / 300 Cümle)',
-    jsonUrl: '/lessons/book_05_the_remarkable_rocket/lesson.json',
-    audioUrl: '/lessons/book_05_the_remarkable_rocket/audio.mp3',
-    pdfUrl: '/lessons/book_05_the_remarkable_rocket/book_05_the_remarkable_rocket.pdf',
-  },
-  {
-    id: 'book_06_aesops_fables_part1',
-    name: "6. Aesop's Fables (Part 1) (15 Sayfa / 300 Cümle)",
-    jsonUrl: '/lessons/book_06_aesops_fables_part1/lesson.json',
-    audioUrl: '/lessons/book_06_aesops_fables_part1/audio.mp3',
-    pdfUrl: '/lessons/book_06_aesops_fables_part1/book_06_aesops_fables_part1.pdf',
-  },
-  {
-    id: 'book_07_aesops_fables_part2',
-    name: "7. Aesop's Fables (Part 2) (15 Sayfa / 300 Cümle)",
-    jsonUrl: '/lessons/book_07_aesops_fables_part2/lesson.json',
-    audioUrl: '/lessons/book_07_aesops_fables_part2/audio.mp3',
-    pdfUrl: '/lessons/book_07_aesops_fables_part2/book_07_aesops_fables_part2.pdf',
-  },
-  {
-    id: 'book_08_the_little_prince',
-    name: '8. The Little Prince (15 Sayfa / 300 Cümle)',
-    jsonUrl: '/lessons/book_08_the_little_prince/lesson.json',
-    audioUrl: '/lessons/book_08_the_little_prince/audio.mp3',
-    pdfUrl: '/lessons/book_08_the_little_prince/book_08_the_little_prince.pdf',
-  },
-  {
-    id: 'book_09_grimms_fairy_tales',
-    name: "9. Grimm's Fairy Tales (15 Sayfa / 300 Cümle)",
-    jsonUrl: '/lessons/book_09_grimms_fairy_tales/lesson.json',
-    audioUrl: '/lessons/book_09_grimms_fairy_tales/audio.mp3',
-    pdfUrl: '/lessons/book_09_grimms_fairy_tales/book_09_grimms_fairy_tales.pdf',
-  },
-  {
-    id: 'book_10_hans_christian_andersen',
-    name: "10. Hans Christian Andersen (15 Sayfa / 300 Cümle)",
-    jsonUrl: '/lessons/book_10_hans_christian_andersen/lesson.json',
-    audioUrl: '/lessons/book_10_hans_christian_andersen/audio.mp3',
-    pdfUrl: '/lessons/book_10_hans_christian_andersen/book_10_hans_christian_andersen.pdf',
-  },
-  {
-    id: 'book_11_alices_adventures_in_wonderland',
-    name: "11. Alice in Wonderland (15 Sayfa / 300 Cümle)",
-    jsonUrl: '/lessons/book_11_alices_adventures_in_wonderland/lesson.json',
-    audioUrl: '/lessons/book_11_alices_adventures_in_wonderland/audio.mp3',
-    pdfUrl: '/lessons/book_11_alices_adventures_in_wonderland/book_11_alices_adventures_in_wonderland.pdf',
-  },
-  {
-    id: 'book_12_the_adventures_of_pinocchio',
-    name: "12. The Adventures of Pinocchio (15 Sayfa / 300 Cümle)",
-    jsonUrl: '/lessons/book_12_the_adventures_of_pinocchio/lesson.json',
-    audioUrl: '/lessons/book_12_the_adventures_of_pinocchio/audio.mp3',
-    pdfUrl: '/lessons/book_12_the_adventures_of_pinocchio/book_12_the_adventures_of_pinocchio.pdf',
-  },
-  {
-    id: 'book_13_the_wonderful_wizard_of_oz',
-    name: "13. The Wonderful Wizard of Oz (15 Sayfa / 300 Cümle)",
-    jsonUrl: '/lessons/book_13_the_wonderful_wizard_of_oz/lesson.json',
-    audioUrl: '/lessons/book_13_the_wonderful_wizard_of_oz/audio.mp3',
-    pdfUrl: '/lessons/book_13_the_wonderful_wizard_of_oz/book_13_the_wonderful_wizard_of_oz.pdf',
-  },
-  {
-    id: 'book_14_the_jungle_book',
-    name: "14. The Jungle Book (15 Sayfa / 300 Cümle)",
-    jsonUrl: '/lessons/book_14_the_jungle_book/lesson.json',
-    audioUrl: '/lessons/book_14_the_jungle_book/audio.mp3',
-    pdfUrl: '/lessons/book_14_the_jungle_book/book_14_the_jungle_book.pdf',
-  },
-  {
-    id: 'book_15_the_wind_in_the_willows',
-    name: "15. The Wind in the Willows (15 Sayfa / 300 Cümle)",
-    jsonUrl: '/lessons/book_15_the_wind_in_the_willows/lesson.json',
-    audioUrl: '/lessons/book_15_the_wind_in_the_willows/audio.mp3',
-    pdfUrl: '/lessons/book_15_the_wind_in_the_willows/book_15_the_wind_in_the_willows.pdf',
-  },
-  {
-    id: 'book_16_peter_pan',
-    name: "16. Peter Pan (15 Sayfa / 300 Cümle)",
-    jsonUrl: '/lessons/book_16_peter_pan/lesson.json',
-    audioUrl: '/lessons/book_16_peter_pan/audio.mp3',
-    pdfUrl: '/lessons/book_16_peter_pan/book_16_peter_pan.pdf',
-  },
-  {
-    id: 'book_17_the_merry_adventures_of_robin_hood',
-    name: "17. Robin Hood (15 Sayfa / 300 Cümle)",
-    jsonUrl: '/lessons/book_17_the_merry_adventures_of_robin_hood/lesson.json',
-    audioUrl: '/lessons/book_17_the_merry_adventures_of_robin_hood/audio.mp3',
-    pdfUrl: '/lessons/book_17_the_merry_adventures_of_robin_hood/book_17_the_merry_adventures_of_robin_hood.pdf',
-  },
-  {
-    id: 'book_18_king_arthur',
-    name: "18. King Arthur (15 Sayfa / 300 Cümle)",
-    jsonUrl: '/lessons/book_18_king_arthur/lesson.json',
-    audioUrl: '/lessons/book_18_king_arthur/audio.mp3',
-    pdfUrl: '/lessons/book_18_king_arthur/book_18_king_arthur.pdf',
-  },
-  {
-    id: 'book_19_gullivers_travels',
-    name: "19. Gulliver's Travels (15 Sayfa / 300 Cümle)",
-    jsonUrl: '/lessons/book_19_gullivers_travels/lesson.json',
-    audioUrl: '/lessons/book_19_gullivers_travels/audio.mp3',
-    pdfUrl: '/lessons/book_19_gullivers_travels/book_19_gullivers_travels.pdf',
-  },
-  {
-    id: 'book_20_treasure_island',
-    name: "20. Treasure Island (15 Sayfa / 300 Cümle)",
-    jsonUrl: '/lessons/book_20_treasure_island/lesson.json',
-    audioUrl: '/lessons/book_20_treasure_island/audio.mp3',
-    pdfUrl: '/lessons/book_20_treasure_island/book_20_treasure_island.pdf',
-  },
-  {
-    id: 'book_21_around_the_world_in_eighty_days',
-    name: "21. Around the World in 80 Days (15 Sayfa / 300 Cümle)",
-    jsonUrl: '/lessons/book_21_around_the_world_in_eighty_days/lesson.json',
-    audioUrl: '/lessons/book_21_around_the_world_in_eighty_days/audio.mp3',
-    pdfUrl: '/lessons/book_21_around_the_world_in_eighty_days/book_21_around_the_world_in_eighty_days.pdf',
-  },
-  {
-    id: 'book_22_a_christmas_carol',
-    name: "22. A Christmas Carol (15 Sayfa / 300 Cümle)",
-    jsonUrl: '/lessons/book_22_a_christmas_carol/lesson.json',
-    audioUrl: '/lessons/book_22_a_christmas_carol/audio.mp3',
-    pdfUrl: '/lessons/book_22_a_christmas_carol/book_22_a_christmas_carol.pdf',
-  },
-  {
-    id: 'book_23_the_secret_garden',
-    name: "23. The Secret Garden (15 Sayfa / 300 Cümle)",
-    jsonUrl: '/lessons/book_23_the_secret_garden/lesson.json',
-    audioUrl: '/lessons/book_23_the_secret_garden/audio.mp3',
-    pdfUrl: '/lessons/book_23_the_secret_garden/book_23_the_secret_garden.pdf',
-  },
-  {
-    id: 'book_24_white_fang',
-    name: "24. White Fang (15 Sayfa / 300 Cümle)",
-    jsonUrl: '/lessons/book_24_white_fang/lesson.json',
-    audioUrl: '/lessons/book_24_white_fang/audio.mp3',
-    pdfUrl: '/lessons/book_24_white_fang/book_24_white_fang.pdf',
-  },
-  {
-    id: 'book_25_the_time_machine',
-    name: "25. The Time Machine (15 Sayfa / 300 Cümle)",
-    jsonUrl: '/lessons/book_25_the_time_machine/lesson.json',
-    audioUrl: '/lessons/book_25_the_time_machine/audio.mp3',
-    pdfUrl: '/lessons/book_25_the_time_machine/book_25_the_time_machine.pdf',
-  },
-  {
-    id: 'sample_ch01',
-    name: 'Demo: The Departure (6 Cümle)',
-    jsonUrl: '/lessons/sample_ch01/lesson.json',
-    audioUrl: '/lessons/sample_ch01/audio.mp3',
-  },
-]
+function useMediaQuery(query: string): boolean {
+  const subscribe = useCallback(
+    (onChange: () => void) => {
+      if (typeof window.matchMedia !== 'function') return () => {}
+      const mql = window.matchMedia(query)
+      mql.addEventListener('change', onChange)
+      return () => mql.removeEventListener('change', onChange)
+    },
+    [query]
+  )
+  const getSnapshot = () => typeof window.matchMedia === 'function' && window.matchMedia(query).matches
+  return useSyncExternalStore(subscribe, getSnapshot, () => false)
+}
+
+interface LoadedLesson {
+  id: string
+  lesson: Lesson
+  startIndex: number
+}
 
 export function App() {
-  const [selectedPresetId, setSelectedPresetId] = useState<string>('book_01_the_happy_prince')
-  const [lesson, setLesson] = useState<Lesson | null>(null)
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState<string | null>(null)
-  const [viewMode, setViewMode] = useState<'study' | 'editor'>('study')
-
+  const [route, navigate] = useHashRoute()
   const audioEngine = useMemo(() => new WebAudioEngine(), [])
   const mistakeRepository = useMemo(() => new LocalMistakeRepository(), [])
+  const progressStore = useMemo(() => new ProgressStore(safeStorage()), [])
 
-  const loadPreset = async (preset: PresetLesson) => {
-    try {
-      setLoading(true)
-      setError(null)
-      const loadedLesson = await loadLessonFromUrl(preset.jsonUrl)
-      await audioEngine.load(preset.audioUrl)
-      setLesson(loadedLesson)
-      setSelectedPresetId(preset.id)
-      setViewMode('study')
-    } catch (err: unknown) {
-      const msg = err instanceof Error ? err.message : 'Ders yüklenirken beklenmeyen bir hata oluştu.'
-      setError(msg)
-    } finally {
-      setLoading(false)
-    }
-  }
+  const [progressMap, setProgressMap] = useState(() => progressStore.all())
+  const [lastBookId, setLastBookId] = useState<string | null>(() => safeStorage()?.getItem(LAST_BOOK_KEY) ?? null)
+  const [loaded, setLoaded] = useState<LoadedLesson | null>(null)
+  const [loadError, setLoadError] = useState<{ id: string; message: string } | null>(null)
+  const [customLoading, setCustomLoading] = useState(false)
+  const [retryKey, setRetryKey] = useState(0)
+  // The PDF panel belongs to one lesson; switching lessons closes it implicitly.
+  const [pdfOpenFor, setPdfOpenFor] = useState<string | null>(null)
+  const [uploadedPdfs, setUploadedPdfs] = useState<UploadedPdf[]>([])
+  const [viewerPdf, setViewerPdf] = useState<UploadedPdf | null>(null)
+  const isWide = useMediaQuery('(min-width: 1024px)')
 
+  useEffect(() => () => audioEngine.dispose(), [audioEngine])
+
+  // Restore PDFs the user uploaded in earlier visits (IndexedDB).
   useEffect(() => {
-    let mounted = true
+    let cancelled = false
+    listAllCustomPdfs()
+      .then((records) => {
+        if (cancelled) return
+        // Newest first; older duplicates and the legacy "active_pdf" slot are cleaned up.
+        const sorted = [...records].sort((a, b) => b.updatedAt - a.updatedAt)
+        const seen = new Set<string>()
+        const pdfs: UploadedPdf[] = []
+        for (const r of sorted) {
+          if (r.id === 'active_pdf' || seen.has(r.name) || !(r.blob instanceof Blob)) {
+            void removeCustomPdf(r.id)
+            continue
+          }
+          seen.add(r.name)
+          pdfs.push({ id: r.id, name: r.name, pdfUrl: URL.createObjectURL(asPdfBlob(r.blob)) })
+        }
+        setUploadedPdfs(pdfs)
+      })
+      .catch(() => {
+        // IndexedDB unavailable (private mode): uploads just won't persist.
+      })
+    return () => {
+      cancelled = true
+    }
+  }, [])
 
-    async function init() {
-      try {
-        setLoading(true)
-        setError(null)
-        const preset = PRESET_LESSONS[0]
-        const loadedLesson = await loadLessonFromUrl(preset.jsonUrl)
-        await audioEngine.load(preset.audioUrl)
-
-        if (mounted) {
-          setLesson(loadedLesson)
-        }
-      } catch (err: unknown) {
-        if (mounted) {
-          const msg =
-            err instanceof Error ? err.message : 'Ders yüklenirken beklenmeyen bir hata oluştu.'
-          setError(msg)
-        }
-      } finally {
-        if (mounted) {
-          setLoading(false)
-        }
-      }
+  // Load the requested book whenever the study route points to a different one.
+  const studyBookId = route.name === 'study' ? route.bookId : null
+  useEffect(() => {
+    if (!studyBookId) return
+    const book = findBook(studyBookId)
+    if (!book) {
+      navigate({ name: 'library' })
+      return
     }
 
-    init()
+    let cancelled = false
+    const urls = lessonAssetUrls(book, BASE_URL)
+    audioEngine.pause()
+
+    Promise.all([loadLessonFromUrl(urls.jsonUrl), audioEngine.load(urls.audioUrl)])
+      .then(([lesson]) => {
+        if (cancelled) return
+        const saved = progressStore.get(book.id)
+        const startIndex = saved && !saved.completed ? saved.segmentIndex : 0
+        setLoaded({ id: book.id, lesson, startIndex })
+        setLastBookId(book.id)
+        safeStorage()?.setItem(LAST_BOOK_KEY, book.id)
+      })
+      .catch((err: unknown) => {
+        if (cancelled) return
+        const message = err instanceof Error ? err.message : 'Ders yüklenirken beklenmeyen bir hata oluştu.'
+        setLoadError({ id: book.id, message })
+      })
 
     return () => {
-      mounted = false
-      audioEngine.dispose()
+      cancelled = true
     }
-  }, [audioEngine])
+  }, [studyBookId, retryKey, audioEngine, progressStore, navigate])
+
+  // Leaving the study screens stops the audio.
+  useEffect(() => {
+    if (route.name === 'library' || route.name === 'editor') audioEngine.pause()
+  }, [route.name, audioEngine])
+
+  // A custom lesson only lives in memory; after a reload there is nothing to show.
+  useEffect(() => {
+    if (route.name === 'custom' && loaded?.id !== CUSTOM_LESSON_ID) navigate({ name: 'library' })
+  }, [route.name, loaded, navigate])
+
+  const error = route.name === 'study' && loadError?.id === studyBookId ? loadError.message : null
+  const loadingId =
+    route.name === 'study' && studyBookId && loaded?.id !== studyBookId && !error
+      ? studyBookId
+      : customLoading
+        ? CUSTOM_LESSON_ID
+        : null
+  const isPdfOpen = !!loaded && pdfOpenFor === loaded.id
+  const setIsPdfOpen = (open: boolean | ((prev: boolean) => boolean)) => {
+    const next = typeof open === 'function' ? open(isPdfOpen) : open
+    setPdfOpenFor(next && loaded ? loaded.id : null)
+  }
+
+  const activeBook = loaded && loaded.id !== CUSTOM_LESSON_ID ? findBook(loaded.id) : undefined
+  const activePdfUrl = activeBook ? lessonAssetUrls(activeBook, BASE_URL).pdfUrl : undefined
+
+  useEffect(() => {
+    const onStudy = route.name === 'study' || route.name === 'custom'
+    document.title = onStudy && loaded ? `${activeBook?.title ?? loaded.lesson.title} · DictaLearn` : 'DictaLearn'
+  }, [route.name, loaded, activeBook])
+
+  const handleProgress = useCallback(
+    (lessonId: string, index: number, total: number) => {
+      if (lessonId === CUSTOM_LESSON_ID) return
+      progressStore.record(lessonId, index, total)
+      setProgressMap(progressStore.all())
+    },
+    [progressStore]
+  )
+
+  const handleComplete = useCallback(
+    (lessonId: string, total: number) => {
+      if (lessonId === CUSTOM_LESSON_ID) return
+      progressStore.markCompleted(lessonId, total)
+      setProgressMap(progressStore.all())
+    },
+    [progressStore]
+  )
+
+  const addUploadedPdf = async (name: string, file: Blob): Promise<UploadedPdf> => {
+    const id = `custom_user_${Date.now()}`
+    const blob = asPdfBlob(file)
+    // Re-uploading a file with the same name replaces the old copy.
+    for (const old of uploadedPdfs.filter((p) => p.name === name)) {
+      URL.revokeObjectURL(old.pdfUrl)
+      void removeCustomPdf(old.id)
+    }
+    await saveCustomPdf(id, blob, name) // never throws; logs and continues if storage is unavailable
+    const pdf: UploadedPdf = { id, name, pdfUrl: URL.createObjectURL(blob) }
+    setUploadedPdfs((prev) => [pdf, ...prev.filter((p) => p.name !== name)])
+    return pdf
+  }
+
+  const removeUploadedPdf = async (pdf: UploadedPdf) => {
+    setUploadedPdfs((prev) => prev.filter((p) => p.id !== pdf.id))
+    URL.revokeObjectURL(pdf.pdfUrl)
+    try {
+      await removeCustomPdf(pdf.id)
+    } catch {
+      // ignore
+    }
+  }
 
   const handleStartCustomLesson = async (customLesson: Lesson, customAudioUrl: string) => {
     try {
-      setLoading(true)
+      setCustomLoading(true)
       await audioEngine.load(customAudioUrl)
-      setLesson(customLesson)
-      setSelectedPresetId('custom')
-      setViewMode('study')
+      setLoaded({ id: CUSTOM_LESSON_ID, lesson: customLesson, startIndex: 0 })
+      navigate({ name: 'custom' })
     } catch (err: unknown) {
-      const msg = err instanceof Error ? err.message : 'Özel ders sesi yüklenemedi.'
-      setError(msg)
+      window.alert(err instanceof Error ? err.message : 'Özel ders sesi yüklenemedi.')
     } finally {
-      setLoading(false)
+      setCustomLoading(false)
     }
   }
 
-  const currentPreset = PRESET_LESSONS.find((p) => p.id === selectedPresetId)
+  const onStudyScreen = route.name === 'study' || route.name === 'custom'
+  const showStudy =
+    onStudyScreen &&
+    !loadingId &&
+    !error &&
+    loaded &&
+    (route.name === 'custom' ? loaded.id === CUSTOM_LESSON_ID : loaded.id === studyBookId)
+  const pdfDocked = showStudy && isPdfOpen && isWide && !!activePdfUrl
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans selection:bg-indigo-500/30 selection:text-indigo-200">
-      {/* Global Navigation Header */}
-      <nav className="border-b border-slate-800 bg-slate-900/50 backdrop-blur sticky top-0 z-40">
-        <div className="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between gap-4">
-          <div className="flex items-center gap-2.5 shrink-0">
-            <div className="w-9 h-9 rounded-xl bg-indigo-600/20 text-indigo-400 border border-indigo-500/30 flex items-center justify-center font-bold">
-              <Headphones className="w-5 h-5" />
-            </div>
-            <div>
-              <span className="font-bold text-lg text-slate-100 tracking-tight">DictaLearn</span>
-              <span className="ml-2 text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded bg-emerald-950 text-emerald-300 border border-emerald-800">
-                Faz 5 • Studio Audio
-              </span>
-            </div>
-          </div>
+    <div className="flex min-h-dvh flex-col bg-zinc-950 text-zinc-100">
+      <nav className="sticky top-0 z-40 h-14 border-b border-white/[0.06] bg-zinc-950/80 backdrop-blur-xl">
+        <div className="mx-auto flex h-full max-w-6xl items-center justify-between gap-4 px-4">
+          <button
+            type="button"
+            onClick={() => navigate({ name: 'library' })}
+            className="flex items-center gap-2.5 cursor-pointer"
+            aria-label="DictaLearn ana sayfa"
+          >
+            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-indigo-500/15 text-indigo-300">
+              <Headphones className="h-4 w-4" />
+            </span>
+            <span className="font-semibold tracking-tight text-zinc-100">DictaLearn</span>
+          </button>
 
-          <div className="flex items-center gap-2.5">
-            {/* Preset Selector */}
-            <div className="flex items-center gap-1.5">
-              <label className="text-xs text-slate-400 hidden md:flex items-center gap-1">
-                <BookOpen className="w-3.5 h-3.5 text-indigo-400" /> Kitap:
-              </label>
-              <select
-                aria-label="Kitap Seçimi"
-                value={selectedPresetId}
-                onChange={(e) => {
-                  const target = PRESET_LESSONS.find((p) => p.id === e.target.value)
-                  if (target) loadPreset(target)
-                }}
-                className="bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg px-2.5 py-1.5 focus:outline-none focus:border-indigo-500 cursor-pointer max-w-[200px] sm:max-w-none truncate"
-              >
-                {PRESET_LESSONS.map((p) => (
-                  <option key={p.id} value={p.id}>
-                    {p.name}
-                  </option>
-                ))}
-                {selectedPresetId === 'custom' && (
-                  <option value="custom">Özel Yüklenen Ders</option>
-                )}
-              </select>
-            </div>
-
-            {currentPreset?.pdfUrl && (
-              <a
-                href={currentPreset.pdfUrl}
-                target="_blank"
-                rel="noreferrer"
-                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 border border-emerald-500/30 text-xs font-medium transition cursor-pointer"
-                title="15 Sayfalık PDF Kitabı Aç"
-              >
-                <FileText className="w-3.5 h-3.5" />
-                <span className="hidden sm:inline">15 Sayfa PDF</span>
-                <span className="sm:hidden">PDF</span>
-              </a>
-            )}
-
-            {/* View Mode Switcher Button */}
-            <button
-              onClick={() => setViewMode(viewMode === 'study' ? 'editor' : 'study')}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-indigo-600/20 hover:bg-indigo-600/30 text-indigo-300 border border-indigo-500/30 text-xs font-medium transition cursor-pointer"
-            >
-              {viewMode === 'study' ? (
-                <>
-                  <Edit3 className="w-3.5 h-3.5" />
-                  <span className="hidden sm:inline">Ders Düzenleyici</span>
-                  <span className="sm:hidden">Düzenleyici</span>
-                </>
-              ) : (
-                <>
-                  <ArrowLeft className="w-3.5 h-3.5" />
-                  <span>Ders Ekranına Dön</span>
-                </>
-              )}
-            </button>
-          </div>
+          {route.name !== 'library' && (
+            <Button size="sm" variant="ghost" onClick={() => navigate({ name: 'library' })}>
+              <Library className="h-4 w-4" />
+              Kütüphane
+            </Button>
+          )}
         </div>
       </nav>
 
-      {/* Main Content Area */}
-      <main className="flex-1 flex flex-col justify-center py-8">
-        {loading && (
-          <div className="max-w-md mx-auto text-center space-y-4 py-16">
-            <div className="w-10 h-10 border-2 border-indigo-500 border-t-transparent rounded-full animate-spin mx-auto" />
-            <p className="text-slate-400 text-sm">Ders ve ses dosyası yükleniyor...</p>
+      <div className={pdfDocked ? 'grid flex-1 grid-cols-[minmax(0,1fr)_minmax(380px,44%)]' : 'flex flex-1 flex-col'}>
+        <main className="flex min-w-0 flex-1 flex-col">
+          {route.name === 'library' && (
+            <LibraryView
+              books={CATALOG}
+              progress={progressMap}
+              lastBookId={lastBookId}
+              uploadedPdfs={uploadedPdfs}
+              onOpenBook={(id) => navigate({ name: 'study', bookId: id })}
+              onOpenUploadedPdf={setViewerPdf}
+              onRemoveUploadedPdf={removeUploadedPdf}
+              onUploadPdf={async (file) => setViewerPdf(await addUploadedPdf(file.name, file))}
+              onOpenEditor={() => navigate({ name: 'editor' })}
+            />
+          )}
+
+          {route.name === 'editor' && (
+            <LessonEditorView
+              audioEngine={audioEngine}
+              initialLesson={loaded?.lesson ?? null}
+              onStartLesson={handleStartCustomLesson}
+              onCancel={() => navigate({ name: 'library' })}
+            />
+          )}
+
+          {onStudyScreen && loadingId && (
+            <div className="mx-auto space-y-4 py-24 text-center" role="status">
+              <div className="mx-auto h-8 w-8 animate-spin rounded-full border-2 border-indigo-400 border-t-transparent" />
+              <p className="text-sm text-zinc-400">Ders ve ses dosyası yükleniyor…</p>
+            </div>
+          )}
+
+          {onStudyScreen && error && (
+            <div className="mx-auto mt-16 max-w-md space-y-3 rounded-2xl border border-rose-400/20 bg-rose-400/[0.05] p-6 text-center">
+              <AlertTriangle className="mx-auto h-7 w-7 text-rose-300" />
+              <h3 className="font-medium text-rose-100">Ders yüklenemedi</h3>
+              <p className="break-words text-xs text-rose-200/70">{error}</p>
+              <div className="flex justify-center gap-2 pt-2">
+                <Button size="sm" variant="ghost" onClick={() => navigate({ name: 'library' })}>
+                  <ArrowLeft className="h-4 w-4" />
+                  Kütüphane
+                </Button>
+                {route.name === 'study' && (
+                  <Button
+                    size="sm"
+                    variant="primary"
+                    onClick={() => {
+                      setLoadError(null)
+                      setRetryKey((k) => k + 1)
+                    }}
+                  >
+                    Yeniden Dene
+                  </Button>
+                )}
+              </div>
+            </div>
+          )}
+
+          {showStudy && loaded && (
+            <StudySessionView
+              key={loaded.id}
+              lesson={loaded.lesson}
+              title={activeBook?.title}
+              audioEngine={audioEngine}
+              mistakeRepository={mistakeRepository}
+              initialSegmentIndex={loaded.startIndex}
+              onProgress={(index) => handleProgress(loaded.id, index, loaded.lesson.segments.length)}
+              onComplete={() => handleComplete(loaded.id, loaded.lesson.segments.length)}
+              onBackToLessons={() => navigate({ name: 'library' })}
+              onOpenPdf={activePdfUrl ? () => setIsPdfOpen((v) => !v) : undefined}
+              isPdfOpen={isPdfOpen}
+            />
+          )}
+        </main>
+
+        {pdfDocked && (
+          <div className="sticky top-14 h-[calc(100dvh-3.5rem)]">
+            <PdfViewerModal
+              variant="docked"
+              isOpen
+              onClose={() => setIsPdfOpen(false)}
+              defaultPdfUrl={activePdfUrl}
+              bookTitle={activeBook?.title}
+            />
           </div>
         )}
+      </div>
 
-        {error && (
-          <div className="max-w-md mx-auto p-6 bg-rose-950/40 border border-rose-800/60 rounded-xl text-center space-y-3">
-            <AlertTriangle className="w-8 h-8 text-rose-400 mx-auto" />
-            <h3 className="font-semibold text-rose-200">Ders Yüklenemedi</h3>
-            <p className="text-xs text-rose-300/80">{error}</p>
-            <button
-              onClick={() => window.location.reload()}
-              className="mt-3 px-4 py-2 bg-rose-600 hover:bg-rose-500 text-white rounded-lg text-xs font-medium transition cursor-pointer"
-            >
-              Yeniden Dene
-            </button>
-          </div>
-        )}
+      {/* Narrow screens: the book PDF opens as a modal instead of a side panel. */}
+      <PdfViewerModal
+        isOpen={!!showStudy && isPdfOpen && !isWide}
+        onClose={() => setIsPdfOpen(false)}
+        defaultPdfUrl={activePdfUrl}
+        bookTitle={activeBook?.title}
+      />
 
-        {!loading && !error && viewMode === 'editor' && (
-          <LessonEditorView
-            audioEngine={audioEngine}
-            initialLesson={lesson}
-            onStartLesson={handleStartCustomLesson}
-            onCancel={() => setViewMode('study')}
-          />
-        )}
+      <PdfViewerModal
+        isOpen={!!viewerPdf}
+        onClose={() => setViewerPdf(null)}
+        defaultPdfUrl={viewerPdf?.pdfUrl}
+        bookTitle={viewerPdf?.name}
+        onPdfUploaded={async (name, file) => setViewerPdf(await addUploadedPdf(name, file))}
+      />
 
-        {!loading && !error && viewMode === 'study' && lesson && (
-          <StudySessionView
-            key={lesson.lesson_id}
-            lesson={lesson}
-            audioEngine={audioEngine}
-            mistakeRepository={mistakeRepository}
-            onBackToLessons={() => setViewMode('editor')}
-          />
-        )}
-      </main>
-
-      {/* Footer */}
-      <footer className="border-t border-slate-900 py-4 text-center text-xs text-slate-600">
-        DictaLearn &bull; Açık Kaynak İngilizce Dikte ve Çeviri Aracı
-      </footer>
+      {route.name === 'library' && (
+        <footer className="border-t border-white/[0.06] py-6 text-center text-xs text-zinc-600">
+          DictaLearn · Açık kaynak İngilizce dikte ve çeviri aracı · Kütüphanedeki klasikler kamu malı eserlerden uyarlanmıştır
+        </footer>
+      )}
     </div>
   )
 }

@@ -2,390 +2,438 @@ import React, { useRef, useEffect, useState, useMemo } from 'react'
 import type { Lesson } from '../domain/lessons/types'
 import type { AudioEngine } from '../domain/audio/audio-engine'
 import type { MistakeRepository } from '../domain/mistakes/types'
-import { useStudySession } from '../state/use-study-session'
+import { useStudySession, type StudyMode } from '../state/use-study-session'
 import { useShortcuts } from '../hooks/use-shortcuts'
+import { useAudioStatus } from '../hooks/use-audio-status'
 import { DiffView } from './DiffView'
+import { Button, Kbd, ProgressBar, Segmented } from './ui'
+import { cx } from './cx'
 import {
   Volume2,
+  VolumeX,
+  Pause,
+  Play,
   ArrowRight,
-  HelpCircle,
+  ArrowLeft,
+  ChevronLeft,
+  ChevronRight,
   Trophy,
   Check,
   Keyboard,
   RotateCcw,
-  Sparkles,
   Eye,
   EyeOff,
-  AlertCircle,
+  Lightbulb,
+  SkipForward,
+  BookOpen,
+  HelpCircle,
+  X,
+  Mic,
+  StickyNote,
+  History,
 } from 'lucide-react'
 
 export interface StudySessionViewProps {
   lesson: Lesson
   audioEngine: AudioEngine
   mistakeRepository?: MistakeRepository
+  initialSegmentIndex?: number
+  onProgress?: (segmentIndex: number) => void
+  onComplete?: () => void
   onBackToLessons?: () => void
+  onOpenPdf?: () => void
+  isPdfOpen?: boolean
+  /** Short display title; defaults to lesson.title. */
+  title?: string
 }
+
+const SPEEDS = [0.75, 1.0, 1.25] as const
+
+function readStored<T>(key: string, parse: (raw: string) => T | undefined, fallback: T): T {
+  try {
+    const raw = localStorage.getItem(key)
+    if (raw !== null) {
+      const parsed = parse(raw)
+      if (parsed !== undefined) return parsed
+    }
+  } catch {
+    // localStorage unavailable (private mode / sandbox)
+  }
+  return fallback
+}
+
+function writeStored(key: string, value: string) {
+  try {
+    localStorage.setItem(key, value)
+  } catch {
+    // ignore storage errors
+  }
+}
+
+/** Listen button that doubles as pause/resume while the segment is playing. */
+const ListenButton: React.FC<{
+  audioEngine: AudioEngine
+  onReplay: () => void
+  label?: string
+  variant?: 'primary' | 'secondary'
+}> = ({ audioEngine, onReplay, label = 'Dinle', variant = 'primary' }) => {
+  const status = useAudioStatus(audioEngine)
+  const playing = status === 'playing'
+  return (
+    <Button
+      variant={variant}
+      onClick={() => (playing ? audioEngine.pause() : onReplay())}
+      title={playing ? 'Duraklat (Ctrl+Space)' : 'Cümleyi baştan dinle (Ctrl+R)'}
+      className={cx(playing && 'ring-2 ring-indigo-300/40')}
+    >
+      {playing ? <Pause className="h-4 w-4" /> : <Volume2 className="h-4 w-4" />}
+      <span>{playing ? 'Duraklat' : label}</span>
+    </Button>
+  )
+}
+
+const Card: React.FC<{ children: React.ReactNode; className?: string; tone?: 'default' | 'amber' | 'indigo' }> = ({
+  children,
+  className,
+  tone = 'default',
+}) => (
+  <div
+    className={cx(
+      'rounded-2xl border p-4 sm:p-6 animate-fade-up',
+      tone === 'default' && 'border-white/[0.08] bg-zinc-900/60',
+      tone === 'amber' && 'border-amber-400/20 bg-amber-400/[0.03]',
+      tone === 'indigo' && 'border-indigo-400/20 bg-indigo-400/[0.04]',
+      className
+    )}
+  >
+    {children}
+  </div>
+)
+
+const Eyebrow: React.FC<{ children: React.ReactNode; className?: string }> = ({ children, className }) => (
+  <p className={cx('text-[11px] font-semibold uppercase tracking-[0.14em] text-zinc-500', className)}>
+    {children}
+  </p>
+)
 
 export const StudySessionView: React.FC<StudySessionViewProps> = ({
   lesson,
   audioEngine,
   mistakeRepository,
+  initialSegmentIndex = 0,
+  onProgress,
+  onComplete,
   onBackToLessons,
+  onOpenPdf,
+  isPdfOpen = false,
+  title,
 }) => {
+  const displayTitle = title ?? lesson.title
+  // Default off: browsers block audio before the first user gesture anyway.
+  const [autoPlay, setAutoPlay] = useState<boolean>(() =>
+    readStored('dictalearn_autoplay', (raw) => raw === 'true', false)
+  )
+  const [speed, setSpeed] = useState<number>(() =>
+    readStored(
+      'dictalearn_audio_speed',
+      (raw) => {
+        const num = parseFloat(raw)
+        return (SPEEDS as readonly number[]).includes(num) ? num : undefined
+      },
+      1.0
+    )
+  )
+  const [showShortcutsModal, setShowShortcutsModal] = useState(false)
+  const [resumeNoticeVisible, setResumeNoticeVisible] = useState(initialSegmentIndex > 0)
+
   const session = useStudySession({
     lesson,
     audioEngine,
-    autoPlay: true,
+    autoPlay,
     mistakeRepository,
+    initialSegmentIndex,
+    onProgress,
+    onComplete,
   })
+  const audioStatus = useAudioStatus(audioEngine)
 
   const textareaRef = useRef<HTMLTextAreaElement>(null)
   const wordInputRef = useRef<HTMLInputElement>(null)
   const correctionInputRef = useRef<HTMLInputElement>(null)
   const nextButtonRef = useRef<HTMLButtonElement>(null)
 
-  const [speed, setSpeed] = useState<number>(() => {
-    try {
-      const saved = localStorage.getItem('dictalearn_audio_speed')
-      if (saved) {
-        const num = parseFloat(saved)
-        if (!isNaN(num) && [0.75, 1.0, 1.25].includes(num)) {
-          return num
-        }
-      }
-    } catch {
-      // localStorage unavailable in some test or strict contexts
-    }
-    return 1.0
-  })
-
-  const [showShortcutsModal, setShowShortcutsModal] = useState(false)
-
-  // Sync audio speed
   useEffect(() => {
     audioEngine.setSpeed(speed)
   }, [speed, audioEngine])
 
   const handleSpeedChange = (newSpeed: number) => {
     setSpeed(newSpeed)
-    try {
-      localStorage.setItem('dictalearn_audio_speed', String(newSpeed))
-    } catch {
-      // Ignore storage errors
-    }
+    writeStored('dictalearn_audio_speed', String(newSpeed))
     audioEngine.setSpeed(newSpeed)
   }
 
-  // Auto-focus management depending on state & study mode
+  const handleToggleAutoPlay = () => {
+    const next = !autoPlay
+    setAutoPlay(next)
+    writeStored('dictalearn_autoplay', String(next))
+  }
+
+  const togglePlayback = () => {
+    const status = audioEngine.getStatus()
+    if (status === 'playing') audioEngine.pause()
+    else if (status === 'paused') audioEngine.resume()
+    else session.replaySegment()
+  }
+
+  // Focus follows the state machine so the whole loop works from the keyboard.
   useEffect(() => {
-    if (session.state === 'dictating') {
-      const t = setTimeout(() => {
-        if (session.studyMode === 'word') {
-          wordInputRef.current?.focus()
-        } else {
-          textareaRef.current?.focus()
-        }
-      }, 50)
-      return () => clearTimeout(t)
-    } else if (session.state === 'reviewing') {
-      const t = setTimeout(() => {
-        correctionInputRef.current?.focus()
-      }, 50)
-      return () => clearTimeout(t)
-    } else if (session.state === 'shadowing') {
-      const t = setTimeout(() => {
-        nextButtonRef.current?.focus()
-      }, 50)
-      return () => clearTimeout(t)
-    }
+    const target =
+      session.state === 'dictating'
+        ? session.studyMode === 'word'
+          ? wordInputRef.current
+          : textareaRef.current
+        : session.state === 'reviewing'
+          ? correctionInputRef.current
+          : session.state === 'shadowing'
+            ? nextButtonRef.current
+            : null
+    if (!target) return
+    const t = setTimeout(() => target.focus(), 50)
+    return () => clearTimeout(t)
   }, [session.state, session.currentSegmentIndex, session.studyMode, session.currentWordIndex])
 
-  // Keyboard shortcuts integration (F1.6, F3.1, F3.2, F6.3)
   useShortcuts({
     onCtrlEnter: () => {
       if (session.state === 'dictating') {
-        if (session.studyMode === 'word') {
-          session.skipWord()
-        } else {
-          session.giveUp()
-        }
+        if (session.studyMode === 'word') session.skipWord()
+        else session.giveUp()
       } else if (session.state === 'reviewing') {
         session.skipCorrection()
       } else if (session.state === 'shadowing') {
         session.nextSegment()
       }
     },
-    onCtrlSpace: () => {
-      audioEngine.pause()
-    },
-    onCtrlR: () => {
-      session.replaySegment()
-    },
+    onCtrlSpace: togglePlayback,
+    onCtrlR: () => session.replaySegment(),
     onCtrlT: () => {
-      if (session.state === 'shadowing' || session.state === 'reviewing') {
-        session.toggleTranslation()
-      }
+      if (session.state === 'shadowing' || session.state === 'reviewing') session.toggleTranslation()
     },
-    onCtrlM: () => {
-      session.toggleStudyMode()
-    },
+    onCtrlM: () => session.toggleStudyMode(),
     onSpeed1: () => handleSpeedChange(0.75),
     onSpeed2: () => handleSpeedChange(1.0),
     onSpeed3: () => handleSpeedChange(1.25),
+    onPageUp: () => session.previousSegment(),
+    onPageDown: () => session.skipSegment(),
+    onF1: () => setShowShortcutsModal((v) => !v),
+    onEscape: showShortcutsModal ? () => setShowShortcutsModal(false) : undefined,
+    onEnter: () => {
+      if (session.state === 'shadowing') session.nextSegment()
+    },
   })
 
-  // Enter inside dictation textarea submits answer (Sentence mode)
   const handleDictationKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
-    if (e.key === 'Enter' && !e.shiftKey && !e.ctrlKey) {
+    if (e.key === 'Enter' && !e.shiftKey && !e.ctrlKey && !e.metaKey) {
       e.preventDefault()
       session.submitAnswer()
     }
   }
 
-  // Enter or Space inside word input submits word (Word-by-word mode)
   const handleWordKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === 'Enter') {
-      e.preventDefault()
-      session.submitWord()
-    } else if (e.key === ' ' && session.typedWord.trim().length > 0) {
+    if (e.ctrlKey || e.metaKey) return
+    if (e.key === 'Enter' || (e.key === ' ' && session.typedWord.trim().length > 0)) {
       e.preventDefault()
       session.submitWord()
     }
   }
 
-  // Enter inside correction input submits correction
   const handleCorrectionKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === 'Enter' && !e.ctrlKey) {
+    if (e.key === 'Enter' && !e.ctrlKey && !e.metaKey) {
       e.preventDefault()
       session.submitCorrection()
     }
   }
 
-  const progressPercent = Math.round(
-    ((session.currentSegmentIndex + (session.state === 'completed' ? 1 : 0)) /
-      session.totalSegments) *
-      100
-  )
+  const isCompleted = session.state === 'completed'
+  const progressPercent =
+    ((session.currentSegmentIndex + (isCompleted ? 1 : 0)) / session.totalSegments) * 100
 
-  // Top mistakes list for completed screen (F3.4)
-  const topMistakes = useMemo(() => {
-    if (!mistakeRepository) return []
-    const frequencies = mistakeRepository.getWordFrequencies()
-    return Object.entries(frequencies)
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, 10)
-  }, [mistakeRepository])
+  // Mistakes of this lesson only, read when the summary is shown.
+  const lessonMistakes = useMemo(() => {
+    if (!isCompleted || !mistakeRepository) return []
+    const counts = new Map<string, number>()
+    for (const m of mistakeRepository.getMistakes()) {
+      if (m.lesson_id !== lesson.lesson_id || !m.word) continue
+      const w = m.word.toLowerCase()
+      counts.set(w, (counts.get(w) ?? 0) + 1)
+    }
+    return [...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 12)
+  }, [isCompleted, mistakeRepository, lesson.lesson_id])
 
-  // Completed State View (F3.4)
-  if (session.state === 'completed') {
-    const totalRecords = session.sessionRecords.length
-    const perfectCount = session.sessionRecords.filter((r) => r.isPerfect).length
+  // ─── Completed ────────────────────────────────────────────────────────────
+  if (isCompleted) {
+    const records = session.sessionRecords
+    const perfectCount = records.filter((r) => r.isPerfect).length
     const avgAccuracy =
-      totalRecords > 0
-        ? Math.round(
-            (session.sessionRecords.reduce((acc, r) => acc + r.accuracy, 0) / totalRecords) * 100
-          )
-        : 100
-    const totalReplays = session.sessionRecords.reduce((acc, r) => acc + r.replayCount, 0)
+      records.length > 0
+        ? Math.round((records.reduce((acc, r) => acc + r.accuracy, 0) / records.length) * 100)
+        : 0
+    const totalReplays = records.reduce((acc, r) => acc + r.replayCount, 0)
 
     return (
-      <div className="max-w-2xl mx-auto w-full p-6 text-center space-y-6 animate-in fade-in duration-300">
-        <div className="w-16 h-16 bg-amber-500/20 text-amber-400 rounded-full flex items-center justify-center mx-auto border border-amber-500/40">
-          <Trophy className="w-8 h-8" />
+      <div className="mx-auto w-full max-w-2xl px-4 py-10 text-center animate-fade-up">
+        <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-amber-400/10 text-amber-300">
+          <Trophy className="h-7 w-7" />
         </div>
-        <h2 className="text-3xl font-bold text-slate-100">Ders Tamamlandı!</h2>
-        <p className="text-slate-400">{lesson.title}</p>
+        <h2 className="font-serif text-3xl text-zinc-50">Ders tamamlandı</h2>
+        <p className="mt-1 text-sm text-zinc-400">{displayTitle}</p>
 
-        <div className="grid grid-cols-3 gap-4 my-8">
-          <div className="bg-slate-800/60 p-4 rounded-xl border border-slate-700">
-            <span className="text-xs text-slate-400 uppercase tracking-wider block">
-              Ortalama Doğruluk
-            </span>
-            <span className="text-2xl font-bold text-emerald-400 mt-1 block">%{avgAccuracy}</span>
-          </div>
-          <div className="bg-slate-800/60 p-4 rounded-xl border border-slate-700">
-            <span className="text-xs text-slate-400 uppercase tracking-wider block">
-              Kusursuz Cümle
-            </span>
-            <span className="text-2xl font-bold text-cyan-400 mt-1 block">
-              {perfectCount} / {session.totalSegments}
-            </span>
-          </div>
-          <div className="bg-slate-800/60 p-4 rounded-xl border border-slate-700">
-            <span className="text-xs text-slate-400 uppercase tracking-wider block">
-              Tekrar Dinleme
-            </span>
-            <span className="text-2xl font-bold text-amber-400 mt-1 block">{totalReplays} kez</span>
-          </div>
-        </div>
+        <dl className="my-8 grid grid-cols-3 gap-3">
+          {[
+            { label: 'Ortalama doğruluk', value: `%${avgAccuracy}`, color: 'text-emerald-300' },
+            { label: 'Kusursuz cümle', value: `${perfectCount} / ${records.length}`, color: 'text-zinc-50' },
+            { label: 'Tekrar dinleme', value: `${totalReplays}`, color: 'text-zinc-50' },
+          ].map((s) => (
+            <div key={s.label} className="rounded-2xl border border-white/[0.08] bg-zinc-900/60 p-4">
+              <dt className="text-[11px] uppercase tracking-wider text-zinc-500">{s.label}</dt>
+              <dd className={cx('mt-1 text-2xl font-semibold tabular-nums', s.color)}>{s.value}</dd>
+            </div>
+          ))}
+        </dl>
 
-        {/* Hata Defteri Özeti (F3.4) */}
-        {topMistakes.length > 0 && (
-          <div className="bg-slate-900/80 border border-slate-800 rounded-xl p-5 text-left space-y-3">
-            <h3 className="text-sm font-semibold text-slate-200 flex items-center gap-2">
-              <AlertCircle className="w-4 h-4 text-amber-400" />
-              <span>Hata Defteri: Tekrar Edilmesi Önerilen Kelimeler</span>
-            </h3>
+        {lessonMistakes.length > 0 && (
+          <div className="rounded-2xl border border-white/[0.08] bg-zinc-900/60 p-5 text-left">
+            <Eyebrow className="mb-3">Hata defteri · tekrar et</Eyebrow>
             <div className="flex flex-wrap gap-2">
-              {topMistakes.map(([word, count]) => (
+              {lessonMistakes.map(([word, count]) => (
                 <span
                   key={word}
-                  className="px-2.5 py-1 bg-rose-950/40 border border-rose-800/50 rounded-lg text-xs text-rose-300 flex items-center gap-1.5"
+                  className="inline-flex items-center gap-1.5 rounded-lg bg-rose-500/10 px-2.5 py-1 text-sm text-rose-200"
                 >
-                  <span className="font-medium">{word}</span>
-                  <span className="bg-rose-900/60 px-1.5 py-0.2 rounded-full text-[10px] text-rose-200">
-                    {count}x
-                  </span>
+                  {word}
+                  <span className="text-[10px] tabular-nums text-rose-300/70">×{count}</span>
                 </span>
               ))}
             </div>
           </div>
         )}
 
-        <div className="flex justify-center gap-4 pt-4">
-          <button
-            onClick={() => window.location.reload()}
-            className="px-6 py-2.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-medium transition cursor-pointer"
-          >
+        <div className="mt-8 flex flex-wrap justify-center gap-3">
+          <Button variant="primary" size="lg" onClick={session.restart}>
+            <RotateCcw className="h-4 w-4" />
             Dersi Tekrar Başlat
-          </button>
+          </Button>
           {onBackToLessons && (
-            <button
-              onClick={onBackToLessons}
-              className="px-6 py-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium transition cursor-pointer"
-            >
-              Dersler Listesi
-            </button>
+            <Button size="lg" onClick={onBackToLessons}>
+              <ArrowLeft className="h-4 w-4" />
+              Kütüphaneye Dön
+            </Button>
           )}
         </div>
       </div>
     )
   }
 
+  const segment = session.currentSegment
+  const isLastSegment = session.currentSegmentIndex >= session.totalSegments - 1
+
   return (
-    <div className="max-w-3xl mx-auto w-full px-4 py-6 space-y-6">
-      {/* Top Header & Navigation */}
-      <header className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-800">
-        <div>
-          <h1 className="text-xl font-bold text-slate-100">{lesson.title}</h1>
-          <p className="text-xs text-slate-400 mt-0.5">
-            Cümle {session.currentSegmentIndex + 1} / {session.totalSegments}
-          </p>
-        </div>
-
-        <div className="flex flex-wrap items-center gap-2.5">
-          {/* Study Mode Selector (Faz 6) */}
-          <div className="flex items-center bg-slate-800/90 p-1 rounded-lg border border-slate-700 text-xs">
-            <button
-              type="button"
-              onClick={() => session.setStudyMode('sentence')}
-              className={`flex items-center gap-1.5 px-3 py-1 rounded transition cursor-pointer ${
-                session.studyMode === 'sentence'
-                  ? 'bg-indigo-600 text-white font-semibold'
-                  : 'text-slate-400 hover:text-slate-200'
-              }`}
-              title="Cümle Cümle Çalışma Modu (Ctrl+M)"
-            >
-              <span>📝 Cümle</span>
-            </button>
-            <button
-              type="button"
-              onClick={() => session.setStudyMode('word')}
-              className={`flex items-center gap-1.5 px-3 py-1 rounded transition cursor-pointer ${
-                session.studyMode === 'word'
-                  ? 'bg-emerald-600 text-white font-semibold'
-                  : 'text-slate-400 hover:text-slate-200'
-              }`}
-              title="Kelime Kelime Çalışma Modu (Ctrl+M)"
-            >
-              <span>🔤 Kelime</span>
-            </button>
+    <div className="mx-auto flex w-full max-w-3xl flex-col gap-5 px-4 pb-6 pt-5 sm:pt-8">
+      {/* ─── Header: title, segment navigation, progress ─────────────────── */}
+      <header className="space-y-3">
+        <div className="flex items-start justify-between gap-3">
+          <div className="min-w-0">
+            <h1 className="truncate font-serif text-xl text-zinc-50 sm:text-2xl">{displayTitle}</h1>
+            <p className="mt-0.5 text-xs text-zinc-500">
+              {session.studyMode === 'word' ? 'Kelime kelime dikte' : 'Cümle dikte'} ·{' '}
+              {session.state === 'dictating'
+                ? 'Dinle ve yaz'
+                : session.state === 'reviewing'
+                  ? 'Düzelt'
+                  : 'Sesli tekrar'}
+            </p>
           </div>
 
-          {/* Audio Speed Controls (F3.5) */}
-          <div className="flex items-center bg-slate-800/80 p-1 rounded-lg border border-slate-700 text-xs">
-            {[0.75, 1.0, 1.25].map((s) => (
-              <button
-                key={s}
-                onClick={() => handleSpeedChange(s)}
-                className={`px-2 py-1 rounded transition cursor-pointer ${
-                  speed === s
-                    ? 'bg-indigo-600 text-white font-semibold'
-                    : 'text-slate-400 hover:text-slate-200'
-                }`}
-                title={`Hız: ${s}x (Ctrl+${s === 0.75 ? 1 : s === 1.0 ? 2 : 3})`}
-              >
-                {s}x
-              </button>
-            ))}
-          </div>
-
-          {/* Shortcuts Help Button */}
-          <button
-            onClick={() => setShowShortcutsModal(!showShortcutsModal)}
-            className="p-2 text-slate-400 hover:text-slate-200 bg-slate-800/80 hover:bg-slate-700 border border-slate-700 rounded-lg transition cursor-pointer"
-            title="Klavye Kısayolları"
-          >
-            <Keyboard className="w-4 h-4" />
-          </button>
+          <nav aria-label="Cümle gezinme" className="flex shrink-0 items-center gap-1">
+            <button
+              type="button"
+              aria-label="Önceki cümle"
+              title="Önceki cümle (PageUp)"
+              onClick={session.previousSegment}
+              disabled={session.currentSegmentIndex === 0}
+              className="flex h-8 w-8 items-center justify-center rounded-lg text-zinc-400 hover:bg-white/5 hover:text-zinc-100 disabled:opacity-30 cursor-pointer"
+            >
+              <ChevronLeft className="h-4 w-4" />
+            </button>
+            <SegmentJump
+              key={session.currentSegmentIndex}
+              current={session.currentSegmentIndex}
+              total={session.totalSegments}
+              onJump={session.goToSegment}
+            />
+            <button
+              type="button"
+              aria-label="İleri atla"
+              title="İleri atla (PageDown)"
+              onClick={session.skipSegment}
+              disabled={isLastSegment}
+              className="flex h-8 w-8 items-center justify-center rounded-lg text-zinc-400 hover:bg-white/5 hover:text-zinc-100 disabled:opacity-30 cursor-pointer"
+            >
+              <ChevronRight className="h-4 w-4" />
+            </button>
+          </nav>
         </div>
+        <ProgressBar value={progressPercent} label="Ders ilerlemesi" />
       </header>
 
-      {/* Progress Bar */}
-      <div className="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden">
-        <div
-          className="bg-indigo-500 h-full transition-all duration-300"
-          style={{ width: `${progressPercent}%` }}
-        />
-      </div>
-
-      {/* Audio Playback Controls Bar */}
-      <div className="flex items-center justify-between bg-slate-900/60 border border-slate-800 p-3 rounded-xl">
-        <div className="flex items-center gap-3">
-          <button
-            onClick={session.replaySegment}
-            className="flex items-center gap-2 px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg font-medium text-sm transition shadow-sm cursor-pointer"
-            title="Cümleyi Dinle / Baştan Çal (Ctrl+R)"
-          >
-            <Volume2 className="w-4 h-4" />
-            <span>Tekrar Dinle</span>
-          </button>
-          {session.replayCount > 0 && (
-            <span className="text-xs text-slate-400">({session.replayCount} kez dinlendi)</span>
-          )}
-        </div>
-
-        <div className="text-xs text-slate-400 flex items-center gap-1.5">
-          <span
-            className={`w-2 h-2 rounded-full inline-block animate-pulse ${
-              session.state === 'dictating'
-                ? session.studyMode === 'word'
-                  ? 'bg-emerald-400'
-                  : 'bg-emerald-500'
-                : session.state === 'reviewing'
-                ? 'bg-amber-500'
-                : 'bg-indigo-500'
-            }`}
-          />
-          <span>
-            {session.state === 'dictating'
-              ? session.studyMode === 'word'
-                ? 'Kelime Kelime Dikte'
-                : 'Cümle Dikte Modu'
-              : session.state === 'reviewing'
-              ? 'Düzeltme Modu'
-              : 'Shadowing Modu'}
+      {resumeNoticeVisible && (
+        <div className="flex items-center justify-between gap-3 rounded-xl border border-indigo-400/20 bg-indigo-400/[0.06] px-4 py-2.5 text-sm text-indigo-100 animate-fade-up">
+          <span className="flex items-center gap-2">
+            <History className="h-4 w-4 text-indigo-300" />
+            Kaldığın yerden devam ediyorsun.
+          </span>
+          <span className="flex items-center gap-1">
+            <Button
+              size="sm"
+              variant="ghost"
+              onClick={() => {
+                session.restart()
+                setResumeNoticeVisible(false)
+              }}
+            >
+              Baştan başla
+            </Button>
+            <button
+              type="button"
+              aria-label="Bildirimi kapat"
+              onClick={() => setResumeNoticeVisible(false)}
+              className="rounded-md p-1 text-indigo-200/70 hover:text-white cursor-pointer"
+            >
+              <X className="h-4 w-4" />
+            </button>
           </span>
         </div>
-      </div>
+      )}
 
-      {/* MAIN STUDY AREA */}
-      <div className="space-y-4">
-        {/* 1. DICTATING STATE */}
+      {audioStatus === 'blocked' && (
+        <div className="rounded-xl border border-amber-400/20 bg-amber-400/[0.06] px-4 py-2.5 text-sm text-amber-100">
+          Tarayıcı otomatik oynatmayı engelledi. Sesi başlatmak için <strong>Dinle</strong>&apos;ye bas.
+        </div>
+      )}
+
+      {/* ─── Stage ───────────────────────────────────────────────────────── */}
+      <main className="flex flex-col gap-4">
+        {/* 1. Dictating · sentence */}
         {session.state === 'dictating' && session.studyMode === 'sentence' && (
-          <div className="space-y-3 animate-in fade-in duration-150">
-            <label htmlFor="dictation-input" className="block text-sm font-medium text-slate-300">
-              Duyduğunuz cümleyi yazın:
+          <Card key={`dict-${session.currentSegmentIndex}`}>
+            <div className="mb-4 flex items-center justify-between gap-3">
+              <ListenButton audioEngine={audioEngine} onReplay={session.replaySegment} />
+              <span className="text-xs text-zinc-500">
+                {session.replayCount > 0 ? `${session.replayCount} kez dinlendi` : 'Sesi dinle, duyduğunu yaz'}
+              </span>
+            </div>
+
+            <label htmlFor="dictation-input" className="sr-only">
+              Duyduğunuz cümleyi yazın
             </label>
             <textarea
               id="dictation-input"
@@ -393,455 +441,416 @@ export const StudySessionView: React.FC<StudySessionViewProps> = ({
               value={session.typedText}
               onChange={(e) => session.setTypedText(e.target.value)}
               onKeyDown={handleDictationKeyDown}
+              inputMode="text"
               autoComplete="off"
               autoCorrect="off"
               autoCapitalize="off"
               spellCheck={false}
               rows={3}
-              placeholder="Duyduğunuz cümleyi buraya yazın ve Enter'a basın..."
-              className="w-full bg-slate-900 border border-slate-700 rounded-xl p-4 text-lg text-slate-100 placeholder-slate-500 focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/30 transition resize-none font-sans"
+              placeholder="Duyduğun cümleyi buraya yaz…"
+              className="w-full resize-none rounded-xl border border-white/10 bg-black/30 p-4 font-serif text-xl leading-relaxed text-zinc-50 placeholder:font-sans placeholder:text-base placeholder:text-zinc-600 focus:border-indigo-400/60 focus:outline-none focus:ring-4 focus:ring-indigo-400/10"
             />
 
-            <div className="flex items-center justify-between pt-2">
-              <button
-                type="button"
-                onClick={session.giveUp}
-                className="flex items-center gap-1.5 text-xs text-slate-400 hover:text-amber-400 transition py-1.5 px-3 rounded hover:bg-slate-800 cursor-pointer"
-                title="Bilmiyorum, cevabı göster (Ctrl+Enter)"
-              >
-                <HelpCircle className="w-3.5 h-3.5" />
-                <span>Bilmiyorum / Göster (Ctrl+Enter)</span>
-              </button>
-
-              <button
-                type="button"
-                onClick={() => session.submitAnswer()}
-                disabled={!session.typedText.trim()}
-                className="flex items-center gap-2 px-5 py-2.5 bg-emerald-600 hover:bg-emerald-500 disabled:opacity-40 disabled:hover:bg-emerald-600 text-white rounded-lg font-medium text-sm transition shadow-sm cursor-pointer"
-              >
-                <Check className="w-4 h-4" />
-                <span>Kontrol Et (Enter)</span>
-              </button>
+            <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
+              <Button variant="ghost" onClick={session.giveUp} title="Bilmiyorum, cevabı göster (Ctrl+Enter)">
+                <HelpCircle className="h-4 w-4" />
+                Bilmiyorum / Göster
+              </Button>
+              <Button variant="primary" size="lg" onClick={() => session.submitAnswer()} disabled={!session.typedText.trim()}>
+                <Check className="h-4 w-4" />
+                Kontrol Et
+                <Kbd className="border-white/20 bg-white/10 text-indigo-100">Enter</Kbd>
+              </Button>
             </div>
-          </div>
+          </Card>
         )}
 
-        {/* 1.B WORD-BY-WORD DICTATING STATE (Faz 6) */}
+        {/* 1b. Dictating · word by word */}
         {session.state === 'dictating' && session.studyMode === 'word' && (
-          <div className="space-y-4 animate-in fade-in duration-150">
-            {/* Word Slots Card */}
-            <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-5 space-y-4 shadow-sm">
-              <div className="flex items-center justify-between text-xs text-slate-400 pb-2 border-b border-slate-800">
-                <div className="flex items-center gap-2">
-                  <span className="font-semibold text-emerald-400 uppercase tracking-wider">
-                    Kelime İlerlemesi:
-                  </span>
-                  <span className="bg-slate-800 px-2.5 py-0.5 rounded-full text-slate-300 font-medium">
-                    {session.currentWordIndex + 1} / {session.targetWords.length}
-                  </span>
-                </div>
-                <span className="text-slate-400">Kontrol: Boşluk veya Enter</span>
+          <Card key={`word-${session.currentSegmentIndex}`}>
+            <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
+              <span className="text-xs text-zinc-400">
+                Kelime İlerlemesi:{' '}
+                <span className="tabular-nums text-zinc-200">
+                  {session.currentWordIndex + 1} / {session.targetWords.length}
+                </span>
+              </span>
+              <div className="flex flex-wrap items-center gap-2">
+                <ListenButton
+                  audioEngine={audioEngine}
+                  onReplay={session.replaySegment}
+                  label="Cümleyi Dinle"
+                  variant="secondary"
+                />
+                <Button size="sm" variant="ghost" onClick={session.toggleAutoSpeakWord} title="Yeni kelimeye geçince otomatik seslendir">
+                  {session.autoSpeakWord ? <Volume2 className="h-3.5 w-3.5" /> : <VolumeX className="h-3.5 w-3.5" />}
+                  Oto-Oku: {session.autoSpeakWord ? 'Açık' : 'Kapalı'}
+                </Button>
               </div>
+            </div>
 
-              {/* Word Pills (Anti-cheat compliant: future words masked) */}
-              <div className="flex flex-wrap gap-2.5 items-center min-h-[50px] p-1">
-                {session.targetWords.map((token, idx) => {
-                  const isPassed = idx < session.currentWordIndex
-                  const isCurrent = idx === session.currentWordIndex
-
-                  if (isPassed) {
-                    return (
-                      <span
-                        key={idx}
-                        className="px-3.5 py-1.5 bg-emerald-950/70 border border-emerald-500/50 text-emerald-300 font-semibold rounded-xl text-base sm:text-lg shadow-sm animate-in zoom-in-95 duration-150"
-                      >
-                        {token.raw}
-                      </span>
-                    )
-                  }
-
-                  if (isCurrent) {
-                    return (
-                      <div
-                        key={idx}
-                        className={`px-4 py-1.5 rounded-xl text-base sm:text-lg font-bold border-2 transition ${
-                          session.wordFeedback === 'incorrect'
-                            ? 'bg-rose-950/70 border-rose-500 text-rose-200 animate-pulse'
-                            : 'bg-emerald-950/80 border-emerald-400 text-emerald-200 shadow-md shadow-emerald-950/40 ring-2 ring-emerald-500/30'
-                        }`}
-                      >
-                        <span>[{idx + 1}. Kelime]</span>
-                        {token.punctuation && <span className="ml-0.5">{token.punctuation}</span>}
-                      </div>
-                    )
-                  }
-
-                  // Future word slot: masked
+            {/* Future words are masked: only solved words reach the DOM. */}
+            <div className="mb-5 flex min-h-[48px] flex-wrap items-center gap-2 font-serif text-lg">
+              {session.targetWords.map((token, idx) => {
+                if (idx < session.currentWordIndex) {
+                  return (
+                    <button
+                      type="button"
+                      key={idx}
+                      onClick={() => session.speakWord(token.clean)}
+                      className="rounded-lg bg-emerald-500/10 px-2.5 py-1 text-emerald-200 hover:bg-emerald-500/20 cursor-pointer"
+                      title="Dinlemek için tıkla"
+                    >
+                      {token.raw}
+                    </button>
+                  )
+                }
+                if (idx === session.currentWordIndex) {
                   return (
                     <span
                       key={idx}
-                      className="px-3 py-1.5 bg-slate-950/60 border border-slate-800 text-slate-600 rounded-xl text-sm font-mono tracking-widest select-none"
+                      className={cx(
+                        'rounded-lg border-2 px-2.5 py-0.5 font-sans text-sm font-semibold',
+                        session.wordFeedback === 'incorrect'
+                          ? 'border-rose-400/70 text-rose-200 animate-shake'
+                          : 'border-indigo-400/70 text-indigo-100'
+                      )}
                     >
-                      ••••
+                      [{idx + 1}. Kelime]
+                      {token.punctuation && <span className="ml-0.5">{token.punctuation}</span>}
                     </span>
                   )
-                })}
-              </div>
+                }
+                return (
+                  <span
+                    key={idx}
+                    aria-hidden="true"
+                    className="select-none rounded-lg bg-white/[0.04] px-2.5 py-1 font-mono text-sm tracking-widest text-zinc-700"
+                  >
+                    ••••
+                  </span>
+                )
+              })}
             </div>
 
-            {/* Word Input & Actions Card */}
-            <div className="bg-slate-900/80 border border-slate-700/80 rounded-2xl p-5 space-y-4 shadow-sm">
-              <div className="space-y-2">
-                <label htmlFor="word-input" className="block text-sm font-medium text-slate-300">
-                  {session.currentWordIndex + 1}. kelimeyi yazın:
-                </label>
+            <label htmlFor="word-input" className="mb-1.5 block text-xs text-zinc-400">
+              {session.currentWordIndex + 1}. kelimeyi yazın
+              <span className="text-zinc-600"> · Boşluk veya Enter ile kontrol</span>
+            </label>
+            <input
+              id="word-input"
+              ref={wordInputRef}
+              type="text"
+              inputMode="text"
+              enterKeyHint="go"
+              value={session.typedWord}
+              onChange={(e) => session.setTypedWord(e.target.value)}
+              onKeyDown={handleWordKeyDown}
+              autoComplete="off"
+              autoCorrect="off"
+              autoCapitalize="none"
+              spellCheck={false}
+              placeholder="Kelimeyi buraya yazın…"
+              className={cx(
+                'h-14 w-full rounded-xl border bg-black/30 px-4 font-serif text-2xl text-zinc-50 placeholder:font-sans placeholder:text-base placeholder:text-zinc-600 focus:outline-none focus:ring-4',
+                session.wordFeedback === 'incorrect'
+                  ? 'border-rose-400/60 focus:ring-rose-400/10'
+                  : 'border-white/10 focus:border-indigo-400/60 focus:ring-indigo-400/10'
+              )}
+            />
+            {session.wordFeedback === 'incorrect' && session.currentWord && (
+              <p className="mt-2 text-xs text-rose-300">
+                Yanlış kelime, tekrar dene. İpucu: “{session.currentWord.clean.charAt(0).toUpperCase()}” ile
+                başlıyor, {session.currentWord.clean.length} harf.
+              </p>
+            )}
 
-                <div className="relative">
-                  <input
-                    id="word-input"
-                    ref={wordInputRef}
-                    type="text"
-                    value={session.typedWord}
-                    onChange={(e) => session.setTypedWord(e.target.value)}
-                    onKeyDown={handleWordKeyDown}
-                    autoComplete="off"
-                    autoCorrect="off"
-                    autoCapitalize="off"
-                    spellCheck={false}
-                    placeholder="Kelimeyi buraya yazın ve Boşluk veya Enter'a basın..."
-                    className={`w-full bg-slate-950 border-2 rounded-xl p-4 text-xl font-medium text-slate-100 placeholder-slate-500 focus:outline-none transition ${
-                      session.wordFeedback === 'incorrect'
-                        ? 'border-rose-500 ring-2 ring-rose-500/30'
-                        : 'border-slate-700 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/30'
-                    }`}
-                  />
-
-                  {session.wordFeedback === 'incorrect' && (
-                    <div className="mt-2 text-xs text-rose-400 font-medium flex flex-wrap items-center justify-between gap-2">
-                      <span>Yanlış kelime, lütfen tekrar deneyin veya ipucu alın!</span>
-                      {session.currentWord && (
-                        <span className="text-amber-300 bg-amber-950/50 px-2.5 py-1 rounded-md border border-amber-900/60">
-                          İpucu: İlk harf &quot;{session.currentWord.clean.charAt(0).toUpperCase()}&quot; ({session.currentWord.clean.length} harf)
-                        </span>
-                      )}
-                    </div>
-                  )}
-                </div>
-              </div>
-
-              <div className="flex flex-wrap items-center justify-between gap-3 pt-1">
-                <div className="flex items-center gap-2">
-                  <button
-                    type="button"
-                    onClick={session.skipWord}
-                    className="flex items-center gap-1.5 text-xs text-slate-400 hover:text-amber-300 transition py-2 px-3 rounded-lg hover:bg-slate-800 border border-transparent hover:border-slate-700 cursor-pointer"
-                    title="Bu kelimeyi pas geç ve doğru halini gör (Ctrl+Enter)"
-                  >
-                    <HelpCircle className="w-3.5 h-3.5 text-amber-400" />
-                    <span>Bu Kelimeyi Atla (Ctrl+Enter)</span>
-                  </button>
-
-                  <button
-                    type="button"
-                    onClick={session.giveUp}
-                    className="text-xs text-slate-500 hover:text-slate-400 transition py-2 px-2.5 rounded hover:bg-slate-800 cursor-pointer"
-                    title="Tüm cümleyi göster"
-                  >
-                    Tüm Cümleyi Göster
-                  </button>
-                </div>
-
-                <button
-                  type="button"
-                  onClick={() => session.submitWord()}
-                  disabled={!session.typedWord.trim()}
-                  className="flex items-center gap-2 px-6 py-2.5 bg-emerald-600 hover:bg-emerald-500 disabled:opacity-40 disabled:hover:bg-emerald-600 text-white rounded-xl font-medium text-sm transition shadow-sm cursor-pointer"
-                >
-                  <Check className="w-4 h-4" />
-                  <span>Kontrol Et (Enter / Boşluk)</span>
-                </button>
-              </div>
+            <div className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-4">
+              <Button variant="primary" onClick={() => session.submitWord()} disabled={!session.typedWord.trim()} className="col-span-2 sm:col-span-1">
+                <Check className="h-4 w-4" />
+                Kontrol Et
+              </Button>
+              <Button onClick={session.giveLetterHint} title="Sonraki harfi yaz">
+                <Lightbulb className="h-4 w-4 text-amber-300" />
+                Harf İpucu Al
+              </Button>
+              <Button onClick={session.speakCurrentWord} title="Kelimeyi seslendir">
+                <Volume2 className="h-4 w-4" />
+                Kelimeyi Oku
+              </Button>
+              <Button variant="ghost" onClick={session.skipWord} title="Kelimeyi atla ve doğrusunu gör (Ctrl+Enter)" className="col-span-2 sm:col-span-1">
+                <SkipForward className="h-4 w-4" />
+                Bu Kelimeyi Atla
+              </Button>
             </div>
-          </div>
+            <div className="mt-3 text-right">
+              <Button size="sm" variant="ghost" onClick={session.giveUp}>
+                Tüm cümleyi göster
+              </Button>
+            </div>
+          </Card>
         )}
 
-        {/* 2. REVIEWING STATE: Diff View, Original Text, Translation & Correction Input (F3.1) */}
+        {/* 2. Reviewing: diff + original + correction */}
         {session.state === 'reviewing' && session.diffResult && (
-          <div className="space-y-5 animate-in fade-in duration-200">
-            {/* Diff Result */}
+          <>
             <DiffView diff={session.diffResult} />
 
-            {/* Original Sentence & Translation Card */}
-            <div className="bg-slate-900/90 border border-slate-700/70 rounded-xl p-5 space-y-3">
-              <div className="space-y-1">
-                <span className="text-xs uppercase font-semibold text-slate-400 tracking-wider">
-                  Orijinal Metin:
-                </span>
-                <p className="text-lg font-semibold text-slate-100 select-text">
-                  {session.currentSegment.text}
-                </p>
+            <Card>
+              <div className="mb-2 flex items-center justify-between gap-3">
+                <Eyebrow>Orijinal</Eyebrow>
+                <ListenButton audioEngine={audioEngine} onReplay={session.replaySegment} variant="secondary" />
               </div>
+              <p className="select-text font-serif text-xl leading-relaxed text-zinc-50 sm:text-2xl">{segment.text}</p>
+              {segment.translation && <p className="mt-3 text-sm leading-relaxed text-zinc-400">{segment.translation}</p>}
+              {segment.notes && <SegmentNote text={segment.notes} />}
+            </Card>
 
-              {session.currentSegment.translation && (
-                <div className="pt-2 border-t border-slate-800 space-y-1">
-                  <span className="text-xs uppercase font-semibold text-slate-400 tracking-wider">
-                    Çeviri:
-                  </span>
-                  <p className="text-base text-slate-300">
-                    {session.currentSegment.translation}
-                  </p>
-                </div>
-              )}
-
-              {session.currentSegment.notes && (
-                <div className="pt-2 border-t border-slate-800 text-xs text-amber-300/90 bg-amber-950/30 p-2.5 rounded-lg border border-amber-900/40">
-                  <span className="font-semibold block">Not:</span>
-                  {session.currentSegment.notes}
-                </div>
-              )}
-            </div>
-
-            {/* Correction Form (F3.1) */}
-            <div className="bg-slate-900/80 border border-amber-500/30 rounded-xl p-5 space-y-3 shadow-sm">
-              <div className="flex items-center justify-between">
-                <label
-                  htmlFor="correction-input"
-                  className="text-sm font-semibold text-amber-300 flex items-center gap-2"
-                >
-                  <RotateCcw className="w-4 h-4 text-amber-400" />
-                  <span>Cümleyi düzelterek yeniden yazın:</span>
-                </label>
-                <span className="text-xs text-slate-400">Atlamak için: Ctrl+Enter</span>
-              </div>
-
+            <Card tone="amber">
+              <label htmlFor="correction-input" className="mb-2 flex items-center gap-2 text-sm font-medium text-amber-200">
+                <RotateCcw className="h-4 w-4" />
+                Cümleyi düzelterek yeniden yazın
+              </label>
               <input
                 id="correction-input"
                 ref={correctionInputRef}
                 type="text"
+                inputMode="text"
+                enterKeyHint="done"
                 value={session.correctionText}
                 onChange={(e) => session.setCorrectionText(e.target.value)}
                 onKeyDown={handleCorrectionKeyDown}
                 autoComplete="off"
                 autoCorrect="off"
+                autoCapitalize="off"
                 spellCheck={false}
-                placeholder="Doğru cümleyi buraya yazın ve Enter'a basın..."
-                className="w-full bg-slate-950 border border-slate-700 rounded-lg p-3 text-slate-100 placeholder-slate-500 focus:outline-none focus:border-amber-500 focus:ring-2 focus:ring-amber-500/30 transition text-base"
+                placeholder="Doğru cümleyi buraya yazın ve Enter'a basın…"
+                className="h-12 w-full rounded-xl border border-white/10 bg-black/30 px-4 font-serif text-lg text-zinc-50 placeholder:font-sans placeholder:text-sm placeholder:text-zinc-600 focus:border-amber-300/60 focus:outline-none focus:ring-4 focus:ring-amber-300/10"
               />
-
-              {/* Real-time correction diff feedback if attempted */}
               {session.correctionDiff && !session.correctionDiff.isPerfect && (
-                <div className="pt-2 space-y-1.5">
-                  <p className="text-xs text-rose-400 font-medium">
-                    Düzeltmenizde hala eksik veya yanlış kelimeler var:
-                  </p>
-                  <DiffView diff={session.correctionDiff} />
+                <div className="mt-3 space-y-2">
+                  <p className="text-xs text-rose-300">Hâlâ eksik ya da yanlış kelimeler var:</p>
+                  <DiffView diff={session.correctionDiff} compact />
                 </div>
               )}
-
-              <div className="flex items-center justify-between pt-2">
-                <button
-                  type="button"
-                  onClick={session.skipCorrection}
-                  className="text-xs text-slate-400 hover:text-slate-200 py-1.5 px-3 rounded hover:bg-slate-800 transition cursor-pointer"
-                  title="Düzeltmeyi geçip doğrudan Shadowing'e ilerle (Ctrl+Enter)"
-                >
-                  Düzeltmeyi Atla (Ctrl+Enter)
-                </button>
-
-                <button
-                  type="button"
-                  onClick={() => session.submitCorrection()}
-                  disabled={!session.correctionText.trim()}
-                  className="flex items-center gap-2 px-4 py-2 bg-amber-600 hover:bg-amber-500 disabled:opacity-40 disabled:hover:bg-amber-600 text-white rounded-lg font-medium text-xs transition shadow-sm cursor-pointer"
-                >
-                  <Check className="w-3.5 h-3.5" />
-                  <span>Düzeltmeyi Kontrol Et (Enter)</span>
-                </button>
+              <div className="mt-4 flex flex-wrap items-center justify-between gap-2">
+                <Button variant="ghost" onClick={session.skipCorrection} title="Düzeltmeyi atla (Ctrl+Enter)">
+                  Düzeltmeyi atla <Kbd>Ctrl+Enter</Kbd>
+                </Button>
+                <Button variant="warning" onClick={() => session.submitCorrection()} disabled={!session.correctionText.trim()}>
+                  <Check className="h-4 w-4" />
+                  Düzeltmeyi Kontrol Et
+                </Button>
               </div>
-            </div>
-          </div>
+            </Card>
+          </>
         )}
 
-        {/* 3. SHADOWING STATE: Audio Replay, Original Text, Translation Toggle & Next Segment (F3.2) */}
+        {/* 3. Shadowing */}
         {session.state === 'shadowing' && (
-          <div className="space-y-5 animate-in fade-in duration-200">
-            {/* Diff Result (Shows 100% or user's score) */}
-            {session.diffResult && <DiffView diff={session.diffResult} />}
+          <>
+            {session.diffResult && <DiffView diff={session.diffResult} compact />}
 
-            {/* Shadowing Card */}
-            <div className="bg-slate-900 border border-indigo-500/40 rounded-xl p-6 space-y-4 shadow-lg shadow-indigo-950/20">
-              <div className="flex items-center justify-between border-b border-slate-800 pb-3">
-                <div className="flex items-center gap-2 text-indigo-400 font-semibold text-sm">
-                  <Sparkles className="w-4 h-4" />
-                  <span>Shadowing / Sesli Tekrar Modu</span>
-                </div>
-
-                {/* Translation Toggle Button (F3.2) */}
-                <button
-                  type="button"
-                  onClick={session.toggleTranslation}
-                  className="flex items-center gap-1.5 text-xs text-slate-300 hover:text-white px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 border border-slate-700 transition cursor-pointer"
-                  title="Çeviriyi Aç / Kapat (Ctrl+T)"
-                >
-                  {session.showTranslation ? (
-                    <EyeOff className="w-3.5 h-3.5 text-slate-400" />
-                  ) : (
-                    <Eye className="w-3.5 h-3.5 text-indigo-400" />
-                  )}
-                  <span>{session.showTranslation ? 'Çeviriyi Gizle' : 'Çeviriyi Göster'}</span>
-                  <kbd className="ml-1 text-[10px] bg-slate-900 px-1 py-0.5 rounded border border-slate-700 text-slate-400 font-mono">
-                    Ctrl+T
-                  </kbd>
-                </button>
+            <Card tone="indigo">
+              <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
+                <Eyebrow className="flex items-center gap-1.5 text-indigo-300/80">
+                  <Mic className="h-3.5 w-3.5" /> Shadowing / Sesli Tekrar
+                </Eyebrow>
+                <Button size="sm" variant="ghost" onClick={session.toggleTranslation} title="Çeviriyi aç / kapat (Ctrl+T)">
+                  {session.showTranslation ? <EyeOff className="h-3.5 w-3.5" /> : <Eye className="h-3.5 w-3.5" />}
+                  {session.showTranslation ? 'Çeviriyi Gizle' : 'Çeviriyi Göster'}
+                </Button>
               </div>
 
-              {/* Original Sentence Display */}
-              <div className="space-y-1.5">
-                <span className="text-xs uppercase font-semibold text-slate-400 tracking-wider">
-                  Orijinal Cümle:
-                </span>
-                <p className="text-xl sm:text-2xl font-bold text-slate-100 tracking-wide select-text leading-relaxed">
-                  {session.currentSegment.text}
-                </p>
-              </div>
+              <p className="select-text font-serif text-2xl leading-relaxed text-zinc-50 sm:text-3xl">{segment.text}</p>
 
-              {/* Audio Listen & Shadow Callout */}
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pt-2 bg-slate-950/60 p-3 rounded-lg border border-slate-800">
-                <div className="text-xs text-slate-300">
-                  <span className="font-semibold text-indigo-300 block">Nasıl Çalışmalı?</span>
-                  Cümleyi dinleyin, konuşmacının telaffuz ve tonlamasını taklit ederek sesli tekrar
-                  edin.
-                </div>
-                <button
-                  type="button"
-                  onClick={session.replaySegment}
-                  className="flex items-center justify-center gap-2 px-3.5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-medium transition cursor-pointer shrink-0"
-                  title="Sesli tekrar için cümleyi dinle (Ctrl+R)"
-                >
-                  <Volume2 className="w-4 h-4" />
-                  <span>Dinle (Ctrl+R)</span>
-                </button>
-              </div>
-
-              {/* Translation Display (Toggleable via Ctrl+T) */}
-              {session.showTranslation && session.currentSegment.translation && (
-                <div className="pt-3 border-t border-slate-800 space-y-1 animate-in fade-in duration-150">
-                  <span className="text-xs uppercase font-semibold text-indigo-300 tracking-wider">
-                    Türkçe Çeviri:
-                  </span>
-                  <p className="text-base text-slate-200">{session.currentSegment.translation}</p>
-                </div>
+              {session.showTranslation && segment.translation && (
+                <p className="mt-3 text-base leading-relaxed text-indigo-100/80 animate-fade-up">{segment.translation}</p>
               )}
+              {segment.notes && <SegmentNote text={segment.notes} />}
 
-              {/* Segment Notes */}
-              {session.currentSegment.notes && (
-                <div className="pt-2 border-t border-slate-800 text-xs text-amber-300/90 bg-amber-950/30 p-2.5 rounded-lg border border-amber-900/40">
-                  <span className="font-semibold block">Not:</span>
-                  {session.currentSegment.notes}
-                </div>
-              )}
-            </div>
+              <div className="mt-5 flex flex-wrap items-center gap-3 border-t border-white/[0.06] pt-4">
+                <ListenButton audioEngine={audioEngine} onReplay={session.replaySegment} variant="secondary" />
+                <p className="text-xs text-zinc-400">Dinle, konuşmacının ritmini ve tonlamasını taklit ederek yüksek sesle tekrar et.</p>
+              </div>
+            </Card>
 
-            {/* Next Segment Button */}
-            <div className="flex justify-end pt-2">
-              <button
-                ref={nextButtonRef}
-                onClick={session.nextSegment}
-                className="flex items-center gap-2 px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg font-medium text-sm transition shadow-sm cursor-pointer"
-                autoFocus
-              >
-                <span>
-                  {session.currentSegmentIndex >= session.totalSegments - 1
-                    ? 'Dersi Bitir'
-                    : 'Sonraki Cümle'}
-                </span>
-                <ArrowRight className="w-4 h-4" />
-                <kbd className="ml-1 text-xs bg-indigo-800/80 px-1.5 py-0.5 rounded border border-indigo-700">
-                  Enter
-                </kbd>
-              </button>
+            <div className="flex justify-end">
+              <Button ref={nextButtonRef} variant="primary" size="lg" onClick={session.nextSegment}>
+                {isLastSegment ? 'Dersi Bitir' : 'Sonraki Cümle'}
+                <ArrowRight className="h-4 w-4" />
+                <Kbd className="border-white/20 bg-white/10 text-indigo-100">Enter</Kbd>
+              </Button>
             </div>
-          </div>
+          </>
         )}
-      </div>
+      </main>
 
-      {/* Keyboard Shortcuts Cheatsheet Modal */}
-      {showShortcutsModal && (
-        <div className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 z-50">
-          <div className="bg-slate-900 border border-slate-700 rounded-2xl max-w-md w-full p-6 space-y-4 shadow-2xl">
-            <div className="flex items-center justify-between pb-3 border-b border-slate-800">
-              <h3 className="font-semibold text-lg text-slate-100 flex items-center gap-2">
-                <Keyboard className="w-5 h-5 text-indigo-400" />
-                <span>Klavye Kısayolları</span>
-              </h3>
-              <button
-                onClick={() => setShowShortcutsModal(false)}
-                className="text-slate-400 hover:text-slate-200 cursor-pointer"
-              >
-                ✕
-              </button>
-            </div>
-
-            <div className="space-y-2 text-sm">
-              <div className="flex justify-between py-1.5 border-b border-slate-800/60">
-                <span className="text-slate-400">Kontrol Et / Düzelt / Sonraki Cümle</span>
-                <kbd className="px-2 py-0.5 bg-slate-800 rounded border border-slate-700 text-slate-200 font-mono text-xs">
-                  Enter
-                </kbd>
-              </div>
-              <div className="flex justify-between py-1.5 border-b border-slate-800/60">
-                <span className="text-slate-400">Pes Et / Düzeltmeyi Atla</span>
-                <kbd className="px-2 py-0.5 bg-slate-800 rounded border border-slate-700 text-slate-200 font-mono text-xs">
-                  Ctrl + Enter
-                </kbd>
-              </div>
-              <div className="flex justify-between py-1.5 border-b border-slate-800/60">
-                <span className="text-slate-400">Segmenti Baştan Dinle</span>
-                <kbd className="px-2 py-0.5 bg-slate-800 rounded border border-slate-700 text-slate-200 font-mono text-xs">
-                  Ctrl + R
-                </kbd>
-              </div>
-              <div className="flex justify-between py-1.5 border-b border-slate-800/60">
-                <span className="text-slate-400">Çeviriyi Aç / Kapat</span>
-                <kbd className="px-2 py-0.5 bg-slate-800 rounded border border-slate-700 text-slate-200 font-mono text-xs">
-                  Ctrl + T
-                </kbd>
-              </div>
-              <div className="flex justify-between py-1.5 border-b border-slate-800/60">
-                <span className="text-slate-400">Sesi Duraklat / Devam Et</span>
-                <kbd className="px-2 py-0.5 bg-slate-800 rounded border border-slate-700 text-slate-200 font-mono text-xs">
-                  Ctrl + Space
-                </kbd>
-              </div>
-              <div className="flex justify-between py-1.5 border-b border-slate-800/60">
-                <span className="text-slate-400">Çalışma Modu Değiştir (Cümle / Kelime)</span>
-                <kbd className="px-2 py-0.5 bg-slate-800 rounded border border-slate-700 text-slate-200 font-mono text-xs">
-                  Ctrl + M
-                </kbd>
-              </div>
-              <div className="flex justify-between py-1.5 border-b border-slate-800/60">
-                <span className="text-slate-400">Hız Değiştir (0.75x / 1.0x / 1.25x)</span>
-                <kbd className="px-2 py-0.5 bg-slate-800 rounded border border-slate-700 text-slate-200 font-mono text-xs">
-                  Ctrl + 1 / 2 / 3
-                </kbd>
-              </div>
-              <div className="flex justify-between py-1.5 border-b border-slate-800/60">
-                <span className="text-slate-400">Kelime Kontrol (Kelime Modu)</span>
-                <kbd className="px-2 py-0.5 bg-slate-800 rounded border border-slate-700 text-slate-200 font-mono text-xs">
-                  Boşluk / Enter
-                </kbd>
-              </div>
-            </div>
-
+      {/* ─── Settings dock ───────────────────────────────────────────────── */}
+      <div className="z-30 mt-2 sm:sticky sm:bottom-3">
+        <div className="flex flex-wrap items-center justify-between gap-2 rounded-2xl border border-white/10 bg-zinc-900/85 p-2 shadow-2xl shadow-black/40 backdrop-blur-xl">
+          <div className="flex flex-wrap items-center gap-2">
             <button
-              onClick={() => setShowShortcutsModal(false)}
-              className="w-full mt-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-200 rounded-lg text-sm font-medium transition cursor-pointer"
+              type="button"
+              onClick={togglePlayback}
+              aria-label={audioStatus === 'playing' ? 'Duraklat' : 'Oynat'}
+              title="Oynat / duraklat (Ctrl+Space)"
+              className="flex h-9 w-9 items-center justify-center rounded-xl bg-white/5 text-zinc-200 hover:bg-white/10 cursor-pointer"
             >
-              Kapat
+              {audioStatus === 'playing' ? <Pause className="h-4 w-4" /> : <Play className="h-4 w-4" />}
+            </button>
+            <Segmented<StudyMode>
+              ariaLabel="Çalışma modu"
+              value={session.studyMode}
+              onChange={session.setStudyMode}
+              options={[
+                { value: 'sentence', label: 'Cümle', title: 'Cümle cümle çalış (Ctrl+M)' },
+                { value: 'word', label: 'Kelime', title: 'Kelime kelime çalış (Ctrl+M)' },
+              ]}
+            />
+            <Segmented<number>
+              ariaLabel="Oynatma hızı"
+              value={speed}
+              onChange={handleSpeedChange}
+              options={SPEEDS.map((s, i) => ({ value: s, label: `${s}x`, title: `Hız: ${s}x (Ctrl+${i + 1})` }))}
+            />
+          </div>
+          <div className="flex items-center gap-1">
+            <button
+              type="button"
+              onClick={handleToggleAutoPlay}
+              aria-pressed={autoPlay}
+              title="Yeni cümleye geçince sesi otomatik çal"
+              className={cx(
+                'h-9 rounded-xl px-3 text-xs font-medium transition-colors cursor-pointer',
+                autoPlay ? 'bg-indigo-500/15 text-indigo-200' : 'text-zinc-400 hover:bg-white/5 hover:text-zinc-200'
+              )}
+            >
+              <span className="hidden sm:inline">Otomatik çal: </span>
+              <span className="sm:hidden">Oto: </span>
+              {autoPlay ? 'Açık' : 'Kapalı'}
+            </button>
+            {onOpenPdf && (
+              <button
+                type="button"
+                onClick={onOpenPdf}
+                aria-pressed={isPdfOpen}
+                title="Kitabın PDF'ini aç"
+                className={cx(
+                  'flex h-9 items-center gap-1.5 rounded-xl px-3 text-xs font-medium transition-colors cursor-pointer',
+                  isPdfOpen ? 'bg-white/10 text-white' : 'text-zinc-400 hover:bg-white/5 hover:text-zinc-200'
+                )}
+              >
+                <BookOpen className="h-4 w-4" />
+                PDF
+              </button>
+            )}
+            <button
+              type="button"
+              onClick={() => setShowShortcutsModal(true)}
+              aria-label="Klavye kısayolları"
+              title="Klavye kısayolları (F1)"
+              className="flex h-9 w-9 items-center justify-center rounded-xl text-zinc-400 hover:bg-white/5 hover:text-zinc-200 cursor-pointer"
+            >
+              <Keyboard className="h-4 w-4" />
             </button>
           </div>
         </div>
-      )}
+      </div>
+
+      {showShortcutsModal && <ShortcutsModal onClose={() => setShowShortcutsModal(false)} />}
     </div>
   )
 }
+
+const SegmentNote: React.FC<{ text: string }> = ({ text }) => (
+  <p className="mt-4 flex gap-2 rounded-xl bg-amber-400/[0.06] p-3 text-xs leading-relaxed text-amber-100/90">
+    <StickyNote className="mt-0.5 h-3.5 w-3.5 shrink-0 text-amber-300" />
+    <span>{text}</span>
+  </p>
+)
+
+/** "12 / 300" indicator that becomes an input to jump to any sentence. */
+const SegmentJump: React.FC<{ current: number; total: number; onJump: (index: number) => void }> = ({
+  current,
+  total,
+  onJump,
+}) => {
+  const [value, setValue] = useState(String(current + 1))
+  const commit = () => {
+    const n = parseInt(value, 10)
+    if (Number.isFinite(n) && n - 1 !== current) onJump(n - 1)
+    else setValue(String(current + 1))
+  }
+  return (
+    <span className="flex items-center gap-1 text-xs tabular-nums text-zinc-400">
+      <input
+        type="number"
+        min={1}
+        max={total}
+        aria-label="Cümleye git"
+        title="Cümle numarası yazıp Enter'a bas"
+        value={value}
+        onChange={(e) => setValue(e.target.value)}
+        onBlur={commit}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter') {
+            e.preventDefault()
+            commit()
+          }
+        }}
+        className="h-8 w-14 rounded-lg border border-transparent bg-transparent text-center text-zinc-100 [appearance:textfield] hover:border-white/10 focus:border-indigo-400/50 focus:bg-black/30 focus:outline-none [&::-webkit-inner-spin-button]:appearance-none"
+      />
+      <span>/ {total}</span>
+    </span>
+  )
+}
+
+const SHORTCUTS: Array<[string, string]> = [
+  ['Kontrol et · düzelt · sonraki cümle', 'Enter'],
+  ['Cevabı göster · düzeltmeyi atla · kelimeyi atla', 'Ctrl + Enter'],
+  ['Cümleyi baştan dinle', 'Ctrl + R'],
+  ['Oynat / duraklat', 'Ctrl + Space'],
+  ['Çeviriyi aç / kapat', 'Ctrl + T'],
+  ['Cümle / kelime modu', 'Ctrl + M'],
+  ['Hız 0.75x · 1x · 1.25x', 'Ctrl + 1 / 2 / 3'],
+  ['Önceki / sonraki cümle', 'PageUp / PageDown'],
+  ['Kelime modunda kontrol', 'Boşluk'],
+  ['Bu pencere', 'F1'],
+]
+
+const ShortcutsModal: React.FC<{ onClose: () => void }> = ({ onClose }) => (
+  <div
+    role="dialog"
+    aria-modal="true"
+    aria-label="Klavye kısayolları"
+    className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4 backdrop-blur-sm"
+    onClick={onClose}
+  >
+    <div
+      className="w-full max-w-md rounded-2xl border border-white/10 bg-zinc-900 p-5 shadow-2xl animate-fade-up"
+      onClick={(e) => e.stopPropagation()}
+    >
+      <div className="mb-3 flex items-center justify-between">
+        <h3 className="flex items-center gap-2 font-medium text-zinc-100">
+          <Keyboard className="h-4 w-4 text-indigo-300" />
+          Klavye kısayolları
+        </h3>
+        <button type="button" onClick={onClose} aria-label="Kapat" className="rounded-lg p-1 text-zinc-400 hover:bg-white/5 hover:text-zinc-100 cursor-pointer">
+          <X className="h-4 w-4" />
+        </button>
+      </div>
+      <ul className="divide-y divide-white/[0.06] text-sm">
+        {SHORTCUTS.map(([label, keys]) => (
+          <li key={label} className="flex items-center justify-between gap-4 py-2">
+            <span className="text-zinc-400">{label}</span>
+            <Kbd className="shrink-0 text-[11px]">{keys}</Kbd>
+          </li>
+        ))}
+      </ul>
+      <p className="mt-3 text-[11px] text-zinc-500">
+        Bir metin alanı odaktayken tek tuş kısayolları devre dışıdır; Ctrl kısayolları her zaman çalışır.
+      </p>
+    </div>
+  </div>
+)
