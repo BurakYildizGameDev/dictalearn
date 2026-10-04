@@ -11,11 +11,17 @@ Proje tek bir monorepo altında, iki bağımsız istemci ve ortak bir ders stand
 ```
 ├── Web/                     # React 19 + TypeScript + Vite 8 + Tailwind CSS v4 + Web Audio API
 ├── Android/                 # Kotlin + Jetpack Compose + C++ CMake/NDK + Oboe / MediaPlayer
-├── lessons/                 # Platformlar arası taşınabilir ders paketleri (lesson.json schema v1 + audio)
-├── PLAN.md                  # 9 fazlı master yol haritası
-├── YAPILANLAR.md            # Tamamlanan işlerin detaylı dökümü
-└── YAPILACAKLAR.md          # Gelecek fazların detaylı uygulama rehberi
+├── lessons/                 # Ortak ders paketleri (lesson.json + audio.mp3 + PDF) ve dictionary.json
+├── tools/                   # TTS/PDF üretim hattı, sözlük üretici, e2e test script'leri
+├── docs/screenshots/        # README görselleri
+├── README.md                # Proje vitrini ve kurulum
+├── PLAN.md                  # Fazlı master yol haritası ve karar günlüğü
+├── YAPILANLAR.md            # Tamamlanan işlerin detaylı dökümü (bu dosya)
+└── YAPILACAKLAR.md          # Fazların uygulama rehberi
 ```
+
+> **Son durum (2026-10-04):** Kitap üretimi dışındaki tüm fazlar tamamlandı. 36 kitap · 13.000 cümle ·
+> ~23 saat ses · 14.067 maddelik sözlük. Web 128 + Android 66 birim testi, 16 + 13 uçtan uca kontrol geçiyor.
 
 ---
 
@@ -36,6 +42,7 @@ Proje tek bir monorepo altında, iki bağımsız istemci ve ortak bir ders stand
   - Orijinal ve yazılan metni kelime bazında Levenshtein matrisi ile hizalayan, `equal`, `substitute`, `missing`, `extra` durumlarını ve %0-100 doğruluk skorunu hesaplayan motor.
 - **F1.3 Web Ses Motoru (`web-audio-engine.ts`)**:
   - Web Audio API `AudioContext` ve `AudioBufferSourceNode` ile donanım saatinde mikrosaniye hassasiyetli `playRange(startMs, endMs)` ve hız yönetimi.
+  - _(2026-10-04 güncellemesi: uzun kitaplar için `HTMLAudioElement` + konum takibine geçildi, bkz. Stabilizasyon bölümü.)_
 - **F1.4 Oturum Durum Makinesi (`use-study-session.ts`)**:
   - `dictating` ➔ `reviewing` ➔ `shadowing` ➔ `completed` durum akışları.
 - **F1.5 & F1.6 Çalışma Arayüzü & Klavye Kısayolları (`StudySessionView.tsx`, `use-shortcuts.ts`)**:
@@ -92,7 +99,7 @@ Proje tek bir monorepo altında, iki bağımsız istemci ve ortak bir ders stand
   - **Milisaniye Senkron Stüdyo Seslendirmesi (Microsoft Edge Neural TTS)**: `en-US-ChristopherNeural` anlatıcı sesiyle, 400ms cümle arası ve 1000ms sayfa sonu duraklamalı, toplam **13 Saat 2 Dakika** süren stüdyo kaydı. Hem **16-bit 24kHz PCM WAV** hem de yüksek kaliteli **MP3** formatlarında üretildi.
   - **16 Sayfalık Profesyonel ReportLab PDF Kitapları**: 1 Kapak + 15 Hikaye Sayfası, taşma yapmayan iki sütunlu (Sol İngilizce, Sağ Türkçe paralel metin) dizgi, alt 8 terimli kelime tahlil kutusu ve `NumberedCanvas` üst/alt bilgi alanı ile toplam **400 Sayfa PDF**.
   - **Çift Yönlü Tam Senkronizasyon**: 25 kitabın tamamı hem `Web/public/lessons/` hem de `Android/app/src/main/assets/lessons/` dizinlerine kopyalandı.
-  - **Web Uygulama Entegrasyonu**: `Web/src/App.tsx` içindeki `PRESET_LESSONS` menüsüne 1'den 25'e kadar tüm kitaplar eklendi; Vitest test paketinde tüm 63 test başarıyla geçti.
+  - **Web Uygulama Entegrasyonu**: Kitaplar başlangıçta `PRESET_LESSONS` açılır menüsüne eklendi; 2026-10-04'te yerini kapaklı kütüphane ve `catalog.ts` aldı.
 
 #### 📚 25 Kitaplık Koleksiyon Envanteri:
 | # | Kitap Başlığı ve Kimliği | Yazar / Eser | Cümle | Ses Süresi | PDF | Senkronizasyon |
@@ -126,19 +133,28 @@ Proje tek bir monorepo altında, iki bağımsız istemci ve ortak bir ders stand
 
 ---
 
-### ✅ Faz 5.6 — Seviye 2 Kütüphanesi: 10 Kitap x 25 Sayfa (CEFR B1 Klasikler — 10/10 TAMAMLANDI)
-- **F5.6.1 - F5.6.10 Seviye 2 Kitapları (Kitap 26 - Kitap 35)**:
-  - **Kitap 26**: *A Scandal in Bohemia* (Sir Arthur Conan Doyle) — 25 Sayfa, 500 Cümle, 26 Syf PDF, Stüdyo Sesi
-  - **Kitap 27**: *The Red-Headed League* (Sir Arthur Conan Doyle) — 25 Sayfa, 500 Cümle, 26 Syf PDF, Stüdyo Sesi
-  - **Kitap 28**: *The Hound of the Baskervilles* (Sir Arthur Conan Doyle) — 25 Sayfa, 500 Cümle, 26 Syf PDF, Stüdyo Sesi
-  - **Kitap 29**: *The Gift of the Magi & The Last Leaf* (O. Henry) — 25 Sayfa, 500 Cümle, 26 Syf PDF, Stüdyo Sesi
-  - **Kitap 30**: *The Call of the Wild* (Jack London) — 25 Sayfa, 500 Cümle, 26 Syf PDF, Stüdyo Sesi
-  - **Kitap 31**: *Frankenstein* (Mary Shelley) — 25 Sayfa, 500 Cümle, 26 Syf PDF, Stüdyo Sesi
-  - **Kitap 32**: *Dracula* (Bram Stoker) — 25 Sayfa, 500 Cümle, 26 Syf PDF, Stüdyo Sesi
-  - **Kitap 33**: *Dr. Jekyll and Mr. Hyde* (Robert Louis Stevenson) — 25 Sayfa, 500 Cümle, 26 Syf PDF, Stüdyo Sesi
-  - **Kitap 34**: *The Picture of Dorian Gray* (Oscar Wilde) — 25 Sayfa, 500 Cümle, 59.4 Dk Stüdyo Sesi, 26 Syf PDF, 200 Hedef Kelime
-  - **Kitap 35**: *The Canterville Ghost* (Oscar Wilde) — 25 Sayfa, 500 Cümle, 57.2 Dk Stüdyo Sesi, 26 Syf PDF, 200 Hedef Kelime
-  - **TOPLAM (10 KİTAP - SEVİYE 2)**: **5.000 Cümle, 2.000 Hedef Kelime, 260 Sayfa PDF, 22 Saat 15 Dakika Stüdyo Sesi**. Web ve Android tam senkronize.
+### ✅ Faz 5.6 — Seviye 2 Kütüphanesi: 11 Kitap x 25 Sayfa (CEFR B1 Klasikler)
+
+Her kitap: **25 sayfa × 20 cümle = 500 cümle**, 26 sayfalık PDF, 200 hedef kelime, nöral TTS sesi.
+
+| # | Kitap | Yazar | Cümle | Ses | MP3 |
+|---|---|---|:---:|:---:|:---:|
+| 26 | A Scandal in Bohemia | Arthur Conan Doyle | 500 | 50.9 dk | 18.3 MB |
+| 27 | The Red-Headed League | Arthur Conan Doyle | 500 | 54.0 dk | 19.5 MB |
+| 28 | The Hound of the Baskervilles | Arthur Conan Doyle | 500 | 52.4 dk | 18.9 MB |
+| 29 | The Gift of the Magi & The Last Leaf | O. Henry | 500 | 51.7 dk | 18.6 MB |
+| 30 | The Call of the Wild | Jack London | 500 | 53.3 dk | 19.2 MB |
+| 31 | Frankenstein | Mary Shelley | 500 | 57.6 dk | 20.7 MB |
+| 32 | Dracula | Bram Stoker | 500 | 60.0 dk | 21.6 MB |
+| 33 | Dr. Jekyll and Mr. Hyde | Robert Louis Stevenson | 500 | 57.6 dk | 20.7 MB |
+| 34 | The Picture of Dorian Gray | Oscar Wilde | 500 | 59.4 dk | 21.4 MB |
+| 35 | The Canterville Ghost | Oscar Wilde | 500 | 57.2 dk | 20.6 MB |
+| 36 | Journey to the Center of the Earth | Jules Verne | 500 | 56.8 dk | 20.4 MB |
+| **Σ** | **11 kitap** | | **5.500** | **~10.2 saat** | **~220 MB** |
+
+> Bu kitapların `audio.mp3` dosyaları ilk üretimde aslında yeniden adlandırılmış WAV verisiydi (kitap başına
+> 150–170 MB). `tools/fix_mp3_encoding.py` ile 48 kbps CBR mono MP3'e dönüştürüldü (~1.8 GB → ~220 MB).
+> Plandaki 25 kitaplık Seviye 2 hedefi, Seviye 3 ve Seviye 4 kullanıcı kararıyla durduruldu.
 
 ---
 
@@ -187,65 +203,157 @@ Proje tek bir monorepo altında, iki bağımsız istemci ve ortak bir ders stand
 
 ---
 
-## 3. Test ve Kalite Durumu
+### ✅ Stabilizasyon ve Hata Düzeltmeleri (2026-10-04)
 
-| Platform | Test Aracı | Test Sayısı | Başarı Oranı | Linter Durumu | Derleme (Build) |
-|---|---|---|---|---|---|
-| **Web** | Vitest 5 + JSDOM | **70 test** | **%100 PASS** | 0 warning, 0 error (Oxlint) | 1.16 s (Vite Production Bundle) |
-| **Android** | JUnit 4 + Gradle | **Tüm birim testleri** | **%100 PASS** | 0 blocker error | Debug APK üretildi (`app-debug.apk`) |
+**Web**
+- **Ses motoru (`web-audio-engine.ts`)**:
+  - 1 saatlik kitapların ~700 MB PCM'e çözülmesi kaldırıldı; `HTMLAudioElement` + 15 ms konum takibiyle `end_ms`'de durma.
+  - Hız düşürülünce cümlenin erken kesilmesi düzeltildi.
+  - Gerçek duraklat/devam eklendi (`Ctrl+Space`).
+  - Eski yüklemelerin ve kesintiye uğrayan `play()` çağrılarının yarışları load/play token'larıyla engellendi.
+  - Tarayıcı otomatik oynatmayı engellerse kullanıcıya uyarı gösteriliyor (`blocked` durumu).
+- **Oturum (`use-study-session.ts`)**:
+  - "Cevabı göster" artık kaydı iki kez eklemiyor.
+  - Kelime modunda aynı kelimedeki tekrar denemeler tek hata sayılıyor; doğruluk gerçek değerle hesaplanıyor.
+  - İlk kelimenin TTS'i otomatik çalan cümle sesinin üstüne binmiyor.
+  - `goToSegment` / `previousSegment` / `skipSegment` / `restart` eklendi. "Dersi tekrar başlat" artık sayfayı yenileyip başka kitaba atmıyor.
+- **Kısayollar:** PLAN §4.2'deki eksikler (`PageUp`/`PageDown`, `F1`, odak dışı `Enter`, `Esc`) eklendi. Dinleyicinin her render'da yeniden bağlanması düzeltildi.
+- **PDF yükleme:**
+  - MIME tipi boş gelen `.pdf` dosyaları (Windows'ta PDF okuyucu kurulu değilse) artık reddedilmiyor.
+  - Aynı dosya tekrar yüklenince IndexedDB'de kopya birikmiyor; eski `active_pdf` kaydı temizlendi.
+  - Sayfa içi PDF görüntüleyicisi olmayan tarayıcılarda (Android Chrome) "Aç / İndir" yedek görünümü var.
+- **Kalıcı ilerleme (`ProgressStore`):** 300–500 cümlelik kitaplar artık her açılışta 1. cümleden başlamıyor.
+
+**Android**
+- **Kütüphane:** Uygulama yalnızca 6 cümlelik demoyu açabiliyordu; 36 kitabın hiçbiri erişilebilir değildi. Kütüphane ekranı eklendi.
+- **APK boyutu:** Assets 5.7 GB'tı ve APK'nın 4 GB sınırını aşıyordu. WAV'lar `ignoreAssetsPattern` ile APK'dan çıkarıldı.
+- **`MediaPlayerAudioEngine`:**
+  - Hız `start()`'tan önce uygulandığı için hiç etki etmiyordu, düzeltildi.
+  - `SEEK_CLOSEST` ile hassas başlangıç.
+  - Asenkron `prepareAsync`; ana thread bloke olmuyor.
+  - Gecikme tabanlı kesme yerine konum takibi.
+  - Seek sırasında duraklatma düzgün çalışıyor.
+- **ViewModel:**
+  - Kelime atlamada sabit `0.8` doğruluk kaldırıldı.
+  - `giveUp` sadece dikte durumunda çalışıyor.
+  - Gezinme, devam ve yeniden başlatma eklendi.
+- **Kalıcılık:** Hata defteri `SharedPreferences`'ta kalıcı (eskiden bellekte tutuluyor, uygulama kapanınca siliniyordu); ilerleme ve ayarlar da kalıcı.
+- **Tema:** Açık tema yerine koyu Material 3 tema. Edge-to-edge sayesinde klavye açıkken ayar çubuğu gizleniyor.
 
 ---
 
-## 4. Git Commit Geçmişi (Seçkin Kilometre Taşları)
+### ✅ Faz 5.9 — Kütüphane Gezgini ve PDF / Ses Oynatıcı
+- **Web (`LibraryView.tsx`, `catalog.ts`):**
+  - Kapaklı kitap kartları, seviye sekmeleri, Türkçe karakter duyarsız arama.
+  - Kitap başına ilerleme çubuğu ve "Kaldığın yerden devam et" kartı.
+  - Hash router (`#/study/<id>`): yenilemede ders korunur, geri tuşu çalışır.
+- **Web PDF:**
+  - Geniş ekranda yan panel (split view), dar ekranda modal.
+  - Kullanıcı PDF'leri IndexedDB'de saklanır, listelenir ve silinebilir.
+- **Android:**
+  - `LibraryScreen` (adaptif grid, arama, seviye chip'leri).
+  - `PdfReaderScreen`: platformun `PdfRenderer`'ı ile sayfa sayfa render; harici kütüphane yok.
+
+### ✅ Faz 7 — Akıllı Türkçe Çeviri Sistemi
+- **F7.2 Çevrimdışı sözlük (`tools/build_dictionary.py` → `lessons/dictionary.json`, 14.067 madde, 510 KB):**
+  - Elle yazılmış ~500 kelimelik çekirdek liste (`tools/core_vocabulary.py`).
+  - 36 kitabın `vocab_focus` listeleri.
+  - Ders notlarındaki "kelime: anlam" açıklamaları.
+  - Tamamen projenin kendi açık içeriğinden üretildi. Açık lisanslı harici kaynak olmadığından planlanan 50.000 maddeye ulaşılmadı.
+- **Sözlük motoru (`dictionary.ts`, `Dictionary.kt`, aynı algoritma):**
+  - Çekim eki çözümleme (*packed → pack*, *stories → story*, *stopped → stop*).
+  - ~110 düzensiz form (*stood → stand*, *went → go*).
+  - Cümle içinde 4 kelimeye kadar deyim eşleştirme (*drift apart*).
+- **F7.4 Kelime kartı:**
+  - Cevap gönderildikten sonra cümledeki her kelime tıklanabilir. Kopya koruması korunur: dikte sırasında DOM'da yok.
+  - Kart içeriği: anlam, TTS telaffuz, "Bilmiyorum, deftere ekle" (`kind: 'unknown'`).
+  - Sözlükte bulunmayan kelimeler için kullanıcı tıklamasıyla açılan çevrimiçi çeviri bağlantısı (F7.3).
+- **F7.1 Android ML Kit (`MlKitTranslator.kt`):** Kelime kartında "Cümleyi cihazda çevir". EN→TR modeli ilk kullanımda indirilir, sonra internetsiz çalışır.
+- **Defterim (web `#/notebook`, Android `NotebookScreen`):** Hata ve bilinmeyen kelimeler sıklık ve anlamlarıyla listelenir; filtrelenip temizlenebilir.
+
+### ✅ Faz 8 — Yayın ve Paketleme
+- **F8.1 `deploy-pages.yml`:**
+  - `VITE_BASE=/<repo>/` ile derleme ve GitHub Pages'e yayın.
+  - Sadece web kopyası için LFS çekilir; LFS nesneleri önbelleğe alınır.
+  - Vite eklentisi WAV ve `.md` dosyalarını `dist/`'ten çıkarır (5.7 GB → 529 MB).
+  - Kişisel dersler production derlemesinde listelenmez.
+- **F8.2 `android-release.yml`:**
+  - `v*` etiketinde test + `assembleRelease` çalışır, APK GitHub Release'e eklenir.
+  - Release derlemesinde R8 minify ve resource shrinking açık.
+  - İmzalama ortam değişkenleri ve repository secret'larıyla yapılır.
+- **CI (`ci.yml`):** Web lint/test/build Node 22'ye taşındı (Vite 8 gereği); Android birim testleri eklendi.
+- **F8.3 README:** Rozetler, ekran görüntüleri, çalışma döngüsü ve mimari diyagramları, kısayol tablosu, kurulum, testler, yayınlama.
+
+### ✅ Faz 9 — Modern Arayüz
+- **F9.1 Kütüphane:** web ve Android.
+- **F9.2 Split view:** PDF ve dikte yan yana.
+- **F9.3 Tasarım sistemi:**
+  - Zinc/indigo palet, serif okuma tipografisi.
+  - Ortak `Button` / `Segmented` / `ProgressBar` / `Kbd` bileşenleri.
+  - Ses çalarken ekolayzır göstergesi; `prefers-reduced-motion` desteği.
+- **F9.4 Ayar dock'u:**
+  - Mod, hız, otomatik çal, PDF ve kısayollar tek çubukta.
+  - Önceden 3 kez tekrarlanan "Dinle" ve PDF butonları teke indirildi.
+- **F9.5 Mobil:** 390 px'de yatay taşma yok; Android'de klavye açılınca ayar çubuğu gizlenir.
+
+### ✅ Repo Bakımı — Git Geçmişi Temizliği ve Git LFS
+- Geçmiş değiştirilmeden önce tam yedek alındı: `../DictaLearn-git-backup-2026-10-04.git`.
+- `git filter-repo` ile 2.3 GB WAV tüm geçmişten silindi. WAV'lar diskte duruyor, `.gitignore`'da.
+- `git lfs migrate import` ile `*.mp3` ve `*.pdf` dosyaları tüm geçmişte LFS'e taşındı (219 dosya).
+- Sonuç: `.git` 1.8 GB'tan ~506 MB'a indi (git deposu 5.8 MB + LFS). 100 MB'ı aşan dosya kalmadı.
+- Açık lisanslı olmayan kişisel dersler (`custom_*`) repoya girmiyor (CLAUDE.md kural 6).
+
+---
+
+## 3. Test ve Kalite Durumu
+
+| Platform | Katman | Araç | Sonuç |
+|---|---|---|---|
+| **Web** | Birim + bileşen | Vitest 5 + Testing Library | **128 / 128** · 19 dosya |
+| **Web** | Uçtan uca | Playwright, gerçek Chromium (`tools/e2e/web_e2e.py`) | **16 / 16**, hem dev hem `/dictalearn/` alt yollu production derlemesinde |
+| **Web** | Statik analiz | Oxlint + `tsc -b` | 0 uyarı, 0 hata |
+| **Android** | Birim | JUnit 4 | **66 / 66** |
+| **Android** | Uçtan uca | adb + uiautomator, Pixel 7 API 34 emülatörü (`tools/e2e/android_e2e.py`) | **13 / 13**, hem debug hem R8 release APK |
+| **Android** | Derleme | Gradle | debug 607 MB · release 591 MB (tüm kitaplar) |
+
+**Uçtan uca testlerin kapsamı:**
+- Kütüphane araması ve seviye filtresi.
+- Kopya koruması ve klavye ayarları (otomatik düzeltme/tamamlama kapalı).
+- Ses aralığının `end_ms`'de bitmesi.
+- Klavyeyle tam döngü: düzeltme, kusursuz cevap, pes etme + atlama.
+- PageUp/PageDown, cümleye atlama, F1/Esc.
+- Yenilemede kaldığın yerden devam.
+- Kelime modu: maskeli kelimeler, Boşluk ile kontrol.
+- Kelime kartı ve defter; ML Kit çevirisi (Android).
+- Ders sonu ekranı ve yeniden başlatma; hız kalıcılığı.
+- Kitap 32 sesi; PDF yan panel ve yükleme/silme.
+- Mobil taşma olmaması; konsol hatası ve çökme olmaması.
+
+**İnsan doğrulaması önerilen noktalar:**
+- Seslendirme kalitesinin kulakla kontrolü.
+- Fiziksel Android cihazda deneme.
+- Android ekran görüntüleri (headless emülatör boş kare veriyor).
+
+---
+
+## 4. Git Commit Geçmişi
+
+Git geçmişi 2026-10-04'te yeniden yazıldı (WAV temizliği + LFS); bu tarihten önceki commit hash'leri değişti.
+Son commit'ler:
 
 ```text
-cf6552b feat(book_25): complete 15-page 300-sentence edition of The Time Machine with studio audio, PDF, and app sync
-9ffd771 feat(book_24): complete 15-page 300-sentence edition of White Fang with studio audio, PDF, and app sync
-68a49be feat(book_23): complete 15-page 300-sentence edition of The Secret Garden with studio audio, PDF, and app sync
-010a7b0 feat(book_22): complete 15-page 300-sentence edition of A Christmas Carol with studio audio, PDF, and app sync
-99c0fd7 feat(book_21): complete 15-page 300-sentence edition of Around the World in Eighty Days with studio audio, PDF, and app sync
-7e33696 feat(book_20): complete 15-page 300-sentence edition of Treasure Island with studio audio, PDF, and app sync
-d292845 feat(book_19): complete 15-page 300-sentence edition of Gulliver's Travels with studio audio, PDF, and app sync
-f387f7c feat(book_18): complete 15-page 300-sentence edition of King Arthur with studio audio, PDF, and app sync
-26ba462 feat(book_17): complete 15-page 300-sentence edition of Robin Hood with studio audio, PDF, and app sync
-21735ab feat(book_16): complete 15-page 300-sentence edition of Peter Pan with studio audio, PDF, and app sync
-39f5066 feat(book_15): complete 15-page 300-sentence edition of The Wind in the Willows with studio audio, PDF, and app sync
-da653e4 feat(book_14): complete 15-page 300-sentence edition of The Jungle Book with studio audio, PDF, and app sync
-4019655 feat(book_13): complete 15-page 300-sentence edition of The Wonderful Wizard of Oz with studio audio, PDF, and app sync
-aa8809c feat(book_12): complete 15-page 300-sentence edition of The Adventures of Pinocchio with studio audio, PDF, and app sync
-ddf26b6 feat(book_11): complete 15-page 300-sentence edition of Alice in Wonderland with studio audio, PDF, and app sync
-9643064 feat(book_10): complete 15-page 300-sentence edition of Hans Christian Andersen Tales of Wonder with studio audio, PDF, and app sync
-e321194 feat(book_09): complete 15-page 300-sentence edition of Grimm's Fairy Tales with studio audio, PDF, and app sync
-073039d feat(book_08): complete 15-page 300-sentence edition of The Little Prince with studio audio, PDF, and app sync
-5778781 feat(book_07): complete 15-page 300-sentence edition of Aesop's Fables Part 2 with studio audio, PDF, and app sync
-8930f11 feat(book_06): complete 15-page 300-sentence edition of Aesop's Fables Part 1 with studio audio, PDF, and app sync
-7db1e22 feat(book_05): complete 15-page 300-sentence edition of The Remarkable Rocket with studio audio, PDF, and app sync
-ca3651e feat(book_04): complete 15-page 300-sentence edition of The Devoted Friend with studio audio, PDF, and app sync
-ca9597a feat(faz5): add Book 3 (The Nightingale and the Rose) with 15 pages x 20 sentences (300 total sentences)
-429c6fb feat(faz5): add Book 2 (The Selfish Giant) with 15 pages x 20 sentences (300 total sentences)
-4619cd7 feat(faz5): upgrade Book 1 (The Happy Prince) to 15 pages with 20 sentences per page (300 total sentences)
-d6dc947 docs: mark Phase 4 completed in PLAN.md
-a035e61 feat: implement lesson creator and editor UI for Web and Android (F4.3)
-3be8467 feat: implement zip package import and export with unit tests (F4.2)
-0419469 feat: implement SRT and WebVTT subtitle parsers with unit tests (F4.1)
-cf1495d docs: mark Phase 3 completed in PLAN.md
-120abef feat(android): implement correction flow, shadowing mode, and summary screen (F3.1, F3.2, F3.4, F3.5)
-17eb37b feat(android): implement mistake repository and unit tests (F3.3)
-2c84afd feat(web): implement full 4-step study session with correction, shadowing, and summary (F3.1, F3.2, F3.4, F3.5)
-3e7b3db feat(web): implement mistake repository and error tracking domain (F3.3)
-a2508dd feat(android): implement Jetpack Compose UI, ViewModel and MainActivity integration (F2.4)
-b418b05 feat(android): implement MediaPlayerAudioEngine and FakeAudioEngine with unit tests (F2.3)
-b234d99 feat(android): implement Levenshtein word diff engine with unit tests (F2.2)
-378d9b4 feat(android): implement lesson models and JSON parser with unit tests (F2.1)
-80ffa0d feat(web): implement study session UI, state machine and shortcuts (F1.4-F1.6)
-336ad51 feat(web): implement WebAudioEngine with millisecond playRange precision (F1.3)
-2397c88 feat(web): implement Levenshtein word diff engine with 100% test coverage (F1.2)
-76ba18d feat(web): implement lesson schema validator and loader (F1.1)
-d9735d4 chore(ci): add GitHub Actions workflow for Web test and build (F0.5)
-2bc8434 feat(sample): add public-domain sample lesson and audio (F0.3, F0.4)
-b85a3fa feat(android): setup C++ CMake NDK native library scaffold (F0.2)
-cf2d733 feat(android): scaffold Android project with Gradle and Compose (F0.2)
-79bb955 feat(web): scaffold Vite React TypeScript Tailwind app (F0.1)
-9ff76f1 docs: initialize DictaLearn master specification and roadmap
+dede434 docs: README with screenshots, plan status after full test pass
+aa961d7 test: end-to-end suites for web (Playwright) and Android (adb/uiautomator)
+6975331 feat(f8): GitHub Pages and Android release workflows
+d6ef429 feat(faz7,f5.9): android word card with ML Kit translation, notebook and PDF reader
+c56921c feat(faz7): offline dictionary, word info card and mistake notebook (web)
+24c7663 docs: document Git LFS setup and WAV/personal lesson policy
+de7f8e3 docs: update plan and progress notes
+b7de943 feat(android): library screen, persistent progress and mistakes, audio fixes
+c1cff81 feat(web): library home, resumable sessions, audio/PDF fixes and UI overhaul
+36406bc feat(content): add level 2 library (books 26-36) and fix their audio encoding
+1f22064 chore: stop tracking WAV masters and personal lessons
+891dc18 feat(faz6): implement word-by-word practice mode with instant checking, hints, slots, and shortcuts
 ```
 
+Toplam: 64 commit. Tam liste için `git log --oneline`.
