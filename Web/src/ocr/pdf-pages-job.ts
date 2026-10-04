@@ -17,8 +17,8 @@ export interface PdfPagesState {
 
 type Listener = (state: PdfPagesState) => void
 
-/** Version of the page text extraction (column-aware OCR layout = 2). */
-const PAGES_VERSION = 2
+/** Version of the page text extraction (4 = OCR marker + column fixes). */
+const PAGES_VERSION = 4
 
 /** Number of pages processed from page 1 without a gap. */
 export function contiguousDone(state: PdfPagesState): number {

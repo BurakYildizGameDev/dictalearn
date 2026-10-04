@@ -64,6 +64,8 @@ fun StudySessionScreen(
     onPause: () -> Unit = {},
     onBack: (() -> Unit)? = null,
     onOpenPdf: (() -> Unit)? = null,
+    /** Optional notice above the stage (e.g. background PDF reading progress). */
+    banner: (@Composable () -> Unit)? = null,
     modifier: Modifier = Modifier
 ) {
     val state by viewModel.state.collectAsState()
@@ -72,7 +74,7 @@ fun StudySessionScreen(
     val currentSpeed by viewModel.speed.collectAsState()
     val autoPlay by viewModel.autoPlay.collectAsState()
 
-    val totalSegments = viewModel.totalSegments
+    val totalSegments by viewModel.totalSegmentsFlow.collectAsState()
     val progress = (currentIndex + (if (state == SessionState.COMPLETED) 1f else 0f)) / totalSegments
     val imeVisible = WindowInsets.isImeVisible
 
@@ -158,6 +160,7 @@ fun StudySessionScreen(
                 .padding(horizontal = 16.dp, vertical = 16.dp),
             verticalArrangement = Arrangement.spacedBy(14.dp)
         ) {
+            banner?.invoke()
             when (state) {
                 SessionState.DICTATING ->
                     if (studyMode == StudyMode.SENTENCE) {

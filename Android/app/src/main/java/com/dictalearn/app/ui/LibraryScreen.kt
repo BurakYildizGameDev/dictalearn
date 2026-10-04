@@ -14,6 +14,11 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Bookmarks
+import androidx.compose.material.icons.filled.Delete
+import androidx.compose.material.icons.filled.Description
+import androidx.compose.material.icons.filled.Headphones
+import androidx.compose.material.icons.filled.MenuBook
+import androidx.compose.material.icons.filled.UploadFile
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.PlayArrow
@@ -30,6 +35,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.dictalearn.app.data.pdf.UserPdf
 import com.dictalearn.app.domain.library.CatalogBook
 import com.dictalearn.app.domain.library.LessonCatalog
 import com.dictalearn.app.domain.progress.LessonProgress
@@ -43,7 +49,12 @@ fun LibraryScreen(
     lastBookId: String?,
     onOpenBook: (CatalogBook) -> Unit,
     onOpenEditor: () -> Unit,
-    onOpenNotebook: () -> Unit = {}
+    onOpenNotebook: () -> Unit = {},
+    userPdfs: List<UserPdf> = emptyList(),
+    onAddPdf: () -> Unit = {},
+    onStudyPdf: (UserPdf) -> Unit = {},
+    onReadPdf: (UserPdf) -> Unit = {},
+    onDeletePdf: (UserPdf) -> Unit = {}
 ) {
     var query by rememberSaveable { mutableStateOf("") }
     var level by rememberSaveable { mutableStateOf<Int?>(null) }
@@ -62,6 +73,9 @@ fun LibraryScreen(
             TopAppBar(
                 title = { Text("DictaLearn", fontWeight = FontWeight.SemiBold, fontSize = 18.sp) },
                 actions = {
+                    IconButton(onClick = onAddPdf) {
+                        Icon(Icons.Default.UploadFile, contentDescription = "PDF ekle", tint = Dicta.TextSecondary)
+                    }
                     IconButton(onClick = onOpenNotebook) {
                         Icon(Icons.Default.Bookmarks, contentDescription = "Defterim", tint = Dicta.TextSecondary)
                     }
@@ -136,6 +150,10 @@ fun LibraryScreen(
                         modifier = Modifier.padding(vertical = 40.dp)
                     )
                 }
+            }
+
+            item(span = { GridItemSpan(maxLineSpan) }) {
+                UserPdfSection(userPdfs, onAddPdf, onStudyPdf, onReadPdf, onDeletePdf)
             }
 
             grouped.forEach { (lvl, list) ->
@@ -280,6 +298,60 @@ private fun ContinueCard(book: CatalogBook, progress: LessonProgress, onClick: (
             contentAlignment = Alignment.Center
         ) {
             Icon(Icons.Default.PlayArrow, contentDescription = "Devam et", tint = Color.White)
+        }
+    }
+}
+
+/** "Your PDFs": add a PDF from the device and turn it into a dictation lesson (OCR). */
+@Composable
+private fun UserPdfSection(
+    pdfs: List<UserPdf>,
+    onAdd: () -> Unit,
+    onStudy: (UserPdf) -> Unit,
+    onRead: (UserPdf) -> Unit,
+    onDelete: (UserPdf) -> Unit
+) {
+    Column(verticalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.padding(top = 8.dp)) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text("Yüklediğin PDF'ler", style = MaterialTheme.typography.titleLarge, color = Dicta.TextPrimary)
+            Spacer(Modifier.weight(1f))
+            TextButton(onClick = onAdd) {
+                Icon(Icons.Default.UploadFile, contentDescription = null, modifier = Modifier.size(18.dp))
+                Spacer(Modifier.width(6.dp))
+                Text("PDF ekle")
+            }
+        }
+        if (pdfs.isEmpty()) {
+            Text(
+                "Kendi PDF'ini ekle: metinli ya da taranmış (resimli) sayfalar okunur ve dikte dersine dönüşür.",
+                color = Dicta.TextMuted,
+                fontSize = 13.sp
+            )
+        }
+        pdfs.forEach { pdf ->
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .clip(RoundedCornerShape(14.dp))
+                    .background(Dicta.Surface)
+                    .padding(start = 12.dp, end = 4.dp, top = 6.dp, bottom = 6.dp),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Icon(Icons.Default.Description, contentDescription = null, tint = Dicta.TextMuted, modifier = Modifier.size(20.dp))
+                Spacer(Modifier.width(10.dp))
+                Text(pdf.name, color = Dicta.TextPrimary, fontSize = 14.sp, maxLines = 1, overflow = TextOverflow.Ellipsis, modifier = Modifier.weight(1f))
+                FilledTonalButton(onClick = { onStudy(pdf) }, contentPadding = PaddingValues(horizontal = 10.dp)) {
+                    Icon(Icons.Default.Headphones, contentDescription = null, modifier = Modifier.size(16.dp))
+                    Spacer(Modifier.width(4.dp))
+                    Text("Dikte", fontSize = 12.sp)
+                }
+                IconButton(onClick = { onRead(pdf) }) {
+                    Icon(Icons.Default.MenuBook, contentDescription = "${pdf.name} oku", tint = Dicta.TextSecondary)
+                }
+                IconButton(onClick = { onDelete(pdf) }) {
+                    Icon(Icons.Default.Delete, contentDescription = "${pdf.name} sil", tint = Dicta.TextMuted)
+                }
+            }
         }
     }
 }

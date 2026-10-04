@@ -56,6 +56,25 @@ describe('extractSentences', () => {
     ])
   })
 
+  it('understands sentence numbers mangled by OCR ([s], (2], [8j, [10))', () => {
+    const text = [
+      '[1] The student cried in the garden.',
+      '(2] The bird heard all of his words.',
+      '[s] She flew over the dark trees.',
+      '[8j He looked at the red rose.',
+      '[10) It was the most beautiful rose.',
+      '[u] The night was cold and very long.',
+    ].join('\n')
+    expect(extractSentences(text)).toEqual([
+      'The student cried in the garden.',
+      'The bird heard all of his words.',
+      'She flew over the dark trees.',
+      'He looked at the red rose.',
+      'It was the most beautiful rose.',
+      'The night was cold and very long.',
+    ])
+  })
+
   it('does not glue headings to the following sentence', () => {
     const text = 'Contents\nAbout this book\nYou will find each of these words in bold.\nMeet the Flyers\nThe children love going to the park.'
     expect(extractSentences(text)).toEqual([

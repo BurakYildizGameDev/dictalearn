@@ -38,7 +38,7 @@ data class SegmentRecord(
 )
 
 class StudySessionViewModel(
-    val lesson: Lesson,
+    lesson: Lesson,
     private val audioEngine: AudioEngine,
     val mistakeRepository: MistakeRepository? = null,
     autoPlay: Boolean = true,
@@ -49,6 +49,13 @@ class StudySessionViewModel(
     private val onProgress: (Int) -> Unit = {},
     private val onComplete: () -> Unit = {}
 ) : ViewModel() {
+
+    /** Can grow while a PDF is still being read in the background (see extendLesson). */
+    var lesson: Lesson = lesson
+        private set
+
+    private val _totalSegments = MutableStateFlow(lesson.segments.size)
+    val totalSegmentsFlow: StateFlow<Int> = _totalSegments.asStateFlow()
 
     private val _state = MutableStateFlow(SessionState.DICTATING)
     val state: StateFlow<SessionState> = _state.asStateFlow()
@@ -413,6 +420,20 @@ class StudySessionViewModel(
         if (_currentSegmentIndex.value > 0) {
             goToSegment(_currentSegmentIndex.value - 1)
         }
+    }
+
+    /**
+     * Appends the new segments of a growing lesson (PDF pages read in the background). The current
+     * attempt and position are kept; anything that is not a pure extension is ignored.
+     */
+    fun extendLesson(longer: Lesson) {
+        val current = lesson.segments
+        if (longer.segments.size <= current.size) return
+        if (longer.segments.subList(0, current.size) != current) return
+        val wasCompleted = _state.value == SessionState.COMPLETED
+        lesson = longer
+        _totalSegments.value = longer.segments.size
+        if (wasCompleted) goToSegment(current.size)
     }
 
     fun restart() {

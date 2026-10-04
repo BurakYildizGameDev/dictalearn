@@ -32,6 +32,8 @@ function normalizeText(text: string): string {
   return text
     .replace(/\r/g, '')
     .replace(/(\w)-\n(\w)/g, '$1$2') // hyphenated line breaks
+    // OCR reads "[5]" as "[s]", "(2]", "[8j", "[10)"…: normalize line-leading markers to "[0]"
+    .replace(/^[[(][0-9A-Za-z]{1,3}[\])jJ]\s*/gm, '[0] ')
     .replace(/[ \t]+/g, ' ')
 }
 

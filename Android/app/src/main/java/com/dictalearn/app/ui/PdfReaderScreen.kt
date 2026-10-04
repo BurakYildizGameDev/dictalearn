@@ -74,14 +74,14 @@ private suspend fun copyAssetToCache(context: Context, assetPath: String): File 
 /** In-app reader for the book PDFs (Faz 5.9, Android). */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun PdfReaderScreen(assetPath: String, title: String, onBack: () -> Unit) {
+fun PdfReaderScreen(assetPath: String?, title: String, onBack: () -> Unit, localFile: File? = null) {
     val context = LocalContext.current
     var document by remember { mutableStateOf<PdfDocument?>(null) }
     var error by remember { mutableStateOf<String?>(null) }
 
-    LaunchedEffect(assetPath) {
+    LaunchedEffect(assetPath, localFile) {
         try {
-            val file = copyAssetToCache(context, assetPath)
+            val file = localFile ?: copyAssetToCache(context, requireNotNull(assetPath))
             document = withContext(Dispatchers.IO) { PdfDocument(file) }
         } catch (e: Exception) {
             error = e.message ?: "PDF açılamadı."

@@ -115,6 +115,8 @@ dependencies {
 
     // On-device EN->TR translation (Faz 7.1); the ~30 MB language model downloads on first use.
     implementation("com.google.mlkit:translate:17.0.3")
+    // On-device OCR for PDFs (bundled Latin model, works offline)
+    implementation("com.google.mlkit:text-recognition:16.0.1")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.3")
 
     testImplementation(libs.junit)

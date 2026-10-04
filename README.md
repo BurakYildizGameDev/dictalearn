@@ -98,6 +98,10 @@ stateDiagram-v2
 ### Kitaplar ve PDF
 - 36 kademeli klasik. Her kitapta nöral TTS seslendirmesi, çift sütunlu (İngilizce | Türkçe) PDF ve kelime notları var.
 - **Web:** Geniş ekranda PDF yan panelde açılır (split view). Kendi PDF'ini de ekleyebilirsin, tarayıcıda saklanır.
+- **Kendi PDF'inden dikte dersi (web + Android):** PDF'teki İngilizce cümleler çıkarılır, Türkçe paralel metin
+  ve başlıklar ayıklanır. **Taranmış (resimli) PDF'ler OCR ile okunur**: web'de Tesseract.js, Android'de
+  ML Kit, ikisi de çevrimdışı. İlk 25 sayfa bitince ders açılır, kalan sayfalar arka planda okunup derse eklenir.
+  Sayfalar önbelleğe alınır; aynı PDF ikinci kez taranmaz.
 - **Android:** Uygulama içi PDF okuyucu.
 
 ### Kendi dersin

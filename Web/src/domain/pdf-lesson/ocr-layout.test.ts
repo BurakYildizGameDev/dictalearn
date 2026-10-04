@@ -33,6 +33,32 @@ describe('orderOcrLines', () => {
     )
   })
 
+  it('learns the column from line starts when columns arrive as separate lines', () => {
+    const lines: OcrLine[] = [
+      { words: [w('[1]', 20, 50), w('She', 55, 90), w('said', 95, 140)] },
+      { words: [w('[1]', 520, 550), w('Genç', 555, 600)] },
+      { words: [w('young', 20, 80), w('Student.', 85, 160)] },
+      { words: [w('diye', 520, 560), w('yakındı.', 565, 640)] },
+      { words: [w('[2]', 20, 50), w('Yet', 55, 90)] },
+      { words: [w('[2]', 520, 550), w('Fakat', 555, 610)] },
+    ]
+    expect(orderOcrLines(lines, 1000)).toBe('[1] She said\nyoung Student.\n[2] Yet\n[1] Genç\ndiye yakındı.\n[2] Fakat')
+  })
+
+  it('puts slightly indented right-column lines on the right as well', () => {
+    const lines: OcrLine[] = [
+      { words: [w('[1]', 20, 50), w('She', 55, 90), w('said', 95, 140)] },
+      { words: [w('[1]', 500, 530), w('Genç', 535, 590)] },
+      { words: [w('young', 20, 80), w('Student.', 85, 160)] },
+      { words: [w('diye', 530, 570), w('yakındı.', 575, 650)] }, // continuation line, indented
+      { words: [w('[2]', 20, 50), w('Yet', 55, 90)] },
+      { words: [w('[2]', 500, 530), w('Fakat', 535, 600)] },
+      { words: [w('[3]', 20, 50), w('From', 55, 100)] },
+      { words: [w('[3]', 501, 531), w('Pırnal', 536, 600)] },
+    ]
+    expect(orderOcrLines(lines, 1000).split('\n').slice(4)).toEqual(['[1] Genç', 'diye yakındı.', '[2] Fakat', '[3] Pırnal'])
+  })
+
   it('does not split single-column pages with an occasional wide gap', () => {
     const lines: OcrLine[] = [{ words: [w('Chapter', 10, 120), w('One', 600, 680)] }]
     expect(orderOcrLines(lines, 1000)).toBe('Chapter One')

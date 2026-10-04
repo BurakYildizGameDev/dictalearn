@@ -15,9 +15,10 @@ const WIDE_GAP = 0.06
 /** Tolerance around the detected right-column start. */
 const COLUMN_TOLERANCE = 0.025
 
-function median(values: number[]): number {
+/** Lower quartile: the column starts at the left-most of the consistent starts (markers, indents). */
+function lowerQuartile(values: number[]): number {
   const sorted = [...values].sort((a, b) => a - b)
-  return sorted[Math.floor(sorted.length / 2)]
+  return sorted[Math.floor(sorted.length / 4)]
 }
 
 /**
@@ -25,16 +26,21 @@ function median(values: number[]): number {
  * column is full, the gutter can shrink to a normal word gap, so the position is what matters.
  */
 function rightColumnStart(lines: OcrWord[][], pageWidth: number): number | null {
-  const starts: number[] = []
+  const gapStarts: number[] = []
   for (const words of lines) {
     for (let i = 1; i < words.length; i++) {
       if (words[i].x0 - words[i - 1].x1 > pageWidth * WIDE_GAP && words[i].x0 >= pageWidth * 0.35) {
-        starts.push(words[i].x0)
+        gapStarts.push(words[i].x0)
         break
       }
     }
   }
-  return starts.length >= 2 ? median(starts) : null
+  if (gapStarts.length >= 2) return lowerQuartile(gapStarts)
+  // Engines that already return each column's lines separately: learn from line starts.
+  const lineStarts = lines.map((ws) => ws[0].x0).filter((x) => x >= pageWidth * 0.4)
+  const leftStarts = lines.filter((ws) => ws[0].x0 < pageWidth * 0.25).length
+  if (lineStarts.length >= Math.max(3, Math.floor(lines.length * 0.2)) && leftStarts >= 3) return lowerQuartile(lineStarts)
+  return null
 }
 
 /**
@@ -50,10 +56,9 @@ export function orderOcrLines(lines: OcrLine[], pageWidth: number): string {
   for (const words of wordLines) {
     let split = -1
     if (column !== null) {
-      split = words.findIndex(
-        (wd, i) => i > 0 && Math.abs(wd.x0 - column) <= pageWidth * COLUMN_TOLERANCE && wd.x0 > words[i - 1].x1
-      )
-      if (split === -1 && words[0].x0 >= column - pageWidth * COLUMN_TOLERANCE) split = 0
+      // Left-column text never reaches the gutter, so anything starting at/after it is the right column.
+      const boundary = column - pageWidth * COLUMN_TOLERANCE
+      split = words[0].x0 >= boundary ? 0 : words.findIndex((wd, i) => i > 0 && wd.x0 >= boundary && wd.x0 > words[i - 1].x1)
     }
     const leftPart = split === -1 ? words : words.slice(0, split)
     const rightPart = split === -1 ? [] : words.slice(split)

@@ -19,6 +19,16 @@ import androidx.compose.ui.unit.dp
 import com.dictalearn.app.data.audio.AndroidSpeechEngine
 import com.dictalearn.app.data.audio.MediaPlayerAudioEngine
 import com.dictalearn.app.data.audio.WordAudioSpeechEngine
+import com.dictalearn.app.data.audio.TtsSegmentAudioEngine
+import com.dictalearn.app.data.pdf.PdfPagesJobs
+import com.dictalearn.app.data.pdf.PdfPagesState
+import com.dictalearn.app.data.pdf.UserPdf
+import com.dictalearn.app.data.pdf.UserPdfStore
+import com.dictalearn.app.domain.audio.AudioEngine
+import com.dictalearn.app.domain.pdflesson.PdfLesson
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
+import kotlinx.coroutines.launch
 import com.dictalearn.app.data.mistakes.PersistentMistakeRepository
 import com.dictalearn.app.data.storage.SharedPrefsKeyValueStore
 import com.dictalearn.app.domain.library.CatalogBook
@@ -50,6 +60,8 @@ private sealed interface Screen {
     data object Editor : Screen
     data object CustomStudy : Screen
     data object Notebook : Screen
+    data class PdfLesson(val pdf: UserPdf) : Screen
+    data class PdfRead(val pdf: UserPdf) : Screen
 }
 
 private const val KEY_LAST_BOOK = "last_book"
@@ -69,6 +81,7 @@ class MainActivity : ComponentActivity() {
 
     private lateinit var audioEngine: MediaPlayerAudioEngine
     private lateinit var speechEngine: WordAudioSpeechEngine
+    private lateinit var ttsEngine: TtsSegmentAudioEngine
     private val translator by lazy { MlKitTranslator() }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -80,11 +93,14 @@ class MainActivity : ComponentActivity() {
         )
         audioEngine = MediaPlayerAudioEngine(this)
         speechEngine = WordAudioSpeechEngine(this, fallback = AndroidSpeechEngine(this))
+        ttsEngine = TtsSegmentAudioEngine(this)
 
         val prefs = SharedPrefsKeyValueStore(this)
         val progressStore = ProgressStore(prefs)
         val mistakeRepo = PersistentMistakeRepository(prefs)
         val availableBooks = LessonCatalog.onlyAvailable(assets.list("lessons")?.toSet().orEmpty())
+        val pdfStore = UserPdfStore(this, prefs)
+        val pagesJobs = PdfPagesJobs(this)
 
         setContent {
             DictaTheme {
@@ -98,6 +114,19 @@ class MainActivity : ComponentActivity() {
                 val audioStatus by audioEngine.status.collectAsState()
                 var showPdf by remember { mutableStateOf(false) }
                 var dictionary by remember { mutableStateOf<Dictionary?>(null) }
+                var userPdfs by remember { mutableStateOf(pdfStore.list()) }
+                var pagesState by remember { mutableStateOf<PdfPagesState?>(null) }
+                val ttsStatus by ttsEngine.status.collectAsState()
+                val scope = rememberCoroutineScope()
+
+                val pickPdf = rememberLauncherForActivityResult(ActivityResultContracts.OpenDocument()) { uri ->
+                    if (uri != null) {
+                        scope.launch {
+                            runCatching { withContext(Dispatchers.IO) { pdfStore.add(uri) } }
+                            userPdfs = pdfStore.list()
+                        }
+                    }
+                }
 
                 LaunchedEffect(Unit) {
                     dictionary = withContext(Dispatchers.IO) {
@@ -118,10 +147,15 @@ class MainActivity : ComponentActivity() {
                     )
                 }
 
-                fun newViewModel(lesson: Lesson, lessonKey: String?, startIndex: Int): StudySessionViewModel =
+                fun newViewModel(
+                    lesson: Lesson,
+                    lessonKey: String?,
+                    startIndex: Int,
+                    engine: AudioEngine = audioEngine
+                ): StudySessionViewModel =
                     StudySessionViewModel(
                         lesson = lesson,
-                        audioEngine = audioEngine,
+                        audioEngine = engine,
                         mistakeRepository = mistakeRepo,
                         autoPlay = prefs.getString(KEY_AUTOPLAY) == "true",
                         speechEngine = speechEngine,
@@ -144,6 +178,7 @@ class MainActivity : ComponentActivity() {
 
                 fun goToLibrary() {
                     audioEngine.pause()
+                    ttsEngine.pause()
                     speechEngine.stop()
                     showPdf = false
                     screen = Screen.Library
@@ -181,6 +216,51 @@ class MainActivity : ComponentActivity() {
                     }
                 }
 
+                // Lesson from a user PDF: pages are OCR'd in order; the lesson opens after the first 25
+                // pages and keeps growing while the rest are read in the background.
+                val pdfLesson = (screen as? Screen.PdfLesson)?.pdf
+                LaunchedEffect(pdfLesson, retryKey) {
+                    val pdf = pdfLesson ?: return@LaunchedEffect
+                    viewModel = null
+                    error = null
+                    pagesState = null
+                    audioEngine.pause()
+                    val key = "pdf_${pdf.id}"
+                    var lastCount = -1
+                    pagesJobs.state(pdf.id, pdfStore.file(pdf.id)).collect { state ->
+                        pagesState = state
+                        if (state.error != null) {
+                            error = state.error
+                            return@collect
+                        }
+                        val done = state.contiguousDone
+                        val finished = !state.running
+                        if (state.totalPages == 0 || (done < PdfLesson.firstBatchSize(state.totalPages) && !finished)) return@collect
+                        val sentences = withContext(Dispatchers.Default) {
+                            PdfLesson.extractSentences(state.texts.take(done).filterNotNull().joinToString("\n"))
+                        }
+                        if (sentences.size == lastCount) return@collect
+                        lastCount = sentences.size
+                        val vm = viewModel
+                        if (vm == null) {
+                            if (sentences.isEmpty()) {
+                                if (finished) error = "Bu PDF'te dikte için İngilizce cümle bulunamadı."
+                                return@collect
+                            }
+                            val lesson = PdfLesson.buildLesson(key, pdf.name, sentences)
+                            ttsEngine.setSegments(lesson.segments)
+                            val saved = progressStore.get(key)
+                            val start = if (saved != null && !saved.completed) saved.segmentIndex.coerceAtMost(sentences.size - 1) else 0
+                            viewModel = newViewModel(lesson, key, start, ttsEngine)
+                        } else {
+                            val merged = PdfLesson.mergeSentences(vm.lesson.segments.map { it.text }, sentences)
+                            val lesson = PdfLesson.buildLesson(key, pdf.name, merged)
+                            ttsEngine.setSegments(lesson.segments)
+                            vm.extendLesson(lesson)
+                        }
+                    }
+                }
+
                 // Persist user preferences whenever the session changes them.
                 viewModel?.let { vm ->
                     val speed by vm.speed.collectAsState()
@@ -206,8 +286,55 @@ class MainActivity : ComponentActivity() {
                             lastBookId = lastBookId,
                             onOpenBook = { screen = Screen.Study(it) },
                             onOpenEditor = { screen = Screen.Editor },
-                            onOpenNotebook = { screen = Screen.Notebook }
+                            onOpenNotebook = { screen = Screen.Notebook },
+                            userPdfs = userPdfs,
+                            onAddPdf = { pickPdf.launch(arrayOf("application/pdf")) },
+                            onStudyPdf = { screen = Screen.PdfLesson(it) },
+                            onReadPdf = { screen = Screen.PdfRead(it) },
+                            onDeletePdf = { pdf ->
+                                pagesJobs.cancel(pdf.id)
+                                pdfStore.remove(pdf.id)
+                                userPdfs = pdfStore.list()
+                            }
                         )
+
+                        is Screen.PdfRead -> PdfReaderScreen(
+                            assetPath = null,
+                            localFile = pdfStore.file(s.pdf.id),
+                            title = s.pdf.name,
+                            onBack = { goToLibrary() }
+                        )
+
+                        is Screen.PdfLesson -> {
+                            val vm = viewModel
+                            val pages = pagesState
+                            when {
+                                error != null -> Box(Modifier.systemBarsPadding()) { ErrorState(
+                                    message = error!!,
+                                    onRetry = { retryKey++ },
+                                    onBack = { goToLibrary() }
+                                ) }
+                                vm == null -> PdfLoadingState(pages)
+                                showPdf -> PdfReaderScreen(
+                                    assetPath = null,
+                                    localFile = pdfStore.file(s.pdf.id),
+                                    title = s.pdf.name,
+                                    onBack = { showPdf = false }
+                                )
+                                else -> StudySessionScreen(
+                                    viewModel = vm,
+                                    title = vm.lesson.title,
+                                    audioStatus = ttsStatus,
+                                    onPause = { ttsEngine.pause() },
+                                    onBack = { goToLibrary() },
+                                    onOpenPdf = {
+                                        ttsEngine.pause()
+                                        showPdf = true
+                                    },
+                                    banner = { PdfLessonBanner(pages) }
+                                )
+                            }
+                        }
 
                         Screen.Notebook -> NotebookScreen(
                             repository = mistakeRepo,
@@ -268,12 +395,14 @@ class MainActivity : ComponentActivity() {
         super.onStop()
         // Don't keep talking when the app goes to the background.
         audioEngine.pause()
+        ttsEngine.pause()
         speechEngine.stop()
     }
 
     override fun onDestroy() {
         super.onDestroy()
         audioEngine.dispose()
+        ttsEngine.dispose()
         speechEngine.dispose()
         translator.close()
     }
@@ -296,5 +425,48 @@ private fun ErrorState(message: String, onRetry: () -> Unit, onBack: () -> Unit)
             OutlinedButton(onClick = onBack) { Text("Kütüphane") }
             Button(onClick = onRetry) { Text("Yeniden dene") }
         }
+    }
+}
+
+@Composable
+private fun PdfLoadingState(pages: PdfPagesState?) {
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .systemBarsPadding()
+            .padding(32.dp),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        CircularProgressIndicator(color = Dicta.Accent)
+        Spacer(Modifier.height(16.dp))
+        val total = pages?.totalPages ?: 0
+        Text(
+            if (total == 0) "PDF açılıyor…"
+            else "Sayfalar okunuyor: ${pages!!.contiguousDone} / ${PdfLesson.firstBatchSize(total)}",
+            color = Dicta.TextPrimary
+        )
+        Spacer(Modifier.height(8.dp))
+        Text(
+            "Sayfalar metin tanıma (OCR) ile okunuyor. İlk ${PdfLesson.FIRST_BATCH_PAGES} sayfa bitince ders açılır, kalanı arka planda devam eder.",
+            color = Dicta.TextMuted
+        )
+    }
+}
+
+@Composable
+private fun PdfLessonBanner(pages: PdfPagesState?) {
+    if (pages == null) return
+    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+        if (pages.running && pages.totalPages > 0) {
+            Text(
+                "Arka planda okunuyor: ${pages.contiguousDone} / ${pages.totalPages} sayfa · yeni cümleler derse ekleniyor",
+                color = Dicta.Accent
+            )
+        }
+        Text(
+            "Bu ders PDF'ten metin tanıma (OCR) ile oluşturuldu; nadiren yanlış tanınan kelimeler olabilir.",
+            color = Dicta.TextMuted
+        )
     }
 }

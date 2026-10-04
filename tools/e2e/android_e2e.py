@@ -35,10 +35,12 @@ def dump() -> str:
 def nodes(xml: str):
     for m in re.finditer(r"<node [^>]*>", xml):
         n = m.group(0)
-        text = re.search(r'text="([^"]*)"', n).group(1)
-        desc = re.search(r'content-desc="([^"]*)"', n).group(1)
+        text = re.search(r' text="([^"]*)"', n)
+        desc = re.search(r'content-desc="([^"]*)"', n)
         b = re.search(r'bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"', n)
-        yield text, desc, tuple(int(x) for x in b.groups())
+        if not b:
+            continue
+        yield (text.group(1) if text else ""), (desc.group(1) if desc else ""), tuple(int(x) for x in b.groups())
 
 
 def find(label: str, timeout: float = 10.0, exact: bool = True):

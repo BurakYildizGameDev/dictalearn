@@ -317,4 +317,20 @@ class StudySessionViewModelTest {
         assertEquals(SessionState.DICTATING, viewModel.state.value)
         assertTrue(viewModel.records.isEmpty())
     }
+
+    @Test
+    fun extendLesson_appendsSegments_withoutResettingTheSession() {
+        viewModel.giveUp(); viewModel.skipCorrection(); viewModel.nextSegment()
+        assertEquals(1, viewModel.currentSegmentIndex.value)
+
+        val longer = lesson.copy(segments = lesson.segments + Segment(id = 3, startMs = 7000, endMs = 9000, text = "A third sentence."))
+        viewModel.extendLesson(longer)
+        assertEquals(3, viewModel.totalSegmentsFlow.value)
+        assertEquals(1, viewModel.currentSegmentIndex.value)
+        assertEquals(SessionState.DICTATING, viewModel.state.value)
+
+        // shorter or different lessons are ignored
+        viewModel.extendLesson(lesson)
+        assertEquals(3, viewModel.totalSegmentsFlow.value)
+    }
 }

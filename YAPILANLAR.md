@@ -296,6 +296,31 @@ Her kitap: **25 sayfa × 20 cümle = 500 cümle**, 26 sayfalık PDF, 200 hedef k
   - Önceden 3 kez tekrarlanan "Dinle" ve PDF butonları teke indirildi.
 - **F9.5 Mobil:** 390 px'de yatay taşma yok; Android'de klavye açılınca ayar çubuğu gizlenir.
 
+### ✅ Kendi PDF'inden Dikte Dersi ve OCR (2026-10-04)
+- **Kelime telaffuzu:** Türkçe Windows'ta tarayıcılar yalnızca "Microsoft Tolga (tr-TR)" sesini sunduğu için
+  İngilizce kelimeler Türkçe okunuyordu. Bunun yerine stüdyo sesli kelime paketi geldi:
+  - `tools/build_word_audio.py`: 15.155 kelime, en-US-ChristopherNeural, 26 harf dosyası, 55 MB.
+  - Web ve Android bu paketi kullanır; sistem sesi yalnızca yedektir ve asla İngilizce dışı bir ses seçilmez.
+- **PDF → ders:** Yüklenen PDF'in "Dikte" eylemiyle dersi oluşturulur.
+  - Cümle ayıklama numaralı paralel metni (`[n]`), başlıkları ve Türkçe metni ayırt eder.
+  - Dil tespiti İngilizce işlev kelimesi oranına dayanır; OCR Türkçe harfleri bozsa da çalışır.
+- **OCR:** Metin katmanı olmayan sayfalar okunur.
+  - Web: pdf.js ile render + Tesseract.js (`public/ocr`, çevrimdışı).
+  - Android: `PdfRenderer` + ML Kit metin tanıma.
+  - Sütun düzeni: sağ sütun başlangıcı sayfa bazında öğrenilir; OCR'ın bozduğu numaralar ("[s]", "(2]", "[8j") tanınır.
+- **İlerlemeli ders:** İlk 25 sayfa okununca ders açılır, kalan sayfalar arka planda devam eder.
+  - Yeni cümleler yalnızca sona eklenir, kayıtlı ilerleme bozulmaz.
+  - Sayfalar önbelleğe alınır (web: IndexedDB, Android: dosya).
+- **Ölçüm (42 sayfalık taranmış test PDF'i):**
+
+  | | İlk 25 sayfa | Ders açıldı | Tüm PDF | Tekrar açılış |
+  |---|---|---|---|---|
+  | Web | ~97 sn | 451 cümle | 787 cümle | anında |
+  | Android | ~51 sn | 461 cümle | 773 cümle | — |
+
+  Beklenen değerler: ~460 ve ~800 cümle.
+- **Android PDF ekleme:** Sistem dosya seçicisiyle PDF eklenir. Kütüphanede "Yüklediğin PDF'ler" bölümünde Dikte / Oku / Sil var; cümleler TTS ile okunur.
+
 ### ✅ Repo Bakımı — Git Geçmişi Temizliği ve Git LFS
 - Geçmiş değiştirilmeden önce tam yedek alındı: `../DictaLearn-git-backup-2026-10-04.git`.
 - `git filter-repo` ile 2.3 GB WAV tüm geçmişten silindi. WAV'lar diskte duruyor, `.gitignore`'da.
