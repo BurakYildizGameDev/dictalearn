@@ -5,12 +5,13 @@ import { WebAudioEngine } from './audio/web-audio-engine'
 import { SpeechSegmentEngine } from './audio/speech-segment-engine'
 import { wordAudio } from './audio/word-audio'
 import { WordSpeechEngine } from './audio/speech-tts'
-import { extractPdfText } from './audio/pdf-text'
+import { getPdfPagesJob, cancelPdfPagesJob, contiguousDone, type PdfPagesState } from './ocr/pdf-pages-job'
 import { extractSentences, buildPdfLesson } from './domain/pdf-lesson/pdf-lesson'
+import { firstBatchSize, mergeSentences } from './domain/pdf-lesson/progressive'
 import { LocalMistakeRepository } from './domain/mistakes/local-mistake-repository'
 import { CATALOG, findBook, lessonAssetUrls } from './domain/library/catalog'
 import { ProgressStore, type KeyValueStorage } from './domain/progress/progress-store'
-import { listAllCustomPdfs, saveCustomPdf, removeCustomPdf, asPdfBlob, getCustomPdf } from './domain/storage/pdf-storage'
+import { listAllCustomPdfs, saveCustomPdf, removeCustomPdf, asPdfBlob, getCustomPdf, removePdfPages } from './domain/storage/pdf-storage'
 import { useHashRoute } from './state/route'
 import { StudySessionView } from './components/StudySessionView'
 import { LessonEditorView } from './components/LessonEditorView'
@@ -56,6 +57,8 @@ interface LoadedLesson {
   engine: 'audio' | 'speech'
   title?: string
   pdfUrl?: string
+  /** Some pages were read with OCR (recognition mistakes are possible). */
+  ocr?: boolean
 }
 
 const pdfLessonId = (pdfId: string) => `pdf_${pdfId}`
@@ -79,6 +82,7 @@ export function App() {
   const [viewerPdf, setViewerPdf] = useState<UploadedPdf | null>(null)
   const isWide = useMediaQuery('(min-width: 1024px)')
   const [hasEnglishVoice, setHasEnglishVoice] = useState(true)
+  const [pagesJobState, setPagesJob] = useState<PdfPagesState | null>(null)
 
   useEffect(() => {
     void WordSpeechEngine.hasEnglishVoice().then(setHasEnglishVoice)
@@ -148,40 +152,80 @@ export function App() {
     }
   }, [studyBookId, retryKey, audioEngine, progressStore, navigate])
 
-  // Build a dictation lesson from an uploaded PDF: text layer -> English sentences -> spoken segments.
+  // Build a dictation lesson from an uploaded PDF. Pages are read in order (text layer or OCR for
+  // scanned pages); the lesson opens after the first 25 pages and grows while the rest are processed
+  // in the background. New sentences are only appended, so saved progress stays valid.
   const pdfId = route.name === 'pdfLesson' ? route.pdfId : null
   useEffect(() => {
     if (!pdfId) return
     let cancelled = false
+    let unsubscribe: (() => void) | null = null
     const id = pdfLessonId(pdfId)
     audioEngine.pause()
+
     ;(async () => {
-      try {
-        const stored = await getCustomPdf(pdfId)
-        if (!stored) throw new Error('PDF bulunamadı. Kütüphaneden yeniden ekleyebilirsin.')
-        const sentences = extractSentences(await extractPdfText(stored.blob))
-        if (sentences.length === 0) {
-          throw new Error('Bu PDF’te dikte için İngilizce cümle bulunamadı (taranmış görüntü ya da Türkçe metin olabilir).')
-        }
-        if (cancelled) return
-        const lesson = buildPdfLesson(id, stored.name, sentences)
-        speechEngine.setSegments(lesson.segments)
-        const saved = progressStore.get(id)
-        setLoaded({
-          id,
-          lesson,
-          startIndex: saved && !saved.completed ? Math.min(saved.segmentIndex, sentences.length - 1) : 0,
-          engine: 'speech',
-          title: lesson.title,
-          pdfUrl: URL.createObjectURL(asPdfBlob(stored.blob)),
-        })
-      } catch (err: unknown) {
-        if (cancelled) return
-        setLoadError({ id, message: err instanceof Error ? err.message : 'PDF işlenemedi.' })
+      const stored = await getCustomPdf(pdfId)
+      if (cancelled) return
+      if (!stored) {
+        setLoadError({ id, message: 'PDF bulunamadı. Kütüphaneden yeniden ekleyebilirsin.' })
+        return
       }
+      const pdfUrl = URL.createObjectURL(asPdfBlob(stored.blob))
+      let lastCount = -1
+      unsubscribe = getPdfPagesJob(pdfId, stored.blob).subscribe((state) => {
+        if (cancelled) return
+        setPagesJob(state)
+        if (state.error) {
+          setLoadError({ id, message: state.error })
+          return
+        }
+        const done = contiguousDone(state)
+        const finished = !state.running
+        if (state.totalPages === 0 || (done < firstBatchSize(state.totalPages) && !finished)) return
+
+        const text = state.texts.slice(0, done).join('\n')
+        const sentences = extractSentences(text)
+        if (sentences.length === lastCount) return
+        lastCount = sentences.length
+        const usedOcr = state.ocr.some(Boolean)
+
+        setLoaded((prev) => {
+          if (prev?.id === id) {
+            const merged = mergeSentences(prev.lesson.segments.map((seg) => seg.text), sentences)
+            if (merged.length === prev.lesson.segments.length) return prev
+            const lesson = buildPdfLesson(id, stored.name, merged)
+            speechEngine.setSegments(lesson.segments)
+            return { ...prev, lesson, ocr: usedOcr }
+          }
+          if (sentences.length === 0) return prev
+          const lesson = buildPdfLesson(id, stored.name, sentences)
+          speechEngine.setSegments(lesson.segments)
+          const saved = progressStore.get(id)
+          return {
+            id,
+            lesson,
+            startIndex: saved && !saved.completed ? Math.min(saved.segmentIndex, sentences.length - 1) : 0,
+            engine: 'speech',
+            title: lesson.title,
+            pdfUrl,
+            ocr: usedOcr,
+          }
+        })
+
+        if (sentences.length === 0 && finished) {
+          setLoadError({
+            id,
+            message: usedOcr
+              ? 'Sayfalar tarandı ama İngilizce cümle bulunamadı (görüntü kalitesi düşük ya da metin İngilizce değil).'
+              : 'Bu PDF’te dikte için İngilizce cümle bulunamadı.',
+          })
+        }
+      })
     })()
+
     return () => {
       cancelled = true
+      unsubscribe?.()
     }
   }, [pdfId, retryKey, audioEngine, speechEngine, progressStore])
 
@@ -198,6 +242,8 @@ export function App() {
     if (route.name === 'custom' && loaded?.id !== CUSTOM_LESSON_ID) navigate({ name: 'library' })
   }, [route.name, loaded, navigate])
 
+  // Progress of the PDF currently shown (an older PDF's job may still report in the background).
+  const pagesJob = pagesJobState && pagesJobState.pdfId === pdfId ? pagesJobState : null
   const targetId = studyBookId ?? (pdfId ? pdfLessonId(pdfId) : null)
   const error = targetId && loadError?.id === targetId ? loadError.message : null
   const loadingId =
@@ -254,6 +300,8 @@ export function App() {
   }
 
   const removeUploadedPdf = async (pdf: UploadedPdf) => {
+    cancelPdfPagesJob(pdf.id)
+    void removePdfPages(pdf.id)
     setUploadedPdfs((prev) => prev.filter((p) => p.id !== pdf.id))
     URL.revokeObjectURL(pdf.pdfUrl)
     try {
@@ -350,8 +398,18 @@ export function App() {
             <div className="mx-auto space-y-4 py-24 text-center" role="status">
               <div className="mx-auto h-8 w-8 animate-spin rounded-full border-2 border-indigo-400 border-t-transparent" />
               <p className="text-sm text-zinc-400">
-                {route.name === 'pdfLesson' ? 'PDF okunuyor ve cümlelere ayrılıyor…' : 'Ders ve ses dosyası yükleniyor…'}
+                {route.name !== 'pdfLesson'
+                  ? 'Ders ve ses dosyası yükleniyor…'
+                  : pagesJob && pagesJob.totalPages > 0
+                    ? `Sayfalar okunuyor: ${contiguousDone(pagesJob)} / ${firstBatchSize(pagesJob.totalPages)}`
+                    : 'PDF açılıyor…'}
               </p>
+              {route.name === 'pdfLesson' && pagesJob?.ocr.some(Boolean) && (
+                <p className="max-w-sm text-xs text-zinc-500">
+                  Resimli sayfalar metin tanıma (OCR) ile okunuyor; sayfa başına birkaç saniye sürebilir. İlk{' '}
+                  {firstBatchSize(pagesJob.totalPages)} sayfa bitince ders açılır, kalanı arka planda devam eder.
+                </p>
+              )}
             </div>
           )}
 
@@ -378,6 +436,25 @@ export function App() {
                   </Button>
                 )}
               </div>
+            </div>
+          )}
+
+          {showStudy && loaded?.engine === 'speech' && (pagesJob?.running || loaded.ocr) && (
+            <div className="mx-auto mt-4 w-full max-w-3xl space-y-2 px-4">
+              {pagesJob?.running && pagesJob.totalPages > 0 && (
+                <div className="flex items-center gap-3 rounded-xl border border-indigo-400/20 bg-indigo-400/[0.06] px-4 py-2.5 text-xs text-indigo-100">
+                  <span className="h-3 w-3 shrink-0 animate-spin rounded-full border-2 border-indigo-300 border-t-transparent" />
+                  <span>
+                    Arka planda okunuyor: {contiguousDone(pagesJob)} / {pagesJob.totalPages} sayfa · yeni cümleler derse
+                    ekleniyor ({loaded.lesson.segments.length} cümle).
+                  </span>
+                </div>
+              )}
+              {loaded.ocr && (
+                <p className="rounded-xl border border-white/10 bg-white/[0.03] px-4 py-2.5 text-xs text-zinc-400">
+                  Bu dersin bazı sayfaları resimden metin tanıma (OCR) ile okundu; nadiren yanlış tanınan kelimeler olabilir.
+                </p>
+              )}
             </div>
           )}
 

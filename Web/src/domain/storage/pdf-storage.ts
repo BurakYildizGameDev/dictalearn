@@ -15,7 +15,8 @@ export function asPdfBlob(blob: Blob): Blob {
 
 const DB_NAME = 'DictaLearnPDFDB'
 const STORE_NAME = 'custom_pdfs'
-const DB_VERSION = 1
+const PAGES_STORE = 'pdf_pages'
+const DB_VERSION = 2
 
 function openDB(): Promise<IDBDatabase> {
   return new Promise((resolve, reject) => {
@@ -27,6 +28,9 @@ function openDB(): Promise<IDBDatabase> {
       const db = request.result
       if (!db.objectStoreNames.contains(STORE_NAME)) {
         db.createObjectStore(STORE_NAME)
+      }
+      if (!db.objectStoreNames.contains(PAGES_STORE)) {
+        db.createObjectStore(PAGES_STORE)
       }
     }
     request.onsuccess = () => resolve(request.result)
@@ -120,4 +124,40 @@ export async function listAllCustomPdfs(): Promise<StoredPdfRecord[]> {
   } catch {
     return []
   }
+}
+
+/** Extracted text per page (text layer or OCR), so a PDF is only scanned once. */
+export interface StoredPdfPages {
+  /** Bumped when page extraction changes, so stale caches are re-processed. */
+  version?: number
+  totalPages: number
+  /** Index = page number - 1; null = not processed yet. */
+  texts: Array<string | null>
+  ocr: boolean[]
+}
+
+function pagesRequest<T>(mode: IDBTransactionMode, run: (store: IDBObjectStore) => IDBRequest<T>): Promise<T | null> {
+  return openDB()
+    .then(
+      (db) =>
+        new Promise<T | null>((resolve, reject) => {
+          const tx = db.transaction(PAGES_STORE, mode)
+          const request = run(tx.objectStore(PAGES_STORE))
+          request.onsuccess = () => resolve((request.result as T) ?? null)
+          request.onerror = () => reject(request.error)
+        })
+    )
+    .catch(() => null)
+}
+
+export async function getPdfPages(id: string): Promise<StoredPdfPages | null> {
+  return pagesRequest<StoredPdfPages>('readonly', (store) => store.get(id))
+}
+
+export async function savePdfPages(id: string, pages: StoredPdfPages): Promise<void> {
+  await pagesRequest('readwrite', (store) => store.put(pages, id))
+}
+
+export async function removePdfPages(id: string): Promise<void> {
+  await pagesRequest('readwrite', (store) => store.delete(id))
 }

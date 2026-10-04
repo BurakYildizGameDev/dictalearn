@@ -2,6 +2,7 @@
 // the speech engine, so segment timings are synthetic placeholders).
 
 import type { Lesson } from '../lessons/types'
+import { isProbablyEnglish } from './ocr-layout'
 
 /** Synthetic slot per segment; the speech engine maps start_ms back to the sentence. */
 export const SYNTHETIC_SEGMENT_MS = 10_000
@@ -22,7 +23,9 @@ function looksLikeEnglish(s: string): boolean {
   if (TURKISH_CHARS.test(s)) return false
   if (!/[a-z]/.test(s)) return false // all-caps headers, numbers
   const letters = s.replace(/[^A-Za-z]/g, '').length
-  return letters / s.replace(/\s/g, '').length > 0.6
+  if (letters / s.replace(/\s/g, '').length <= 0.6) return false
+  // Catches Turkish without its special letters (e.g. after OCR with an English model).
+  return isProbablyEnglish(s)
 }
 
 function normalizeText(text: string): string {
